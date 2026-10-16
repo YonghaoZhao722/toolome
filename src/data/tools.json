@@ -5375,7 +5375,7 @@
     "dateSource": "https://arxiv.org/abs/2503.00710",
     "specs": {
       "task": "Backbone generation",
-      "weights": "Yes",
+      "weights": "Yes (NVIDIA non-commercial)",
       "stars": 280,
       "interface": "Package",
       "starsChecked": "2026-10-16",
