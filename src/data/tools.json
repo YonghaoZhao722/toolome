@@ -1169,7 +1169,7 @@
       "modalities": "Protein, nucleic acid, small molecule, metal, covalent modifications",
       "stars": 826,
       "interface": "Docker",
-      "msa": "Yes (UniRef30/BFD MSA + templates)",
+      "msa": "Yes (UniRef30 etc. for MSA + templates)",
       "weights": "Yes (RFAA_paper_weights.pt)"
     },
     "specsSource": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
