@@ -7,7 +7,7 @@
   "github": "https://github.com/bowang-lab/scGPT",
   "paper": "https://www.nature.com/articles/s41592-024-02201-0",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Generative pretrained transformer foundation model for single-cell multi-omics.",
   "tags": [
    "foundation-model",
@@ -26,7 +26,7 @@
   "url": "https://huggingface.co/ctheodoris/Geneformer",
   "paper": "https://www.nature.com/articles/s41586-023-06139-9",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Transformer pretrained on ~30M single-cell transcriptomes for network biology predictions.",
   "tags": [
    "foundation-model",
@@ -45,7 +45,7 @@
   "github": "https://github.com/scverse/scvi-tools",
   "paper": "https://www.nature.com/articles/s41587-021-01206-w",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Probabilistic deep generative models for single-cell omics (scVI, totalVI, scANVI...).",
   "tags": [
    "vae",
@@ -65,7 +65,7 @@
   "github": "https://github.com/Teichlab/celltypist",
   "paper": "https://www.science.org/doi/10.1126/science.abl5197",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Automated cell type annotation with logistic regression models trained on curated atlases.",
   "tags": [
    "annotation",
@@ -84,7 +84,7 @@
   "github": "https://github.com/scverse/scanpy",
   "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1382-0",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Scalable Python toolkit for single-cell gene expression analysis.",
   "tags": [
    "python",
@@ -104,7 +104,7 @@
   "github": "https://github.com/satijalab/seurat",
   "paper": "https://www.nature.com/articles/s41587-023-01767-y",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "R toolkit for single-cell genomics, integration and multimodal analysis.",
   "tags": [
    "r",
@@ -124,7 +124,7 @@
   "github": "https://github.com/biomap-research/scFoundation",
   "paper": "https://www.nature.com/articles/s41592-024-02305-7",
   "license": "Custom",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "100M-parameter foundation model trained on 50M human single-cell transcriptomes.",
   "tags": [
    "foundation-model"
@@ -142,7 +142,7 @@
   "github": "https://github.com/snap-stanford/UCE",
   "paper": "https://www.biorxiv.org/content/10.1101/2023.11.28.568918",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Cross-species zero-shot universal cell embedding foundation model.",
   "tags": [
    "foundation-model",
@@ -161,7 +161,7 @@
   "github": "https://github.com/theislab/cellrank",
   "paper": "https://www.nature.com/articles/s41592-021-01346-6",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Cell fate mapping using Markov chains on single-cell data.",
   "tags": [
    "trajectory",
@@ -180,7 +180,7 @@
   "github": "https://github.com/theislab/scvelo",
   "paper": "https://www.nature.com/articles/s41587-020-0591-3",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "RNA velocity estimation with dynamical modeling.",
   "tags": [
    "velocity",
@@ -199,7 +199,7 @@
   "github": "https://github.com/scverse/muon",
   "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02577-8",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Multimodal omics framework for single-cell multi-omics in Python.",
   "tags": [
    "multimodal",
@@ -218,7 +218,7 @@
   "github": "https://github.com/GreenleafLab/ArchR",
   "paper": "https://www.nature.com/articles/s41588-021-00790-6",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Scalable single-cell chromatin accessibility (scATAC-seq) analysis in R.",
   "tags": [
    "atac",
@@ -237,7 +237,7 @@
   "github": "https://github.com/morris-lab/CellOracle",
   "paper": "https://www.nature.com/articles/s41586-022-05688-9",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "In silico gene perturbation via GRN inference from single-cell multi-omics.",
   "tags": [
    "grn",
@@ -256,7 +256,7 @@
   "github": "https://github.com/snap-stanford/GEARS",
   "paper": "https://www.nature.com/articles/s41587-023-01905-6",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Graph-based prediction of transcriptional outcomes of genetic perturbations.",
   "tags": [
    "perturbation",
@@ -275,7 +275,7 @@
   "github": "https://github.com/immunogenomics/harmony",
   "paper": "https://www.nature.com/articles/s41592-019-0619-0",
   "license": "GPL-3.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Fast, sensitive batch integration of single-cell data.",
   "tags": [
    "integration",
@@ -294,7 +294,7 @@
   "github": "https://github.com/broadinstitute/Tangram",
   "paper": "https://www.nature.com/articles/s41592-021-01264-7",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Maps single-cell profiles onto spatial data with deep learning.",
   "tags": [
    "mapping",
@@ -313,7 +313,7 @@
   "github": "https://github.com/raphael-group/paste",
   "paper": "https://www.nature.com/articles/s41592-022-01459-6",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Optimal-transport alignment and integration of spatial transcriptomics slices.",
   "tags": [
    "optimal-transport",
@@ -332,7 +332,7 @@
   "github": "https://github.com/theislab/moscot",
   "paper": "https://www.nature.com/articles/s41586-024-08453-2",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Multi-omics single-cell optimal transport for space and time mapping.",
   "tags": [
    "optimal-transport",
@@ -351,7 +351,7 @@
   "github": "https://github.com/BayraktarLab/cell2location",
   "paper": "https://www.nature.com/articles/s41587-021-01139-4",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Bayesian mapping of fine-grained cell types in spatial transcriptomics.",
   "tags": [
    "deconvolution",
@@ -370,7 +370,7 @@
   "github": "https://github.com/scverse/squidpy",
   "paper": "https://www.nature.com/articles/s41592-021-01358-2",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Spatial single-cell analysis toolkit in the scverse ecosystem.",
   "tags": [
    "python",
@@ -390,7 +390,7 @@
   "github": "https://github.com/scverse/spatialdata",
   "paper": "https://www.nature.com/articles/s41592-024-02212-x",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Unified data framework for spatial omics technologies.",
   "tags": [
    "data-format",
@@ -409,7 +409,7 @@
   "github": "https://github.com/QIFEIDKN/STAGATE",
   "paper": "https://www.nature.com/articles/s41467-022-29439-6",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Graph attention autoencoder for spatial domain identification.",
   "tags": [
    "domains",
@@ -428,7 +428,7 @@
   "github": "https://github.com/JinmiaoChenLab/GraphST",
   "paper": "https://www.nature.com/articles/s41467-023-36796-3",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Graph self-supervised contrastive learning for spatial transcriptomics.",
   "tags": [
    "contrastive",
@@ -447,7 +447,7 @@
   "github": "https://github.com/edward130603/BayesSpace",
   "paper": "https://www.nature.com/articles/s41587-021-00935-2",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Bayesian clustering and resolution enhancement of spatial transcriptomics.",
   "tags": [
    "clustering",
@@ -466,7 +466,7 @@
   "github": "https://github.com/dmcable/spacexr",
   "paper": "https://www.nature.com/articles/s41587-021-00830-w",
   "license": "GPL-3.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Robust cell type decomposition for spatial transcriptomics.",
   "tags": [
    "deconvolution",
@@ -485,7 +485,7 @@
   "github": "https://github.com/drieslab/Giotto",
   "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02286-2",
   "license": "Custom",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Comprehensive R toolbox for spatial data analysis and visualization.",
   "tags": [
    "r",
@@ -504,7 +504,7 @@
   "github": "https://github.com/theislab/nicheformer",
   "paper": "https://www.biorxiv.org/content/10.1101/2024.04.15.589472",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Foundation model pretrained on dissociated and spatial single-cell data.",
   "tags": [
    "foundation-model"
@@ -557,7 +557,7 @@
   "github": "https://github.com/RosettaCommons/RFdiffusion",
   "paper": "https://www.nature.com/articles/s41586-023-06415-8",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Diffusion model for de novo protein backbone design and binder design.",
   "tags": [
    "design",
@@ -576,7 +576,7 @@
   "github": "https://github.com/dauparas/ProteinMPNN",
   "paper": "https://www.science.org/doi/10.1126/science.add2187",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Deep-learning inverse folding: designs sequences for given backbones.",
   "tags": [
    "inverse-folding",
@@ -614,7 +614,7 @@
   "github": "https://github.com/facebookresearch/esm",
   "paper": "https://www.science.org/doi/10.1126/science.ade2574",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Protein language models and single-sequence structure prediction.",
   "tags": [
    "plm",
@@ -633,7 +633,7 @@
   "github": "https://github.com/jwohlwend/boltz",
   "paper": "https://www.biorxiv.org/content/10.1101/2024.11.19.624167",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Open biomolecular interaction model with structure and affinity prediction.",
   "tags": [
    "structure",
@@ -652,7 +652,7 @@
   "github": "https://github.com/chaidiscovery/chai-lab",
   "paper": "https://www.biorxiv.org/content/10.1101/2024.10.10.615955",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Multimodal foundation model for molecular structure prediction.",
   "tags": [
    "structure",
@@ -671,7 +671,7 @@
   "github": "https://github.com/aqlaboratory/openfold",
   "paper": "https://www.nature.com/articles/s41592-024-02272-z",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Trainable open-source reproduction of AlphaFold2 in PyTorch.",
   "tags": [
    "structure",
@@ -690,7 +690,7 @@
   "github": "https://github.com/sokrypton/ColabFold",
   "paper": "https://www.nature.com/articles/s41592-022-01488-1",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Fast, accessible protein folding with MMseqs2 + AlphaFold in Colab.",
   "tags": [
    "structure",
@@ -709,7 +709,7 @@
   "github": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom",
   "paper": "https://www.science.org/doi/10.1126/science.adl2528",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Generalized biomolecular modeling for proteins, nucleic acids, small molecules.",
   "tags": [
    "structure"
@@ -727,7 +727,7 @@
   "github": "https://github.com/martinpacesa/BindCraft",
   "paper": "https://www.nature.com/articles/s41586-025-09429-6",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "One-shot de novo binder design pipeline with AF2 hallucination.",
   "tags": [
    "binder",
@@ -746,7 +746,7 @@
   "github": "https://github.com/steineggerlab/foldseek",
   "paper": "https://www.nature.com/articles/s41587-023-01773-0",
   "license": "GPL-3.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Fast and accurate protein structure search.",
   "tags": [
    "search",
@@ -765,7 +765,7 @@
   "github": "https://github.com/bytedance/Protenix",
   "paper": "https://www.biorxiv.org/content/10.1101/2025.01.08.631967",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Trainable PyTorch reproduction of AlphaFold 3 by ByteDance.",
   "tags": [
    "structure"
@@ -798,7 +798,7 @@
   "github": "https://github.com/ArcInstitute/evo2",
   "paper": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Genome language model across all domains of life with 1M-token context.",
   "tags": [
    "dna-lm",
@@ -836,7 +836,7 @@
   "github": "https://github.com/google-deepmind/deepmind-research",
   "paper": "https://www.nature.com/articles/s41592-021-01252-x",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Predicts gene expression from sequence with long-range interactions.",
   "tags": [
    "expression",
@@ -892,7 +892,7 @@
   "github": "https://github.com/HazyResearch/hyena-dna",
   "paper": "https://arxiv.org/abs/2306.15794",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Long-range genomic foundation model at single-nucleotide resolution.",
   "tags": [
    "dna-lm",
@@ -911,7 +911,7 @@
   "github": "https://github.com/MAGICS-LAB/DNABERT_2",
   "paper": "https://arxiv.org/abs/2306.15006",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Efficient multi-species genome foundation model.",
   "tags": [
    "dna-lm"
@@ -929,7 +929,7 @@
   "github": "https://github.com/calico/borzoi",
   "paper": "https://www.nature.com/articles/s41588-024-02053-6",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Predicts RNA-seq coverage from DNA sequence.",
   "tags": [
    "expression",
@@ -948,7 +948,7 @@
   "github": "https://github.com/google-deepmind/alphamissense",
   "paper": "https://www.science.org/doi/10.1126/science.adg7492",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Proteome-wide pathogenicity predictions for missense variants.",
   "tags": [
    "variant-effect"
@@ -966,7 +966,7 @@
   "github": "https://github.com/google/deepvariant",
   "paper": "https://www.nature.com/articles/nbt.4235",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Deep learning variant caller for NGS data.",
   "tags": [
    "variant-calling"
@@ -984,7 +984,7 @@
   "github": "https://github.com/kuleshov-group/caduceus",
   "paper": "https://arxiv.org/abs/2403.03234",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Bidirectional, reverse-complement-equivariant DNA language model.",
   "tags": [
    "dna-lm",
@@ -1002,7 +1002,7 @@
   "url": "https://www.rdkit.org",
   "github": "https://github.com/rdkit/rdkit",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Open-source cheminformatics and machine learning toolkit.",
   "tags": [
    "cheminformatics"
@@ -1019,7 +1019,7 @@
   "url": "https://deepchem.io",
   "github": "https://github.com/deepchem/deepchem",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Deep learning toolkit for drug discovery, materials and biology.",
   "tags": [
    "ml",
@@ -1038,7 +1038,7 @@
   "github": "https://github.com/gcorso/DiffDock",
   "paper": "https://arxiv.org/abs/2210.01776",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Diffusion generative model for molecular docking.",
   "tags": [
    "docking",
@@ -1057,7 +1057,7 @@
   "github": "https://github.com/MolecularAI/REINVENT4",
   "paper": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00812-5",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "AstraZeneca's generative molecular design framework.",
   "tags": [
    "generative",
@@ -1076,7 +1076,7 @@
   "github": "https://github.com/chemprop/chemprop",
   "paper": "https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Message passing neural networks for molecular property prediction.",
   "tags": [
    "property-prediction",
@@ -1095,7 +1095,7 @@
   "github": "https://github.com/DeepGraphLearning/torchdrug",
   "paper": "https://arxiv.org/abs/2202.08320",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "PyTorch platform for drug discovery ML.",
   "tags": [
    "pytorch",
@@ -1114,7 +1114,7 @@
   "github": "https://github.com/ccsb-scripps/AutoDock-Vina",
   "paper": "https://pubs.acs.org/doi/10.1021/acs.jcim.1c00203",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Fast, widely used open-source molecular docking engine.",
   "tags": [
    "docking"
@@ -1132,7 +1132,7 @@
   "github": "https://github.com/openmm/openmm",
   "paper": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005659",
   "license": "MIT/LGPL",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "High-performance molecular dynamics toolkit with GPU support.",
   "tags": [
    "molecular-dynamics"
@@ -1183,7 +1183,7 @@
   "github": "https://github.com/snap-stanford/Biomni",
   "paper": "https://www.biorxiv.org/content/10.1101/2025.05.30.656746",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "General-purpose biomedical AI agent with 150+ tools and databases.",
   "tags": [
    "agent",
@@ -1217,7 +1217,7 @@
   "github": "https://github.com/Future-House/paper-qa",
   "paper": "https://arxiv.org/abs/2409.13740",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "High-accuracy RAG agent over scientific papers.",
   "tags": [
    "rag",
@@ -1236,7 +1236,7 @@
   "github": "https://github.com/biocypher/biochatter",
   "paper": "https://www.nature.com/articles/s41587-024-02534-3",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Framework for LLM-based conversational biomedical research.",
   "tags": [
    "llm",
@@ -1403,7 +1403,7 @@
   "github": "https://github.com/MouseLand/cellpose",
   "paper": "https://www.nature.com/articles/s41592-020-01018-x",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Generalist deep learning model for cellular segmentation.",
   "tags": [
    "segmentation"
@@ -1421,7 +1421,7 @@
   "github": "https://github.com/stardist/stardist",
   "paper": "https://arxiv.org/abs/1806.03535",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Star-convex object detection for nuclei segmentation.",
   "tags": [
    "segmentation",
@@ -1439,7 +1439,7 @@
   "url": "https://napari.org",
   "github": "https://github.com/napari/napari",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Fast, interactive multi-dimensional image viewer for Python.",
   "tags": [
    "viewer",
@@ -1458,7 +1458,7 @@
   "github": "https://github.com/qupath/qupath",
   "paper": "https://www.nature.com/articles/s41598-017-17204-5",
   "license": "GPL-3.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Open-source software for digital pathology and whole slide image analysis.",
   "tags": [
    "pathology",
@@ -1515,7 +1515,7 @@
   "github": "https://github.com/prov-gigapath/prov-gigapath",
   "paper": "https://www.nature.com/articles/s41586-024-07441-w",
   "license": "Apache-2.0",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Whole-slide digital pathology foundation model.",
   "tags": [
    "pathology",
@@ -1533,7 +1533,7 @@
   "url": "https://cellprofiler.org",
   "github": "https://github.com/CellProfiler/CellProfiler",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Image analysis software for high-throughput cell phenotyping.",
   "tags": [
    "high-content"
@@ -1551,7 +1551,7 @@
   "github": "https://github.com/computational-cell-analytics/micro-sam",
   "paper": "https://www.nature.com/articles/s41592-024-02580-4",
   "license": "MIT",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Segment Anything for microscopy.",
   "tags": [
    "segmentation",
@@ -1720,7 +1720,7 @@
   "github": "https://github.com/maabuu/posebusters",
   "paper": "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d3sc04185a",
   "license": "BSD-3-Clause",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Plausibility checks and benchmark for docking/structure poses.",
   "tags": [
    "benchmark",
@@ -1785,7 +1785,7 @@
   "url": "https://arcinstitute.org/news/pie",
   "paper": "https://doi.org/10.64898/2026.10.02.756297",
   "license": "See repo",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Virtual-cell model using curated biological knowledge to predict perturbation responses in unseen contexts.",
   "tags": [
    "virtual-cell",
@@ -1838,7 +1838,7 @@
   "category": "genomics",
   "url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
   "license": "See model card",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "1.2B DNA model that annotates protein-coding genes across eukaryotes; ships a 48K-assembly annotation database.",
   "tags": [
    "genome-annotation",
@@ -1857,7 +1857,7 @@
   "github": "https://github.com/jleechung/prompteina",
   "paper": "https://arxiv.org/abs/2610.13917",
   "license": "Apache-2.0 code; NVIDIA Open Model License weights",
-  "pricing": "OSS",
+  "pricing": "Open source",
   "description": "Text-to-structure all-atom protein design: generate monomers and binders from natural-language prompts.",
   "tags": [
    "text-conditioned",

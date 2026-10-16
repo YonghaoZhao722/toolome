@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro'; import Sort from '../../components/
 import { tools, CATS, INTRO, u } from '../../lib/site.js';
 export function getStaticPaths(){ return Object.keys(CATS).map(c=>({params:{cat:c}})); }
 const { cat } = Astro.params; const list = tools.filter(t=>t.category===cat); const n=CATS[cat][0];
-const oss=list.filter(t=>t.pricing==='OSS').length;
+const oss=list.filter(t=>t.pricing==='Open source').length;
 const jsonld={"@context":"https://schema.org","@type":"ItemList",name:`Best AI tools for ${n} (2026)`,numberOfItems:list.length,itemListElement:list.map((t,i)=>({"@type":"ListItem",position:i+1,name:t.name,url:new URL(u('/tools/'+t.slug+'/'),Astro.site).href}))};
 ---
 <Base title={`Best AI tools for ${n} (2026) | Toolome`} description={`${list.length} hand-verified AI tools for ${n.toLowerCase()} in 2026, with license, paper and pricing. ${INTRO[cat]}`} jsonld={jsonld}>
