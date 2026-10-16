@@ -1,7 +1,5 @@
-<div class="sortbar"><label for="sort" class="mut">Sort</label>
-<select id="sort" class="pill sortsel"><option value="new" selected>Newest first</option><option value="old">Oldest first</option><option value="az">Name A–Z</option></select>
-<span class="mut" style="font-size:12px">Dated by release date, else first public paper, preprint or release date; undated tools listed after, A–Z.</span></div>
-<style>.sortbar{display:flex;align-items:center;gap:8px;margin:12px 0 4px;flex-wrap:wrap;font-size:13px}.sortsel{appearance:auto;padding-right:8px}</style>
+<div class="sortbar"><select id="sort" aria-label="Sort" class="pill sortsel"><option value="new" selected>Newest first</option><option value="old">Oldest first</option><option value="az">Name A–Z</option></select></div>
+<style is:global>.hrow{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:var(--s6,40px)}.hrow h2{margin:0!important}.hrow .sortbar{margin:0}.hrow+.grid{margin-top:12px}.sortbar{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:12px 0 4px;flex-wrap:wrap;font-size:13px}.sortsel{appearance:auto;padding-right:8px}</style>
 <script is:inline>
 (()=>{const s=document.getElementById('sort');if(!s)return;
 s.addEventListener('change',()=>{document.querySelectorAll('.grid[data-sortable]').forEach(g=>{
