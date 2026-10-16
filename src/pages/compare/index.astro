@@ -43,7 +43,7 @@ render();
 document.getElementById('cv-share').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.getElementById('cv-ok').textContent='Copied'}catch(e){document.getElementById('cv-ok').textContent=location.href}};
 })();
 </script>
-<style>.cmp{list-style:none;padding:0}.cmp li{padding:12px 0;border-bottom:1px solid var(--line)}.cmp a{font-weight:600}
+<style is:global>.cmp{list-style:none;padding:0}.cmp li{padding:12px 0;border-bottom:1px solid var(--line)}.cmp a{font-weight:600}
 .spec-wrap{overflow-x:auto}.spec th[scope=row]{position:sticky;left:0;background:var(--bg);white-space:nowrap}.spec td,.spec th{vertical-align:top}
 #cv-cards{display:none}.cvc{border:1px solid var(--line);border-radius:var(--r2);background:var(--card);padding:12px 14px;margin:0 0 12px}.cvc h3{margin:0 0 4px}.cvc dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:8px 0 0;font-size:14px}.cvc dt{color:var(--mut)}.cvc dd{margin:0}
 .pk{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.pk label{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;min-height:36px}.pk label:has(input:checked){border-color:var(--acc);background:var(--acc-soft)}.cv-add{margin:12px 0}
