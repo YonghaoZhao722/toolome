@@ -14,7 +14,7 @@ export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const u = (p) => base + p;
 export const INTRO = {
  'single-cell':'Foundation models and toolkits for single-cell RNA-seq and multi-omics: cell annotation, integration, embeddings and perturbation prediction.',
- 'spatial':'Tools for spatial transcriptomics and proteomics: deconvolution, domain detection, alignment and spatial data frameworks.',
+ 'spatial':'Tools for spatial transcriptomics and proteomics: deconvolution, domain detection, alignment, histology-to-expression prediction and spatial data frameworks.',
  'protein':'Structure prediction, protein language models and generative protein/binder design.',
  'genomics':'DNA language models, sequence-to-function models, variant calling and splicing prediction.',
  'drug-discovery':'Molecular property prediction, docking, generative chemistry and cheminformatics libraries.',
