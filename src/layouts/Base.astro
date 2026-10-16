@@ -1,0 +1,37 @@
+---
+import { SITE, u } from '../lib/site.js';
+const { title = SITE.name + ' — ' + SITE.tagline, description = 'Curated, verified directory of AI tools for single-cell, spatial omics, protein design, genomics, drug discovery and more.', jsonld } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
+<meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:image" content={new URL(u('/og.png'), Astro.site)}/><meta name="twitter:card" content="summary_large_image"/>
+<link rel="icon" href={u('/favicon.svg')}/>
+{jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+<style is:global>
+:root{--bg:#0b1020;--card:#121a33;--line:#24305a;--txt:#e8ecf8;--mut:#9aa6c8;--acc:#4ade80;--acc2:#38bdf8}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--txt);line-height:1.5}
+a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#0b1020ee;backdrop-filter:blur(8px);z-index:5}
+header .wrap{display:flex;gap:18px;align-items:center;height:58px}.logo{font-weight:800;font-size:20px;color:var(--txt)}.logo b{color:var(--acc)}
+nav{margin-left:auto;display:flex;gap:16px;font-size:14px}nav a{color:var(--mut)}
+.sponsor-bar{background:linear-gradient(90deg,#1e293b,#0f3b2e);border:1px dashed var(--acc);border-radius:12px;padding:12px 16px;margin:16px 0;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--acc);color:#04210f;font-weight:700;padding:8px 14px;border-radius:8px;border:0;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.card h3{margin:0;font-size:16px}.card p{margin:0;color:var(--mut);font-size:14px;flex:1}
+.tag{display:inline-block;font-size:11px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin:2px 4px 0 0}
+.pill{font-size:12px;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--txt);cursor:pointer}.pill.on{background:var(--acc);color:#04210f;border-color:var(--acc)}
+input,textarea{background:#0e1630;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:10px 12px;font-size:15px}
+footer{border-top:1px solid var(--line);margin-top:50px;padding:24px 0;color:var(--mut);font-size:13px}
+h1{font-size:clamp(28px,5vw,44px);margin:28px 0 6px}.mut{color:var(--mut)}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+.draft{background:#7c2d12;color:#fed7aa;font-size:12px;padding:2px 8px;border-radius:6px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href={u('/')}>Bio<b>Stack</b></a><nav><a href={u('/category/single-cell/')}>Categories</a><a href={u('/submit/')}>Submit</a><a href={u('/sponsor/')}>Sponsor</a><a href={u('/#newsletter')}>Newsletter</a></nav></div></header>
+<main class="wrap">
+<div class="sponsor-bar"><span><b>Your tool here</b> <span class="mut">— reach researchers building with AI for biology</span></span><a class="btn" href={u('/sponsor/')}>Sponsor</a></div>
+<slot/></main>
+<footer><div class="wrap">© 2026 BioStack · Curated by Yonghao Zhao · <a href={u('/llms.txt')}>llms.txt</a> · <a href={u('/sitemap.xml')}>sitemap</a> · Listings are verified by hand; tell us about errors at <a href={'mailto:'+SITE.email}>{SITE.email}</a></div></footer>
+</body></html>

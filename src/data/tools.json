@@ -1,0 +1,1669 @@
+[
+ {
+  "slug": "scgpt",
+  "name": "scGPT",
+  "category": "single-cell",
+  "url": "https://github.com/bowang-lab/scGPT",
+  "github": "https://github.com/bowang-lab/scGPT",
+  "paper": "https://www.nature.com/articles/s41592-024-02201-0",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Generative pretrained transformer foundation model for single-cell multi-omics.",
+  "tags": [
+   "foundation-model",
+   "transformer",
+   "annotation"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "geneformer",
+  "name": "Geneformer",
+  "category": "single-cell",
+  "url": "https://huggingface.co/ctheodoris/Geneformer",
+  "github": null,
+  "paper": "https://www.nature.com/articles/s41586-023-06139-9",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Transformer pretrained on ~30M single-cell transcriptomes for network biology predictions.",
+  "tags": [
+   "foundation-model",
+   "transfer-learning"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "scvi-tools",
+  "name": "scvi-tools",
+  "category": "single-cell",
+  "url": "https://scvi-tools.org",
+  "github": "https://github.com/scverse/scvi-tools",
+  "paper": "https://www.nature.com/articles/s41587-021-01206-w",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Probabilistic deep generative models for single-cell omics (scVI, totalVI, scANVI...).",
+  "tags": [
+   "vae",
+   "integration",
+   "python"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "celltypist",
+  "name": "CellTypist",
+  "category": "single-cell",
+  "url": "https://www.celltypist.org",
+  "github": "https://github.com/Teichlab/celltypist",
+  "paper": "https://www.science.org/doi/10.1126/science.abl5197",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Automated cell type annotation with logistic regression models trained on curated atlases.",
+  "tags": [
+   "annotation",
+   "immune"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "scanpy",
+  "name": "Scanpy",
+  "category": "single-cell",
+  "url": "https://scanpy.readthedocs.io",
+  "github": "https://github.com/scverse/scanpy",
+  "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1382-0",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Scalable Python toolkit for single-cell gene expression analysis.",
+  "tags": [
+   "python",
+   "scverse",
+   "clustering"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "seurat",
+  "name": "Seurat",
+  "category": "single-cell",
+  "url": "https://satijalab.org/seurat/",
+  "github": "https://github.com/satijalab/seurat",
+  "paper": "https://www.nature.com/articles/s41587-023-01767-y",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "R toolkit for single-cell genomics, integration and multimodal analysis.",
+  "tags": [
+   "r",
+   "integration",
+   "multimodal"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "scfoundation",
+  "name": "scFoundation",
+  "category": "single-cell",
+  "url": "https://github.com/biomap-research/scFoundation",
+  "github": "https://github.com/biomap-research/scFoundation",
+  "paper": "https://www.nature.com/articles/s41592-024-02305-7",
+  "license": "Custom",
+  "pricing": "OSS",
+  "description": "100M-parameter foundation model trained on 50M human single-cell transcriptomes.",
+  "tags": [
+   "foundation-model"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "uce-universal-cell-embeddings",
+  "name": "UCE (Universal Cell Embeddings)",
+  "category": "single-cell",
+  "url": "https://github.com/snap-stanford/UCE",
+  "github": "https://github.com/snap-stanford/UCE",
+  "paper": "https://www.biorxiv.org/content/10.1101/2023.11.28.568918",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Cross-species zero-shot universal cell embedding foundation model.",
+  "tags": [
+   "foundation-model",
+   "cross-species"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "cellrank",
+  "name": "CellRank",
+  "category": "single-cell",
+  "url": "https://cellrank.readthedocs.io",
+  "github": "https://github.com/theislab/cellrank",
+  "paper": "https://www.nature.com/articles/s41592-021-01346-6",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Cell fate mapping using Markov chains on single-cell data.",
+  "tags": [
+   "trajectory",
+   "fate"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "scvelo",
+  "name": "scVelo",
+  "category": "single-cell",
+  "url": "https://scvelo.org",
+  "github": "https://github.com/theislab/scvelo",
+  "paper": "https://www.nature.com/articles/s41587-020-0591-3",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "RNA velocity estimation with dynamical modeling.",
+  "tags": [
+   "velocity",
+   "trajectory"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "mudata--muon",
+  "name": "MuData / muon",
+  "category": "single-cell",
+  "url": "https://muon.scverse.org",
+  "github": "https://github.com/scverse/muon",
+  "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02577-8",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Multimodal omics framework for single-cell multi-omics in Python.",
+  "tags": [
+   "multimodal",
+   "scverse"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "archr",
+  "name": "ArchR",
+  "category": "single-cell",
+  "url": "https://www.archrproject.com",
+  "github": "https://github.com/GreenleafLab/ArchR",
+  "paper": "https://www.nature.com/articles/s41588-021-00790-6",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Scalable single-cell chromatin accessibility (scATAC-seq) analysis in R.",
+  "tags": [
+   "atac",
+   "epigenomics"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "celloracle",
+  "name": "CellOracle",
+  "category": "single-cell",
+  "url": "https://github.com/morris-lab/CellOracle",
+  "github": "https://github.com/morris-lab/CellOracle",
+  "paper": "https://www.nature.com/articles/s41586-022-05688-9",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "In silico gene perturbation via GRN inference from single-cell multi-omics.",
+  "tags": [
+   "grn",
+   "perturbation"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "gears",
+  "name": "GEARS",
+  "category": "single-cell",
+  "url": "https://github.com/snap-stanford/GEARS",
+  "github": "https://github.com/snap-stanford/GEARS",
+  "paper": "https://www.nature.com/articles/s41587-023-01905-6",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Graph-based prediction of transcriptional outcomes of genetic perturbations.",
+  "tags": [
+   "perturbation",
+   "gnn"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "harmony",
+  "name": "Harmony",
+  "category": "single-cell",
+  "url": "https://github.com/immunogenomics/harmony",
+  "github": "https://github.com/immunogenomics/harmony",
+  "paper": "https://www.nature.com/articles/s41592-019-0619-0",
+  "license": "GPL-3.0",
+  "pricing": "OSS",
+  "description": "Fast, sensitive batch integration of single-cell data.",
+  "tags": [
+   "integration",
+   "batch"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "tangram",
+  "name": "Tangram",
+  "category": "spatial",
+  "url": "https://github.com/broadinstitute/Tangram",
+  "github": "https://github.com/broadinstitute/Tangram",
+  "paper": "https://www.nature.com/articles/s41592-021-01264-7",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Maps single-cell profiles onto spatial data with deep learning.",
+  "tags": [
+   "mapping",
+   "deconvolution"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "paste",
+  "name": "PASTE",
+  "category": "spatial",
+  "url": "https://github.com/raphael-group/paste",
+  "github": "https://github.com/raphael-group/paste",
+  "paper": "https://www.nature.com/articles/s41592-022-01459-6",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Optimal-transport alignment and integration of spatial transcriptomics slices.",
+  "tags": [
+   "optimal-transport",
+   "alignment"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "moscot",
+  "name": "moscot",
+  "category": "spatial",
+  "url": "https://moscot.readthedocs.io",
+  "github": "https://github.com/theislab/moscot",
+  "paper": "https://www.nature.com/articles/s41586-024-08453-2",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Multi-omics single-cell optimal transport for space and time mapping.",
+  "tags": [
+   "optimal-transport",
+   "scverse"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "cell2location",
+  "name": "cell2location",
+  "category": "spatial",
+  "url": "https://cell2location.readthedocs.io",
+  "github": "https://github.com/BayraktarLab/cell2location",
+  "paper": "https://www.nature.com/articles/s41587-021-01139-4",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Bayesian mapping of fine-grained cell types in spatial transcriptomics.",
+  "tags": [
+   "deconvolution",
+   "bayesian"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "squidpy",
+  "name": "Squidpy",
+  "category": "spatial",
+  "url": "https://squidpy.readthedocs.io",
+  "github": "https://github.com/scverse/squidpy",
+  "paper": "https://www.nature.com/articles/s41592-021-01358-2",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Spatial single-cell analysis toolkit in the scverse ecosystem.",
+  "tags": [
+   "python",
+   "neighborhood",
+   "image"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "spatialdata",
+  "name": "SpatialData",
+  "category": "spatial",
+  "url": "https://spatialdata.scverse.org",
+  "github": "https://github.com/scverse/spatialdata",
+  "paper": "https://www.nature.com/articles/s41592-024-02212-x",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Unified data framework for spatial omics technologies.",
+  "tags": [
+   "data-format",
+   "scverse"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "stagate",
+  "name": "STAGATE",
+  "category": "spatial",
+  "url": "https://github.com/QIFEIDKN/STAGATE",
+  "github": "https://github.com/QIFEIDKN/STAGATE",
+  "paper": "https://www.nature.com/articles/s41467-022-29439-6",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Graph attention autoencoder for spatial domain identification.",
+  "tags": [
+   "domains",
+   "gnn"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "graphst",
+  "name": "GraphST",
+  "category": "spatial",
+  "url": "https://github.com/JinmiaoChenLab/GraphST",
+  "github": "https://github.com/JinmiaoChenLab/GraphST",
+  "paper": "https://www.nature.com/articles/s41467-023-36796-3",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Graph self-supervised contrastive learning for spatial transcriptomics.",
+  "tags": [
+   "contrastive",
+   "domains"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "bayesspace",
+  "name": "BayesSpace",
+  "category": "spatial",
+  "url": "https://github.com/edward130603/BayesSpace",
+  "github": "https://github.com/edward130603/BayesSpace",
+  "paper": "https://www.nature.com/articles/s41587-021-00935-2",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Bayesian clustering and resolution enhancement of spatial transcriptomics.",
+  "tags": [
+   "clustering",
+   "r"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "rctd-spacexr",
+  "name": "RCTD (spacexr)",
+  "category": "spatial",
+  "url": "https://github.com/dmcable/spacexr",
+  "github": "https://github.com/dmcable/spacexr",
+  "paper": "https://www.nature.com/articles/s41587-021-00830-w",
+  "license": "GPL-3.0",
+  "pricing": "OSS",
+  "description": "Robust cell type decomposition for spatial transcriptomics.",
+  "tags": [
+   "deconvolution",
+   "r"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "giotto-suite",
+  "name": "Giotto Suite",
+  "category": "spatial",
+  "url": "https://giottosuite.com",
+  "github": "https://github.com/drieslab/Giotto",
+  "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02286-2",
+  "license": "Custom",
+  "pricing": "OSS",
+  "description": "Comprehensive R toolbox for spatial data analysis and visualization.",
+  "tags": [
+   "r",
+   "visualization"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "nicheformer",
+  "name": "Nicheformer",
+  "category": "spatial",
+  "url": "https://github.com/theislab/nicheformer",
+  "github": "https://github.com/theislab/nicheformer",
+  "paper": "https://www.biorxiv.org/content/10.1101/2024.04.15.589472",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Foundation model pretrained on dissociated and spatial single-cell data.",
+  "tags": [
+   "foundation-model"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "alphafold-server-alphafold-3",
+  "name": "AlphaFold Server (AlphaFold 3)",
+  "category": "protein",
+  "url": "https://alphafoldserver.com",
+  "github": "https://github.com/google-deepmind/alphafold3",
+  "paper": "https://www.nature.com/articles/s41586-024-07487-w",
+  "license": "CC-BY-NC-SA-4.0 (code)",
+  "pricing": "Free (non-commercial)",
+  "description": "Structure prediction of proteins, nucleic acids, ligands and their complexes.",
+  "tags": [
+   "structure",
+   "complexes"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "alphafold-db",
+  "name": "AlphaFold DB",
+  "category": "protein",
+  "url": "https://alphafold.ebi.ac.uk",
+  "github": null,
+  "paper": "https://academic.oup.com/nar/article/52/D1/D368/7337620",
+  "license": "CC-BY-4.0",
+  "pricing": "Free",
+  "description": "200M+ predicted protein structures from DeepMind and EMBL-EBI.",
+  "tags": [
+   "database",
+   "structure"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "rfdiffusion",
+  "name": "RFdiffusion",
+  "category": "protein",
+  "url": "https://github.com/RosettaCommons/RFdiffusion",
+  "github": "https://github.com/RosettaCommons/RFdiffusion",
+  "paper": "https://www.nature.com/articles/s41586-023-06415-8",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Diffusion model for de novo protein backbone design and binder design.",
+  "tags": [
+   "design",
+   "diffusion"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "proteinmpnn",
+  "name": "ProteinMPNN",
+  "category": "protein",
+  "url": "https://github.com/dauparas/ProteinMPNN",
+  "github": "https://github.com/dauparas/ProteinMPNN",
+  "paper": "https://www.science.org/doi/10.1126/science.add2187",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Deep-learning inverse folding: designs sequences for given backbones.",
+  "tags": [
+   "inverse-folding",
+   "design"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "esm3--evolutionaryscale",
+  "name": "ESM3 / EvolutionaryScale",
+  "category": "protein",
+  "url": "https://www.evolutionaryscale.ai",
+  "github": "https://github.com/evolutionaryscale/esm",
+  "paper": "https://www.science.org/doi/10.1126/science.ads0018",
+  "license": "Custom",
+  "pricing": "Freemium",
+  "description": "Multimodal generative protein language model over sequence, structure and function.",
+  "tags": [
+   "plm",
+   "generative"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "esm-2--esmfold",
+  "name": "ESM-2 / ESMFold",
+  "category": "protein",
+  "url": "https://github.com/facebookresearch/esm",
+  "github": "https://github.com/facebookresearch/esm",
+  "paper": "https://www.science.org/doi/10.1126/science.ade2574",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Protein language models and single-sequence structure prediction.",
+  "tags": [
+   "plm",
+   "structure"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "boltz",
+  "name": "Boltz",
+  "category": "protein",
+  "url": "https://github.com/jwohlwend/boltz",
+  "github": "https://github.com/jwohlwend/boltz",
+  "paper": "https://www.biorxiv.org/content/10.1101/2024.11.19.624167",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Open biomolecular interaction model with structure and affinity prediction.",
+  "tags": [
+   "structure",
+   "affinity"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "chai-1",
+  "name": "Chai-1",
+  "category": "protein",
+  "url": "https://www.chaidiscovery.com",
+  "github": "https://github.com/chaidiscovery/chai-lab",
+  "paper": "https://www.biorxiv.org/content/10.1101/2024.10.10.615955",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Multimodal foundation model for molecular structure prediction.",
+  "tags": [
+   "structure",
+   "complexes"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "openfold",
+  "name": "OpenFold",
+  "category": "protein",
+  "url": "https://openfold.io",
+  "github": "https://github.com/aqlaboratory/openfold",
+  "paper": "https://www.nature.com/articles/s41592-024-02272-z",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Trainable open-source reproduction of AlphaFold2 in PyTorch.",
+  "tags": [
+   "structure",
+   "pytorch"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "colabfold",
+  "name": "ColabFold",
+  "category": "protein",
+  "url": "https://github.com/sokrypton/ColabFold",
+  "github": "https://github.com/sokrypton/ColabFold",
+  "paper": "https://www.nature.com/articles/s41592-022-01488-1",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Fast, accessible protein folding with MMseqs2 + AlphaFold in Colab.",
+  "tags": [
+   "structure",
+   "colab"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "rosettafold-all-atom",
+  "name": "RoseTTAFold All-Atom",
+  "category": "protein",
+  "url": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom",
+  "github": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom",
+  "paper": "https://www.science.org/doi/10.1126/science.adl2528",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Generalized biomolecular modeling for proteins, nucleic acids, small molecules.",
+  "tags": [
+   "structure"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "bindcraft",
+  "name": "BindCraft",
+  "category": "protein",
+  "url": "https://github.com/martinpacesa/BindCraft",
+  "github": "https://github.com/martinpacesa/BindCraft",
+  "paper": "https://www.nature.com/articles/s41586-025-09429-6",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "One-shot de novo binder design pipeline with AF2 hallucination.",
+  "tags": [
+   "binder",
+   "design"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "foldseek",
+  "name": "Foldseek",
+  "category": "protein",
+  "url": "https://search.foldseek.com",
+  "github": "https://github.com/steineggerlab/foldseek",
+  "paper": "https://www.nature.com/articles/s41587-023-01773-0",
+  "license": "GPL-3.0",
+  "pricing": "OSS",
+  "description": "Fast and accurate protein structure search.",
+  "tags": [
+   "search",
+   "structure"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "protenix",
+  "name": "Protenix",
+  "category": "protein",
+  "url": "https://github.com/bytedance/Protenix",
+  "github": "https://github.com/bytedance/Protenix",
+  "paper": "https://www.biorxiv.org/content/10.1101/2025.01.08.631967",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Trainable PyTorch reproduction of AlphaFold 3 by ByteDance.",
+  "tags": [
+   "structure"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "tamarind-bio",
+  "name": "Tamarind Bio",
+  "category": "protein",
+  "url": "https://www.tamarind.bio",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Freemium",
+  "description": "No-code web platform running 100+ protein and molecular ML models.",
+  "tags": [
+   "no-code",
+   "platform"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "evo-2",
+  "name": "Evo 2",
+  "category": "genomics",
+  "url": "https://github.com/ArcInstitute/evo2",
+  "github": "https://github.com/ArcInstitute/evo2",
+  "paper": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Genome language model across all domains of life with 1M-token context.",
+  "tags": [
+   "dna-lm",
+   "foundation-model"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "alphagenome",
+  "name": "AlphaGenome",
+  "category": "genomics",
+  "url": "https://github.com/google-deepmind/alphagenome",
+  "github": "https://github.com/google-deepmind/alphagenome",
+  "paper": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532",
+  "license": "Apache-2.0 (client)",
+  "pricing": "Free API (non-commercial)",
+  "description": "DeepMind model predicting regulatory effects of DNA variants at base resolution.",
+  "tags": [
+   "regulatory",
+   "variant-effect"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "enformer",
+  "name": "Enformer",
+  "category": "genomics",
+  "url": "https://github.com/google-deepmind/deepmind-research/tree/master/enformer",
+  "github": "https://github.com/google-deepmind/deepmind-research",
+  "paper": "https://www.nature.com/articles/s41592-021-01252-x",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Predicts gene expression from sequence with long-range interactions.",
+  "tags": [
+   "expression",
+   "regulatory"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "spliceai",
+  "name": "SpliceAI",
+  "category": "genomics",
+  "url": "https://github.com/Illumina/SpliceAI",
+  "github": "https://github.com/Illumina/SpliceAI",
+  "paper": "https://www.cell.com/cell/fulltext/S0092-8674(18)31629-5",
+  "license": "PolyForm-Strict",
+  "pricing": "Free (non-commercial)",
+  "description": "Deep learning prediction of splicing effects from pre-mRNA sequence.",
+  "tags": [
+   "splicing",
+   "variant"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "nucleotide-transformer",
+  "name": "Nucleotide Transformer",
+  "category": "genomics",
+  "url": "https://github.com/instadeepai/nucleotide-transformer",
+  "github": "https://github.com/instadeepai/nucleotide-transformer",
+  "paper": "https://www.nature.com/articles/s41592-024-02523-z",
+  "license": "CC-BY-NC-SA-4.0",
+  "pricing": "OSS (non-commercial)",
+  "description": "DNA foundation models pretrained on 3,200+ human and 850 species genomes.",
+  "tags": [
+   "dna-lm"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "hyenadna",
+  "name": "HyenaDNA",
+  "category": "genomics",
+  "url": "https://github.com/HazyResearch/hyena-dna",
+  "github": "https://github.com/HazyResearch/hyena-dna",
+  "paper": "https://arxiv.org/abs/2306.15794",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Long-range genomic foundation model at single-nucleotide resolution.",
+  "tags": [
+   "dna-lm",
+   "long-context"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "dnabert-2",
+  "name": "DNABERT-2",
+  "category": "genomics",
+  "url": "https://github.com/MAGICS-LAB/DNABERT_2",
+  "github": "https://github.com/MAGICS-LAB/DNABERT_2",
+  "paper": "https://arxiv.org/abs/2306.15006",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Efficient multi-species genome foundation model.",
+  "tags": [
+   "dna-lm"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "borzoi",
+  "name": "Borzoi",
+  "category": "genomics",
+  "url": "https://github.com/calico/borzoi",
+  "github": "https://github.com/calico/borzoi",
+  "paper": "https://www.nature.com/articles/s41588-024-02053-6",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Predicts RNA-seq coverage from DNA sequence.",
+  "tags": [
+   "expression",
+   "rna-seq"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "alphamissense",
+  "name": "AlphaMissense",
+  "category": "genomics",
+  "url": "https://github.com/google-deepmind/alphamissense",
+  "github": "https://github.com/google-deepmind/alphamissense",
+  "paper": "https://www.science.org/doi/10.1126/science.adg7492",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Proteome-wide pathogenicity predictions for missense variants.",
+  "tags": [
+   "variant-effect"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "deepvariant",
+  "name": "DeepVariant",
+  "category": "genomics",
+  "url": "https://github.com/google/deepvariant",
+  "github": "https://github.com/google/deepvariant",
+  "paper": "https://www.nature.com/articles/nbt.4235",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Deep learning variant caller for NGS data.",
+  "tags": [
+   "variant-calling"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "caduceus",
+  "name": "Caduceus",
+  "category": "genomics",
+  "url": "https://github.com/kuleshov-group/caduceus",
+  "github": "https://github.com/kuleshov-group/caduceus",
+  "paper": "https://arxiv.org/abs/2403.03234",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Bidirectional, reverse-complement-equivariant DNA language model.",
+  "tags": [
+   "dna-lm",
+   "mamba"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "rdkit",
+  "name": "RDKit",
+  "category": "drug-discovery",
+  "url": "https://www.rdkit.org",
+  "github": "https://github.com/rdkit/rdkit",
+  "paper": null,
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Open-source cheminformatics and machine learning toolkit.",
+  "tags": [
+   "cheminformatics"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "deepchem",
+  "name": "DeepChem",
+  "category": "drug-discovery",
+  "url": "https://deepchem.io",
+  "github": "https://github.com/deepchem/deepchem",
+  "paper": null,
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Deep learning toolkit for drug discovery, materials and biology.",
+  "tags": [
+   "ml",
+   "molecules"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "diffdock",
+  "name": "DiffDock",
+  "category": "drug-discovery",
+  "url": "https://github.com/gcorso/DiffDock",
+  "github": "https://github.com/gcorso/DiffDock",
+  "paper": "https://arxiv.org/abs/2210.01776",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Diffusion generative model for molecular docking.",
+  "tags": [
+   "docking",
+   "diffusion"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "reinvent-4",
+  "name": "REINVENT 4",
+  "category": "drug-discovery",
+  "url": "https://github.com/MolecularAI/REINVENT4",
+  "github": "https://github.com/MolecularAI/REINVENT4",
+  "paper": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00812-5",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "AstraZeneca's generative molecular design framework.",
+  "tags": [
+   "generative",
+   "de-novo"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "chemprop",
+  "name": "Chemprop",
+  "category": "drug-discovery",
+  "url": "https://github.com/chemprop/chemprop",
+  "github": "https://github.com/chemprop/chemprop",
+  "paper": "https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Message passing neural networks for molecular property prediction.",
+  "tags": [
+   "property-prediction",
+   "gnn"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "torchdrug",
+  "name": "TorchDrug",
+  "category": "drug-discovery",
+  "url": "https://torchdrug.ai",
+  "github": "https://github.com/DeepGraphLearning/torchdrug",
+  "paper": "https://arxiv.org/abs/2202.08320",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "PyTorch platform for drug discovery ML.",
+  "tags": [
+   "pytorch",
+   "graph"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "autodock-vina",
+  "name": "AutoDock Vina",
+  "category": "drug-discovery",
+  "url": "https://vina.scripps.edu",
+  "github": "https://github.com/ccsb-scripps/AutoDock-Vina",
+  "paper": "https://pubs.acs.org/doi/10.1021/acs.jcim.1c00203",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Fast, widely used open-source molecular docking engine.",
+  "tags": [
+   "docking"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "openmm",
+  "name": "OpenMM",
+  "category": "drug-discovery",
+  "url": "https://openmm.org",
+  "github": "https://github.com/openmm/openmm",
+  "paper": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005659",
+  "license": "MIT/LGPL",
+  "pricing": "OSS",
+  "description": "High-performance molecular dynamics toolkit with GPU support.",
+  "tags": [
+   "molecular-dynamics"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "nvidia-bionemo",
+  "name": "NVIDIA BioNeMo",
+  "category": "drug-discovery",
+  "url": "https://www.nvidia.com/en-us/clara/bionemo/",
+  "github": "https://github.com/NVIDIA/bionemo-framework",
+  "paper": null,
+  "license": "Apache-2.0 (framework)",
+  "pricing": "Freemium",
+  "description": "NVIDIA platform and NIMs for training and deploying biology foundation models.",
+  "tags": [
+   "platform",
+   "gpu"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "rowan",
+  "name": "Rowan",
+  "category": "drug-discovery",
+  "url": "https://rowansci.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Freemium",
+  "description": "Cloud computational chemistry platform with ML-accelerated simulations.",
+  "tags": [
+   "quantum-chemistry",
+   "cloud"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "biomni",
+  "name": "Biomni",
+  "category": "agents",
+  "url": "https://biomni.stanford.edu",
+  "github": "https://github.com/snap-stanford/Biomni",
+  "paper": "https://www.biorxiv.org/content/10.1101/2025.05.30.656746",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "General-purpose biomedical AI agent with 150+ tools and databases.",
+  "tags": [
+   "agent",
+   "llm"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "futurehouse-platform",
+  "name": "FutureHouse Platform",
+  "category": "agents",
+  "url": "https://platform.futurehouse.org",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Free tier",
+  "description": "AI scientist agents (Crow, Falcon, Owl, Phoenix) for literature and chemistry.",
+  "tags": [
+   "agent",
+   "literature"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "paperqa2",
+  "name": "PaperQA2",
+  "category": "agents",
+  "url": "https://github.com/Future-House/paper-qa",
+  "github": "https://github.com/Future-House/paper-qa",
+  "paper": "https://arxiv.org/abs/2409.13740",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "High-accuracy RAG agent over scientific papers.",
+  "tags": [
+   "rag",
+   "literature"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "biochatter",
+  "name": "BioChatter",
+  "category": "agents",
+  "url": "https://biochatter.org",
+  "github": "https://github.com/biocypher/biochatter",
+  "paper": "https://www.nature.com/articles/s41587-024-02534-3",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Framework for LLM-based conversational biomedical research.",
+  "tags": [
+   "llm",
+   "framework"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "elicit",
+  "name": "Elicit",
+  "category": "agents",
+  "url": "https://elicit.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Freemium",
+  "description": "AI research assistant for literature search and data extraction.",
+  "tags": [
+   "literature"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "consensus",
+  "name": "Consensus",
+  "category": "agents",
+  "url": "https://consensus.app",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Freemium",
+  "description": "AI search engine over peer-reviewed research.",
+  "tags": [
+   "literature",
+   "search"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "benchling",
+  "name": "Benchling",
+  "category": "agents",
+  "url": "https://www.benchling.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "R&D cloud with ELN, molecular biology and AI tooling.",
+  "tags": [
+   "eln",
+   "platform"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "latch-bio",
+  "name": "Latch Bio",
+  "category": "agents",
+  "url": "https://latch.bio",
+  "github": "https://github.com/latchbio/latch",
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Freemium",
+  "description": "Cloud platform for bioinformatics workflows and data.",
+  "tags": [
+   "workflows",
+   "cloud"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "adaptyv-bio",
+  "name": "Adaptyv Bio",
+  "category": "cloud-labs",
+  "url": "https://www.adaptyvbio.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "Cloud lab for protein expression and binding characterization, binder design competitions.",
+  "tags": [
+   "protein",
+   "validation"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "emerald-cloud-lab",
+  "name": "Emerald Cloud Lab",
+  "category": "cloud-labs",
+  "url": "https://www.emeraldcloudlab.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "Remote-controlled cloud laboratory running 200+ instrument types.",
+  "tags": [
+   "automation"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "ginkgo-bioworks",
+  "name": "Ginkgo Bioworks",
+  "category": "cloud-labs",
+  "url": "https://www.ginkgobioworks.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "Cell programming platform and automated lab services.",
+  "tags": [
+   "synthetic-biology"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "twist-bioscience",
+  "name": "Twist Bioscience",
+  "category": "cloud-labs",
+  "url": "https://www.twistbioscience.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "Synthetic DNA, gene fragments and antibody discovery services.",
+  "tags": [
+   "dna-synthesis"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "strateos",
+  "name": "Strateos",
+  "category": "cloud-labs",
+  "url": "https://strateos.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "Robotic cloud lab automation for life sciences.",
+  "tags": [
+   "automation"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "science-exchange",
+  "name": "Science Exchange",
+  "category": "cloud-labs",
+  "url": "https://www.scienceexchange.com",
+  "github": null,
+  "paper": null,
+  "license": "Commercial",
+  "pricing": "Commercial",
+  "description": "Marketplace for outsourced R&D and CRO services.",
+  "tags": [
+   "cro",
+   "marketplace"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "cellpose",
+  "name": "Cellpose",
+  "category": "imaging",
+  "url": "https://www.cellpose.org",
+  "github": "https://github.com/MouseLand/cellpose",
+  "paper": "https://www.nature.com/articles/s41592-020-01018-x",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Generalist deep learning model for cellular segmentation.",
+  "tags": [
+   "segmentation"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "stardist",
+  "name": "StarDist",
+  "category": "imaging",
+  "url": "https://github.com/stardist/stardist",
+  "github": "https://github.com/stardist/stardist",
+  "paper": "https://arxiv.org/abs/1806.03535",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Star-convex object detection for nuclei segmentation.",
+  "tags": [
+   "segmentation",
+   "nuclei"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "napari",
+  "name": "napari",
+  "category": "imaging",
+  "url": "https://napari.org",
+  "github": "https://github.com/napari/napari",
+  "paper": null,
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Fast, interactive multi-dimensional image viewer for Python.",
+  "tags": [
+   "viewer",
+   "python"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "qupath",
+  "name": "QuPath",
+  "category": "imaging",
+  "url": "https://qupath.github.io",
+  "github": "https://github.com/qupath/qupath",
+  "paper": "https://www.nature.com/articles/s41598-017-17204-5",
+  "license": "GPL-3.0",
+  "pricing": "OSS",
+  "description": "Open-source software for digital pathology and whole slide image analysis.",
+  "tags": [
+   "pathology",
+   "wsi"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "uni",
+  "name": "UNI",
+  "category": "imaging",
+  "url": "https://github.com/mahmoodlab/UNI",
+  "github": "https://github.com/mahmoodlab/UNI",
+  "paper": "https://www.nature.com/articles/s41591-024-02857-3",
+  "license": "CC-BY-NC-ND-4.0",
+  "pricing": "OSS (non-commercial)",
+  "description": "General-purpose self-supervised foundation model for computational pathology.",
+  "tags": [
+   "pathology",
+   "foundation-model"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "conch",
+  "name": "CONCH",
+  "category": "imaging",
+  "url": "https://github.com/mahmoodlab/CONCH",
+  "github": "https://github.com/mahmoodlab/CONCH",
+  "paper": "https://www.nature.com/articles/s41591-024-02856-4",
+  "license": "CC-BY-NC-ND-4.0",
+  "pricing": "OSS (non-commercial)",
+  "description": "Vision-language foundation model for histopathology.",
+  "tags": [
+   "pathology",
+   "vlm"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "prov-gigapath",
+  "name": "Prov-GigaPath",
+  "category": "imaging",
+  "url": "https://github.com/prov-gigapath/prov-gigapath",
+  "github": "https://github.com/prov-gigapath/prov-gigapath",
+  "paper": "https://www.nature.com/articles/s41586-024-07441-w",
+  "license": "Apache-2.0",
+  "pricing": "OSS",
+  "description": "Whole-slide digital pathology foundation model.",
+  "tags": [
+   "pathology",
+   "foundation-model"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "cellprofiler",
+  "name": "CellProfiler",
+  "category": "imaging",
+  "url": "https://cellprofiler.org",
+  "github": "https://github.com/CellProfiler/CellProfiler",
+  "paper": null,
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Image analysis software for high-throughput cell phenotyping.",
+  "tags": [
+   "high-content"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "micro-sam",
+  "name": "micro-sam",
+  "category": "imaging",
+  "url": "https://github.com/computational-cell-analytics/micro-sam",
+  "github": "https://github.com/computational-cell-analytics/micro-sam",
+  "paper": "https://www.nature.com/articles/s41592-024-02580-4",
+  "license": "MIT",
+  "pricing": "OSS",
+  "description": "Segment Anything for microscopy.",
+  "tags": [
+   "segmentation",
+   "sam"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "cz-cellxgene",
+  "name": "CZ CELLxGENE",
+  "category": "datasets",
+  "url": "https://cellxgene.cziscience.com",
+  "github": "https://github.com/chanzuckerberg/cellxgene-census",
+  "paper": null,
+  "license": "CC-BY-4.0",
+  "pricing": "Free",
+  "description": "Curated single-cell data portal and Census API with 100M+ cells.",
+  "tags": [
+   "atlas",
+   "single-cell"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "human-cell-atlas-data-portal",
+  "name": "Human Cell Atlas Data Portal",
+  "category": "datasets",
+  "url": "https://data.humancellatlas.org",
+  "github": null,
+  "paper": null,
+  "license": "Open",
+  "pricing": "Free",
+  "description": "Data portal of the Human Cell Atlas consortium.",
+  "tags": [
+   "atlas"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "tahoe-100m",
+  "name": "Tahoe-100M",
+  "category": "datasets",
+  "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M",
+  "github": null,
+  "paper": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398",
+  "license": "CC0-1.0",
+  "pricing": "Free",
+  "description": "100M-cell single-cell drug perturbation atlas.",
+  "tags": [
+   "perturbation",
+   "dataset"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "protein-data-bank-rcsb",
+  "name": "Protein Data Bank (RCSB)",
+  "category": "datasets",
+  "url": "https://www.rcsb.org",
+  "github": null,
+  "paper": null,
+  "license": "Open",
+  "pricing": "Free",
+  "description": "Archive of experimentally determined 3D biomolecular structures.",
+  "tags": [
+   "structure",
+   "database"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "uniprot",
+  "name": "UniProt",
+  "category": "datasets",
+  "url": "https://www.uniprot.org",
+  "github": null,
+  "paper": null,
+  "license": "CC-BY-4.0",
+  "pricing": "Free",
+  "description": "Comprehensive resource of protein sequence and function.",
+  "tags": [
+   "protein",
+   "database"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "proteingym",
+  "name": "ProteinGym",
+  "category": "datasets",
+  "url": "https://proteingym.org",
+  "github": "https://github.com/OATML-Markslab/ProteinGym",
+  "paper": "https://www.biorxiv.org/content/10.1101/2023.12.07.570727",
+  "license": "MIT",
+  "pricing": "Free",
+  "description": "Benchmarks for protein fitness and mutation effect prediction.",
+  "tags": [
+   "benchmark"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "therapeutics-data-commons",
+  "name": "Therapeutics Data Commons",
+  "category": "datasets",
+  "url": "https://tdcommons.ai",
+  "github": "https://github.com/mims-harvard/TDC",
+  "paper": "https://arxiv.org/abs/2102.09548",
+  "license": "MIT",
+  "pricing": "Free",
+  "description": "ML-ready datasets and benchmarks for therapeutics.",
+  "tags": [
+   "benchmark",
+   "drug"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "casp",
+  "name": "CASP",
+  "category": "datasets",
+  "url": "https://predictioncenter.org",
+  "github": null,
+  "paper": null,
+  "license": "Open",
+  "pricing": "Free",
+  "description": "Critical Assessment of protein Structure Prediction community experiment.",
+  "tags": [
+   "benchmark",
+   "structure"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "open-problems-in-single-cell",
+  "name": "Open Problems in Single-Cell",
+  "category": "datasets",
+  "url": "https://openproblems.bio",
+  "github": "https://github.com/openproblems-bio/openproblems",
+  "paper": null,
+  "license": "MIT",
+  "pricing": "Free",
+  "description": "Living benchmarks for single-cell analysis tasks.",
+  "tags": [
+   "benchmark",
+   "single-cell"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "posebusters",
+  "name": "PoseBusters",
+  "category": "datasets",
+  "url": "https://github.com/maabuu/posebusters",
+  "github": "https://github.com/maabuu/posebusters",
+  "paper": "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d3sc04185a",
+  "license": "BSD-3-Clause",
+  "pricing": "OSS",
+  "description": "Plausibility checks and benchmark for docking/structure poses.",
+  "tags": [
+   "benchmark",
+   "docking"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "polaris",
+  "name": "Polaris",
+  "category": "datasets",
+  "url": "https://polarishub.io",
+  "github": "https://github.com/polaris-hub/polaris",
+  "paper": null,
+  "license": "Apache-2.0",
+  "pricing": "Free",
+  "description": "Benchmarking platform for ML in drug discovery.",
+  "tags": [
+   "benchmark",
+   "drug"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "10x-genomics-datasets",
+  "name": "10x Genomics Datasets",
+  "category": "datasets",
+  "url": "https://www.10xgenomics.com/datasets",
+  "github": null,
+  "paper": null,
+  "license": "Open",
+  "pricing": "Free",
+  "description": "Public single-cell and spatial (Visium, Xenium) example datasets.",
+  "tags": [
+   "spatial",
+   "single-cell"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ },
+ {
+  "slug": "hugging-face-bio-models",
+  "name": "Hugging Face Bio models",
+  "category": "datasets",
+  "url": "https://huggingface.co/models?other=biology",
+  "github": null,
+  "paper": null,
+  "license": "Mixed",
+  "pricing": "Free",
+  "description": "Hub listing of biology-tagged models.",
+  "tags": [
+   "hub"
+  ],
+  "added": "2026-10-15",
+  "lastChecked": "2026-10-15"
+ }
+]

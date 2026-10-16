@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro'; import { SITE } from '../lib/site.js';
+---
+<Base title="Sponsor BioStack" description="Reach computational biologists and bio-AI builders.">
+<h1>Sponsor BioStack <span class="draft">DRAFT pricing</span></h1>
+<p class="mut">BioStack reaches researchers and engineers working on single-cell, spatial, protein design and genomics AI.</p>
+<div class="grid">
+<div class="card"><h3>Top banner slot</h3><p>Site-wide banner at the top of every page, one sponsor at a time.</p><b>$150 / week</b> <span class="draft">placeholder</span></div>
+<div class="card"><h3>Newsletter slot</h3><p>Featured block in The BioStack Weekly.</p><b>$100 / issue</b> <span class="draft">placeholder</span></div>
+<div class="card"><h3>Featured card</h3><p>Pinned "Your tool here" card in the main directory grid.</p><b>Bundled with banner</b></div></div>
+<p style="margin-top:20px"><a class="btn" href={`mailto:${SITE.email}?subject=BioStack%20sponsorship`}>Contact {SITE.email}</a></p>
+</Base>

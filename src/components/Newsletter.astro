@@ -1,0 +1,8 @@
+---
+import { u } from '../lib/site.js';
+---
+<section id="newsletter" class="card" style="margin-top:36px;padding:22px">
+<h2 style="margin:0">The BioStack Weekly</h2><p>New AI-for-biology tools, models and datasets — one short email a week.</p>
+<form action="/api/subscribe" method="post" onsubmit="event.preventDefault();this.nextElementSibling.textContent='Thanks! Signup is not live yet — coming soon.'" style="display:flex;gap:8px;flex-wrap:wrap">
+<input type="email" name="email" required placeholder="you@lab.edu" style="flex:1;min-width:220px"/><button class="btn">Subscribe</button></form><small class="mut"></small>
+<p class="mut" style="font-size:12px">Newsletter sponsor slot available — <a href={u('/sponsor/')}>Sponsor</a></p></section>
