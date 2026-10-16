@@ -47,3 +47,27 @@ export const PAIR_BLURB = {
 export const pairBlurb = p => PAIR_BLURB[p.join('-')] || '';
 export const pairsFor = slug => PAIRS.filter(p=>p.includes(slug));
 export const pairsForCat = cat => PAIRS.filter(p=>p.some(s=>bySlug[s].category===cat));
+export const SPEC_FIELDS = {
+ 'protein':[['task','Task'],['modalities','Modalities'],['msa','MSA required'],['weights','Open weights'],['gpu','GPU need']],
+ 'single-cell':[['corpus','Pretraining corpus'],['architecture','Architecture'],['tasks','Tasks'],['species','Species']],
+ 'genomics':[['context','Input length / context'],['resolution','Resolution'],['species','Species'],['tasks','Tasks']],
+ 'imaging':[['dims','2D / 3D'],['modality','Modality'],['segType','Segmentation type']],
+ 'spatial':[['platforms','Platforms supported'],['resolution','Resolution'],['tasks','Tasks']],
+ 'agents':[['backbone','Model backbone'],['actions','Tools / actions'],['wetlab','Wet-lab integration']],
+ 'datasets':[['size','Size'],['modality','Modality'],['access','Access']],
+ 'drug-discovery':[['task','Task'],['representation','Molecular representation'],['weights','Open weights']],
+ 'cloud-labs':[['services','Services'],['ordering','Ordering (API / web)'],['turnaround','Turnaround']],
+ 'sequencing':[['platform','Sequencing platform'],['task','Task'],['variants','Variant types']],
+ 'proteomics':[['acquisition','Acquisition (DDA / DIA)'],['task','Task'],['input','Input']],
+ 'crispr':[['system','Editing system'],['task','Task'],['organism','Organisms']],
+ 'rna':[['task','Task'],['level','Structure level (2D / 3D)'],['input','Input']],
+ 'microbiome':[['input','Input'],['task','Task'],['database','Reference database']],
+ 'clinical':[['modality','Modality'],['baseModel','Base model'],['params','Parameters']] };
+export const COMMON_FIELDS = [['license','License'],['pricing','Pricing'],['date','Released'],['paper','Paper'],['github','GitHub'],['stars','GitHub stars'],['interface','Interface']];
+export const specRows = (t) => {
+  const s=t.specs||{};
+  const c={license:t.license,pricing:t.pricing,date:t.released||t.firstReleased||'',paper:t.paper||'',github:t.github||'',stars:s.stars!=null?s.stars.toLocaleString('en-US'):'',interface:s.interface||''};
+  return [...(SPEC_FIELDS[t.category]||[]).map(([k,l])=>[l,s[k]||'']), ...COMMON_FIELDS.map(([k,l])=>[l,c[k]])];
+};
+export const cmpData = () => ({ fields:SPEC_FIELDS, common:COMMON_FIELDS, cats:Object.fromEntries(Object.entries(CATS).map(([k,v])=>[k,v[0]])),
+  tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,d:t.description,s:t.specs||{},l:t.license,p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSource||''}])) });

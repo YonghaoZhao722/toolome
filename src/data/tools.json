@@ -17,7 +17,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-01",
-    "dateSource": "https://doi.org/10.1101/2023.04.30.538439"
+    "dateSource": "https://doi.org/10.1101/2023.04.30.538439",
+    "specs": {
+      "corpus": "33M human cells (whole-human checkpoint)",
+      "architecture": "Generative transformer",
+      "tasks": "Annotation, integration, reference mapping, perturbation",
+      "species": "Human",
+      "stars": 1654,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/bowang-lab/scGPT#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "geneformer",
@@ -35,7 +45,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-31",
-    "dateSource": "https://doi.org/10.1038/s41586-023-06139-9"
+    "dateSource": "https://doi.org/10.1038/s41586-023-06139-9",
+    "specs": {
+      "corpus": "~30M (original) / ~104M transcriptomes",
+      "architecture": "Transformer",
+      "species": "Human"
+    },
+    "specsSource": "https://huggingface.co/ctheodoris/Geneformer",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "scvi-tools",
@@ -55,7 +72,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-09-17",
-    "dateSource": "https://github.com/scverse/scvi-tools/releases/tag/0.7.0-alpha.3"
+    "dateSource": "https://github.com/scverse/scvi-tools/releases/tag/0.7.0-alpha.3",
+    "specs": {
+      "architecture": "Probabilistic generative models (VAE)",
+      "tasks": "Integration, annotation",
+      "stars": 1713,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/scverse/scvi-tools#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "celltypist",
@@ -74,7 +99,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-04-28",
-    "dateSource": "https://doi.org/10.1101/2021.04.28.441762"
+    "dateSource": "https://doi.org/10.1101/2021.04.28.441762",
+    "specs": {
+      "architecture": "Logistic regression",
+      "tasks": "Annotation",
+      "stars": 513,
+      "interface": "Package, Docker, Colab"
+    },
+    "specsSource": "https://github.com/Teichlab/celltypist#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "scanpy",
@@ -94,7 +127,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2017-08-09",
-    "dateSource": "https://doi.org/10.1101/174029"
+    "dateSource": "https://doi.org/10.1101/174029",
+    "specs": {
+      "tasks": "General analysis (>1M cells)",
+      "stars": 2590
+    },
+    "specsSource": "https://github.com/scverse/scanpy#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "seurat",
@@ -114,7 +153,12 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2015-04-13",
-    "dateSource": "https://doi.org/10.1038/nbt.3192"
+    "dateSource": "https://doi.org/10.1038/nbt.3192",
+    "specs": {
+      "stars": 2805
+    },
+    "specsSource": "https://github.com/satijalab/seurat#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "scfoundation",
@@ -132,7 +176,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-06-06",
-    "dateSource": "https://doi.org/10.1038/s41592-024-02305-7"
+    "dateSource": "https://doi.org/10.1038/s41592-024-02305-7",
+    "specs": {
+      "corpus": "50M+ human cells",
+      "architecture": "xTrimoGene transformer, 100M params",
+      "tasks": "Embeddings, annotation, fine-tuning",
+      "species": "Human",
+      "stars": 434,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/biomap-research/scFoundation#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "uce-universal-cell-embeddings",
@@ -151,7 +205,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-11-29",
-    "dateSource": "https://doi.org/10.1101/2023.11.28.568918"
+    "dateSource": "https://doi.org/10.1101/2023.11.28.568918",
+    "specs": {
+      "architecture": "Transformer",
+      "tasks": "Zero-shot embeddings",
+      "species": "Multi-species (species flag)",
+      "stars": 349,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/snap-stanford/UCE#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "cellrank",
@@ -170,7 +233,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-10-29",
-    "dateSource": "https://doi.org/10.21203/rs.3.rs-94819/v1"
+    "dateSource": "https://doi.org/10.21203/rs.3.rs-94819/v1",
+    "specs": {
+      "stars": 459,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/scverse/cellrank#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "scvelo",
@@ -189,7 +258,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-10-29",
-    "dateSource": "https://doi.org/10.1101/820936"
+    "dateSource": "https://doi.org/10.1101/820936",
+    "specs": {
+      "tasks": "RNA velocity",
+      "stars": 513
+    },
+    "specsSource": "https://github.com/theislab/scvelo#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "mudata--muon",
@@ -208,7 +283,12 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-06-01",
-    "dateSource": "https://doi.org/10.1101/2021.06.01.445670"
+    "dateSource": "https://doi.org/10.1101/2021.06.01.445670",
+    "specs": {
+      "stars": 280
+    },
+    "specsSource": "https://github.com/scverse/muon#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "archr",
@@ -227,7 +307,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-04-29",
-    "dateSource": "https://doi.org/10.1101/2020.04.28.066498"
+    "dateSource": "https://doi.org/10.1101/2020.04.28.066498",
+    "specs": {
+      "tasks": "scATAC-seq analysis",
+      "stars": 467,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/GreenleafLab/ArchR#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "celloracle",
@@ -246,7 +333,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-12-01",
-    "dateSource": "https://github.com/morris-lab/CellOracle/releases/tag/v0.4.2"
+    "dateSource": "https://github.com/morris-lab/CellOracle/releases/tag/v0.4.2",
+    "specs": {
+      "architecture": "GRN models",
+      "tasks": "In silico perturbation",
+      "species": "Human, mouse, yeast, zebrafish, Xenopus, rat, …",
+      "stars": 505,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/morris-lab/CellOracle#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "gears",
@@ -265,7 +361,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-08-17",
-    "dateSource": "https://doi.org/10.1038/s41587-023-01905-6"
+    "dateSource": "https://doi.org/10.1038/s41587-023-01905-6",
+    "specs": {
+      "architecture": "Graph neural network",
+      "tasks": "Perturbation (single and multi-gene)",
+      "stars": 418,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/snap-stanford/GEARS#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "harmony",
@@ -284,7 +388,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-11-04",
-    "dateSource": "https://doi.org/10.1101/461954"
+    "dateSource": "https://doi.org/10.1101/461954",
+    "specs": {
+      "tasks": "Batch integration",
+      "stars": 677,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/immunogenomics/harmony#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "tangram",
@@ -303,7 +414,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-08-30",
-    "dateSource": "https://doi.org/10.1101/2020.08.29.272831"
+    "dateSource": "https://doi.org/10.1101/2020.08.29.272831",
+    "specs": {
+      "platforms": "Visium, Slide-seq, others",
+      "tasks": "Single-cell to spatial mapping",
+      "stars": 373,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/broadinstitute/Tangram#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "paste",
@@ -322,7 +441,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-03-16",
-    "dateSource": "https://doi.org/10.1101/2021.03.16.435604"
+    "dateSource": "https://doi.org/10.1101/2021.03.16.435604",
+    "specs": {
+      "resolution": "Spot",
+      "tasks": "Slice alignment, integration",
+      "stars": 105,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/raphael-group/paste#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "moscot",
@@ -341,7 +468,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-11",
-    "dateSource": "https://doi.org/10.1101/2023.05.11.540374"
+    "dateSource": "https://doi.org/10.1101/2023.05.11.540374",
+    "specs": {
+      "tasks": "Slide alignment, space/time mapping",
+      "stars": 217,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/theislab/moscot#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "cell2location",
@@ -360,7 +494,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-10-14",
-    "dateSource": "https://github.com/BayraktarLab/cell2location/releases/tag/v0.02-alpha"
+    "dateSource": "https://github.com/BayraktarLab/cell2location/releases/tag/v0.02-alpha",
+    "specs": {
+      "platforms": "Visium",
+      "tasks": "Cell-type deconvolution",
+      "stars": 462,
+      "interface": "Package, Docker, Colab"
+    },
+    "specsSource": "https://github.com/BayraktarLab/cell2location#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "squidpy",
@@ -380,7 +522,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-01-31",
-    "dateSource": "https://doi.org/10.1038/s41592-021-01358-2"
+    "dateSource": "https://doi.org/10.1038/s41592-021-01358-2",
+    "specs": {
+      "platforms": "Visium, Slide-seq, Xenium, others",
+      "tasks": "Neighbor graphs, image features",
+      "stars": 608,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/scverse/squidpy#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "spatialdata",
@@ -399,7 +549,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-03-25",
-    "dateSource": "https://github.com/scverse/spatialdata/releases/tag/v0.0.1.dev1"
+    "dateSource": "https://github.com/scverse/spatialdata/releases/tag/v0.0.1.dev1",
+    "specs": {
+      "stars": 402,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/scverse/spatialdata#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "stagate",
@@ -418,7 +574,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-08-23",
-    "dateSource": "https://doi.org/10.1101/2021.08.21.457240"
+    "dateSource": "https://doi.org/10.1101/2021.08.21.457240",
+    "specs": {
+      "tasks": "Spatial domains",
+      "stars": 55
+    },
+    "specsSource": "https://github.com/RucDongLab/STAGATE#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "graphst",
@@ -437,7 +599,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-07-28",
-    "dateSource": "https://github.com/JinmiaoChenLab/GraphST/releases/tag/V1.0.0"
+    "dateSource": "https://github.com/JinmiaoChenLab/GraphST/releases/tag/V1.0.0",
+    "specs": {
+      "tasks": "Clustering, integration, deconvolution",
+      "stars": 165
+    },
+    "specsSource": "https://github.com/JinmiaoChenLab/GraphST#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "bayesspace",
@@ -456,7 +624,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-09-05",
-    "dateSource": "https://doi.org/10.1101/2020.09.04.283812"
+    "dateSource": "https://doi.org/10.1101/2020.09.04.283812",
+    "specs": {
+      "resolution": "Spot → sub-spot enhancement",
+      "tasks": "Clustering, resolution enhancement",
+      "stars": 189,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/edward130603/BayesSpace#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rctd-spacexr",
@@ -475,7 +651,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-05-08",
-    "dateSource": "https://doi.org/10.1101/2020.05.07.082750"
+    "dateSource": "https://doi.org/10.1101/2020.05.07.082750",
+    "specs": {
+      "platforms": "MERFISH, Slide-seq, Visium",
+      "tasks": "Cell-type decomposition",
+      "stars": 489,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/dmcable/spacexr#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "giotto-suite",
@@ -492,7 +676,13 @@
       "visualization"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "tasks": "Processing, analysis, visualization",
+      "stars": 394
+    },
+    "specsSource": "https://github.com/giotto-suite/Giotto#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "nicheformer",
@@ -510,7 +700,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-04-17",
-    "dateSource": "https://doi.org/10.1101/2024.04.15.589472"
+    "dateSource": "https://doi.org/10.1101/2024.04.15.589472",
+    "specs": {
+      "tasks": "Foundation model (dissociated + spatial)",
+      "stars": 176,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/theislab/nicheformer#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphafold-server-alphafold-3",
@@ -529,7 +726,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-05-08",
-    "dateSource": "https://doi.org/10.1038/s41586-024-07487-w"
+    "dateSource": "https://doi.org/10.1038/s41586-024-07487-w",
+    "specs": {
+      "task": "Structure prediction",
+      "modalities": "Protein, nucleic acid, ligand, complex",
+      "weights": "On request (terms of use)",
+      "stars": 8646,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/google-deepmind/alphafold3#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphafold-db",
@@ -545,7 +751,12 @@
       "structure"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "task": "Precomputed structure database"
+    },
+    "specsSource": "https://alphafold.ebi.ac.uk",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rfdiffusion",
@@ -564,7 +775,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-12-10",
-    "dateSource": "https://doi.org/10.1101/2022.12.09.519842"
+    "dateSource": "https://doi.org/10.1101/2022.12.09.519842",
+    "specs": {
+      "task": "Backbone generation, binder design, motif scaffolding",
+      "weights": "Yes",
+      "stars": 3090,
+      "interface": "Package, Docker, Colab"
+    },
+    "specsSource": "https://github.com/RosettaCommons/RFdiffusion#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "proteinmpnn",
@@ -583,7 +802,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-06-04",
-    "dateSource": "https://doi.org/10.1101/2022.06.03.494563"
+    "dateSource": "https://doi.org/10.1101/2022.06.03.494563",
+    "specs": {
+      "task": "Inverse folding (sequence design)",
+      "weights": "Yes (in repo)",
+      "stars": 1879,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/dauparas/ProteinMPNN#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "esm3--evolutionaryscale",
@@ -602,7 +829,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-07-02",
-    "dateSource": "https://doi.org/10.1101/2024.07.01.600583"
+    "dateSource": "https://doi.org/10.1101/2024.07.01.600583",
+    "specs": {
+      "task": "Generative design, embeddings, structure prediction",
+      "weights": "Yes (Hugging Face)",
+      "stars": 2991,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/Biohub/esm#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "esm-2--esmfold",
@@ -621,7 +856,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-07-21",
-    "dateSource": "https://doi.org/10.1101/2022.07.20.500902"
+    "dateSource": "https://doi.org/10.1101/2022.07.20.500902",
+    "specs": {
+      "task": "Protein language model, structure prediction",
+      "msa": "No (single sequence)",
+      "weights": "Yes",
+      "stars": 4170,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/facebookresearch/esm#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "boltz",
@@ -640,7 +884,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-11-17",
-    "dateSource": "https://github.com/jwohlwend/boltz/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/jwohlwend/boltz/releases/tag/v0.1.0",
+    "specs": {
+      "task": "Structure + binding-affinity prediction",
+      "weights": "Yes (MIT)",
+      "msa": "Optional (MSA server flag)",
+      "gpu": "Recommended; CPU supported but much slower",
+      "stars": 4255,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/jwohlwend/boltz#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "chai-1",
@@ -659,7 +913,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-09-09",
-    "dateSource": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.0.1"
+    "dateSource": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.0.1",
+    "specs": {
+      "task": "Structure prediction",
+      "modalities": "Protein, nucleotides, ligands (SMILES), modified residues, complex",
+      "msa": "Optional (recommended)",
+      "gpu": "Required: CUDA + bfloat16; A100/H100/L40S recommended",
+      "stars": 2003,
+      "interface": "Package, Docker, Web"
+    },
+    "specsSource": "https://github.com/chaidiscovery/chai-lab#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "openfold",
@@ -678,7 +942,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-11-18",
-    "dateSource": "https://github.com/aqlaboratory/openfold/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/aqlaboratory/openfold/releases/tag/v0.1.0",
+    "specs": {
+      "task": "Structure prediction (trainable AlphaFold2)",
+      "stars": 3440
+    },
+    "specsSource": "https://github.com/aqlaboratory/openfold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "colabfold",
@@ -697,7 +967,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-07-22",
-    "dateSource": "https://github.com/sokrypton/ColabFold/releases/tag/v1.0-alpha"
+    "dateSource": "https://github.com/sokrypton/ColabFold/releases/tag/v1.0-alpha",
+    "specs": {
+      "task": "Structure prediction",
+      "modalities": "Monomer, complex",
+      "msa": "Yes (MMseqs2 server)",
+      "gpu": "Colab GPU; ~16 GB ≈ 2,000 residues",
+      "stars": 2964,
+      "interface": "Package, Docker, Colab, Web"
+    },
+    "specsSource": "https://github.com/sokrypton/ColabFold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rosettafold-all-atom",
@@ -715,7 +995,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-10-09",
-    "dateSource": "https://doi.org/10.1101/2023.10.09.561603"
+    "dateSource": "https://doi.org/10.1101/2023.10.09.561603",
+    "specs": {
+      "task": "Structure prediction",
+      "modalities": "Protein, nucleic acid, small molecule, covalent modifications, complex",
+      "stars": 826,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "bindcraft",
@@ -734,7 +1022,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-09-29",
-    "dateSource": "https://github.com/martinpacesa/BindCraft/releases/tag/v1.0.0"
+    "dateSource": "https://github.com/martinpacesa/BindCraft/releases/tag/v1.0.0",
+    "specs": {
+      "task": "Binder design",
+      "gpu": "Large GPU memory needed",
+      "stars": 1249,
+      "interface": "Colab"
+    },
+    "specsSource": "https://github.com/martinpacesa/BindCraft#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "foldseek",
@@ -753,7 +1049,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-02-09",
-    "dateSource": "https://doi.org/10.1101/2022.02.07.479398"
+    "dateSource": "https://doi.org/10.1101/2022.02.07.479398",
+    "specs": {
+      "task": "Structure search, clustering",
+      "modalities": "Monomer, multimer",
+      "stars": 1313,
+      "interface": "Package, Web"
+    },
+    "specsSource": "https://github.com/steineggerlab/foldseek#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "protenix",
@@ -771,7 +1075,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-12-12",
-    "dateSource": "https://github.com/bytedance/Protenix/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/bytedance/Protenix/releases/tag/v0.1.0",
+    "specs": {
+      "task": "Structure prediction (trainable AlphaFold 3)",
+      "modalities": "Protein, ligand, RNA, antibody–antigen",
+      "stars": 2080,
+      "interface": "Package, Web"
+    },
+    "specsSource": "https://github.com/bytedance/Protenix#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "tamarind-bio",
@@ -805,7 +1117,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-02-21",
-    "dateSource": "https://doi.org/10.1101/2025.02.18.638918"
+    "dateSource": "https://doi.org/10.1101/2025.02.18.638918",
+    "specs": {
+      "context": "Up to 1M bp",
+      "resolution": "Single nucleotide",
+      "species": "All domains of life",
+      "tasks": "Language modeling, design",
+      "stars": 4263,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/ArcInstitute/evo2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphagenome",
@@ -824,7 +1146,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-06-25",
-    "dateSource": "https://github.com/google-deepmind/alphagenome/releases/tag/v0.0.1"
+    "dateSource": "https://github.com/google-deepmind/alphagenome/releases/tag/v0.0.1",
+    "specs": {
+      "context": "Up to 1M bp",
+      "resolution": "Single bp (most outputs)",
+      "tasks": "Multimodal regulatory tracks, variant effects",
+      "stars": 2193,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/google-deepmind/alphagenome#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "enformer",
@@ -843,7 +1174,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-04-08",
-    "dateSource": "https://doi.org/10.1101/2021.04.07.438649"
+    "dateSource": "https://doi.org/10.1101/2021.04.07.438649",
+    "specs": {
+      "context": "196,608 bp",
+      "resolution": "128 bp bins",
+      "species": "Human, mouse",
+      "tasks": "Expression / chromatin tracks",
+      "stars": 15234
+    },
+    "specsSource": "https://github.com/google-deepmind/deepmind-research#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "spliceai",
@@ -862,7 +1202,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-01-17",
-    "dateSource": "https://doi.org/10.1016/j.cell.2018.12.015"
+    "dateSource": "https://doi.org/10.1016/j.cell.2018.12.015",
+    "specs": {
+      "tasks": "Splice variant effects (VCF annotation)",
+      "stars": 506,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/Illumina/SpliceAI#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "nucleotide-transformer",
@@ -880,7 +1227,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-01-15",
-    "dateSource": "https://doi.org/10.1101/2023.01.11.523679"
+    "dateSource": "https://doi.org/10.1101/2023.01.11.523679",
+    "specs": {
+      "context": "Up to 1 Mb (v3)",
+      "resolution": "Single base",
+      "species": "3,200+ human + 850 species",
+      "tasks": "Embeddings, functional tracks, annotation",
+      "stars": 926,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/instadeepai/nucleotide-transformer#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "hyenadna",
@@ -899,7 +1256,17 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-06-27",
-    "dateSource": "https://arxiv.org/abs/2306.15794"
+    "dateSource": "https://arxiv.org/abs/2306.15794",
+    "specs": {
+      "context": "Up to 1M tokens",
+      "resolution": "Single nucleotide",
+      "species": "Human (hg38)",
+      "tasks": "Language modeling, fine-tuning",
+      "stars": 810,
+      "interface": "Package, Docker, Colab"
+    },
+    "specsSource": "https://github.com/HazyResearch/hyena-dna#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "dnabert-2",
@@ -917,7 +1284,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-06-26",
-    "dateSource": "https://arxiv.org/abs/2306.15006"
+    "dateSource": "https://arxiv.org/abs/2306.15006",
+    "specs": {
+      "species": "Multi-species",
+      "tasks": "Genome understanding (GUE benchmark)",
+      "stars": 516,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/MAGICS-LAB/DNABERT_2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "borzoi",
@@ -936,7 +1311,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-09-01",
-    "dateSource": "https://doi.org/10.1101/2023.08.30.555582"
+    "dateSource": "https://doi.org/10.1101/2023.08.30.555582",
+    "specs": {
+      "context": "524 kb",
+      "resolution": "32 bp",
+      "tasks": "RNA-seq coverage, variant effects",
+      "stars": 268,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/calico/borzoi#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphamissense",
@@ -954,7 +1338,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-09-22",
-    "dateSource": "https://doi.org/10.1126/science.adg7492"
+    "dateSource": "https://doi.org/10.1126/science.adg7492",
+    "specs": {
+      "species": "Human",
+      "tasks": "Missense pathogenicity (precomputed; no weights)",
+      "stars": 636,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/google-deepmind/alphamissense#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "deepvariant",
@@ -974,7 +1366,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2016-12-14",
-    "dateSource": "https://doi.org/10.1101/092890"
+    "dateSource": "https://doi.org/10.1101/092890",
+    "specs": {
+      "stars": 3822,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/google/deepvariant#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "caduceus",
@@ -993,7 +1391,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-03-05",
-    "dateSource": "https://arxiv.org/abs/2403.03234"
+    "dateSource": "https://arxiv.org/abs/2403.03234",
+    "specs": {
+      "species": "Human (hg38 pretraining)",
+      "tasks": "Long-range DNA modeling",
+      "stars": 253
+    },
+    "specsSource": "https://github.com/kuleshov-group/caduceus#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rdkit",
@@ -1008,7 +1413,13 @@
       "cheminformatics"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "stars": 3625,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/rdkit/rdkit#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "deepchem",
@@ -1026,7 +1437,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2016-01-29",
-    "dateSource": "https://github.com/deepchem/deepchem/releases/tag/0.0.1"
+    "dateSource": "https://github.com/deepchem/deepchem/releases/tag/0.0.1",
+    "specs": {
+      "stars": 7060,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/deepchem/deepchem#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "diffdock",
@@ -1045,7 +1462,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-10-04",
-    "dateSource": "https://arxiv.org/abs/2210.01776"
+    "dateSource": "https://arxiv.org/abs/2210.01776",
+    "specs": {
+      "stars": 1585,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/gcorso/DiffDock#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "reinvent-4",
@@ -1064,7 +1487,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-11-07",
-    "dateSource": "https://github.com/MolecularAI/REINVENT4/releases/tag/v4.0.11"
+    "dateSource": "https://github.com/MolecularAI/REINVENT4/releases/tag/v4.0.11",
+    "specs": {
+      "stars": 879,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/MolecularAI/REINVENT4#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "chemprop",
@@ -1083,7 +1512,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-02-07",
-    "dateSource": "https://github.com/chemprop/chemprop/releases/tag/v0.0.2"
+    "dateSource": "https://github.com/chemprop/chemprop/releases/tag/v0.0.2",
+    "specs": {
+      "stars": 2505,
+      "interface": "Colab, Web"
+    },
+    "specsSource": "https://github.com/chemprop/chemprop#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "torchdrug",
@@ -1102,7 +1537,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-10-23",
-    "dateSource": "https://github.com/DeepGraphLearning/torchdrug/releases/tag/v0.1.2"
+    "dateSource": "https://github.com/DeepGraphLearning/torchdrug/releases/tag/v0.1.2",
+    "specs": {
+      "stars": 1589,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/DeepGraphLearning/torchdrug#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "autodock-vina",
@@ -1120,7 +1561,12 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-03-01",
-    "dateSource": "https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.0.dev3"
+    "dateSource": "https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.0.dev3",
+    "specs": {
+      "stars": 1086
+    },
+    "specsSource": "https://github.com/ccsb-scripps/AutoDock-Vina#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "openmm",
@@ -1138,7 +1584,12 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2013-10-02",
-    "dateSource": "https://github.com/openmm/openmm/releases/tag/5.2"
+    "dateSource": "https://github.com/openmm/openmm/releases/tag/5.2",
+    "specs": {
+      "stars": 2001
+    },
+    "specsSource": "https://github.com/openmm/openmm#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "nvidia-bionemo",
@@ -1154,7 +1605,13 @@
       "gpu"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "stars": 870,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rowan",
@@ -1188,7 +1645,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-06-02",
-    "dateSource": "https://doi.org/10.1101/2025.05.30.656746"
+    "dateSource": "https://doi.org/10.1101/2025.05.30.656746",
+    "specs": {
+      "stars": 3982,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/snap-stanford/Biomni#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "futurehouse-platform",
@@ -1222,7 +1685,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-09-10",
-    "dateSource": "https://arxiv.org/abs/2409.13740"
+    "dateSource": "https://arxiv.org/abs/2409.13740",
+    "specs": {
+      "stars": 9390,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/Future-House/paper-qa#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "biochatter",
@@ -1241,7 +1710,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-06-19",
-    "dateSource": "https://github.com/biocypher/biochatter/releases/tag/v0.1.1"
+    "dateSource": "https://github.com/biocypher/biochatter/releases/tag/v0.1.1",
+    "specs": {
+      "stars": 221,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/biocypher/biochatter#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "elicit",
@@ -1303,7 +1778,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-02-22",
-    "dateSource": "https://github.com/latchbio/latch/releases/tag/v0.0.30"
+    "dateSource": "https://github.com/latchbio/latch/releases/tag/v0.0.30",
+    "specs": {
+      "stars": 174,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/latchbio/latch#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "adaptyv-bio",
@@ -1407,7 +1888,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-02-03",
-    "dateSource": "https://doi.org/10.1101/2020.02.02.931238"
+    "dateSource": "https://doi.org/10.1101/2020.02.02.931238",
+    "specs": {
+      "dims": "2D, 3D",
+      "modality": "Microscopy",
+      "segType": "Cell / nucleus instance",
+      "stars": 2402,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/MouseLand/cellpose#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "stardist",
@@ -1426,7 +1916,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-06-09",
-    "dateSource": "https://arxiv.org/abs/1806.03535"
+    "dateSource": "https://arxiv.org/abs/1806.03535",
+    "specs": {
+      "dims": "2D, 3D",
+      "modality": "Microscopy, histopathology",
+      "segType": "Nucleus instance (star-convex)",
+      "stars": 1284,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/stardist/stardist#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "napari",
@@ -1444,7 +1943,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-11-28",
-    "dateSource": "https://github.com/napari/napari/releases/tag/v0.2.6"
+    "dateSource": "https://github.com/napari/napari/releases/tag/v0.2.6",
+    "specs": {
+      "dims": "n-D (2D/3D)",
+      "modality": "Microscopy viewer",
+      "stars": 2780,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/napari/napari#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "qupath",
@@ -1463,7 +1970,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2016-10-04",
-    "dateSource": "https://github.com/qupath/qupath/releases/tag/v0.0.1-beta"
+    "dateSource": "https://github.com/qupath/qupath/releases/tag/v0.0.1-beta",
+    "specs": {
+      "modality": "Whole-slide, brightfield, fluorescence",
+      "segType": "Cell",
+      "stars": 1463
+    },
+    "specsSource": "https://github.com/qupath/qupath#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "uni",
@@ -1482,7 +1996,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-03-19",
-    "dateSource": "https://doi.org/10.1038/s41591-024-02857-3"
+    "dateSource": "https://doi.org/10.1038/s41591-024-02857-3",
+    "specs": {
+      "modality": "H&E, IHC (UNI 2: 200M+ images)",
+      "stars": 789,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/mahmoodlab/UNI#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "conch",
@@ -1501,7 +2022,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-03-19",
-    "dateSource": "https://doi.org/10.1038/s41591-024-02856-4"
+    "dateSource": "https://doi.org/10.1038/s41591-024-02856-4",
+    "specs": {
+      "modality": "Histopathology + captions (vision-language)",
+      "stars": 537,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/mahmoodlab/CONCH#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "prov-gigapath",
@@ -1520,7 +2048,14 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-05-22",
-    "dateSource": "https://doi.org/10.1038/s41586-024-07441-w"
+    "dateSource": "https://doi.org/10.1038/s41586-024-07441-w",
+    "specs": {
+      "modality": "Whole-slide pathology",
+      "stars": 641,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/prov-gigapath/prov-gigapath#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "cellprofiler",
@@ -1535,7 +2070,12 @@
       "high-content"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "stars": 1137
+    },
+    "specsSource": "https://github.com/CellProfiler/CellProfiler#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "micro-sam",
@@ -1554,7 +2094,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-10",
-    "dateSource": "https://github.com/computational-cell-analytics/micro-sam/releases/tag/0.0.1"
+    "dateSource": "https://github.com/computational-cell-analytics/micro-sam/releases/tag/0.0.1",
+    "specs": {
+      "dims": "2D, 3D",
+      "modality": "Microscopy",
+      "segType": "Interactive + automatic, tracking",
+      "stars": 738
+    },
+    "specsSource": "https://github.com/computational-cell-analytics/micro-sam#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "cz-cellxgene",
@@ -1572,7 +2120,12 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-12-20",
-    "dateSource": "https://github.com/chanzuckerberg/cellxgene-census/releases/tag/v0.0.1"
+    "dateSource": "https://github.com/chanzuckerberg/cellxgene-census/releases/tag/v0.0.1",
+    "specs": {
+      "stars": 128
+    },
+    "specsSource": "https://github.com/chanzuckerberg/cellxgene-census#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "human-cell-atlas-data-portal",
@@ -1652,7 +2205,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-12-08",
-    "dateSource": "https://doi.org/10.1101/2023.12.07.570727"
+    "dateSource": "https://doi.org/10.1101/2023.12.07.570727",
+    "specs": {
+      "stars": 478,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/OATML-Markslab/ProteinGym#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "therapeutics-data-commons",
@@ -1671,7 +2230,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-02-18",
-    "dateSource": "https://arxiv.org/abs/2102.09548"
+    "dateSource": "https://arxiv.org/abs/2102.09548",
+    "specs": {
+      "stars": 1297,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/mims-harvard/TDC#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "casp",
@@ -1704,7 +2269,12 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-02-02",
-    "dateSource": "https://github.com/openproblems-bio/openproblems/releases/tag/v0.7.0"
+    "dateSource": "https://github.com/openproblems-bio/openproblems/releases/tag/v0.7.0",
+    "specs": {
+      "stars": 441
+    },
+    "specsSource": "https://github.com/openproblems-bio/openproblems#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "posebusters",
@@ -1723,7 +2293,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-08-10",
-    "dateSource": "https://arxiv.org/abs/2308.05777"
+    "dateSource": "https://arxiv.org/abs/2308.05777",
+    "specs": {
+      "stars": 414,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/maabuu/posebusters#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "polaris",
@@ -1741,7 +2317,13 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-06-08",
-    "dateSource": "https://github.com/polaris-hub/polaris/releases/tag/0.0.1"
+    "dateSource": "https://github.com/polaris-hub/polaris/releases/tag/0.0.1",
+    "specs": {
+      "stars": 145,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/polaris-hub/polaris#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "10x-genomics-datasets",
@@ -1807,7 +2389,15 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "released": "2026-10-05",
-    "source": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1"
+    "source": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
+    "specs": {
+      "task": "Enzyme design (catalytic motif scaffolding)",
+      "modalities": "Protein + ligand context",
+      "stars": 296,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/google-deepmind/alphaprotein-novo#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "spliceai2",
@@ -1860,7 +2450,16 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "released": "2026-10-09",
-    "source": "https://arxiv.org/abs/2610.13917"
+    "source": "https://arxiv.org/abs/2610.13917",
+    "specs": {
+      "task": "Text-to-structure design (monomers, binders)",
+      "weights": "Yes (Hugging Face)",
+      "gpu": "~32 GB GPU memory",
+      "stars": 55,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/jleechung/prompteina#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "dorado",
@@ -1879,7 +2478,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-10-05",
-    "dateSource": "https://github.com/nanoporetech/dorado/releases/tag/v0.0.1"
+    "dateSource": "https://github.com/nanoporetech/dorado/releases/tag/v0.0.1",
+    "specs": {
+      "stars": 881
+    },
+    "specsSource": "https://github.com/nanoporetech/dorado#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "bonito",
@@ -1898,7 +2502,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-02-20",
-    "dateSource": "https://github.com/nanoporetech/bonito/releases/tag/v0.0.5"
+    "dateSource": "https://github.com/nanoporetech/bonito/releases/tag/v0.0.5",
+    "specs": {
+      "stars": 435,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/nanoporetech/bonito#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "medaka",
@@ -1917,7 +2527,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2017-09-01",
-    "dateSource": "https://github.com/nanoporetech/medaka/releases/tag/v0.0.1"
+    "dateSource": "https://github.com/nanoporetech/medaka/releases/tag/v0.0.1",
+    "specs": {
+      "stars": 530,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/nanoporetech/medaka#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "remora",
@@ -1936,7 +2552,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-12-01",
-    "dateSource": "https://github.com/nanoporetech/remora/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/nanoporetech/remora/releases/tag/v0.1.0",
+    "specs": {
+      "stars": 190,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/nanoporetech/remora#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "clair3",
@@ -1956,7 +2578,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-05-17",
-    "dateSource": "https://github.com/HKU-BAL/Clair3/releases/tag/v0.1"
+    "dateSource": "https://github.com/HKU-BAL/Clair3/releases/tag/v0.1",
+    "specs": {
+      "stars": 394,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/HKU-BAL/Clair3#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "deepconsensus",
@@ -1976,7 +2604,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-01-15",
-    "dateSource": "https://github.com/google/deepconsensus/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/google/deepconsensus/releases/tag/v0.1.0",
+    "specs": {
+      "stars": 265,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/google/deepconsensus#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "pepper-margin-deepvariant",
@@ -1996,7 +2630,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-10-09",
-    "dateSource": "https://github.com/kishwarshafin/pepper/releases/tag/v0.1"
+    "dateSource": "https://github.com/kishwarshafin/pepper/releases/tag/v0.1",
+    "specs": {
+      "stars": 261,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/kishwarshafin/pepper#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "sniffles2",
@@ -2016,7 +2656,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-04-05",
-    "dateSource": "https://doi.org/10.1101/2022.04.04.487055"
+    "dateSource": "https://doi.org/10.1101/2022.04.04.487055",
+    "specs": {
+      "stars": 684,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/fritzsedlazeck/Sniffles#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "basenji",
@@ -2036,7 +2682,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2017-07-10",
-    "dateSource": "https://doi.org/10.1101/161851"
+    "dateSource": "https://doi.org/10.1101/161851",
+    "specs": {
+      "resolution": "Bins",
+      "tasks": "Regulatory activity tracks, variant scoring",
+      "stars": 477,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/calico/basenji#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "chrombpnet",
@@ -2056,7 +2710,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-01-25",
-    "dateSource": "https://github.com/kundajelab/chrombpnet/releases/tag/v1.3-pre-release"
+    "dateSource": "https://github.com/kundajelab/chrombpnet/releases/tag/v1.3-pre-release",
+    "specs": {
+      "resolution": "Base resolution",
+      "tasks": "Chromatin accessibility, TF footprints",
+      "stars": 257,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/kundajelab/chrombpnet#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "bpnet",
@@ -2076,7 +2738,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-08-21",
-    "dateSource": "https://doi.org/10.1101/737981"
+    "dateSource": "https://doi.org/10.1101/737981",
+    "specs": {
+      "resolution": "Base resolution",
+      "tasks": "TF binding profiles, motif syntax",
+      "stars": 187,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/kundajelab/bpnet#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "sei",
@@ -2096,7 +2766,14 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-07-30",
-    "dateSource": "https://doi.org/10.1101/2021.07.29.454384"
+    "dateSource": "https://doi.org/10.1101/2021.07.29.454384",
+    "specs": {
+      "tasks": "21,907 chromatin profiles, sequence classes",
+      "stars": 118,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/FunctionLab/sei-framework#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "selene",
@@ -2116,7 +2793,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-08-06",
-    "dateSource": "https://github.com/FunctionLab/selene/releases/tag/0.0.0"
+    "dateSource": "https://github.com/FunctionLab/selene/releases/tag/0.0.0",
+    "specs": {
+      "stars": 400,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/FunctionLab/selene#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "scbasset",
@@ -2136,7 +2819,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-09-10",
-    "dateSource": "https://doi.org/10.1101/2021.09.08.459495"
+    "dateSource": "https://doi.org/10.1101/2021.09.08.459495",
+    "specs": {
+      "architecture": "Sequence CNN",
+      "tasks": "scATAC representation, TF activity",
+      "stars": 103,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/calico/scBasset#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "eve",
@@ -2156,7 +2847,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-12-22",
-    "dateSource": "https://doi.org/10.1101/2020.12.21.423785"
+    "dateSource": "https://doi.org/10.1101/2020.12.21.423785",
+    "specs": {
+      "tasks": "Missense variant effects",
+      "stars": 208
+    },
+    "specsSource": "https://github.com/OATML-Markslab/EVE#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "primateai-3d",
@@ -2176,7 +2873,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-02",
-    "dateSource": "https://doi.org/10.1101/2023.05.01.538953"
+    "dateSource": "https://doi.org/10.1101/2023.05.01.538953",
+    "specs": {
+      "stars": 76
+    },
+    "specsSource": "https://github.com/Illumina/PrimateAI-3D#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "gpn-msa",
@@ -2196,7 +2898,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-10-11",
-    "dateSource": "https://doi.org/10.1101/2023.10.10.561776"
+    "dateSource": "https://doi.org/10.1101/2023.10.10.561776",
+    "specs": {
+      "stars": 383,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/songlab-cal/gpn#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "dia-nn",
@@ -2216,7 +2924,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-03-15",
-    "dateSource": "https://doi.org/10.1101/282699"
+    "dateSource": "https://doi.org/10.1101/282699",
+    "specs": {
+      "stars": 488,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/vdemichev/DiaNN#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphapeptdeep",
@@ -2236,7 +2950,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-06-28",
-    "dateSource": "https://github.com/MannLabs/alphapeptdeep/releases/tag/pre-trained-models"
+    "dateSource": "https://github.com/MannLabs/alphapeptdeep/releases/tag/pre-trained-models",
+    "specs": {
+      "stars": 160,
+      "interface": "Package, Docker, Web"
+    },
+    "specsSource": "https://github.com/MannLabs/alphapeptdeep#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphadia",
@@ -2256,7 +2976,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-02-24",
-    "dateSource": "https://github.com/MannLabs/alphadia/releases/tag/v1.0.0"
+    "dateSource": "https://github.com/MannLabs/alphadia/releases/tag/v1.0.0",
+    "specs": {
+      "stars": 118,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/MannLabs/alphadia#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ms2pip",
@@ -2276,7 +3002,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-01-20",
-    "dateSource": "https://github.com/CompOmics/ms2pip/releases/tag/v20190120"
+    "dateSource": "https://github.com/CompOmics/ms2pip/releases/tag/v20190120",
+    "specs": {
+      "stars": 50,
+      "interface": "Web"
+    },
+    "specsSource": "https://github.com/CompOmics/ms2pip#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "deeplc",
@@ -2296,7 +3028,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-12-18",
-    "dateSource": "https://github.com/CompOmics/DeepLC/releases/tag/v0.1.1"
+    "dateSource": "https://github.com/CompOmics/DeepLC/releases/tag/v0.1.1",
+    "specs": {
+      "stars": 80,
+      "interface": "Package, Web"
+    },
+    "specsSource": "https://github.com/CompOmics/DeepLC#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "casanovo",
@@ -2316,7 +3054,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-08-23",
-    "dateSource": "https://github.com/Noble-Lab/casanovo/releases/tag/v1.1.0"
+    "dateSource": "https://github.com/Noble-Lab/casanovo/releases/tag/v1.1.0",
+    "specs": {
+      "stars": 204
+    },
+    "specsSource": "https://github.com/Noble-Lab/casanovo#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "instanovo",
@@ -2336,7 +3079,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-09-01",
-    "dateSource": "https://github.com/instadeepai/InstaNovo/releases/tag/0.1.0"
+    "dateSource": "https://github.com/instadeepai/InstaNovo/releases/tag/0.1.0",
+    "specs": {
+      "stars": 135,
+      "interface": "Colab"
+    },
+    "specsSource": "https://github.com/instadeepai/InstaNovo#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "sirius",
@@ -2356,7 +3105,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-03-18",
-    "dateSource": "https://doi.org/10.1038/s41592-019-0344-8"
+    "dateSource": "https://doi.org/10.1038/s41592-019-0344-8",
+    "specs": {
+      "stars": 170,
+      "interface": "Web"
+    },
+    "specsSource": "https://github.com/sirius-ms/sirius#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ms2deepscore",
@@ -2376,7 +3131,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-02-08",
-    "dateSource": "https://github.com/matchms/ms2deepscore/releases/tag/0.1.0"
+    "dateSource": "https://github.com/matchms/ms2deepscore/releases/tag/0.1.0",
+    "specs": {
+      "stars": 89,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/matchms/ms2deepscore#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "matchms",
@@ -2396,7 +3157,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-05-26",
-    "dateSource": "https://github.com/matchms/matchms/releases/tag/0.3.2"
+    "dateSource": "https://github.com/matchms/matchms/releases/tag/0.3.2",
+    "specs": {
+      "stars": 275,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/matchms/matchms#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "dreams",
@@ -2416,7 +3183,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-12-01",
-    "dateSource": "https://doi.org/10.26434/chemrxiv-2023-kss3r"
+    "dateSource": "https://doi.org/10.26434/chemrxiv-2023-kss3r",
+    "specs": {
+      "stars": 217,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/pluskal-lab/DreaMS#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "mzmine",
@@ -2434,7 +3207,12 @@
       "processing"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "stars": 306
+    },
+    "specsSource": "https://github.com/mzmine/mzmine#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "crispor",
@@ -2454,7 +3232,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2016-06-02",
-    "dateSource": "https://github.com/maximilianh/crisporWebsite/releases/tag/v3.1"
+    "dateSource": "https://github.com/maximilianh/crisporWebsite/releases/tag/v3.1",
+    "specs": {
+      "stars": 91,
+      "interface": "Docker, Web"
+    },
+    "specsSource": "https://github.com/maximilianh/crisporWebsite#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "chopchop",
@@ -2493,7 +3277,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-06-27",
-    "dateSource": "https://doi.org/10.1101/2022.06.27.497780"
+    "dateSource": "https://doi.org/10.1101/2022.06.27.497780",
+    "specs": {
+      "stars": 18,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/gpp-rnd/rs3#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "pridict",
@@ -2513,7 +3303,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-01-16",
-    "dateSource": "https://doi.org/10.1038/s41587-022-01613-7"
+    "dateSource": "https://doi.org/10.1038/s41587-022-01613-7",
+    "specs": {
+      "stars": 10,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/uzh-dqbm-cmi/PRIDICT#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "crispresso2",
@@ -2533,7 +3329,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-08-15",
-    "dateSource": "https://doi.org/10.1101/392217"
+    "dateSource": "https://doi.org/10.1101/392217",
+    "specs": {
+      "stars": 357,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/pinellolab/CRISPResso2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "opencrispr",
@@ -2553,7 +3355,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-04-22",
-    "dateSource": "https://doi.org/10.1101/2024.04.22.590591"
+    "dateSource": "https://doi.org/10.1101/2024.04.22.590591",
+    "specs": {
+      "stars": 1209
+    },
+    "specsSource": "https://github.com/Profluent-AI/OpenCRISPR#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "igfold",
@@ -2573,7 +3380,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-03-08",
-    "dateSource": "https://github.com/Graylab/IgFold/releases/tag/v0.3.1"
+    "dateSource": "https://github.com/Graylab/IgFold/releases/tag/v0.3.1",
+    "specs": {
+      "task": "Antibody structure prediction",
+      "weights": "Yes (non-commercial)",
+      "stars": 438,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/Graylab/IgFold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ablang",
@@ -2593,7 +3408,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-01-22",
-    "dateSource": "https://doi.org/10.1101/2022.01.20.477061"
+    "dateSource": "https://doi.org/10.1101/2022.01.20.477061",
+    "specs": {
+      "stars": 173,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/oxpig/AbLang#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ablang2",
@@ -2613,7 +3434,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-02-07",
-    "dateSource": "https://doi.org/10.1101/2024.02.02.578678"
+    "dateSource": "https://doi.org/10.1101/2024.02.02.578678",
+    "specs": {
+      "stars": 46,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/oxpig/AbLang2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "immunebuilder",
@@ -2633,7 +3460,14 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-29",
-    "dateSource": "https://doi.org/10.1038/s42003-023-04927-7"
+    "dateSource": "https://doi.org/10.1038/s42003-023-04927-7",
+    "specs": {
+      "task": "Antibody, nanobody, TCR structure prediction",
+      "stars": 193,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/oxpig/ImmuneBuilder#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "antiberty",
@@ -2653,7 +3487,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-12-14",
-    "dateSource": "https://arxiv.org/abs/2112.07782"
+    "dateSource": "https://arxiv.org/abs/2112.07782",
+    "specs": {
+      "task": "Antibody language model (embeddings)",
+      "weights": "Yes (Hugging Face, ~100 MB)",
+      "stars": 83,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/jeffreyruffolo/AntiBERTy#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rfantibody",
@@ -2673,7 +3515,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-03-18",
-    "dateSource": "https://doi.org/10.1101/2024.03.14.585103"
+    "dateSource": "https://doi.org/10.1101/2024.03.14.585103",
+    "specs": {
+      "task": "De novo antibody / nanobody design",
+      "weights": "Yes",
+      "stars": 542,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/RosettaCommons/RFantibody#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "biophi",
@@ -2693,7 +3543,14 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-08-07",
-    "dateSource": "https://github.com/Merck/BioPhi/releases/tag/v1.0.0"
+    "dateSource": "https://github.com/Merck/BioPhi/releases/tag/v1.0.0",
+    "specs": {
+      "task": "Antibody humanization, humanness evaluation",
+      "stars": 268,
+      "interface": "Package, Docker, Web"
+    },
+    "specsSource": "https://github.com/Merck/BioPhi#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rhofold",
@@ -2713,7 +3570,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-11-21",
-    "dateSource": "https://doi.org/10.1038/s41592-024-02487-0"
+    "dateSource": "https://doi.org/10.1038/s41592-024-02487-0",
+    "specs": {
+      "stars": 249
+    },
+    "specsSource": "https://github.com/ml4bio/RhoFold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rna-fm",
@@ -2733,7 +3595,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-04-01",
-    "dateSource": "https://arxiv.org/abs/2204.00300"
+    "dateSource": "https://arxiv.org/abs/2204.00300",
+    "specs": {
+      "stars": 393,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/ml4bio/RNA-FM#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ribonanzanet",
@@ -2753,7 +3621,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-02-27",
-    "dateSource": "https://doi.org/10.1101/2024.02.24.581671"
+    "dateSource": "https://doi.org/10.1101/2024.02.24.581671",
+    "specs": {
+      "stars": 60,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/Shujun-He/RibonanzaNet#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "eternafold",
@@ -2773,7 +3647,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-05-30",
-    "dateSource": "https://github.com/WaymentSteeleLab/EternaFold/releases/tag/1.0"
+    "dateSource": "https://github.com/WaymentSteeleLab/EternaFold/releases/tag/1.0",
+    "specs": {
+      "stars": 71
+    },
+    "specsSource": "https://github.com/WaymentSteeleLab/EternaFold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "spot-rna",
@@ -2793,7 +3672,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-11-27",
-    "dateSource": "https://doi.org/10.1038/s41467-019-13395-9"
+    "dateSource": "https://doi.org/10.1038/s41467-019-13395-9",
+    "specs": {
+      "stars": 106,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/jaswindersingh2/SPOT-RNA#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ufold",
@@ -2813,7 +3698,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-08-18",
-    "dateSource": "https://doi.org/10.1101/2020.08.17.254896"
+    "dateSource": "https://doi.org/10.1101/2020.08.17.254896",
+    "specs": {
+      "stars": 79,
+      "interface": "Web"
+    },
+    "specsSource": "https://github.com/uci-cbcl/UFold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "viennarna",
@@ -2833,7 +3724,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2011-11-24",
-    "dateSource": "https://doi.org/10.1186/1748-7188-6-26"
+    "dateSource": "https://doi.org/10.1186/1748-7188-6-26",
+    "specs": {
+      "stars": 438,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/ViennaRNA/ViennaRNA#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "grnade",
@@ -2853,7 +3750,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-05-24",
-    "dateSource": "https://arxiv.org/abs/2305.14749"
+    "dateSource": "https://arxiv.org/abs/2305.14749",
+    "specs": {
+      "stars": 320,
+      "interface": "Colab"
+    },
+    "specsSource": "https://github.com/chaitjo/geometric-rna-design#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "metaphlan",
@@ -2873,7 +3776,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-02-23",
-    "dateSource": "https://doi.org/10.1038/s41587-023-01688-w"
+    "dateSource": "https://doi.org/10.1038/s41587-023-01688-w",
+    "specs": {
+      "stars": 427,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/biobakery/MetaPhlAn#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "humann",
@@ -2893,7 +3802,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2020-11-21",
-    "dateSource": "https://doi.org/10.1101/2020.11.19.388223"
+    "dateSource": "https://doi.org/10.1101/2020.11.19.388223",
+    "specs": {
+      "stars": 253,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/biobakery/humann#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "kraken2",
@@ -2913,7 +3828,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-06-26",
-    "dateSource": "https://github.com/DerrickWood/kraken2/releases/tag/v2.0.6-beta"
+    "dateSource": "https://github.com/DerrickWood/kraken2/releases/tag/v2.0.6-beta",
+    "specs": {
+      "stars": 943
+    },
+    "specsSource": "https://github.com/DerrickWood/kraken2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "gtdb-tk",
@@ -2933,7 +3853,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-02-28",
-    "dateSource": "https://github.com/Ecogenomics/GTDBTk/releases/tag/0.0.4-beta"
+    "dateSource": "https://github.com/Ecogenomics/GTDBTk/releases/tag/0.0.4-beta",
+    "specs": {
+      "stars": 623,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/Ecogenomics/GTDBTk#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "genomad",
@@ -2953,7 +3879,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-08-20",
-    "dateSource": "https://github.com/apcamargo/genomad/releases/tag/v1.0.0"
+    "dateSource": "https://github.com/apcamargo/genomad/releases/tag/v1.0.0",
+    "specs": {
+      "stars": 337,
+      "interface": "Docker"
+    },
+    "specsSource": "https://github.com/apcamargo/genomad#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "checkm2",
@@ -2973,7 +3905,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-07-11",
-    "dateSource": "https://doi.org/10.1101/2022.07.11.499243"
+    "dateSource": "https://doi.org/10.1101/2022.07.11.499243",
+    "specs": {
+      "stars": 280,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/chklovski/CheckM2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "semibin",
@@ -2993,7 +3931,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-01-09",
-    "dateSource": "https://doi.org/10.1101/2023.01.09.523201"
+    "dateSource": "https://doi.org/10.1101/2023.01.09.523201",
+    "specs": {
+      "stars": 175,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/BigDataBiology/SemiBin#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "vamb",
@@ -3013,7 +3957,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2018-12-10",
-    "dateSource": "https://doi.org/10.1101/490078"
+    "dateSource": "https://doi.org/10.1101/490078",
+    "specs": {
+      "stars": 334
+    },
+    "specsSource": "https://github.com/RasmussenLab/vamb#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "qiime2",
@@ -3033,7 +3982,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2019-07-24",
-    "dateSource": "https://doi.org/10.1038/s41587-019-0209-9"
+    "dateSource": "https://doi.org/10.1038/s41587-019-0209-9",
+    "specs": {
+      "stars": 532
+    },
+    "specsSource": "https://github.com/rachis-org/rachis#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "meditron",
@@ -3053,7 +4007,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-11-27",
-    "dateSource": "https://arxiv.org/abs/2311.16079"
+    "dateSource": "https://arxiv.org/abs/2311.16079",
+    "specs": {
+      "stars": 2212
+    },
+    "specsSource": "https://github.com/epfLLM/meditron#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "medgemma",
@@ -3073,7 +4032,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-05-20",
-    "dateSource": "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-developer-updates-io-2025/"
+    "dateSource": "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-developer-updates-io-2025/",
+    "specs": {
+      "stars": 1633
+    },
+    "specsSource": "https://github.com/Google-Health/medgemma#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "llava-med",
@@ -3093,7 +4057,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-06-01",
-    "dateSource": "https://arxiv.org/abs/2306.00890"
+    "dateSource": "https://arxiv.org/abs/2306.00890",
+    "specs": {
+      "stars": 2235,
+      "interface": "Package, Web"
+    },
+    "specsSource": "https://github.com/microsoft/LLaVA-Med#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "biomedparse",
@@ -3113,7 +4083,16 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-11-18",
-    "dateSource": "https://doi.org/10.1038/s41592-024-02499-w"
+    "dateSource": "https://doi.org/10.1038/s41592-024-02499-w",
+    "specs": {
+      "dims": "2D, 3D",
+      "modality": "Nine biomedical imaging modalities",
+      "segType": "Segmentation, detection, recognition",
+      "stars": 709,
+      "interface": "Package, Docker, Colab"
+    },
+    "specsSource": "https://github.com/microsoft/BiomedParse#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "biomistral",
@@ -3152,7 +4131,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-12-20",
-    "dateSource": "https://doi.org/10.1038/s41586-023-06792-0"
+    "dateSource": "https://doi.org/10.1038/s41586-023-06792-0",
+    "specs": {
+      "stars": 212
+    },
+    "specsSource": "https://github.com/gomesgroup/coscientist#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "chemcrow",
@@ -3172,7 +4156,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-06-19",
-    "dateSource": "https://github.com/ur-whitelab/chemcrow-public/releases/tag/v0.3.0"
+    "dateSource": "https://github.com/ur-whitelab/chemcrow-public/releases/tag/v0.3.0",
+    "specs": {
+      "stars": 965,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/ur-whitelab/chemcrow-public#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "pylabrobot",
@@ -3192,7 +4182,12 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2023-07-10",
-    "dateSource": "https://doi.org/10.1101/2023.07.10.547733"
+    "dateSource": "https://doi.org/10.1101/2023.07.10.547733",
+    "specs": {
+      "stars": 574
+    },
+    "specsSource": "https://github.com/PyLabRobot/pylabrobot#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "opentrons",
@@ -3209,7 +4204,12 @@
       "hardware"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "stars": 525
+    },
+    "specsSource": "https://github.com/Opentrons/opentrons#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "biodiscoveryagent",
@@ -3229,7 +4229,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-05-27",
-    "dateSource": "https://arxiv.org/abs/2405.17631"
+    "dateSource": "https://arxiv.org/abs/2405.17631",
+    "specs": {
+      "stars": 131,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/snap-stanford/BioDiscoveryAgent#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "robin",
@@ -3249,7 +4255,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-05-19",
-    "dateSource": "https://arxiv.org/abs/2505.13400"
+    "dateSource": "https://arxiv.org/abs/2505.13400",
+    "specs": {
+      "stars": 743,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/Future-House/robin#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "aviary",
@@ -3269,7 +4281,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-08-30",
-    "dateSource": "https://github.com/Future-House/aviary/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/Future-House/aviary/releases/tag/v0.1.0",
+    "specs": {
+      "stars": 284,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/Future-House/aviary#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alphafold2",
@@ -3289,7 +4307,17 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2021-07-15",
-    "dateSource": "https://doi.org/10.1038/s41586-021-03819-2"
+    "dateSource": "https://doi.org/10.1038/s41586-021-03819-2",
+    "specs": {
+      "task": "Structure prediction",
+      "modalities": "Monomer, multimer",
+      "msa": "Yes (genetic databases)",
+      "gpu": "NVIDIA GPU",
+      "stars": 14889,
+      "interface": "Docker, Colab"
+    },
+    "specsSource": "https://github.com/google-deepmind/alphafold#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "bioemu",
@@ -3309,7 +4337,16 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-12-05",
-    "dateSource": "https://doi.org/10.1101/2024.12.05.626885"
+    "dateSource": "https://doi.org/10.1101/2024.12.05.626885",
+    "specs": {
+      "task": "Structural ensemble generation",
+      "msa": "Yes (ColabFold MMseqs2 or own A3M)",
+      "weights": "Yes",
+      "stars": 889,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/microsoft/bioemu#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "proteina",
@@ -3329,7 +4366,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-03-02",
-    "dateSource": "https://arxiv.org/abs/2503.00710"
+    "dateSource": "https://arxiv.org/abs/2503.00710",
+    "specs": {
+      "task": "Backbone generation",
+      "weights": "Yes",
+      "stars": 279,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/NVIDIA-BioNeMo/proteina#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "la-proteina",
@@ -3349,7 +4394,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-07-13",
-    "dateSource": "https://arxiv.org/abs/2507.09466"
+    "dateSource": "https://arxiv.org/abs/2507.09466",
+    "specs": {
+      "task": "Joint sequence–structure (atomistic) generation",
+      "weights": "Yes",
+      "stars": 313,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/NVIDIA-BioNeMo/la-proteina#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "progen2",
@@ -3369,7 +4422,13 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2022-06-27",
-    "dateSource": "https://arxiv.org/abs/2206.13517"
+    "dateSource": "https://arxiv.org/abs/2206.13517",
+    "specs": {
+      "task": "Sequence generation, fitness prediction",
+      "stars": 707
+    },
+    "specsSource": "https://github.com/salesforce/progen#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "evo",
@@ -3389,7 +4448,17 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2024-02-27",
-    "dateSource": "https://doi.org/10.1101/2024.02.27.582234"
+    "dateSource": "https://doi.org/10.1101/2024.02.27.582234",
+    "specs": {
+      "context": "8,192 (base models)",
+      "resolution": "Single nucleotide",
+      "species": "Prokaryotic",
+      "tasks": "Language modeling, design",
+      "stars": 1579,
+      "interface": "Package, Colab"
+    },
+    "specsSource": "https://github.com/evo-design/evo#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "state",
@@ -3409,7 +4478,15 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-05-28",
-    "dateSource": "https://github.com/ArcInstitute/state/releases/tag/stable-main-pre-updates"
+    "dateSource": "https://github.com/ArcInstitute/state/releases/tag/stable-main-pre-updates",
+    "specs": {
+      "architecture": "Transformer (State embedding + transition)",
+      "tasks": "Perturbation prediction",
+      "stars": 726,
+      "interface": "Colab"
+    },
+    "specsSource": "https://github.com/ArcInstitute/state#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "transcriptformer",
@@ -3429,7 +4506,16 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-04-28",
-    "dateSource": "https://github.com/czi-ai/transcriptformer/releases/tag/v0.1.0"
+    "dateSource": "https://github.com/czi-ai/transcriptformer/releases/tag/v0.1.0",
+    "specs": {
+      "corpus": "Up to 112M cells, 12 species",
+      "architecture": "Generative transformer, 444M trainable params",
+      "species": "12 species",
+      "stars": 168,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/czi-ai/transcriptformer#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "rfdiffusion2",
@@ -3449,7 +4535,14 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-04-10",
-    "dateSource": "https://doi.org/10.1101/2025.04.09.648075"
+    "dateSource": "https://doi.org/10.1101/2025.04.09.648075",
+    "specs": {
+      "task": "Enzyme active-site scaffolding",
+      "weights": "Yes",
+      "stars": 450
+    },
+    "specsSource": "https://github.com/RosettaCommons/RFdiffusion2#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "boltzgen",
@@ -3468,7 +4561,16 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-11-18",
-    "dateSource": "https://github.com/HannesStark/boltzgen/releases/tag/v0.1.4"
+    "dateSource": "https://github.com/HannesStark/boltzgen/releases/tag/v0.1.4",
+    "specs": {
+      "task": "Binder design (protein, peptide)",
+      "weights": "Yes (auto-download)",
+      "gpu": "NVIDIA GPU (CUDA 13 driver for ESMFold2)",
+      "stars": 1081,
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/HannesStark/boltzgen#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "enrich-ai",
@@ -3490,7 +4592,13 @@
     "released": "2026-10-06",
     "source": "https://www.biorxiv.org/content/10.64898/2026.09.29.755561v1",
     "firstReleased": "2026-10-06",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.29.755561v1"
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.29.755561v1",
+    "specs": {
+      "stars": 3,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/jkouprey/Enrich.AI#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "alpha-spatial",
@@ -3512,7 +4620,15 @@
     "released": "2026-10-15",
     "source": "https://www.biorxiv.org/content/10.64898/2026.10.08.756444v1",
     "firstReleased": "2026-10-15",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.08.756444v1"
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.08.756444v1",
+    "specs": {
+      "resolution": "Single cell",
+      "tasks": "Expression prediction from histology",
+      "stars": 0,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/xiyangwhu/Alpha-Spatial#readme",
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "chorus",
@@ -3534,6 +4650,14 @@
     "released": "2026-10-11",
     "source": "https://www.biorxiv.org/content/10.64898/2026.10.04.756538v1",
     "firstReleased": "2026-08-30",
-    "dateSource": "https://chorus.atlas.sunnylab.org"
+    "dateSource": "https://chorus.atlas.sunnylab.org",
+    "specs": {
+      "task": "Interaction-site prediction",
+      "msa": "No",
+      "stars": 0,
+      "interface": "Package"
+    },
+    "specsSource": "https://github.com/sunnylab-cb/chorus#readme",
+    "specsChecked": "2026-10-16"
   }
 ]

@@ -1,10 +1,51 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { PAIRS, bySlug, pairSlug, pairBlurb, CATS, u } from '../../lib/site.js';
+import { PAIRS, bySlug, pairSlug, pairBlurb, CATS, u, cmpData } from '../../lib/site.js';
+const data = cmpData();
 ---
-<Base title="Compare AI tools for biology side by side | Toolome" description="Side-by-side comparisons of popular AI tools for biology: license, pricing, code and paper.">
+<Base title="Compare AI tools for biology side by side | Toolome" description="Side-by-side comparisons of AI tools for biology within a category: task, inputs, license, pricing, code and paper.">
+<div id="cv" hidden>
+<p><a id="cv-back" href="#">← Back</a></p>
+<h1 id="cv-h"></h1>
+<p class="mut" id="cv-sub"></p>
+<div class="spec-wrap"><table class="spec" id="cv-t"></table></div>
+<div id="cv-cards"></div>
+<p class="mut" style="font-size:13px">Specs come from each project's README, paper or official page. “—” means we couldn't verify it. <span id="cv-src"></span></p>
+<details class="cv-add"><summary>Add or remove tools (same category, 2–4)</summary><div class="pk" id="cv-pk"></div></details>
+<p><button class="btn" id="cv-share" type="button">Copy share link</button> <span class="mut" id="cv-ok" aria-live="polite"></span></p>
+</div>
+<div id="cl">
 <h1>Comparisons</h1>
-<p class="mut">Side-by-side facts — license, pricing, code and paper — taken from each project's own sources.</p>
+<p class="mut">Side-by-side facts — license, pricing, code and paper — taken from each project's own sources. To build your own, open any tool page and use “Compare with…”.</p>
 <ul class="cmp">{PAIRS.map(p=><li><a href={u('/compare/'+pairSlug(p)+'/')}>{bySlug[p[0]].name} vs {bySlug[p[1]].name}</a> <span class="tag">{CATS[bySlug[p[0]].category][0]}</span><br/><span class="mut">{pairBlurb(p)}</span></li>)}</ul>
-<style>.cmp{list-style:none;padding:0}.cmp li{padding:12px 0;border-bottom:1px solid var(--line,#e5ded2)}.cmp a{font-weight:600}</style>
+</div>
+<script type="application/json" id="cmp-data" set:html={JSON.stringify(data).replace(/</g,'\\u003c')}></script>
+<script is:inline define:vars={{B:u('')}}>
+(()=>{const D=JSON.parse(document.getElementById('cmp-data').textContent);const q=new URLSearchParams(location.search);const c=q.get('c');
+let ts=(q.get('t')||'').split(',').filter(s=>D.tools[s]&&D.tools[s].c===c);ts=[...new Set(ts)].slice(0,4);
+if(!c||!D.cats[c]||ts.length<1)return;
+document.getElementById('cl').hidden=true;const V=document.getElementById('cv');V.hidden=false;
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const cell=v=>v===''||v==null?'<span class="mut">—</span>':/^https?:/.test(v)?`<a href="${esc(v)}">${v.includes('github.com')?'GitHub':'Link'}</a>`:esc(v);
+const rowsOf=t=>{const T=D.tools[t],s=T.s;const cm={license:T.l,pricing:T.p,date:T.r,paper:T.pa,github:T.g,stars:s.stars!=null?s.stars.toLocaleString('en-US'):'',interface:s.interface||''};return [...(D.fields[c]||[]).map(([k,l])=>[l,s[k]||'']),...D.common.map(([k,l])=>[l,cm[k]])]};
+const render=()=>{const names=ts.map(t=>D.tools[t].n);document.title=names.join(' vs ')+' | Toolome';
+document.getElementById('cv-h').textContent=names.join(' vs ');
+document.getElementById('cv-sub').textContent=D.cats[c]+' · '+(ts.length<2?'add at least one more tool below':ts.length+' tools');
+const R=ts.map(rowsOf);let h='<thead><tr><th scope="col">Field</th>'+ts.map(t=>`<th scope="col"><a href="${B}/tools/${t}/">${esc(D.tools[t].n)}</a></th>`).join('')+'</tr></thead><tbody><tr><th scope="row">Description</th>'+ts.map(t=>`<td>${esc(D.tools[t].d)}</td>`).join('')+'</tr>';
+R[0].forEach(([l],i)=>{h+=`<tr><th scope="row">${esc(l)}</th>`+R.map(r=>`<td>${cell(r[i][1])}</td>`).join('')+'</tr>'});
+document.getElementById('cv-t').innerHTML=h+'</tbody>';
+document.getElementById('cv-cards').innerHTML=ts.map((t,j)=>`<div class="cvc"><h3><a href="${B}/tools/${t}/">${esc(D.tools[t].n)}</a></h3><p class="mut">${esc(D.tools[t].d)}</p><dl>${R[j].map(([l,v])=>`<dt>${esc(l)}</dt><dd>${cell(v)}</dd>`).join('')}</dl></div>`).join('');
+document.getElementById('cv-src').innerHTML=ts.filter(t=>D.tools[t].src).map(t=>`<a href="${esc(D.tools[t].src)}">${esc(D.tools[t].n)} source</a>`).join(' · ');
+document.getElementById('cv-back').href=`${B}/tools/${ts[0]}/#compare`;
+const pk=document.getElementById('cv-pk');pk.innerHTML=Object.entries(D.tools).filter(([k,v])=>v.c===c).sort((a,b)=>a[1].n.localeCompare(b[1].n)).map(([k,v])=>`<label><input type="checkbox" value="${k}" ${ts.includes(k)?'checked':''} ${!ts.includes(k)&&ts.length>=4?'disabled':''}/> ${esc(v.n)}</label>`).join('');
+pk.querySelectorAll('input').forEach(x=>x.onchange=()=>{if(x.checked)ts.push(x.value);else if(ts.length>1)ts=ts.filter(s=>s!==x.value);else x.checked=true;history.replaceState(null,'',`?c=${c}&t=${ts.join(',')}`);render()});};
+render();
+document.getElementById('cv-share').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.getElementById('cv-ok').textContent='Copied'}catch(e){document.getElementById('cv-ok').textContent=location.href}};
+})();
+</script>
+<style>.cmp{list-style:none;padding:0}.cmp li{padding:12px 0;border-bottom:1px solid var(--line)}.cmp a{font-weight:600}
+.spec-wrap{overflow-x:auto}.spec th[scope=row]{position:sticky;left:0;background:var(--bg);white-space:nowrap}.spec td,.spec th{vertical-align:top}
+#cv-cards{display:none}.cvc{border:1px solid var(--line);border-radius:var(--r2);background:var(--card);padding:12px 14px;margin:0 0 12px}.cvc h3{margin:0 0 4px}.cvc dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:8px 0 0;font-size:14px}.cvc dt{color:var(--mut)}.cvc dd{margin:0}
+.pk{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.pk label{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;min-height:36px}.pk label:has(input:checked){border-color:var(--acc);background:var(--acc-soft)}.cv-add{margin:12px 0}
+@media (max-width:560px){#cv .spec-wrap{display:none}#cv-cards{display:block}}</style>
 </Base>

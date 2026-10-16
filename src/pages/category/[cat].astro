@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro'; import Sort from '../../components/Sort.astro'; import { byNewest } from '../../lib/site.js'; import Card from '../../components/Card.astro';
-import { tools, CATS, INTRO, u, pairsForCat, pairSlug, bySlug } from '../../lib/site.js';
+import { tools, CATS, INTRO, u } from '../../lib/site.js';
 export function getStaticPaths(){ return Object.keys(CATS).map(c=>({params:{cat:c}})); }
 const { cat } = Astro.params; const list = tools.filter(t=>t.category===cat); const n=CATS[cat][0];
 const oss=list.filter(t=>t.pricing==='Open source').length;
@@ -10,7 +10,6 @@ const jsonld={"@context":"https://schema.org","@type":"ItemList",name:`Best AI t
 <div class="seg" role="navigation" aria-label="Categories">{Object.entries(CATS).map(([k,[nn,e]])=><a class={'pill'+(k===cat?' on':'')} href={u('/category/'+k+'/')}>{e} {nn}</a>)}</div>
 <h1>{CATS[cat][1]} Best AI tools for {n} (2026)</h1>
 <p>{INTRO[cat]}</p><p class="mut">{list.length} tools · {oss} open source · each entry links to its website, code and paper.</p>
-{pairsForCat(cat).length>0&&<p class="mut">Compare with… {pairsForCat(cat).map((p,i)=><>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{bySlug[p[0]].name} vs {bySlug[p[1]].name}</a></>)}</p>}
 <Sort/><div class="grid" data-sortable>{byNewest(list).map(t=><Card t={t}/>)}</div>
 <script is:inline>document.querySelector(".seg .pill.on")?.scrollIntoView({inline:"center",block:"nearest"})</script>
 </Base>
