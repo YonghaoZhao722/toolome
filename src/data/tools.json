@@ -874,7 +874,7 @@
   "github": "https://github.com/instadeepai/nucleotide-transformer",
   "paper": "https://www.nature.com/articles/s41592-024-02523-z",
   "license": "CC-BY-NC-SA-4.0",
-  "pricing": "OSS (non-commercial)",
+  "pricing": "Open source (non-commercial)",
   "description": "DNA foundation models pretrained on 3,200+ human and 850 species genomes.",
   "tags": [
    "dna-lm"
@@ -1477,7 +1477,7 @@
   "github": "https://github.com/mahmoodlab/UNI",
   "paper": "https://www.nature.com/articles/s41591-024-02857-3",
   "license": "CC-BY-NC-ND-4.0",
-  "pricing": "OSS (non-commercial)",
+  "pricing": "Open source (non-commercial)",
   "description": "General-purpose self-supervised foundation model for computational pathology.",
   "tags": [
    "pathology",
@@ -1496,7 +1496,7 @@
   "github": "https://github.com/mahmoodlab/CONCH",
   "paper": "https://www.nature.com/articles/s41591-024-02856-4",
   "license": "CC-BY-NC-ND-4.0",
-  "pricing": "OSS (non-commercial)",
+  "pricing": "Open source (non-commercial)",
   "description": "Vision-language foundation model for histopathology.",
   "tags": [
    "pathology",
