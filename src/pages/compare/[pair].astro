@@ -11,7 +11,7 @@ const jsonld={"@context":"https://schema.org","@type":"WebPage",name:`${a.name} 
 <h1>{a.name} vs {b.name}</h1>
 <p><b>{a.name}</b>: {a.description} <b>{b.name}</b>: {b.description}</p>
 <p class="mut">Facts below come from each project's own website, repository and paper. We don't publish benchmark claims here; see the papers for evaluations.{shared.length>0&&` Shared tags: ${shared.join(', ')}.`}</p>
-<table><tr><th></th><th><a href={u('/tools/'+a.slug+'/')}>{a.name}</a></th><th><a href={u('/tools/'+b.slug+'/')}>{b.name}</a></th></tr>
+<table><tr><th scope="col">Field</th><th><a href={u('/tools/'+a.slug+'/')}>{a.name}</a></th><th><a href={u('/tools/'+b.slug+'/')}>{b.name}</a></th></tr>
 {rows.map(([k,f])=><tr><th>{k}</th><td>{f(a)}</td><td>{f(b)}</td></tr>)}
 <tr><th>Website</th><td><a href={a.url}>Visit ↗</a></td><td><a href={b.url}>Visit ↗</a></td></tr>
 <tr><th>Code</th><td>{a.github?<a href={a.github}>GitHub</a>:'—'}</td><td>{b.github?<a href={b.github}>GitHub</a>:'—'}</td></tr>
