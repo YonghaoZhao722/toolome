@@ -2851,7 +2851,9 @@
       "https://arcinstitute.org/news/pie"
     ],
     "specsSource": "https://doi.org/10.64898/2026.10.02.756297",
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "firstReleased": "2026-10-05",
+    "dateSource": "https://arcinstitute.org/news/pie"
   },
   {
     "slug": "alphaprotein-novo",
@@ -2881,7 +2883,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphaprotein-novo#readme"
-    ]
+    ],
+    "firstReleased": "2026-10-05",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1"
   },
   {
     "slug": "spliceai2",
@@ -2898,7 +2902,9 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "released": "2026-10-08",
-    "source": "https://www.illumina.com/company/news-center/press-releases/2026/29236.html"
+    "source": "https://www.illumina.com/company/news-center/press-releases/2026/29236.html",
+    "firstReleased": "2026-10-08",
+    "dateSource": "https://www.illumina.com/company/news-center/press-releases/2026/29236.html"
   },
   {
     "slug": "carbon-a",
@@ -2926,7 +2932,9 @@
       "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
     ],
     "specsSource": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "firstReleased": "2026-10-08",
+    "dateSource": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
   },
   {
     "slug": "prompteina",
@@ -2957,7 +2965,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/jleechung/prompteina#readme"
-    ]
+    ],
+    "firstReleased": "2026-10-09",
+    "dateSource": "https://arxiv.org/abs/2610.13917"
   },
   {
     "slug": "dorado",
@@ -5741,7 +5751,7 @@
     "category": "clinical",
     "url": "https://arxiv.org/abs/2601.05148",
     "paper": "https://arxiv.org/abs/2601.05148",
-    "license": "See paper",
+    "license": "Proprietary (weights not released; arXiv report only)",
     "pricing": "Contact",
     "description": "Pathology foundation model family built for clinical deployment (Aignostics and collaborators).",
     "tags": [
@@ -5927,7 +5937,7 @@
     "name": "PerturbAI Brain-Wide CRISPR Atlas",
     "category": "datasets",
     "url": "https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas",
-    "license": "See dataset card",
+    "license": "CC-BY-4.0",
     "pricing": "Open source",
     "description": "~8M-cell in vivo CRISPR perturbation atlas of mouse brain (single-nucleus), downloadable on Hugging Face in Parquet/AnnData/Zarr.",
     "tags": [
@@ -5957,8 +5967,8 @@
     "category": "imaging",
     "url": "https://huggingface.co/genbio-ai/genbio-pathfm",
     "github": "https://github.com/genbio-ai/genbio-pathfm",
-    "license": "See model card",
-    "pricing": "Open source",
+    "license": "GenBio AI Community License",
+    "pricing": "Open source (non-commercial)",
     "description": "1.1B-parameter open-weight histopathology foundation model trained only on public data.",
     "tags": [
       "pathology",
@@ -6174,7 +6184,7 @@
     "name": "OpenBind model",
     "category": "drug-discovery",
     "url": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/",
-    "license": "See release",
+    "license": "Open access (freely downloadable; license not stated)",
     "pricing": "Open source",
     "description": "First predictive model from the UK OpenBind consortium, trained on its experimental protein–ligand dataset.",
     "tags": [
