@@ -30,7 +30,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bowang-lab/scGPT#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2024
   },
   {
     "slug": "geneformer",
@@ -59,7 +61,9 @@
     "specsSources": [
       "https://huggingface.co/ctheodoris/Geneformer",
       "https://www.nature.com/articles/s41586-023-06139-9"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2023
   },
   {
     "slug": "scvi-tools",
@@ -91,7 +95,9 @@
     "specsSources": [
       "https://github.com/scverse/scvi-tools#readme",
       "https://scvi-tools.org"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2022
   },
   {
     "slug": "celltypist",
@@ -124,7 +130,9 @@
     "specsSources": [
       "https://github.com/Teichlab/celltypist#readme",
       "https://www.science.org/doi/10.1126/science.abl5197"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2022
   },
   {
     "slug": "scanpy",
@@ -155,7 +163,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/scanpy#readme"
-    ]
+    ],
+    "paperVenue": "Genome Biology",
+    "paperYear": 2018
   },
   {
     "slug": "seurat",
@@ -187,7 +197,9 @@
       "https://github.com/satijalab/seurat#readme",
       "https://www.nature.com/articles/s41587-023-01767-y",
       "https://satijalab.org/seurat/"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2024
   },
   {
     "slug": "scfoundation",
@@ -218,7 +230,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/biomap-research/scFoundation#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2024
   },
   {
     "slug": "uce-universal-cell-embeddings",
@@ -251,7 +265,9 @@
     "specsSources": [
       "https://github.com/snap-stanford/UCE#readme",
       "https://www.biorxiv.org/content/10.1101/2023.11.28.568918"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "cellrank",
@@ -282,7 +298,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/cellrank#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2022
   },
   {
     "slug": "scvelo",
@@ -312,7 +330,9 @@
     "specsSources": [
       "https://github.com/theislab/scvelo#readme",
       "https://www.nature.com/articles/s41587-020-0591-3"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2020
   },
   {
     "slug": "mudata--muon",
@@ -342,7 +362,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/muon#readme"
-    ]
+    ],
+    "paperVenue": "Genome Biology",
+    "paperYear": 2022
   },
   {
     "slug": "archr",
@@ -375,7 +397,9 @@
       "https://github.com/GreenleafLab/ArchR#readme",
       "https://www.nature.com/articles/s41588-021-00790-6",
       "https://www.archrproject.com"
-    ]
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2021
   },
   {
     "slug": "celloracle",
@@ -408,7 +432,9 @@
     "specsSources": [
       "https://github.com/morris-lab/CellOracle#readme",
       "https://www.nature.com/articles/s41586-022-05688-9"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2023
   },
   {
     "slug": "gears",
@@ -439,7 +465,9 @@
     "specsSources": [
       "https://github.com/snap-stanford/GEARS#readme",
       "https://www.nature.com/articles/s41587-023-01905-6"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2024
   },
   {
     "slug": "harmony",
@@ -470,7 +498,9 @@
     "specsSources": [
       "https://github.com/immunogenomics/harmony#readme",
       "https://www.nature.com/articles/s41592-019-0619-0"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2019
   },
   {
     "slug": "tangram",
@@ -500,7 +530,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/broadinstitute/Tangram#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2021
   },
   {
     "slug": "paste",
@@ -531,7 +563,9 @@
     "specsSources": [
       "https://github.com/raphael-group/paste#readme",
       "https://www.nature.com/articles/s41592-022-01459-6"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2022
   },
   {
     "slug": "moscot",
@@ -562,7 +596,9 @@
     "specsSources": [
       "https://github.com/theislab/moscot#readme",
       "https://www.nature.com/articles/s41586-024-08453-2"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2025
   },
   {
     "slug": "cell2location",
@@ -592,7 +628,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/BayraktarLab/cell2location#readme"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2022
   },
   {
     "slug": "squidpy",
@@ -623,7 +661,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/squidpy#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2022
   },
   {
     "slug": "spatialdata",
@@ -654,7 +694,9 @@
     "specsSources": [
       "https://github.com/scverse/spatialdata#readme",
       "https://www.nature.com/articles/s41592-024-02212-x"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "stagate",
@@ -684,7 +726,9 @@
     "specsSources": [
       "https://github.com/RucDongLab/STAGATE#readme",
       "https://www.nature.com/articles/s41467-022-29439-6"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2022
   },
   {
     "slug": "graphst",
@@ -715,7 +759,9 @@
     "specsSources": [
       "https://github.com/JinmiaoChenLab/GraphST#readme",
       "https://www.nature.com/articles/s41467-023-36796-3"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2023
   },
   {
     "slug": "bayesspace",
@@ -747,7 +793,9 @@
     "specsSources": [
       "https://github.com/edward130603/BayesSpace#readme",
       "https://www.nature.com/articles/s41587-021-00935-2"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2021
   },
   {
     "slug": "rctd-spacexr",
@@ -779,7 +827,9 @@
     "specsSources": [
       "https://github.com/dmcable/spacexr#readme",
       "https://www.nature.com/articles/s41587-021-00830-w"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2022
   },
   {
     "slug": "giotto-suite",
@@ -809,7 +859,9 @@
       "https://github.com/giotto-suite/Giotto#readme"
     ],
     "firstReleased": "2023-11-26",
-    "dateSource": "https://doi.org/10.1101/2023.11.26.568752"
+    "dateSource": "https://doi.org/10.1101/2023.11.26.568752",
+    "paperVenue": "Genome Biology",
+    "paperYear": 2021
   },
   {
     "slug": "nicheformer",
@@ -840,7 +892,9 @@
     "specsSources": [
       "https://github.com/theislab/nicheformer#readme",
       "https://www.biorxiv.org/content/10.1101/2024.04.15.589472"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "alphafold-server-alphafold-3",
@@ -874,7 +928,9 @@
     "specsSources": [
       "https://github.com/google-deepmind/alphafold3#readme",
       "https://www.nature.com/articles/s41586-024-07487-w"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2024
   },
   {
     "slug": "alphafold-db",
@@ -901,7 +957,9 @@
     "specsSources": [
       "https://alphafold.ebi.ac.uk",
       "https://alphafold.ebi.ac.uk/about"
-    ]
+    ],
+    "paperVenue": "Nucleic Acids Research",
+    "paperYear": 2024
   },
   {
     "slug": "rfdiffusion",
@@ -933,7 +991,9 @@
     "specsSources": [
       "https://github.com/RosettaCommons/RFdiffusion#readme",
       "https://www.nature.com/articles/s41586-023-06415-8"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2023
   },
   {
     "slug": "proteinmpnn",
@@ -965,7 +1025,9 @@
     "specsSources": [
       "https://github.com/dauparas/ProteinMPNN#readme",
       "https://www.science.org/doi/10.1126/science.add2187"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2022
   },
   {
     "slug": "esm3--evolutionaryscale",
@@ -1001,7 +1063,9 @@
       "https://www.science.org/doi/10.1126/science.ads0018",
       "https://www.evolutionaryscale.ai",
       "https://github.com/Biohub/esm/blob/main/_assets/ESM3_README.md"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2025
   },
   {
     "slug": "esm-2--esmfold",
@@ -1036,7 +1100,9 @@
       "https://www.science.org/doi/10.1126/science.ade2574"
     ],
     "archived": true,
-    "archivedChecked": "2026-10-16"
+    "archivedChecked": "2026-10-16",
+    "paperVenue": "Science",
+    "paperYear": 2023
   },
   {
     "slug": "boltz",
@@ -1070,7 +1136,9 @@
     "specsSources": [
       "https://github.com/jwohlwend/boltz#readme",
       "https://www.biorxiv.org/content/10.1101/2024.11.19.624167"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "chai-1",
@@ -1104,7 +1172,9 @@
     "specsSources": [
       "https://github.com/chaidiscovery/chai-lab#readme",
       "https://www.biorxiv.org/content/10.1101/2024.10.10.615955"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "openfold",
@@ -1138,7 +1208,9 @@
       "https://github.com/aqlaboratory/openfold#readme",
       "https://openfold.io",
       "https://github.com/aqlaboratory/openfold/blob/main/docs/source/original_readme.md"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2024
   },
   {
     "slug": "colabfold",
@@ -1171,7 +1243,9 @@
     "specsSources": [
       "https://github.com/sokrypton/ColabFold#readme",
       "https://www.nature.com/articles/s41592-022-01488-1"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2022
   },
   {
     "slug": "rosettafold-all-atom",
@@ -1203,7 +1277,9 @@
     "specsSources": [
       "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
       "https://www.science.org/doi/10.1126/science.adl2528"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2024
   },
   {
     "slug": "bindcraft",
@@ -1236,7 +1312,9 @@
     "specsSources": [
       "https://github.com/martinpacesa/BindCraft#readme",
       "https://www.nature.com/articles/s41586-025-09429-6"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2025
   },
   {
     "slug": "foldseek",
@@ -1269,7 +1347,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/steineggerlab/foldseek#readme"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2024
   },
   {
     "slug": "protenix",
@@ -1301,7 +1381,9 @@
     "specsSources": [
       "https://github.com/bytedance/Protenix#readme",
       "https://www.biorxiv.org/content/10.1101/2025.01.08.631967"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "tamarind-bio",
@@ -1356,7 +1438,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ArcInstitute/evo2#readme"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "alphagenome",
@@ -1388,7 +1472,9 @@
     "specsSources": [
       "https://github.com/google-deepmind/alphagenome#readme",
       "https://www.biorxiv.org/content/10.1101/2025.06.25.661532"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "enformer",
@@ -1419,7 +1505,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/deepmind-research#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2021
   },
   {
     "slug": "spliceai",
@@ -1452,7 +1540,9 @@
       "https://github.com/Illumina/SpliceAI#readme"
     ],
     "archived": true,
-    "archivedChecked": "2026-10-16"
+    "archivedChecked": "2026-10-16",
+    "paperVenue": "Cell",
+    "paperYear": 2019
   },
   {
     "slug": "nucleotide-transformer",
@@ -1483,7 +1573,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/instadeepai/nucleotide-transformer#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "hyenadna",
@@ -1515,7 +1607,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/HazyResearch/hyena-dna#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "dnabert-2",
@@ -1544,7 +1638,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MAGICS-LAB/DNABERT_2#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "borzoi",
@@ -1577,7 +1673,9 @@
     "specsSources": [
       "https://github.com/calico/borzoi#readme",
       "https://www.nature.com/articles/s41588-024-02053-6"
-    ]
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2025
   },
   {
     "slug": "alphamissense",
@@ -1610,7 +1708,9 @@
       "https://www.science.org/doi/10.1126/science.adg7492"
     ],
     "archived": true,
-    "archivedChecked": "2026-10-16"
+    "archivedChecked": "2026-10-16",
+    "paperVenue": "Science",
+    "paperYear": 2023
   },
   {
     "slug": "deepvariant",
@@ -1642,7 +1742,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google/deepvariant#readme"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2018
   },
   {
     "slug": "caduceus",
@@ -1672,7 +1774,9 @@
     "specsSources": [
       "https://github.com/kuleshov-group/caduceus#readme",
       "https://arxiv.org/abs/2403.03234"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "rdkit",
@@ -1755,7 +1859,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/gcorso/DiffDock#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2022
   },
   {
     "slug": "reinvent-4",
@@ -1787,7 +1893,9 @@
     "specsSources": [
       "https://github.com/MolecularAI/REINVENT4#readme",
       "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00812-5"
-    ]
+    ],
+    "paperVenue": "Journal of Cheminformatics",
+    "paperYear": 2024
   },
   {
     "slug": "chemprop",
@@ -1819,7 +1927,9 @@
     "specsSources": [
       "https://github.com/chemprop/chemprop#readme",
       "https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237"
-    ]
+    ],
+    "paperVenue": "Journal of Chemical Information and Modeling",
+    "paperYear": 2019
   },
   {
     "slug": "torchdrug",
@@ -1850,7 +1960,9 @@
     "specsSources": [
       "https://github.com/DeepGraphLearning/torchdrug#readme",
       "https://torchdrug.ai"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2022
   },
   {
     "slug": "autodock-vina",
@@ -1879,7 +1991,9 @@
     "specsSources": [
       "https://github.com/ccsb-scripps/AutoDock-Vina#readme",
       "https://pubs.acs.org/doi/10.1021/acs.jcim.1c00203"
-    ]
+    ],
+    "paperVenue": "Journal of Chemical Information and Modeling",
+    "paperYear": 2021
   },
   {
     "slug": "openmm",
@@ -1907,7 +2021,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/openmm/openmm#readme"
-    ]
+    ],
+    "paperVenue": "PLOS Computational Biology",
+    "paperYear": 2017
   },
   {
     "slug": "nvidia-bionemo",
@@ -1987,7 +2103,9 @@
     "specsSources": [
       "https://github.com/snap-stanford/Biomni#readme",
       "https://www.biorxiv.org/content/10.1101/2025.05.30.656746"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "futurehouse-platform",
@@ -2032,7 +2150,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Future-House/paper-qa#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "biochatter",
@@ -2062,7 +2182,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/biocypher/biochatter#readme"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2025
   },
   {
     "slug": "elicit",
@@ -2296,7 +2418,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MouseLand/cellpose#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2021
   },
   {
     "slug": "stardist",
@@ -2327,7 +2451,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/stardist/stardist#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2018
   },
   {
     "slug": "napari",
@@ -2387,7 +2513,9 @@
     "specsSources": [
       "https://github.com/qupath/qupath#readme",
       "https://www.nature.com/articles/s41598-017-17204-5"
-    ]
+    ],
+    "paperVenue": "Scientific Reports",
+    "paperYear": 2017
   },
   {
     "slug": "uni",
@@ -2418,7 +2546,9 @@
     "specsSources": [
       "https://github.com/mahmoodlab/UNI#readme",
       "https://www.nature.com/articles/s41591-024-02857-3"
-    ]
+    ],
+    "paperVenue": "Nature Medicine",
+    "paperYear": 2024
   },
   {
     "slug": "conch",
@@ -2449,7 +2579,9 @@
     "specsSources": [
       "https://github.com/mahmoodlab/CONCH#readme",
       "https://www.nature.com/articles/s41591-024-02856-4"
-    ]
+    ],
+    "paperVenue": "Nature Medicine",
+    "paperYear": 2024
   },
   {
     "slug": "prov-gigapath",
@@ -2480,7 +2612,9 @@
     "specsSources": [
       "https://github.com/prov-gigapath/prov-gigapath#readme",
       "https://www.nature.com/articles/s41586-024-07441-w"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2024
   },
   {
     "slug": "cellprofiler",
@@ -2509,7 +2643,9 @@
     ],
     "firstReleased": "2006-10-31",
     "dateSource": "https://doi.org/10.1186/gb-2006-7-10-r100",
-    "paper": "https://doi.org/10.1186/gb-2006-7-10-r100"
+    "paper": "https://doi.org/10.1186/gb-2006-7-10-r100",
+    "paperVenue": "Genome Biology",
+    "paperYear": 2006
   },
   {
     "slug": "micro-sam",
@@ -2539,7 +2675,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/computational-cell-analytics/micro-sam#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "cz-cellxgene",
@@ -2620,7 +2758,9 @@
       "https://www.biorxiv.org/content/10.1101/2025.02.20.639398",
       "https://huggingface.co/datasets/tahoebio/Tahoe-100M"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "protein-data-bank-rcsb",
@@ -2698,7 +2838,9 @@
     "specsSources": [
       "https://github.com/OATML-Markslab/ProteinGym#readme",
       "https://www.biorxiv.org/content/10.1101/2023.12.07.570727"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "therapeutics-data-commons",
@@ -2729,7 +2871,9 @@
     "specsSources": [
       "https://github.com/mims-harvard/TDC#readme",
       "https://tdcommons.ai"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2021
   },
   {
     "slug": "casp",
@@ -2804,7 +2948,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/maabuu/posebusters#readme"
-    ]
+    ],
+    "paperVenue": "Chemical Science",
+    "paperYear": 2024
   },
   {
     "slug": "polaris",
@@ -2904,7 +3050,9 @@
     "specsChecked": "2026-10-16",
     "firstReleased": "2026-10-05",
     "dateSource": "https://arcinstitute.org/news/pie",
-    "github": "https://github.com/ArcInstitute/pie"
+    "github": "https://github.com/ArcInstitute/pie",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "alphaprotein-novo",
@@ -2938,7 +3086,9 @@
       "https://github.com/google-deepmind/alphaprotein-novo#readme"
     ],
     "firstReleased": "2026-10-05",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1"
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "spliceai2",
@@ -3027,7 +3177,9 @@
       "https://github.com/jleechung/prompteina#readme"
     ],
     "firstReleased": "2026-10-09",
-    "dateSource": "https://arxiv.org/abs/2610.13917"
+    "dateSource": "https://arxiv.org/abs/2610.13917",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "dorado",
@@ -3179,7 +3331,9 @@
     "specsSources": [
       "https://github.com/HKU-BAL/Clair3#readme",
       "https://doi.org/10.1038/s43588-022-00387-x"
-    ]
+    ],
+    "paperVenue": "Nature Computational Science",
+    "paperYear": 2022
   },
   {
     "slug": "deepconsensus",
@@ -3211,7 +3365,9 @@
     "specsSources": [
       "https://github.com/google/deepconsensus#readme",
       "https://doi.org/10.1038/s41587-022-01435-7"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2022
   },
   {
     "slug": "pepper-margin-deepvariant",
@@ -3243,7 +3399,9 @@
     "specsSources": [
       "https://github.com/kishwarshafin/pepper#readme",
       "https://doi.org/10.1038/s41592-021-01299-w"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2021
   },
   {
     "slug": "sniffles2",
@@ -3276,7 +3434,9 @@
     "specsSources": [
       "https://github.com/fritzsedlazeck/Sniffles#readme",
       "https://doi.org/10.1038/s41587-023-02024-y"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2024
   },
   {
     "slug": "basenji",
@@ -3309,7 +3469,9 @@
     "specsSources": [
       "https://github.com/calico/basenji#readme",
       "https://doi.org/10.1101/gr.227819.117"
-    ]
+    ],
+    "paperVenue": "Genome Research",
+    "paperYear": 2018
   },
   {
     "slug": "chrombpnet",
@@ -3341,7 +3503,9 @@
     "specsSources": [
       "https://github.com/kundajelab/chrombpnet#readme",
       "https://doi.org/10.1101/2024.12.25.630221"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "bpnet",
@@ -3373,7 +3537,9 @@
     "specsSources": [
       "https://github.com/kundajelab/bpnet#readme",
       "https://doi.org/10.1038/s41588-021-00782-6"
-    ]
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2021
   },
   {
     "slug": "sei",
@@ -3405,7 +3571,9 @@
     "specsSources": [
       "https://github.com/FunctionLab/sei-framework#readme",
       "https://doi.org/10.1038/s41588-022-01102-2"
-    ]
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2022
   },
   {
     "slug": "selene",
@@ -3436,7 +3604,9 @@
     "specsSources": [
       "https://github.com/FunctionLab/selene#readme",
       "https://doi.org/10.1038/s41592-019-0360-8"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2019
   },
   {
     "slug": "scbasset",
@@ -3468,7 +3638,9 @@
     "specsSources": [
       "https://github.com/calico/scBasset#readme",
       "https://doi.org/10.1038/s41592-022-01562-8"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2022
   },
   {
     "slug": "eve",
@@ -3500,7 +3672,9 @@
     "specsSources": [
       "https://github.com/OATML-Markslab/EVE#readme",
       "https://doi.org/10.1038/s41586-021-04043-8"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2021
   },
   {
     "slug": "primateai-3d",
@@ -3532,7 +3706,9 @@
     "specsSources": [
       "https://github.com/Illumina/PrimateAI-3D#readme",
       "https://doi.org/10.1126/science.abn8197"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2023
   },
   {
     "slug": "gpn-msa",
@@ -3564,7 +3740,9 @@
     "specsSources": [
       "https://github.com/songlab-cal/gpn#readme",
       "https://doi.org/10.1038/s41587-024-02511-w"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2025
   },
   {
     "slug": "dia-nn",
@@ -3596,7 +3774,9 @@
     "specsSources": [
       "https://github.com/vdemichev/DiaNN#readme",
       "https://doi.org/10.1038/s41592-019-0638-x"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2020
   },
   {
     "slug": "alphapeptdeep",
@@ -3628,7 +3808,9 @@
     "specsSources": [
       "https://github.com/MannLabs/alphapeptdeep#readme",
       "https://doi.org/10.1038/s41467-022-34904-3"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2022
   },
   {
     "slug": "alphadia",
@@ -3661,7 +3843,9 @@
     "specsSources": [
       "https://github.com/MannLabs/alphadia#readme",
       "https://doi.org/10.1101/2024.05.28.596182"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "ms2pip",
@@ -3693,7 +3877,9 @@
     "specsSources": [
       "https://github.com/CompOmics/ms2pip#readme",
       "https://doi.org/10.1093/nar/gkad335"
-    ]
+    ],
+    "paperVenue": "Nucleic Acids Research",
+    "paperYear": 2023
   },
   {
     "slug": "deeplc",
@@ -3725,7 +3911,9 @@
     "specsSources": [
       "https://github.com/CompOmics/DeepLC#readme",
       "https://doi.org/10.1038/s41592-021-01301-5"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2021
   },
   {
     "slug": "casanovo",
@@ -3756,7 +3944,9 @@
     "specsSources": [
       "https://github.com/Noble-Lab/casanovo#readme",
       "https://doi.org/10.1038/s41467-024-49731-x"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2024
   },
   {
     "slug": "instanovo",
@@ -3787,7 +3977,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/instadeepai/InstaNovo#readme"
-    ]
+    ],
+    "paperVenue": "Research Square preprint",
+    "paperYear": 2024
   },
   {
     "slug": "sirius",
@@ -3819,7 +4011,9 @@
     "specsSources": [
       "https://github.com/sirius-ms/sirius#readme",
       "https://doi.org/10.1038/s41592-019-0344-8"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2019
   },
   {
     "slug": "ms2deepscore",
@@ -3851,7 +4045,9 @@
     "specsSources": [
       "https://github.com/matchms/ms2deepscore#readme",
       "https://doi.org/10.1186/s13321-021-00558-4"
-    ]
+    ],
+    "paperVenue": "Journal of Cheminformatics",
+    "paperYear": 2021
   },
   {
     "slug": "matchms",
@@ -3882,7 +4078,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/matchms/matchms#readme"
-    ]
+    ],
+    "paperVenue": "Journal of Open Source Software",
+    "paperYear": 2020
   },
   {
     "slug": "dreams",
@@ -3914,7 +4112,9 @@
     "specsSources": [
       "https://github.com/pluskal-lab/DreaMS#readme",
       "https://doi.org/10.1038/s41587-025-02663-3"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2026
   },
   {
     "slug": "mzmine",
@@ -3946,7 +4146,9 @@
       "https://mzmine.org"
     ],
     "firstReleased": "2006-01-11",
-    "dateSource": "https://doi.org/10.1093/bioinformatics/btk039"
+    "dateSource": "https://doi.org/10.1093/bioinformatics/btk039",
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2023
   },
   {
     "slug": "crispor",
@@ -3980,7 +4182,9 @@
       "https://github.com/maximilianh/crisporWebsite#readme",
       "https://doi.org/10.1093/nar/gky354",
       "https://crispor.gi.ucsc.edu"
-    ]
+    ],
+    "paperVenue": "Nucleic Acids Research",
+    "paperYear": 2018
   },
   {
     "slug": "chopchop",
@@ -4008,7 +4212,9 @@
     "specsSources": [
       "https://doi.org/10.1093/nar/gkz365"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "Nucleic Acids Research",
+    "paperYear": 2019
   },
   {
     "slug": "rule-set-3",
@@ -4040,7 +4246,9 @@
     "specsSources": [
       "https://github.com/gpp-rnd/rs3#readme",
       "https://doi.org/10.1038/s41467-022-33024-2"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2022
   },
   {
     "slug": "pridict",
@@ -4073,7 +4281,9 @@
     "specsSources": [
       "https://github.com/uzh-dqbm-cmi/PRIDICT#readme",
       "https://doi.org/10.1038/s41587-022-01613-7"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2023
   },
   {
     "slug": "crispresso2",
@@ -4103,7 +4313,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/pinellolab/CRISPResso2#readme"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2019
   },
   {
     "slug": "opencrispr",
@@ -4135,7 +4347,9 @@
     "specsSources": [
       "https://github.com/Profluent-AI/OpenCRISPR#readme",
       "https://doi.org/10.1038/s41586-025-09298-z"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2025
   },
   {
     "slug": "igfold",
@@ -4168,7 +4382,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Graylab/IgFold#readme"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2023
   },
   {
     "slug": "ablang",
@@ -4201,7 +4417,9 @@
     "specsSources": [
       "https://github.com/oxpig/AbLang#readme",
       "https://doi.org/10.1093/bioadv/vbac046"
-    ]
+    ],
+    "paperVenue": "Bioinformatics Advances",
+    "paperYear": 2022
   },
   {
     "slug": "ablang2",
@@ -4235,7 +4453,9 @@
     "specsSources": [
       "https://github.com/oxpig/AbLang2#readme",
       "https://doi.org/10.1093/bioinformatics/btae618"
-    ]
+    ],
+    "paperVenue": "Bioinformatics",
+    "paperYear": 2024
   },
   {
     "slug": "immunebuilder",
@@ -4268,7 +4488,9 @@
     "specsSources": [
       "https://github.com/oxpig/ImmuneBuilder#readme",
       "https://doi.org/10.1038/s42003-023-04927-7"
-    ]
+    ],
+    "paperVenue": "Communications Biology",
+    "paperYear": 2023
   },
   {
     "slug": "antiberty",
@@ -4302,7 +4524,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/jeffreyruffolo/AntiBERTy#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2021
   },
   {
     "slug": "rfantibody",
@@ -4335,7 +4559,9 @@
     "specsSources": [
       "https://github.com/RosettaCommons/RFantibody#readme",
       "https://doi.org/10.1101/2024.03.14.585103"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "biophi",
@@ -4368,7 +4594,9 @@
     "specsSources": [
       "https://github.com/Merck/BioPhi#readme",
       "https://doi.org/10.1080/19420862.2021.2020203"
-    ]
+    ],
+    "paperVenue": "mAbs",
+    "paperYear": 2022
   },
   {
     "slug": "rhofold",
@@ -4400,7 +4628,9 @@
     "specsSources": [
       "https://github.com/ml4bio/RhoFold#readme",
       "https://doi.org/10.1038/s41592-024-02487-0"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2024
   },
   {
     "slug": "rna-fm",
@@ -4431,7 +4661,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ml4bio/RNA-FM#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2022
   },
   {
     "slug": "ribonanzanet",
@@ -4464,7 +4696,9 @@
     "specsSources": [
       "https://github.com/Shujun-He/RibonanzaNet#readme",
       "https://doi.org/10.1101/2024.02.24.581671"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "eternafold",
@@ -4496,7 +4730,9 @@
     "specsSources": [
       "https://github.com/WaymentSteeleLab/EternaFold#readme",
       "https://doi.org/10.1038/s41592-022-01605-0"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2022
   },
   {
     "slug": "spot-rna",
@@ -4529,7 +4765,9 @@
     "specsSources": [
       "https://github.com/jaswindersingh2/SPOT-RNA#readme",
       "https://doi.org/10.1038/s41467-019-13395-9"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2019
   },
   {
     "slug": "ufold",
@@ -4562,7 +4800,9 @@
     "specsSources": [
       "https://github.com/uci-cbcl/UFold#readme",
       "https://doi.org/10.1093/nar/gkab1074"
-    ]
+    ],
+    "paperVenue": "Nucleic Acids Research",
+    "paperYear": 2022
   },
   {
     "slug": "viennarna",
@@ -4596,7 +4836,9 @@
       "https://github.com/ViennaRNA/ViennaRNA#readme",
       "https://doi.org/10.1186/1748-7188-6-26",
       "https://www.tbi.univie.ac.at/RNA/"
-    ]
+    ],
+    "paperVenue": "Algorithms for Molecular Biology",
+    "paperYear": 2011
   },
   {
     "slug": "grnade",
@@ -4628,7 +4870,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/chaitjo/geometric-rna-design#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "metaphlan",
@@ -4661,7 +4905,9 @@
     "specsSources": [
       "https://github.com/biobakery/MetaPhlAn#readme",
       "https://doi.org/10.1038/s41587-023-01688-w"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2023
   },
   {
     "slug": "humann",
@@ -4694,7 +4940,9 @@
     "specsSources": [
       "https://github.com/biobakery/humann#readme",
       "https://doi.org/10.7554/eLife.65088"
-    ]
+    ],
+    "paperVenue": "eLife",
+    "paperYear": 2021
   },
   {
     "slug": "kraken2",
@@ -4725,7 +4973,9 @@
     "specsSources": [
       "https://github.com/DerrickWood/kraken2#readme",
       "https://doi.org/10.1186/s13059-019-1891-0"
-    ]
+    ],
+    "paperVenue": "Genome Biology",
+    "paperYear": 2019
   },
   {
     "slug": "gtdb-tk",
@@ -4758,7 +5008,9 @@
     "specsSources": [
       "https://github.com/Ecogenomics/GTDBTk#readme",
       "https://doi.org/10.1093/bioinformatics/btac672"
-    ]
+    ],
+    "paperVenue": "Bioinformatics",
+    "paperYear": 2022
   },
   {
     "slug": "genomad",
@@ -4791,7 +5043,9 @@
     "specsSources": [
       "https://github.com/apcamargo/genomad#readme",
       "https://doi.org/10.1038/s41587-023-01953-y"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2024
   },
   {
     "slug": "checkm2",
@@ -4823,7 +5077,9 @@
     "specsSources": [
       "https://github.com/chklovski/CheckM2#readme",
       "https://doi.org/10.1038/s41592-023-01940-w"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2023
   },
   {
     "slug": "semibin",
@@ -4855,7 +5111,9 @@
     "specsSources": [
       "https://github.com/BigDataBiology/SemiBin#readme",
       "https://doi.org/10.1093/bioinformatics/btad209"
-    ]
+    ],
+    "paperVenue": "Bioinformatics",
+    "paperYear": 2023
   },
   {
     "slug": "vamb",
@@ -4886,7 +5144,9 @@
     "specsSources": [
       "https://github.com/RasmussenLab/vamb#readme",
       "https://doi.org/10.1038/s41587-020-00777-4"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2021
   },
   {
     "slug": "qiime2",
@@ -4917,7 +5177,9 @@
     "specsSources": [
       "https://github.com/rachis-org/rachis#readme",
       "https://qiime2.org"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2019
   },
   {
     "slug": "meditron",
@@ -4948,7 +5210,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/epfLLM/meditron#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "medgemma",
@@ -4980,7 +5244,9 @@
     "specsSources": [
       "https://github.com/Google-Health/medgemma#readme",
       "https://deepmind.google/models/gemma/medgemma/"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "llava-med",
@@ -5012,7 +5278,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/microsoft/LLaVA-Med#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2023
   },
   {
     "slug": "biomedparse",
@@ -5044,7 +5312,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/microsoft/BiomedParse#readme"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "biomistral",
@@ -5072,7 +5342,9 @@
     "specsSources": [
       "https://huggingface.co/BioMistral/BioMistral-7B"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "coscientist",
@@ -5104,7 +5376,9 @@
     "specsSources": [
       "https://github.com/gomesgroup/coscientist#readme",
       "https://doi.org/10.1038/s41586-023-06792-0"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2023
   },
   {
     "slug": "chemcrow",
@@ -5136,7 +5410,9 @@
     "specsSources": [
       "https://github.com/ur-whitelab/chemcrow-public#readme",
       "https://doi.org/10.1038/s42256-024-00832-8"
-    ]
+    ],
+    "paperVenue": "Nature Machine Intelligence",
+    "paperYear": 2024
   },
   {
     "slug": "pylabrobot",
@@ -5166,7 +5442,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/PyLabRobot/pylabrobot#readme"
-    ]
+    ],
+    "paperVenue": "Device",
+    "paperYear": 2023
   },
   {
     "slug": "opentrons",
@@ -5225,7 +5503,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/snap-stanford/BioDiscoveryAgent#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "robin",
@@ -5256,7 +5536,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Future-House/robin#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "aviary",
@@ -5287,7 +5569,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Future-House/aviary#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "alphafold2",
@@ -5320,7 +5604,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphafold#readme"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2021
   },
   {
     "slug": "bioemu",
@@ -5352,7 +5638,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/microsoft/bioemu#readme"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2025
   },
   {
     "slug": "proteina",
@@ -5385,7 +5673,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/proteina#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "la-proteina",
@@ -5417,7 +5707,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/la-proteina#readme"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "progen2",
@@ -5450,7 +5742,9 @@
     "specsSources": [
       "https://github.com/salesforce/progen#readme",
       "https://doi.org/10.1016/j.cels.2023.10.002"
-    ]
+    ],
+    "paperVenue": "Cell Systems",
+    "paperYear": 2023
   },
   {
     "slug": "evo",
@@ -5483,7 +5777,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/evo-design/evo#readme"
-    ]
+    ],
+    "paperVenue": "Science",
+    "paperYear": 2024
   },
   {
     "slug": "state",
@@ -5515,7 +5811,9 @@
     "specsSources": [
       "https://github.com/ArcInstitute/state#readme",
       "https://doi.org/10.1101/2025.06.26.661135"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "transcriptformer",
@@ -5549,7 +5847,9 @@
     "specsSources": [
       "https://github.com/czi-ai/transcriptformer#readme",
       "https://doi.org/10.1101/2025.04.25.650731"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "rfdiffusion2",
@@ -5581,7 +5881,9 @@
     "specsSources": [
       "https://github.com/RosettaCommons/RFdiffusion2#readme",
       "https://doi.org/10.1038/s41592-025-02975-x"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2026
   },
   {
     "slug": "boltzgen",
@@ -5681,7 +5983,9 @@
       "https://github.com/tahoebio/tahoe-x1",
       "https://www.biorxiv.org/content/10.1101/2025.10.23.683759v1"
     ],
-    "notability": "Tahoe Therapeutics; 3B-param model on Tahoe-100M; widely covered virtual-cell effort"
+    "notability": "Tahoe Therapeutics; 3B-param model on Tahoe-100M; widely covered virtual-cell effort",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "kosmos",
@@ -5709,7 +6013,9 @@
     "specsSources": [
       "https://edisonscientific.com/news/announcing-kosmos"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "rfdiffusion3",
@@ -5779,7 +6085,9 @@
       "https://github.com/instadeepai/nucleotide-transformer",
       "https://www.biorxiv.org/content/10.64898/2025.12.22.695963v1"
     ],
-    "notability": "InstaDeep; successor to widely used Nucleotide Transformer"
+    "notability": "InstaDeep; successor to widely used Nucleotide Transformer",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "atlas-2",
@@ -5808,7 +6116,9 @@
     "specsSources": [
       "https://arxiv.org/abs/2601.05148"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "rnapro",
@@ -5872,7 +6182,9 @@
       "https://github.com/ArcInstitute/stack",
       "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1"
     ],
-    "notability": "Arc Institute; Perturb Sapiens atlas; Arc news release"
+    "notability": "Arc Institute; Perturb Sapiens atlas; Arc news release",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "bios",
@@ -6075,7 +6387,9 @@
       "https://github.com/GENTEL-lab/EVA",
       "https://www.biorxiv.org/content/10.64898/2026.03.17.712398v1"
     ],
-    "notability": "1.4B RNA FM, open weights; preprint + HF release"
+    "notability": "1.4B RNA FM, open weights; preprint + HF release",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "gpt-rosalind",
@@ -6222,7 +6536,9 @@
     "specsSources": [
       "https://github.com/aurekaresearch/OpenDDE#readme"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "nesso-1",
@@ -6253,7 +6569,9 @@
     "specsSources": [
       "https://github.com/recursionpharma/nesso#readme"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "openbind-model",
@@ -6310,7 +6628,9 @@
     "specsSources": [
       "https://github.com/instadeepai/InstaNovo-FM#readme"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2026
   },
   {
     "slug": "torchx",
@@ -6372,7 +6692,9 @@
     "specsSources": [
       "https://github.com/google/deepsomatic#readme",
       "https://doi.org/10.1101/2024.08.16.608331"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "deeppolisher",
@@ -6404,7 +6726,9 @@
     "specsSources": [
       "https://github.com/google/deeppolisher#readme",
       "https://doi.org/10.1101/gr.280149.124"
-    ]
+    ],
+    "paperVenue": "Genome Research",
+    "paperYear": 2025
   },
   {
     "slug": "clairs-to",
@@ -6437,7 +6761,9 @@
     "specsSources": [
       "https://github.com/HKU-BAL/ClairS-TO#readme",
       "https://doi.org/10.1038/s41467-025-64547-z"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2025
   },
   {
     "slug": "herro",
@@ -6469,7 +6795,9 @@
     "specsSources": [
       "https://github.com/lbcb-sci/herro#readme",
       "https://doi.org/10.1038/s41586-026-10563-y"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2026
   },
   {
     "slug": "novae",
@@ -6501,7 +6829,9 @@
     "specsSources": [
       "https://github.com/prism-oncology/novae#readme",
       "https://doi.org/10.1038/s41592-025-02899-6"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "scgpt-spatial",
@@ -6532,7 +6862,9 @@
     "specsSources": [
       "https://github.com/bowang-lab/scGPT-spatial#readme",
       "https://doi.org/10.1101/2025.02.05.636714"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "loki",
@@ -6564,7 +6896,9 @@
     "specsSources": [
       "https://github.com/GuangyuWangLab2021/Loki#readme",
       "https://doi.org/10.1038/s41592-025-02707-1"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "banksy",
@@ -6595,7 +6929,9 @@
     "specsSources": [
       "https://github.com/prabhakarlab/Banksy#readme",
       "https://doi.org/10.1038/s41588-024-01664-3"
-    ]
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2024
   },
   {
     "slug": "cellcharter",
@@ -6627,7 +6963,9 @@
     "specsSources": [
       "https://github.com/CSOgroup/cellcharter#readme",
       "https://doi.org/10.1038/s41588-023-01588-4"
-    ]
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2024
   },
   {
     "slug": "sylph",
@@ -6659,7 +6997,9 @@
     "specsSources": [
       "https://github.com/bluenote-1577/sylph#readme",
       "https://doi.org/10.1038/s41587-024-02412-y"
-    ]
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2025
   },
   {
     "slug": "glm",
@@ -6691,7 +7031,9 @@
     "specsSources": [
       "https://github.com/y-hwang/gLM#readme",
       "https://doi.org/10.1038/s41467-024-46947-9"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2024
   },
   {
     "slug": "glm2",
@@ -6723,7 +7065,9 @@
     "specsSources": [
       "https://github.com/TattaBio/gLM2#readme",
       "https://doi.org/10.1101/2024.08.14.607850"
-    ]
+    ],
+    "paperVenue": "bioRxiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "comebin",
@@ -6755,7 +7099,9 @@
     "specsSources": [
       "https://github.com/ziyewang/COMEBin#readme",
       "https://doi.org/10.1038/s41467-023-44290-z"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2024
   },
   {
     "slug": "crispr-gpt",
@@ -6789,7 +7135,9 @@
       "https://github.com/cong-lab/crispr-gpt-pub#readme",
       "https://doi.org/10.1038/s41551-025-01463-z",
       "https://www.nature.com/articles/s41551-025-01463-z"
-    ]
+    ],
+    "paperVenue": "Nature Biomedical Engineering",
+    "paperYear": 2025
   },
   {
     "slug": "deepprime",
@@ -6820,7 +7168,9 @@
     "specsSources": [
       "https://github.com/hkimlab/DeepPrime#readme",
       "https://doi.org/10.1016/j.cell.2023.03.034"
-    ]
+    ],
+    "paperVenue": "Cell",
+    "paperYear": 2023
   },
   {
     "slug": "medsam",
@@ -6852,7 +7202,9 @@
     "specsSources": [
       "https://github.com/bowang-lab/MedSAM#readme",
       "https://doi.org/10.1038/s41467-024-44824-z"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2024
   },
   {
     "slug": "medsam2",
@@ -6884,7 +7236,9 @@
     "specsSources": [
       "https://github.com/bowang-lab/MedSAM2#readme",
       "https://arxiv.org/abs/2504.03600"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "huatuogpt-o1",
@@ -6917,7 +7271,9 @@
     "specsSources": [
       "https://github.com/FreedomIntelligence/HuatuoGPT-o1#readme",
       "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2024
   },
   {
     "slug": "biomedclip",
@@ -6946,7 +7302,9 @@
     "specsSources": [
       "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
       "https://doi.org/10.1056/AIoa2400640"
-    ]
+    ],
+    "paperVenue": "NEJM AI",
+    "paperYear": 2025
   },
   {
     "slug": "cellsam",
@@ -6978,7 +7336,9 @@
     "specsSources": [
       "https://github.com/vanvalenlab/cellSAM#readme",
       "https://doi.org/10.1038/s41592-025-02879-w"
-    ]
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025
   },
   {
     "slug": "titan",
@@ -7011,7 +7371,9 @@
     "specsSources": [
       "https://github.com/mahmoodlab/TITAN#readme",
       "https://huggingface.co/MahmoodLab/TITAN"
-    ]
+    ],
+    "paperVenue": "Nature Medicine",
+    "paperYear": 2025
   },
   {
     "slug": "chief",
@@ -7044,7 +7406,9 @@
     "specsSources": [
       "https://github.com/hms-dbmi/CHIEF#readme",
       "https://doi.org/10.1038/s41586-024-07894-z"
-    ]
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2024
   },
   {
     "slug": "rinalmo",
@@ -7075,7 +7439,9 @@
     "specsSources": [
       "https://github.com/lbcb-sci/RiNALMo#readme",
       "https://doi.org/10.1038/s41467-025-60872-5"
-    ]
+    ],
+    "paperVenue": "Nature Communications",
+    "paperYear": 2025
   },
   {
     "slug": "omol25",
@@ -7107,7 +7473,9 @@
     "specsSources": [
       "https://huggingface.co/facebook/OMol25",
       "https://arxiv.org/abs/2505.08762"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "metagene-1",
@@ -7136,7 +7504,9 @@
     "specsSources": [
       "https://huggingface.co/metagene-ai/METAGENE-1",
       "https://arxiv.org/abs/2501.02045"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "baichuan-m2",
@@ -7169,7 +7539,9 @@
     "specsSources": [
       "https://github.com/baichuan-inc/Baichuan-M2-32B#readme",
       "https://arxiv.org/abs/2509.02208"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   },
   {
     "slug": "lingshu",
@@ -7198,6 +7570,8 @@
     "specsSources": [
       "https://huggingface.co/lingshu-medical-mllm/Lingshu-7B",
       "https://arxiv.org/abs/2506.07044"
-    ]
+    ],
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2025
   }
 ]

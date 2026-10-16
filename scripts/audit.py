@@ -51,6 +51,7 @@ def l1():
         if sp and fields and sum(1 for f in fields if sp.get(f)) * 2 < len(fields): W('D5', s, f"fewer than half of {fields} filled")
         if t['pricing'].startswith('Open source') and not gh: W('D6', s, 'Open source pricing but no github')
         if not sp: W('D7', s, 'no specs')
+        if t.get('paper') and not t.get('paperVenue'): W('D9', s, 'paper URL without paperVenue')
         if not (t.get('released') or t.get('firstReleased')): W('D8', s, 'no date')
         if 'specsSource' in t: W('D9', s, 'redundant singular specsSource')
         if t.get('archived') and not gh: E('A1', s, 'archived without github')
