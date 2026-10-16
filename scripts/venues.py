@@ -1,3 +1,4 @@
+"""Fill paperVenue/paperYear from Crossref/arXiv. Keeps existing paperVenue (manual overrides) unless --force."""
 import json,re,urllib.request,time,sys
 P='src/data/tools.json';T=json.load(open(P))
 def get(u):
@@ -14,6 +15,7 @@ st={'filled':0,'preprint':0,'omit':[]}
 for t in T:
     u=t.get('paper')
     if not u: continue
+    if t.get('paperVenue') and '--force' not in sys.argv: st.setdefault('kept',0); st['kept']+=1; continue
     v=y=None
     try:
         m=re.search(r'arxiv\.org/(?:abs|pdf)/(\d{4})\.',u)

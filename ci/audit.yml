@@ -1,0 +1,38 @@
+name: audit
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 9 * * 1'   # weekly, Monday 09:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    if: github.event_name != 'schedule' && github.event_name != 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci || npm install
+      - run: npm run check   # L1 audit + astro build + L3 check_dist
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci || npm install
+      - run: python3 scripts/audit.py --online --fix-stars --fix-archived
+      - run: npm run check
+      - name: Commit refreshed stars
+        run: |
+          git config user.name "toolome-bot"
+          git config user.email "toolome.bio@gmail.com"
+          git add src/data/tools.json
+          git diff --cached --quiet || (git commit -m "Audit: weekly stars/archived refresh" && git push)

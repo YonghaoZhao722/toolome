@@ -32,6 +32,8 @@ export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','bo
 export const bySlug = Object.fromEntries(tools.map(t=>[t.slug,t]));
 export const pairSlug = ([a,b]) => `${bySlug[a].slug}-vs-${bySlug[b].slug}`;
 
+export const licText = (t) => !t.licenseNote ? t.license : (['Custom','Mixed','NOASSERTION'].includes(t.license) ? t.licenseNote : `${t.license} (${t.licenseNote})`);
+export const starsOf = (t) => t.github && t.specs?.stars!=null ? t.specs.stars : -1;
 export const dt = (t) => t.released||t.firstReleased||'';
 export const byNewest = (l) => [...l].sort((a,b)=> (dt(a)&&dt(b))? dt(b).localeCompare(dt(a))||a.name.toLowerCase().localeCompare(b.name.toLowerCase()) : dt(a)?-1 : dt(b)?1 : a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
@@ -66,8 +68,8 @@ export const SPEC_FIELDS = {
 export const COMMON_FIELDS = [['license','License'],['pricing','Pricing'],['date','Released'],['paper','Paper'],['github','GitHub'],['stars','GitHub stars'],['interface','Interface']];
 export const specRows = (t) => {
   const s=t.specs||{};
-  const c={license:t.license,pricing:t.pricing,date:t.released||t.firstReleased||'',paper:t.paper||'',github:t.github||'',stars:s.stars!=null?s.stars.toLocaleString('en-US'):'',interface:s.interface||''};
+  const c={license:licText(t),pricing:t.pricing,date:t.released||t.firstReleased||'',paper:t.paper||'',github:t.github||'',stars:s.stars!=null?s.stars.toLocaleString('en-US'):'',interface:s.interface||''};
   return [...(SPEC_FIELDS[t.category]||[]).map(([k,l])=>[l,s[k]||'']), ...COMMON_FIELDS.map(([k,l])=>[l,c[k]])];
 };
 export const cmpData = () => ({ fields:SPEC_FIELDS, common:COMMON_FIELDS, cats:Object.fromEntries(Object.entries(CATS).map(([k,v])=>[k,v[0]])),
-  tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,d:t.description,s:t.specs||{},l:t.license,p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSources||[],u:t.url,pp:t.paper||''}])) });
+  tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,d:t.description,s:t.specs||{},l:licText(t),p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSources||[],rows:specRows(t),u:t.url,pp:t.paper||''}])) });

@@ -23,7 +23,7 @@ SPEC_FIELDS = {c: re.findall(r"\['(\w+)','", body) for c, body in re.findall(r"'
 PAIRS = re.findall(r"\['([^']+)','([^']+)'\]", SITE.split('export const PAIRS')[1].split(';')[0])
 BLURB = re.findall(r"'([^']+)':'", SITE.split('export const PAIR_BLURB')[1].split('};')[0])
 PRICING = {'Open source', 'Open source (non-commercial)', 'Contact', 'Freemium', 'Free (research)', 'Paid', 'Research release'}
-SPDX = {'MIT','Apache-2.0','BSD-3-Clause','BSD-2-Clause','BSD-3-Clause-Clear','GPL-3.0','GPL-2.0','LGPL-3.0','AGPL-3.0','MPL-2.0','CC0-1.0','CC-BY-4.0','CC-BY-NC-4.0','CC-BY-NC-SA-4.0','CC-BY-NC-ND-4.0','Commercial','Proprietary','PolyForm-Strict-1.0','Oxford Nanopore Public License 1.0'}
+SPDX = {'MIT','Apache-2.0','BSD-3-Clause','BSD-2-Clause','BSD-3-Clause-Clear','GPL-3.0','GPL-2.0','LGPL-3.0','AGPL-3.0','MPL-2.0','CC0-1.0','CC-BY-4.0','CC-BY-NC-4.0','CC-BY-NC-SA-4.0','CC-BY-NC-ND-4.0','Commercial','Proprietary','PolyForm-Strict-1.0','Oxford Nanopore Public License 1.0','Custom','Mixed','NOASSERTION'}
 SEV = {}  # rule -> severity
 out = []
 def add(sev, rule, slug, msg):
@@ -58,7 +58,7 @@ def l1():
         if t.get('archived') and not t.get('archivedChecked'): E('A1', s, 'archived without archivedChecked')
         if 'archived' in t and t['archived'] is not True: E('A1', s, 'archived must be true or absent')
         # C: contradictions
-        lic, pr = t['license'], t['pricing']
+        lic, pr = (t['license'] + (' (' + t['licenseNote'] + ')' if t.get('licenseNote') else '')), t['pricing']
         if pr == 'Open source' and re.search(r'commercial|proprietary', lic, re.I) and not re.search(r'non-commercial|incl\. commercial', lic, re.I): W('C1', s, f'Open source vs license {lic!r}')
         if pr in ('Paid', 'Contact') and re.match(r'(MIT|Apache|BSD|GPL)', lic): W('C1', s, f'{pr} vs license {lic!r}')
         if re.search(r'\bNC\b|non-commercial|academic', lic, re.I) and pr == 'Open source': E('C2', s, f'non-commercial license {lic!r} but pricing "Open source"')
@@ -80,7 +80,7 @@ def l1():
         if sp.get('starsChecked') and not DATE.match(sp['starsChecked']): E('F2', s, 'bad starsChecked')
         if t['category'] not in CATS: E('F3', s, f"category {t['category']}")
         if pr not in PRICING: E('F3', s, f'pricing {pr!r}')
-        if lic not in SPDX: I('F4', s, f'non-SPDX license {lic!r}')
+        if t['license'] not in SPDX: I('F4', s, f'non-SPDX license {lic!r}')
         tg = t.get('tags') or []
         if not tg or any((not x) or x != x.lower() for x in tg) or len(set(tg)) != len(tg): W('F5', s, f'tags {tg}')
         if not re.match(r'^[a-z0-9]+(-[a-z0-9]+)*$', s): I('F6', s, 'slug style (rename deferred: needs redirects)')

@@ -27,7 +27,7 @@ if(!c||!D.cats[c]||ts.length<1)return;
 document.getElementById('cl').hidden=true;const V=document.getElementById('cv');V.hidden=false;
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const cell=v=>v===''||v==null?'<span class="mut">—</span>':/^https?:/.test(v)?`<a href="${esc(v)}">${v.includes('github.com')?'GitHub':'Link'}</a>`:esc(v);
-const rowsOf=t=>{const T=D.tools[t],s=T.s;const cm={license:T.l,pricing:T.p,date:T.r,paper:T.pa,github:T.g,stars:s.stars!=null?s.stars.toLocaleString('en-US'):'',interface:s.interface||''};return [...(D.fields[c]||[]).map(([k,l])=>[l,s[k]||'']),...D.common.map(([k,l])=>[l,cm[k]])]};
+const rowsOf=t=>D.tools[t].rows;
 const render=()=>{const names=ts.map(t=>D.tools[t].n);document.title=names.join(' vs ')+' | Toolome';
 document.getElementById('cv-h').textContent=names.join(' vs ');
 document.getElementById('cv-sub').textContent=D.cats[c]+' · '+(ts.length<2?'add at least one more tool below':ts.length+' tools');

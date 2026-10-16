@@ -1,11 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro'; import Card from '../../components/Card.astro';
-import { tools, CATS, u, pairsFor, pairSlug, bySlug } from '../../lib/site.js';
+import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt } from '../../lib/site.js';
 export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
 const { t } = Astro.props;
 const peers = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
-const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).slice(0,3);
-const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:t.license,isAccessibleForFree:!['Paid','Contact'].includes(t.pricing),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
+const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>starsOf(b)-starsOf(a)||dt(b).localeCompare(dt(a))||a.name.localeCompare(b.name)).slice(0,3);
+const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:licText(t),isAccessibleForFree:!['Paid','Contact'].includes(t.pricing),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
 ---
 <Base title={`${t.name} — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description}`} jsonld={jsonld}>
 <p><a href={u('/category/'+t.category+'/')}>← {CATS[t.category][0]}</a></p>
@@ -16,7 +16,7 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
 {!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a>{t.paperVenue&&<span class="mut"> · {t.paperVenue}{t.paperYear?` (${t.paperYear})`:''}</span>}</td></tr>}
-<tr><th>License</th><td>{t.license}</td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
+<tr><th>License</th><td>{licText(t)}</td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
 <tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td>{t.lastChecked}</td></tr></tbody></table>
 {pairsFor(t.slug).length>0&&<p class="mut">Compare with… {pairsFor(t.slug).map((p,i)=>{const o=bySlug[p[0]===t.slug?p[1]:p[0]];return <>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{t.name} vs {o.name}</a></>})}</p>}
 <h2>Specs</h2><SpecTable list={[t]}/>

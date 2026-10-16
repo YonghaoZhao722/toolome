@@ -8,6 +8,7 @@ CATS = re.findall(r"'([a-z-]+)':\s*\['", site.split('export const CATS')[1].spli
 PAIRS = re.findall(r"\['([^']+)','([^']+)'\]", site.split('export const PAIRS')[1].split(';')[0])
 errs = []
 def err(rule, where, msg): errs.append(f'{rule} {where}: {msg}')
+lic_text = lambda t: t['license'] if not t.get('licenseNote') else (t['licenseNote'] if t['license'] in ('Custom','Mixed','NOASSERTION') else f"{t['license']} ({t['licenseNote']})")
 rd = lambda p: open(os.path.join(D, p), encoding='utf-8').read()
 # H1 + H5: tool pages
 for t in tools:
@@ -23,10 +24,17 @@ for t in tools:
         try: ld = json.loads(j)
         except Exception as e: err('H5', t['slug'], f'JSON-LD parse: {e}'); continue
         if ld.get('@type') == 'SoftwareApplication':
-            if ld.get('license') != t['license']: err('H5', t['slug'], 'JSON-LD license mismatch')
+            if ld.get('license') != lic_text(t): err('H5', t['slug'], 'JSON-LD license mismatch')
             if ld.get('codeRepository') != t.get('github'): err('H5', t['slug'], 'JSON-LD codeRepository mismatch')
 # H2: counts
-n_pages = len([x for x in os.listdir(os.path.join(D, 'tools')) if os.path.exists(os.path.join(D, 'tools', x, 'index.html'))])
+tdirs = [x for x in os.listdir(os.path.join(D, 'tools')) if os.path.exists(os.path.join(D, 'tools', x, 'index.html'))]
+redir = [x for x in tdirs if 'http-equiv="refresh"' in rd(f'tools/{x}/index.html')]
+slugs = {t['slug'] for t in tools}
+for x in redir:
+    m = re.search(r'url=/tools/([^/"]+)/', rd(f'tools/{x}/index.html'))
+    if not m or m.group(1) not in slugs: err('H9', x, 'redirect page target missing')
+    if x in slugs: err('H9', x, 'redirect page shadows a live slug')
+n_pages = len(tdirs) - len(redir)
 if n_pages != len(tools): err('H2', 'tools/', f'{n_pages} pages vs {len(tools)} tools')
 for c in CATS:
     h = rd(f'category/{c}/index.html'); n = h.count('class="card"'); want = sum(t['category'] == c for t in tools)

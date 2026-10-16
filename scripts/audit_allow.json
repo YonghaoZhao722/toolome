@@ -42,12 +42,28 @@
   "10x-genomics-datasets": "Open-access data resource, not code"
  },
  "U1": {
-  "esm3--evolutionaryscale": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
+  "esm3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "esmfold2-esmc-biohub": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "nucleotide-transformer": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "nucleotide-transformer-v3-ntv3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose"
  },
  "C1": {
   "opentrons": "Open-source Apache-2.0 software; robots are sold commercially"
+ },
+ "D5": {
+  "tamarind-bio": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
+  "rowan": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
+  "elicit": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
+  "benchling": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
+  "emerald-cloud-lab": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
+  "strateos": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled"
+ },
+ "D7": {
+  "futurehouse-platform": "Hosted agent platform; backbone/actions not published in a stable spec",
+  "consensus": "Closed commercial search product; no public model or spec details",
+  "ginkgo-bioworks": "Company/services listing; services, ordering and turnaround are quote-based, not published",
+  "science-exchange": "Marketplace of third-party CROs; services/turnaround vary per provider",
+  "casp": "Biennial benchmark/competition, not a dataset with fixed size/modality",
+  "10x-genomics-datasets": "Collection of many public datasets; size/modality vary per dataset"
  }
 }

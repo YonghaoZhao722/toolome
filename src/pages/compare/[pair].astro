@@ -1,11 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro';
-import { CATS, PAIRS, bySlug, pairSlug, u } from '../../lib/site.js';
+import { CATS, PAIRS, bySlug, pairSlug, u, licText, dt } from '../../lib/site.js';
 export function getStaticPaths(){ return PAIRS.map(p=>({params:{pair:pairSlug(p)},props:{a:bySlug[p[0]],b:bySlug[p[1]]}})); }
 const { a, b } = Astro.props;
-const rows=[['Category',t=>CATS[t.category][0]],['Description',t=>t.description],['License',t=>t.license],['Pricing',t=>t.pricing],['Tags',t=>t.tags.join(', ')],['Released',t=>t.released||'—']];
+const rows=[['Category',t=>CATS[t.category][0]],['Description',t=>t.description],['License',t=>licText(t)],['Pricing',t=>t.pricing],['Tags',t=>t.tags.join(', ')],['Released',t=>dt(t)||'—']];
 const shared=a.tags.filter(x=>b.tags.includes(x));
-const jsonld={"@context":"https://schema.org","@type":"WebPage",name:`${a.name} vs ${b.name}`,about:[a,b].map(t=>({"@type":"SoftwareApplication",name:t.name,url:t.url,license:t.license,applicationCategory:"ScientificApplication"}))};
+const jsonld={"@context":"https://schema.org","@type":"WebPage",name:`${a.name} vs ${b.name}`,about:[a,b].map(t=>({"@type":"SoftwareApplication",name:t.name,url:t.url,license:licText(t),applicationCategory:"ScientificApplication"}))};
 ---
 <Base title={`${a.name} vs ${b.name} (2026): license, pricing, links | Toolome`} description={`${a.name} vs ${b.name}: side-by-side comparison of what each does, license, pricing, code and paper.`} jsonld={jsonld}>
 <h1>{a.name} vs {b.name}</h1>

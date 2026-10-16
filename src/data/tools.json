@@ -208,7 +208,7 @@
     "url": "https://github.com/biomap-research/scFoundation",
     "github": "https://github.com/biomap-research/scFoundation",
     "paper": "https://www.nature.com/articles/s41592-024-02305-7",
-    "license": "Apache-2.0 (code); model weights under separate terms",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "100M-parameter foundation model trained on 50M human single-cell transcriptomes.",
     "tags": [
@@ -232,7 +232,8 @@
       "https://github.com/biomap-research/scFoundation#readme"
     ],
     "paperVenue": "Nature Methods",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "code; model weights under separate terms"
   },
   {
     "slug": "uce-universal-cell-embeddings",
@@ -335,7 +336,7 @@
     "paperYear": 2020
   },
   {
-    "slug": "mudata--muon",
+    "slug": "mudata-muon",
     "name": "MuData / muon",
     "category": "single-cell",
     "url": "https://muon.scverse.org",
@@ -903,7 +904,7 @@
     "url": "https://alphafoldserver.com",
     "github": "https://github.com/google-deepmind/alphafold3",
     "paper": "https://www.nature.com/articles/s41586-024-07487-w",
-    "license": "Apache-2.0 (code); AlphaFold 3 model parameters terms (non-commercial weights)",
+    "license": "Apache-2.0",
     "pricing": "Free (research)",
     "description": "Structure prediction of proteins, nucleic acids, ligands and their complexes; hosted web server plus open code, weights on request for non-commercial use.",
     "tags": [
@@ -930,7 +931,8 @@
       "https://www.nature.com/articles/s41586-024-07487-w"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "code; AlphaFold 3 model parameters terms (non-commercial weights)"
   },
   {
     "slug": "alphafold-db",
@@ -1030,7 +1032,7 @@
     "paperYear": 2022
   },
   {
-    "slug": "esm3--evolutionaryscale",
+    "slug": "esm3",
     "name": "ESM3 / EvolutionaryScale",
     "category": "protein",
     "url": "https://www.evolutionaryscale.ai",
@@ -1068,7 +1070,7 @@
     "paperYear": 2025
   },
   {
-    "slug": "esm-2--esmfold",
+    "slug": "esm-2-esmfold",
     "name": "ESM-2 / ESMFold",
     "category": "protein",
     "url": "https://github.com/facebookresearch/esm",
@@ -1449,7 +1451,7 @@
     "url": "https://github.com/google-deepmind/alphagenome",
     "github": "https://github.com/google-deepmind/alphagenome",
     "paper": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532",
-    "license": "Apache-2.0 (client)",
+    "license": "Apache-2.0",
     "pricing": "Free (research)",
     "description": "DeepMind model predicting regulatory effects of DNA variants at base resolution.",
     "tags": [
@@ -1474,7 +1476,8 @@
       "https://www.biorxiv.org/content/10.1101/2025.06.25.661532"
     ],
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "client"
   },
   {
     "slug": "enformer",
@@ -1516,7 +1519,7 @@
     "url": "https://github.com/Illumina/SpliceAI",
     "github": "https://github.com/Illumina/SpliceAI",
     "paper": "https://www.cell.com/cell/fulltext/S0092-8674(18)31629-5",
-    "license": "PolyForm-Strict",
+    "license": "PolyForm-Strict-1.0",
     "pricing": "Open source (non-commercial)",
     "description": "Deep learning prediction of splicing effects from pre-mRNA sequence (repo archived).",
     "tags": [
@@ -1824,11 +1827,14 @@
     "specs": {
       "stars": 7060,
       "interface": "Package, Docker",
-      "starsChecked": "2026-10-16"
+      "starsChecked": "2026-10-16",
+      "task": "ML toolkit: molecular property prediction, generative chemistry, materials and bio models",
+      "representation": "SMILES, molecular graphs, fingerprints (built-in featurizers)"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/deepchem/deepchem#readme"
+      "https://github.com/deepchem/deepchem#readme",
+      "https://github.com/deepchem/deepchem"
     ]
   },
   {
@@ -2002,7 +2008,7 @@
     "url": "https://openmm.org",
     "github": "https://github.com/openmm/openmm",
     "paper": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005659",
-    "license": "MIT/LGPL",
+    "license": "Mixed",
     "pricing": "Open source",
     "description": "High-performance molecular dynamics toolkit with GPU support.",
     "tags": [
@@ -2023,7 +2029,8 @@
       "https://github.com/openmm/openmm#readme"
     ],
     "paperVenue": "PLOS Computational Biology",
-    "paperYear": 2017
+    "paperYear": 2017,
+    "licenseNote": "MIT/LGPL"
   },
   {
     "slug": "nvidia-bionemo",
@@ -2031,7 +2038,7 @@
     "category": "drug-discovery",
     "url": "https://www.nvidia.com/en-us/clara/bionemo/",
     "github": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes",
-    "license": "Apache-2.0 (framework)",
+    "license": "Apache-2.0",
     "pricing": "Freemium",
     "description": "NVIDIA platform and NIMs for training and deploying biology foundation models.",
     "tags": [
@@ -2050,7 +2057,8 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/bionemo-recipes#readme"
-    ]
+    ],
+    "licenseNote": "framework"
   },
   {
     "slug": "rowan",
@@ -2250,7 +2258,7 @@
     "category": "agents",
     "url": "https://latch.bio",
     "github": "https://github.com/latchbio/latch",
-    "license": "MIT (SDK); commercial platform",
+    "license": "MIT",
     "pricing": "Freemium",
     "description": "Cloud platform for bioinformatics workflows and data.",
     "tags": [
@@ -2271,7 +2279,8 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/latchbio/latch#readme"
-    ]
+    ],
+    "licenseNote": "SDK; commercial platform"
   },
   {
     "slug": "adaptyv-bio",
@@ -2685,7 +2694,7 @@
     "category": "datasets",
     "url": "https://cellxgene.cziscience.com",
     "github": "https://github.com/chanzuckerberg/cellxgene-census",
-    "license": "CC-BY-4.0 (data); MIT (Census code)",
+    "license": "Mixed",
     "pricing": "Open source",
     "description": "Curated single-cell data portal and Census API with 100M+ cells.",
     "tags": [
@@ -2707,14 +2716,15 @@
     "specsSources": [
       "https://github.com/chanzuckerberg/cellxgene-census#readme",
       "https://cellxgene.cziscience.com"
-    ]
+    ],
+    "licenseNote": "CC-BY-4.0 (data); MIT (Census code)"
   },
   {
     "slug": "human-cell-atlas-data-portal",
     "name": "Human Cell Atlas Data Portal",
     "category": "datasets",
     "url": "https://data.humancellatlas.org",
-    "license": "Open",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Data portal of the Human Cell Atlas consortium.",
     "tags": [
@@ -2730,7 +2740,8 @@
     "specsSources": [
       "https://data.humancellatlas.org"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "licenseNote": "Open"
   },
   {
     "slug": "tahoe-100m",
@@ -2767,7 +2778,7 @@
     "name": "Protein Data Bank (RCSB)",
     "category": "datasets",
     "url": "https://www.rcsb.org",
-    "license": "Open",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Archive of experimentally determined 3D biomolecular structures.",
     "tags": [
@@ -2783,7 +2794,8 @@
     "specsSources": [
       "https://www.rcsb.org"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "licenseNote": "Open"
   },
   {
     "slug": "uniprot",
@@ -2880,7 +2892,7 @@
     "name": "CASP",
     "category": "datasets",
     "url": "https://predictioncenter.org",
-    "license": "Open",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Critical Assessment of protein Structure Prediction community experiment.",
     "tags": [
@@ -2888,7 +2900,8 @@
       "structure"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "licenseNote": "Open"
   },
   {
     "slug": "open-problems-in-single-cell",
@@ -2987,7 +3000,7 @@
     "name": "10x Genomics Datasets",
     "category": "datasets",
     "url": "https://www.10xgenomics.com/datasets",
-    "license": "Open",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Public single-cell and spatial (Visium, Xenium) example datasets.",
     "tags": [
@@ -2995,7 +3008,8 @@
       "single-cell"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "licenseNote": "Open"
   },
   {
     "slug": "hugging-face-bio-models",
@@ -3061,7 +3075,7 @@
     "url": "https://github.com/google-deepmind/alphaprotein-novo",
     "github": "https://github.com/google-deepmind/alphaprotein-novo",
     "paper": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
-    "license": "Apache-2.0 code; non-commercial weights",
+    "license": "Apache-2.0",
     "pricing": "Open source (non-commercial)",
     "description": "Google DeepMind diffusion pipeline for de novo enzyme design via catalytic motif scaffolding.",
     "tags": [
@@ -3088,14 +3102,15 @@
     "firstReleased": "2026-10-05",
     "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "licenseNote": "code; non-commercial weights"
   },
   {
     "slug": "spliceai2",
     "name": "SpliceAI2",
     "category": "genomics",
     "url": "https://www.illumina.com/science/genomics-research/articles/introducing-spliceai2--the-next-generation-of-splicing-and-trans.html",
-    "license": "See Illumina",
+    "license": "Custom",
     "pricing": "Free (research)",
     "description": "Illumina's successor to SpliceAI: predicts splice-site usage and full transcript isoforms from sequence.",
     "tags": [
@@ -3115,14 +3130,15 @@
     "specsSources": [
       "https://www.illumina.com/science/genomics-research/articles/introducing-spliceai2--the-next-generation-of-splicing-and-trans.html"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "licenseNote": "See Illumina"
   },
   {
     "slug": "carbon-a",
     "name": "Carbon-A",
     "category": "genomics",
     "url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
-    "license": "See model card",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "1.2B DNA model that annotates protein-coding genes across eukaryotes; ships a 48K-assembly annotation database.",
     "tags": [
@@ -3144,7 +3160,8 @@
     ],
     "specsChecked": "2026-10-16",
     "firstReleased": "2026-10-08",
-    "dateSource": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
+    "dateSource": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
+    "licenseNote": "See model card"
   },
   {
     "slug": "prompteina",
@@ -3153,7 +3170,7 @@
     "url": "https://github.com/jleechung/prompteina",
     "github": "https://github.com/jleechung/prompteina",
     "paper": "https://arxiv.org/abs/2610.13917",
-    "license": "Apache-2.0 code; NVIDIA Open Model License weights",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "Text-to-structure all-atom protein design: generate monomers and binders from natural-language prompts.",
     "tags": [
@@ -3179,7 +3196,8 @@
     "firstReleased": "2026-10-09",
     "dateSource": "https://arxiv.org/abs/2610.13917",
     "paperVenue": "arXiv preprint",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "licenseNote": "code; NVIDIA Open Model License weights"
   },
   {
     "slug": "dorado",
@@ -3548,7 +3566,7 @@
     "url": "https://github.com/FunctionLab/sei-framework",
     "github": "https://github.com/FunctionLab/sei-framework",
     "paper": "https://doi.org/10.1038/s41588-022-01102-2",
-    "license": "BSD-style (Princeton)",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Predicts 21,907 chromatin profiles from sequence and maps variants to regulatory sequence classes.",
     "tags": [
@@ -3573,7 +3591,8 @@
       "https://doi.org/10.1038/s41588-022-01102-2"
     ],
     "paperVenue": "Nature Genetics",
-    "paperYear": 2022
+    "paperYear": 2022,
+    "licenseNote": "BSD-style (Princeton)"
   },
   {
     "slug": "selene",
@@ -3598,12 +3617,15 @@
       "stars": 400,
       "interface": "Package",
       "tasks": "Library to train/apply sequence models",
-      "starsChecked": "2026-10-16"
+      "starsChecked": "2026-10-16",
+      "context": "User-defined input length",
+      "species": "Any (user-supplied genome / sequences)"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/FunctionLab/selene#readme",
-      "https://doi.org/10.1038/s41592-019-0360-8"
+      "https://doi.org/10.1038/s41592-019-0360-8",
+      "https://github.com/FunctionLab/selene"
     ],
     "paperVenue": "Nature Methods",
     "paperYear": 2019
@@ -3751,7 +3773,7 @@
     "url": "https://github.com/vdemichev/DiaNN",
     "github": "https://github.com/vdemichev/DiaNN",
     "paper": "https://doi.org/10.1038/s41592-019-0638-x",
-    "license": "Proprietary (free for academic use)",
+    "license": "Proprietary",
     "pricing": "Free (research)",
     "description": "Neural-network-powered data-independent acquisition (DIA) proteomics processing software.",
     "tags": [
@@ -3776,7 +3798,8 @@
       "https://doi.org/10.1038/s41592-019-0638-x"
     ],
     "paperVenue": "Nature Methods",
-    "paperYear": 2020
+    "paperYear": 2020,
+    "licenseNote": "free for academic use"
   },
   {
     "slug": "alphapeptdeep",
@@ -3988,7 +4011,7 @@
     "url": "https://bio.informatik.uni-jena.de/software/sirius/",
     "github": "https://github.com/sirius-ms/sirius",
     "paper": "https://doi.org/10.1038/s41592-019-0344-8",
-    "license": "AGPL-3.0 (web services: free academic)",
+    "license": "AGPL-3.0",
     "pricing": "Free (research)",
     "description": "Metabolomics software for molecular formula and structure annotation from MS/MS with CSI:FingerID and CANOPUS.",
     "tags": [
@@ -4013,7 +4036,8 @@
       "https://doi.org/10.1038/s41592-019-0344-8"
     ],
     "paperVenue": "Nature Methods",
-    "paperYear": 2019
+    "paperYear": 2019,
+    "licenseNote": "web services: free academic"
   },
   {
     "slug": "ms2deepscore",
@@ -4157,7 +4181,7 @@
     "url": "https://crispor.gi.ucsc.edu",
     "github": "https://github.com/maximilianh/crisporWebsite",
     "paper": "https://doi.org/10.1093/nar/gky354",
-    "license": "Custom (code non-commercial; website free)",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "Web tool for CRISPR guide selection with on-target efficiency and off-target scoring for 500+ genomes.",
     "tags": [
@@ -4184,7 +4208,8 @@
       "https://crispor.gi.ucsc.edu"
     ],
     "paperVenue": "Nucleic Acids Research",
-    "paperYear": 2018
+    "paperYear": 2018,
+    "licenseNote": "code non-commercial; website free"
   },
   {
     "slug": "chopchop",
@@ -4192,7 +4217,7 @@
     "category": "crispr",
     "url": "https://chopchop.cbu.uib.no",
     "paper": "https://doi.org/10.1093/nar/gkz365",
-    "license": "Free web service",
+    "license": "Custom",
     "pricing": "Free (research)",
     "description": "Web tool for designing CRISPR-Cas9, Cas12 and TALEN targets with efficiency predictions.",
     "tags": [
@@ -4214,7 +4239,8 @@
     ],
     "specsChecked": "2026-10-16",
     "paperVenue": "Nucleic Acids Research",
-    "paperYear": 2019
+    "paperYear": 2019,
+    "licenseNote": "Free web service"
   },
   {
     "slug": "rule-set-3",
@@ -4292,7 +4318,7 @@
     "url": "https://github.com/pinellolab/CRISPResso2",
     "github": "https://github.com/pinellolab/CRISPResso2",
     "paper": "https://doi.org/10.1038/s41587-019-0032-3",
-    "license": "Custom academic non-commercial",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "Analysis of genome-editing outcomes from amplicon sequencing, including base and prime editing.",
     "tags": [
@@ -4308,14 +4334,18 @@
       "stars": 357,
       "interface": "Docker",
       "task": "Editing-outcome quantification from amplicon / WGS reads",
-      "starsChecked": "2026-10-16"
+      "starsChecked": "2026-10-16",
+      "system": "Cas9/Cas12a nucleases, base editors, prime editors",
+      "organism": "Any (amplicon or targeted reads)"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/pinellolab/CRISPResso2#readme"
+      "https://github.com/pinellolab/CRISPResso2#readme",
+      "https://github.com/pinellolab/CRISPResso2"
     ],
     "paperVenue": "Nature Biotechnology",
-    "paperYear": 2019
+    "paperYear": 2019,
+    "licenseNote": "academic non-commercial"
   },
   {
     "slug": "opencrispr",
@@ -4324,7 +4354,7 @@
     "url": "https://github.com/Profluent-AI/OpenCRISPR",
     "github": "https://github.com/Profluent-AI/OpenCRISPR",
     "paper": "https://doi.org/10.1038/s41586-025-09298-z",
-    "license": "Profluent OpenCRISPR license (free, incl. commercial)",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "AI-designed Cas9-like gene editor from Profluent's language models, released openly.",
     "tags": [
@@ -4349,7 +4379,8 @@
       "https://doi.org/10.1038/s41586-025-09298-z"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "Profluent OpenCRISPR license (free, incl. commercial)"
   },
   {
     "slug": "igfold",
@@ -4358,7 +4389,7 @@
     "url": "https://github.com/Graylab/IgFold",
     "github": "https://github.com/Graylab/IgFold",
     "paper": "https://doi.org/10.1038/s41467-023-38063-x",
-    "license": "JHU Academic Software License",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "Fast antibody structure prediction using AntiBERTy embeddings and graph networks.",
     "tags": [
@@ -4384,7 +4415,8 @@
       "https://github.com/Graylab/IgFold#readme"
     ],
     "paperVenue": "Nature Communications",
-    "paperYear": 2023
+    "paperYear": 2023,
+    "licenseNote": "JHU Academic Software License"
   },
   {
     "slug": "ablang",
@@ -4707,7 +4739,7 @@
     "url": "https://github.com/WaymentSteeleLab/EternaFold",
     "github": "https://github.com/WaymentSteeleLab/EternaFold",
     "paper": "https://doi.org/10.1038/s41592-022-01605-0",
-    "license": "BSD-style (Stanford)",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "RNA secondary structure model trained via multitask learning on Eterna player data.",
     "tags": [
@@ -4732,7 +4764,8 @@
       "https://doi.org/10.1038/s41592-022-01605-0"
     ],
     "paperVenue": "Nature Methods",
-    "paperYear": 2022
+    "paperYear": 2022,
+    "licenseNote": "BSD-style (Stanford)"
   },
   {
     "slug": "spot-rna",
@@ -4811,7 +4844,7 @@
     "url": "https://www.tbi.univie.ac.at/RNA/",
     "github": "https://github.com/ViennaRNA/ViennaRNA",
     "paper": "https://doi.org/10.1186/1748-7188-6-26",
-    "license": "Custom permissive (ViennaRNA)",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Standard RNA secondary structure prediction and design package (RNAfold, RNAinverse).",
     "tags": [
@@ -4838,7 +4871,8 @@
       "https://www.tbi.univie.ac.at/RNA/"
     ],
     "paperVenue": "Algorithms for Molecular Biology",
-    "paperYear": 2011
+    "paperYear": 2011,
+    "licenseNote": "permissive (ViennaRNA)"
   },
   {
     "slug": "grnade",
@@ -5019,7 +5053,7 @@
     "url": "https://github.com/apcamargo/genomad",
     "github": "https://github.com/apcamargo/genomad",
     "paper": "https://doi.org/10.1038/s41587-023-01953-y",
-    "license": "LBNL academic non-commercial",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "Neural-network and marker-based identification of viruses and plasmids in sequencing data.",
     "tags": [
@@ -5045,7 +5079,8 @@
       "https://doi.org/10.1038/s41587-023-01953-y"
     ],
     "paperVenue": "Nature Biotechnology",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "LBNL academic non-commercial"
   },
   {
     "slug": "checkm2",
@@ -5188,7 +5223,7 @@
     "url": "https://github.com/epfLLM/meditron",
     "github": "https://github.com/epfLLM/meditron",
     "paper": "https://arxiv.org/abs/2311.16079",
-    "license": "Apache-2.0 code; Llama 2 license (weights)",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "Open medical LLMs (7B/70B) adapted from Llama 2 on curated medical corpora.",
     "tags": [
@@ -5212,7 +5247,8 @@
       "https://github.com/epfLLM/meditron#readme"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2023
+    "paperYear": 2023,
+    "licenseNote": "code; Llama 2 license (weights)"
   },
   {
     "slug": "medgemma",
@@ -5221,7 +5257,7 @@
     "url": "https://deepmind.google/models/gemma/medgemma/",
     "github": "https://github.com/Google-Health/medgemma",
     "paper": "https://arxiv.org/abs/2507.05201",
-    "license": "Apache-2.0 code; Health AI Developer Foundations terms (weights)",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "Google's open Gemma 3 variants for medical text and image comprehension.",
     "tags": [
@@ -5246,7 +5282,8 @@
       "https://deepmind.google/models/gemma/medgemma/"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "code; Health AI Developer Foundations terms (weights)"
   },
   {
     "slug": "llava-med",
@@ -5255,7 +5292,7 @@
     "url": "https://github.com/microsoft/LLaVA-Med",
     "github": "https://github.com/microsoft/LLaVA-Med",
     "paper": "https://arxiv.org/abs/2306.00890",
-    "license": "Microsoft Research License",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "Biomedical vision-language assistant trained on PubMed Central figure-caption data.",
     "tags": [
@@ -5280,7 +5317,8 @@
       "https://github.com/microsoft/LLaVA-Med#readme"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2023
+    "paperYear": 2023,
+    "licenseNote": "Microsoft Research License"
   },
   {
     "slug": "biomedparse",
@@ -5353,7 +5391,7 @@
     "url": "https://github.com/gomesgroup/coscientist",
     "github": "https://github.com/gomesgroup/coscientist",
     "paper": "https://doi.org/10.1038/s41586-023-06792-0",
-    "license": "Apache-2.0 + Commons Clause",
+    "license": "Apache-2.0",
     "pricing": "Open source (non-commercial)",
     "description": "GPT-4-driven agent that plans and executes chemistry experiments on lab hardware.",
     "tags": [
@@ -5378,7 +5416,8 @@
       "https://doi.org/10.1038/s41586-023-06792-0"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2023
+    "paperYear": 2023,
+    "licenseNote": "+ Commons Clause"
   },
   {
     "slug": "chemcrow",
@@ -5452,7 +5491,7 @@
     "category": "cloud-labs",
     "url": "https://opentrons.com",
     "github": "https://github.com/Opentrons/opentrons",
-    "license": "Apache-2.0 (software)",
+    "license": "Apache-2.0",
     "pricing": "Paid",
     "description": "Open-source liquid-handling robots with a Python Protocol API and AI protocol generation.",
     "tags": [
@@ -5472,7 +5511,8 @@
     "specsSources": [
       "https://github.com/Opentrons/opentrons#readme",
       "https://opentrons.com"
-    ]
+    ],
+    "licenseNote": "software"
   },
   {
     "slug": "biodiscoveryagent",
@@ -5649,7 +5689,7 @@
     "url": "https://github.com/NVIDIA-BioNeMo/proteina",
     "github": "https://github.com/NVIDIA-BioNeMo/proteina",
     "paper": "https://arxiv.org/abs/2503.00710",
-    "license": "NVIDIA License (non-commercial)",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "NVIDIA flow-matching model for large-scale protein backbone generation.",
     "tags": [
@@ -5675,7 +5715,8 @@
       "https://github.com/NVIDIA-BioNeMo/proteina#readme"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "NVIDIA License (non-commercial)"
   },
   {
     "slug": "la-proteina",
@@ -5684,7 +5725,7 @@
     "url": "https://github.com/NVIDIA-BioNeMo/la-proteina",
     "github": "https://github.com/NVIDIA-BioNeMo/la-proteina",
     "paper": "https://arxiv.org/abs/2507.09466",
-    "license": "Apache-2.0 code; NVIDIA Open Model License weights",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "NVIDIA latent flow model for joint atomistic protein sequence-structure generation.",
     "tags": [
@@ -5709,7 +5750,8 @@
       "https://github.com/NVIDIA-BioNeMo/la-proteina#readme"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "code; NVIDIA Open Model License weights"
   },
   {
     "slug": "progen2",
@@ -6095,7 +6137,7 @@
     "category": "imaging",
     "url": "https://arxiv.org/abs/2601.05148",
     "paper": "https://arxiv.org/abs/2601.05148",
-    "license": "Proprietary (weights not released; arXiv report only)",
+    "license": "Proprietary",
     "pricing": "Contact",
     "description": "Pathology foundation model family built for clinical deployment (Aignostics and collaborators).",
     "tags": [
@@ -6118,7 +6160,8 @@
     ],
     "specsChecked": "2026-10-16",
     "paperVenue": "arXiv preprint",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "licenseNote": "weights not released; arXiv report only"
   },
   {
     "slug": "rnapro",
@@ -6126,7 +6169,7 @@
     "category": "rna",
     "url": "https://github.com/NVIDIA-BioNeMo/RNAPro",
     "github": "https://github.com/NVIDIA-BioNeMo/RNAPro",
-    "license": "Apache-2.0 (code); NVIDIA Open Model License (weights)",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "NVIDIA RNA 3D folding model built with hosts and winners of the Stanford RNA 3D Folding Kaggle competition.",
     "tags": [
@@ -6148,7 +6191,8 @@
       "https://github.com/NVIDIA-Digital-Bio/RNAPro",
       "https://github.com/NVIDIA-Digital-Bio/RNAPro/blob/main/model_cards/overview.md"
     ],
-    "notability": "NVIDIA; built with Stanford RNA 3D Folding Kaggle winners"
+    "notability": "NVIDIA; built with Stanford RNA 3D Folding Kaggle winners",
+    "licenseNote": "code; NVIDIA Open Model License (weights)"
   },
   {
     "slug": "stack",
@@ -6157,7 +6201,7 @@
     "url": "https://arcinstitute.org/news/foundation-model-stack",
     "github": "https://github.com/ArcInstitute/stack",
     "paper": "https://doi.org/10.64898/2026.01.09.698608",
-    "license": "CC-BY-NC-SA-4.0 (code); Arc non-commercial (model)",
+    "license": "Mixed",
     "pricing": "Open source (non-commercial)",
     "description": "Arc Institute model trained on 149M human cells using tabular attention for in-context learning; used to generate the Perturb Sapiens atlas (28 tissues, 201 perturbations).",
     "tags": [
@@ -6184,7 +6228,8 @@
     ],
     "notability": "Arc Institute; Perturb Sapiens atlas; Arc news release",
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "licenseNote": "CC-BY-NC-SA-4.0 (code); Arc non-commercial (model)"
   },
   {
     "slug": "bios",
@@ -6329,7 +6374,7 @@
     "category": "imaging",
     "url": "https://huggingface.co/genbio-ai/genbio-pathfm",
     "github": "https://github.com/genbio-ai/genbio-pathfm",
-    "license": "GenBio AI Community License",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "1.1B-parameter open-weight histopathology foundation model trained only on public data.",
     "tags": [
@@ -6354,7 +6399,8 @@
       "https://genbio.ai/genbio-pathfm/",
       "https://github.com/genbio-ai/genbio-pathfm#readme"
     ],
-    "notability": "GenBio AI (Eric Xing); 1.1B open-weight pathology FM"
+    "notability": "GenBio AI (Eric Xing); 1.1B open-weight pathology FM",
+    "licenseNote": "GenBio AI Community License"
   },
   {
     "slug": "eva",
@@ -6578,7 +6624,7 @@
     "name": "OpenBind model",
     "category": "drug-discovery",
     "url": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/",
-    "license": "Open access (freely downloadable; license not stated)",
+    "license": "NOASSERTION",
     "pricing": "Open source",
     "description": "First predictive model from the UK OpenBind consortium, trained on its experimental protein–ligand dataset.",
     "tags": [
@@ -6597,7 +6643,8 @@
     "specsSources": [
       "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "licenseNote": "Open access (freely downloadable; license not stated)"
   },
   {
     "slug": "instanovo-fm",
@@ -6873,7 +6920,7 @@
     "url": "https://github.com/GuangyuWangLab2021/Loki",
     "github": "https://github.com/GuangyuWangLab2021/Loki",
     "paper": "https://doi.org/10.1038/s41592-025-02707-1",
-    "license": "BSD-3-Clause (non-commercial, academic use)",
+    "license": "BSD-3-Clause",
     "pricing": "Open source (non-commercial)",
     "description": "Visual–omics foundation model aligning H&E histology with spatial transcriptomics for tissue alignment, cell-type decomposition and expression prediction.",
     "tags": [
@@ -6898,7 +6945,8 @@
       "https://doi.org/10.1038/s41592-025-02707-1"
     ],
     "paperVenue": "Nature Methods",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "non-commercial, academic use"
   },
   {
     "slug": "banksy",
@@ -6907,7 +6955,7 @@
     "url": "https://github.com/prabhakarlab/Banksy",
     "github": "https://github.com/prabhakarlab/Banksy",
     "paper": "https://doi.org/10.1038/s41588-024-01664-3",
-    "license": "MIT for academic use; commercial restrictions",
+    "license": "MIT",
     "pricing": "Open source (non-commercial)",
     "description": "Neighborhood-augmented clustering that unifies cell typing and tissue-domain segmentation in spatial omics.",
     "tags": [
@@ -6931,7 +6979,8 @@
       "https://doi.org/10.1038/s41588-024-01664-3"
     ],
     "paperVenue": "Nature Genetics",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "for academic use; commercial restrictions"
   },
   {
     "slug": "cellcharter",
@@ -7008,7 +7057,7 @@
     "url": "https://github.com/y-hwang/gLM",
     "github": "https://github.com/y-hwang/gLM",
     "paper": "https://doi.org/10.1038/s41467-024-46947-9",
-    "license": "Harvard academic non-commercial",
+    "license": "Custom",
     "pricing": "Open source (non-commercial)",
     "description": "Genomic language model trained on metagenomic contigs that learns gene context to predict protein co-regulation and function.",
     "tags": [
@@ -7033,7 +7082,8 @@
       "https://doi.org/10.1038/s41467-024-46947-9"
     ],
     "paperVenue": "Nature Communications",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "Harvard academic non-commercial"
   },
   {
     "slug": "glm2",
@@ -7110,7 +7160,7 @@
     "url": "https://github.com/cong-lab/crispr-gpt-pub",
     "github": "https://github.com/cong-lab/crispr-gpt-pub",
     "paper": "https://doi.org/10.1038/s41551-025-01463-z",
-    "license": "— (full code not public)",
+    "license": "NOASSERTION",
     "pricing": "Research release",
     "description": "LLM agent that plans and automates gene-editing experiments: system selection, guide design, protocols and analysis.",
     "tags": [
@@ -7137,7 +7187,8 @@
       "https://www.nature.com/articles/s41551-025-01463-z"
     ],
     "paperVenue": "Nature Biomedical Engineering",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "full code not public"
   },
   {
     "slug": "deepprime",
@@ -7146,7 +7197,7 @@
     "url": "https://github.com/hkimlab/DeepPrime",
     "github": "https://github.com/hkimlab/DeepPrime",
     "paper": "https://doi.org/10.1016/j.cell.2023.03.034",
-    "license": "—",
+    "license": "NOASSERTION",
     "pricing": "Open source",
     "description": "Deep-learning prediction of prime-editing efficiency across PE systems and cell types (Hyongbum Kim lab).",
     "tags": [
@@ -7247,7 +7298,7 @@
     "url": "https://github.com/FreedomIntelligence/HuatuoGPT-o1",
     "github": "https://github.com/FreedomIntelligence/HuatuoGPT-o1",
     "paper": "https://arxiv.org/abs/2412.18925",
-    "license": "Apache-2.0 (8B weights)",
+    "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "Open medical reasoning LLMs trained with verifiable medical problems and RL for complex clinical reasoning.",
     "tags": [
@@ -7273,7 +7324,8 @@
       "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "8B weights"
   },
   {
     "slug": "biomedclip",
@@ -7347,7 +7399,7 @@
     "url": "https://huggingface.co/MahmoodLab/TITAN",
     "github": "https://github.com/mahmoodlab/TITAN",
     "paper": "https://doi.org/10.1038/s41591-025-03982-3",
-    "license": "CC-BY-NC-ND-4.0 (weights)",
+    "license": "CC-BY-NC-ND-4.0",
     "pricing": "Open source (non-commercial)",
     "description": "Multimodal whole-slide pathology foundation model pretrained on 335,645 WSIs with vision–language alignment.",
     "tags": [
@@ -7373,7 +7425,8 @@
       "https://huggingface.co/MahmoodLab/TITAN"
     ],
     "paperVenue": "Nature Medicine",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "weights"
   },
   {
     "slug": "chief",
@@ -7450,7 +7503,7 @@
     "url": "https://huggingface.co/facebook/OMol25",
     "github": "https://github.com/facebookresearch/fairchem",
     "paper": "https://arxiv.org/abs/2505.08762",
-    "license": "Custom (see dataset card)",
+    "license": "Custom",
     "pricing": "Open source",
     "description": "Meta FAIR's open dataset of DFT calculations on diverse molecules, with evaluations and baseline models.",
     "tags": [
@@ -7475,7 +7528,8 @@
       "https://arxiv.org/abs/2505.08762"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "see dataset card"
   },
   {
     "slug": "metagene-1",
@@ -7517,7 +7571,7 @@
     "paper": "https://arxiv.org/abs/2509.02208",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "Baichuan's open 32B medical reasoning model trained with a patient simulator and clinical-rubric RL; top open model on HealthBench at release.",
+    "description": "Baichuan's open 32B medical reasoning model trained with a patient simulator and clinical-rubric RL; reported as the top open model on HealthBench at release.",
     "tags": [
       "llm",
       "reasoning",
@@ -7549,7 +7603,7 @@
     "category": "clinical",
     "url": "https://alibaba-damo-academy.github.io/lingshu/",
     "paper": "https://arxiv.org/abs/2506.07044",
-    "license": "MIT (weights)",
+    "license": "MIT",
     "pricing": "Open source",
     "description": "Alibaba DAMO's multimodal medical LLMs (7B/32B) for medical image understanding, reasoning, VQA and report generation.",
     "tags": [
@@ -7572,6 +7626,7 @@
       "https://arxiv.org/abs/2506.07044"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseNote": "weights"
   }
 ]
