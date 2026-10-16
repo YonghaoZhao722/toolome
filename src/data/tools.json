@@ -6186,5 +6186,761 @@
       "https://laoyaoba.com/n/1110147"
     ],
     "specsChecked": "2026-10-16"
+  },
+  {
+    "slug": "deepsomatic",
+    "name": "DeepSomatic",
+    "category": "sequencing",
+    "url": "https://github.com/google/deepsomatic",
+    "github": "https://github.com/google/deepsomatic",
+    "paper": "https://doi.org/10.1101/2024.08.16.608331",
+    "license": "BSD-3-Clause",
+    "pricing": "Open source",
+    "description": "Google's deep-learning somatic small-variant caller for tumor/normal data across Illumina, PacBio and Oxford Nanopore.",
+    "tags": [
+      "variant-calling",
+      "somatic",
+      "cancer"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-08-16",
+    "dateSource": "https://doi.org/10.1101/2024.08.16.608331",
+    "notability": "Google Research + UCSC; DeepVariant family",
+    "specs": {
+      "stars": 325,
+      "platform": "Illumina, PacBio HiFi, Oxford Nanopore",
+      "task": "Somatic small-variant calling",
+      "variants": "SNVs, small indels"
+    },
+    "specsSource": "https://github.com/google/deepsomatic#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/google/deepsomatic#readme",
+      "https://doi.org/10.1101/2024.08.16.608331"
+    ]
+  },
+  {
+    "slug": "deeppolisher",
+    "name": "DeepPolisher",
+    "category": "sequencing",
+    "url": "https://github.com/google/deeppolisher",
+    "github": "https://github.com/google/deeppolisher",
+    "paper": "https://doi.org/10.1101/gr.280149.124",
+    "license": "BSD-3-Clause",
+    "pricing": "Open source",
+    "description": "Transformer-based polisher that reduces base errors in PacBio HiFi genome assemblies.",
+    "tags": [
+      "assembly",
+      "polishing",
+      "transformer"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-09-17",
+    "dateSource": "https://doi.org/10.1101/2024.09.17.613505",
+    "notability": "Google + UCSC; Genome Research 2025",
+    "specs": {
+      "stars": 111,
+      "platform": "PacBio HiFi",
+      "task": "Assembly polishing"
+    },
+    "specsSource": "https://github.com/google/deeppolisher#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/google/deeppolisher#readme",
+      "https://doi.org/10.1101/gr.280149.124"
+    ]
+  },
+  {
+    "slug": "clairs-to",
+    "name": "ClairS-TO",
+    "category": "sequencing",
+    "url": "https://github.com/HKU-BAL/ClairS-TO",
+    "github": "https://github.com/HKU-BAL/ClairS-TO",
+    "paper": "https://doi.org/10.1038/s41467-025-64547-z",
+    "license": "BSD-3-Clause",
+    "pricing": "Open source",
+    "description": "Deep-learning tumor-only somatic small-variant caller for long reads, from the Clair3 team.",
+    "tags": [
+      "variant-calling",
+      "somatic",
+      "long-read"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-03-10",
+    "dateSource": "https://doi.org/10.1101/2025.03.10.642523",
+    "notability": "HKU Clair team; Nature Communications 2025",
+    "specs": {
+      "stars": 98,
+      "platform": "Oxford Nanopore, PacBio",
+      "task": "Tumor-only somatic calling",
+      "variants": "SNVs, indels"
+    },
+    "specsSource": "https://github.com/HKU-BAL/ClairS-TO#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/HKU-BAL/ClairS-TO#readme",
+      "https://doi.org/10.1038/s41467-025-64547-z"
+    ]
+  },
+  {
+    "slug": "herro",
+    "name": "HERRO",
+    "category": "sequencing",
+    "url": "https://github.com/lbcb-sci/herro",
+    "github": "https://github.com/lbcb-sci/herro",
+    "paper": "https://doi.org/10.1038/s41586-026-10563-y",
+    "license": "Oxford Nanopore Public License 1.0",
+    "pricing": "Open source",
+    "description": "Deep-learning error correction of nanopore simplex reads that enables telomere-to-telomere phased assemblies.",
+    "tags": [
+      "error-correction",
+      "nanopore",
+      "assembly"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-05-18",
+    "dateSource": "https://doi.org/10.1101/2024.05.18.594796",
+    "notability": "LBCB (Šikić lab) + ONT collaborators; Nature 2026",
+    "specs": {
+      "stars": 265,
+      "platform": "Oxford Nanopore",
+      "task": "Read error correction for T2T assembly"
+    },
+    "specsSource": "https://github.com/lbcb-sci/herro#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/lbcb-sci/herro#readme",
+      "https://doi.org/10.1038/s41586-026-10563-y"
+    ]
+  },
+  {
+    "slug": "novae",
+    "name": "Novae",
+    "category": "spatial",
+    "url": "https://github.com/prism-oncology/novae",
+    "github": "https://github.com/prism-oncology/novae",
+    "paper": "https://doi.org/10.1038/s41592-025-02899-6",
+    "license": "BSD-3-Clause",
+    "pricing": "Open source",
+    "description": "Graph-based foundation model for spatial transcriptomics: zero-shot spatial domains and cross-slide/cross-technology integration.",
+    "tags": [
+      "foundation-model",
+      "graph",
+      "spatial-domains"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-09-09",
+    "dateSource": "https://doi.org/10.1101/2024.09.09.612009",
+    "notability": "Nature Methods 2025",
+    "specs": {
+      "tasks": "Spatial domains, batch integration",
+      "stars": 162,
+      "resolution": "Single cell"
+    },
+    "specsSource": "https://github.com/prism-oncology/novae#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/prism-oncology/novae#readme",
+      "https://doi.org/10.1038/s41592-025-02899-6"
+    ]
+  },
+  {
+    "slug": "scgpt-spatial",
+    "name": "scGPT-spatial",
+    "category": "spatial",
+    "url": "https://github.com/bowang-lab/scGPT-spatial",
+    "github": "https://github.com/bowang-lab/scGPT-spatial",
+    "paper": "https://doi.org/10.1101/2025.02.05.636714",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "scGPT continually pretrained on spatial transcriptomics for spatial-aware embeddings, deconvolution and imputation.",
+    "tags": [
+      "foundation-model",
+      "scgpt"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-02-05",
+    "dateSource": "https://doi.org/10.1101/2025.02.05.636714",
+    "notability": "Bo Wang lab (scGPT authors)",
+    "specs": {
+      "tasks": "Foundation model (spatial transcriptomics)",
+      "stars": 143
+    },
+    "specsSource": "https://github.com/bowang-lab/scGPT-spatial#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/bowang-lab/scGPT-spatial#readme",
+      "https://doi.org/10.1101/2025.02.05.636714"
+    ]
+  },
+  {
+    "slug": "loki",
+    "name": "Loki (OmiCLIP)",
+    "category": "spatial",
+    "url": "https://github.com/GuangyuWangLab2021/Loki",
+    "github": "https://github.com/GuangyuWangLab2021/Loki",
+    "paper": "https://doi.org/10.1038/s41592-025-02707-1",
+    "license": "BSD-3-Clause (non-commercial, academic use)",
+    "pricing": "Open source (non-commercial)",
+    "description": "Visual–omics foundation model aligning H&E histology with spatial transcriptomics for tissue alignment, cell-type decomposition and expression prediction.",
+    "tags": [
+      "foundation-model",
+      "histology",
+      "multimodal"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-04-16",
+    "dateSource": "https://doi.org/10.21203/rs.3.rs-5183775/v1",
+    "notability": "Nature Methods 2025",
+    "specs": {
+      "tasks": "Histology–ST alignment, decomposition, expression prediction",
+      "stars": 151,
+      "platforms": "H&E + spatial transcriptomics"
+    },
+    "specsSource": "https://github.com/GuangyuWangLab2021/Loki#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/GuangyuWangLab2021/Loki#readme",
+      "https://doi.org/10.1038/s41592-025-02707-1"
+    ]
+  },
+  {
+    "slug": "banksy",
+    "name": "BANKSY",
+    "category": "spatial",
+    "url": "https://github.com/prabhakarlab/Banksy",
+    "github": "https://github.com/prabhakarlab/Banksy",
+    "paper": "https://doi.org/10.1038/s41588-024-01664-3",
+    "license": "MIT for academic use; commercial restrictions",
+    "pricing": "Open source (non-commercial)",
+    "description": "Neighborhood-augmented clustering that unifies cell typing and tissue-domain segmentation in spatial omics.",
+    "tags": [
+      "clustering",
+      "spatial-domains"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2022-04-14",
+    "dateSource": "https://doi.org/10.1101/2022.04.14.488259",
+    "notability": "Nature Genetics 2024; R and Python packages",
+    "specs": {
+      "tasks": "Cell typing + domain segmentation",
+      "stars": 167
+    },
+    "specsSource": "https://github.com/prabhakarlab/Banksy#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/prabhakarlab/Banksy#readme",
+      "https://doi.org/10.1038/s41588-024-01664-3"
+    ]
+  },
+  {
+    "slug": "cellcharter",
+    "name": "CellCharter",
+    "category": "spatial",
+    "url": "https://github.com/CSOgroup/cellcharter",
+    "github": "https://github.com/CSOgroup/cellcharter",
+    "paper": "https://doi.org/10.1038/s41588-023-01588-4",
+    "license": "BSD-3-Clause",
+    "pricing": "Open source",
+    "description": "Scalable identification and comparison of spatial cell niches across samples and technologies (scverse ecosystem).",
+    "tags": [
+      "niches",
+      "clustering",
+      "scverse"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-01-10",
+    "dateSource": "https://doi.org/10.1101/2023.01.10.523386",
+    "notability": "Nature Genetics 2023",
+    "specs": {
+      "tasks": "Spatial niche identification",
+      "stars": 197
+    },
+    "specsSource": "https://github.com/CSOgroup/cellcharter#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/CSOgroup/cellcharter#readme",
+      "https://doi.org/10.1038/s41588-023-01588-4"
+    ]
+  },
+  {
+    "slug": "sylph",
+    "name": "sylph",
+    "category": "microbiome",
+    "url": "https://github.com/bluenote-1577/sylph",
+    "github": "https://github.com/bluenote-1577/sylph",
+    "paper": "https://doi.org/10.1038/s41587-024-02412-y",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Ultrafast species-level metagenome profiler using abundance-corrected k-mer sketching (ANI-based containment).",
+    "tags": [
+      "profiling",
+      "k-mer",
+      "taxonomy"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-11-20",
+    "dateSource": "https://doi.org/10.1101/2023.11.20.567879",
+    "notability": "Nature Biotechnology 2024",
+    "specs": {
+      "stars": 329,
+      "input": "Metagenomic short or long reads",
+      "task": "Species-level profiling + containment ANI"
+    },
+    "specsSource": "https://github.com/bluenote-1577/sylph#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/bluenote-1577/sylph#readme",
+      "https://doi.org/10.1038/s41587-024-02412-y"
+    ]
+  },
+  {
+    "slug": "glm",
+    "name": "gLM",
+    "category": "microbiome",
+    "url": "https://github.com/y-hwang/gLM",
+    "github": "https://github.com/y-hwang/gLM",
+    "paper": "https://doi.org/10.1038/s41467-024-46947-9",
+    "license": "Harvard academic non-commercial",
+    "pricing": "Open source (non-commercial)",
+    "description": "Genomic language model trained on metagenomic contigs that learns gene context to predict protein co-regulation and function.",
+    "tags": [
+      "language-model",
+      "metagenomics",
+      "gene-function"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-04-07",
+    "dateSource": "https://doi.org/10.1101/2023.04.07.536042",
+    "notability": "Harvard; Nature Communications 2024",
+    "specs": {
+      "stars": 93,
+      "input": "Metagenomic contigs (protein embeddings)",
+      "task": "Gene-context modelling, function prediction"
+    },
+    "specsSource": "https://github.com/y-hwang/gLM#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/y-hwang/gLM#readme",
+      "https://doi.org/10.1038/s41467-024-46947-9"
+    ]
+  },
+  {
+    "slug": "glm2",
+    "name": "gLM2 / OMG",
+    "category": "microbiome",
+    "url": "https://huggingface.co/tattabio/gLM2_650M",
+    "github": "https://github.com/TattaBio/gLM2",
+    "paper": "https://doi.org/10.1101/2024.08.14.607850",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Tatta Bio's mixed-modality (protein + DNA) genomic language model trained on the OMG open metagenomic corpus.",
+    "tags": [
+      "language-model",
+      "metagenomics",
+      "dataset"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-08-14",
+    "dateSource": "https://doi.org/10.1101/2024.08.14.607850",
+    "notability": "Tatta Bio; OMG open metagenomic corpus",
+    "specs": {
+      "stars": 97,
+      "input": "Metagenomic contigs (protein + DNA)",
+      "task": "Genomic language modelling"
+    },
+    "specsSource": "https://github.com/TattaBio/gLM2#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/TattaBio/gLM2#readme",
+      "https://doi.org/10.1101/2024.08.14.607850"
+    ]
+  },
+  {
+    "slug": "comebin",
+    "name": "COMEBin",
+    "category": "microbiome",
+    "url": "https://github.com/ziyewang/COMEBin",
+    "github": "https://github.com/ziyewang/COMEBin",
+    "paper": "https://doi.org/10.1038/s41467-023-44290-z",
+    "license": "GPL-3.0",
+    "pricing": "Open source",
+    "description": "Contrastive multi-view representation learning for binning metagenomic contigs into genomes.",
+    "tags": [
+      "binning",
+      "contrastive-learning",
+      "mags"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-01-17",
+    "dateSource": "https://doi.org/10.1038/s41467-023-44290-z",
+    "notability": "Nature Communications 2024",
+    "specs": {
+      "stars": 85,
+      "input": "Assembled contigs + reads",
+      "task": "Metagenomic binning"
+    },
+    "specsSource": "https://github.com/ziyewang/COMEBin#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/ziyewang/COMEBin#readme",
+      "https://doi.org/10.1038/s41467-023-44290-z"
+    ]
+  },
+  {
+    "slug": "crispr-gpt",
+    "name": "CRISPR-GPT",
+    "category": "crispr",
+    "url": "https://github.com/cong-lab/crispr-gpt-pub",
+    "github": "https://github.com/cong-lab/crispr-gpt-pub",
+    "paper": "https://doi.org/10.1038/s41551-025-01463-z",
+    "license": "— (full code not public)",
+    "pricing": "Research release",
+    "description": "LLM agent that plans and automates gene-editing experiments: system selection, guide design, protocols and analysis.",
+    "tags": [
+      "agent",
+      "llm",
+      "guide-design"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-04-25",
+    "dateSource": "https://doi.org/10.1101/2024.04.25.591003",
+    "notability": "Le Cong lab (Stanford); Nature Biomedical Engineering 2025",
+    "specs": {
+      "stars": 180,
+      "task": "Agentic gene-editing experiment design"
+    },
+    "specsSource": "https://github.com/cong-lab/crispr-gpt-pub#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/cong-lab/crispr-gpt-pub#readme",
+      "https://doi.org/10.1038/s41551-025-01463-z"
+    ]
+  },
+  {
+    "slug": "deepprime",
+    "name": "DeepPrime",
+    "category": "crispr",
+    "url": "https://github.com/hkimlab/DeepPrime",
+    "github": "https://github.com/hkimlab/DeepPrime",
+    "paper": "https://doi.org/10.1016/j.cell.2023.03.034",
+    "license": "—",
+    "pricing": "Open source",
+    "description": "Deep-learning prediction of prime-editing efficiency across PE systems and cell types (Hyongbum Kim lab).",
+    "tags": [
+      "prime-editing",
+      "efficiency-prediction"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-04-28",
+    "dateSource": "https://doi.org/10.1016/j.cell.2023.03.034",
+    "notability": "Cell 2023",
+    "specs": {
+      "stars": 15,
+      "system": "Prime editing (multiple PE systems)",
+      "task": "pegRNA efficiency prediction"
+    },
+    "specsSource": "https://github.com/hkimlab/DeepPrime#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/hkimlab/DeepPrime#readme",
+      "https://doi.org/10.1016/j.cell.2023.03.034"
+    ]
+  },
+  {
+    "slug": "medsam",
+    "name": "MedSAM",
+    "category": "clinical",
+    "url": "https://github.com/bowang-lab/MedSAM",
+    "github": "https://github.com/bowang-lab/MedSAM",
+    "paper": "https://doi.org/10.1038/s41467-024-44824-z",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Segment Anything adapted to medical images: promptable segmentation across CT, MRI, ultrasound, endoscopy and more.",
+    "tags": [
+      "segmentation",
+      "foundation-model",
+      "medical-imaging"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-04-24",
+    "dateSource": "https://arxiv.org/abs/2304.12306",
+    "notability": "Bo Wang lab; Nature Communications 2024; 4k+ GitHub stars",
+    "specs": {
+      "stars": 4416,
+      "modality": "Medical images (multi-modality)",
+      "baseModel": "Segment Anything (SAM)"
+    },
+    "specsSource": "https://github.com/bowang-lab/MedSAM#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/bowang-lab/MedSAM#readme",
+      "https://doi.org/10.1038/s41467-024-44824-z"
+    ]
+  },
+  {
+    "slug": "medsam2",
+    "name": "MedSAM2",
+    "category": "clinical",
+    "url": "https://github.com/bowang-lab/MedSAM2",
+    "github": "https://github.com/bowang-lab/MedSAM2",
+    "paper": "https://arxiv.org/abs/2504.03600",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Promptable segmentation for 3D medical images and videos, built on SAM 2.",
+    "tags": [
+      "segmentation",
+      "3d",
+      "video"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-04-04",
+    "dateSource": "https://arxiv.org/abs/2504.03600",
+    "notability": "Bo Wang lab; successor to MedSAM",
+    "specs": {
+      "stars": 729,
+      "modality": "3D medical images + video",
+      "baseModel": "SAM 2"
+    },
+    "specsSource": "https://github.com/bowang-lab/MedSAM2#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/bowang-lab/MedSAM2#readme",
+      "https://arxiv.org/abs/2504.03600"
+    ]
+  },
+  {
+    "slug": "huatuogpt-o1",
+    "name": "HuatuoGPT-o1",
+    "category": "clinical",
+    "url": "https://github.com/FreedomIntelligence/HuatuoGPT-o1",
+    "github": "https://github.com/FreedomIntelligence/HuatuoGPT-o1",
+    "paper": "https://arxiv.org/abs/2412.18925",
+    "license": "Apache-2.0 (8B weights)",
+    "pricing": "Open source",
+    "description": "Open medical reasoning LLMs trained with verifiable medical problems and RL for complex clinical reasoning.",
+    "tags": [
+      "llm",
+      "reasoning",
+      "medical"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-12-25",
+    "dateSource": "https://arxiv.org/abs/2412.18925",
+    "notability": "CUHK-Shenzhen FreedomIntelligence; 1.3k+ stars",
+    "specs": {
+      "stars": 1364,
+      "modality": "Text"
+    },
+    "specsSource": "https://github.com/FreedomIntelligence/HuatuoGPT-o1#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/FreedomIntelligence/HuatuoGPT-o1#readme",
+      "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B"
+    ]
+  },
+  {
+    "slug": "biomedclip",
+    "name": "BiomedCLIP",
+    "category": "clinical",
+    "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+    "paper": "https://doi.org/10.1056/AIoa2400640",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Microsoft's biomedical vision-language model pretrained on 15M PubMed Central figure–caption pairs.",
+    "tags": [
+      "vision-language",
+      "clip",
+      "medical-imaging"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-03-02",
+    "dateSource": "https://arxiv.org/abs/2303.00915",
+    "notability": "Microsoft Research; NEJM AI 2024; ~178k monthly HF downloads",
+    "specs": {
+      "modality": "Biomedical images + text",
+      "baseModel": "PubMedBERT + ViT-B/16 (CLIP)"
+    },
+    "specsSource": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+      "https://doi.org/10.1056/AIoa2400640"
+    ]
+  },
+  {
+    "slug": "cellsam",
+    "name": "CellSAM",
+    "category": "imaging",
+    "url": "https://cellsam.deepcell.org/",
+    "github": "https://github.com/vanvalenlab/cellSAM",
+    "paper": "https://doi.org/10.1038/s41592-025-02879-w",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Foundation model for cell segmentation across imaging modalities, pairing a cell-detection prompter with SAM.",
+    "tags": [
+      "segmentation",
+      "foundation-model",
+      "sam"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2023-11-17",
+    "dateSource": "https://doi.org/10.1101/2023.11.17.567630",
+    "notability": "Van Valen lab (DeepCell); Nature Methods 2025",
+    "specs": {
+      "stars": 220,
+      "segType": "Cell segmentation",
+      "modality": "Multiple microscopy modalities"
+    },
+    "specsSource": "https://github.com/vanvalenlab/cellSAM#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/vanvalenlab/cellSAM#readme",
+      "https://doi.org/10.1038/s41592-025-02879-w"
+    ]
+  },
+  {
+    "slug": "titan",
+    "name": "TITAN",
+    "category": "imaging",
+    "url": "https://huggingface.co/MahmoodLab/TITAN",
+    "github": "https://github.com/mahmoodlab/TITAN",
+    "paper": "https://doi.org/10.1038/s41591-025-03982-3",
+    "license": "CC-BY-NC-ND-4.0 (weights)",
+    "pricing": "Open source (non-commercial)",
+    "description": "Multimodal whole-slide pathology foundation model pretrained on 335,645 WSIs with vision–language alignment.",
+    "tags": [
+      "pathology",
+      "foundation-model",
+      "vision-language"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-11-29",
+    "dateSource": "https://arxiv.org/abs/2411.19666",
+    "notability": "Mahmood lab (UNI/CONCH); Nature Medicine 2025",
+    "specs": {
+      "stars": 373,
+      "modality": "H&E whole-slide images + text"
+    },
+    "specsSource": "https://github.com/mahmoodlab/TITAN#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/mahmoodlab/TITAN#readme",
+      "https://huggingface.co/MahmoodLab/TITAN"
+    ]
+  },
+  {
+    "slug": "chief",
+    "name": "CHIEF",
+    "category": "imaging",
+    "url": "https://github.com/hms-dbmi/CHIEF",
+    "github": "https://github.com/hms-dbmi/CHIEF",
+    "paper": "https://doi.org/10.1038/s41586-024-07894-z",
+    "license": "AGPL-3.0",
+    "pricing": "Open source",
+    "description": "Pathology foundation model for cancer detection, tumor-origin and molecular-profile prediction and prognosis from whole slides.",
+    "tags": [
+      "pathology",
+      "foundation-model",
+      "cancer"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-05-16",
+    "dateSource": "https://doi.org/10.1101/2024.05.16.594499",
+    "notability": "Harvard Medical School DBMI; Nature 2024; 700+ stars",
+    "specs": {
+      "stars": 719,
+      "modality": "H&E whole-slide images"
+    },
+    "specsSource": "https://github.com/hms-dbmi/CHIEF#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/hms-dbmi/CHIEF#readme",
+      "https://doi.org/10.1038/s41586-024-07894-z"
+    ]
+  },
+  {
+    "slug": "rinalmo",
+    "name": "RiNALMo",
+    "category": "rna",
+    "url": "https://github.com/lbcb-sci/RiNALMo",
+    "github": "https://github.com/lbcb-sci/RiNALMo",
+    "paper": "https://doi.org/10.1038/s41467-025-60872-5",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "General-purpose RNA language model that generalizes to unseen RNA families on secondary-structure prediction.",
+    "tags": [
+      "language-model",
+      "structure"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-02-29",
+    "dateSource": "https://arxiv.org/abs/2403.00043",
+    "notability": "Nature Communications 2025",
+    "specs": {
+      "stars": 178,
+      "task": "RNA language model; secondary structure",
+      "input": "RNA sequence"
+    },
+    "specsSource": "https://github.com/lbcb-sci/RiNALMo#readme",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/lbcb-sci/RiNALMo#readme",
+      "https://doi.org/10.1038/s41467-025-60872-5"
+    ]
+  },
+  {
+    "slug": "omol25",
+    "name": "OMol25",
+    "category": "datasets",
+    "url": "https://huggingface.co/facebook/OMol25",
+    "github": "https://github.com/facebookresearch/fairchem",
+    "paper": "https://arxiv.org/abs/2505.08762",
+    "license": "Custom (see dataset card)",
+    "pricing": "Open source",
+    "description": "Meta FAIR's open dataset of DFT calculations on diverse molecules, with evaluations and baseline models.",
+    "tags": [
+      "dft",
+      "molecules",
+      "ml-potentials"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-05-13",
+    "dateSource": "https://arxiv.org/abs/2505.08762",
+    "notability": "Meta FAIR; 2.3k-star fairchem repo",
+    "specs": {
+      "modality": "Molecular DFT calculations",
+      "access": "Hugging Face"
+    },
+    "specsSource": "https://huggingface.co/facebook/OMol25",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://huggingface.co/facebook/OMol25",
+      "https://arxiv.org/abs/2505.08762"
+    ]
   }
 ]
