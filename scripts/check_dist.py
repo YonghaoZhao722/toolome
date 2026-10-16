@@ -18,6 +18,7 @@ for t in tools:
     if t.get('github'):
         if not m or '—' in m.group(1): err('H1', t['slug'], 'has GitHub but stars cell missing or "—"')
     elif m: err('H1', t['slug'], 'stars row shown without GitHub')
+    if bool(t.get('archived')) != bool(re.search(r'<h1[^>]*>(?:(?!</h1>).)*class="arch"', h, re.S)): err('H8', t['slug'], 'Archived badge does not match data')
     for j in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S):
         try: ld = json.loads(j)
         except Exception as e: err('H5', t['slug'], f'JSON-LD parse: {e}'); continue

@@ -1034,7 +1034,9 @@
     "specsSources": [
       "https://github.com/facebookresearch/esm#readme",
       "https://www.science.org/doi/10.1126/science.ade2574"
-    ]
+    ],
+    "archived": true,
+    "archivedChecked": "2026-10-16"
   },
   {
     "slug": "boltz",
@@ -1448,7 +1450,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Illumina/SpliceAI#readme"
-    ]
+    ],
+    "archived": true,
+    "archivedChecked": "2026-10-16"
   },
   {
     "slug": "nucleotide-transformer",
@@ -1604,7 +1608,9 @@
     "specsSources": [
       "https://github.com/google-deepmind/alphamissense#readme",
       "https://www.science.org/doi/10.1126/science.adg7492"
-    ]
+    ],
+    "archived": true,
+    "archivedChecked": "2026-10-16"
   },
   {
     "slug": "deepvariant",

@@ -9,10 +9,10 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 ---
 <Base title={`${t.name} — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description}`} jsonld={jsonld}>
 <p><a href={u('/category/'+t.category+'/')}>← {CATS[t.category][0]}</a></p>
-<h1>{t.name}</h1><p style="font-size:18px">{t.description}</p>
+<h1>{t.name}{t.archived&&<> <span class="arch" title={'GitHub repo archived (checked '+t.archivedChecked+')'}>Archived repo</span></>}</h1><p style="font-size:18px">{t.description}</p>
 <p><a class="btn" href={t.url} rel="noopener" target="_blank">Visit website ↗</a></p>
 <table><tbody><tr><th>Category</th><td>{CATS[t.category][0]}</td></tr>
-{t.github&&<tr><th>GitHub</th><td><a href={t.github}>{t.github.replace('https://github.com/','')}</a></td></tr>}
+{t.github&&<tr><th>GitHub</th><td><a href={t.github}>{t.github.replace('https://github.com/','')}</a>{t.archived&&<span class="mut"> · archived (read-only) on GitHub, checked {t.archivedChecked}</span>}</td></tr>}
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
 {!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a></td></tr>}
