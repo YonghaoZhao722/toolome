@@ -7,16 +7,20 @@ const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"BioStack",
 ---
 <Base jsonld={jsonld}>
 <h1>AI tools for biology, <span style="color:var(--acc)">verified</span>.</h1>
-<p class="mut">{tools.length} hand-checked tools across single-cell, spatial omics, protein design, genomics, drug discovery, agents, cloud labs, imaging and datasets.</p>
-<input id="q" placeholder="Search tools, e.g. spatial alignment, binder design, scRNA…" style="width:100%;margin:12px 0" />
-<div id="cats" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px"><button class="pill on" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" data-c={k}>{e} {n}</button>)}</div>
-{latest.length>0&&<section id="recent"><h2>Recently released <span class="mut" style="font-size:15px">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
-<h2 style="margin-top:30px">All tools <span id="n" class="mut" style="font-size:15px"></span></h2>
-<div class="grid" id="all"><a class="card" href={u('/sponsor/')} style="border:1px dashed var(--acc)" data-cat="*" data-q="*"><h3>⭐ Your tool here</h3><p>Featured placement for your product. Reach scientists who build with AI.</p><span class="btn" style="align-self:start">Sponsor</span></a>{tools.map(t=><Card t={t}/>)}</div>
+<p class="mut" style="font-size:17px;max-width:640px"><span class="num">{tools.length}</span> hand-checked tools across single-cell, spatial omics, protein design, genomics, drug discovery, agents, cloud labs, imaging and datasets.</p>
+<input id="q" class="search" type="search" aria-label="Search tools" placeholder="Search tools, e.g. spatial alignment, binder design, scRNA…"/>
+<div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{e} {n}</button>)}</div>
+{latest.length>0&&<section id="recent"><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
+<h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2>
+<div class="grid" id="all"><a class="card" href={u('/sponsor/')} style="border:1px dashed var(--acc)" data-cat="*" data-q="*"><h3>⭐ Your tool here</h3><p>Featured placement for your product. Reach scientists who build with AI.</p><span class="btn" style="align-self:start">Sponsor</span></a>{tools.map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
 <script is:inline>
-const q=document.getElementById('q'),cards=[...document.querySelectorAll('#all .card')];let c='';
-function f(){const s=q.value.toLowerCase().trim();let n=0;cards.forEach(e=>{const sp=e.dataset.cat==='*';const v=sp||((!c||e.dataset.cat===c)&&(!s||e.dataset.q.includes(s)));e.style.display=v?'':'none';if(v&&!sp)n++});document.getElementById('n').textContent='('+n+')'}
-q.oninput=f;document.querySelectorAll('#cats .pill').forEach(b=>b.onclick=()=>{document.querySelectorAll('#cats .pill').forEach(x=>x.classList.remove('on'));b.classList.add('on');c=b.dataset.c;f()});f();
+const q=document.getElementById('q'),cards=[...document.querySelectorAll('#all .card')],empty=document.getElementById('empty');let c='',tm;
+cards.forEach((e,i)=>e.style.viewTransitionName='c'+i);
+const rm=matchMedia('(prefers-reduced-motion: reduce)');
+function apply(){const s=q.value.toLowerCase().trim();let n=0;cards.forEach(e=>{const sp=e.dataset.cat==='*';const v=sp||((!c||e.dataset.cat===c)&&(!s||e.dataset.q.includes(s)));e.hidden=!v;if(v&&!sp)n++});document.getElementById('n').textContent='('+n+')';empty.classList.toggle('show',n===0)}
+function f(){if(document.startViewTransition&&!rm.matches)document.startViewTransition(apply);else apply()}
+q.oninput=()=>{clearTimeout(tm);tm=setTimeout(f,120)};
+document.querySelectorAll('#cats .pill').forEach(b=>b.onclick=()=>{document.querySelectorAll('#cats .pill').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');c=b.dataset.c;f()});apply();
 </script>
 </Base>
