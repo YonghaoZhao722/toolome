@@ -37,3 +37,13 @@ export const byNewest = (l) => [...l].sort((a,b)=> (dt(a)&&dt(b))? dt(b).localeC
 
 export const SHORT = {'single-cell':'single-cell','spatial':'spatial omics','protein':'protein design','genomics':'genomics','drug-discovery':'drug discovery','agents':'agents','cloud-labs':'cloud labs','imaging':'imaging','datasets':'datasets','sequencing':'sequencing','proteomics':'proteomics/metabolomics','crispr':'CRISPR','rna':'RNA','microbiome':'microbiome','clinical':'clinical LLMs'};
 export const catList = () => { const n=Object.keys(CATS).map(k=>SHORT[k]||k); return n.slice(0,-1).join(', ')+' and '+n.at(-1); };
+export const PAIR_BLURB = {
+ 'scgpt-geneformer':'Two single-cell foundation models: generative pretraining vs rank-based gene embeddings.',
+ 'alphafold-server-alphafold-3-boltz':'Hosted AlphaFold 3 vs an open-source biomolecular structure model.',
+ 'rfdiffusion-bindcraft':'Diffusion-based backbone design vs AlphaFold-guided binder hallucination.',
+ 'enformer-borzoi':'Sequence-to-function models predicting gene expression from DNA.',
+ 'cellpose-stardist':'Two widely used deep-learning cell segmentation tools.',
+ 'chai-1-boltz':'Two open AlphaFold 3-class structure prediction models.'};
+export const pairBlurb = p => PAIR_BLURB[p.join('-')] || '';
+export const pairsFor = slug => PAIRS.filter(p=>p.includes(slug));
+export const pairsForCat = cat => PAIRS.filter(p=>p.some(s=>bySlug[s].category===cat));

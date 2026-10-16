@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PAIRS, bySlug, pairSlug, pairBlurb, CATS, u } from '../../lib/site.js';
+---
+<Base title="Compare AI tools for biology side by side | Toolome" description="Side-by-side comparisons of popular AI tools for biology: license, pricing, code and paper.">
+<h1>Comparisons</h1>
+<p class="mut">Side-by-side facts — license, pricing, code and paper — taken from each project's own sources.</p>
+<ul class="cmp">{PAIRS.map(p=><li><a href={u('/compare/'+pairSlug(p)+'/')}>{bySlug[p[0]].name} vs {bySlug[p[1]].name}</a> <span class="tag">{CATS[bySlug[p[0]].category][0]}</span><br/><span class="mut">{pairBlurb(p)}</span></li>)}</ul>
+<style>.cmp{list-style:none;padding:0}.cmp li{padding:12px 0;border-bottom:1px solid var(--line,#e5ded2)}.cmp a{font-weight:600}</style>
+</Base>

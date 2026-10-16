@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro';
-import { tools, CATS, u } from '../../lib/site.js';
+import { tools, CATS, u, pairsFor, pairSlug, bySlug } from '../../lib/site.js';
 export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
 const { t } = Astro.props;
 const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).slice(0,3);
@@ -17,5 +17,6 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a></td></tr>}
 <tr><th>License</th><td>{t.license}</td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
 <tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td>{t.lastChecked}</td></tr></table>
+{pairsFor(t.slug).length>0&&<p class="mut">Compare with… {pairsFor(t.slug).map((p,i)=>{const o=bySlug[p[0]===t.slug?p[1]:p[0]];return <>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{t.name} vs {o.name}</a></>})}</p>}
 <h2>Related</h2><div class="grid">{rel.map(x=><Card t={x}/>)}</div>
 </Base>
