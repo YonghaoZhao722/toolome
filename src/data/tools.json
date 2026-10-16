@@ -492,9 +492,7 @@
    "visualization"
   ],
   "added": "2026-10-15",
-  "lastChecked": "2026-10-16",
-  "firstReleased": "2019-05-10",
-  "dateSource": "https://github.com/giotto-suite/Giotto"
+  "lastChecked": "2026-10-16"
  },
  {
   "slug": "nicheformer",
@@ -622,8 +620,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-08-31",
-  "dateSource": "https://github.com/facebookresearch/esm"
+  "firstReleased": "2022-07-21",
+  "dateSource": "https://doi.org/10.1101/2022.07.20.500902"
  },
  {
   "slug": "boltz",
@@ -753,9 +751,7 @@
    "structure"
   ],
   "added": "2026-10-15",
-  "lastChecked": "2026-10-15",
-  "firstReleased": "2019-01-21",
-  "dateSource": "https://github.com/steineggerlab/foldseek"
+  "lastChecked": "2026-10-15"
  },
  {
   "slug": "protenix",
@@ -825,8 +821,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-10-16",
-  "dateSource": "https://github.com/google-deepmind/alphagenome"
+  "firstReleased": "2025-06-25",
+  "dateSource": "https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/"
  },
  {
   "slug": "enformer",
@@ -844,8 +840,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2019-01-15",
-  "dateSource": "https://github.com/google-deepmind/deepmind-research"
+  "firstReleased": "2021-10-04",
+  "dateSource": "https://doi.org/10.1038/s41592-021-01252-x"
  },
  {
   "slug": "spliceai",
@@ -1158,9 +1154,7 @@
    "gpu"
   ],
   "added": "2026-10-15",
-  "lastChecked": "2026-10-16",
-  "firstReleased": "2023-10-16",
-  "dateSource": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes"
+  "lastChecked": "2026-10-16"
  },
  {
   "slug": "rowan",
@@ -1227,8 +1221,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-02-05",
-  "dateSource": "https://github.com/Future-House/paper-qa"
+  "firstReleased": "2024-09-10",
+  "dateSource": "https://arxiv.org/abs/2409.13740"
  },
  {
   "slug": "biochatter",
@@ -2022,9 +2016,7 @@
    "population"
   ],
   "added": "2026-10-16",
-  "lastChecked": "2026-10-16",
-  "firstReleased": "2015-10-25",
-  "dateSource": "https://github.com/fritzsedlazeck/Sniffles"
+  "lastChecked": "2026-10-16"
  },
  {
   "slug": "basenji",
@@ -2202,9 +2194,7 @@
    "alignment"
   ],
   "added": "2026-10-16",
-  "lastChecked": "2026-10-16",
-  "firstReleased": "2022-02-22",
-  "dateSource": "https://github.com/songlab-cal/gpn"
+  "lastChecked": "2026-10-16"
  },
  {
   "slug": "dia-nn",
@@ -2442,9 +2432,7 @@
    "processing"
   ],
   "added": "2026-10-16",
-  "lastChecked": "2026-10-16",
-  "firstReleased": "2019-11-20",
-  "dateSource": "https://github.com/mzmine/mzmine"
+  "lastChecked": "2026-10-16"
  },
  {
   "slug": "crispor",
@@ -2882,8 +2870,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-02-20",
-  "dateSource": "https://github.com/biobakery/MetaPhlAn"
+  "firstReleased": "2023-02-23",
+  "dateSource": "https://doi.org/10.1038/s41587-023-01688-w"
  },
  {
   "slug": "humann",
@@ -2902,8 +2890,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-02-18",
-  "dateSource": "https://github.com/biobakery/humann"
+  "firstReleased": "2021-05-04",
+  "dateSource": "https://doi.org/10.7554/eLife.65088"
  },
  {
   "slug": "kraken2",
@@ -3042,8 +3030,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2016-01-29",
-  "dateSource": "https://github.com/rachis-org/rachis"
+  "firstReleased": "2019-07-24",
+  "dateSource": "https://doi.org/10.1038/s41587-019-0209-9"
  },
  {
   "slug": "meditron",
@@ -3300,8 +3288,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-06-17",
-  "dateSource": "https://github.com/google-deepmind/alphafold"
+  "firstReleased": "2021-07-15",
+  "dateSource": "https://doi.org/10.1038/s41586-021-03819-2"
  },
  {
   "slug": "bioemu",
