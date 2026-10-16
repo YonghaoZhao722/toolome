@@ -4,6 +4,7 @@
   python3 scripts/audit.py                 # L1 local consistency rules (exit 1 on any ERROR)
   python3 scripts/audit.py --online        # + L2 GitHub checks via `gh api` (stars, archived, moved, 404, license, activity)
   python3 scripts/audit.py --online --fix-stars   # also write fresh specs.stars + specs.starsChecked (only these fields)
+  python3 scripts/audit.py --online --fix-archived  # also set/clear `archived` + `archivedChecked` from GitHub's archived flag
   python3 scripts/audit.py --online --fix-moves   # also rewrite `github` for repos GitHub reports as renamed/moved
   python3 scripts/audit.py --links         # + link-liveness report (report only, never deletes)
 Writes audit-report.json (gitignored). Exceptions live in scripts/audit_allow.json: {"RULE": {"slug": "reason"}}.
@@ -52,6 +53,9 @@ def l1():
         if not sp: W('D7', s, 'no specs')
         if not (t.get('released') or t.get('firstReleased')): W('D8', s, 'no date')
         if 'specsSource' in t: W('D9', s, 'redundant singular specsSource')
+        if t.get('archived') and not gh: E('A1', s, 'archived without github')
+        if t.get('archived') and not t.get('archivedChecked'): E('A1', s, 'archived without archivedChecked')
+        if 'archived' in t and t['archived'] is not True: E('A1', s, 'archived must be true or absent')
         # C: contradictions
         lic, pr = t['license'], t['pricing']
         if pr == 'Open source' and re.search(r'commercial|proprietary', lic, re.I) and not re.search(r'non-commercial|incl\. commercial', lic, re.I): W('C1', s, f'Open source vs license {lic!r}')
@@ -103,7 +107,7 @@ def gh_repo(full):
     return full, json.loads(r.stdout), ''
 
 def l2():
-    fix_stars, fix_moves, changed = '--fix-stars' in args, '--fix-moves' in args, False
+    fix_stars, fix_moves, fix_arch, changed = '--fix-stars' in args, '--fix-moves' in args, '--fix-archived' in args, False
     repos = {t['github'].split('github.com/')[1]: t for t in tools if t.get('github') and GH.match(t['github'])}
     users = collections.defaultdict(list)
     for t in tools:
@@ -114,7 +118,14 @@ def l2():
         for t in users[full.lower()]:
             s, sp = t['slug'], t.setdefault('specs', {})
             if d is None: E('G2', s, f'repo {full} not reachable: {err}'); continue
-            if d.get('archived'): W('G2', s, f'repo {full} archived')
+            arch = bool(d.get('archived'))
+            if arch != bool(t.get('archived')):
+                W('G2', s, f"repo {full} archived={arch} but data says {bool(t.get('archived'))}")
+            elif arch: I('G2', s, f'repo {full} archived (badge shown)')
+            if fix_arch:
+                if arch: t['archived'] = True; t['archivedChecked'] = TODAY.isoformat()
+                else: t.pop('archived', None); t.pop('archivedChecked', None)
+                changed = True
             if d['full_name'].lower() != full.lower():
                 W('G2', s, f"repo moved {full} -> {d['full_name']}")
                 if fix_moves: t['github'] = d['html_url']; changed = True
