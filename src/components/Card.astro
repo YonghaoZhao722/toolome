@@ -1,7 +1,7 @@
 ---
 import { CATS, u } from '../lib/site.js';
-const { t } = Astro.props;
+const { t, badge } = Astro.props;
 ---
 <div class="card" data-cat={t.category} data-q={(t.name+' '+t.description+' '+t.tags.join(' ')).toLowerCase()}>
-<h3><a href={u('/tools/'+t.slug+'/')}>{t.name}</a></h3><p>{t.description}</p>
+{badge&&<a class="badge" href={t.source} rel="noopener" title="Release source">Released {badge}</a>}<h3><a href={u('/tools/'+t.slug+'/')}>{t.name}</a></h3><p>{t.description}</p>
 <div><span class="tag">{CATS[t.category][0]}</span><span class="tag">{t.pricing}</span>{t.tags.slice(0,2).map(g=><span class="tag">#{g}</span>)}</div></div>

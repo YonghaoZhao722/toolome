@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Newsletter from '../components/Newsletter.astro';
 import { tools, CATS, u } from '../lib/site.js';
-const NEW=['alphagenome','evo-2','boltz','biomni','tahoe-100m','protenix']; const latest = NEW.map(s=>tools.find(t=>t.slug===s)).filter(Boolean);
+const now=new Date(); const from=new Date(now.getTime()-14*864e5); const iso=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Denver'}); const fmt=s=>new Date(s+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
+const latest=tools.filter(t=>t.released&&t.released>=iso(from)&&t.released<=iso(now)).sort((a,b)=>b.released.localeCompare(a.released));
 const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"BioStack",url:Astro.site.href};
 ---
 <Base jsonld={jsonld}>
@@ -9,7 +10,7 @@ const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"BioStack",
 <p class="mut">{tools.length} hand-checked tools across single-cell, spatial omics, protein design, genomics, drug discovery, agents, cloud labs, imaging and datasets.</p>
 <input id="q" placeholder="Search tools, e.g. spatial alignment, binder design, scRNA…" style="width:100%;margin:12px 0" />
 <div id="cats" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px"><button class="pill on" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" data-c={k}>{e} {n}</button>)}</div>
-<h2>New this week</h2><div class="grid">{latest.map(t=><Card t={t}/>)}</div>
+{latest.length>0&&<section id="recent"><h2>Recently released <span class="mut" style="font-size:15px">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
 <h2 style="margin-top:30px">All tools <span id="n" class="mut" style="font-size:15px"></span></h2>
 <div class="grid" id="all"><a class="card" href={u('/sponsor/')} style="border:1px dashed var(--acc)" data-cat="*" data-q="*"><h3>⭐ Your tool here</h3><p>Featured placement for your product. Reach scientists who build with AI.</p><span class="btn" style="align-self:start">Sponsor</span></a>{tools.map(t=><Card t={t}/>)}</div>
 <Newsletter/>
