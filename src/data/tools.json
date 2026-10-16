@@ -2832,8 +2832,8 @@
     "category": "single-cell",
     "url": "https://arcinstitute.org/news/pie",
     "paper": "https://doi.org/10.64898/2026.10.02.756297",
-    "license": "See repo",
-    "pricing": "Open source",
+    "license": "CC-BY-NC-SA-4.0",
+    "pricing": "Open source (non-commercial)",
     "description": "Virtual-cell model using curated biological knowledge to predict perturbation responses in unseen contexts.",
     "tags": [
       "virtual-cell",
@@ -2853,7 +2853,8 @@
     "specsSource": "https://doi.org/10.64898/2026.10.02.756297",
     "specsChecked": "2026-10-16",
     "firstReleased": "2026-10-05",
-    "dateSource": "https://arcinstitute.org/news/pie"
+    "dateSource": "https://arcinstitute.org/news/pie",
+    "github": "https://github.com/ArcInstitute/pie"
   },
   {
     "slug": "alphaprotein-novo",
@@ -5530,73 +5531,6 @@
     ]
   },
   {
-    "slug": "enrich-ai",
-    "name": "Enrich.AI",
-    "category": "agents",
-    "url": "https://enrichai.streamlit.app",
-    "github": "https://github.com/jkouprey/Enrich.AI",
-    "paper": "https://doi.org/10.64898/2026.09.29.755561",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Conversational ReAct agent for gene-set enrichment: 220+ libraries, Europe PMC literature grounding, interactive plots and human-in-the-loop refinement.",
-    "tags": [
-      "enrichment",
-      "gene-sets",
-      "agent"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "released": "2026-10-06",
-    "source": "https://www.biorxiv.org/content/10.64898/2026.09.29.755561v1",
-    "firstReleased": "2026-10-06",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.29.755561v1",
-    "specs": {
-      "stars": 3,
-      "interface": "Package",
-      "backbone": "Gemini 2.5 Flash (LangGraph ReAct)",
-      "actions": "220+ gene-set libraries, Europe PMC search (40M+ papers), gene annotation, database queries"
-    },
-    "specsSource": "https://github.com/jkouprey/Enrich.AI#readme",
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/jkouprey/Enrich.AI#readme",
-      "https://doi.org/10.64898/2026.09.29.755561"
-    ]
-  },
-  {
-    "slug": "alpha-spatial",
-    "name": "Alpha Spatial",
-    "category": "spatial",
-    "url": "https://github.com/xiyangwhu/Alpha-Spatial",
-    "github": "https://github.com/xiyangwhu/Alpha-Spatial",
-    "paper": "https://doi.org/10.64898/2026.10.08.756444",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "Language-conditioned model that predicts cell-level spatial gene expression from histology across tissues and gene panels.",
-    "tags": [
-      "histology",
-      "spatial-expression",
-      "language-guided"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "released": "2026-10-15",
-    "source": "https://www.biorxiv.org/content/10.64898/2026.10.08.756444v1",
-    "firstReleased": "2026-10-15",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.10.08.756444v1",
-    "specs": {
-      "resolution": "Single cell",
-      "tasks": "Expression prediction from histology",
-      "stars": 0,
-      "interface": "Package"
-    },
-    "specsSource": "https://github.com/xiyangwhu/Alpha-Spatial#readme",
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/xiyangwhu/Alpha-Spatial#readme"
-    ]
-  },
-  {
     "slug": "openfold3",
     "name": "OpenFold3",
     "category": "protein",
@@ -5831,11 +5765,11 @@
     "slug": "bios",
     "name": "BIOS",
     "category": "agents",
-    "url": "https://ai.bio.xyz/blog/introducing-bios",
-    "github": "https://github.com/bio-xyz/BioAgents",
-    "license": "Commercial (BioAgents framework open)",
+    "url": "https://ai.bio.xyz",
+    "github": null,
+    "license": "Proprietary",
     "pricing": "Freemium",
-    "description": "AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; built on the open BioAgents framework.",
+    "description": "AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; hosted at chat.bio.xyz (the earlier open BioAgents framework is archived).",
     "tags": [
       "ai-scientist",
       "literature",
