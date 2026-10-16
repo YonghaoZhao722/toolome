@@ -2918,7 +2918,9 @@
     "source": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
     "specs": {
       "species": "22,617 species (eukaryotes)",
-      "tasks": "Protein-coding gene annotation"
+      "tasks": "Protein-coding gene annotation",
+      "context": "98,304 bp",
+      "resolution": "Nucleotide (both strands)"
     },
     "specsSources": [
       "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
@@ -5585,43 +5587,6 @@
     ]
   },
   {
-    "slug": "chorus",
-    "name": "CHORUS",
-    "category": "protein",
-    "url": "https://chorus.atlas.sunnylab.org",
-    "github": "https://github.com/sunnylab-cb/chorus",
-    "paper": "https://doi.org/10.64898/2026.10.04.756538",
-    "license": "See repo",
-    "pricing": "Free (atlas + open code)",
-    "description": "Sequence-only pLM ensemble predicting membrane-protein interaction interfaces; proteome-scale atlas covering 80k+ reviewed TM proteins.",
-    "tags": [
-      "membrane",
-      "ppi-interface",
-      "protein-language-model"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "released": "2026-10-11",
-    "source": "https://www.biorxiv.org/content/10.64898/2026.10.04.756538v1",
-    "firstReleased": "2026-08-30",
-    "dateSource": "https://chorus.atlas.sunnylab.org",
-    "specs": {
-      "task": "Interaction-site prediction",
-      "msa": "No",
-      "stars": 0,
-      "interface": "Package",
-      "modalities": "Membrane protein sequences",
-      "weights": "Not yet (weight publication pending)"
-    },
-    "specsSource": "https://github.com/sunnylab-cb/chorus#readme",
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/sunnylab-cb/chorus#readme",
-      "https://doi.org/10.64898/2026.10.04.756538",
-      "https://chorus.atlas.sunnylab.org"
-    ]
-  },
-  {
     "slug": "openfold3",
     "name": "OpenFold3",
     "category": "protein",
@@ -5710,7 +5675,7 @@
     "category": "protein",
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
     "github": "https://github.com/RosettaCommons/foundry",
-    "license": "See repo",
+    "license": "BSD-3-Clause",
     "pricing": "Open source",
     "description": "All-atom diffusion model from the Baker lab for designing protein binders to DNA, proteins and small molecules, plus enzymes; ~10x faster than RFdiffusion2.",
     "tags": [
@@ -5743,8 +5708,8 @@
     "url": "https://huggingface.co/spaces/InstaDeepAI/ntv3",
     "github": "https://github.com/instadeepai/nucleotide-transformer",
     "paper": "https://doi.org/10.64898/2025.12.22.695963",
-    "license": "See repo",
-    "pricing": "Open source",
+    "license": "CC-BY-NC-SA-4.0",
+    "pricing": "Open source (non-commercial)",
     "description": "Multi-species DNA foundation model with 1 Mb single-base context; predicts ~16k functional tracks, annotates genomes, and designs enhancers.",
     "tags": [
       "dna-language-model",
@@ -5794,9 +5759,9 @@
     "slug": "rnapro",
     "name": "RNAPro",
     "category": "rna",
-    "url": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
-    "github": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
-    "license": "NVIDIA Open Model License",
+    "url": "https://github.com/NVIDIA-BioNeMo/RNAPro",
+    "github": "https://github.com/NVIDIA-BioNeMo/RNAPro",
+    "license": "Apache-2.0 (code); NVIDIA Open Model License (weights)",
     "pricing": "Open source",
     "description": "NVIDIA RNA 3D folding model built with hosts and winners of the Stanford RNA 3D Folding Kaggle competition.",
     "tags": [
@@ -5826,8 +5791,8 @@
     "url": "https://arcinstitute.org/news/foundation-model-stack",
     "github": "https://github.com/ArcInstitute/stack",
     "paper": "https://doi.org/10.64898/2026.01.09.698608",
-    "license": "See repo",
-    "pricing": "Open source",
+    "license": "CC-BY-NC-SA-4.0 (code); Arc non-commercial (model)",
+    "pricing": "Open source (non-commercial)",
     "description": "Arc Institute model trained on 149M human cells using tabular attention for in-context learning; used to generate the Perturb Sapiens atlas (28 tissues, 201 perturbations).",
     "tags": [
       "foundation-model",
@@ -6090,7 +6055,7 @@
     "name": "ESMFold2 & ESMC (Biohub)",
     "category": "protein",
     "url": "https://biohub.ai/esm/protein/",
-    "github": "https://github.com/evolutionaryscale/esm",
+    "github": "https://github.com/Biohub/esm",
     "license": "MIT",
     "pricing": "Open source",
     "description": "Biohub's protein 'world model': ESMC language model (~2.8B sequences), ESMFold2 complex structure prediction/design, and ESM Atlas (6.8B sequences).",
