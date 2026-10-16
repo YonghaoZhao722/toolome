@@ -35,7 +35,7 @@ const R=ts.map(rowsOf);let h='<thead><tr><th scope="col">Field</th>'+ts.map(t=>`
 R[0].forEach(([l],i)=>{h+=`<tr><th scope="row">${esc(l)}</th>`+R.map(r=>`<td>${cell(r[i][1])}</td>`).join('')+'</tr>'});
 document.getElementById('cv-t').innerHTML=h+'</tbody>';
 document.getElementById('cv-cards').innerHTML=ts.map((t,j)=>`<div class="cvc"><h3><a href="${B}/tools/${t}/">${esc(D.tools[t].n)}</a></h3><p class="mut">${esc(D.tools[t].d)}</p><dl>${R[j].map(([l,v])=>`<dt>${esc(l)}</dt><dd>${cell(v)}</dd>`).join('')}</dl></div>`).join('');
-document.getElementById('cv-src').innerHTML=ts.filter(t=>D.tools[t].src).map(t=>`<a href="${esc(D.tools[t].src)}">${esc(D.tools[t].n)} source</a>`).join(' · ');
+document.getElementById('cv-src').innerHTML=ts.flatMap(t=>D.tools[t].src.map(s=>`<a href="${esc(s)}">${esc(D.tools[t].n)} ${s.includes('github.com')?'README':s===D.tools[t].u?'site':s===D.tools[t].pp?'paper':'source'}</a>`)).join(' · ');
 document.getElementById('cv-back').href=`${B}/tools/${ts[0]}/#compare`;
 const pk=document.getElementById('cv-pk');pk.innerHTML=Object.entries(D.tools).filter(([k,v])=>v.c===c).sort((a,b)=>a[1].n.localeCompare(b[1].n)).map(([k,v])=>`<label><input type="checkbox" value="${k}" ${ts.includes(k)?'checked':''} ${!ts.includes(k)&&ts.length>=4?'disabled':''}/> ${esc(v.n)}</label>`).join('');
 pk.querySelectorAll('input').forEach(x=>x.onchange=()=>{if(x.checked)ts.push(x.value);else if(ts.length>1)ts=ts.filter(s=>s!==x.value);else x.checked=true;history.replaceState(null,'',`?c=${c}&t=${ts.join(',')}`);render()});};

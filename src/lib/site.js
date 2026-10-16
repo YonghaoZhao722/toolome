@@ -70,4 +70,4 @@ export const specRows = (t) => {
   return [...(SPEC_FIELDS[t.category]||[]).map(([k,l])=>[l,s[k]||'']), ...COMMON_FIELDS.map(([k,l])=>[l,c[k]])];
 };
 export const cmpData = () => ({ fields:SPEC_FIELDS, common:COMMON_FIELDS, cats:Object.fromEntries(Object.entries(CATS).map(([k,v])=>[k,v[0]])),
-  tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,d:t.description,s:t.specs||{},l:t.license,p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSource||''}])) });
+  tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,d:t.description,s:t.specs||{},l:t.license,p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSources||[],u:t.url,pp:t.paper||''}])) });
