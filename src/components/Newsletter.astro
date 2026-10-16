@@ -1,7 +1,15 @@
 ---
-import { u } from '../lib/site.js';
+import cfg from '../../site.config.json';
+// Set newsletterAction to e.g. https://buttondown.com/api/emails/embed-subscribe/toolome to go live.
+const action = (cfg as any).newsletterAction || '';
 ---
 <section id="newsletter" class="card" style="margin-top:36px;padding:22px">
 <h2 style="margin:0">The Toolome Weekly</h2><p>New AI-for-biology tools, models and datasets — one short email a week.</p>
-<form action="/api/subscribe" method="post" onsubmit="event.preventDefault();this.nextElementSibling.textContent='Thanks! Signup is not live yet — coming soon.'" style="display:flex;gap:8px;flex-wrap:wrap">
-<input type="email" name="email" required placeholder="you@lab.edu" style="flex:1;min-width:220px"/><button class="btn">Subscribe</button></form><small class="mut"></small></section>
+{action ? (
+<form action={action} method="post" target="_blank" style="display:flex;gap:8px;flex-wrap:wrap">
+<input type="email" name="email" required placeholder="you@lab.edu" style="flex:1;min-width:220px"/><input type="hidden" name="embed" value="1"/><button class="btn">Subscribe</button></form>
+) : (
+<form method="post" onsubmit="event.preventDefault();this.nextElementSibling.textContent='Thanks! Signup is not live yet — coming soon.'" style="display:flex;gap:8px;flex-wrap:wrap">
+<input type="email" name="email" required placeholder="you@lab.edu" style="flex:1;min-width:220px"/><button class="btn">Subscribe</button></form>
+)}
+<small class="mut"></small></section>
