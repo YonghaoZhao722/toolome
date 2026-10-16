@@ -852,7 +852,9 @@
       "modalities": "Protein, nucleic acid, small molecule, ion, modified residues, complex",
       "weights": "On request (terms of use)",
       "stars": 8646,
-      "interface": "Docker"
+      "interface": "Docker",
+      "msa": "Yes (genetic/template search data pipeline)",
+      "gpu": "GPU required for inference; MSA search is CPU-only"
     },
     "specsSource": "https://github.com/google-deepmind/alphafold3#readme",
     "specsChecked": "2026-10-16",
@@ -1166,7 +1168,9 @@
       "task": "Structure prediction",
       "modalities": "Protein, nucleic acid, small molecule, metal, covalent modifications",
       "stars": 826,
-      "interface": "Docker"
+      "interface": "Docker",
+      "msa": "Yes (UniRef30/BFD MSA + templates)",
+      "weights": "Yes (RFAA_paper_weights.pt)"
     },
     "specsSource": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
     "specsChecked": "2026-10-16",
@@ -5606,7 +5610,8 @@
       "msa": "No",
       "stars": 0,
       "interface": "Package",
-      "modalities": "Membrane protein sequences"
+      "modalities": "Membrane protein sequences",
+      "weights": "Not yet (weight publication pending)"
     },
     "specsSource": "https://github.com/sunnylab-cb/chorus#readme",
     "specsChecked": "2026-10-16",
@@ -5719,13 +5724,15 @@
     "dateSource": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
     "specs": {
       "task": "All-atom protein design",
-      "interface": "Package (foundry)"
+      "interface": "Package (foundry)",
+      "weights": "Yes (foundry install base-models)"
     },
     "specsSource": "https://github.com/RosettaCommons/foundry",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RosettaCommons/foundry",
-      "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/"
+      "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
+      "https://github.com/RosettaCommons/foundry#readme"
     ],
     "notability": "Baker lab (IPD); ~1,000 stars (foundry); GEN, GeekWire coverage"
   },
@@ -6098,13 +6105,16 @@
     "dateSource": "https://biohub.org/news/world-model-of-protein-biology/",
     "specs": {
       "task": "Structure prediction, design, embeddings",
-      "msa": "No"
+      "msa": "No",
+      "modalities": "Sequence → all-atom 3D structure, incl. complexes",
+      "weights": "Yes (Hugging Face)"
     },
     "specsSource": "https://github.com/evolutionaryscale/esm",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/evolutionaryscale/esm",
-      "https://biohub.org/news/world-model-of-protein-biology/"
+      "https://biohub.org/news/world-model-of-protein-biology/",
+      "https://github.com/evolutionaryscale/esm#readme"
     ],
     "notability": "Biohub/EvolutionaryScale ESM; ~3,000 stars; MIT license"
   },
@@ -6258,6 +6268,14 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-09-17",
     "dateSource": "https://laoyaoba.com/n/1110147",
-    "notability": "Changping Lab × Huawei; MIT weights + training data; Chinese tech press"
+    "notability": "Changping Lab × Huawei; MIT weights + training data; Chinese tech press",
+    "specs": {
+      "weights": "Yes (MIT)",
+      "gpu": "Native Huawei Ascend NPU"
+    },
+    "specsSources": [
+      "https://laoyaoba.com/n/1110147"
+    ],
+    "specsChecked": "2026-10-16"
   }
 ]
