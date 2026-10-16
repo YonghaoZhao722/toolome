@@ -5602,7 +5602,8 @@
     "specsSources": [
       "https://github.com/aqlaboratory/openfold-3",
       "https://www.businesswire.com/news/home/20251028507233/en/"
-    ]
+    ],
+    "notability": "OpenFold Consortium (industry nonprofit); ~900 GitHub stars; BusinessWire launch"
   },
   {
     "slug": "tahoe-x1",
@@ -5633,7 +5634,8 @@
       "https://doi.org/10.1101/2025.10.23.683759",
       "https://github.com/tahoebio/tahoe-x1",
       "https://www.biorxiv.org/content/10.1101/2025.10.23.683759v1"
-    ]
+    ],
+    "notability": "Tahoe Therapeutics; 3B-param model on Tahoe-100M; widely covered virtual-cell effort"
   },
   {
     "slug": "kosmos",
@@ -5652,7 +5654,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2025-11-05",
-    "dateSource": "https://edisonscientific.com/news/announcing-kosmos"
+    "dateSource": "https://edisonscientific.com/news/announcing-kosmos",
+    "notability": "Edison Scientific/FutureHouse flagship; broad press (Endpoints, HPCwire)"
   },
   {
     "slug": "rfdiffusion3",
@@ -5681,7 +5684,8 @@
     "specsSources": [
       "https://github.com/RosettaCommons/foundry",
       "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/"
-    ]
+    ],
+    "notability": "Baker lab (IPD); ~1,000 stars (foundry); GEN, GeekWire coverage"
   },
   {
     "slug": "nucleotide-transformer-v3-ntv3",
@@ -5714,26 +5718,8 @@
       "https://doi.org/10.64898/2025.12.22.695963",
       "https://github.com/instadeepai/nucleotide-transformer",
       "https://www.biorxiv.org/content/10.64898/2025.12.22.695963v1"
-    ]
-  },
-  {
-    "slug": "biomegpt",
-    "name": "BiomeGPT",
-    "category": "microbiome",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697599v1",
-    "paper": "https://doi.org/10.64898/2026.01.05.697599",
-    "license": "See paper",
-    "pricing": "Open source",
-    "description": "Transformer foundation model for species-level human gut metagenomes, used for clinical/phenotype prediction.",
-    "tags": [
-      "foundation-model",
-      "gut-microbiome",
-      "metagenomics"
     ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-01-05",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.01.05.697599v1"
+    "notability": "InstaDeep; successor to widely used Nucleotide Transformer"
   },
   {
     "slug": "atlas-2",
@@ -5752,7 +5738,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-01-08",
-    "dateSource": "https://arxiv.org/abs/2601.05148"
+    "dateSource": "https://arxiv.org/abs/2601.05148",
+    "notability": "Aignostics/Charité clinical pathology FM; arXiv technical report"
   },
   {
     "slug": "rnapro",
@@ -5780,7 +5767,8 @@
     "specsSources": [
       "https://github.com/NVIDIA-Digital-Bio/RNAPro",
       "https://github.com/NVIDIA-Digital-Bio/RNAPro/blob/main/model_cards/overview.md"
-    ]
+    ],
+    "notability": "NVIDIA; built with Stanford RNA 3D Folding Kaggle winners"
   },
   {
     "slug": "stack",
@@ -5812,7 +5800,8 @@
       "https://doi.org/10.64898/2026.01.09.698608",
       "https://github.com/ArcInstitute/stack",
       "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1"
-    ]
+    ],
+    "notability": "Arc Institute; Perturb Sapiens atlas; Arc news release"
   },
   {
     "slug": "bios",
@@ -5831,7 +5820,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-01-28",
-    "dateSource": "https://ai.bio.xyz/blog/introducing-bios"
+    "dateSource": "https://ai.bio.xyz/blog/introducing-bios",
+    "notability": "BIO (bio.xyz) AI scientist; open BioAgents framework"
   },
   {
     "slug": "biomni-lab",
@@ -5848,7 +5838,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-02-03",
-    "dateSource": "https://phylo.bio/announcement"
+    "dateSource": "https://phylo.bio/announcement",
+    "notability": "Phylo (Biomni team), $13.5M seed from a16z/Menlo"
   },
   {
     "slug": "isodde",
@@ -5866,47 +5857,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-02-10",
-    "dateSource": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
-  },
-  {
-    "slug": "celltempo",
-    "name": "CellTempo",
-    "category": "single-cell",
-    "url": "https://github.com/EperLuo/CellTempo",
-    "github": "https://github.com/EperLuo/CellTempo",
-    "paper": "https://doi.org/10.64898/2026.02.08.704720",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Autoregressive temporal single-cell model forecasting long-range cell-state transitions from snapshot data.",
-    "tags": [
-      "cell-dynamics",
-      "forecasting",
-      "generative"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-02-10",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.02.08.704720v1"
-  },
-  {
-    "slug": "optiprime",
-    "name": "OptiPrime",
-    "category": "crispr",
-    "url": "https://github.com/alvin-hsu/optiprime-src",
-    "github": "https://github.com/alvin-hsu/optiprime-src",
-    "paper": "https://doi.org/10.64898/2026.02.20.706353",
-    "license": "See repo",
-    "pricing": "Open source",
-    "description": "Mechanistic, interpretable machine-learning model predicting prime-editing (pegRNA) outcomes, including PE3 and twinPE.",
-    "tags": [
-      "prime-editing",
-      "pegRNA",
-      "outcome-prediction"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-02-20",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.02.20.706353v1"
+    "dateSource": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
+    "notability": "Isomorphic Labs (DeepMind spinout); wide press"
   },
   {
     "slug": "ginkgo-cloud-lab",
@@ -5923,7 +5875,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-03-02",
-    "dateSource": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html"
+    "dateSource": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html",
+    "notability": "Ginkgo Bioworks; used in OpenAI GPT-5 protein synthesis study"
   },
   {
     "slug": "perturbai-brain-wide-crispr-atlas",
@@ -5951,7 +5904,8 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://www.perturb.ai/8-million-crispr-atlas"
-    ]
+    ],
+    "notability": "Largest in vivo CRISPR atlas; NVIDIA/Allen Institute/10x; GenomeWeb coverage"
   },
   {
     "slug": "genbio-pathfm",
@@ -5979,7 +5933,8 @@
     "specsSources": [
       "https://github.com/genbio-ai/genbio-pathfm",
       "https://genbio.ai/genbio-pathfm/"
-    ]
+    ],
+    "notability": "GenBio AI (Eric Xing); 1.1B open-weight pathology FM"
   },
   {
     "slug": "eva",
@@ -6010,7 +5965,8 @@
       "https://doi.org/10.64898/2026.03.17.712398",
       "https://github.com/GENTEL-lab/EVA",
       "https://www.biorxiv.org/content/10.64898/2026.03.17.712398v1"
-    ]
+    ],
+    "notability": "1.4B RNA FM, open weights; preprint + HF release"
   },
   {
     "slug": "gpt-rosalind",
@@ -6028,7 +5984,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-04-16",
-    "dateSource": "https://openai.com/index/introducing-gpt-rosalind/"
+    "dateSource": "https://openai.com/index/introducing-gpt-rosalind/",
+    "notability": "OpenAI life-sciences model; Amgen, Moderna partners"
   },
   {
     "slug": "seqera-co-scientist",
@@ -6046,26 +6003,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-04-30",
-    "dateSource": "https://seqera.io/blog/co-scientist-launch/"
-  },
-  {
-    "slug": "genos-m",
-    "name": "Genos-m",
-    "category": "microbiome",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726868v1",
-    "paper": "https://doi.org/10.64898/2026.05.21.726868",
-    "license": "See paper",
-    "pricing": "Open source",
-    "description": "Open 4.7B-parameter mixture-of-experts foundation model for human-associated microbial genomes, pretrained on 1.2T nucleotide tokens.",
-    "tags": [
-      "foundation-model",
-      "microbial-genomes",
-      "moe"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-05-24",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.05.21.726868v1"
+    "dateSource": "https://seqera.io/blog/co-scientist-launch/",
+    "notability": "Seqera (Nextflow); launched at Nextflow Summit"
   },
   {
     "slug": "esmfold2-esmc-biohub",
@@ -6094,56 +6033,8 @@
     "specsSources": [
       "https://github.com/evolutionaryscale/esm",
       "https://biohub.org/news/world-model-of-protein-biology/"
-    ]
-  },
-  {
-    "slug": "scicore-omics",
-    "name": "SciCore-Omics",
-    "category": "spatial",
-    "url": "https://github.com/OpenBMB/Scicore-Omics",
-    "github": "https://github.com/OpenBMB/Scicore-Omics",
-    "paper": "https://doi.org/10.64898/2026.05.30.728937",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "Tri-modal foundation model unifying histology, spatial transcriptomics and language.",
-    "tags": [
-      "histology",
-      "multimodal",
-      "foundation-model"
     ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-06-03",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.05.30.728937v1"
-  },
-  {
-    "slug": "holocell",
-    "name": "HoloCell",
-    "category": "single-cell",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1",
-    "paper": "https://doi.org/10.64898/2026.06.07.730684",
-    "license": "See paper",
-    "pricing": "Open source",
-    "description": "860M-parameter generative foundation model across single-cell epigenomics, transcriptomics and proteomics (~468M profiles).",
-    "tags": [
-      "multi-omics",
-      "generative",
-      "foundation-model"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-06-11",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1",
-    "specs": {
-      "corpus": "~468M single-cell profiles (ATAC, RNA, protein)",
-      "architecture": "860M generative transformer (diffusion/remasking)"
-    },
-    "specsSource": "https://doi.org/10.64898/2026.06.07.730684",
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://doi.org/10.64898/2026.06.07.730684",
-      "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1"
-    ]
+    "notability": "Biohub/EvolutionaryScale ESM; ~3,000 stars; MIT license"
   },
   {
     "slug": "claude-science",
@@ -6161,7 +6052,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-06-30",
-    "dateSource": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    "dateSource": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "notability": "Anthropic product launch"
   },
   {
     "slug": "opendde",
@@ -6181,44 +6073,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-07-03",
-    "dateSource": "https://huggingface.co/aurekaresearch/OpenDDE"
-  },
-  {
-    "slug": "cherimoya",
-    "name": "Cherimoya",
-    "category": "genomics",
-    "url": "https://genomicsxai.github.io/blogs/2026-011/",
-    "license": "See blog",
-    "pricing": "Open source",
-    "description": "Lightweight sequence-to-function model for chromatin accessibility and variant scoring, built for large-scale design.",
-    "tags": [
-      "sequence-to-function",
-      "chromatin-accessibility",
-      "variant-effect"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-07-13",
-    "dateSource": "https://genomicsxai.github.io/blogs/2026-011/"
-  },
-  {
-    "slug": "mgm2",
-    "name": "MGM2",
-    "category": "microbiome",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739063v1",
-    "paper": "https://doi.org/10.64898/2026.07.20.739063",
-    "license": "See paper",
-    "pricing": "Open source",
-    "description": "Unified microbiome foundation model jointly modeling sequence, abundance and ecological context.",
-    "tags": [
-      "foundation-model",
-      "microbiome",
-      "ecology"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-07-22",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.07.20.739063v1"
+    "dateSource": "https://huggingface.co/aurekaresearch/OpenDDE",
+    "notability": "~500 GitHub stars in ~4 months; Apache-2.0"
   },
   {
     "slug": "nesso-1",
@@ -6237,27 +6093,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-08-03",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.08.01.742196v1"
-  },
-  {
-    "slug": "terra",
-    "name": "TERRA",
-    "category": "spatial",
-    "url": "https://github.com/Lotfollahi-lab/terra",
-    "github": "https://github.com/Lotfollahi-lab/terra",
-    "paper": "https://doi.org/10.64898/2026.07.29.741565",
-    "license": "BSD-3-Clause (code); weights non-commercial",
-    "pricing": "Open source (non-commercial)",
-    "description": "Multi-scale model of human tissues trained on ~112M spatially resolved cells (Lotfollahi lab).",
-    "tags": [
-      "spatial-transcriptomics",
-      "foundation-model",
-      "tissue"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-08-04",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1"
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.08.01.742196v1",
+    "notability": "Recursion; ~200 stars"
   },
   {
     "slug": "openbind-model",
@@ -6274,24 +6111,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-08-21",
-    "dateSource": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/"
-  },
-  {
-    "slug": "japanfold",
-    "name": "JapanFold",
-    "category": "protein",
-    "url": "https://www.aiand.com/newsroom/japanfoldlaunch",
-    "license": "Commercial service",
-    "pricing": "Free (research)",
-    "description": "Browser, API and agent access to eight open biology models (incl. Boltz-2), run by ai&.",
-    "tags": [
-      "hosted-models",
-      "structure-prediction"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2026-09-03",
-    "dateSource": "https://www.aiand.com/newsroom/japanfoldlaunch"
+    "dateSource": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/",
+    "notability": "UK government-funded OpenBind consortium"
   },
   {
     "slug": "instanovo-fm",
@@ -6311,7 +6132,8 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-09-07",
-    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1"
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1",
+    "notability": "InstaDeep; trained on 1.63B spectra"
   },
   {
     "slug": "torchx",
@@ -6329,6 +6151,7 @@
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-09-17",
-    "dateSource": "https://laoyaoba.com/n/1110147"
+    "dateSource": "https://laoyaoba.com/n/1110147",
+    "notability": "Changping Lab × Huawei; MIT weights + training data; Chinese tech press"
   }
 ]
