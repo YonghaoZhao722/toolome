@@ -2141,13 +2141,16 @@
     "url": "https://platform.edisonscientific.com",
     "license": "Commercial",
     "pricing": "Freemium",
-    "description": "AI scientist agents (formerly FutureHouse Crow, Falcon, Owl, Phoenix) for literature search and chemistry.",
+    "description": "FutureHouse's hosted AI scientist agents (Crow, Falcon, Owl, Phoenix) for literature search, precedent search and chemistry.",
     "tags": [
       "agent",
       "literature"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.futurehouse.org/research-announcements/launching-futurehouse-platform-ai-agents"
+    ]
   },
   {
     "slug": "paperqa2",
@@ -2617,7 +2620,10 @@
       "https://www.nature.com/articles/s41591-024-02856-4"
     ],
     "paperVenue": "Nature Medicine",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "alsoIn": [
+      "clinical"
+    ]
   },
   {
     "slug": "prov-gigapath",
@@ -6294,7 +6300,10 @@
       "https://ai.bio.xyz/blog/introducing-bios",
       "https://ai.bio.xyz"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "alsoIn": [
+      "protein"
+    ]
   },
   {
     "slug": "biomni-lab",
@@ -6348,7 +6357,10 @@
     "specsSources": [
       "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "alsoIn": [
+      "protein"
+    ]
   },
   {
     "slug": "ginkgo-cloud-lab",
@@ -6780,7 +6792,10 @@
       "https://doi.org/10.1101/2024.08.16.608331"
     ],
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "alsoIn": [
+      "genomics"
+    ]
   },
   {
     "slug": "deeppolisher",
@@ -7156,7 +7171,10 @@
       "https://doi.org/10.1101/2024.08.14.607850"
     ],
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "alsoIn": [
+      "genomics"
+    ]
   },
   {
     "slug": "comebin",
@@ -7474,7 +7492,10 @@
     ],
     "paperVenue": "Nature Medicine",
     "paperYear": 2025,
-    "licenseNote": "weights"
+    "licenseNote": "weights",
+    "alsoIn": [
+      "clinical"
+    ]
   },
   {
     "slug": "chief",
