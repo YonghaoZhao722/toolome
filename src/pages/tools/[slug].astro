@@ -11,13 +11,13 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 <p><a href={u('/category/'+t.category+'/')}>← {CATS[t.category][0]}</a></p>
 <h1>{t.name}</h1><p style="font-size:18px">{t.description}</p>
 <p><a class="btn" href={t.url} rel="noopener" target="_blank">Visit website ↗</a></p>
-<table><tr><th>Category</th><td>{CATS[t.category][0]}</td></tr>
+<table><tbody><tr><th>Category</th><td>{CATS[t.category][0]}</td></tr>
 {t.github&&<tr><th>GitHub</th><td><a href={t.github}>{t.github.replace('https://github.com/','')}</a></td></tr>}
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
 {!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a></td></tr>}
 <tr><th>License</th><td>{t.license}</td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
-<tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td>{t.lastChecked}</td></tr></table>
+<tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td>{t.lastChecked}</td></tr></tbody></table>
 {pairsFor(t.slug).length>0&&<p class="mut">Compare with… {pairsFor(t.slug).map((p,i)=>{const o=bySlug[p[0]===t.slug?p[1]:p[0]];return <>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{t.name} vs {o.name}</a></>})}</p>}
 <h2>Specs</h2><SpecTable list={[t]}/>
 {peers.length>0&&<section class="picker" id="compare"><h2>Compare with…</h2>
