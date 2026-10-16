@@ -4,7 +4,7 @@ import { tools, CATS, u } from '../../lib/site.js';
 export function getStaticPaths(){ return Object.keys(CATS).map(c=>({params:{cat:c}})); }
 const { cat } = Astro.params; const list = tools.filter(t=>t.category===cat);
 ---
-<Base title={`${CATS[cat][0]} AI tools | BioStack`} description={`${list.length} verified AI tools for ${CATS[cat][0].toLowerCase()}.`}>
+<Base title={`${CATS[cat][0]} AI tools | Toolome`} description={`${list.length} verified AI tools for ${CATS[cat][0].toLowerCase()}.`}>
 <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:16px">{Object.entries(CATS).map(([k,[n,e]])=><a class={'pill'+(k===cat?' on':'')} href={u('/category/'+k+'/')}>{e} {n}</a>)}</div>
 <h1>{CATS[cat][1]} {CATS[cat][0]}</h1><p class="mut">{list.length} tools</p>
 <div class="grid">{list.map(t=><Card t={t}/>)}</div>

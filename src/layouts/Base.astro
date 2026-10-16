@@ -1,12 +1,12 @@
 ---
-import { SITE, u } from '../lib/site.js';
+import { SITE, GSV, u } from '../lib/site.js';
 const { title = SITE.name + ' — ' + SITE.tagline, description = 'Curated, verified directory of AI tools for single-cell, spatial omics, protein design, genomics, drug discovery and more.', jsonld } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)"/><meta name="theme-color" content="#1f1e1d" media="(prefers-color-scheme: dark)"/>
 <title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
 <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:image" content={new URL(u('/og.png'), Astro.site)}/><meta name="twitter:card" content="summary_large_image"/>
-<link rel="icon" href={u('/favicon.svg')}/>
+{GSV && <meta name="google-site-verification" content={GSV}/>}<link rel="icon" href={u('/favicon.svg')}/>
 {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 <style is:global>
 :root{color-scheme:light dark;
@@ -65,8 +65,8 @@ main>*{animation:fade var(--dur-slow) var(--ease-out) both}
 @media (max-width:560px){.wrap{padding:0 var(--s4)}nav{gap:0;font-size:13px}nav a{padding:6px}nav a:first-child{display:none}.seg{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-inline:calc(-1*var(--s4));padding:2px var(--s4);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}.seg::-webkit-scrollbar{display:none}.pill{flex:none;scroll-snap-align:start}.grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after,::view-transition-group(*){animation:none!important;transition:none!important}.card:hover{transform:none}}
 </style></head><body>
-<header><div class="wrap"><a class="logo" href={u('/')}>Bio<b>Stack</b></a><nav aria-label="Main"><a href={u('/category/single-cell/')}>Categories</a><a href={u('/submit/')}>Submit</a><a href={u('/#newsletter')}>Newsletter</a></nav></div></header>
+<header><div class="wrap"><a class="logo" href={u('/')}>Tool<b>ome</b></a><nav aria-label="Main"><a href={u('/category/single-cell/')}>Categories</a><a href={u('/submit/')}>Submit</a><a href={u('/#newsletter')}>Newsletter</a></nav></div></header>
 <main class="wrap">
 <slot/></main>
-<footer><div class="wrap">© 2026 BioStack · <a href={u('/llms.txt')}>llms.txt</a> · <a href={u('/sitemap.xml')}>sitemap</a> · Listings are verified by hand; report errors via <a href={SITE.repo+'/issues'}>GitHub issues</a></div></footer>
+<footer><div class="wrap">© 2026 Toolome · <a href={u('/llms.txt')}>llms.txt</a> · <a href={u('/sitemap.xml')}>sitemap</a> · Listings are verified by hand; report errors via <a href={SITE.repo+'/issues'}>GitHub issues</a></div></footer>
 </body></html>

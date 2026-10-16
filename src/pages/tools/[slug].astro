@@ -6,7 +6,7 @@ const { t } = Astro.props;
 const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).slice(0,3);
 const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:t.license,isAccessibleForFree:t.pricing!=='Commercial',...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
 ---
-<Base title={`${t.name} — ${CATS[t.category][0]} | BioStack`} description={`${t.name}: ${t.description}`} jsonld={jsonld}>
+<Base title={`${t.name} — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description}`} jsonld={jsonld}>
 <p><a href={u('/category/'+t.category+'/')}>← {CATS[t.category][0]}</a></p>
 <h1>{t.name}</h1><p style="font-size:18px">{t.description}</p>
 <p><a class="btn" href={t.url} rel="noopener" target="_blank">Visit website ↗</a></p>

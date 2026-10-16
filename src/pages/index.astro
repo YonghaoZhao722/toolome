@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro'; import Card from '../components/Card.a
 import { tools, CATS, u } from '../lib/site.js';
 const now=new Date(); const from=new Date(now.getTime()-14*864e5); const iso=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Denver'}); const fmt=s=>new Date(s+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
 const latest=tools.filter(t=>t.released&&t.released>=iso(from)&&t.released<=iso(now)).sort((a,b)=>b.released.localeCompare(a.released));
-const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"BioStack",url:Astro.site.href};
+const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"Toolome",url:Astro.site.href};
 ---
 <Base jsonld={jsonld}>
 <h1>AI tools for biology, <span style="color:var(--acc)">verified</span>.</h1>

@@ -1,4 +1,4 @@
-# BioStack operations
+# Toolome operations
 
 Rule: nothing goes out (newsletter, outreach email, social post) without explicit owner approval.
 
@@ -11,7 +11,7 @@ Rule: nothing goes out (newsletter, outreach email, social post) without explici
 ## Weekly report (Mondays)
 Tools added/removed, broken links, traffic (Vercel Analytics / Search Console clicks & impressions, top queries), newsletter subscribers, next week's SEO focus.
 
-## Newsletter workflow (The BioStack Weekly)
+## Newsletter workflow (The Toolome Weekly)
 1. Draft Sunday: 5–8 new tools, 1 deep-dive.
 2. **Send draft to owner for approval. Do not send without explicit approval.**
 3. After approval: send via Resend (not yet wired; signup form posts to placeholder `/api/subscribe`).
