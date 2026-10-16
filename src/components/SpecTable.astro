@@ -2,7 +2,7 @@
 import { specRows, u } from '../lib/site.js';
 const { list } = Astro.props;
 const one=list.length===1; const skip=['License','Pricing','Released','Paper','GitHub'];
-const rows = list.map(t=>specRows(t).filter(([l])=>!one||!skip.includes(l)));
+const rows = list.map(t=>specRows(t).filter(([l])=>!one||(!skip.includes(l)&&!(l==='GitHub stars'&&!t.github))));
 const link = v => /^https?:/.test(v);
 const show = v => link(v) ? (v.includes('github.com')?'GitHub':'Link') : v;
 ---
