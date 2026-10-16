@@ -16,8 +16,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-04-23",
-  "dateSource": "https://github.com/bowang-lab/scGPT"
+  "firstReleased": "2023-05-01",
+  "dateSource": "https://doi.org/10.1101/2023.04.30.538439"
  },
  {
   "slug": "geneformer",
@@ -54,8 +54,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2017-09-06",
-  "dateSource": "https://github.com/scverse/scvi-tools"
+  "firstReleased": "2020-09-17",
+  "dateSource": "https://github.com/scverse/scvi-tools/releases/tag/0.7.0-alpha.3"
  },
  {
   "slug": "celltypist",
@@ -73,8 +73,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-05-19",
-  "dateSource": "https://github.com/Teichlab/celltypist"
+  "firstReleased": "2021-04-28",
+  "dateSource": "https://doi.org/10.1101/2021.04.28.441762"
  },
  {
   "slug": "scanpy",
@@ -93,8 +93,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2017-01-29",
-  "dateSource": "https://github.com/scverse/scanpy"
+  "firstReleased": "2017-08-09",
+  "dateSource": "https://doi.org/10.1101/174029"
  },
  {
   "slug": "seurat",
@@ -113,8 +113,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2015-05-20",
-  "dateSource": "https://github.com/satijalab/seurat"
+  "firstReleased": "2015-04-13",
+  "dateSource": "https://doi.org/10.1038/nbt.3192"
  },
  {
   "slug": "scfoundation",
@@ -131,8 +131,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-06-03",
-  "dateSource": "https://github.com/biomap-research/scFoundation"
+  "firstReleased": "2024-06-06",
+  "dateSource": "https://doi.org/10.1038/s41592-024-02305-7"
  },
  {
   "slug": "uce-universal-cell-embeddings",
@@ -150,8 +150,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-09-27",
-  "dateSource": "https://github.com/snap-stanford/UCE"
+  "firstReleased": "2023-11-29",
+  "dateSource": "https://doi.org/10.1101/2023.11.28.568918"
  },
  {
   "slug": "cellrank",
@@ -169,8 +169,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-03-12",
-  "dateSource": "https://github.com/scverse/cellrank"
+  "firstReleased": "2020-10-29",
+  "dateSource": "https://doi.org/10.21203/rs.3.rs-94819/v1"
  },
  {
   "slug": "scvelo",
@@ -188,8 +188,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2018-08-20",
-  "dateSource": "https://github.com/theislab/scvelo"
+  "firstReleased": "2019-10-29",
+  "dateSource": "https://doi.org/10.1101/820936"
  },
  {
   "slug": "mudata--muon",
@@ -207,8 +207,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-02-03",
-  "dateSource": "https://github.com/scverse/muon"
+  "firstReleased": "2021-06-01",
+  "dateSource": "https://doi.org/10.1101/2021.06.01.445670"
  },
  {
   "slug": "archr",
@@ -226,8 +226,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2019-10-18",
-  "dateSource": "https://github.com/GreenleafLab/ArchR"
+  "firstReleased": "2020-04-29",
+  "dateSource": "https://doi.org/10.1101/2020.04.28.066498"
  },
  {
   "slug": "celloracle",
@@ -245,8 +245,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2019-10-02",
-  "dateSource": "https://github.com/morris-lab/CellOracle"
+  "firstReleased": "2020-12-01",
+  "dateSource": "https://github.com/morris-lab/CellOracle/releases/tag/v0.4.2"
  },
  {
   "slug": "gears",
@@ -264,8 +264,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-11-17",
-  "dateSource": "https://github.com/snap-stanford/GEARS"
+  "firstReleased": "2023-08-17",
+  "dateSource": "https://doi.org/10.1038/s41587-023-01905-6"
  },
  {
   "slug": "harmony",
@@ -283,8 +283,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2018-06-12",
-  "dateSource": "https://github.com/immunogenomics/harmony"
+  "firstReleased": "2018-11-04",
+  "dateSource": "https://doi.org/10.1101/461954"
  },
  {
   "slug": "tangram",
@@ -302,8 +302,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-08-21",
-  "dateSource": "https://github.com/broadinstitute/Tangram"
+  "firstReleased": "2020-08-30",
+  "dateSource": "https://doi.org/10.1101/2020.08.29.272831"
  },
  {
   "slug": "paste",
@@ -321,8 +321,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-12-04",
-  "dateSource": "https://github.com/raphael-group/paste"
+  "firstReleased": "2021-03-16",
+  "dateSource": "https://doi.org/10.1101/2021.03.16.435604"
  },
  {
   "slug": "moscot",
@@ -340,8 +340,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-08-23",
-  "dateSource": "https://github.com/theislab/moscot"
+  "firstReleased": "2023-05-11",
+  "dateSource": "https://doi.org/10.1101/2023.05.11.540374"
  },
  {
   "slug": "cell2location",
@@ -359,8 +359,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-05-10",
-  "dateSource": "https://github.com/BayraktarLab/cell2location"
+  "firstReleased": "2020-10-14",
+  "dateSource": "https://github.com/BayraktarLab/cell2location/releases/tag/v0.02-alpha"
  },
  {
   "slug": "squidpy",
@@ -379,8 +379,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-08-21",
-  "dateSource": "https://github.com/scverse/squidpy"
+  "firstReleased": "2022-01-31",
+  "dateSource": "https://doi.org/10.1038/s41592-021-01358-2"
  },
  {
   "slug": "spatialdata",
@@ -398,8 +398,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2022-04-30",
-  "dateSource": "https://github.com/scverse/spatialdata"
+  "firstReleased": "2023-03-25",
+  "dateSource": "https://github.com/scverse/spatialdata/releases/tag/v0.0.1.dev1"
  },
  {
   "slug": "stagate",
@@ -417,8 +417,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-08-20",
-  "dateSource": "https://github.com/RucDongLab/STAGATE"
+  "firstReleased": "2021-08-23",
+  "dateSource": "https://doi.org/10.1101/2021.08.21.457240"
  },
  {
   "slug": "graphst",
@@ -436,8 +436,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-05-20",
-  "dateSource": "https://github.com/JinmiaoChenLab/GraphST"
+  "firstReleased": "2022-07-28",
+  "dateSource": "https://github.com/JinmiaoChenLab/GraphST/releases/tag/V1.0.0"
  },
  {
   "slug": "bayesspace",
@@ -455,8 +455,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-06-23",
-  "dateSource": "https://github.com/edward130603/BayesSpace"
+  "firstReleased": "2020-09-05",
+  "dateSource": "https://doi.org/10.1101/2020.09.04.283812"
  },
  {
   "slug": "rctd-spacexr",
@@ -474,8 +474,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-02-06",
-  "dateSource": "https://github.com/dmcable/spacexr"
+  "firstReleased": "2020-05-08",
+  "dateSource": "https://doi.org/10.1101/2020.05.07.082750"
  },
  {
   "slug": "giotto-suite",
@@ -509,8 +509,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-04-15",
-  "dateSource": "https://github.com/theislab/nicheformer"
+  "firstReleased": "2024-04-17",
+  "dateSource": "https://doi.org/10.1101/2024.04.15.589472"
  },
  {
   "slug": "alphafold-server-alphafold-3",
@@ -563,8 +563,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-03-28",
-  "dateSource": "https://github.com/RosettaCommons/RFdiffusion"
+  "firstReleased": "2022-12-10",
+  "dateSource": "https://doi.org/10.1101/2022.12.09.519842"
  },
  {
   "slug": "proteinmpnn",
@@ -582,8 +582,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2022-05-26",
-  "dateSource": "https://github.com/dauparas/ProteinMPNN"
+  "firstReleased": "2022-06-04",
+  "dateSource": "https://doi.org/10.1101/2022.06.03.494563"
  },
  {
   "slug": "esm3--evolutionaryscale",
@@ -601,8 +601,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-06-25",
-  "dateSource": "https://github.com/Biohub/esm"
+  "firstReleased": "2024-07-02",
+  "dateSource": "https://doi.org/10.1101/2024.07.01.600583"
  },
  {
   "slug": "esm-2--esmfold",
@@ -640,7 +640,7 @@
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
   "firstReleased": "2024-11-17",
-  "dateSource": "https://github.com/jwohlwend/boltz"
+  "dateSource": "https://github.com/jwohlwend/boltz/releases/tag/v0.1.0"
  },
  {
   "slug": "chai-1",
@@ -659,7 +659,7 @@
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
   "firstReleased": "2024-09-09",
-  "dateSource": "https://github.com/chaidiscovery/chai-lab"
+  "dateSource": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.0.1"
  },
  {
   "slug": "openfold",
@@ -677,8 +677,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-09-14",
-  "dateSource": "https://github.com/aqlaboratory/openfold"
+  "firstReleased": "2021-11-18",
+  "dateSource": "https://github.com/aqlaboratory/openfold/releases/tag/v0.1.0"
  },
  {
   "slug": "colabfold",
@@ -696,8 +696,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-07-19",
-  "dateSource": "https://github.com/sokrypton/ColabFold"
+  "firstReleased": "2021-07-22",
+  "dateSource": "https://github.com/sokrypton/ColabFold/releases/tag/v1.0-alpha"
  },
  {
   "slug": "rosettafold-all-atom",
@@ -714,8 +714,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-12-19",
-  "dateSource": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom"
+  "firstReleased": "2023-10-09",
+  "dateSource": "https://doi.org/10.1101/2023.10.09.561603"
  },
  {
   "slug": "bindcraft",
@@ -733,8 +733,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-09-18",
-  "dateSource": "https://github.com/martinpacesa/BindCraft"
+  "firstReleased": "2024-09-29",
+  "dateSource": "https://github.com/martinpacesa/BindCraft/releases/tag/v1.0.0"
  },
  {
   "slug": "foldseek",
@@ -751,7 +751,9 @@
    "structure"
   ],
   "added": "2026-10-15",
-  "lastChecked": "2026-10-15"
+  "lastChecked": "2026-10-15",
+  "firstReleased": "2022-02-09",
+  "dateSource": "https://doi.org/10.1101/2022.02.07.479398"
  },
  {
   "slug": "protenix",
@@ -768,8 +770,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-11-08",
-  "dateSource": "https://github.com/bytedance/Protenix"
+  "firstReleased": "2024-12-12",
+  "dateSource": "https://github.com/bytedance/Protenix/releases/tag/v0.1.0"
  },
  {
   "slug": "tamarind-bio",
@@ -802,8 +804,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2025-02-13",
-  "dateSource": "https://github.com/ArcInstitute/evo2"
+  "firstReleased": "2025-02-21",
+  "dateSource": "https://doi.org/10.1101/2025.02.18.638918"
  },
  {
   "slug": "alphagenome",
@@ -822,7 +824,7 @@
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
   "firstReleased": "2025-06-25",
-  "dateSource": "https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/"
+  "dateSource": "https://github.com/google-deepmind/alphagenome/releases/tag/v0.0.1"
  },
  {
   "slug": "enformer",
@@ -840,8 +842,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-10-04",
-  "dateSource": "https://doi.org/10.1038/s41592-021-01252-x"
+  "firstReleased": "2021-04-08",
+  "dateSource": "https://doi.org/10.1101/2021.04.07.438649"
  },
  {
   "slug": "spliceai",
@@ -859,8 +861,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2019-01-02",
-  "dateSource": "https://github.com/Illumina/SpliceAI"
+  "firstReleased": "2019-01-17",
+  "dateSource": "https://doi.org/10.1016/j.cell.2018.12.015"
  },
  {
   "slug": "nucleotide-transformer",
@@ -877,8 +879,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-01-24",
-  "dateSource": "https://github.com/instadeepai/nucleotide-transformer"
+  "firstReleased": "2023-01-15",
+  "dateSource": "https://doi.org/10.1101/2023.01.11.523679"
  },
  {
   "slug": "hyenadna",
@@ -896,8 +898,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-06-23",
-  "dateSource": "https://github.com/HazyResearch/hyena-dna"
+  "firstReleased": "2023-06-27",
+  "dateSource": "https://arxiv.org/abs/2306.15794"
  },
  {
   "slug": "dnabert-2",
@@ -914,8 +916,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-06-23",
-  "dateSource": "https://github.com/MAGICS-LAB/DNABERT_2"
+  "firstReleased": "2023-06-26",
+  "dateSource": "https://arxiv.org/abs/2306.15006"
  },
  {
   "slug": "borzoi",
@@ -933,8 +935,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-08-29",
-  "dateSource": "https://github.com/calico/borzoi"
+  "firstReleased": "2023-09-01",
+  "dateSource": "https://doi.org/10.1101/2023.08.30.555582"
  },
  {
   "slug": "alphamissense",
@@ -951,8 +953,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-09-13",
-  "dateSource": "https://github.com/google-deepmind/alphamissense"
+  "firstReleased": "2023-09-22",
+  "dateSource": "https://doi.org/10.1126/science.adg7492"
  },
  {
   "slug": "deepvariant",
@@ -971,8 +973,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2017-11-23",
-  "dateSource": "https://github.com/google/deepvariant"
+  "firstReleased": "2016-12-14",
+  "dateSource": "https://doi.org/10.1101/092890"
  },
  {
   "slug": "caduceus",
@@ -990,8 +992,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-02-26",
-  "dateSource": "https://github.com/kuleshov-group/caduceus"
+  "firstReleased": "2024-03-05",
+  "dateSource": "https://arxiv.org/abs/2403.03234"
  },
  {
   "slug": "rdkit",
@@ -1006,9 +1008,7 @@
    "cheminformatics"
   ],
   "added": "2026-10-15",
-  "lastChecked": "2026-10-15",
-  "firstReleased": "2013-05-12",
-  "dateSource": "https://github.com/rdkit/rdkit"
+  "lastChecked": "2026-10-15"
  },
  {
   "slug": "deepchem",
@@ -1025,8 +1025,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2015-09-24",
-  "dateSource": "https://github.com/deepchem/deepchem"
+  "firstReleased": "2016-01-29",
+  "dateSource": "https://github.com/deepchem/deepchem/releases/tag/0.0.1"
  },
  {
   "slug": "diffdock",
@@ -1045,7 +1045,7 @@
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
   "firstReleased": "2022-10-04",
-  "dateSource": "https://github.com/gcorso/DiffDock"
+  "dateSource": "https://arxiv.org/abs/2210.01776"
  },
  {
   "slug": "reinvent-4",
@@ -1063,8 +1063,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-10-20",
-  "dateSource": "https://github.com/MolecularAI/REINVENT4"
+  "firstReleased": "2023-11-07",
+  "dateSource": "https://github.com/MolecularAI/REINVENT4/releases/tag/v4.0.11"
  },
  {
   "slug": "chemprop",
@@ -1082,8 +1082,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2019-01-25",
-  "dateSource": "https://github.com/chemprop/chemprop"
+  "firstReleased": "2019-02-07",
+  "dateSource": "https://github.com/chemprop/chemprop/releases/tag/v0.0.2"
  },
  {
   "slug": "torchdrug",
@@ -1101,8 +1101,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2021-08-10",
-  "dateSource": "https://github.com/DeepGraphLearning/torchdrug"
+  "firstReleased": "2021-10-23",
+  "dateSource": "https://github.com/DeepGraphLearning/torchdrug/releases/tag/v0.1.2"
  },
  {
   "slug": "autodock-vina",
@@ -1119,8 +1119,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-04-23",
-  "dateSource": "https://github.com/ccsb-scripps/AutoDock-Vina"
+  "firstReleased": "2021-03-01",
+  "dateSource": "https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.0.dev3"
  },
  {
   "slug": "openmm",
@@ -1137,8 +1137,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2013-05-20",
-  "dateSource": "https://github.com/openmm/openmm"
+  "firstReleased": "2013-10-02",
+  "dateSource": "https://github.com/openmm/openmm/releases/tag/5.2"
  },
  {
   "slug": "nvidia-bionemo",
@@ -1187,8 +1187,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2025-03-19",
-  "dateSource": "https://github.com/snap-stanford/Biomni"
+  "firstReleased": "2025-06-02",
+  "dateSource": "https://doi.org/10.1101/2025.05.30.656746"
  },
  {
   "slug": "futurehouse-platform",
@@ -1240,8 +1240,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-06-06",
-  "dateSource": "https://github.com/biocypher/biochatter"
+  "firstReleased": "2023-06-19",
+  "dateSource": "https://github.com/biocypher/biochatter/releases/tag/v0.1.1"
  },
  {
   "slug": "elicit",
@@ -1302,8 +1302,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-01-13",
-  "dateSource": "https://github.com/latchbio/latch"
+  "firstReleased": "2022-02-22",
+  "dateSource": "https://github.com/latchbio/latch/releases/tag/v0.0.30"
  },
  {
   "slug": "adaptyv-bio",
@@ -1406,8 +1406,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-02-01",
-  "dateSource": "https://github.com/MouseLand/cellpose"
+  "firstReleased": "2020-02-03",
+  "dateSource": "https://doi.org/10.1101/2020.02.02.931238"
  },
  {
   "slug": "stardist",
@@ -1425,8 +1425,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2018-06-26",
-  "dateSource": "https://github.com/stardist/stardist"
+  "firstReleased": "2018-06-09",
+  "dateSource": "https://arxiv.org/abs/1806.03535"
  },
  {
   "slug": "napari",
@@ -1443,8 +1443,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2018-08-13",
-  "dateSource": "https://github.com/napari/napari"
+  "firstReleased": "2019-11-28",
+  "dateSource": "https://github.com/napari/napari/releases/tag/v0.2.6"
  },
  {
   "slug": "qupath",
@@ -1462,8 +1462,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2016-08-28",
-  "dateSource": "https://github.com/qupath/qupath"
+  "firstReleased": "2016-10-04",
+  "dateSource": "https://github.com/qupath/qupath/releases/tag/v0.0.1-beta"
  },
  {
   "slug": "uni",
@@ -1481,8 +1481,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-02-02",
-  "dateSource": "https://github.com/mahmoodlab/UNI"
+  "firstReleased": "2024-03-19",
+  "dateSource": "https://doi.org/10.1038/s41591-024-02857-3"
  },
  {
   "slug": "conch",
@@ -1500,8 +1500,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-12-31",
-  "dateSource": "https://github.com/mahmoodlab/CONCH"
+  "firstReleased": "2024-03-19",
+  "dateSource": "https://doi.org/10.1038/s41591-024-02856-4"
  },
  {
   "slug": "prov-gigapath",
@@ -1519,8 +1519,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2024-04-01",
-  "dateSource": "https://github.com/prov-gigapath/prov-gigapath"
+  "firstReleased": "2024-05-22",
+  "dateSource": "https://doi.org/10.1038/s41586-024-07441-w"
  },
  {
   "slug": "cellprofiler",
@@ -1535,9 +1535,7 @@
    "high-content"
   ],
   "added": "2026-10-15",
-  "lastChecked": "2026-10-15",
-  "firstReleased": "2011-04-05",
-  "dateSource": "https://github.com/CellProfiler/CellProfiler"
+  "lastChecked": "2026-10-15"
  },
  {
   "slug": "micro-sam",
@@ -1555,8 +1553,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-05-03",
-  "dateSource": "https://github.com/computational-cell-analytics/micro-sam"
+  "firstReleased": "2023-05-10",
+  "dateSource": "https://github.com/computational-cell-analytics/micro-sam/releases/tag/0.0.1"
  },
  {
   "slug": "cz-cellxgene",
@@ -1573,8 +1571,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-10-11",
-  "dateSource": "https://github.com/chanzuckerberg/cellxgene-census"
+  "firstReleased": "2022-12-20",
+  "dateSource": "https://github.com/chanzuckerberg/cellxgene-census/releases/tag/v0.0.1"
  },
  {
   "slug": "human-cell-atlas-data-portal",
@@ -1653,8 +1651,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2022-12-15",
-  "dateSource": "https://github.com/OATML-Markslab/ProteinGym"
+  "firstReleased": "2023-12-08",
+  "dateSource": "https://doi.org/10.1101/2023.12.07.570727"
  },
  {
   "slug": "therapeutics-data-commons",
@@ -1672,8 +1670,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-09-17",
-  "dateSource": "https://github.com/mims-harvard/TDC"
+  "firstReleased": "2021-02-18",
+  "dateSource": "https://arxiv.org/abs/2102.09548"
  },
  {
   "slug": "casp",
@@ -1705,8 +1703,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2020-06-19",
-  "dateSource": "https://github.com/openproblems-bio/openproblems"
+  "firstReleased": "2023-02-02",
+  "dateSource": "https://github.com/openproblems-bio/openproblems/releases/tag/v0.7.0"
  },
  {
   "slug": "posebusters",
@@ -1724,8 +1722,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-07-13",
-  "dateSource": "https://github.com/maabuu/posebusters"
+  "firstReleased": "2023-08-10",
+  "dateSource": "https://arxiv.org/abs/2308.05777"
  },
  {
   "slug": "polaris",
@@ -1742,8 +1740,8 @@
   ],
   "added": "2026-10-15",
   "lastChecked": "2026-10-15",
-  "firstReleased": "2023-06-05",
-  "dateSource": "https://github.com/polaris-hub/polaris"
+  "firstReleased": "2023-06-08",
+  "dateSource": "https://github.com/polaris-hub/polaris/releases/tag/0.0.1"
  },
  {
   "slug": "10x-genomics-datasets",
@@ -1880,8 +1878,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-05-17",
-  "dateSource": "https://github.com/nanoporetech/dorado"
+  "firstReleased": "2022-10-05",
+  "dateSource": "https://github.com/nanoporetech/dorado/releases/tag/v0.0.1"
  },
  {
   "slug": "bonito",
@@ -1899,8 +1897,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2019-11-19",
-  "dateSource": "https://github.com/nanoporetech/bonito"
+  "firstReleased": "2020-02-20",
+  "dateSource": "https://github.com/nanoporetech/bonito/releases/tag/v0.0.5"
  },
  {
   "slug": "medaka",
@@ -1918,8 +1916,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2017-06-07",
-  "dateSource": "https://github.com/nanoporetech/medaka"
+  "firstReleased": "2017-09-01",
+  "dateSource": "https://github.com/nanoporetech/medaka/releases/tag/v0.0.1"
  },
  {
   "slug": "remora",
@@ -1937,8 +1935,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-11-22",
-  "dateSource": "https://github.com/nanoporetech/remora"
+  "firstReleased": "2021-12-01",
+  "dateSource": "https://github.com/nanoporetech/remora/releases/tag/v0.1.0"
  },
  {
   "slug": "clair3",
@@ -1957,8 +1955,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-03-30",
-  "dateSource": "https://github.com/HKU-BAL/Clair3"
+  "firstReleased": "2021-05-17",
+  "dateSource": "https://github.com/HKU-BAL/Clair3/releases/tag/v0.1"
  },
  {
   "slug": "deepconsensus",
@@ -1977,8 +1975,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-08-04",
-  "dateSource": "https://github.com/google/deepconsensus"
+  "firstReleased": "2022-01-15",
+  "dateSource": "https://github.com/google/deepconsensus/releases/tag/v0.1.0"
  },
  {
   "slug": "pepper-margin-deepvariant",
@@ -1997,8 +1995,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2019-05-10",
-  "dateSource": "https://github.com/kishwarshafin/pepper"
+  "firstReleased": "2020-10-09",
+  "dateSource": "https://github.com/kishwarshafin/pepper/releases/tag/v0.1"
  },
  {
   "slug": "sniffles2",
@@ -2016,7 +2014,9 @@
    "population"
   ],
   "added": "2026-10-16",
-  "lastChecked": "2026-10-16"
+  "lastChecked": "2026-10-16",
+  "firstReleased": "2022-04-05",
+  "dateSource": "https://doi.org/10.1101/2022.04.04.487055"
  },
  {
   "slug": "basenji",
@@ -2035,8 +2035,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2017-07-05",
-  "dateSource": "https://github.com/calico/basenji"
+  "firstReleased": "2017-07-10",
+  "dateSource": "https://doi.org/10.1101/161851"
  },
  {
   "slug": "chrombpnet",
@@ -2055,8 +2055,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-07-23",
-  "dateSource": "https://github.com/kundajelab/chrombpnet"
+  "firstReleased": "2023-01-25",
+  "dateSource": "https://github.com/kundajelab/chrombpnet/releases/tag/v1.3-pre-release"
  },
  {
   "slug": "bpnet",
@@ -2075,8 +2075,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2019-07-26",
-  "dateSource": "https://github.com/kundajelab/bpnet"
+  "firstReleased": "2019-08-21",
+  "dateSource": "https://doi.org/10.1101/737981"
  },
  {
   "slug": "sei",
@@ -2095,8 +2095,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-03-26",
-  "dateSource": "https://github.com/FunctionLab/sei-framework"
+  "firstReleased": "2021-07-30",
+  "dateSource": "https://doi.org/10.1101/2021.07.29.454384"
  },
  {
   "slug": "selene",
@@ -2115,8 +2115,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2017-08-21",
-  "dateSource": "https://github.com/FunctionLab/selene"
+  "firstReleased": "2018-08-06",
+  "dateSource": "https://github.com/FunctionLab/selene/releases/tag/0.0.0"
  },
  {
   "slug": "scbasset",
@@ -2135,8 +2135,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-08-18",
-  "dateSource": "https://github.com/calico/scBasset"
+  "firstReleased": "2021-09-10",
+  "dateSource": "https://doi.org/10.1101/2021.09.08.459495"
  },
  {
   "slug": "eve",
@@ -2155,8 +2155,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-09-02",
-  "dateSource": "https://github.com/OATML-Markslab/EVE"
+  "firstReleased": "2020-12-22",
+  "dateSource": "https://doi.org/10.1101/2020.12.21.423785"
  },
  {
   "slug": "primateai-3d",
@@ -2175,8 +2175,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-03-10",
-  "dateSource": "https://github.com/Illumina/PrimateAI-3D"
+  "firstReleased": "2023-05-02",
+  "dateSource": "https://doi.org/10.1101/2023.05.01.538953"
  },
  {
   "slug": "gpn-msa",
@@ -2194,7 +2194,9 @@
    "alignment"
   ],
   "added": "2026-10-16",
-  "lastChecked": "2026-10-16"
+  "lastChecked": "2026-10-16",
+  "firstReleased": "2023-10-11",
+  "dateSource": "https://doi.org/10.1101/2023.10.10.561776"
  },
  {
   "slug": "dia-nn",
@@ -2213,8 +2215,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2018-03-14",
-  "dateSource": "https://github.com/vdemichev/DiaNN"
+  "firstReleased": "2018-03-15",
+  "dateSource": "https://doi.org/10.1101/282699"
  },
  {
   "slug": "alphapeptdeep",
@@ -2233,8 +2235,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-10-01",
-  "dateSource": "https://github.com/MannLabs/alphapeptdeep"
+  "firstReleased": "2022-06-28",
+  "dateSource": "https://github.com/MannLabs/alphapeptdeep/releases/tag/pre-trained-models"
  },
  {
   "slug": "alphadia",
@@ -2253,8 +2255,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-09-15",
-  "dateSource": "https://github.com/MannLabs/alphadia"
+  "firstReleased": "2023-02-24",
+  "dateSource": "https://github.com/MannLabs/alphadia/releases/tag/v1.0.0"
  },
  {
   "slug": "ms2pip",
@@ -2273,8 +2275,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2017-03-15",
-  "dateSource": "https://github.com/CompOmics/ms2pip"
+  "firstReleased": "2019-01-20",
+  "dateSource": "https://github.com/CompOmics/ms2pip/releases/tag/v20190120"
  },
  {
   "slug": "deeplc",
@@ -2293,8 +2295,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2019-02-09",
-  "dateSource": "https://github.com/CompOmics/DeepLC"
+  "firstReleased": "2019-12-18",
+  "dateSource": "https://github.com/CompOmics/DeepLC/releases/tag/v0.1.1"
  },
  {
   "slug": "casanovo",
@@ -2313,8 +2315,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-01-28",
-  "dateSource": "https://github.com/Noble-Lab/casanovo"
+  "firstReleased": "2022-08-23",
+  "dateSource": "https://github.com/Noble-Lab/casanovo/releases/tag/v1.1.0"
  },
  {
   "slug": "instanovo",
@@ -2333,8 +2335,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-08-22",
-  "dateSource": "https://github.com/instadeepai/InstaNovo"
+  "firstReleased": "2023-09-01",
+  "dateSource": "https://github.com/instadeepai/InstaNovo/releases/tag/0.1.0"
  },
  {
   "slug": "sirius",
@@ -2353,8 +2355,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2017-06-16",
-  "dateSource": "https://github.com/sirius-ms/sirius"
+  "firstReleased": "2019-03-18",
+  "dateSource": "https://doi.org/10.1038/s41592-019-0344-8"
  },
  {
   "slug": "ms2deepscore",
@@ -2373,8 +2375,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-11-04",
-  "dateSource": "https://github.com/matchms/ms2deepscore"
+  "firstReleased": "2021-02-08",
+  "dateSource": "https://github.com/matchms/ms2deepscore/releases/tag/0.1.0"
  },
  {
   "slug": "matchms",
@@ -2393,8 +2395,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-05-20",
-  "dateSource": "https://github.com/matchms/matchms"
+  "firstReleased": "2020-05-26",
+  "dateSource": "https://github.com/matchms/matchms/releases/tag/0.3.2"
  },
  {
   "slug": "dreams",
@@ -2413,8 +2415,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-05-13",
-  "dateSource": "https://github.com/pluskal-lab/DreaMS"
+  "firstReleased": "2023-12-01",
+  "dateSource": "https://doi.org/10.26434/chemrxiv-2023-kss3r"
  },
  {
   "slug": "mzmine",
@@ -2451,8 +2453,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2015-09-10",
-  "dateSource": "https://github.com/maximilianh/crisporWebsite"
+  "firstReleased": "2016-06-02",
+  "dateSource": "https://github.com/maximilianh/crisporWebsite/releases/tag/v3.1"
  },
  {
   "slug": "chopchop",
@@ -2490,8 +2492,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-05-26",
-  "dateSource": "https://github.com/gpp-rnd/rs3"
+  "firstReleased": "2022-06-27",
+  "dateSource": "https://doi.org/10.1101/2022.06.27.497780"
  },
  {
   "slug": "pridict",
@@ -2510,8 +2512,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-11-14",
-  "dateSource": "https://github.com/uzh-dqbm-cmi/PRIDICT"
+  "firstReleased": "2023-01-16",
+  "dateSource": "https://doi.org/10.1038/s41587-022-01613-7"
  },
  {
   "slug": "crispresso2",
@@ -2530,8 +2532,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2018-05-14",
-  "dateSource": "https://github.com/pinellolab/CRISPResso2"
+  "firstReleased": "2018-08-15",
+  "dateSource": "https://doi.org/10.1101/392217"
  },
  {
   "slug": "opencrispr",
@@ -2550,8 +2552,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-04-16",
-  "dateSource": "https://github.com/Profluent-AI/OpenCRISPR"
+  "firstReleased": "2024-04-22",
+  "dateSource": "https://doi.org/10.1101/2024.04.22.590591"
  },
  {
   "slug": "igfold",
@@ -2570,8 +2572,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-04-18",
-  "dateSource": "https://github.com/Graylab/IgFold"
+  "firstReleased": "2023-03-08",
+  "dateSource": "https://github.com/Graylab/IgFold/releases/tag/v0.3.1"
  },
  {
   "slug": "ablang",
@@ -2590,8 +2592,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-12-31",
-  "dateSource": "https://github.com/oxpig/AbLang"
+  "firstReleased": "2022-01-22",
+  "dateSource": "https://doi.org/10.1101/2022.01.20.477061"
  },
  {
   "slug": "ablang2",
@@ -2610,8 +2612,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-01-25",
-  "dateSource": "https://github.com/oxpig/AbLang2"
+  "firstReleased": "2024-02-07",
+  "dateSource": "https://doi.org/10.1101/2024.02.02.578678"
  },
  {
   "slug": "immunebuilder",
@@ -2630,8 +2632,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-11-05",
-  "dateSource": "https://github.com/oxpig/ImmuneBuilder"
+  "firstReleased": "2023-05-29",
+  "dateSource": "https://doi.org/10.1038/s42003-023-04927-7"
  },
  {
   "slug": "antiberty",
@@ -2650,8 +2652,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-03-03",
-  "dateSource": "https://github.com/jeffreyruffolo/AntiBERTy"
+  "firstReleased": "2021-12-14",
+  "dateSource": "https://arxiv.org/abs/2112.07782"
  },
  {
   "slug": "rfantibody",
@@ -2670,8 +2672,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-01-22",
-  "dateSource": "https://github.com/RosettaCommons/RFantibody"
+  "firstReleased": "2024-03-18",
+  "dateSource": "https://doi.org/10.1101/2024.03.14.585103"
  },
  {
   "slug": "biophi",
@@ -2690,8 +2692,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-07-29",
-  "dateSource": "https://github.com/Merck/BioPhi"
+  "firstReleased": "2021-08-07",
+  "dateSource": "https://github.com/Merck/BioPhi/releases/tag/v1.0.0"
  },
  {
   "slug": "rhofold",
@@ -2710,8 +2712,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-11-01",
-  "dateSource": "https://github.com/ml4bio/RhoFold"
+  "firstReleased": "2024-11-21",
+  "dateSource": "https://doi.org/10.1038/s41592-024-02487-0"
  },
  {
   "slug": "rna-fm",
@@ -2730,8 +2732,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-07-10",
-  "dateSource": "https://github.com/ml4bio/RNA-FM"
+  "firstReleased": "2022-04-01",
+  "dateSource": "https://arxiv.org/abs/2204.00300"
  },
  {
   "slug": "ribonanzanet",
@@ -2750,8 +2752,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-01-14",
-  "dateSource": "https://github.com/Shujun-He/RibonanzaNet"
+  "firstReleased": "2024-02-27",
+  "dateSource": "https://doi.org/10.1101/2024.02.24.581671"
  },
  {
   "slug": "eternafold",
@@ -2770,8 +2772,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-05-28",
-  "dateSource": "https://github.com/WaymentSteeleLab/EternaFold"
+  "firstReleased": "2020-05-30",
+  "dateSource": "https://github.com/WaymentSteeleLab/EternaFold/releases/tag/1.0"
  },
  {
   "slug": "spot-rna",
@@ -2790,8 +2792,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2019-06-04",
-  "dateSource": "https://github.com/jaswindersingh2/SPOT-RNA"
+  "firstReleased": "2019-11-27",
+  "dateSource": "https://doi.org/10.1038/s41467-019-13395-9"
  },
  {
   "slug": "ufold",
@@ -2810,8 +2812,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-01-23",
-  "dateSource": "https://github.com/uci-cbcl/UFold"
+  "firstReleased": "2020-08-18",
+  "dateSource": "https://doi.org/10.1101/2020.08.17.254896"
  },
  {
   "slug": "viennarna",
@@ -2830,8 +2832,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2016-10-12",
-  "dateSource": "https://github.com/ViennaRNA/ViennaRNA"
+  "firstReleased": "2011-11-24",
+  "dateSource": "https://doi.org/10.1186/1748-7188-6-26"
  },
  {
   "slug": "grnade",
@@ -2851,7 +2853,7 @@
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
   "firstReleased": "2023-05-24",
-  "dateSource": "https://github.com/chaitjo/geometric-rna-design"
+  "dateSource": "https://arxiv.org/abs/2305.14749"
  },
  {
   "slug": "metaphlan",
@@ -2890,8 +2892,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-05-04",
-  "dateSource": "https://doi.org/10.7554/eLife.65088"
+  "firstReleased": "2020-11-21",
+  "dateSource": "https://doi.org/10.1101/2020.11.19.388223"
  },
  {
   "slug": "kraken2",
@@ -2911,7 +2913,7 @@
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
   "firstReleased": "2018-06-26",
-  "dateSource": "https://github.com/DerrickWood/kraken2"
+  "dateSource": "https://github.com/DerrickWood/kraken2/releases/tag/v2.0.6-beta"
  },
  {
   "slug": "gtdb-tk",
@@ -2930,8 +2932,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2016-11-29",
-  "dateSource": "https://github.com/Ecogenomics/GTDBTk"
+  "firstReleased": "2018-02-28",
+  "dateSource": "https://github.com/Ecogenomics/GTDBTk/releases/tag/0.0.4-beta"
  },
  {
   "slug": "genomad",
@@ -2950,8 +2952,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-07-12",
-  "dateSource": "https://github.com/apcamargo/genomad"
+  "firstReleased": "2022-08-20",
+  "dateSource": "https://github.com/apcamargo/genomad/releases/tag/v1.0.0"
  },
  {
   "slug": "checkm2",
@@ -2970,8 +2972,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2021-03-14",
-  "dateSource": "https://github.com/chklovski/CheckM2"
+  "firstReleased": "2022-07-11",
+  "dateSource": "https://doi.org/10.1101/2022.07.11.499243"
  },
  {
   "slug": "semibin",
@@ -2990,8 +2992,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2020-11-18",
-  "dateSource": "https://github.com/BigDataBiology/SemiBin"
+  "firstReleased": "2023-01-09",
+  "dateSource": "https://doi.org/10.1101/2023.01.09.523201"
  },
  {
   "slug": "vamb",
@@ -3010,8 +3012,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2018-05-08",
-  "dateSource": "https://github.com/RasmussenLab/vamb"
+  "firstReleased": "2018-12-10",
+  "dateSource": "https://doi.org/10.1101/490078"
  },
  {
   "slug": "qiime2",
@@ -3050,8 +3052,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-11-23",
-  "dateSource": "https://github.com/epfLLM/meditron"
+  "firstReleased": "2023-11-27",
+  "dateSource": "https://arxiv.org/abs/2311.16079"
  },
  {
   "slug": "medgemma",
@@ -3070,8 +3072,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-04-30",
-  "dateSource": "https://github.com/Google-Health/medgemma"
+  "firstReleased": "2025-05-20",
+  "dateSource": "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-developer-updates-io-2025/"
  },
  {
   "slug": "llava-med",
@@ -3090,8 +3092,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-05-20",
-  "dateSource": "https://github.com/microsoft/LLaVA-Med"
+  "firstReleased": "2023-06-01",
+  "dateSource": "https://arxiv.org/abs/2306.00890"
  },
  {
   "slug": "biomedparse",
@@ -3110,8 +3112,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-05-18",
-  "dateSource": "https://github.com/microsoft/BiomedParse"
+  "firstReleased": "2024-11-18",
+  "dateSource": "https://doi.org/10.1038/s41592-024-02499-w"
  },
  {
   "slug": "biomistral",
@@ -3149,8 +3151,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-09-30",
-  "dateSource": "https://github.com/gomesgroup/coscientist"
+  "firstReleased": "2023-12-20",
+  "dateSource": "https://doi.org/10.1038/s41586-023-06792-0"
  },
  {
   "slug": "chemcrow",
@@ -3169,8 +3171,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2023-06-04",
-  "dateSource": "https://github.com/ur-whitelab/chemcrow-public"
+  "firstReleased": "2023-06-19",
+  "dateSource": "https://github.com/ur-whitelab/chemcrow-public/releases/tag/v0.3.0"
  },
  {
   "slug": "pylabrobot",
@@ -3189,8 +3191,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-08-12",
-  "dateSource": "https://github.com/PyLabRobot/pylabrobot"
+  "firstReleased": "2023-07-10",
+  "dateSource": "https://doi.org/10.1101/2023.07.10.547733"
  },
  {
   "slug": "opentrons",
@@ -3207,9 +3209,7 @@
    "hardware"
   ],
   "added": "2026-10-16",
-  "lastChecked": "2026-10-16",
-  "firstReleased": "2015-07-06",
-  "dateSource": "https://github.com/Opentrons/opentrons"
+  "lastChecked": "2026-10-16"
  },
  {
   "slug": "biodiscoveryagent",
@@ -3228,8 +3228,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-02-21",
-  "dateSource": "https://github.com/snap-stanford/BioDiscoveryAgent"
+  "firstReleased": "2024-05-27",
+  "dateSource": "https://arxiv.org/abs/2405.17631"
  },
  {
   "slug": "robin",
@@ -3249,7 +3249,7 @@
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
   "firstReleased": "2025-05-19",
-  "dateSource": "https://github.com/Future-House/robin"
+  "dateSource": "https://arxiv.org/abs/2505.13400"
  },
  {
   "slug": "aviary",
@@ -3268,8 +3268,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-08-27",
-  "dateSource": "https://github.com/Future-House/aviary"
+  "firstReleased": "2024-08-30",
+  "dateSource": "https://github.com/Future-House/aviary/releases/tag/v0.1.0"
  },
  {
   "slug": "alphafold2",
@@ -3308,8 +3308,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-12-17",
-  "dateSource": "https://github.com/microsoft/bioemu"
+  "firstReleased": "2024-12-05",
+  "dateSource": "https://doi.org/10.1101/2024.12.05.626885"
  },
  {
   "slug": "proteina",
@@ -3328,8 +3328,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-02-26",
-  "dateSource": "https://github.com/NVIDIA-BioNeMo/proteina"
+  "firstReleased": "2025-03-02",
+  "dateSource": "https://arxiv.org/abs/2503.00710"
  },
  {
   "slug": "la-proteina",
@@ -3348,8 +3348,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-08-26",
-  "dateSource": "https://github.com/NVIDIA-BioNeMo/la-proteina"
+  "firstReleased": "2025-07-13",
+  "dateSource": "https://arxiv.org/abs/2507.09466"
  },
  {
   "slug": "progen2",
@@ -3368,8 +3368,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2022-05-16",
-  "dateSource": "https://github.com/salesforce/progen"
+  "firstReleased": "2022-06-27",
+  "dateSource": "https://arxiv.org/abs/2206.13517"
  },
  {
   "slug": "evo",
@@ -3388,8 +3388,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2024-02-17",
-  "dateSource": "https://github.com/evo-design/evo"
+  "firstReleased": "2024-02-27",
+  "dateSource": "https://doi.org/10.1101/2024.02.27.582234"
  },
  {
   "slug": "state",
@@ -3408,8 +3408,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-01-28",
-  "dateSource": "https://github.com/ArcInstitute/state"
+  "firstReleased": "2025-05-28",
+  "dateSource": "https://github.com/ArcInstitute/state/releases/tag/stable-main-pre-updates"
  },
  {
   "slug": "transcriptformer",
@@ -3428,8 +3428,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-04-09",
-  "dateSource": "https://github.com/czi-ai/transcriptformer"
+  "firstReleased": "2025-04-28",
+  "dateSource": "https://github.com/czi-ai/transcriptformer/releases/tag/v0.1.0"
  },
  {
   "slug": "rfdiffusion2",
@@ -3448,8 +3448,8 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-08-18",
-  "dateSource": "https://github.com/RosettaCommons/RFdiffusion2"
+  "firstReleased": "2025-04-10",
+  "dateSource": "https://doi.org/10.1101/2025.04.09.648075"
  },
  {
   "slug": "boltzgen",
@@ -3467,7 +3467,7 @@
   ],
   "added": "2026-10-16",
   "lastChecked": "2026-10-16",
-  "firstReleased": "2025-10-26",
-  "dateSource": "https://github.com/HannesStark/boltzgen"
+  "firstReleased": "2025-11-18",
+  "dateSource": "https://github.com/HannesStark/boltzgen/releases/tag/v0.1.4"
  }
 ]
