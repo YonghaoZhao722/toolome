@@ -12,7 +12,7 @@ const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"BioStack",
 <div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{e} {n}</button>)}</div>
 {latest.length>0&&<section id="recent"><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
 <h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2>
-<div class="grid" id="all"><a class="card" href={u('/sponsor/')} style="border:1px dashed var(--acc)" data-cat="*" data-q="*"><h3>⭐ Your tool here</h3><p>Featured placement for your product. Reach scientists who build with AI.</p><span class="btn" style="align-self:start">Sponsor</span></a>{tools.map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
+<div class="grid" id="all">{tools.map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
 <script is:inline>
 const q=document.getElementById('q'),cards=[...document.querySelectorAll('#all .card')],empty=document.getElementById('empty');let c='',tm;
