@@ -1,1 +1,53 @@
-{}
+{
+ "D8": {
+  "alphafold-db": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "tamarind-bio": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "rdkit": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "nvidia-bionemo": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "rowan": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "futurehouse-platform": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "elicit": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "consensus": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "benchling": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "adaptyv-bio": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "emerald-cloud-lab": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "ginkgo-bioworks": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "twist-bioscience": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "strateos": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "science-exchange": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "human-cell-atlas-data-portal": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "protein-data-bank-rcsb": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "uniprot": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "casp": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "10x-genomics-datasets": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "hugging-face-bio-models": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden",
+  "opentrons": "Platform, company, database or long-lived toolkit with no single public release date; date row/card date hidden"
+ },
+ "D6": {
+  "geneformer": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "carbon-a": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "biomistral": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "perturbai-brain-wide-crispr-atlas": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "openbind-model": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "torchx": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "biomedclip": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "metagene-1": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "lingshu": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "alphafold-db": "Open-access data resource, not code",
+  "human-cell-atlas-data-portal": "Open-access data resource, not code",
+  "tahoe-100m": "Open-access data resource, not code",
+  "protein-data-bank-rcsb": "Open-access data resource, not code",
+  "uniprot": "Open-access data resource, not code",
+  "casp": "Open-access data resource, not code",
+  "10x-genomics-datasets": "Open-access data resource, not code"
+ },
+ "U1": {
+  "esm3--evolutionaryscale": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
+  "esmfold2-esmc-biohub": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
+  "nucleotide-transformer": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
+  "nucleotide-transformer-v3-ntv3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose"
+ },
+ "C1": {
+  "opentrons": "Open-source Apache-2.0 software; robots are sold commercially"
+ }
+}

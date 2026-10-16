@@ -795,7 +795,9 @@
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/giotto-suite/Giotto#readme"
-    ]
+    ],
+    "firstReleased": "2023-11-26",
+    "dateSource": "https://doi.org/10.1101/2023.11.26.568752"
   },
   {
     "slug": "nicheformer",
@@ -2462,7 +2464,10 @@
     "specsSources": [
       "https://github.com/CellProfiler/CellProfiler#readme",
       "https://cellprofiler.org"
-    ]
+    ],
+    "firstReleased": "2006-10-31",
+    "dateSource": "https://doi.org/10.1186/gb-2006-7-10-r100",
+    "paper": "https://doi.org/10.1186/gb-2006-7-10-r100"
   },
   {
     "slug": "micro-sam",
@@ -3875,7 +3880,9 @@
     "specsSources": [
       "https://github.com/mzmine/mzmine#readme",
       "https://mzmine.org"
-    ]
+    ],
+    "firstReleased": "2006-01-11",
+    "dateSource": "https://doi.org/10.1093/bioinformatics/btk039"
   },
   {
     "slug": "crispor",
