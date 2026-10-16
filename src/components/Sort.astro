@@ -1,0 +1,11 @@
+<div class="sortbar"><label for="sort" class="mut">Sort</label>
+<select id="sort" class="pill sortsel"><option value="new" selected>Newest first</option><option value="old">Oldest first</option><option value="az">Name A–Z</option></select>
+<span class="mut" style="font-size:12px">Dated by verified release date; undated tools listed after, A–Z.</span></div>
+<style>.sortbar{display:flex;align-items:center;gap:8px;margin:12px 0 4px;flex-wrap:wrap;font-size:13px}.sortsel{appearance:auto;padding-right:8px}</style>
+<script is:inline>
+(()=>{const s=document.getElementById('sort');if(!s)return;
+s.addEventListener('change',()=>{document.querySelectorAll('.grid[data-sortable]').forEach(g=>{
+const c=[...g.querySelectorAll(':scope>.card')],v=s.value,n=(a,b)=>a.dataset.name.localeCompare(b.dataset.name);
+c.sort((a,b)=>{if(v==='az')return n(a,b);const x=a.dataset.date,y=b.dataset.date;if(x&&y)return (v==='new'?y.localeCompare(x):x.localeCompare(y))||n(a,b);return x?-1:y?1:n(a,b)});
+const e=g.querySelector(':scope>.empty');c.forEach(x=>g.insertBefore(x,e));});});})();
+</script>

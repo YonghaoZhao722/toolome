@@ -1,5 +1,5 @@
 ---
-import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro';
+import Base from '../../layouts/Base.astro'; import Sort from '../../components/Sort.astro'; import { byNewest } from '../../lib/site.js'; import Card from '../../components/Card.astro';
 import { tools, CATS, INTRO, u } from '../../lib/site.js';
 export function getStaticPaths(){ return Object.keys(CATS).map(c=>({params:{cat:c}})); }
 const { cat } = Astro.params; const list = tools.filter(t=>t.category===cat); const n=CATS[cat][0];
@@ -10,5 +10,5 @@ const jsonld={"@context":"https://schema.org","@type":"ItemList",name:`Best AI t
 <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:16px">{Object.entries(CATS).map(([k,[nn,e]])=><a class={'pill'+(k===cat?' on':'')} href={u('/category/'+k+'/')}>{e} {nn}</a>)}</div>
 <h1>{CATS[cat][1]} Best AI tools for {n} (2026)</h1>
 <p>{INTRO[cat]}</p><p class="mut">{list.length} tools · {oss} open source · each entry links to its website, code and paper.</p>
-<div class="grid">{list.map(t=><Card t={t}/>)}</div>
+<Sort/><div class="grid" data-sortable>{byNewest(list).map(t=><Card t={t}/>)}</div>
 </Base>

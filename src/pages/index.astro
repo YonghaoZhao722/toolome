@@ -1,4 +1,5 @@
 ---
+import Sort from '../components/Sort.astro'; import { byNewest } from '../lib/site.js';
 import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Newsletter from '../components/Newsletter.astro';
 import { tools, CATS, u } from '../lib/site.js';
 const now=new Date(); const from=new Date(now.getTime()-14*864e5); const iso=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Denver'}); const fmt=s=>new Date(s+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
@@ -12,7 +13,7 @@ const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"Toolome",u
 <div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{e} {n}</button>)}</div>
 {latest.length>0&&<section id="recent"><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
 <h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2>
-<div class="grid" id="all">{tools.map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
+<Sort/><div class="grid" id="all" data-sortable>{byNewest(tools).map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
 <script is:inline>
 const q=document.getElementById('q'),cards=[...document.querySelectorAll('#all .card')],empty=document.getElementById('empty');let c='',tm;

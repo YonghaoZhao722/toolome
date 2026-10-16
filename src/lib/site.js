@@ -23,3 +23,5 @@ export const INTRO = {
 export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','boltz'],['rfdiffusion','bindcraft'],['enformer','borzoi'],['cellpose','stardist'],['chai-1','boltz']];
 export const bySlug = Object.fromEntries(tools.map(t=>[t.slug,t]));
 export const pairSlug = ([a,b]) => `${bySlug[a].slug}-vs-${bySlug[b].slug}`;
+
+export const byNewest = (l) => [...l].sort((a,b)=> (a.released&&b.released)? b.released.localeCompare(a.released)||a.name.localeCompare(b.name) : a.released?-1 : b.released?1 : a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
