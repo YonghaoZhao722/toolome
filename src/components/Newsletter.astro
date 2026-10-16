@@ -6,10 +6,16 @@ const action = (cfg as any).newsletterAction || '';
 <section id="newsletter" class="card" style="margin-top:36px;padding:22px">
 <h2 style="margin:0">The Toolome Weekly</h2><p>New AI-for-biology tools, models and datasets — one short email a week.</p>
 {action ? (
-<form action={action} method="post" target="_blank" style="display:flex;gap:8px;flex-wrap:wrap">
+<form id="nl-form" data-action={action} action={action} method="post" style="display:flex;gap:8px;flex-wrap:wrap">
 <input type="email" name="email" required placeholder="you@lab.edu" style="flex:1;min-width:220px"/><input type="hidden" name="embed" value="1"/><button class="btn">Subscribe</button></form>
 ) : (
 <form method="post" onsubmit="event.preventDefault();this.nextElementSibling.textContent='Thanks! Signup is not live yet — coming soon.'" style="display:flex;gap:8px;flex-wrap:wrap">
 <input type="email" name="email" required placeholder="you@lab.edu" style="flex:1;min-width:220px"/><button class="btn">Subscribe</button></form>
 )}
-<small class="mut"></small></section>
+<small class="mut" id="nl-msg" aria-live="polite"></small></section>
+<script>
+const f=document.getElementById('nl-form');
+if(f){f.addEventListener('submit',async e=>{e.preventDefault();const m=document.getElementById('nl-msg'),b=f.querySelector('button');b.disabled=true;m.textContent='Subscribing…';
+try{await fetch(f.dataset.action,{method:'POST',mode:'no-cors',body:new FormData(f)});m.textContent='Almost done — check your inbox to confirm.';f.reset();}
+catch(_){m.textContent='Something went wrong. Please try again.';}finally{b.disabled=false;}});}
+</script>
