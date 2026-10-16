@@ -79,9 +79,31 @@ h2{font-size:21px;margin:var(--s5) 0 var(--s3)}
 table{display:block;overflow-x:auto}td,th{padding:8px 6px;word-break:break-word}
 footer{padding-bottom:max(var(--s5),env(safe-area-inset-bottom))}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after,::view-transition-group(*){animation:none!important;transition:none!important}.card:hover{transform:none}}
+
+/* Audit 2026-10 spacing/consistency */
+.btn,button,select{font-family:inherit}
+.btn{min-height:40px;justify-content:center}
+.seg{gap:var(--s2)}
+.card{padding:var(--s4);gap:var(--s2)}
+.tag,.badge{font-size:12px}.badge{padding:2px 8px}.arch{font-size:12px}
+main>p{margin:0 0 var(--s3);max-width:68ch}main>p:first-child{margin-top:var(--s4)}
+main>p.lead{font-size:17px;margin:var(--s4) 0}main>p.cta{margin:0 0 var(--s4)}
+h1{margin:var(--s6) 0 var(--s3)}
+header .wrap{height:64px}
+#newsletter{margin-top:var(--s6);padding:var(--s5)}#newsletter h2{margin:0}#newsletter p{margin:0}
+@media (max-width:560px){
+h1{margin:var(--s4) 0 var(--s2)}header .wrap{height:56px}
+.card{padding:var(--s3) var(--s4);gap:var(--s2)}
+.pill{min-height:44px}.segw{gap:var(--s2)}.segt{min-width:44px!important;min-height:44px!important;margin-top:2px}
+.btn{min-height:44px}.pk label{min-height:44px!important}
+.hrow{margin-top:var(--s5)!important}#newsletter{margin-top:var(--s5)}
+.sortsel{height:44px}
+#newsletter input{padding:11px 14px;line-height:20px;min-height:44px}
+table:not(.spec){display:table}
+}
 </style></head><body>
 <header><div class="wrap"><a class="logo" href={u('/')}>Tool<b>ome</b></a><nav aria-label="Main"><a href={u('/category/single-cell/')}>Categories</a><a href={u('/submit/')}>Submit</a><a href={u('/#newsletter')}>Newsletter</a></nav></div></header>
 <main class="wrap">
 <slot/></main>
 <footer><div class="wrap">© 2026 Toolome · <a href={u('/llms.txt')}>llms.txt</a> · <a href={u('/sitemap.xml')}>sitemap</a> · Listings are verified by hand; report errors via <a href={SITE.repo+'/issues'}>GitHub issues</a></div></footer>
-<style is:global>@media (min-width:561px){.segt{display:none!important}.segw{display:block}}</style><script is:inline>document.querySelectorAll('.seg').forEach(g=>{const b=document.createElement('button');b.type='button';b.className='segt';b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Show all categories');b.innerHTML='<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>';const w=document.createElement('div');w.className='segw';g.before(w);w.append(b,g);b.onclick=()=>{const o=g.classList.toggle('open');w.classList.toggle('open',o);b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Collapse categories':'Show all categories')};})</script></body></html>
+<style is:global>@media (min-width:561px){.segt{display:none!important}.segw{display:block}}</style><script is:inline>document.querySelectorAll('.seg').forEach(g=>{const b=document.createElement('button');b.type='button';b.className='segt';b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Show all categories');b.innerHTML='<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>';const w=document.createElement('div');w.className='segw';g.before(w);w.append(b,g);const a=g.querySelector('a.pill.on');if(a)g.scrollLeft=a.offsetLeft-g.offsetLeft-(g.clientWidth-a.offsetWidth)/2;b.onclick=()=>{const o=g.classList.toggle('open');w.classList.toggle('open',o);b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Collapse categories':'Show all categories')};})</script></body></html>

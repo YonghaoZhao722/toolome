@@ -7,9 +7,9 @@ const oss=list.filter(t=>t.pricing==='Open source').length;
 const jsonld={"@context":"https://schema.org","@type":"ItemList",name:`Best AI tools for ${n} (2026)`,numberOfItems:list.length,itemListElement:list.map((t,i)=>({"@type":"ListItem",position:i+1,name:t.name,url:new URL(u('/tools/'+t.slug+'/'),Astro.site).href}))};
 ---
 <Base title={`Best AI tools for ${n} (2026) | Toolome`} description={`${list.length} hand-verified AI tools for ${n.toLowerCase()} in 2026, with license, paper and pricing. ${INTRO[cat]}`} jsonld={jsonld}>
-<div class="seg" role="navigation" aria-label="Categories">{Object.entries(CATS).map(([k,[nn,e]])=><a class={'pill'+(k===cat?' on':'')} href={u('/category/'+k+'/')}>{e} {nn}</a>)}</div>
 <h1>{CATS[cat][1]} Best AI tools for {n} (2026)</h1>
 <p>{INTRO[cat]}</p><p class="mut">{list.length} tools · {oss} open source · each entry links to its website, code and paper.</p>
+<div class="seg" role="navigation" aria-label="Categories">{Object.entries(CATS).map(([k,[nn,e]])=><a class={'pill'+(k===cat?' on':'')} href={u('/category/'+k+'/')}>{e} {nn}</a>)}</div>
 <Sort/><div class="grid" data-sortable>{byNewest(list).map(t=><Card t={t}/>)}</div>
 <script is:inline>document.querySelector(".seg .pill.on")?.scrollIntoView({inline:"center",block:"nearest"})</script>
 </Base>

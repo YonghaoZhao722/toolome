@@ -3,7 +3,7 @@ import cfg from '../../site.config.json';
 // Set newsletterAction to e.g. https://buttondown.com/api/emails/embed-subscribe/toolome to go live.
 const action = (cfg as any).newsletterAction || '';
 ---
-<section id="newsletter" class="card" style="margin-top:36px;padding:22px">
+<section id="newsletter" class="card" >
 <h2 style="margin:0">The Toolome Weekly</h2><p>New AI-for-biology tools, models and datasets — one short email a week.</p>
 {action ? (
 <form id="nl-form" data-action={action} action={action} method="post" style="display:flex;gap:8px;flex-wrap:wrap">
