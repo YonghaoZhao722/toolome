@@ -5573,5 +5573,762 @@
       "https://doi.org/10.64898/2026.10.04.756538",
       "https://chorus.atlas.sunnylab.org"
     ]
+  },
+  {
+    "slug": "openfold3",
+    "name": "OpenFold3",
+    "category": "protein",
+    "url": "https://github.com/aqlaboratory/openfold-3",
+    "github": "https://github.com/aqlaboratory/openfold-3",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Open-source AlphaFold3-style model predicting structures of proteins, nucleic acids and small-molecule complexes (preview release).",
+    "tags": [
+      "structure-prediction",
+      "co-folding",
+      "all-atom"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-10-28",
+    "dateSource": "https://www.businesswire.com/news/home/20251028507233/en/",
+    "specs": {
+      "task": "Biomolecular complex structure prediction",
+      "weights": "Yes (Hugging Face)",
+      "interface": "Package, Docker"
+    },
+    "specsSource": "https://github.com/aqlaboratory/openfold-3",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/aqlaboratory/openfold-3",
+      "https://www.businesswire.com/news/home/20251028507233/en/"
+    ]
+  },
+  {
+    "slug": "tahoe-x1",
+    "name": "Tahoe-x1",
+    "category": "single-cell",
+    "url": "https://github.com/tahoebio/tahoe-x1",
+    "github": "https://github.com/tahoebio/tahoe-x1",
+    "paper": "https://doi.org/10.1101/2025.10.23.683759",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Perturbation-trained single-cell foundation models up to 3B parameters, pretrained on Tahoe-100M and fine-tuned for cancer tasks.",
+    "tags": [
+      "foundation-model",
+      "perturbation",
+      "transformer"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-10-23",
+    "dateSource": "https://www.biorxiv.org/content/10.1101/2025.10.23.683759v1",
+    "specs": {
+      "corpus": "Tahoe-100M + single-cell corpora",
+      "architecture": "Transformer (70M / 1.3B / 3B)"
+    },
+    "specsSource": "https://doi.org/10.1101/2025.10.23.683759",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://doi.org/10.1101/2025.10.23.683759",
+      "https://github.com/tahoebio/tahoe-x1",
+      "https://www.biorxiv.org/content/10.1101/2025.10.23.683759v1"
+    ]
+  },
+  {
+    "slug": "kosmos",
+    "name": "Kosmos",
+    "category": "agents",
+    "url": "https://edisonscientific.com/news/announcing-kosmos",
+    "paper": "https://arxiv.org/abs/2511.02824",
+    "license": "Commercial",
+    "pricing": "Paid",
+    "description": "Edison Scientific's AI scientist: long autonomous runs that read ~1,500 papers and write tens of thousands of lines of analysis code per run.",
+    "tags": [
+      "ai-scientist",
+      "literature",
+      "data-analysis"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-11-05",
+    "dateSource": "https://edisonscientific.com/news/announcing-kosmos"
+  },
+  {
+    "slug": "rfdiffusion3",
+    "name": "RFdiffusion3",
+    "category": "protein",
+    "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
+    "github": "https://github.com/RosettaCommons/foundry",
+    "license": "See repo",
+    "pricing": "Open source",
+    "description": "All-atom diffusion model from the Baker lab for designing protein binders to DNA, proteins and small molecules, plus enzymes; ~10x faster than RFdiffusion2.",
+    "tags": [
+      "protein-design",
+      "diffusion",
+      "all-atom"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-12-03",
+    "dateSource": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
+    "specs": {
+      "task": "All-atom protein design",
+      "interface": "Package (foundry)"
+    },
+    "specsSource": "https://github.com/RosettaCommons/foundry",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/RosettaCommons/foundry",
+      "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/"
+    ]
+  },
+  {
+    "slug": "nucleotide-transformer-v3-ntv3",
+    "name": "Nucleotide Transformer v3 (NTv3)",
+    "category": "genomics",
+    "url": "https://huggingface.co/spaces/InstaDeepAI/ntv3",
+    "github": "https://github.com/instadeepai/nucleotide-transformer",
+    "paper": "https://doi.org/10.64898/2025.12.22.695963",
+    "license": "See repo",
+    "pricing": "Open source",
+    "description": "Multi-species DNA foundation model with 1 Mb single-base context; predicts ~16k functional tracks, annotates genomes, and designs enhancers.",
+    "tags": [
+      "dna-language-model",
+      "long-context",
+      "sequence-design"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-12-25",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2025.12.22.695963v1",
+    "specs": {
+      "context": "1 Mb",
+      "resolution": "Single base",
+      "species": "24 animal & plant species (post-training)",
+      "tasks": "Functional tracks, annotation, enhancer design"
+    },
+    "specsSource": "https://doi.org/10.64898/2025.12.22.695963",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://doi.org/10.64898/2025.12.22.695963",
+      "https://github.com/instadeepai/nucleotide-transformer",
+      "https://www.biorxiv.org/content/10.64898/2025.12.22.695963v1"
+    ]
+  },
+  {
+    "slug": "biomegpt",
+    "name": "BiomeGPT",
+    "category": "microbiome",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697599v1",
+    "paper": "https://doi.org/10.64898/2026.01.05.697599",
+    "license": "See paper",
+    "pricing": "Open source",
+    "description": "Transformer foundation model for species-level human gut metagenomes, used for clinical/phenotype prediction.",
+    "tags": [
+      "foundation-model",
+      "gut-microbiome",
+      "metagenomics"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-01-05",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.01.05.697599v1"
+  },
+  {
+    "slug": "atlas-2",
+    "name": "Atlas 2",
+    "category": "clinical",
+    "url": "https://arxiv.org/abs/2601.05148",
+    "paper": "https://arxiv.org/abs/2601.05148",
+    "license": "See paper",
+    "pricing": "Contact",
+    "description": "Pathology foundation model family built for clinical deployment (Aignostics and collaborators).",
+    "tags": [
+      "pathology",
+      "foundation-model",
+      "clinical"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-01-08",
+    "dateSource": "https://arxiv.org/abs/2601.05148"
+  },
+  {
+    "slug": "rnapro",
+    "name": "RNAPro",
+    "category": "rna",
+    "url": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
+    "github": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
+    "license": "NVIDIA Open Model License",
+    "pricing": "Open source",
+    "description": "NVIDIA RNA 3D folding model built with hosts and winners of the Stanford RNA 3D Folding Kaggle competition.",
+    "tags": [
+      "rna-structure",
+      "3d-structure"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-01-09",
+    "dateSource": "https://github.com/NVIDIA-Digital-Bio/RNAPro/blob/main/model_cards/overview.md",
+    "specs": {
+      "task": "RNA 3D structure prediction",
+      "level": "Tertiary"
+    },
+    "specsSource": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/NVIDIA-Digital-Bio/RNAPro",
+      "https://github.com/NVIDIA-Digital-Bio/RNAPro/blob/main/model_cards/overview.md"
+    ]
+  },
+  {
+    "slug": "stack",
+    "name": "Stack",
+    "category": "single-cell",
+    "url": "https://arcinstitute.org/news/foundation-model-stack",
+    "github": "https://github.com/ArcInstitute/stack",
+    "paper": "https://doi.org/10.64898/2026.01.09.698608",
+    "license": "See repo",
+    "pricing": "Open source",
+    "description": "Arc Institute model trained on 149M human cells using tabular attention for in-context learning; used to generate the Perturb Sapiens atlas (28 tissues, 201 perturbations).",
+    "tags": [
+      "foundation-model",
+      "in-context-learning",
+      "perturbation"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-01-09",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1",
+    "specs": {
+      "corpus": "149M human cells",
+      "architecture": "Tabular-attention transformer",
+      "tasks": "Zero-shot embedding, in-context perturbation prediction"
+    },
+    "specsSource": "https://doi.org/10.64898/2026.01.09.698608",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://doi.org/10.64898/2026.01.09.698608",
+      "https://github.com/ArcInstitute/stack",
+      "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1"
+    ]
+  },
+  {
+    "slug": "bios",
+    "name": "BIOS",
+    "category": "agents",
+    "url": "https://ai.bio.xyz/blog/introducing-bios",
+    "github": "https://github.com/bio-xyz/BioAgents",
+    "license": "Commercial (BioAgents framework open)",
+    "pricing": "Freemium",
+    "description": "AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; built on the open BioAgents framework.",
+    "tags": [
+      "ai-scientist",
+      "literature",
+      "multi-agent"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-01-28",
+    "dateSource": "https://ai.bio.xyz/blog/introducing-bios"
+  },
+  {
+    "slug": "biomni-lab",
+    "name": "Biomni Lab",
+    "category": "agents",
+    "url": "https://phylo.bio/announcement",
+    "license": "Commercial",
+    "pricing": "Contact",
+    "description": "Phylo's 'integrated biology environment': a workspace where biologists orchestrate AI agents across 300+ databases, tools and software (preview).",
+    "tags": [
+      "agent-workspace",
+      "biomedical-research"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-03",
+    "dateSource": "https://phylo.bio/announcement"
+  },
+  {
+    "slug": "isodde",
+    "name": "IsoDDE",
+    "category": "drug-discovery",
+    "url": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
+    "license": "Proprietary",
+    "pricing": "Contact",
+    "description": "Isomorphic Labs Drug Design Engine: proprietary system predicting protein–ligand and antibody–antigen structures, binding affinity and cryptic pockets beyond AlphaFold 3.",
+    "tags": [
+      "co-folding",
+      "binding-affinity",
+      "proprietary"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-10",
+    "dateSource": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
+  },
+  {
+    "slug": "celltempo",
+    "name": "CellTempo",
+    "category": "single-cell",
+    "url": "https://github.com/EperLuo/CellTempo",
+    "github": "https://github.com/EperLuo/CellTempo",
+    "paper": "https://doi.org/10.64898/2026.02.08.704720",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Autoregressive temporal single-cell model forecasting long-range cell-state transitions from snapshot data.",
+    "tags": [
+      "cell-dynamics",
+      "forecasting",
+      "generative"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-10",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.02.08.704720v1"
+  },
+  {
+    "slug": "optiprime",
+    "name": "OptiPrime",
+    "category": "crispr",
+    "url": "https://github.com/alvin-hsu/optiprime-src",
+    "github": "https://github.com/alvin-hsu/optiprime-src",
+    "paper": "https://doi.org/10.64898/2026.02.20.706353",
+    "license": "See repo",
+    "pricing": "Open source",
+    "description": "Mechanistic, interpretable machine-learning model predicting prime-editing (pegRNA) outcomes, including PE3 and twinPE.",
+    "tags": [
+      "prime-editing",
+      "pegRNA",
+      "outcome-prediction"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-20",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.02.20.706353v1"
+  },
+  {
+    "slug": "ginkgo-cloud-lab",
+    "name": "Ginkgo Cloud Lab",
+    "category": "cloud-labs",
+    "url": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html",
+    "license": "Commercial",
+    "pricing": "Paid",
+    "description": "Browser-accessible autonomous biology lab on Ginkgo's automation infrastructure, with an AI agent that checks protocol feasibility and pricing.",
+    "tags": [
+      "autonomous-lab",
+      "cloud-lab"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-03-02",
+    "dateSource": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html"
+  },
+  {
+    "slug": "perturbai-brain-wide-crispr-atlas",
+    "name": "PerturbAI Brain-Wide CRISPR Atlas",
+    "category": "datasets",
+    "url": "https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas",
+    "license": "See dataset card",
+    "pricing": "Open source",
+    "description": "~8M-cell in vivo CRISPR perturbation atlas of mouse brain (single-nucleus), downloadable on Hugging Face in Parquet/AnnData/Zarr.",
+    "tags": [
+      "perturb-seq",
+      "in-vivo",
+      "mouse-brain"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-03-17",
+    "dateSource": "https://www.perturb.ai/8-million-crispr-atlas",
+    "specs": {
+      "size": "~7.74M nuclei, 8,588 sgRNAs",
+      "modality": "snRNA-seq + in vivo CRISPR",
+      "access": "Hugging Face download"
+    },
+    "specsSource": "https://www.perturb.ai/8-million-crispr-atlas",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.perturb.ai/8-million-crispr-atlas"
+    ]
+  },
+  {
+    "slug": "genbio-pathfm",
+    "name": "GenBio-PathFM",
+    "category": "imaging",
+    "url": "https://huggingface.co/genbio-ai/genbio-pathfm",
+    "github": "https://github.com/genbio-ai/genbio-pathfm",
+    "license": "See model card",
+    "pricing": "Open source",
+    "description": "1.1B-parameter open-weight histopathology foundation model trained only on public data.",
+    "tags": [
+      "pathology",
+      "foundation-model",
+      "open-weights"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-03-17",
+    "dateSource": "https://genbio.ai/genbio-pathfm/",
+    "specs": {
+      "modality": "H&E histopathology"
+    },
+    "specsSource": "https://github.com/genbio-ai/genbio-pathfm",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/genbio-ai/genbio-pathfm",
+      "https://genbio.ai/genbio-pathfm/"
+    ]
+  },
+  {
+    "slug": "eva",
+    "name": "EVA",
+    "category": "rna",
+    "url": "https://huggingface.co/GENTEL-Lab/EVA",
+    "github": "https://github.com/GENTEL-lab/EVA",
+    "paper": "https://doi.org/10.64898/2026.03.17.712398",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "1.4B-parameter long-context generative RNA foundation model trained on 114M full-length RNAs; supports RNA engineering and guide-RNA design.",
+    "tags": [
+      "rna-language-model",
+      "generative",
+      "rna-design"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-03-18",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.03.17.712398v1",
+    "specs": {
+      "task": "Generative RNA design, guide-RNA design",
+      "input": "RNA sequence (8,192-token context)"
+    },
+    "specsSource": "https://doi.org/10.64898/2026.03.17.712398",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://doi.org/10.64898/2026.03.17.712398",
+      "https://github.com/GENTEL-lab/EVA",
+      "https://www.biorxiv.org/content/10.64898/2026.03.17.712398v1"
+    ]
+  },
+  {
+    "slug": "gpt-rosalind",
+    "name": "GPT-Rosalind",
+    "category": "agents",
+    "url": "https://openai.com/index/introducing-gpt-rosalind/",
+    "license": "Proprietary",
+    "pricing": "Contact",
+    "description": "OpenAI's life-sciences reasoning model for biology, protein engineering, genomics and drug discovery; trusted-access program, plus an open Codex research plugin.",
+    "tags": [
+      "llm",
+      "life-sciences",
+      "trusted-access"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-04-16",
+    "dateSource": "https://openai.com/index/introducing-gpt-rosalind/"
+  },
+  {
+    "slug": "seqera-co-scientist",
+    "name": "Seqera Co-Scientist",
+    "category": "agents",
+    "url": "https://seqera.io/blog/co-scientist-launch/",
+    "license": "Commercial",
+    "pricing": "Paid",
+    "description": "AI partner inside the Seqera platform for building, launching and debugging Nextflow bioinformatics pipelines.",
+    "tags": [
+      "nextflow",
+      "pipelines",
+      "bioinformatics"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-04-30",
+    "dateSource": "https://seqera.io/blog/co-scientist-launch/"
+  },
+  {
+    "slug": "genos-m",
+    "name": "Genos-m",
+    "category": "microbiome",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726868v1",
+    "paper": "https://doi.org/10.64898/2026.05.21.726868",
+    "license": "See paper",
+    "pricing": "Open source",
+    "description": "Open 4.7B-parameter mixture-of-experts foundation model for human-associated microbial genomes, pretrained on 1.2T nucleotide tokens.",
+    "tags": [
+      "foundation-model",
+      "microbial-genomes",
+      "moe"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-05-24",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.05.21.726868v1"
+  },
+  {
+    "slug": "esmfold2-esmc-biohub",
+    "name": "ESMFold2 & ESMC (Biohub)",
+    "category": "protein",
+    "url": "https://biohub.ai/esm/protein/",
+    "github": "https://github.com/evolutionaryscale/esm",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Biohub's protein 'world model': ESMC language model (~2.8B sequences), ESMFold2 complex structure prediction/design, and ESM Atlas (6.8B sequences).",
+    "tags": [
+      "protein-language-model",
+      "structure-prediction",
+      "binder-design"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-05-27",
+    "dateSource": "https://biohub.org/news/world-model-of-protein-biology/",
+    "specs": {
+      "task": "Structure prediction, design, embeddings",
+      "msa": "No"
+    },
+    "specsSource": "https://github.com/evolutionaryscale/esm",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/evolutionaryscale/esm",
+      "https://biohub.org/news/world-model-of-protein-biology/"
+    ]
+  },
+  {
+    "slug": "scicore-omics",
+    "name": "SciCore-Omics",
+    "category": "spatial",
+    "url": "https://github.com/OpenBMB/Scicore-Omics",
+    "github": "https://github.com/OpenBMB/Scicore-Omics",
+    "paper": "https://doi.org/10.64898/2026.05.30.728937",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Tri-modal foundation model unifying histology, spatial transcriptomics and language.",
+    "tags": [
+      "histology",
+      "multimodal",
+      "foundation-model"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-06-03",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.05.30.728937v1"
+  },
+  {
+    "slug": "holocell",
+    "name": "HoloCell",
+    "category": "single-cell",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1",
+    "paper": "https://doi.org/10.64898/2026.06.07.730684",
+    "license": "See paper",
+    "pricing": "Open source",
+    "description": "860M-parameter generative foundation model across single-cell epigenomics, transcriptomics and proteomics (~468M profiles).",
+    "tags": [
+      "multi-omics",
+      "generative",
+      "foundation-model"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-06-11",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1",
+    "specs": {
+      "corpus": "~468M single-cell profiles (ATAC, RNA, protein)",
+      "architecture": "860M generative transformer (diffusion/remasking)"
+    },
+    "specsSource": "https://doi.org/10.64898/2026.06.07.730684",
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://doi.org/10.64898/2026.06.07.730684",
+      "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1"
+    ]
+  },
+  {
+    "slug": "claude-science",
+    "name": "Claude Science",
+    "category": "agents",
+    "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "license": "Commercial",
+    "pricing": "Paid",
+    "description": "Anthropic's AI workbench for scientists: coordinating agent with 60+ skills and connectors for genomics, single-cell, proteomics and more, plus a reviewer agent (beta).",
+    "tags": [
+      "workbench",
+      "multi-agent",
+      "skills"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-06-30",
+    "dateSource": "https://www.anthropic.com/news/claude-science-ai-workbench"
+  },
+  {
+    "slug": "opendde",
+    "name": "OpenDDE",
+    "category": "drug-discovery",
+    "url": "https://github.com/aurekaresearch/OpenDDE",
+    "github": "https://github.com/aurekaresearch/OpenDDE",
+    "paper": "https://arxiv.org/abs/2607.03787",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Apache-licensed all-atom co-folding foundation model for structure prediction, design and optimization in drug discovery (preview).",
+    "tags": [
+      "co-folding",
+      "all-atom",
+      "antibody"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-07-03",
+    "dateSource": "https://huggingface.co/aurekaresearch/OpenDDE"
+  },
+  {
+    "slug": "cherimoya",
+    "name": "Cherimoya",
+    "category": "genomics",
+    "url": "https://genomicsxai.github.io/blogs/2026-011/",
+    "license": "See blog",
+    "pricing": "Open source",
+    "description": "Lightweight sequence-to-function model for chromatin accessibility and variant scoring, built for large-scale design.",
+    "tags": [
+      "sequence-to-function",
+      "chromatin-accessibility",
+      "variant-effect"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-07-13",
+    "dateSource": "https://genomicsxai.github.io/blogs/2026-011/"
+  },
+  {
+    "slug": "mgm2",
+    "name": "MGM2",
+    "category": "microbiome",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739063v1",
+    "paper": "https://doi.org/10.64898/2026.07.20.739063",
+    "license": "See paper",
+    "pricing": "Open source",
+    "description": "Unified microbiome foundation model jointly modeling sequence, abundance and ecological context.",
+    "tags": [
+      "foundation-model",
+      "microbiome",
+      "ecology"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-07-22",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.07.20.739063v1"
+  },
+  {
+    "slug": "nesso-1",
+    "name": "Nesso-1",
+    "category": "drug-discovery",
+    "url": "https://github.com/recursionpharma/nesso",
+    "github": "https://github.com/recursionpharma/nesso",
+    "paper": "https://doi.org/10.64898/2026.08.01.742196",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Recursion's Apache-2.0 co-folding model for fast protein–ligand binding-affinity prediction.",
+    "tags": [
+      "binding-affinity",
+      "co-folding"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-08-03",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.08.01.742196v1"
+  },
+  {
+    "slug": "terra",
+    "name": "TERRA",
+    "category": "spatial",
+    "url": "https://github.com/Lotfollahi-lab/terra",
+    "github": "https://github.com/Lotfollahi-lab/terra",
+    "paper": "https://doi.org/10.64898/2026.07.29.741565",
+    "license": "BSD-3-Clause (code); weights non-commercial",
+    "pricing": "Open source (non-commercial)",
+    "description": "Multi-scale model of human tissues trained on ~112M spatially resolved cells (Lotfollahi lab).",
+    "tags": [
+      "spatial-transcriptomics",
+      "foundation-model",
+      "tissue"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-08-04",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1"
+  },
+  {
+    "slug": "openbind-model",
+    "name": "OpenBind model",
+    "category": "drug-discovery",
+    "url": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/",
+    "license": "See release",
+    "pricing": "Open source",
+    "description": "First predictive model from the UK OpenBind consortium, trained on its experimental protein–ligand dataset.",
+    "tags": [
+      "binding",
+      "protein-ligand"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-08-21",
+    "dateSource": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/"
+  },
+  {
+    "slug": "japanfold",
+    "name": "JapanFold",
+    "category": "protein",
+    "url": "https://www.aiand.com/newsroom/japanfoldlaunch",
+    "license": "Commercial service",
+    "pricing": "Free (research)",
+    "description": "Browser, API and agent access to eight open biology models (incl. Boltz-2), run by ai&.",
+    "tags": [
+      "hosted-models",
+      "structure-prediction"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-09-03",
+    "dateSource": "https://www.aiand.com/newsroom/japanfoldlaunch"
+  },
+  {
+    "slug": "instanovo-fm",
+    "name": "InstaNovo-FM",
+    "category": "proteomics",
+    "url": "https://github.com/instadeepai/InstaNovo-FM",
+    "github": "https://github.com/instadeepai/InstaNovo-FM",
+    "paper": "https://doi.org/10.64898/2026.09.03.747733",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Self-supervised encoder foundation model trained on 1.63B MS/MS spectra; transferable embeddings for de novo and database-free identification.",
+    "tags": [
+      "mass-spectrometry",
+      "foundation-model",
+      "de-novo"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-09-07",
+    "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1"
+  },
+  {
+    "slug": "torchx",
+    "name": "TorchX",
+    "category": "protein",
+    "url": "https://laoyaoba.com/n/1110147",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Changping Lab × Huawei NPU-native all-atom biomolecular model suite: TorchFold (antibody–antigen), TorchScore and TorchCraft (design); MIT weights + training data.",
+    "tags": [
+      "antibody",
+      "all-atom",
+      "npu"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-09-17",
+    "dateSource": "https://laoyaoba.com/n/1110147"
   }
 ]
