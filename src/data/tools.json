@@ -27,7 +27,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/bowang-lab/scGPT#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bowang-lab/scGPT#readme"
@@ -56,7 +55,6 @@
       "species": "Human",
       "tasks": "In silico perturbation, cell + gene classification (fine-tuning)"
     },
-    "specsSource": "https://huggingface.co/ctheodoris/Geneformer",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://huggingface.co/ctheodoris/Geneformer",
@@ -89,7 +87,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/scverse/scvi-tools#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/scvi-tools#readme",
@@ -123,7 +120,6 @@
       "corpus": "Trained on curated atlases incl. ~360k immune cells (16 tissues)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Teichlab/celltypist#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Teichlab/celltypist#readme",
@@ -154,7 +150,6 @@
       "stars": 2590,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/scverse/scanpy#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/scanpy#readme"
@@ -185,7 +180,6 @@
       "species": "Human, mouse, others",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/satijalab/seurat#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/satijalab/seurat#readme",
@@ -219,7 +213,6 @@
       "interface": "Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/biomap-research/scFoundation#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/biomap-research/scFoundation#readme"
@@ -252,7 +245,6 @@
       "corpus": "Cell atlas data from human and other species (self-supervised)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/snap-stanford/UCE#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/snap-stanford/UCE#readme",
@@ -282,7 +274,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/scverse/cellrank#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/cellrank#readme"
@@ -312,7 +303,6 @@
       "architecture": "Dynamical model of transcription kinetics",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/theislab/scvelo#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/theislab/scvelo#readme",
@@ -341,7 +331,6 @@
       "stars": 280,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/scverse/muon#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/muon#readme"
@@ -371,7 +360,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/GreenleafLab/ArchR#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/GreenleafLab/ArchR#readme",
@@ -406,7 +394,6 @@
       "corpus": "Uses unperturbed wild-type multi-omics data",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/morris-lab/CellOracle#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/morris-lab/CellOracle#readme",
@@ -438,7 +425,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/snap-stanford/GEARS#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/snap-stanford/GEARS#readme",
@@ -470,7 +456,6 @@
       "architecture": "Iterative embedding correction",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/immunogenomics/harmony#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/immunogenomics/harmony#readme",
@@ -502,7 +487,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/broadinstitute/Tangram#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/broadinstitute/Tangram#readme"
@@ -533,7 +517,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/raphael-group/paste#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/raphael-group/paste#readme",
@@ -565,7 +548,6 @@
       "resolution": "Single cell",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/theislab/moscot#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/theislab/moscot#readme",
@@ -597,7 +579,6 @@
       "interface": "Package, Docker, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/BayraktarLab/cell2location#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/BayraktarLab/cell2location#readme"
@@ -629,7 +610,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/scverse/squidpy#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/squidpy#readme"
@@ -660,7 +640,6 @@
       "tasks": "Unified file format, coordinate alignment, annotation, cross-modal aggregation",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/scverse/spatialdata#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/scverse/spatialdata#readme",
@@ -691,7 +670,6 @@
       "resolution": "Spot",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/RucDongLab/STAGATE#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RucDongLab/STAGATE#readme",
@@ -723,7 +701,6 @@
       "platforms": "Multiple technology platforms",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/JinmiaoChenLab/GraphST#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/JinmiaoChenLab/GraphST#readme",
@@ -756,7 +733,6 @@
       "platforms": "Spatial transcriptomics (spot-based)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/edward130603/BayesSpace#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/edward130603/BayesSpace#readme",
@@ -789,7 +765,6 @@
       "resolution": "Spot / pixel (mixtures decomposed)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/dmcable/spacexr#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/dmcable/spacexr#readme",
@@ -817,7 +792,6 @@
       "stars": 394,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/giotto-suite/Giotto#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/giotto-suite/Giotto#readme"
@@ -848,7 +822,6 @@
       "resolution": "Single cell",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/theislab/nicheformer#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/theislab/nicheformer#readme",
@@ -883,7 +856,6 @@
       "gpu": "GPU required for inference; MSA search is CPU-only",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google-deepmind/alphafold3#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphafold3#readme",
@@ -908,7 +880,6 @@
     "specs": {
       "task": "Precomputed structure database"
     },
-    "specsSource": "https://alphafold.ebi.ac.uk",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://alphafold.ebi.ac.uk"
@@ -940,7 +911,6 @@
       "modalities": "Protein (binders, symmetric assemblies)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/RosettaCommons/RFdiffusion#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RosettaCommons/RFdiffusion#readme",
@@ -973,7 +943,6 @@
       "modalities": "Protein, single or multiple chains",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/dauparas/ProteinMPNN#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/dauparas/ProteinMPNN#readme",
@@ -1005,7 +974,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Biohub/esm#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Biohub/esm#readme",
@@ -1040,7 +1008,6 @@
       "modalities": "Protein (single chain)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/facebookresearch/esm#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/facebookresearch/esm#readme",
@@ -1075,7 +1042,6 @@
       "modalities": "Biomolecular complexes",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/jwohlwend/boltz#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/jwohlwend/boltz#readme",
@@ -1110,7 +1076,6 @@
       "weights": "Yes (Apache-2.0); web interface incl. commercial",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/chaidiscovery/chai-lab#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/chaidiscovery/chai-lab#readme",
@@ -1141,7 +1106,6 @@
       "weights": "Yes (Apache 2.0)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/aqlaboratory/openfold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/aqlaboratory/openfold#readme",
@@ -1175,7 +1139,6 @@
       "interface": "Package, Docker, Colab, Web",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/sokrypton/ColabFold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/sokrypton/ColabFold#readme",
@@ -1208,7 +1171,6 @@
       "weights": "Yes (RFAA_paper_weights.pt)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
@@ -1242,7 +1204,6 @@
       "weights": "Uses AlphaFold2 weights",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/martinpacesa/BindCraft#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/martinpacesa/BindCraft#readme",
@@ -1274,7 +1235,6 @@
       "interface": "Package, Web",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/steineggerlab/foldseek#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/steineggerlab/foldseek#readme"
@@ -1304,7 +1264,6 @@
       "interface": "Package, Web",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/bytedance/Protenix#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bytedance/Protenix#readme",
@@ -1332,7 +1291,6 @@
     "specsSources": [
       "https://www.tamarind.bio"
     ],
-    "specsSource": "https://www.tamarind.bio",
     "specsChecked": "2026-10-16"
   },
   {
@@ -1362,7 +1320,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ArcInstitute/evo2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ArcInstitute/evo2#readme"
@@ -1394,7 +1351,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google-deepmind/alphagenome#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphagenome#readme",
@@ -1427,7 +1383,6 @@
       "stars": 15236,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google-deepmind/deepmind-research#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/deepmind-research#readme"
@@ -1459,7 +1414,6 @@
       "resolution": "Per nucleotide",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Illumina/SpliceAI#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Illumina/SpliceAI#readme"
@@ -1491,7 +1445,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/instadeepai/nucleotide-transformer#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/instadeepai/nucleotide-transformer#readme"
@@ -1524,7 +1477,6 @@
       "interface": "Package, Docker, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/HazyResearch/hyena-dna#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/HazyResearch/hyena-dna#readme"
@@ -1554,7 +1506,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/MAGICS-LAB/DNABERT_2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MAGICS-LAB/DNABERT_2#readme"
@@ -1587,7 +1538,6 @@
       "species": "Human, mouse",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/calico/borzoi#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/calico/borzoi#readme",
@@ -1619,7 +1569,6 @@
       "resolution": "Per amino-acid substitution",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google-deepmind/alphamissense#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphamissense#readme",
@@ -1653,7 +1602,6 @@
       "variants": "Small variants (SNVs, indels)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google/deepvariant#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google/deepvariant#readme"
@@ -1683,7 +1631,6 @@
       "stars": 253,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/kuleshov-group/caduceus#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/kuleshov-group/caduceus#readme",
@@ -1711,7 +1658,6 @@
       "representation": "2D/3D molecules; descriptors and fingerprints",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/rdkit/rdkit#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/rdkit/rdkit#readme"
@@ -1739,7 +1685,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/deepchem/deepchem#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/deepchem/deepchem#readme"
@@ -1770,7 +1715,6 @@
       "representation": "Protein structure (PDB or ESMFold-folded sequence) + ligand SMILES/SDF/MOL2",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/gcorso/DiffDock#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/gcorso/DiffDock#readme"
@@ -1802,7 +1746,6 @@
       "weights": "Yes (open source)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/MolecularAI/REINVENT4#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MolecularAI/REINVENT4#readme",
@@ -1835,7 +1778,6 @@
       "weights": "Yes (Halicin model checkpoints on Zenodo)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/chemprop/chemprop#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/chemprop/chemprop#readme",
@@ -1867,7 +1809,6 @@
       "representation": "Molecular graphs",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/DeepGraphLearning/torchdrug#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/DeepGraphLearning/torchdrug#readme",
@@ -1897,7 +1838,6 @@
       "representation": "3D structures (scoring function)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ccsb-scripps/AutoDock-Vina#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ccsb-scripps/AutoDock-Vina#readme",
@@ -1925,7 +1865,6 @@
       "stars": 2001,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/openmm/openmm#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/openmm/openmm#readme"
@@ -1951,7 +1890,6 @@
       "interface": "Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/bionemo-recipes#readme"
@@ -1977,7 +1915,6 @@
     "specsSources": [
       "https://rowansci.com"
     ],
-    "specsSource": "https://rowansci.com",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2005,7 +1942,6 @@
       "actions": "Tools, databases, protocols mined from publications; code execution",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/snap-stanford/Biomni#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/snap-stanford/Biomni#readme",
@@ -2052,7 +1988,6 @@
       "backbone": "Any LiteLLM-compatible model (examples use GPT-4o, Claude)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Future-House/paper-qa#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Future-House/paper-qa#readme"
@@ -2082,7 +2017,6 @@
       "backbone": "Multiple LLM providers, incl. open-source via Xorbits Inference",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/biocypher/biochatter#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/biocypher/biochatter#readme"
@@ -2107,7 +2041,6 @@
     "specsSources": [
       "https://elicit.com"
     ],
-    "specsSource": "https://elicit.com",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2145,7 +2078,6 @@
     "specsSources": [
       "https://www.benchling.com"
     ],
-    "specsSource": "https://www.benchling.com",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2170,7 +2102,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/latchbio/latch#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/latchbio/latch#readme"
@@ -2198,7 +2129,6 @@
     "specsSources": [
       "https://www.adaptyvbio.com"
     ],
-    "specsSource": "https://www.adaptyvbio.com",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2220,7 +2150,6 @@
     "specsSources": [
       "https://www.emeraldcloudlab.com"
     ],
-    "specsSource": "https://www.emeraldcloudlab.com",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2278,7 +2207,6 @@
     "specsSources": [
       "https://strateos.com"
     ],
-    "specsSource": "https://strateos.com",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2321,7 +2249,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/MouseLand/cellpose#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MouseLand/cellpose#readme"
@@ -2353,7 +2280,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/stardist/stardist#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/stardist/stardist#readme"
@@ -2383,7 +2309,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/napari/napari#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/napari/napari#readme"
@@ -2414,7 +2339,6 @@
       "dims": "2D (whole-slide images)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/qupath/qupath#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/qupath/qupath#readme",
@@ -2446,7 +2370,6 @@
       "dims": "2D tiles from WSIs",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/mahmoodlab/UNI#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/mahmoodlab/UNI#readme",
@@ -2478,7 +2401,6 @@
       "dims": "2D",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/mahmoodlab/CONCH#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/mahmoodlab/CONCH#readme",
@@ -2510,7 +2432,6 @@
       "dims": "2D whole-slide (1.3B 256×256 tiles, 171k slides)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/prov-gigapath/prov-gigapath#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/prov-gigapath/prov-gigapath#readme",
@@ -2537,7 +2458,6 @@
       "modality": "Microscopy (high-throughput)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/CellProfiler/CellProfiler#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/CellProfiler/CellProfiler#readme",
@@ -2569,7 +2489,6 @@
       "stars": 738,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/computational-cell-analytics/micro-sam#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/computational-cell-analytics/micro-sam#readme"
@@ -2599,7 +2518,6 @@
       "access": "Open; data CC-BY; Census API (R, Python)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/chanzuckerberg/cellxgene-census#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/chanzuckerberg/cellxgene-census#readme",
@@ -2655,7 +2573,6 @@
       "https://www.biorxiv.org/content/10.1101/2025.02.20.639398",
       "https://huggingface.co/datasets/tahoebio/Tahoe-100M"
     ],
-    "specsSource": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398",
     "specsChecked": "2026-10-16"
   },
   {
@@ -2730,7 +2647,6 @@
       "access": "Open (MIT code; downloadable benchmarks)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/OATML-Markslab/ProteinGym#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/OATML-Markslab/ProteinGym#readme",
@@ -2762,7 +2678,6 @@
       "access": "Open (Python library)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/mims-harvard/TDC#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/mims-harvard/TDC#readme",
@@ -2808,7 +2723,6 @@
       "access": "Open",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/openproblems-bio/openproblems#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/openproblems-bio/openproblems#readme",
@@ -2838,7 +2752,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/maabuu/posebusters#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/maabuu/posebusters#readme"
@@ -2868,7 +2781,6 @@
       "access": "Open hub (download via polaris-lib)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/polaris-hub/polaris#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/polaris-hub/polaris#readme",
@@ -2930,7 +2842,6 @@
       "https://doi.org/10.64898/2026.10.02.756297",
       "https://arcinstitute.org/news/pie"
     ],
-    "specsSource": "https://doi.org/10.64898/2026.10.02.756297",
     "specsChecked": "2026-10-16",
     "firstReleased": "2026-10-05",
     "dateSource": "https://arcinstitute.org/news/pie",
@@ -2961,7 +2872,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google-deepmind/alphaprotein-novo#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphaprotein-novo#readme"
@@ -3013,7 +2923,6 @@
     "specsSources": [
       "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
     ],
-    "specsSource": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation",
     "specsChecked": "2026-10-16",
     "firstReleased": "2026-10-08",
     "dateSource": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
@@ -3044,7 +2953,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/jleechung/prompteina#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/jleechung/prompteina#readme"
@@ -3076,7 +2984,6 @@
       "task": "Basecalling incl. modified bases",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/nanoporetech/dorado#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/nanoporetech/dorado#readme"
@@ -3107,7 +3014,6 @@
       "task": "Basecaller training / research",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/nanoporetech/bonito#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/nanoporetech/bonito#readme"
@@ -3138,7 +3044,6 @@
       "task": "Consensus polishing, variant calling",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/nanoporetech/medaka#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/nanoporetech/medaka#readme"
@@ -3169,7 +3074,6 @@
       "task": "Modified-base detection (methylation)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/nanoporetech/remora#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/nanoporetech/remora#readme"
@@ -3202,7 +3106,6 @@
       "variants": "Small variants (SNPs, indels)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/HKU-BAL/Clair3#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/HKU-BAL/Clair3#readme",
@@ -3235,7 +3138,6 @@
       "task": "Consensus read correction",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google/deepconsensus#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google/deepconsensus#readme",
@@ -3268,7 +3170,6 @@
       "task": "Haplotype-aware variant calling, polishing",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/kishwarshafin/pepper#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/kishwarshafin/pepper#readme",
@@ -3302,7 +3203,6 @@
       "variants": "Structural variants",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/fritzsedlazeck/Sniffles#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/fritzsedlazeck/Sniffles#readme",
@@ -3336,7 +3236,6 @@
       "species": "Mammalian genomes (human, mouse)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/calico/basenji#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/calico/basenji#readme",
@@ -3369,7 +3268,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/kundajelab/chrombpnet#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/kundajelab/chrombpnet#readme",
@@ -3402,7 +3300,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/kundajelab/bpnet#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/kundajelab/bpnet#readme",
@@ -3435,7 +3332,6 @@
       "species": "Human",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/FunctionLab/sei-framework#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/FunctionLab/sei-framework#readme",
@@ -3467,7 +3363,6 @@
       "tasks": "Library to train/apply sequence models",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/FunctionLab/selene#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/FunctionLab/selene#readme",
@@ -3500,7 +3395,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/calico/scBasset#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/calico/scBasset#readme",
@@ -3533,7 +3427,6 @@
       "resolution": "Per amino-acid substitution",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/OATML-Markslab/EVE#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/OATML-Markslab/EVE#readme",
@@ -3566,7 +3459,6 @@
       "tasks": "Variant pathogenicity",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Illumina/PrimateAI-3D#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Illumina/PrimateAI-3D#readme",
@@ -3599,7 +3491,6 @@
       "tasks": "Genome-wide variant effect prediction",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/songlab-cal/gpn#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/songlab-cal/gpn#readme",
@@ -3632,7 +3523,6 @@
       "task": "Identification + quantification",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/vdemichev/DiaNN#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/vdemichev/DiaNN#readme",
@@ -3665,7 +3555,6 @@
       "input": "Peptide sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/MannLabs/alphapeptdeep#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MannLabs/alphapeptdeep#readme",
@@ -3699,7 +3588,6 @@
       "input": "Thermo .raw, Bruker .d, others",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/MannLabs/alphadia#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/MannLabs/alphadia#readme",
@@ -3732,7 +3620,6 @@
       "input": "Peptide sequence (tryptic, non-tryptic, immunopeptides)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/CompOmics/ms2pip#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/CompOmics/ms2pip#readme",
@@ -3765,7 +3652,6 @@
       "input": "Peptide sequence + modifications",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/CompOmics/DeepLC#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/CompOmics/DeepLC#readme",
@@ -3797,7 +3683,6 @@
       "input": "MS/MS spectra",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Noble-Lab/casanovo#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Noble-Lab/casanovo#readme",
@@ -3830,7 +3715,6 @@
       "input": "MS/MS spectra",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/instadeepai/InstaNovo#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/instadeepai/InstaNovo#readme"
@@ -3862,7 +3746,6 @@
       "input": "LC-MS/MS",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/sirius-ms/sirius#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/sirius-ms/sirius#readme",
@@ -3895,7 +3778,6 @@
       "input": "MS/MS spectrum pairs",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/matchms/ms2deepscore#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/matchms/ms2deepscore#readme",
@@ -3928,7 +3810,6 @@
       "input": "mzML, mzXML, msp, MGF, JSON, USI",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/matchms/matchms#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/matchms/matchms#readme"
@@ -3960,7 +3841,6 @@
       "input": "MS/MS spectra",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/pluskal-lab/DreaMS#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/pluskal-lab/DreaMS#readme",
@@ -3991,7 +3871,6 @@
       "input": "Vendor raw files: LC-MS, GC-MS, ion mobility, MS imaging",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/mzmine/mzmine#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/mzmine/mzmine#readme",
@@ -4025,7 +3904,6 @@
       "organism": "Many genomes (No-genome mode available)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/maximilianh/crisporWebsite#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/maximilianh/crisporWebsite#readme",
@@ -4059,7 +3937,6 @@
     "specsSources": [
       "https://doi.org/10.1093/nar/gkz365"
     ],
-    "specsSource": "https://doi.org/10.1093/nar/gkz365",
     "specsChecked": "2026-10-16"
   },
   {
@@ -4088,7 +3965,6 @@
       "task": "sgRNA on-target activity (tracrRNA-aware)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/gpp-rnd/rs3#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/gpp-rnd/rs3#readme",
@@ -4122,7 +3998,6 @@
       "organism": "Human (training screen)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/uzh-dqbm-cmi/PRIDICT#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/uzh-dqbm-cmi/PRIDICT#readme",
@@ -4154,7 +4029,6 @@
       "task": "Editing-outcome quantification from amplicon / WGS reads",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/pinellolab/CRISPResso2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/pinellolab/CRISPResso2#readme"
@@ -4186,7 +4060,6 @@
       "organism": "Human cells (demonstrated)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Profluent-AI/OpenCRISPR#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Profluent-AI/OpenCRISPR#readme",
@@ -4219,7 +4092,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Graylab/IgFold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Graylab/IgFold#readme"
@@ -4251,7 +4123,6 @@
       "modalities": "Antibody sequences",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/oxpig/AbLang#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/oxpig/AbLang#readme",
@@ -4284,7 +4155,6 @@
       "modalities": "Paired antibody sequences",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/oxpig/AbLang2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/oxpig/AbLang2#readme",
@@ -4317,7 +4187,6 @@
       "modalities": "Antibody, nanobody, TCR",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/oxpig/ImmuneBuilder#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/oxpig/ImmuneBuilder#readme",
@@ -4350,7 +4219,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/jeffreyruffolo/AntiBERTy#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/jeffreyruffolo/AntiBERTy#readme"
@@ -4383,7 +4251,6 @@
       "modalities": "VHH, scFv",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/RosettaCommons/RFantibody#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RosettaCommons/RFantibody#readme",
@@ -4416,7 +4283,6 @@
       "modalities": "Antibody sequences (OAS-based)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Merck/BioPhi#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Merck/BioPhi#readme",
@@ -4449,7 +4315,6 @@
       "input": "Single-chain RNA sequence (+ MSA)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ml4bio/RhoFold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ml4bio/RhoFold#readme",
@@ -4482,7 +4347,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ml4bio/RNA-FM#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ml4bio/RNA-FM#readme"
@@ -4515,7 +4379,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Shujun-He/RibonanzaNet#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Shujun-He/RibonanzaNet#readme",
@@ -4548,7 +4411,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/WaymentSteeleLab/EternaFold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/WaymentSteeleLab/EternaFold#readme",
@@ -4582,7 +4444,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/jaswindersingh2/SPOT-RNA#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/jaswindersingh2/SPOT-RNA#readme",
@@ -4616,7 +4477,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/uci-cbcl/UFold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/uci-cbcl/UFold#readme",
@@ -4650,7 +4510,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ViennaRNA/ViennaRNA#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ViennaRNA/ViennaRNA#readme",
@@ -4685,7 +4544,6 @@
       "input": "RNA backbone structure",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/chaitjo/geometric-rna-design#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/chaitjo/geometric-rna-design#readme"
@@ -4718,7 +4576,6 @@
       "database": "Marker genes from 1.01M reference genomes + MAGs (26,970 SGBs)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/biobakery/MetaPhlAn#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/biobakery/MetaPhlAn#readme",
@@ -4752,7 +4609,6 @@
       "database": "ChocoPhlAn",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/biobakery/humann#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/biobakery/humann#readme",
@@ -4784,7 +4640,6 @@
       "task": "k-mer taxonomic classification (+ translated search)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/DerrickWood/kraken2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/DerrickWood/kraken2#readme",
@@ -4818,7 +4673,6 @@
       "database": "GTDB reference tree",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Ecogenomics/GTDBTk#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Ecogenomics/GTDBTk#readme",
@@ -4852,7 +4706,6 @@
       "database": "200,000+ marker protein profiles",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/apcamargo/genomad#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/apcamargo/genomad#readme",
@@ -4885,7 +4738,6 @@
       "task": "Completeness + contamination estimation",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/chklovski/CheckM2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/chklovski/CheckM2#readme",
@@ -4918,7 +4770,6 @@
       "task": "Metagenomic binning (self-supervised)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/BigDataBiology/SemiBin#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/BigDataBiology/SemiBin#readme",
@@ -4950,7 +4801,6 @@
       "task": "Metagenomic binning (VAE)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/RasmussenLab/vamb#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RasmussenLab/vamb#readme",
@@ -4982,7 +4832,6 @@
       "task": "Microbiome analysis, visualization, statistics",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/rachis-org/rachis#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/rachis-org/rachis#readme",
@@ -5015,7 +4864,6 @@
       "params": "7B, 70B",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/epfLLM/meditron#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/epfLLM/meditron#readme"
@@ -5047,7 +4895,6 @@
       "params": "4B multimodal, 27B text-only",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Google-Health/medgemma#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Google-Health/medgemma#readme",
@@ -5081,7 +4928,6 @@
       "params": "7B (v1.5)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/microsoft/LLaVA-Med#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/microsoft/LLaVA-Med#readme"
@@ -5114,7 +4960,6 @@
       "interface": "Package, Docker, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/microsoft/BiomedParse#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/microsoft/BiomedParse#readme"
@@ -5165,7 +5010,6 @@
       "wetlab": "Yes (lab hardware)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/gomesgroup/coscientist#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/gomesgroup/coscientist#readme",
@@ -5198,7 +5042,6 @@
       "actions": "18 expert tools incl. RDKit, paper-qa, PubChem",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ur-whitelab/chemcrow-public#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ur-whitelab/chemcrow-public#readme",
@@ -5230,7 +5073,6 @@
       "wetlab": "Yes (hardware-agnostic robot control)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/PyLabRobot/pylabrobot#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/PyLabRobot/pylabrobot#readme"
@@ -5258,7 +5100,6 @@
       "ordering": "Python Protocol API",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Opentrons/opentrons#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Opentrons/opentrons#readme",
@@ -5291,7 +5132,6 @@
       "actions": "Literature search and other tools for perturbation design",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/snap-stanford/BioDiscoveryAgent#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/snap-stanford/BioDiscoveryAgent#readme"
@@ -5323,7 +5163,6 @@
       "actions": "Literature agents, data analysis",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Future-House/robin#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Future-House/robin#readme"
@@ -5355,7 +5194,6 @@
       "backbone": "Any LLM endpoint (examples: GPT-4o, Claude, Llama)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/Future-House/aviary#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/Future-House/aviary#readme"
@@ -5389,7 +5227,6 @@
       "interface": "Docker, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google-deepmind/alphafold#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google-deepmind/alphafold#readme"
@@ -5422,7 +5259,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/microsoft/bioemu#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/microsoft/bioemu#readme"
@@ -5454,7 +5290,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/NVIDIA-BioNeMo/proteina#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/proteina#readme"
@@ -5486,7 +5321,6 @@
       "interface": "Package",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/NVIDIA-BioNeMo/la-proteina#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/la-proteina#readme"
@@ -5517,7 +5351,6 @@
       "modalities": "Protein sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/salesforce/progen#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/salesforce/progen#readme",
@@ -5552,7 +5385,6 @@
       "interface": "Package, Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/evo-design/evo#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/evo-design/evo#readme"
@@ -5584,7 +5416,6 @@
       "interface": "Colab",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ArcInstitute/state#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ArcInstitute/state#readme",
@@ -5619,7 +5450,6 @@
       "tasks": "Cell-type classification, zero-shot disease state, cross-species annotation transfer",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/czi-ai/transcriptformer#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/czi-ai/transcriptformer#readme",
@@ -5652,7 +5482,6 @@
       "modalities": "Enzyme from functional-group geometry",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/RosettaCommons/RFdiffusion2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RosettaCommons/RFdiffusion2#readme",
@@ -5685,7 +5514,6 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/HannesStark/boltzgen#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/HannesStark/boltzgen#readme"
@@ -5716,7 +5544,6 @@
       "stars": 897,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/aqlaboratory/openfold-3",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/aqlaboratory/openfold-3",
@@ -5749,7 +5576,6 @@
       "stars": 165,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://doi.org/10.1101/2025.10.23.683759",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://doi.org/10.1101/2025.10.23.683759",
@@ -5803,7 +5629,6 @@
       "stars": 1003,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/RosettaCommons/foundry",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/RosettaCommons/foundry",
@@ -5839,7 +5664,6 @@
       "stars": 926,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://doi.org/10.64898/2025.12.22.695963",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://doi.org/10.64898/2025.12.22.695963",
@@ -5891,7 +5715,6 @@
       "stars": 100,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/NVIDIA-Digital-Bio/RNAPro",
@@ -5925,7 +5748,6 @@
       "stars": 167,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://doi.org/10.64898/2026.01.09.698608",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://doi.org/10.64898/2026.01.09.698608",
@@ -6061,7 +5883,6 @@
       "modality": "snRNA-seq + in vivo CRISPR",
       "access": "Hugging Face download"
     },
-    "specsSource": "https://www.perturb.ai/8-million-crispr-atlas",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://www.perturb.ai/8-million-crispr-atlas"
@@ -6091,7 +5912,6 @@
       "stars": 41,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/genbio-ai/genbio-pathfm",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/genbio-ai/genbio-pathfm",
@@ -6124,7 +5944,6 @@
       "stars": 67,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://doi.org/10.64898/2026.03.17.712398",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://doi.org/10.64898/2026.03.17.712398",
@@ -6197,7 +6016,6 @@
       "stars": 2993,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/evolutionaryscale/esm",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/evolutionaryscale/esm",
@@ -6405,7 +6223,6 @@
       "variants": "SNVs, small indels",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google/deepsomatic#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google/deepsomatic#readme",
@@ -6438,7 +6255,6 @@
       "task": "Assembly polishing",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/google/deeppolisher#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/google/deeppolisher#readme",
@@ -6472,7 +6288,6 @@
       "variants": "SNVs, indels",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/HKU-BAL/ClairS-TO#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/HKU-BAL/ClairS-TO#readme",
@@ -6505,7 +6320,6 @@
       "task": "Read error correction for T2T assembly",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/lbcb-sci/herro#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/lbcb-sci/herro#readme",
@@ -6538,7 +6352,6 @@
       "resolution": "Single cell",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/prism-oncology/novae#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/prism-oncology/novae#readme",
@@ -6569,7 +6382,6 @@
       "stars": 143,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/bowang-lab/scGPT-spatial#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bowang-lab/scGPT-spatial#readme",
@@ -6602,7 +6414,6 @@
       "platforms": "H&E + spatial transcriptomics",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/GuangyuWangLab2021/Loki#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/GuangyuWangLab2021/Loki#readme",
@@ -6633,7 +6444,6 @@
       "stars": 167,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/prabhakarlab/Banksy#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/prabhakarlab/Banksy#readme",
@@ -6665,7 +6475,6 @@
       "stars": 197,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/CSOgroup/cellcharter#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/CSOgroup/cellcharter#readme",
@@ -6698,7 +6507,6 @@
       "task": "Species-level profiling + containment ANI",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/bluenote-1577/sylph#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bluenote-1577/sylph#readme",
@@ -6731,7 +6539,6 @@
       "task": "Gene-context modelling, function prediction",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/y-hwang/gLM#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/y-hwang/gLM#readme",
@@ -6764,7 +6571,6 @@
       "task": "Genomic language modelling",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/TattaBio/gLM2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/TattaBio/gLM2#readme",
@@ -6797,7 +6603,6 @@
       "task": "Metagenomic binning",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/ziyewang/COMEBin#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/ziyewang/COMEBin#readme",
@@ -6829,7 +6634,6 @@
       "task": "Agentic gene-editing experiment design",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/cong-lab/crispr-gpt-pub#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/cong-lab/crispr-gpt-pub#readme",
@@ -6861,7 +6665,6 @@
       "task": "pegRNA efficiency prediction",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/hkimlab/DeepPrime#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/hkimlab/DeepPrime#readme",
@@ -6894,7 +6697,6 @@
       "baseModel": "Segment Anything (SAM)",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/bowang-lab/MedSAM#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bowang-lab/MedSAM#readme",
@@ -6927,7 +6729,6 @@
       "baseModel": "SAM 2",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/bowang-lab/MedSAM2#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/bowang-lab/MedSAM2#readme",
@@ -6959,7 +6760,6 @@
       "modality": "Text",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/FreedomIntelligence/HuatuoGPT-o1#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/FreedomIntelligence/HuatuoGPT-o1#readme",
@@ -6989,7 +6789,6 @@
       "modality": "Biomedical images + text",
       "baseModel": "PubMedBERT + ViT-B/16 (CLIP)"
     },
-    "specsSource": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
@@ -7022,7 +6821,6 @@
       "modality": "Multiple microscopy modalities",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/vanvalenlab/cellSAM#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/vanvalenlab/cellSAM#readme",
@@ -7054,7 +6852,6 @@
       "modality": "H&E whole-slide images + text",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/mahmoodlab/TITAN#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/mahmoodlab/TITAN#readme",
@@ -7086,7 +6883,6 @@
       "modality": "H&E whole-slide images",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/hms-dbmi/CHIEF#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/hms-dbmi/CHIEF#readme",
@@ -7118,7 +6914,6 @@
       "input": "RNA sequence",
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://github.com/lbcb-sci/RiNALMo#readme",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/lbcb-sci/RiNALMo#readme",
@@ -7151,7 +6946,6 @@
       "stars": 2295,
       "starsChecked": "2026-10-16"
     },
-    "specsSource": "https://huggingface.co/facebook/OMol25",
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://huggingface.co/facebook/OMol25",
