@@ -24,4 +24,5 @@ export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','bo
 export const bySlug = Object.fromEntries(tools.map(t=>[t.slug,t]));
 export const pairSlug = ([a,b]) => `${bySlug[a].slug}-vs-${bySlug[b].slug}`;
 
-export const byNewest = (l) => [...l].sort((a,b)=> (a.released&&b.released)? b.released.localeCompare(a.released)||a.name.localeCompare(b.name) : a.released?-1 : b.released?1 : a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+export const dt = (t) => t.released||t.firstReleased||'';
+export const byNewest = (l) => [...l].sort((a,b)=> (dt(a)&&dt(b))? dt(b).localeCompare(dt(a))||a.name.toLowerCase().localeCompare(b.name.toLowerCase()) : dt(a)?-1 : dt(b)?1 : a.name.toLowerCase().localeCompare(b.name.toLowerCase()));

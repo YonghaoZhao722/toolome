@@ -13,6 +13,7 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 <table><tr><th>Category</th><td>{CATS[t.category][0]}</td></tr>
 {t.github&&<tr><th>GitHub</th><td><a href={t.github}>{t.github.replace('https://github.com/','')}</a></td></tr>}
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
+{!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a></td></tr>}
 <tr><th>License</th><td>{t.license}</td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
 <tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td>{t.lastChecked}</td></tr></table>
