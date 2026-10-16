@@ -898,7 +898,10 @@
       "https://www.biorxiv.org/content/10.1101/2024.04.15.589472"
     ],
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "alsoIn": [
+      "single-cell"
+    ]
   },
   {
     "slug": "alphafold-server-alphafold-3",
@@ -2928,7 +2931,10 @@
     ],
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
-    "licenseNote": "Open"
+    "licenseNote": "Open",
+    "alsoIn": [
+      "protein"
+    ]
   },
   {
     "slug": "open-problems-in-single-cell",
@@ -6614,7 +6620,10 @@
     ],
     "specsChecked": "2026-10-16",
     "paperVenue": "arXiv preprint",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "alsoIn": [
+      "protein"
+    ]
   },
   {
     "slug": "nesso-1",
@@ -7218,7 +7227,10 @@
     ],
     "paperVenue": "Nature Biomedical Engineering",
     "paperYear": 2025,
-    "licenseNote": "full code not public"
+    "licenseNote": "full code not public",
+    "alsoIn": [
+      "agents"
+    ]
   },
   {
     "slug": "deepprime",
