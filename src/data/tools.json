@@ -24,7 +24,8 @@
       "tasks": "Annotation, integration, reference mapping, perturbation",
       "species": "Human",
       "stars": 1654,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/bowang-lab/scGPT#readme",
     "specsChecked": "2026-10-16",
@@ -85,7 +86,8 @@
       "architecture": "Probabilistic generative models (VAE)",
       "tasks": "Dimensionality reduction, integration, differential expression, annotation",
       "stars": 1713,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/scverse/scvi-tools#readme",
     "specsChecked": "2026-10-16",
@@ -118,7 +120,8 @@
       "stars": 513,
       "interface": "Package, Docker, Colab",
       "species": "Human",
-      "corpus": "Trained on curated atlases incl. ~360k immune cells (16 tissues)"
+      "corpus": "Trained on curated atlases incl. ~360k immune cells (16 tissues)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Teichlab/celltypist#readme",
     "specsChecked": "2026-10-16",
@@ -148,7 +151,8 @@
     "dateSource": "https://doi.org/10.1101/174029",
     "specs": {
       "tasks": "General analysis (>1M cells)",
-      "stars": 2590
+      "stars": 2590,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/scverse/scanpy#readme",
     "specsChecked": "2026-10-16",
@@ -178,7 +182,8 @@
     "specs": {
       "stars": 2805,
       "tasks": "Integration incl. cross-modality bridge integration, multimodal analysis",
-      "species": "Human, mouse, others"
+      "species": "Human, mouse, others",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/satijalab/seurat#readme",
     "specsChecked": "2026-10-16",
@@ -211,7 +216,8 @@
       "tasks": "Embeddings, annotation, fine-tuning",
       "species": "Human",
       "stars": 434,
-      "interface": "Docker"
+      "interface": "Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/biomap-research/scFoundation#readme",
     "specsChecked": "2026-10-16",
@@ -243,7 +249,8 @@
       "species": "Multi-species (species flag)",
       "stars": 349,
       "interface": "Package",
-      "corpus": "Cell atlas data from human and other species (self-supervised)"
+      "corpus": "Cell atlas data from human and other species (self-supervised)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/snap-stanford/UCE#readme",
     "specsChecked": "2026-10-16",
@@ -272,7 +279,8 @@
     "dateSource": "https://doi.org/10.21203/rs.3.rs-94819/v1",
     "specs": {
       "stars": 459,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/scverse/cellrank#readme",
     "specsChecked": "2026-10-16",
@@ -301,7 +309,8 @@
     "specs": {
       "tasks": "RNA velocity",
       "stars": 513,
-      "architecture": "Dynamical model of transcription kinetics"
+      "architecture": "Dynamical model of transcription kinetics",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/theislab/scvelo#readme",
     "specsChecked": "2026-10-16",
@@ -329,7 +338,8 @@
     "firstReleased": "2021-06-01",
     "dateSource": "https://doi.org/10.1101/2021.06.01.445670",
     "specs": {
-      "stars": 280
+      "stars": 280,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/scverse/muon#readme",
     "specsChecked": "2026-10-16",
@@ -358,7 +368,8 @@
     "specs": {
       "tasks": "scATAC clustering, trajectories, peak-to-gene linkage (>1M cells on a laptop)",
       "stars": 467,
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/GreenleafLab/ArchR#readme",
     "specsChecked": "2026-10-16",
@@ -392,7 +403,8 @@
       "species": "Human, mouse, yeast, zebrafish, Xenopus, rat, …",
       "stars": 505,
       "interface": "Docker",
-      "corpus": "Uses unperturbed wild-type multi-omics data"
+      "corpus": "Uses unperturbed wild-type multi-omics data",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/morris-lab/CellOracle#readme",
     "specsChecked": "2026-10-16",
@@ -423,7 +435,8 @@
       "architecture": "Deep learning + gene–gene knowledge graph",
       "tasks": "Perturbation (single and multi-gene)",
       "stars": 418,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/snap-stanford/GEARS#readme",
     "specsChecked": "2026-10-16",
@@ -454,7 +467,8 @@
       "tasks": "Batch integration (~10^6 cells on a PC); scRNA + spatial",
       "stars": 677,
       "interface": "Package",
-      "architecture": "Iterative embedding correction"
+      "architecture": "Iterative embedding correction",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/immunogenomics/harmony#readme",
     "specsChecked": "2026-10-16",
@@ -485,7 +499,8 @@
       "platforms": "Visium, Slide-seq, others",
       "tasks": "Single-cell to spatial mapping",
       "stars": 373,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/broadinstitute/Tangram#readme",
     "specsChecked": "2026-10-16",
@@ -515,7 +530,8 @@
       "resolution": "Spot (2D coordinates)",
       "tasks": "Slice alignment, integration",
       "stars": 105,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/raphael-group/paste#readme",
     "specsChecked": "2026-10-16",
@@ -546,7 +562,8 @@
       "tasks": "Slide alignment, space/time mapping",
       "stars": 217,
       "interface": "Package",
-      "resolution": "Single cell"
+      "resolution": "Single cell",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/theislab/moscot#readme",
     "specsChecked": "2026-10-16",
@@ -577,7 +594,8 @@
       "platforms": "Visium",
       "tasks": "Cell-type deconvolution",
       "stars": 462,
-      "interface": "Package, Docker, Colab"
+      "interface": "Package, Docker, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/BayraktarLab/cell2location#readme",
     "specsChecked": "2026-10-16",
@@ -608,7 +626,8 @@
       "platforms": "Visium, Slide-seq, Xenium, others",
       "tasks": "Neighbor graphs, image features",
       "stars": 608,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/scverse/squidpy#readme",
     "specsChecked": "2026-10-16",
@@ -638,7 +657,8 @@
       "stars": 402,
       "interface": "Package",
       "platforms": "Multiplatform (e.g. Xenium, Visium)",
-      "tasks": "Unified file format, coordinate alignment, annotation, cross-modal aggregation"
+      "tasks": "Unified file format, coordinate alignment, annotation, cross-modal aggregation",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/scverse/spatialdata#readme",
     "specsChecked": "2026-10-16",
@@ -668,7 +688,8 @@
     "specs": {
       "tasks": "Spatial domains",
       "stars": 55,
-      "resolution": "Spot"
+      "resolution": "Spot",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/RucDongLab/STAGATE#readme",
     "specsChecked": "2026-10-16",
@@ -699,7 +720,8 @@
       "tasks": "Clustering, integration, deconvolution",
       "stars": 165,
       "resolution": "Spot",
-      "platforms": "Multiple technology platforms"
+      "platforms": "Multiple technology platforms",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/JinmiaoChenLab/GraphST#readme",
     "specsChecked": "2026-10-16",
@@ -731,7 +753,8 @@
       "tasks": "Clustering, resolution enhancement",
       "stars": 189,
       "interface": "Package",
-      "platforms": "Spatial transcriptomics (spot-based)"
+      "platforms": "Spatial transcriptomics (spot-based)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/edward130603/BayesSpace#readme",
     "specsChecked": "2026-10-16",
@@ -763,7 +786,8 @@
       "tasks": "Cell-type decomposition",
       "stars": 489,
       "interface": "Package",
-      "resolution": "Spot / pixel (mixtures decomposed)"
+      "resolution": "Spot / pixel (mixtures decomposed)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/dmcable/spacexr#readme",
     "specsChecked": "2026-10-16",
@@ -790,7 +814,8 @@
     "lastChecked": "2026-10-16",
     "specs": {
       "tasks": "Processing, analysis, visualization",
-      "stars": 394
+      "stars": 394,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/giotto-suite/Giotto#readme",
     "specsChecked": "2026-10-16",
@@ -820,7 +845,8 @@
       "stars": 176,
       "interface": "Package",
       "platforms": "Targeted spatial transcriptomics + dissociated scRNA (human, mouse)",
-      "resolution": "Single cell"
+      "resolution": "Single cell",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/theislab/nicheformer#readme",
     "specsChecked": "2026-10-16",
@@ -851,10 +877,11 @@
       "task": "Structure prediction",
       "modalities": "Protein, nucleic acid, small molecule, ion, modified residues, complex",
       "weights": "On request (terms of use)",
-      "stars": 8646,
+      "stars": 8647,
       "interface": "Docker",
       "msa": "Yes (genetic/template search data pipeline)",
-      "gpu": "GPU required for inference; MSA search is CPU-only"
+      "gpu": "GPU required for inference; MSA search is CPU-only",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google-deepmind/alphafold3#readme",
     "specsChecked": "2026-10-16",
@@ -908,9 +935,10 @@
     "specs": {
       "task": "Backbone generation, binder design, motif scaffolding",
       "weights": "Yes",
-      "stars": 3090,
+      "stars": 3088,
       "interface": "Package, Docker, Colab",
-      "modalities": "Protein (binders, symmetric assemblies)"
+      "modalities": "Protein (binders, symmetric assemblies)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/RosettaCommons/RFdiffusion#readme",
     "specsChecked": "2026-10-16",
@@ -940,9 +968,10 @@
     "specs": {
       "task": "Inverse folding (sequence design)",
       "weights": "Yes (in repo)",
-      "stars": 1879,
+      "stars": 1878,
       "interface": "Package",
-      "modalities": "Protein, single or multiple chains"
+      "modalities": "Protein, single or multiple chains",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/dauparas/ProteinMPNN#readme",
     "specsChecked": "2026-10-16",
@@ -972,8 +1001,9 @@
     "specs": {
       "task": "Generative design, embeddings, structure prediction",
       "weights": "ESM3-open: yes (MIT); larger models via API",
-      "stars": 2991,
-      "interface": "Package"
+      "stars": 2993,
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Biohub/esm#readme",
     "specsChecked": "2026-10-16",
@@ -1007,7 +1037,8 @@
       "weights": "Yes",
       "stars": 4170,
       "interface": "Package, Colab",
-      "modalities": "Protein (single chain)"
+      "modalities": "Protein (single chain)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/facebookresearch/esm#readme",
     "specsChecked": "2026-10-16",
@@ -1039,9 +1070,10 @@
       "weights": "Yes (MIT)",
       "msa": "Optional (MSA server flag)",
       "gpu": "Recommended; CPU supported but much slower",
-      "stars": 4255,
+      "stars": 4254,
       "interface": "Package",
-      "modalities": "Biomolecular complexes"
+      "modalities": "Biomolecular complexes",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/jwohlwend/boltz#readme",
     "specsChecked": "2026-10-16",
@@ -1075,7 +1107,8 @@
       "gpu": "Required: CUDA + bfloat16; A100/H100/L40S recommended",
       "stars": 2003,
       "interface": "Package, Docker, Web",
-      "weights": "Yes (non-commercial); free web interface incl. commercial"
+      "weights": "Yes (non-commercial); free web interface incl. commercial",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/chaidiscovery/chai-lab#readme",
     "specsChecked": "2026-10-16",
@@ -1104,8 +1137,9 @@
     "dateSource": "https://github.com/aqlaboratory/openfold/releases/tag/v0.1.0",
     "specs": {
       "task": "Structure prediction (trainable AlphaFold2)",
-      "stars": 3440,
-      "weights": "Yes (Apache 2.0)"
+      "stars": 3439,
+      "weights": "Yes (Apache 2.0)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/aqlaboratory/openfold#readme",
     "specsChecked": "2026-10-16",
@@ -1138,7 +1172,8 @@
       "msa": "Yes (MMseqs2 server)",
       "gpu": "One GPU ≈ 1,000 structures/day",
       "stars": 2964,
-      "interface": "Package, Docker, Colab, Web"
+      "interface": "Package, Docker, Colab, Web",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/sokrypton/ColabFold#readme",
     "specsChecked": "2026-10-16",
@@ -1170,7 +1205,8 @@
       "stars": 826,
       "interface": "Docker",
       "msa": "Yes (UniRef30 etc. for MSA + templates)",
-      "weights": "Yes (RFAA_paper_weights.pt)"
+      "weights": "Yes (RFAA_paper_weights.pt)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom#readme",
     "specsChecked": "2026-10-16",
@@ -1203,7 +1239,8 @@
       "stars": 1249,
       "interface": "Colab",
       "modalities": "Protein binders",
-      "weights": "Uses AlphaFold2 weights"
+      "weights": "Uses AlphaFold2 weights",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/martinpacesa/BindCraft#readme",
     "specsChecked": "2026-10-16",
@@ -1234,7 +1271,8 @@
       "task": "Structure search, clustering",
       "modalities": "Monomer, multimer",
       "stars": 1313,
-      "interface": "Package, Web"
+      "interface": "Package, Web",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/steineggerlab/foldseek#readme",
     "specsChecked": "2026-10-16",
@@ -1263,7 +1301,8 @@
       "task": "Structure prediction (trainable AlphaFold 3)",
       "modalities": "Protein, ligand, nucleic acid",
       "stars": 2080,
-      "interface": "Package, Web"
+      "interface": "Package, Web",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/bytedance/Protenix#readme",
     "specsChecked": "2026-10-16",
@@ -1319,8 +1358,9 @@
       "resolution": "Single nucleotide",
       "species": "All domains of life",
       "tasks": "Language modeling, design",
-      "stars": 4263,
-      "interface": "Package, Docker"
+      "stars": 4264,
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ArcInstitute/evo2#readme",
     "specsChecked": "2026-10-16",
@@ -1351,7 +1391,8 @@
       "resolution": "Single bp (most outputs)",
       "tasks": "Thousands of functional tracks: expression, TSS, accessibility, splicing, contacts; variant effects",
       "stars": 2193,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google-deepmind/alphagenome#readme",
     "specsChecked": "2026-10-16",
@@ -1383,7 +1424,8 @@
       "resolution": "128 bp bins",
       "species": "Human, mouse",
       "tasks": "Expression / chromatin tracks",
-      "stars": 15234
+      "stars": 15236,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google-deepmind/deepmind-research#readme",
     "specsChecked": "2026-10-16",
@@ -1414,7 +1456,8 @@
       "stars": 506,
       "interface": "Package",
       "context": "10,000 nt flanking context",
-      "resolution": "Per nucleotide"
+      "resolution": "Per nucleotide",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Illumina/SpliceAI#readme",
     "specsChecked": "2026-10-16",
@@ -1445,7 +1488,8 @@
       "species": "3,200+ human + 850 species",
       "tasks": "Embeddings, functional tracks, annotation",
       "stars": 926,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/instadeepai/nucleotide-transformer#readme",
     "specsChecked": "2026-10-16",
@@ -1477,7 +1521,8 @@
       "species": "Human (hg38)",
       "tasks": "Language modeling, fine-tuning",
       "stars": 810,
-      "interface": "Package, Docker, Colab"
+      "interface": "Package, Docker, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/HazyResearch/hyena-dna#readme",
     "specsChecked": "2026-10-16",
@@ -1506,7 +1551,8 @@
       "species": "Multi-species",
       "tasks": "Genome understanding (GUE benchmark)",
       "stars": 516,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/MAGICS-LAB/DNABERT_2#readme",
     "specsChecked": "2026-10-16",
@@ -1538,7 +1584,8 @@
       "tasks": "RNA-seq coverage, variant effects",
       "stars": 268,
       "interface": "Package",
-      "species": "Human, mouse"
+      "species": "Human, mouse",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/calico/borzoi#readme",
     "specsChecked": "2026-10-16",
@@ -1569,7 +1616,8 @@
       "tasks": "Missense pathogenicity (precomputed; no weights)",
       "stars": 636,
       "interface": "Package",
-      "resolution": "Per amino-acid substitution"
+      "resolution": "Per amino-acid substitution",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google-deepmind/alphamissense#readme",
     "specsChecked": "2026-10-16",
@@ -1602,7 +1650,8 @@
       "interface": "Docker",
       "platform": "Illumina, Element, PacBio, ONT R10.4.1",
       "task": "Variant calling",
-      "variants": "Small variants (SNVs, indels)"
+      "variants": "Small variants (SNVs, indels)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google/deepvariant#readme",
     "specsChecked": "2026-10-16",
@@ -1631,7 +1680,8 @@
     "specs": {
       "species": "Human (hg38 pretraining)",
       "tasks": "RC-equivariant bidirectional DNA LM; long-range variant effect prediction",
-      "stars": 253
+      "stars": 253,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/kuleshov-group/caduceus#readme",
     "specsChecked": "2026-10-16",
@@ -1658,7 +1708,8 @@
       "stars": 3625,
       "interface": "Package",
       "task": "Cheminformatics toolkit",
-      "representation": "2D/3D molecules; descriptors and fingerprints"
+      "representation": "2D/3D molecules; descriptors and fingerprints",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/rdkit/rdkit#readme",
     "specsChecked": "2026-10-16",
@@ -1685,7 +1736,8 @@
     "dateSource": "https://github.com/deepchem/deepchem/releases/tag/0.0.1",
     "specs": {
       "stars": 7060,
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/deepchem/deepchem#readme",
     "specsChecked": "2026-10-16",
@@ -1712,10 +1764,11 @@
     "firstReleased": "2022-10-04",
     "dateSource": "https://arxiv.org/abs/2210.01776",
     "specs": {
-      "stars": 1585,
+      "stars": 1584,
       "interface": "Docker",
       "task": "Molecular docking (diffusion)",
-      "representation": "Protein structure (PDB or ESMFold-folded sequence) + ligand SMILES/SDF/MOL2"
+      "representation": "Protein structure (PDB or ESMFold-folded sequence) + ligand SMILES/SDF/MOL2",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/gcorso/DiffDock#readme",
     "specsChecked": "2026-10-16",
@@ -1742,11 +1795,12 @@
     "firstReleased": "2023-11-07",
     "dateSource": "https://github.com/MolecularAI/REINVENT4/releases/tag/v4.0.11",
     "specs": {
-      "stars": 879,
+      "stars": 878,
       "interface": "Package",
       "task": "Generative molecule design (RL, transfer, curriculum learning)",
       "representation": "SMILES (RNN, transformer generators)",
-      "weights": "Yes (open source)"
+      "weights": "Yes (open source)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/MolecularAI/REINVENT4#readme",
     "specsChecked": "2026-10-16",
@@ -1778,7 +1832,8 @@
       "interface": "Colab, Web",
       "task": "Property prediction",
       "representation": "Molecular graph (message passing NN)",
-      "weights": "Yes (Halicin model checkpoints on Zenodo)"
+      "weights": "Yes (Halicin model checkpoints on Zenodo)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/chemprop/chemprop#readme",
     "specsChecked": "2026-10-16",
@@ -1809,7 +1864,8 @@
       "stars": 1589,
       "interface": "Package, Colab",
       "task": "Property prediction, molecule design, retrosynthesis, KG reasoning",
-      "representation": "Molecular graphs"
+      "representation": "Molecular graphs",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/DeepGraphLearning/torchdrug#readme",
     "specsChecked": "2026-10-16",
@@ -1836,9 +1892,10 @@
     "firstReleased": "2021-03-01",
     "dateSource": "https://github.com/ccsb-scripps/AutoDock-Vina/releases/tag/v1.2.0.dev3",
     "specs": {
-      "stars": 1086,
+      "stars": 1087,
       "task": "Docking, virtual screening (multi-ligand, batch)",
-      "representation": "3D structures (scoring function)"
+      "representation": "3D structures (scoring function)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ccsb-scripps/AutoDock-Vina#readme",
     "specsChecked": "2026-10-16",
@@ -1865,7 +1922,8 @@
     "firstReleased": "2013-10-02",
     "dateSource": "https://github.com/openmm/openmm/releases/tag/5.2",
     "specs": {
-      "stars": 2001
+      "stars": 2001,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/openmm/openmm#readme",
     "specsChecked": "2026-10-16",
@@ -1890,7 +1948,8 @@
     "lastChecked": "2026-10-16",
     "specs": {
       "stars": 870,
-      "interface": "Docker"
+      "interface": "Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes#readme",
     "specsChecked": "2026-10-16",
@@ -1943,7 +2002,8 @@
       "stars": 3982,
       "interface": "Package",
       "backbone": "LLM (provider configurable via API keys)",
-      "actions": "Tools, databases, protocols mined from publications; code execution"
+      "actions": "Tools, databases, protocols mined from publications; code execution",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/snap-stanford/Biomni#readme",
     "specsChecked": "2026-10-16",
@@ -1986,10 +2046,11 @@
     "firstReleased": "2024-09-10",
     "dateSource": "https://arxiv.org/abs/2409.13740",
     "specs": {
-      "stars": 9390,
+      "stars": 9394,
       "interface": "Package",
       "actions": "Paper retrieval, LLM re-ranking + contextual summarization (RAG)",
-      "backbone": "Any LiteLLM-compatible model (examples use GPT-4o, Claude)"
+      "backbone": "Any LiteLLM-compatible model (examples use GPT-4o, Claude)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Future-House/paper-qa#readme",
     "specsChecked": "2026-10-16",
@@ -2018,7 +2079,8 @@
     "specs": {
       "stars": 221,
       "interface": "Package, Docker",
-      "backbone": "Multiple LLM providers, incl. open-source via Xorbits Inference"
+      "backbone": "Multiple LLM providers, incl. open-source via Xorbits Inference",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/biocypher/biochatter#readme",
     "specsChecked": "2026-10-16",
@@ -2105,7 +2167,8 @@
     "dateSource": "https://github.com/latchbio/latch/releases/tag/v0.0.30",
     "specs": {
       "stars": 174,
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/latchbio/latch#readme",
     "specsChecked": "2026-10-16",
@@ -2255,7 +2318,8 @@
       "modality": "Microscopy",
       "segType": "Cell / nucleus instance",
       "stars": 2402,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/MouseLand/cellpose#readme",
     "specsChecked": "2026-10-16",
@@ -2286,7 +2350,8 @@
       "modality": "Microscopy, histopathology",
       "segType": "Nucleus instance (star-convex)",
       "stars": 1284,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/stardist/stardist#readme",
     "specsChecked": "2026-10-16",
@@ -2314,8 +2379,9 @@
     "specs": {
       "dims": "n-D (2D/3D)",
       "modality": "Microscopy viewer",
-      "stars": 2780,
-      "interface": "Package"
+      "stars": 2781,
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/napari/napari#readme",
     "specsChecked": "2026-10-16",
@@ -2344,8 +2410,9 @@
     "specs": {
       "modality": "Whole-slide, brightfield, fluorescence",
       "segType": "Cell",
-      "stars": 1463,
-      "dims": "2D (whole-slide images)"
+      "stars": 1464,
+      "dims": "2D (whole-slide images)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/qupath/qupath#readme",
     "specsChecked": "2026-10-16",
@@ -2376,7 +2443,8 @@
       "modality": "H&E (UNI: 100M+ images, 100k+ WSIs, 20 tissues); UNI 2 adds IHC",
       "stars": 789,
       "interface": "Package",
-      "dims": "2D tiles from WSIs"
+      "dims": "2D tiles from WSIs",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/mahmoodlab/UNI#readme",
     "specsChecked": "2026-10-16",
@@ -2407,7 +2475,8 @@
       "modality": "Histopathology images + text (1.17M image-caption pairs)",
       "stars": 537,
       "interface": "Package",
-      "dims": "2D"
+      "dims": "2D",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/mahmoodlab/CONCH#readme",
     "specsChecked": "2026-10-16",
@@ -2438,7 +2507,8 @@
       "modality": "Whole-slide pathology",
       "stars": 641,
       "interface": "Package",
-      "dims": "2D whole-slide (1.3B 256×256 tiles, 171k slides)"
+      "dims": "2D whole-slide (1.3B 256×256 tiles, 171k slides)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/prov-gigapath/prov-gigapath#readme",
     "specsChecked": "2026-10-16",
@@ -2464,7 +2534,8 @@
     "specs": {
       "stars": 1137,
       "segType": "Pipeline modules (object identification + measurement)",
-      "modality": "Microscopy (high-throughput)"
+      "modality": "Microscopy (high-throughput)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/CellProfiler/CellProfiler#readme",
     "specsChecked": "2026-10-16",
@@ -2495,7 +2566,8 @@
       "dims": "2D, 3D",
       "modality": "Microscopy",
       "segType": "Interactive + automatic, tracking",
-      "stars": 738
+      "stars": 738,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/computational-cell-analytics/micro-sam#readme",
     "specsChecked": "2026-10-16",
@@ -2524,7 +2596,8 @@
       "stars": 128,
       "size": "33M+ unique cells, 436 datasets (site, Oct 2026)",
       "modality": "Single-cell",
-      "access": "Open; data CC-BY; Census API (R, Python)"
+      "access": "Open; data CC-BY; Census API (R, Python)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/chanzuckerberg/cellxgene-census#readme",
     "specsChecked": "2026-10-16",
@@ -2654,7 +2727,8 @@
       "interface": "Docker",
       "size": "250+ DMS assays, millions of mutated sequences + clinical sets",
       "modality": "Protein fitness / mutation effects",
-      "access": "Open (MIT code; downloadable benchmarks)"
+      "access": "Open (MIT code; downloadable benchmarks)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/OATML-Markslab/ProteinGym#readme",
     "specsChecked": "2026-10-16",
@@ -2685,7 +2759,8 @@
       "stars": 1297,
       "interface": "Package, Colab",
       "modality": "Therapeutics ML datasets across modalities and stages",
-      "access": "Open (Python library)"
+      "access": "Open (Python library)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/mims-harvard/TDC#readme",
     "specsChecked": "2026-10-16",
@@ -2730,7 +2805,8 @@
       "stars": 441,
       "size": "14 tasks, 140 methods, 127 datasets",
       "modality": "Single-cell benchmarks",
-      "access": "Open"
+      "access": "Open",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/openproblems-bio/openproblems#readme",
     "specsChecked": "2026-10-16",
@@ -2759,7 +2835,8 @@
     "dateSource": "https://arxiv.org/abs/2308.05777",
     "specs": {
       "stars": 414,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/maabuu/posebusters#readme",
     "specsChecked": "2026-10-16",
@@ -2788,7 +2865,8 @@
       "stars": 145,
       "interface": "Package",
       "modality": "Drug discovery datasets and benchmarks",
-      "access": "Open hub (download via polaris-lib)"
+      "access": "Open hub (download via polaris-lib)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/polaris-hub/polaris#readme",
     "specsChecked": "2026-10-16",
@@ -2844,7 +2922,9 @@
     "released": "2026-10-05",
     "source": "https://arcinstitute.org/news/pie",
     "specs": {
-      "tasks": "Perturbation-response prediction in unseen contexts"
+      "tasks": "Perturbation-response prediction in unseen contexts",
+      "stars": 54,
+      "starsChecked": "2026-10-16"
     },
     "specsSources": [
       "https://doi.org/10.64898/2026.10.02.756297",
@@ -2878,7 +2958,8 @@
       "task": "Enzyme design (catalytic motif scaffolding)",
       "modalities": "Protein + ligand context",
       "stars": 296,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google-deepmind/alphaprotein-novo#readme",
     "specsChecked": "2026-10-16",
@@ -2960,7 +3041,8 @@
       "weights": "Yes (Hugging Face)",
       "gpu": "~32 GB GPU memory",
       "stars": 55,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/jleechung/prompteina#readme",
     "specsChecked": "2026-10-16",
@@ -2991,7 +3073,8 @@
     "specs": {
       "stars": 881,
       "platform": "Oxford Nanopore",
-      "task": "Basecalling incl. modified bases"
+      "task": "Basecalling incl. modified bases",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/nanoporetech/dorado#readme",
     "specsChecked": "2026-10-16",
@@ -3021,7 +3104,8 @@
       "stars": 435,
       "interface": "Package",
       "platform": "Oxford Nanopore",
-      "task": "Basecaller training / research"
+      "task": "Basecaller training / research",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/nanoporetech/bonito#readme",
     "specsChecked": "2026-10-16",
@@ -3051,7 +3135,8 @@
       "stars": 530,
       "interface": "Package",
       "platform": "Oxford Nanopore",
-      "task": "Consensus polishing, variant calling"
+      "task": "Consensus polishing, variant calling",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/nanoporetech/medaka#readme",
     "specsChecked": "2026-10-16",
@@ -3081,7 +3166,8 @@
       "stars": 190,
       "interface": "Package",
       "platform": "Oxford Nanopore",
-      "task": "Modified-base detection (methylation)"
+      "task": "Modified-base detection (methylation)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/nanoporetech/remora#readme",
     "specsChecked": "2026-10-16",
@@ -3113,7 +3199,8 @@
       "interface": "Package, Docker",
       "platform": "Long reads (ONT, PacBio) and short reads",
       "task": "Germline variant calling",
-      "variants": "Small variants (SNPs, indels)"
+      "variants": "Small variants (SNPs, indels)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/HKU-BAL/Clair3#readme",
     "specsChecked": "2026-10-16",
@@ -3145,7 +3232,8 @@
       "stars": 265,
       "interface": "Package, Docker",
       "platform": "PacBio (CCS / HiFi)",
-      "task": "Consensus read correction"
+      "task": "Consensus read correction",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google/deepconsensus#readme",
     "specsChecked": "2026-10-16",
@@ -3177,7 +3265,8 @@
       "stars": 261,
       "interface": "Docker",
       "platform": "Oxford Nanopore",
-      "task": "Haplotype-aware variant calling, polishing"
+      "task": "Haplotype-aware variant calling, polishing",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/kishwarshafin/pepper#readme",
     "specsChecked": "2026-10-16",
@@ -3210,7 +3299,8 @@
       "interface": "Package",
       "platform": "PacBio HiFi, ONT",
       "task": "SV calling (germline, somatic, population, mosaic)",
-      "variants": "Structural variants"
+      "variants": "Structural variants",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/fritzsedlazeck/Sniffles#readme",
     "specsChecked": "2026-10-16",
@@ -3243,7 +3333,8 @@
       "tasks": "Cell-type-specific epigenetic + transcriptional profiles",
       "stars": 477,
       "interface": "Package",
-      "species": "Mammalian genomes (human, mouse)"
+      "species": "Mammalian genomes (human, mouse)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/calico/basenji#readme",
     "specsChecked": "2026-10-16",
@@ -3275,7 +3366,8 @@
       "resolution": "Base resolution",
       "tasks": "Base-resolution accessibility; bias correction; variant effects",
       "stars": 257,
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/kundajelab/chrombpnet#readme",
     "specsChecked": "2026-10-16",
@@ -3307,7 +3399,8 @@
       "resolution": "Base resolution",
       "tasks": "Base-resolution ChIP-nexus TF binding profiles",
       "stars": 187,
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/kundajelab/bpnet#readme",
     "specsChecked": "2026-10-16",
@@ -3339,7 +3432,8 @@
       "tasks": "21,907 chromatin profiles across >1,300 cell lines/tissues; sequence classes",
       "stars": 118,
       "interface": "Package",
-      "species": "Human"
+      "species": "Human",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/FunctionLab/sei-framework#readme",
     "specsChecked": "2026-10-16",
@@ -3370,7 +3464,8 @@
     "specs": {
       "stars": 400,
       "interface": "Package",
-      "tasks": "Library to train/apply sequence models"
+      "tasks": "Library to train/apply sequence models",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/FunctionLab/selene#readme",
     "specsChecked": "2026-10-16",
@@ -3402,7 +3497,8 @@
       "architecture": "Sequence CNN",
       "tasks": "scATAC / multiome representation, TF activity",
       "stars": 103,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/calico/scBasset#readme",
     "specsChecked": "2026-10-16",
@@ -3434,7 +3530,8 @@
       "tasks": "Missense variant effects",
       "stars": 208,
       "species": "Human disease genes",
-      "resolution": "Per amino-acid substitution"
+      "resolution": "Per amino-acid substitution",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/OATML-Markslab/EVE#readme",
     "specsChecked": "2026-10-16",
@@ -3466,7 +3563,8 @@
       "stars": 76,
       "species": "Human (trained with 233 primate species variation)",
       "resolution": "Per protein-altering variant",
-      "tasks": "Variant pathogenicity"
+      "tasks": "Variant pathogenicity",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Illumina/PrimateAI-3D#readme",
     "specsChecked": "2026-10-16",
@@ -3495,10 +3593,11 @@
     "firstReleased": "2023-10-11",
     "dateSource": "https://doi.org/10.1101/2023.10.10.561776",
     "specs": {
-      "stars": 383,
+      "stars": 384,
       "interface": "Package, Colab",
       "species": "Human (multi-species alignment input)",
-      "tasks": "Genome-wide variant effect prediction"
+      "tasks": "Genome-wide variant effect prediction",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/songlab-cal/gpn#readme",
     "specsChecked": "2026-10-16",
@@ -3530,7 +3629,8 @@
       "stars": 488,
       "interface": "Docker",
       "acquisition": "DIA",
-      "task": "Identification + quantification"
+      "task": "Identification + quantification",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/vdemichev/DiaNN#readme",
     "specsChecked": "2026-10-16",
@@ -3562,7 +3662,8 @@
       "stars": 160,
       "interface": "Package, Docker, Web",
       "task": "Predict RT, CCS, MS2 spectra (+ HLA presentation)",
-      "input": "Peptide sequence"
+      "input": "Peptide sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/MannLabs/alphapeptdeep#readme",
     "specsChecked": "2026-10-16",
@@ -3595,7 +3696,8 @@
       "interface": "Package, Docker",
       "acquisition": "DIA",
       "task": "Search engine (empirical or predicted libraries)",
-      "input": "Thermo .raw, Bruker .d, others"
+      "input": "Thermo .raw, Bruker .d, others",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/MannLabs/alphadia#readme",
     "specsChecked": "2026-10-16",
@@ -3627,7 +3729,8 @@
       "stars": 50,
       "interface": "Web",
       "task": "MS2 fragmentation spectrum prediction",
-      "input": "Peptide sequence (tryptic, non-tryptic, immunopeptides)"
+      "input": "Peptide sequence (tryptic, non-tryptic, immunopeptides)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/CompOmics/ms2pip#readme",
     "specsChecked": "2026-10-16",
@@ -3659,7 +3762,8 @@
       "stars": 80,
       "interface": "Package, Web",
       "task": "Retention-time prediction (any modification)",
-      "input": "Peptide sequence + modifications"
+      "input": "Peptide sequence + modifications",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/CompOmics/DeepLC#readme",
     "specsChecked": "2026-10-16",
@@ -3690,7 +3794,8 @@
     "specs": {
       "stars": 204,
       "task": "De novo peptide sequencing",
-      "input": "MS/MS spectra"
+      "input": "MS/MS spectra",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Noble-Lab/casanovo#readme",
     "specsChecked": "2026-10-16",
@@ -3722,7 +3827,8 @@
       "stars": 135,
       "interface": "Colab",
       "task": "De novo peptide sequencing (transformer + diffusion)",
-      "input": "MS/MS spectra"
+      "input": "MS/MS spectra",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/instadeepai/InstaNovo#readme",
     "specsChecked": "2026-10-16",
@@ -3753,7 +3859,8 @@
       "stars": 170,
       "interface": "Web",
       "task": "Metabolite formula / structure annotation (CSI:FingerID)",
-      "input": "LC-MS/MS"
+      "input": "LC-MS/MS",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/sirius-ms/sirius#readme",
     "specsChecked": "2026-10-16",
@@ -3785,7 +3892,8 @@
       "stars": 89,
       "interface": "Package",
       "task": "Structural similarity between spectra",
-      "input": "MS/MS spectrum pairs"
+      "input": "MS/MS spectrum pairs",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/matchms/ms2deepscore#readme",
     "specsChecked": "2026-10-16",
@@ -3817,7 +3925,8 @@
       "stars": 275,
       "interface": "Package",
       "task": "Import, clean, compare spectra",
-      "input": "mzML, mzXML, msp, MGF, JSON, USI"
+      "input": "mzML, mzXML, msp, MGF, JSON, USI",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/matchms/matchms#readme",
     "specsChecked": "2026-10-16",
@@ -3848,7 +3957,8 @@
       "stars": 217,
       "interface": "Package, Colab",
       "task": "Self-supervised spectrum representations, annotation",
-      "input": "MS/MS spectra"
+      "input": "MS/MS spectra",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/pluskal-lab/DreaMS#readme",
     "specsChecked": "2026-10-16",
@@ -3878,7 +3988,8 @@
       "stars": 306,
       "acquisition": "DDA and DIA",
       "task": "Feature detection, alignment, annotation",
-      "input": "Vendor raw files: LC-MS, GC-MS, ion mobility, MS imaging"
+      "input": "Vendor raw files: LC-MS, GC-MS, ion mobility, MS imaging",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/mzmine/mzmine#readme",
     "specsChecked": "2026-10-16",
@@ -3911,7 +4022,8 @@
       "interface": "Docker, Web",
       "system": "CRISPR-Cas9",
       "task": "Guide design: off-target + on-target scoring, primers, cloning",
-      "organism": "Many genomes (No-genome mode available)"
+      "organism": "Many genomes (No-genome mode available)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/maximilianh/crisporWebsite#readme",
     "specsChecked": "2026-10-16",
@@ -3973,7 +4085,8 @@
       "stars": 18,
       "interface": "Package",
       "system": "SpCas9",
-      "task": "sgRNA on-target activity (tracrRNA-aware)"
+      "task": "sgRNA on-target activity (tracrRNA-aware)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/gpp-rnd/rs3#readme",
     "specsChecked": "2026-10-16",
@@ -4006,7 +4119,8 @@
       "interface": "Package",
       "system": "Prime editing",
       "task": "pegRNA efficiency / product purity prediction",
-      "organism": "Human (training screen)"
+      "organism": "Human (training screen)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/uzh-dqbm-cmi/PRIDICT#readme",
     "specsChecked": "2026-10-16",
@@ -4037,7 +4151,8 @@
     "specs": {
       "stars": 357,
       "interface": "Docker",
-      "task": "Editing-outcome quantification from amplicon / WGS reads"
+      "task": "Editing-outcome quantification from amplicon / WGS reads",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/pinellolab/CRISPResso2#readme",
     "specsChecked": "2026-10-16",
@@ -4068,7 +4183,8 @@
       "stars": 1209,
       "system": "Cas9-like (Type II), NGG PAM",
       "task": "AI-designed gene editor",
-      "organism": "Human cells (demonstrated)"
+      "organism": "Human cells (demonstrated)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Profluent-AI/OpenCRISPR#readme",
     "specsChecked": "2026-10-16",
@@ -4100,7 +4216,8 @@
       "task": "Antibody structure prediction",
       "weights": "Yes (non-commercial)",
       "stars": 438,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Graylab/IgFold#readme",
     "specsChecked": "2026-10-16",
@@ -4131,7 +4248,8 @@
       "stars": 173,
       "interface": "Package",
       "task": "Antibody language model; residue restoration",
-      "modalities": "Antibody sequences"
+      "modalities": "Antibody sequences",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/oxpig/AbLang#readme",
     "specsChecked": "2026-10-16",
@@ -4163,7 +4281,8 @@
       "stars": 46,
       "interface": "Package",
       "task": "Antibody language model (germline-bias aware)",
-      "modalities": "Paired antibody sequences"
+      "modalities": "Paired antibody sequences",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/oxpig/AbLang2#readme",
     "specsChecked": "2026-10-16",
@@ -4195,7 +4314,8 @@
       "task": "Antibody, nanobody, TCR structure prediction",
       "stars": 193,
       "interface": "Package, Colab",
-      "modalities": "Antibody, nanobody, TCR"
+      "modalities": "Antibody, nanobody, TCR",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/oxpig/ImmuneBuilder#readme",
     "specsChecked": "2026-10-16",
@@ -4227,7 +4347,8 @@
       "task": "Antibody language model (embeddings)",
       "weights": "Yes (Hugging Face, ~100 MB)",
       "stars": 83,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/jeffreyruffolo/AntiBERTy#readme",
     "specsChecked": "2026-10-16",
@@ -4259,7 +4380,8 @@
       "weights": "Yes",
       "stars": 542,
       "interface": "Docker",
-      "modalities": "VHH, scFv"
+      "modalities": "VHH, scFv",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/RosettaCommons/RFantibody#readme",
     "specsChecked": "2026-10-16",
@@ -4291,7 +4413,8 @@
       "task": "Antibody humanization, humanness evaluation",
       "stars": 268,
       "interface": "Package, Docker, Web",
-      "modalities": "Antibody sequences (OAS-based)"
+      "modalities": "Antibody sequences (OAS-based)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Merck/BioPhi#readme",
     "specsChecked": "2026-10-16",
@@ -4323,7 +4446,8 @@
       "stars": 249,
       "task": "3D structure prediction",
       "level": "3D",
-      "input": "Single-chain RNA sequence (+ MSA)"
+      "input": "Single-chain RNA sequence (+ MSA)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ml4bio/RhoFold#readme",
     "specsChecked": "2026-10-16",
@@ -4355,7 +4479,8 @@
       "stars": 393,
       "interface": "Package, Colab",
       "task": "Foundation model (23M+ ncRNAs); mRNA-FM on 45M CDS",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ml4bio/RNA-FM#readme",
     "specsChecked": "2026-10-16",
@@ -4387,7 +4512,8 @@
       "interface": "Package",
       "task": "Chemical reactivity, secondary structure, degradation",
       "level": "2D",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Shujun-He/RibonanzaNet#readme",
     "specsChecked": "2026-10-16",
@@ -4419,7 +4545,8 @@
       "stars": 71,
       "task": "Secondary structure / ensemble prediction",
       "level": "2D",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/WaymentSteeleLab/EternaFold#readme",
     "specsChecked": "2026-10-16",
@@ -4452,7 +4579,8 @@
       "interface": "Package",
       "task": "Base pairs incl. non-canonical and pseudoknots",
       "level": "2D",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/jaswindersingh2/SPOT-RNA#readme",
     "specsChecked": "2026-10-16",
@@ -4485,7 +4613,8 @@
       "interface": "Web",
       "task": "Secondary structure prediction",
       "level": "2D",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/uci-cbcl/UFold#readme",
     "specsChecked": "2026-10-16",
@@ -4518,7 +4647,8 @@
       "interface": "Package",
       "task": "MFE, partition function, inverse folding",
       "level": "2D",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ViennaRNA/ViennaRNA#readme",
     "specsChecked": "2026-10-16",
@@ -4552,7 +4682,8 @@
       "interface": "Colab",
       "task": "Inverse design from 3D structure",
       "level": "3D",
-      "input": "RNA backbone structure"
+      "input": "RNA backbone structure",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/chaitjo/geometric-rna-design#readme",
     "specsChecked": "2026-10-16",
@@ -4584,7 +4715,8 @@
       "interface": "Package, Docker",
       "input": "Metagenomic shotgun reads",
       "task": "Species-level taxonomic profiling (bacteria, archaea, eukaryotes, viruses)",
-      "database": "Marker genes from 1.01M reference genomes + MAGs (26,970 SGBs)"
+      "database": "Marker genes from 1.01M reference genomes + MAGs (26,970 SGBs)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/biobakery/MetaPhlAn#readme",
     "specsChecked": "2026-10-16",
@@ -4617,7 +4749,8 @@
       "interface": "Package",
       "input": "Metagenomic / metatranscriptomic reads",
       "task": "Functional profiling (gene families, pathways)",
-      "database": "ChocoPhlAn"
+      "database": "ChocoPhlAn",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/biobakery/humann#readme",
     "specsChecked": "2026-10-16",
@@ -4648,7 +4781,8 @@
     "specs": {
       "stars": 943,
       "input": "Metagenomic sequence reads",
-      "task": "k-mer taxonomic classification (+ translated search)"
+      "task": "k-mer taxonomic classification (+ translated search)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/DerrickWood/kraken2#readme",
     "specsChecked": "2026-10-16",
@@ -4681,7 +4815,8 @@
       "interface": "Docker",
       "input": "Bacterial / archaeal genomes, MAGs",
       "task": "GTDB taxonomy assignment",
-      "database": "GTDB reference tree"
+      "database": "GTDB reference tree",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Ecogenomics/GTDBTk#readme",
     "specsChecked": "2026-10-16",
@@ -4714,7 +4849,8 @@
       "interface": "Docker",
       "input": "Isolates, metagenomes, metatranscriptomes",
       "task": "Virus + plasmid identification, provirus detection",
-      "database": "200,000+ marker protein profiles"
+      "database": "200,000+ marker protein profiles",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/apcamargo/genomad#readme",
     "specsChecked": "2026-10-16",
@@ -4746,7 +4882,8 @@
       "stars": 280,
       "interface": "Package",
       "input": "Genome bins / MAGs",
-      "task": "Completeness + contamination estimation"
+      "task": "Completeness + contamination estimation",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/chklovski/CheckM2#readme",
     "specsChecked": "2026-10-16",
@@ -4778,7 +4915,8 @@
       "stars": 175,
       "interface": "Package",
       "input": "Contigs (short and long reads)",
-      "task": "Metagenomic binning (self-supervised)"
+      "task": "Metagenomic binning (self-supervised)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/BigDataBiology/SemiBin#readme",
     "specsChecked": "2026-10-16",
@@ -4809,7 +4947,8 @@
     "specs": {
       "stars": 334,
       "input": "Contigs (k-mer + abundance)",
-      "task": "Metagenomic binning (VAE)"
+      "task": "Metagenomic binning (VAE)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/RasmussenLab/vamb#readme",
     "specsChecked": "2026-10-16",
@@ -4840,7 +4979,8 @@
     "specs": {
       "stars": 532,
       "input": "Amplicon (marker gene) and shotgun data",
-      "task": "Microbiome analysis, visualization, statistics"
+      "task": "Microbiome analysis, visualization, statistics",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/rachis-org/rachis#readme",
     "specsChecked": "2026-10-16",
@@ -4872,7 +5012,8 @@
       "stars": 2212,
       "modality": "Text",
       "baseModel": "Llama 2",
-      "params": "7B, 70B"
+      "params": "7B, 70B",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/epfLLM/meditron#readme",
     "specsChecked": "2026-10-16",
@@ -4900,10 +5041,11 @@
     "firstReleased": "2025-05-20",
     "dateSource": "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-developer-updates-io-2025/",
     "specs": {
-      "stars": 1633,
+      "stars": 1635,
       "modality": "Text + medical images",
       "baseModel": "Gemma 3 (SigLIP image encoder)",
-      "params": "4B multimodal, 27B text-only"
+      "params": "4B multimodal, 27B text-only",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Google-Health/medgemma#readme",
     "specsChecked": "2026-10-16",
@@ -4936,7 +5078,8 @@
       "interface": "Package, Web",
       "modality": "Text + biomedical images",
       "baseModel": "LLaVA (v1.5 on Mistral-7B)",
-      "params": "7B (v1.5)"
+      "params": "7B (v1.5)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/microsoft/LLaVA-Med#readme",
     "specsChecked": "2026-10-16",
@@ -4968,7 +5111,8 @@
       "modality": "Nine biomedical imaging modalities",
       "segType": "Segmentation, detection, recognition",
       "stars": 709,
-      "interface": "Package, Docker, Colab"
+      "interface": "Package, Docker, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/microsoft/BiomedParse#readme",
     "specsChecked": "2026-10-16",
@@ -5018,7 +5162,8 @@
       "stars": 212,
       "backbone": "GPT-4",
       "actions": "Plans and runs experiments; reaction optimization",
-      "wetlab": "Yes (lab hardware)"
+      "wetlab": "Yes (lab hardware)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/gomesgroup/coscientist#readme",
     "specsChecked": "2026-10-16",
@@ -5050,7 +5195,8 @@
       "stars": 965,
       "interface": "Package, Docker",
       "backbone": "GPT-4 (LangChain)",
-      "actions": "18 expert tools incl. RDKit, paper-qa, PubChem"
+      "actions": "18 expert tools incl. RDKit, paper-qa, PubChem",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ur-whitelab/chemcrow-public#readme",
     "specsChecked": "2026-10-16",
@@ -5079,9 +5225,10 @@
     "firstReleased": "2023-07-10",
     "dateSource": "https://doi.org/10.1101/2023.07.10.547733",
     "specs": {
-      "stars": 574,
+      "stars": 575,
       "actions": "Liquid handlers, plate readers, pumps, scales, heater shakers",
-      "wetlab": "Yes (hardware-agnostic robot control)"
+      "wetlab": "Yes (hardware-agnostic robot control)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/PyLabRobot/pylabrobot#readme",
     "specsChecked": "2026-10-16",
@@ -5108,7 +5255,8 @@
     "specs": {
       "stars": 525,
       "services": "Liquid-handling robots",
-      "ordering": "Python Protocol API"
+      "ordering": "Python Protocol API",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Opentrons/opentrons#readme",
     "specsChecked": "2026-10-16",
@@ -5140,7 +5288,8 @@
       "stars": 131,
       "interface": "Package",
       "backbone": "Claude v1",
-      "actions": "Literature search and other tools for perturbation design"
+      "actions": "Literature search and other tools for perturbation design",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/snap-stanford/BioDiscoveryAgent#readme",
     "specsChecked": "2026-10-16",
@@ -5171,7 +5320,8 @@
       "stars": 743,
       "interface": "Package, Docker",
       "backbone": "Configurable LLM provider (e.g. OpenAI) + Edison agents",
-      "actions": "Literature agents, data analysis"
+      "actions": "Literature agents, data analysis",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Future-House/robin#readme",
     "specsChecked": "2026-10-16",
@@ -5202,7 +5352,8 @@
       "stars": 284,
       "interface": "Package",
       "actions": "Gym environments (tool calls) for training language agents",
-      "backbone": "Any LLM endpoint (examples: GPT-4o, Claude, Llama)"
+      "backbone": "Any LLM endpoint (examples: GPT-4o, Claude, Llama)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/Future-House/aviary#readme",
     "specsChecked": "2026-10-16",
@@ -5234,8 +5385,9 @@
       "modalities": "Monomer, multimer",
       "msa": "Yes (genetic databases)",
       "gpu": "NVIDIA GPU",
-      "stars": 14889,
-      "interface": "Docker, Colab"
+      "stars": 14890,
+      "interface": "Docker, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google-deepmind/alphafold#readme",
     "specsChecked": "2026-10-16",
@@ -5267,7 +5419,8 @@
       "msa": "Yes (ColabFold MMseqs2 or own A3M)",
       "weights": "Yes",
       "stars": 889,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/microsoft/bioemu#readme",
     "specsChecked": "2026-10-16",
@@ -5297,8 +5450,9 @@
     "specs": {
       "task": "Backbone generation",
       "weights": "Yes",
-      "stars": 279,
-      "interface": "Package"
+      "stars": 280,
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/NVIDIA-BioNeMo/proteina#readme",
     "specsChecked": "2026-10-16",
@@ -5329,7 +5483,8 @@
       "task": "Joint sequence–structure (atomistic) generation",
       "weights": "Yes",
       "stars": 313,
-      "interface": "Package"
+      "interface": "Package",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/NVIDIA-BioNeMo/la-proteina#readme",
     "specsChecked": "2026-10-16",
@@ -5359,7 +5514,8 @@
     "specs": {
       "task": "Sequence generation, fitness prediction",
       "stars": 707,
-      "modalities": "Protein sequence"
+      "modalities": "Protein sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/salesforce/progen#readme",
     "specsChecked": "2026-10-16",
@@ -5393,7 +5549,8 @@
       "species": "Prokaryotic",
       "tasks": "Language modeling, design",
       "stars": 1579,
-      "interface": "Package, Colab"
+      "interface": "Package, Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/evo-design/evo#readme",
     "specsChecked": "2026-10-16",
@@ -5424,7 +5581,8 @@
       "architecture": "Transformer",
       "tasks": "Perturbation effects across cell contexts",
       "stars": 726,
-      "interface": "Colab"
+      "interface": "Colab",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ArcInstitute/state#readme",
     "specsChecked": "2026-10-16",
@@ -5458,7 +5616,8 @@
       "species": "12 species",
       "stars": 168,
       "interface": "Package",
-      "tasks": "Cell-type classification, zero-shot disease state, cross-species annotation transfer"
+      "tasks": "Cell-type classification, zero-shot disease state, cross-species annotation transfer",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/czi-ai/transcriptformer#readme",
     "specsChecked": "2026-10-16",
@@ -5490,7 +5649,8 @@
       "task": "Enzyme active-site scaffolding",
       "weights": "Yes",
       "stars": 450,
-      "modalities": "Enzyme from functional-group geometry"
+      "modalities": "Enzyme from functional-group geometry",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/RosettaCommons/RFdiffusion2#readme",
     "specsChecked": "2026-10-16",
@@ -5522,7 +5682,8 @@
       "weights": "Yes (auto-download)",
       "gpu": "NVIDIA GPU (CUDA 13 driver for ESMFold2)",
       "stars": 1081,
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/HannesStark/boltzgen#readme",
     "specsChecked": "2026-10-16",
@@ -5551,7 +5712,9 @@
     "specs": {
       "task": "Biomolecular complex structure prediction",
       "weights": "Yes (Hugging Face)",
-      "interface": "Package, Docker"
+      "interface": "Package, Docker",
+      "stars": 897,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/aqlaboratory/openfold-3",
     "specsChecked": "2026-10-16",
@@ -5582,7 +5745,9 @@
     "dateSource": "https://www.biorxiv.org/content/10.1101/2025.10.23.683759v1",
     "specs": {
       "corpus": "Tahoe-100M + single-cell corpora",
-      "architecture": "Transformer (70M / 1.3B / 3B)"
+      "architecture": "Transformer (70M / 1.3B / 3B)",
+      "stars": 165,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://doi.org/10.1101/2025.10.23.683759",
     "specsChecked": "2026-10-16",
@@ -5634,7 +5799,9 @@
     "specs": {
       "task": "All-atom protein design",
       "interface": "Package (foundry)",
-      "weights": "Yes (foundry install base-models)"
+      "weights": "Yes (foundry install base-models)",
+      "stars": 1003,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/RosettaCommons/foundry",
     "specsChecked": "2026-10-16",
@@ -5668,7 +5835,9 @@
       "context": "1 Mb",
       "resolution": "Single base",
       "species": "24 animal & plant species (post-training)",
-      "tasks": "Functional tracks, annotation, enhancer design"
+      "tasks": "Functional tracks, annotation, enhancer design",
+      "stars": 926,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://doi.org/10.64898/2025.12.22.695963",
     "specsChecked": "2026-10-16",
@@ -5718,7 +5887,9 @@
     "dateSource": "https://github.com/NVIDIA-Digital-Bio/RNAPro/blob/main/model_cards/overview.md",
     "specs": {
       "task": "RNA 3D structure prediction",
-      "level": "Tertiary"
+      "level": "Tertiary",
+      "stars": 100,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/NVIDIA-Digital-Bio/RNAPro",
     "specsChecked": "2026-10-16",
@@ -5750,7 +5921,9 @@
     "specs": {
       "corpus": "149M human cells",
       "architecture": "Tabular-attention transformer",
-      "tasks": "Zero-shot embedding, in-context perturbation prediction"
+      "tasks": "Zero-shot embedding, in-context perturbation prediction",
+      "stars": 167,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://doi.org/10.64898/2026.01.09.698608",
     "specsChecked": "2026-10-16",
@@ -5914,7 +6087,9 @@
     "firstReleased": "2026-03-17",
     "dateSource": "https://genbio.ai/genbio-pathfm/",
     "specs": {
-      "modality": "H&E histopathology"
+      "modality": "H&E histopathology",
+      "stars": 41,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/genbio-ai/genbio-pathfm",
     "specsChecked": "2026-10-16",
@@ -5945,7 +6120,9 @@
     "dateSource": "https://www.biorxiv.org/content/10.64898/2026.03.17.712398v1",
     "specs": {
       "task": "Generative RNA design, guide-RNA design",
-      "input": "RNA sequence (8,192-token context)"
+      "input": "RNA sequence (8,192-token context)",
+      "stars": 67,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://doi.org/10.64898/2026.03.17.712398",
     "specsChecked": "2026-10-16",
@@ -6016,7 +6193,9 @@
       "task": "Structure prediction, design, embeddings",
       "msa": "No",
       "modalities": "Sequence → all-atom 3D structure, incl. complexes",
-      "weights": "Yes (Hugging Face)"
+      "weights": "Yes (Hugging Face)",
+      "stars": 2993,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/evolutionaryscale/esm",
     "specsChecked": "2026-10-16",
@@ -6077,7 +6256,9 @@
     "specs": {
       "task": "All-atom co-folding: structure prediction, design, optimization",
       "representation": "All-atom biomolecular structure (co-folding)",
-      "weights": "Yes (Hugging Face)"
+      "weights": "Yes (Hugging Face)",
+      "stars": 515,
+      "starsChecked": "2026-10-16"
     },
     "specsSources": [
       "https://github.com/aurekaresearch/OpenDDE#readme"
@@ -6106,7 +6287,9 @@
     "specs": {
       "task": "Binding affinity prediction (coarse-grained co-folding)",
       "representation": "Protein sequence + ligand SMILES",
-      "weights": "Yes (Hugging Face)"
+      "weights": "Yes (Hugging Face)",
+      "stars": 197,
+      "starsChecked": "2026-10-16"
     },
     "specsSources": [
       "https://github.com/recursionpharma/nesso#readme"
@@ -6158,7 +6341,15 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-09-07",
     "dateSource": "https://www.biorxiv.org/content/10.64898/2026.09.03.747733v1",
-    "notability": "InstaDeep; trained on 1.63B spectra"
+    "notability": "InstaDeep; trained on 1.63B spectra",
+    "specs": {
+      "stars": 13,
+      "starsChecked": "2026-10-16"
+    },
+    "specsSources": [
+      "https://github.com/instadeepai/InstaNovo-FM#readme"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "torchx",
@@ -6211,7 +6402,8 @@
       "stars": 325,
       "platform": "Illumina, PacBio HiFi, Oxford Nanopore",
       "task": "Somatic small-variant calling",
-      "variants": "SNVs, small indels"
+      "variants": "SNVs, small indels",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google/deepsomatic#readme",
     "specsChecked": "2026-10-16",
@@ -6243,7 +6435,8 @@
     "specs": {
       "stars": 111,
       "platform": "PacBio HiFi",
-      "task": "Assembly polishing"
+      "task": "Assembly polishing",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/google/deeppolisher#readme",
     "specsChecked": "2026-10-16",
@@ -6276,7 +6469,8 @@
       "stars": 98,
       "platform": "Oxford Nanopore, PacBio",
       "task": "Tumor-only somatic calling",
-      "variants": "SNVs, indels"
+      "variants": "SNVs, indels",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/HKU-BAL/ClairS-TO#readme",
     "specsChecked": "2026-10-16",
@@ -6308,7 +6502,8 @@
     "specs": {
       "stars": 265,
       "platform": "Oxford Nanopore",
-      "task": "Read error correction for T2T assembly"
+      "task": "Read error correction for T2T assembly",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/lbcb-sci/herro#readme",
     "specsChecked": "2026-10-16",
@@ -6340,7 +6535,8 @@
     "specs": {
       "tasks": "Spatial domains, batch integration",
       "stars": 162,
-      "resolution": "Single cell"
+      "resolution": "Single cell",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/prism-oncology/novae#readme",
     "specsChecked": "2026-10-16",
@@ -6370,7 +6566,8 @@
     "notability": "Bo Wang lab (scGPT authors)",
     "specs": {
       "tasks": "Foundation model (spatial transcriptomics)",
-      "stars": 143
+      "stars": 143,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/bowang-lab/scGPT-spatial#readme",
     "specsChecked": "2026-10-16",
@@ -6402,7 +6599,8 @@
     "specs": {
       "tasks": "Histology–ST alignment, decomposition, expression prediction",
       "stars": 151,
-      "platforms": "H&E + spatial transcriptomics"
+      "platforms": "H&E + spatial transcriptomics",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/GuangyuWangLab2021/Loki#readme",
     "specsChecked": "2026-10-16",
@@ -6432,7 +6630,8 @@
     "notability": "Nature Genetics 2024; R and Python packages",
     "specs": {
       "tasks": "Cell typing + domain segmentation",
-      "stars": 167
+      "stars": 167,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/prabhakarlab/Banksy#readme",
     "specsChecked": "2026-10-16",
@@ -6463,7 +6662,8 @@
     "notability": "Nature Genetics 2023",
     "specs": {
       "tasks": "Spatial niche identification",
-      "stars": 197
+      "stars": 197,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/CSOgroup/cellcharter#readme",
     "specsChecked": "2026-10-16",
@@ -6495,7 +6695,8 @@
     "specs": {
       "stars": 329,
       "input": "Metagenomic short or long reads",
-      "task": "Species-level profiling + containment ANI"
+      "task": "Species-level profiling + containment ANI",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/bluenote-1577/sylph#readme",
     "specsChecked": "2026-10-16",
@@ -6527,7 +6728,8 @@
     "specs": {
       "stars": 93,
       "input": "Metagenomic contigs (protein embeddings)",
-      "task": "Gene-context modelling, function prediction"
+      "task": "Gene-context modelling, function prediction",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/y-hwang/gLM#readme",
     "specsChecked": "2026-10-16",
@@ -6559,7 +6761,8 @@
     "specs": {
       "stars": 97,
       "input": "Metagenomic contigs (protein + DNA)",
-      "task": "Genomic language modelling"
+      "task": "Genomic language modelling",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/TattaBio/gLM2#readme",
     "specsChecked": "2026-10-16",
@@ -6591,7 +6794,8 @@
     "specs": {
       "stars": 85,
       "input": "Assembled contigs + reads",
-      "task": "Metagenomic binning"
+      "task": "Metagenomic binning",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/ziyewang/COMEBin#readme",
     "specsChecked": "2026-10-16",
@@ -6622,7 +6826,8 @@
     "notability": "Le Cong lab (Stanford); Nature Biomedical Engineering 2025",
     "specs": {
       "stars": 180,
-      "task": "Agentic gene-editing experiment design"
+      "task": "Agentic gene-editing experiment design",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/cong-lab/crispr-gpt-pub#readme",
     "specsChecked": "2026-10-16",
@@ -6653,7 +6858,8 @@
     "specs": {
       "stars": 15,
       "system": "Prime editing (multiple PE systems)",
-      "task": "pegRNA efficiency prediction"
+      "task": "pegRNA efficiency prediction",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/hkimlab/DeepPrime#readme",
     "specsChecked": "2026-10-16",
@@ -6685,7 +6891,8 @@
     "specs": {
       "stars": 4416,
       "modality": "Medical images (multi-modality)",
-      "baseModel": "Segment Anything (SAM)"
+      "baseModel": "Segment Anything (SAM)",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/bowang-lab/MedSAM#readme",
     "specsChecked": "2026-10-16",
@@ -6717,7 +6924,8 @@
     "specs": {
       "stars": 729,
       "modality": "3D medical images + video",
-      "baseModel": "SAM 2"
+      "baseModel": "SAM 2",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/bowang-lab/MedSAM2#readme",
     "specsChecked": "2026-10-16",
@@ -6748,7 +6956,8 @@
     "notability": "CUHK-Shenzhen FreedomIntelligence; 1.3k+ stars",
     "specs": {
       "stars": 1364,
-      "modality": "Text"
+      "modality": "Text",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/FreedomIntelligence/HuatuoGPT-o1#readme",
     "specsChecked": "2026-10-16",
@@ -6810,7 +7019,8 @@
     "specs": {
       "stars": 220,
       "segType": "Cell segmentation",
-      "modality": "Multiple microscopy modalities"
+      "modality": "Multiple microscopy modalities",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/vanvalenlab/cellSAM#readme",
     "specsChecked": "2026-10-16",
@@ -6841,7 +7051,8 @@
     "notability": "Mahmood lab (UNI/CONCH); Nature Medicine 2025",
     "specs": {
       "stars": 373,
-      "modality": "H&E whole-slide images + text"
+      "modality": "H&E whole-slide images + text",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/mahmoodlab/TITAN#readme",
     "specsChecked": "2026-10-16",
@@ -6872,7 +7083,8 @@
     "notability": "Harvard Medical School DBMI; Nature 2024; 700+ stars",
     "specs": {
       "stars": 719,
-      "modality": "H&E whole-slide images"
+      "modality": "H&E whole-slide images",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/hms-dbmi/CHIEF#readme",
     "specsChecked": "2026-10-16",
@@ -6903,7 +7115,8 @@
     "specs": {
       "stars": 178,
       "task": "RNA language model; secondary structure",
-      "input": "RNA sequence"
+      "input": "RNA sequence",
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/lbcb-sci/RiNALMo#readme",
     "specsChecked": "2026-10-16",
@@ -6934,7 +7147,9 @@
     "notability": "Meta FAIR; 2.3k-star fairchem repo",
     "specs": {
       "modality": "Molecular DFT calculations",
-      "access": "Hugging Face"
+      "access": "Hugging Face",
+      "stars": 2295,
+      "starsChecked": "2026-10-16"
     },
     "specsSource": "https://huggingface.co/facebook/OMol25",
     "specsChecked": "2026-10-16",
@@ -6996,7 +7211,8 @@
       "stars": 215,
       "modality": "Text",
       "baseModel": "Qwen2.5-32B",
-      "params": "32B"
+      "params": "32B",
+      "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
