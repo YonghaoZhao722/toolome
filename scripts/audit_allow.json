@@ -51,10 +51,7 @@
   "opentrons": "Open-source Apache-2.0 software; robots are sold commercially"
  },
  "D5": {
-  "tamarind-bio": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
-  "rowan": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
   "elicit": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
-  "benchling": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
   "emerald-cloud-lab": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled",
   "strateos": "Closed/hosted commercial platform: model, weights and GPU/turnaround specs are not published; only verifiable fields filled"
  },

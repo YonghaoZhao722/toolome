@@ -8,7 +8,7 @@ export const CATS = {
  'genomics': ['Genomics & DNA models','🧾'], 'drug-discovery': ['Drug discovery & molecules','💊'], 'agents': ['Bio LLM agents & copilots','🤖'],
  'cloud-labs': ['Cloud labs & wet-lab services','🏭'], 'imaging': ['Imaging & pathology','🔬'], 'datasets': ['Datasets & benchmarks','📚'],
  'sequencing': ['Sequencing & variant calling','🧷'], 'proteomics': ['Proteomics & metabolomics','⚖️'], 'crispr': ['CRISPR & gene editing','✂️'],
- 'rna': ['RNA structure & design','🌀'], 'microbiome': ['Microbiome & metagenomics','🦠'], 'clinical': ['Clinical & biomedical LLMs','🩺'] };
+ 'rna': ['RNA structure & design','🌀'], 'microbiome': ['Microbiome & metagenomics','🦠'], 'clinical': ['Clinical & biomedical LLMs','🩺'], 'platforms': ['R&D & bioinformatics platforms','🧰'] };
 export { tools };
 export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const u = (p) => base + p;
@@ -27,7 +27,8 @@ export const INTRO = {
  'crispr':'CRISPR guide and pegRNA design, editing-outcome analysis and AI-designed gene editors.',
  'rna':'RNA secondary and 3D structure prediction, RNA foundation models and RNA design.',
  'microbiome':'Metagenomic profiling, binning, MAG quality, taxonomy and virus/plasmid detection.',
- 'clinical':'Medical and biomedical language and vision-language models.' };
+ 'clinical':'Medical and biomedical language and vision-language models.',
+ 'platforms':'Hosted R&D, computational-chemistry and bioinformatics workflow platforms that bundle many tools behind one interface.' };
 export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','boltz'],['rfdiffusion','bindcraft'],['enformer','borzoi'],['cellpose','stardist'],['chai-1','boltz']];
 export const bySlug = Object.fromEntries(tools.map(t=>[t.slug,t]));
 export const pairSlug = ([a,b]) => `${bySlug[a].slug}-vs-${bySlug[b].slug}`;
@@ -37,7 +38,7 @@ export const starsOf = (t) => t.github && t.specs?.stars!=null ? t.specs.stars :
 export const dt = (t) => t.released||t.firstReleased||'';
 export const byNewest = (l) => [...l].sort((a,b)=> (dt(a)&&dt(b))? dt(b).localeCompare(dt(a))||a.name.toLowerCase().localeCompare(b.name.toLowerCase()) : dt(a)?-1 : dt(b)?1 : a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
-export const SHORT = {'single-cell':'single-cell','spatial':'spatial omics','protein':'protein design','genomics':'genomics','drug-discovery':'drug discovery','agents':'agents','cloud-labs':'cloud labs','imaging':'imaging','datasets':'datasets','sequencing':'sequencing','proteomics':'proteomics/metabolomics','crispr':'CRISPR','rna':'RNA','microbiome':'microbiome','clinical':'clinical LLMs'};
+export const SHORT = {'single-cell':'single-cell','spatial':'spatial omics','protein':'protein design','genomics':'genomics','drug-discovery':'drug discovery','agents':'agents','cloud-labs':'cloud labs','imaging':'imaging','datasets':'datasets','sequencing':'sequencing','proteomics':'proteomics/metabolomics','crispr':'CRISPR','rna':'RNA','microbiome':'microbiome','clinical':'clinical LLMs','platforms':'R&D platforms'};
 export const catList = () => { const n=Object.keys(CATS).map(k=>SHORT[k]||k); return n.slice(0,-1).join(', ')+' and '+n.at(-1); };
 export const PAIR_BLURB = {
  'scgpt-geneformer':'Two single-cell foundation models: generative pretraining vs rank-based gene embeddings.',
@@ -64,7 +65,8 @@ export const SPEC_FIELDS = {
  'crispr':[['system','Editing system'],['task','Task'],['organism','Organisms']],
  'rna':[['task','Task'],['level','Structure level (2D / 3D)'],['input','Input']],
  'microbiome':[['input','Input'],['task','Task'],['database','Reference database']],
- 'clinical':[['modality','Modality'],['baseModel','Base model'],['params','Parameters']] };
+ 'clinical':[['modality','Modality'],['baseModel','Base model'],['params','Parameters']],
+ 'platforms':[['focus','Focus'],['access','Access (web / API / SDK)'],['compute','Compute']] };
 export const COMMON_FIELDS = [['license','License'],['pricing','Pricing'],['date','Released'],['paper','Paper'],['github','GitHub'],['stars','GitHub stars'],['interface','Interface']];
 export const specRows = (t) => {
   const s=t.specs||{};

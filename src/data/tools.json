@@ -1390,7 +1390,7 @@
   {
     "slug": "tamarind-bio",
     "name": "Tamarind Bio",
-    "category": "protein",
+    "category": "platforms",
     "url": "https://www.tamarind.bio",
     "license": "Commercial",
     "pricing": "Freemium",
@@ -1402,8 +1402,9 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "specs": {
-      "task": "Hosted tools: variant design, de novo binders, molecules",
-      "gpu": "Managed by platform (no local GPU)"
+      "focus": "Hosted tools: variant design, de novo binders, molecules",
+      "access": "Web app, API",
+      "compute": "Managed by platform (no local GPU)"
     },
     "specsSources": [
       "https://www.tamarind.bio"
@@ -2063,7 +2064,7 @@
   {
     "slug": "rowan",
     "name": "Rowan",
-    "category": "drug-discovery",
+    "category": "platforms",
     "url": "https://rowansci.com",
     "license": "Commercial",
     "pricing": "Freemium",
@@ -2075,7 +2076,9 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "specs": {
-      "task": "Cloud comp-chem incl. RBFE binding affinity"
+      "focus": "Cloud comp-chem incl. RBFE binding affinity",
+      "access": "Web app, Python API",
+      "compute": "Managed cloud"
     },
     "specsSources": [
       "https://rowansci.com"
@@ -2233,7 +2236,7 @@
   {
     "slug": "benchling",
     "name": "Benchling",
-    "category": "agents",
+    "category": "platforms",
     "url": "https://www.benchling.com",
     "license": "Commercial",
     "pricing": "Contact",
@@ -2245,7 +2248,8 @@
     "added": "2026-10-15",
     "lastChecked": "2026-10-16",
     "specs": {
-      "wetlab": "ELN / R&D data platform; agents automate data capture and analysis"
+      "focus": "ELN / R&D data platform; agents automate data capture and analysis",
+      "access": "Web app, REST API"
     },
     "specsSources": [
       "https://www.benchling.com"
@@ -2255,7 +2259,7 @@
   {
     "slug": "latch-bio",
     "name": "Latch Bio",
-    "category": "agents",
+    "category": "platforms",
     "url": "https://latch.bio",
     "github": "https://github.com/latchbio/latch",
     "license": "MIT",
@@ -2273,8 +2277,9 @@
       "stars": 174,
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16",
-      "backbone": "N/A (workflow SDK, not an LLM agent)",
-      "actions": "Build and deploy bioinformatics workflows (Flyte) with auto-generated no-code interfaces"
+      "focus": "Build and deploy bioinformatics workflows (Flyte) with auto-generated no-code interfaces",
+      "access": "Web app, Python SDK",
+      "compute": "Managed cloud"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
