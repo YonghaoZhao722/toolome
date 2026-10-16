@@ -6942,5 +6942,95 @@
       "https://huggingface.co/facebook/OMol25",
       "https://arxiv.org/abs/2505.08762"
     ]
+  },
+  {
+    "slug": "metagene-1",
+    "name": "METAGENE-1",
+    "category": "microbiome",
+    "url": "https://metagene.ai/",
+    "paper": "https://arxiv.org/abs/2501.02045",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "7B-parameter metagenomic foundation model pretrained on 1.5T+ base pairs of human-wastewater DNA/RNA for pathogen detection and biosurveillance.",
+    "tags": [
+      "foundation-model",
+      "metagenomics",
+      "biosurveillance"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-01-03",
+    "dateSource": "https://arxiv.org/abs/2501.02045",
+    "notability": "USC + Prime Intellect + Nucleic Acid Observatory; open 7B weights",
+    "specs": {
+      "input": "Short metagenomic reads",
+      "task": "Pathogen detection, sequence embedding"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://huggingface.co/metagene-ai/METAGENE-1",
+      "https://arxiv.org/abs/2501.02045"
+    ]
+  },
+  {
+    "slug": "baichuan-m2",
+    "name": "Baichuan-M2",
+    "category": "clinical",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan-M2-32B",
+    "github": "https://github.com/baichuan-inc/Baichuan-M2-32B",
+    "paper": "https://arxiv.org/abs/2509.02208",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Baichuan's open 32B medical reasoning model trained with a patient simulator and clinical-rubric RL; top open model on HealthBench at release.",
+    "tags": [
+      "llm",
+      "reasoning",
+      "medical"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-09-02",
+    "dateSource": "https://arxiv.org/abs/2509.02208",
+    "notability": "Baichuan AI; HealthBench results widely discussed",
+    "specs": {
+      "stars": 215,
+      "modality": "Text",
+      "baseModel": "Qwen2.5-32B",
+      "params": "32B"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/baichuan-inc/Baichuan-M2-32B#readme",
+      "https://arxiv.org/abs/2509.02208"
+    ]
+  },
+  {
+    "slug": "lingshu",
+    "name": "Lingshu",
+    "category": "clinical",
+    "url": "https://alibaba-damo-academy.github.io/lingshu/",
+    "paper": "https://arxiv.org/abs/2506.07044",
+    "license": "MIT (weights)",
+    "pricing": "Open source",
+    "description": "Alibaba DAMO's multimodal medical LLMs (7B/32B) for medical image understanding, reasoning, VQA and report generation.",
+    "tags": [
+      "multimodal",
+      "llm",
+      "medical-imaging"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-06-08",
+    "dateSource": "https://arxiv.org/abs/2506.07044",
+    "notability": "Alibaba DAMO Academy; 12k+ monthly HF downloads (7B)",
+    "specs": {
+      "modality": "Medical images + text",
+      "params": "7B, 32B"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://huggingface.co/lingshu-medical-mllm/Lingshu-7B",
+      "https://arxiv.org/abs/2506.07044"
+    ]
   }
 ]
