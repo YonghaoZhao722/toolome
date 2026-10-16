@@ -1653,7 +1653,8 @@
     "specs": {
       "stars": 3625,
       "interface": "Package",
-      "task": "Cheminformatics toolkit"
+      "task": "Cheminformatics toolkit",
+      "representation": "2D/3D molecules; descriptors and fingerprints"
     },
     "specsSource": "https://github.com/rdkit/rdkit#readme",
     "specsChecked": "2026-10-16",
@@ -1709,7 +1710,8 @@
     "specs": {
       "stars": 1585,
       "interface": "Docker",
-      "task": "Molecular docking (diffusion)"
+      "task": "Molecular docking (diffusion)",
+      "representation": "Protein structure (PDB or ESMFold-folded sequence) + ligand SMILES/SDF/MOL2"
     },
     "specsSource": "https://github.com/gcorso/DiffDock#readme",
     "specsChecked": "2026-10-16",
@@ -1771,7 +1773,8 @@
       "stars": 2505,
       "interface": "Colab, Web",
       "task": "Property prediction",
-      "representation": "Molecular graph (message passing NN)"
+      "representation": "Molecular graph (message passing NN)",
+      "weights": "Yes (Halicin model checkpoints on Zenodo)"
     },
     "specsSource": "https://github.com/chemprop/chemprop#readme",
     "specsChecked": "2026-10-16",
@@ -1801,7 +1804,8 @@
     "specs": {
       "stars": 1589,
       "interface": "Package, Colab",
-      "task": "Property prediction, molecule design, retrosynthesis, KG reasoning"
+      "task": "Property prediction, molecule design, retrosynthesis, KG reasoning",
+      "representation": "Molecular graphs"
     },
     "specsSource": "https://github.com/DeepGraphLearning/torchdrug#readme",
     "specsChecked": "2026-10-16",
@@ -5858,7 +5862,14 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-02-10",
     "dateSource": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
-    "notability": "Isomorphic Labs (DeepMind spinout); wide press"
+    "notability": "Isomorphic Labs (DeepMind spinout); wide press",
+    "specs": {
+      "task": "Protein-ligand structure prediction, binding affinity prediction, pocket identification"
+    },
+    "specsSources": [
+      "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "ginkgo-cloud-lab",
@@ -6074,7 +6085,16 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-07-03",
     "dateSource": "https://huggingface.co/aurekaresearch/OpenDDE",
-    "notability": "~500 GitHub stars in ~4 months; Apache-2.0"
+    "notability": "~500 GitHub stars in ~4 months; Apache-2.0",
+    "specs": {
+      "task": "All-atom co-folding: structure prediction, design, optimization",
+      "representation": "All-atom biomolecular structure (co-folding)",
+      "weights": "Yes (Hugging Face)"
+    },
+    "specsSources": [
+      "https://github.com/aurekaresearch/OpenDDE#readme"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "nesso-1",
@@ -6094,7 +6114,16 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-08-03",
     "dateSource": "https://www.biorxiv.org/content/10.64898/2026.08.01.742196v1",
-    "notability": "Recursion; ~200 stars"
+    "notability": "Recursion; ~200 stars",
+    "specs": {
+      "task": "Binding affinity prediction (coarse-grained co-folding)",
+      "representation": "Protein sequence + ligand SMILES",
+      "weights": "Yes (Hugging Face)"
+    },
+    "specsSources": [
+      "https://github.com/recursionpharma/nesso#readme"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "openbind-model",
@@ -6112,7 +6141,15 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-08-21",
     "dateSource": "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/",
-    "notability": "UK government-funded OpenBind consortium"
+    "notability": "UK government-funded OpenBind consortium",
+    "specs": {
+      "task": "Protein-ligand binding affinity prediction",
+      "weights": "Yes (downloadable)"
+    },
+    "specsSources": [
+      "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "instanovo-fm",
