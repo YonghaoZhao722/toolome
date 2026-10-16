@@ -16,6 +16,7 @@ const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"Toolome",u
 <Sort/><div class="grid" id="all" data-sortable>{byNewest(tools).map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
 <script is:inline>
+if(matchMedia('(max-width:560px)').matches)document.getElementById('q').placeholder='Search tools…';
 const q=document.getElementById('q'),cards=[...document.querySelectorAll('#all .card')],empty=document.getElementById('empty');let c='',tm;
 cards.forEach((e,i)=>e.style.viewTransitionName='c'+i);
 const rm=matchMedia('(prefers-reduced-motion: reduce)');
