@@ -2077,11 +2077,12 @@
     "lastChecked": "2026-10-16",
     "specs": {
       "focus": "Cloud comp-chem incl. RBFE binding affinity",
-      "access": "Web app, Python API",
-      "compute": "Managed cloud"
+      "access": "Web app, Python API"
     },
     "specsSources": [
-      "https://rowansci.com"
+      "https://rowansci.com",
+      "https://docs.rowansci.com/",
+      "https://github.com/rowansci/rowan-python"
     ],
     "specsChecked": "2026-10-16"
   },
@@ -2252,7 +2253,9 @@
       "access": "Web app, REST API"
     },
     "specsSources": [
-      "https://www.benchling.com"
+      "https://www.benchling.com",
+      "https://docs.benchling.com/reference",
+      "https://docs.benchling.com/docs/getting-started"
     ],
     "specsChecked": "2026-10-16"
   },
@@ -2278,7 +2281,7 @@
       "interface": "Package, Docker",
       "starsChecked": "2026-10-16",
       "focus": "Build and deploy bioinformatics workflows (Flyte) with auto-generated no-code interfaces",
-      "access": "Web app, Python SDK",
+      "access": "Web (no-code interfaces), Python SDK",
       "compute": "Managed cloud"
     },
     "specsChecked": "2026-10-16",
