@@ -671,7 +671,7 @@
     "slug": "stagate",
     "name": "STAGATE",
     "category": "spatial",
-    "url": "https://github.com/QIFEIDKN/STAGATE",
+    "url": "https://github.com/RucDongLab/STAGATE",
     "github": "https://github.com/RucDongLab/STAGATE",
     "paper": "https://www.nature.com/articles/s41467-022-29439-6",
     "license": "MIT",
@@ -864,7 +864,7 @@
     "paper": "https://www.nature.com/articles/s41586-024-07487-w",
     "license": "Apache-2.0 (code); AlphaFold 3 model parameters terms (non-commercial weights)",
     "pricing": "Free (research)",
-    "description": "Structure prediction of proteins, nucleic acids, ligands and their complexes; free web server and code, weights on request for non-commercial use.",
+    "description": "Structure prediction of proteins, nucleic acids, ligands and their complexes; hosted web server plus open code, weights on request for non-commercial use.",
     "tags": [
       "structure",
       "complexes"
@@ -987,7 +987,7 @@
     "url": "https://www.evolutionaryscale.ai",
     "github": "https://github.com/Biohub/esm",
     "paper": "https://www.science.org/doi/10.1126/science.ads0018",
-    "license": "Custom",
+    "license": "MIT",
     "pricing": "Freemium",
     "description": "Multimodal generative protein language model over sequence, structure and function (ESM3; also ESM C embeddings).",
     "tags": [
@@ -1107,7 +1107,7 @@
       "gpu": "Required: CUDA + bfloat16; A100/H100/L40S recommended",
       "stars": 2003,
       "interface": "Package, Docker, Web",
-      "weights": "Yes (non-commercial); free web interface incl. commercial",
+      "weights": "Yes (Apache-2.0); web interface incl. commercial",
       "starsChecked": "2026-10-16"
     },
     "specsSource": "https://github.com/chaidiscovery/chai-lab#readme",
@@ -1851,7 +1851,7 @@
     "paper": "https://arxiv.org/abs/2202.08320",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "PyTorch platform for drug discovery ML.",
+    "description": "PyTorch platform for drug discovery machine learning: property prediction, generation and retrosynthesis.",
     "tags": [
       "pytorch",
       "graph"
@@ -2553,7 +2553,7 @@
     "paper": "https://www.nature.com/articles/s41592-024-02580-4",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Segment Anything for microscopy.",
+    "description": "Segment Anything fine-tuned for light and electron microscopy, with interactive napari annotation tools.",
     "tags": [
       "segmentation",
       "sam"
@@ -2897,7 +2897,7 @@
     "url": "https://huggingface.co/models?other=biology",
     "license": "Mixed",
     "pricing": "Free (research)",
-    "description": "Hub listing of biology-tagged models.",
+    "description": "Hugging Face Hub listing of biology-tagged models, from protein and DNA language models to single-cell models.",
     "tags": [
       "hub"
     ],
