@@ -1,9 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro'; import Card from '../../components/Card.astro';
-import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt } from '../../lib/site.js';
+import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt, inCat } from '../../lib/site.js';
 export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
 const { t } = Astro.props;
-const peers = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
+const peers = tools.filter(x=>inCat(x,t.category)&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
 const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>starsOf(b)-starsOf(a)||dt(b).localeCompare(dt(a))||a.name.localeCompare(b.name)).slice(0,3);
 const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:licText(t),isAccessibleForFree:!['Paid','Contact'].includes(t.pricing),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
 ---

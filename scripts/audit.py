@@ -79,6 +79,14 @@ def l1():
                 if not DATE.match(v) or not ('1990-01-01' <= v <= TODAY.isoformat()): E('F2', s, f'{k}={v}')
         if sp.get('starsChecked') and not DATE.match(sp['starsChecked']): E('F2', s, 'bad starsChecked')
         if t['category'] not in CATS: E('F3', s, f"category {t['category']}")
+        ai = t.get('alsoIn')
+        if ai is not None:
+            if not isinstance(ai, list) or not ai: E('F7', s, f'alsoIn must be a non-empty list: {ai!r}')
+            else:
+                for c in ai:
+                    if c not in CATS: E('F7', s, f'alsoIn unknown category {c!r}')
+                if t['category'] in ai: E('F7', s, 'alsoIn repeats primary category')
+                if len(set(ai)) != len(ai): E('F7', s, f'alsoIn duplicates {ai}')
         if pr not in PRICING: E('F3', s, f'pricing {pr!r}')
         if t['license'] not in SPDX: I('F4', s, f'non-SPDX license {lic!r}')
         tg = t.get('tags') or []

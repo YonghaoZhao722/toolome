@@ -599,7 +599,10 @@
       "https://www.nature.com/articles/s41586-024-08453-2"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "alsoIn": [
+      "single-cell"
+    ]
   },
   {
     "slug": "cell2location",
@@ -1409,7 +1412,10 @@
     "specsSources": [
       "https://www.tamarind.bio"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "alsoIn": [
+      "protein"
+    ]
   },
   {
     "slug": "evo-2",
@@ -2059,7 +2065,10 @@
     "specsSources": [
       "https://github.com/NVIDIA-BioNeMo/bionemo-recipes#readme"
     ],
-    "licenseNote": "framework"
+    "licenseNote": "framework",
+    "alsoIn": [
+      "platforms"
+    ]
   },
   {
     "slug": "rowan",
@@ -2084,7 +2093,10 @@
       "https://docs.rowansci.com/",
       "https://github.com/rowansci/rowan-python"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "alsoIn": [
+      "drug-discovery"
+    ]
   },
   {
     "slug": "biomni",
@@ -2255,9 +2267,13 @@
     "specsSources": [
       "https://www.benchling.com",
       "https://docs.benchling.com/reference",
-      "https://docs.benchling.com/docs/getting-started"
+      "https://docs.benchling.com/docs/getting-started",
+      "https://www.benchling.com/ai"
     ],
-    "specsChecked": "2026-10-16"
+    "specsChecked": "2026-10-16",
+    "alsoIn": [
+      "agents"
+    ]
   },
   {
     "slug": "latch-bio",
@@ -2725,7 +2741,10 @@
       "https://github.com/chanzuckerberg/cellxgene-census#readme",
       "https://cellxgene.cziscience.com"
     ],
-    "licenseNote": "CC-BY-4.0 (data); MIT (Census code)"
+    "licenseNote": "CC-BY-4.0 (data); MIT (Census code)",
+    "alsoIn": [
+      "single-cell"
+    ]
   },
   {
     "slug": "human-cell-atlas-data-portal",
@@ -2971,7 +2990,10 @@
       "https://github.com/maabuu/posebusters#readme"
     ],
     "paperVenue": "Chemical Science",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "alsoIn": [
+      "drug-discovery"
+    ]
   },
   {
     "slug": "polaris",
@@ -7263,7 +7285,10 @@
       "https://doi.org/10.1038/s41467-024-44824-z"
     ],
     "paperVenue": "Nature Communications",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "alsoIn": [
+      "imaging"
+    ]
   },
   {
     "slug": "medsam2",
@@ -7297,7 +7322,10 @@
       "https://arxiv.org/abs/2504.03600"
     ],
     "paperVenue": "arXiv preprint",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "alsoIn": [
+      "imaging"
+    ]
   },
   {
     "slug": "huatuogpt-o1",

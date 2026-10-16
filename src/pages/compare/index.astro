@@ -22,12 +22,12 @@ const data = cmpData();
 <script type="application/json" id="cmp-data" set:html={JSON.stringify(data).replace(/</g,'\\u003c')}></script>
 <script is:inline define:vars={{B:u('')}}>
 (()=>{const D=JSON.parse(document.getElementById('cmp-data').textContent);const q=new URLSearchParams(location.search);const c=q.get('c');
-let ts=(q.get('t')||'').split(',').filter(s=>D.tools[s]&&D.tools[s].c===c);ts=[...new Set(ts)].slice(0,4);
+let ts=(q.get('t')||'').split(',').filter(s=>D.tools[s]&&D.tools[s].cs.includes(c));ts=[...new Set(ts)].slice(0,4);
 if(!c||!D.cats[c]||ts.length<1)return;
 document.getElementById('cl').hidden=true;const V=document.getElementById('cv');V.hidden=false;
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const cell=v=>v===''||v==null?'<span class="mut">—</span>':/^https?:/.test(v)?`<a href="${esc(v)}">${v.includes('github.com')?'GitHub':'Link'}</a>`:esc(v);
-const rowsOf=t=>D.tools[t].rows;
+const rowsOf=t=>{const T=D.tools[t];return T.c===c?T.rows:[...(D.fields[c]||[]).map(([k,l])=>[l,T.s[k]||'']),...T.rows.slice(-D.common.length)]};
 const render=()=>{const names=ts.map(t=>D.tools[t].n);document.title=names.join(' vs ')+' | Toolome';
 document.getElementById('cv-h').textContent=names.join(' vs ');
 document.getElementById('cv-sub').textContent=D.cats[c]+' · '+(ts.length<2?'add at least one more tool below':ts.length+' tools');
@@ -37,7 +37,7 @@ document.getElementById('cv-t').innerHTML=h+'</tbody>';
 document.getElementById('cv-cards').innerHTML=ts.map((t,j)=>`<div class="cvc"><h3><a href="${B}/tools/${t}/">${esc(D.tools[t].n)}</a></h3><p class="mut">${esc(D.tools[t].d)}</p><dl>${R[j].map(([l,v])=>`<dt>${esc(l)}</dt><dd>${cell(v)}</dd>`).join('')}</dl></div>`).join('');
 document.getElementById('cv-src').innerHTML=ts.flatMap(t=>D.tools[t].src.map(s=>`<a href="${esc(s)}">${esc(D.tools[t].n)} ${s.includes('github.com')?'README':s===D.tools[t].u?'site':s===D.tools[t].pp?'paper':'source'}</a>`)).join(' · ');
 document.getElementById('cv-back').href=`${B}/tools/${ts[0]}/#compare`;
-const pk=document.getElementById('cv-pk');pk.innerHTML=Object.entries(D.tools).filter(([k,v])=>v.c===c).sort((a,b)=>a[1].n.localeCompare(b[1].n)).map(([k,v])=>`<label><input type="checkbox" value="${k}" ${ts.includes(k)?'checked':''} ${!ts.includes(k)&&ts.length>=4?'disabled':''}/> ${esc(v.n)}</label>`).join('');
+const pk=document.getElementById('cv-pk');pk.innerHTML=Object.entries(D.tools).filter(([k,v])=>v.cs.includes(c)).sort((a,b)=>a[1].n.localeCompare(b[1].n)).map(([k,v])=>`<label><input type="checkbox" value="${k}" ${ts.includes(k)?'checked':''} ${!ts.includes(k)&&ts.length>=4?'disabled':''}/> ${esc(v.n)}</label>`).join('');
 pk.querySelectorAll('input').forEach(x=>x.onchange=()=>{if(x.checked)ts.push(x.value);else if(ts.length>1)ts=ts.filter(s=>s!==x.value);else x.checked=true;history.replaceState(null,'',`?c=${c}&t=${ts.join(',')}`);render()});};
 render();
 document.getElementById('cv-share').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.getElementById('cv-ok').textContent='Copied'}catch(e){document.getElementById('cv-ok').textContent=location.href}};

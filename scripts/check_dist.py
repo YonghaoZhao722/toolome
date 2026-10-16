@@ -37,7 +37,7 @@ for x in redir:
 n_pages = len(tdirs) - len(redir)
 if n_pages != len(tools): err('H2', 'tools/', f'{n_pages} pages vs {len(tools)} tools')
 for c in CATS:
-    h = rd(f'category/{c}/index.html'); n = h.count('class="card"'); want = sum(t['category'] == c for t in tools)
+    h = rd(f'category/{c}/index.html'); n = h.count('class="card"'); want = sum(t['category'] == c or c in (t.get('alsoIn') or []) for t in tools)
     if n != want: err('H2', c, f'{n} cards vs {want} tools')
 idx = rd('index.html')
 m = re.search(r'<span class="num">(\d+)</span>', idx)
