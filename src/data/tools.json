@@ -1984,7 +1984,8 @@
     "specs": {
       "stars": 9390,
       "interface": "Package",
-      "actions": "Paper retrieval, LLM re-ranking + contextual summarization (RAG)"
+      "actions": "Paper retrieval, LLM re-ranking + contextual summarization (RAG)",
+      "backbone": "Any LiteLLM-compatible model (examples use GPT-4o, Claude)"
     },
     "specsSource": "https://github.com/Future-House/paper-qa#readme",
     "specsChecked": "2026-10-16",
@@ -2181,7 +2182,15 @@
       "dna-synthesis"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "services": "Genes, oligo pools, NGS target enrichment, variant libraries, antibodies",
+      "ordering": "Web ordering platform + Twist API"
+    },
+    "specsSources": [
+      "https://www.twistbioscience.com"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "strateos",
@@ -2532,7 +2541,16 @@
       "atlas"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "size": "70.9M cells, 11.3k donors, 532 projects",
+      "modality": "Multi-omic single-cell",
+      "access": "Open"
+    },
+    "specsSources": [
+      "https://data.humancellatlas.org"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "tahoe-100m",
@@ -2553,10 +2571,12 @@
     "dateSource": "https://doi.org/10.1101/2025.02.20.639398",
     "specs": {
       "size": "100M transcriptomic profiles; 1,100 compounds × 50 cancer cell lines",
-      "modality": "Single-cell drug perturbation"
+      "modality": "Single-cell drug perturbation",
+      "access": "Open (Hugging Face Datasets)"
     },
     "specsSources": [
-      "https://www.biorxiv.org/content/10.1101/2025.02.20.639398"
+      "https://www.biorxiv.org/content/10.1101/2025.02.20.639398",
+      "https://huggingface.co/datasets/tahoebio/Tahoe-100M"
     ],
     "specsSource": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398",
     "specsChecked": "2026-10-16"
@@ -2574,7 +2594,15 @@
       "database"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "modality": "3D macromolecular structures + experimental data",
+      "access": "Open download + Web APIs"
+    },
+    "specsSources": [
+      "https://www.rcsb.org"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "uniprot",
@@ -2589,7 +2617,16 @@
       "database"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-10-16"
+    "lastChecked": "2026-10-16",
+    "specs": {
+      "size": "~150M UniProtKB entries (575,748 reviewed Swiss-Prot)",
+      "modality": "Protein sequences + functional annotation",
+      "access": "Open (web, REST API)"
+    },
+    "specsSources": [
+      "https://rest.uniprot.org/uniprotkb/search?query=*&size=1"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "proteingym",
@@ -5147,7 +5184,8 @@
     "specs": {
       "stars": 284,
       "interface": "Package",
-      "actions": "Gym environments (tool calls) for training language agents"
+      "actions": "Gym environments (tool calls) for training language agents",
+      "backbone": "Any LLM endpoint (examples: GPT-4o, Claude, Llama)"
     },
     "specsSource": "https://github.com/Future-House/aviary#readme",
     "specsChecked": "2026-10-16",
@@ -5825,7 +5863,14 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-01-28",
     "dateSource": "https://ai.bio.xyz/blog/introducing-bios",
-    "notability": "BIO (bio.xyz) AI scientist; open BioAgents framework"
+    "notability": "BIO (bio.xyz) AI scientist; open BioAgents framework",
+    "specs": {
+      "actions": "Literature-search and data-analysis subagents; multi-step research workflows"
+    },
+    "specsSources": [
+      "https://ai.bio.xyz/blog/introducing-bios"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "biomni-lab",
@@ -5843,7 +5888,15 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-02-03",
     "dateSource": "https://phylo.bio/announcement",
-    "notability": "Phylo (Biomni team), $13.5M seed from a16z/Menlo"
+    "notability": "Phylo (Biomni team), $13.5M seed from a16z/Menlo",
+    "specs": {
+      "actions": "Drug candidate optimization, lab robotics control, experiment design",
+      "wetlab": "Yes (commands lab robotics)"
+    },
+    "specsSources": [
+      "https://phylo.bio/announcement"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "isodde",
@@ -5887,7 +5940,15 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-03-02",
     "dateSource": "https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html",
-    "notability": "Ginkgo Bioworks; used in OpenAI GPT-5 protein synthesis study"
+    "notability": "Ginkgo Bioworks; used in OpenAI GPT-5 protein synthesis study",
+    "specs": {
+      "services": "Remote access to 70+ instruments: sample prep, liquid handling, analytical readouts, storage, incubation",
+      "ordering": "Web protocol submission (feasibility report + quote) via cloud.ginkgo.bio"
+    },
+    "specsSources": [
+      "https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "perturbai-brain-wide-crispr-atlas",
@@ -6064,7 +6125,15 @@
     "lastChecked": "2026-10-16",
     "firstReleased": "2026-06-30",
     "dateSource": "https://www.anthropic.com/news/claude-science-ai-workbench",
-    "notability": "Anthropic product launch"
+    "notability": "Anthropic product launch",
+    "specs": {
+      "backbone": "Claude",
+      "actions": "Integrated research tools (PubMed, Jupyter, R, cluster terminal), MCPs and skills"
+    },
+    "specsSources": [
+      "https://www.anthropic.com/news/claude-science-ai-workbench"
+    ],
+    "specsChecked": "2026-10-16"
   },
   {
     "slug": "opendde",
