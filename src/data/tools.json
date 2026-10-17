@@ -7697,5 +7697,400 @@
     "paperVenue": "arXiv preprint",
     "paperYear": 2025,
     "licenseNote": "weights"
+  },
+  {
+    "slug": "optiprime",
+    "name": "OptiPrime",
+    "category": "crispr",
+    "url": "https://optipri.me/",
+    "github": "https://github.com/alvin-hsu/optiprime-src",
+    "paper": "https://www.nature.com/articles/s41587-026-03261-7",
+    "license": "NOASSERTION",
+    "pricing": "Free (research)",
+    "description": "David Liu lab's mechanistic ML model that predicts prime-editing efficiency and outcomes for PE2, PE3 and twinPE, with a web server.",
+    "tags": [
+      "prime-editing",
+      "guide-design",
+      "web-server"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-20",
+    "dateSource": "https://doi.org/10.64898/2026.02.20.706353",
+    "notability": "Broad Institute (David Liu lab); Nature Biotechnology 2026",
+    "specs": {
+      "system": "Prime editing (PE2, PE3, twinPE)",
+      "task": "pegRNA efficiency and outcome prediction",
+      "organism": "Human and mouse cells",
+      "stars": 6,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41587-026-03261-7",
+      "https://github.com/alvin-hsu/optiprime-src"
+    ],
+    "licenseNote": "no license file in repo",
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2026
+  },
+  {
+    "slug": "protein2pam",
+    "name": "Protein2PAM",
+    "category": "crispr",
+    "url": "https://protein2pam.profluent.bio",
+    "github": "https://github.com/Profluent-AI/protein2pam",
+    "paper": "https://www.nature.com/articles/s41587-025-02995-0",
+    "license": "Mixed",
+    "pricing": "Open source (non-commercial)",
+    "description": "Profluent's protein language model that predicts a Cas enzyme's PAM specificity from its sequence and guides PAM-engineering of Cas9 variants.",
+    "tags": [
+      "pam",
+      "cas-engineering",
+      "protein-language-model"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-02",
+    "dateSource": "https://www.nature.com/articles/s41587-025-02995-0",
+    "notability": "Profluent; Nature Biotechnology 2026",
+    "specs": {
+      "system": "Type I, II and V CRISPR-Cas",
+      "task": "PAM specificity prediction and Cas variant design",
+      "organism": "Any (sequence-based)",
+      "stars": 15,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41587-025-02995-0",
+      "https://github.com/Profluent-AI/protein2pam"
+    ],
+    "licenseNote": "PolyForm Noncommercial (code); CC BY-NC 4.0 (weights)",
+    "alsoIn": [
+      "protein"
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2026
+  },
+  {
+    "slug": "hitsv",
+    "name": "HitSV",
+    "category": "sequencing",
+    "url": "https://github.com/hitbc/HitSV",
+    "github": "https://github.com/hitbc/HitSV",
+    "paper": "https://www.nature.com/articles/s41587-026-03332-9",
+    "license": "GPL-3.0",
+    "pricing": "Open source",
+    "description": "Structural variant caller with haplotype-resolved local assembly that works on PacBio HiFi, ONT, hybrid and short-read data.",
+    "tags": [
+      "structural-variants",
+      "long-read",
+      "variant-calling"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-02-20",
+    "dateSource": "https://doi.org/10.21203/rs.3.rs-8913458/v1",
+    "notability": "Nature Biotechnology 2026",
+    "specs": {
+      "platform": "PacBio HiFi, ONT, Illumina, hybrid",
+      "task": "Structural variant calling and genotyping",
+      "variants": "SVs",
+      "stars": 40,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41587-026-03332-9",
+      "https://github.com/hitbc/HitSV"
+    ],
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2026
+  },
+  {
+    "slug": "svpg",
+    "name": "SVPG",
+    "category": "sequencing",
+    "url": "https://github.com/coopsor/SVPG",
+    "github": "https://github.com/coopsor/SVPG",
+    "paper": "https://www.nature.com/articles/s41592-026-03219-2",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Pangenome-guided structural variant caller for long reads that can also add new samples to an existing pangenome graph.",
+    "tags": [
+      "structural-variants",
+      "pangenome",
+      "long-read"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-07-17",
+    "dateSource": "https://doi.org/10.1101/2025.07.11.664486",
+    "notability": "Nature Methods 2026",
+    "specs": {
+      "platform": "ONT, PacBio HiFi",
+      "task": "Pangenome-based SV calling and graph augmentation",
+      "variants": "SVs",
+      "stars": 43,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41592-026-03219-2",
+      "https://github.com/coopsor/SVPG"
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2026
+  },
+  {
+    "slug": "cellart",
+    "name": "CellART",
+    "category": "spatial",
+    "url": "https://github.com/YangLabHKUST/CellART",
+    "github": "https://github.com/YangLabHKUST/CellART",
+    "paper": "https://www.nature.com/articles/s43588-026-01054-1",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Unified framework for cell segmentation and cell-type annotation in high-resolution spatial transcriptomics such as Xenium and Visium HD.",
+    "tags": [
+      "segmentation",
+      "annotation",
+      "visium-hd"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-09-08",
+    "dateSource": "https://doi.org/10.64898/2026.09.03.749294",
+    "notability": "HKUST (Can Yang lab); Nature Computational Science 2026",
+    "specs": {
+      "platforms": "Xenium, Visium HD",
+      "resolution": "Single-cell / subcellular",
+      "tasks": "Cell segmentation and annotation",
+      "stars": 17,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s43588-026-01054-1",
+      "https://github.com/YangLabHKUST/CellART"
+    ],
+    "paperVenue": "Nature Computational Science",
+    "paperYear": 2026
+  },
+  {
+    "slug": "cellist",
+    "name": "Cellist",
+    "category": "spatial",
+    "url": "https://github.com/wanglabtongji/Cellist",
+    "github": "https://github.com/wanglabtongji/Cellist",
+    "paper": "https://www.nature.com/articles/s41588-026-02610-1",
+    "license": "GPL-3.0",
+    "pricing": "Open source",
+    "description": "Scalable cell segmentation for subcellular-resolution spatial transcriptomics that combines staining images with transcript signals across platforms.",
+    "tags": [
+      "segmentation",
+      "stereo-seq",
+      "xenium"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-05-30",
+    "dateSource": "https://doi.org/10.21203/rs.3.rs-4428586/v1",
+    "notability": "Tongji University (Chenfei Wang lab); Nature Genetics 2026",
+    "specs": {
+      "platforms": "Stereo-seq, Seq-Scope, Xenium and others",
+      "resolution": "Subcellular",
+      "tasks": "Cell segmentation",
+      "stars": 17,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41588-026-02610-1",
+      "https://github.com/wanglabtongji/Cellist"
+    ],
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2026
+  },
+  {
+    "slug": "orthrus",
+    "name": "Orthrus",
+    "category": "rna",
+    "url": "https://github.com/bowang-lab/Orthrus",
+    "github": "https://github.com/bowang-lab/Orthrus",
+    "paper": "https://www.nature.com/articles/s41592-026-03064-3",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Bo Wang lab's mature-RNA foundation model trained with contrastive learning on splice isoforms and orthologs, for RNA half-life and other property prediction.",
+    "tags": [
+      "foundation-model",
+      "mrna",
+      "contrastive"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-10-12",
+    "dateSource": "https://doi.org/10.1101/2024.10.10.617658",
+    "notability": "Vector Institute / UHN (Bo Wang lab); Nature Methods 2026",
+    "specs": {
+      "task": "RNA property prediction (half-life, localization, function)",
+      "level": "Mature mRNA transcripts",
+      "input": "RNA sequence (+ splice/CDS tracks)",
+      "stars": 131,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41592-026-03064-3",
+      "https://github.com/bowang-lab/Orthrus"
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2026
+  },
+  {
+    "slug": "rnabpflow",
+    "name": "RNAbpFlow",
+    "category": "rna",
+    "url": "https://github.com/Bhattacharya-Lab/RNAbpFlow",
+    "github": "https://github.com/Bhattacharya-Lab/RNAbpFlow",
+    "paper": "https://www.nature.com/articles/s41592-026-03128-4",
+    "license": "GPL-3.0",
+    "pricing": "Open source",
+    "description": "SE(3) flow-matching model that generates RNA 3D structures and conformer ensembles conditioned on base pairing.",
+    "tags": [
+      "3d-structure",
+      "flow-matching",
+      "generative"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-01-26",
+    "dateSource": "https://doi.org/10.1101/2025.01.24.634669",
+    "notability": "Virginia Tech (Bhattacharya lab); Nature Methods 2026",
+    "specs": {
+      "task": "RNA 3D structure generation",
+      "level": "Tertiary structure",
+      "input": "Sequence + base pairs",
+      "stars": 30,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41592-026-03128-4",
+      "https://github.com/Bhattacharya-Lab/RNAbpFlow"
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2026
+  },
+  {
+    "slug": "metacat",
+    "name": "MetaCAT",
+    "category": "microbiome",
+    "url": "https://github.com/liu-congcong/MetaCAT",
+    "github": "https://github.com/liu-congcong/MetaCAT",
+    "paper": "https://www.nature.com/articles/s41564-026-02472-7",
+    "license": "GPL-3.0",
+    "pricing": "Open source",
+    "description": "Metagenome binning plus microbial SNP calling and metagenome-wide association with host traits in one framework.",
+    "tags": [
+      "binning",
+      "mags",
+      "association"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2026-09-01",
+    "dateSource": "https://www.nature.com/articles/s41564-026-02472-7",
+    "notability": "Nature Microbiology 2026",
+    "specs": {
+      "input": "Assembled contigs + read coverage",
+      "task": "Binning, microbial SNPs, host-trait association",
+      "stars": 26,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://www.nature.com/articles/s41564-026-02472-7",
+      "https://github.com/liu-congcong/MetaCAT"
+    ],
+    "paperVenue": "Nature Microbiology",
+    "paperYear": 2026
+  },
+  {
+    "slug": "gigatime",
+    "name": "GigaTIME",
+    "category": "imaging",
+    "url": "https://github.com/prov-gigatime/GigaTIME",
+    "github": "https://github.com/prov-gigatime/GigaTIME",
+    "paper": "https://doi.org/10.1016/j.cell.2025.11.016",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Microsoft and Providence model that turns routine H&E slides into virtual multiplex immunofluorescence maps of 21 proteins.",
+    "tags": [
+      "pathology",
+      "virtual-staining",
+      "tumor-microenvironment"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2025-12-09",
+    "dateSource": "https://www.microsoft.com/en-us/research/blog/gigatime-scaling-tumor-microenvironment-modeling-using-virtual-population-generated-by-multimodal-ai/",
+    "notability": "Microsoft Research + Providence; Cell; 400+ GitHub stars",
+    "specs": {
+      "dims": "2D tiles (256×256)",
+      "modality": "H&E → virtual mIF",
+      "segType": "Pixel-level protein maps (21 channels)",
+      "stars": 413,
+      "starsChecked": "2026-10-16"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://huggingface.co/prov-gigatime/GigaTIME",
+      "https://github.com/prov-gigatime/GigaTIME"
+    ],
+    "alsoIn": [
+      "spatial"
+    ],
+    "paperVenue": "Cell",
+    "paperYear": 2026
+  },
+  {
+    "slug": "merlin",
+    "name": "Merlin",
+    "category": "clinical",
+    "url": "https://github.com/StanfordMIMI/Merlin",
+    "github": "https://github.com/StanfordMIMI/Merlin",
+    "paper": "https://www.nature.com/articles/s41586-026-10181-8",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Stanford's 3D vision-language model for abdominal CT, pretrained on scans, EHR codes and radiology reports for classification, retrieval and report generation.",
+    "tags": [
+      "ct",
+      "vision-language",
+      "radiology"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "firstReleased": "2024-06-10",
+    "dateSource": "https://arxiv.org/abs/2406.06512",
+    "notability": "Stanford AIMI; Nature 2026; 490 GitHub stars",
+    "specs": {
+      "modality": "3D CT + EHR + reports",
+      "stars": 490,
+      "starsChecked": "2026-10-16",
+      "baseModel": "I3D ResNet image encoder + Clinical-Longformer text encoder"
+    },
+    "specsChecked": "2026-10-16",
+    "specsSources": [
+      "https://github.com/StanfordMIMI/Merlin",
+      "https://www.nature.com/articles/s41586-026-10181-8",
+      "https://huggingface.co/stanfordmimi/Merlin"
+    ],
+    "alsoIn": [
+      "imaging"
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2026
   }
 ]
