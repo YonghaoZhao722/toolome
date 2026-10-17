@@ -8302,69 +8302,6 @@
     "paperYear": 2026
   },
   {
-    "slug": "mmseqs2",
-    "name": "MMseqs2",
-    "category": "protein",
-    "url": "https://mmseqs.com",
-    "github": "https://github.com/soedinglab/MMseqs2",
-    "paper": "https://doi.org/10.1038/nbt.3988",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "MMseqs2: ultra fast and sensitive search and clustering suite.",
-    "tags": [
-      "bioinformatics",
-      "sequence-clustering",
-      "profile-search"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-08-08",
-    "dateSource": "https://github.com/soedinglab/MMseqs2/releases/tag/vNatBiotech",
-    "notability": "2152 GitHub stars; listed in danielecook/Awesome-Bioinformatics; Nature Biotechnology 2017",
-    "specs": {
-      "stars": 2152,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/soedinglab/MMseqs2"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Biotechnology",
-    "paperYear": 2017
-  },
-  {
-    "slug": "samtools",
-    "name": "samtools",
-    "category": "sequencing",
-    "url": "https://github.com/samtools/samtools",
-    "github": "https://github.com/samtools/samtools",
-    "paper": "https://doi.org/10.1093/gigascience/giab008",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Tools (written in C using htslib) for manipulating next-generation sequencing data.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-02-04",
-    "dateSource": "https://github.com/samtools/samtools/releases/tag/1.2",
-    "notability": "1969 GitHub stars; listed in danielecook/Awesome-Bioinformatics; GigaScience 2021",
-    "specs": {
-      "stars": 1969,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/samtools/samtools"
-    ],
-    "harvested": true,
-    "paperVenue": "GigaScience",
-    "paperYear": 2021,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
     "slug": "prottrans",
     "name": "ProtTrans",
     "category": "protein",
@@ -8373,154 +8310,32 @@
     "paper": "https://doi.org/10.1109/TPAMI.2021.3095381",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "ProtTrans is providing state of the art pretrained language models for proteins. ProtTrans was trained on thousands of GPUs from Summit and hundreds of Google TPUs using Transformers Models.",
+    "description": "Transformer protein language models (ProtT5, ProtBERT and others) pretrained on UniRef and BFD, used for embeddings and fine-tuning.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2021-03-24",
-    "dateSource": "https://github.com/agemagician/ProtTrans/releases/tag/1.0",
+    "firstReleased": "2020-05-11",
+    "dateSource": "https://github.com/agemagician/ProtTrans",
     "notability": "1324 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL, apeterswu/Awesome-Bio-Foundation-Models; IEEE Transactions on Pattern Analysis and Machine Intelligence 2022",
     "specs": {
+      "task": "Protein embeddings / property prediction",
+      "modalities": "Sequence",
+      "msa": "No",
+      "weights": "Yes (MIT)",
+      "gpu": "GPU recommended; CPU works for small models",
       "stars": 1324,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/agemagician/ProtTrans"
+      "https://github.com/agemagician/ProtTrans",
+      "https://doi.org/10.1109/TPAMI.2021.3095381"
     ],
     "harvested": true,
     "paperVenue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "paperYear": 2022
-  },
-  {
-    "slug": "gget",
-    "name": "gget",
-    "category": "genomics",
-    "url": "https://scverse.org/gget",
-    "github": "https://github.com/scverse/gget",
-    "paper": "https://doi.org/10.1093/bioinformatics/btac836",
-    "license": "BSD-2-Clause",
-    "pricing": "Open source",
-    "description": "gget enables efficient querying of genomic reference databases.",
-    "tags": [
-      "alphafold2",
-      "databases",
-      "enrichment-analysis"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-05-10",
-    "dateSource": "https://github.com/scverse/gget/releases/tag/v0.0.22",
-    "notability": "1208 GitHub stars; listed in seandavi/awesome-single-cell; Bioinformatics 2023",
-    "specs": {
-      "stars": 1208,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/scverse/gget"
-    ],
-    "harvested": true,
-    "paperVenue": "Bioinformatics",
-    "paperYear": 2023
-  },
-  {
-    "slug": "bcftools",
-    "name": "bcftools",
-    "category": "sequencing",
-    "url": "https://github.com/samtools/bcftools",
-    "github": "https://github.com/samtools/bcftools",
-    "paper": "https://doi.org/10.1093/gigascience/giab008",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "This is the official development repository for BCFtools. See installation instructions and other documentation here.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-02-04",
-    "dateSource": "https://github.com/samtools/bcftools/releases/tag/1.2",
-    "notability": "900 GitHub stars; listed in danielecook/Awesome-Bioinformatics; GigaScience 2021",
-    "specs": {
-      "stars": 900,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/samtools/bcftools"
-    ],
-    "harvested": true,
-    "paperVenue": "GigaScience",
-    "paperYear": 2021,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "liger",
-    "name": "liger",
-    "category": "single-cell",
-    "url": "https://github.com/welch-lab/liger",
-    "github": "https://github.com/welch-lab/liger",
-    "paper": "https://doi.org/10.1038/s41596-020-0391-8",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "R package for integrating and analyzing multiple single-cell datasets.",
-    "tags": [
-      "r",
-      "single-cell",
-      "nonnegative-matrix-factorization"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-10-09",
-    "dateSource": "https://github.com/welch-lab/liger/releases/tag/v0.1.0",
-    "notability": "434 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; Nature Protocols 2020",
-    "specs": {
-      "stars": 434,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/welch-lab/liger"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Protocols",
-    "paperYear": 2020
-  },
-  {
-    "slug": "signac",
-    "name": "signac",
-    "category": "single-cell",
-    "url": "https://stuartlab.org/signac/",
-    "github": "https://github.com/stuart-lab/signac",
-    "paper": "https://doi.org/10.1038/s41592-021-01282-5",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "R toolkit for the analysis of single-cell chromatin data.",
-    "tags": [
-      "single-cell",
-      "bioinformatics",
-      "atac"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-01-17",
-    "dateSource": "https://github.com/stuart-lab/signac/releases/tag/v0.2.0",
-    "notability": "431 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Methods 2021",
-    "specs": {
-      "stars": 431,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/stuart-lab/signac"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Methods",
-    "paperYear": 2021,
-    "licenseNote": "no license detected by GitHub"
   },
   {
     "slug": "spagcn",
@@ -8531,7 +8346,7 @@
     "paper": "https://doi.org/10.1038/s41592-021-01255-8",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "SpaGCN: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network.",
+    "description": "Graph convolutional network that combines gene expression, spatial location and histology to find spatial domains and spatially variable genes.",
     "tags": [
       "spatial-transcriptomics",
       "graph-convolutional-network",
@@ -8539,715 +8354,59 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2021-10-28",
-    "dateSource": "https://doi.org/10.1038/s41592-021-01255-8",
+    "firstReleased": "2020-10-21",
+    "dateSource": "https://github.com/jianhuupenn/SpaGCN",
     "notability": "265 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; Nature Methods 2021",
     "specs": {
+      "platforms": "Visium, ST, Slide-seq, MERFISH",
+      "resolution": "Spot / cell",
+      "tasks": "Spatial domains, spatially variable genes",
       "stars": 265,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/jianhuupenn/SpaGCN"
+      "https://github.com/jianhuupenn/SpaGCN",
+      "https://doi.org/10.1038/s41592-021-01255-8"
     ],
     "harvested": true,
     "paperVenue": "Nature Methods",
     "paperYear": 2021
   },
   {
-    "slug": "bakta",
-    "name": "bakta",
-    "category": "genomics",
-    "url": "https://github.com/oschwengers/bakta",
-    "github": "https://github.com/oschwengers/bakta",
-    "paper": "https://doi.org/10.1099/mgen.0.000685",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Rapid & standardized annotation of bacterial genomes, MAGs & plasmids.",
-    "tags": [
-      "bioinformatics",
-      "microbial-genomics",
-      "genome-annotation"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-11-20",
-    "dateSource": "https://github.com/oschwengers/bakta/releases/tag/v0.3",
-    "notability": "686 GitHub stars; listed in danielecook/Awesome-Bioinformatics; Microbial Genomics 2021",
-    "specs": {
-      "stars": 686,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/oschwengers/bakta"
-    ],
-    "harvested": true,
-    "paperVenue": "Microbial Genomics",
-    "paperYear": 2021
-  },
-  {
-    "slug": "screpertoire",
-    "name": "scRepertoire",
-    "category": "single-cell",
-    "url": "https://www.borch.dev/uploads/screpertoire/",
-    "github": "https://github.com/BorchLab/scRepertoire",
-    "paper": "https://doi.org/10.1371/journal.pcbi.1012760",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "A toolkit for single-cell immune profiling.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2024-02-24",
-    "dateSource": "https://github.com/BorchLab/scRepertoire/releases/tag/v2.0.0",
-    "notability": "377 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; PLOS Computational Biology None",
-    "specs": {
-      "stars": 377,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/BorchLab/scRepertoire"
-    ],
-    "harvested": true,
-    "paperVenue": "PLOS Computational Biology",
-    "paperYear": null,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "scanorama",
-    "name": "scanorama",
-    "category": "single-cell",
-    "url": "https://github.com/brianhie/scanorama",
-    "github": "https://github.com/brianhie/scanorama",
-    "paper": "https://doi.org/10.1038/s41587-019-0113-3",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Panoramic stitching of single cell data.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-11-13",
-    "dateSource": "https://github.com/brianhie/scanorama/releases/tag/v0.5",
-    "notability": "295 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Biotechnology 2019",
-    "specs": {
-      "stars": 295,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/brianhie/scanorama"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Biotechnology",
-    "paperYear": 2019
-  },
-  {
     "slug": "cytotrace2",
-    "name": "cytotrace2",
+    "name": "CytoTRACE 2",
     "category": "single-cell",
     "url": "https://github.com/digitalcytometry/cytotrace2",
     "github": "https://github.com/digitalcytometry/cytotrace2",
     "paper": "https://doi.org/10.1038/s41592-025-02857-2",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "CytoTRACE 2 is an interpretable AI method for predicting cellular potency and absolute developmental potential from scRNA-seq data.",
+    "description": "Interpretable deep learning model that predicts cellular potency and absolute developmental potential from scRNA-seq.",
     "tags": [
       "single-cell"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2024-04-05",
-    "dateSource": "https://github.com/digitalcytometry/cytotrace2/releases/tag/v1.0.0",
+    "firstReleased": "2024-03-05",
+    "dateSource": "https://github.com/digitalcytometry/cytotrace2",
     "notability": "269 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Methods 2025",
     "specs": {
+      "corpus": "34 human and mouse scRNA-seq datasets, 24 tissues",
+      "architecture": "Ensemble of gene-set binary networks (interpretable DL)",
+      "tasks": "Potency / developmental potential prediction",
+      "species": "Human, mouse",
       "stars": 269,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/digitalcytometry/cytotrace2"
+      "https://github.com/digitalcytometry/cytotrace2",
+      "https://doi.org/10.1038/s41592-025-02857-2"
     ],
     "harvested": true,
     "paperVenue": "Nature Methods",
     "paperYear": 2025,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "bayesprism",
-    "name": "BayesPrism",
-    "category": "single-cell",
-    "url": "https://github.com/Danko-Lab/BayesPrism",
-    "github": "https://github.com/Danko-Lab/BayesPrism",
-    "paper": "https://doi.org/10.1038/s43018-022-00356-3",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-04-25",
-    "dateSource": "https://doi.org/10.1038/s43018-022-00356-3",
-    "notability": "253 GitHub stars; listed in seandavi/awesome-single-cell; Nature Cancer None",
-    "specs": {
-      "stars": 253,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/Danko-Lab/BayesPrism"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Cancer",
-    "paperYear": null,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "hail",
-    "name": "hail",
-    "category": "platforms",
-    "url": "https://hail.is",
-    "github": "https://github.com/hail-is/hail",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Cloud-native genomic dataframes and batch computing.",
-    "tags": [
-      "genetics",
-      "vcf",
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-04-18",
-    "dateSource": "https://github.com/hail-is/hail/releases/tag/0.2.13",
-    "notability": "1080 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1080,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/hail-is/hail"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "phate",
-    "name": "PHATE",
-    "category": "single-cell",
-    "url": "https://github.com/KrishnaswamyLab/PHATE",
-    "github": "https://github.com/KrishnaswamyLab/PHATE",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "PHATE (Potential of Heat-diffusion for Affinity-based Transition Embedding) is a tool for visualizing high dimensional data.",
-    "tags": [
-      "single-cell",
-      "dimensionality-reduction",
-      "data-visualization"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-05-31",
-    "dateSource": "https://github.com/KrishnaswamyLab/PHATE/releases/tag/v0.2.0",
-    "notability": "560 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 560,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/KrishnaswamyLab/PHATE"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "sctransform",
-    "name": "sctransform",
-    "category": "single-cell",
-    "url": "https://github.com/satijalab/sctransform",
-    "github": "https://github.com/satijalab/sctransform",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "R package for modeling single cell UMI expression data using regularized negative binomial regression.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-04-12",
-    "dateSource": "https://github.com/satijalab/sctransform/releases/tag/v0.2.0",
-    "notability": "272 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 272,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/satijalab/sctransform"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "vcflib",
-    "name": "vcflib",
-    "category": "sequencing",
-    "url": "https://github.com/vcflib/vcflib",
-    "github": "https://github.com/vcflib/vcflib",
-    "paper": "https://doi.org/10.1371/journal.pcbi.1009123",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "C++ library and cmdline tools for parsing and manipulating VCF files with python and zig bindings.",
-    "tags": [
-      "variant-calling",
-      "genomics",
-      "vcf-manipulation"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-02-08",
-    "dateSource": "https://github.com/vcflib/vcflib/releases/tag/v1.0.0-rc1",
-    "notability": "686 GitHub stars; listed in danielecook/Awesome-Bioinformatics; PLOS Computational Biology None",
-    "specs": {
-      "stars": 686,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/vcflib/vcflib"
-    ],
-    "harvested": true,
-    "paperVenue": "PLOS Computational Biology",
-    "paperYear": null
-  },
-  {
-    "slug": "scirpy",
-    "name": "scirpy",
-    "category": "single-cell",
-    "url": "https://scirpy.scverse.org/en/latest/",
-    "github": "https://github.com/scverse/scirpy",
-    "paper": "https://doi.org/10.1093/bioinformatics/btaa611",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "A scanpy extension to analyse single-cell TCR and BCR data.",
-    "tags": [
-      "airr",
-      "scverse"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-04-10",
-    "dateSource": "https://github.com/scverse/scirpy/releases/tag/v0.1",
-    "notability": "268 GitHub stars; listed in seandavi/awesome-single-cell; Bioinformatics 2020",
-    "specs": {
-      "stars": 268,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/scverse/scirpy"
-    ],
-    "harvested": true,
-    "paperVenue": "Bioinformatics",
-    "paperYear": 2020
-  },
-  {
-    "slug": "alevin-fry",
-    "name": "alevin-fry",
-    "category": "single-cell",
-    "url": "https://alevin-fry.readthedocs.io",
-    "github": "https://github.com/COMBINE-lab/alevin-fry",
-    "paper": "https://doi.org/10.1038/s41592-022-01408-3",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "alevin-fry is an efficient and flexible tool for processing single-cell sequencing data, currently focused on single-cell transcriptomics and feature barcoding.",
-    "tags": [
-      "single-cell",
-      "rust",
-      "transcriptomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-03-11",
-    "dateSource": "https://doi.org/10.1038/s41592-022-01408-3",
-    "notability": "219 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; Nature Methods 2022",
-    "specs": {
-      "stars": 219,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/COMBINE-lab/alevin-fry"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Methods",
-    "paperYear": 2022
-  },
-  {
-    "slug": "minimap2",
-    "name": "minimap2",
-    "category": "sequencing",
-    "url": "https://lh3.github.io/minimap2",
-    "github": "https://github.com/lh3/minimap2",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "A versatile pairwise aligner for genomic and spliced nucleotide sequences.",
-    "tags": [
-      "bioinformatics",
-      "sequence-alignment",
-      "spliced-alignment"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-07-24",
-    "dateSource": "https://github.com/lh3/minimap2/releases/tag/r191",
-    "notability": "2260 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 2260,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/lh3/minimap2"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "magic",
-    "name": "MAGIC",
-    "category": "single-cell",
-    "url": "https://github.com/KrishnaswamyLab/MAGIC",
-    "github": "https://github.com/KrishnaswamyLab/MAGIC",
-    "license": "GPL-2.0",
-    "pricing": "Open source",
-    "description": "MAGIC (Markov Affinity-based Graph Imputation of Cells), is a method for imputing missing values restoring structure of large biological datasets.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-03-31",
-    "dateSource": "https://github.com/KrishnaswamyLab/MAGIC/releases/tag/0.1",
-    "notability": "387 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 387,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/KrishnaswamyLab/MAGIC"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "numbat",
-    "name": "numbat",
-    "category": "single-cell",
-    "url": "https://kharchenkolab.github.io/numbat/",
-    "github": "https://github.com/kharchenkolab/numbat",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Haplotype-aware CNV analysis from single-cell RNA-seq, ATAC-seq, and multiome.",
-    "tags": [
-      "cancer-genomics",
-      "cnv-detection",
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-08-12",
-    "dateSource": "https://github.com/kharchenkolab/numbat/releases/tag/stable",
-    "notability": "232 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 232,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/kharchenkolab/numbat"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "cellchat",
-    "name": "CellChat",
-    "category": "single-cell",
-    "url": "https://github.com/jinworks/CellChat",
-    "github": "https://github.com/jinworks/CellChat",
-    "paper": "https://doi.org/10.1038/s41596-024-01045-4",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "R toolkit for inference, visualization and analysis of cell-cell communication from single-cell and spatially resolved transcriptomics.",
-    "tags": [
-      "cell-cell-communication",
-      "cell-cell-interaction",
-      "microenvironment"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2024-09-16",
-    "dateSource": "https://doi.org/10.1038/s41596-024-01045-4",
-    "notability": "681 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Protocols 2025",
-    "specs": {
-      "stars": 681,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/jinworks/CellChat"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Protocols",
-    "paperYear": 2025
-  },
-  {
-    "slug": "sopa",
-    "name": "sopa",
-    "category": "spatial",
-    "url": "https://prism-oncology.github.io/sopa/",
-    "github": "https://github.com/prism-oncology/sopa",
-    "paper": "https://doi.org/10.1038/s41467-024-48981-z",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "Technology-invariant pipeline for spatial omics analysis that scales to millions of cells (Xenium / Visium HD / MERSCOPE / CosMx / PhenoCycler / MACSima / etc.).",
-    "tags": [
-      "spatial-omics",
-      "spatial-transcriptomics",
-      "spatialdata"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-12-19",
-    "dateSource": "https://github.com/prism-oncology/sopa/releases/tag/v0.2.1",
-    "notability": "296 GitHub stars; listed in seandavi/awesome-single-cell; Nature Communications None",
-    "specs": {
-      "stars": 296,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/prism-oncology/sopa"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Communications",
-    "paperYear": null
-  },
-  {
-    "slug": "muscat",
-    "name": "muscat",
-    "category": "single-cell",
-    "url": "https://github.com/HelenaLC/muscat",
-    "github": "https://github.com/HelenaLC/muscat",
-    "paper": "https://doi.org/10.1038/s41467-020-19894-4",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Multi-sample multi-group scRNA-seq analysis tools.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-11-30",
-    "dateSource": "https://doi.org/10.1038/s41467-020-19894-4",
-    "notability": "247 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; Nature Communications None",
-    "specs": {
-      "stars": 247,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/HelenaLC/muscat"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Communications",
-    "paperYear": null,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "freebayes",
-    "name": "freebayes",
-    "category": "sequencing",
-    "url": "https://github.com/freebayes/freebayes",
-    "github": "https://github.com/freebayes/freebayes",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Bayesian haplotype-based genetic polymorphism discovery and genotyping.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-11-17",
-    "dateSource": "https://github.com/freebayes/freebayes/releases/tag/v1.0.1",
-    "notability": "880 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 880,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/freebayes/freebayes"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "bowtie2",
-    "name": "bowtie2",
-    "category": "sequencing",
-    "url": "https://github.com/BenLangmead/bowtie2",
-    "github": "https://github.com/BenLangmead/bowtie2",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "A fast and sensitive gapped read aligner.",
-    "tags": [
-      "bioinformatics",
-      "read-aligners",
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-07-30",
-    "dateSource": "https://github.com/BenLangmead/bowtie2/releases/tag/v2.2.6",
-    "notability": "811 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 811,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/BenLangmead/bowtie2"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "cellxgene",
-    "name": "cellxgene",
-    "category": "single-cell",
-    "url": "https://chanzuckerberg.github.io/cellxgene/",
-    "github": "https://github.com/chanzuckerberg/cellxgene",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "An interactive explorer for single-cell transcriptomics data.",
-    "tags": [
-      "scientific",
-      "visualization",
-      "scrna-seq"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-05-15",
-    "dateSource": "https://github.com/chanzuckerberg/cellxgene/releases/tag/v0.2.0",
-    "notability": "787 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 787,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/chanzuckerberg/cellxgene"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "diamond",
-    "name": "diamond",
-    "category": "sequencing",
-    "url": "https://github.com/bbuchfink/diamond",
-    "github": "https://github.com/bbuchfink/diamond",
-    "paper": "https://doi.org/10.1038/s41592-026-03030-z",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Accelerated BLAST compatible local sequence aligner.",
-    "tags": [
-      "sequence-alignment"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-03-13",
-    "dateSource": "https://github.com/bbuchfink/diamond/releases/tag/v0.7.3",
-    "notability": "1330 GitHub stars; listed in danielecook/Awesome-Bioinformatics; Nature Methods 2026",
-    "specs": {
-      "stars": 1330,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/bbuchfink/diamond"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Methods",
-    "paperYear": 2026
-  },
-  {
-    "slug": "bactopia",
-    "name": "bactopia",
-    "category": "platforms",
-    "url": "https://bactopia.io",
-    "github": "https://github.com/bactopia/bactopia",
-    "paper": "https://doi.org/10.1128/mSystems.00190-20",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "A flexible pipeline for complete analysis of bacterial genomes.",
-    "tags": [
-      "bacterial-genomes",
-      "nextflow",
-      "fastqs"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-05-01",
-    "dateSource": "https://github.com/bactopia/bactopia/releases/tag/v0.0.2",
-    "notability": "523 GitHub stars; listed in danielecook/Awesome-Bioinformatics; mSystems 2020",
-    "specs": {
-      "stars": 523,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/bactopia/bactopia"
-    ],
-    "harvested": true,
-    "paperVenue": "mSystems",
-    "paperYear": 2020
-  },
-  {
-    "slug": "cytospace",
-    "name": "cytospace",
-    "category": "spatial",
-    "url": "https://github.com/digitalcytometry/cytospace",
-    "github": "https://github.com/digitalcytometry/cytospace",
-    "paper": "https://doi.org/10.1038/s41587-023-01697-9",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "CytoSPACE: Optimal mapping of scRNA-seq data to spatial transcriptomics data.",
-    "tags": [
-      "spatial"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-03-06",
-    "dateSource": "https://doi.org/10.1038/s41587-023-01697-9",
-    "notability": "153 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Biotechnology 2023",
-    "specs": {
-      "stars": 153,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/digitalcytometry/cytospace"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Biotechnology",
-    "paperYear": 2023,
     "licenseNote": "no license detected by GitHub"
   },
   {
@@ -9258,199 +8417,33 @@
     "github": "https://github.com/RosettaCommons/RoseTTAFold",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "This package contains deep learning models and related scripts for RoseTTAFold.",
+    "description": "Baker lab's three-track neural network for protein structure and protein-protein complex prediction.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2021-07-03",
-    "dateSource": "https://github.com/RosettaCommons/RoseTTAFold/releases/tag/v1.0.0",
+    "firstReleased": "2021-06-29",
+    "dateSource": "https://github.com/RosettaCommons/RoseTTAFold",
     "notability": "2273 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Structure prediction",
+      "modalities": "Protein sequence, complexes",
+      "msa": "Yes",
+      "weights": "Yes",
+      "gpu": "GPU required",
       "stars": 2273,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/RosettaCommons/RoseTTAFold"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "rust-bio",
-    "name": "rust-bio",
-    "category": "platforms",
-    "url": "https://rust-bio.github.io",
-    "github": "https://github.com/rust-bio/rust-bio",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "This library provides implementations of many algorithms and data structures that are useful for bioinformatics. All provided implementations are rigorously tested via continuous integration.",
-    "tags": [
-      "platforms"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-02-02",
-    "dateSource": "https://github.com/rust-bio/rust-bio/releases/tag/v0.1.0",
-    "notability": "1841 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1841,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/rust-bio/rust-bio"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "decoupler",
-    "name": "decoupler",
-    "category": "single-cell",
-    "url": "https://decoupler.scverse.org/",
-    "github": "https://github.com/scverse/decoupler",
-    "paper": "https://doi.org/10.1093/bioadv/vbac016",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "Python package to perform enrichment analysis from omics data.",
-    "tags": [
-      "python",
-      "data-science",
-      "bioinformatics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-01-01",
-    "dateSource": "https://doi.org/10.1093/bioadv/vbac016",
-    "notability": "300 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Bioinformatics Advances 2022",
-    "specs": {
-      "stars": 300,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/scverse/decoupler"
+      "https://github.com/RosettaCommons/RoseTTAFold",
+      "https://doi.org/10.1126/science.abj8754"
     ],
     "harvested": true,
-    "paperVenue": "Bioinformatics Advances",
-    "paperYear": 2022
-  },
-  {
-    "slug": "flye",
-    "name": "Flye",
-    "category": "sequencing",
-    "url": "https://github.com/mikolmogorov/Flye",
-    "github": "https://github.com/mikolmogorov/Flye",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "De novo assembler for single molecule sequencing reads using repeat graphs.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-11-09",
-    "dateSource": "https://github.com/mikolmogorov/Flye/releases/tag/1.0",
-    "notability": "955 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 955,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/mikolmogorov/Flye"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "mosdepth",
-    "name": "mosdepth",
-    "category": "sequencing",
-    "url": "https://github.com/brentp/mosdepth",
-    "github": "https://github.com/brentp/mosdepth",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing.",
-    "tags": [
-      "coverage",
-      "genome",
-      "depth"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-08-24",
-    "dateSource": "https://github.com/brentp/mosdepth/releases/tag/v0.1.1",
-    "notability": "879 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 879,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/brentp/mosdepth"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "hifiasm",
-    "name": "hifiasm",
-    "category": "sequencing",
-    "url": "https://github.com/chhylp123/hifiasm",
-    "github": "https://github.com/chhylp123/hifiasm",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Hifiasm: a haplotype-resolved assembler for accurate Hifi reads.",
-    "tags": [
-      "bioinformatics",
-      "denovo-assembly",
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-01-06",
-    "dateSource": "https://github.com/chhylp123/hifiasm/releases/tag/0.1.0",
-    "notability": "817 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 817,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/chhylp123/hifiasm"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "nichenetr",
-    "name": "nichenetr",
-    "category": "single-cell",
-    "url": "https://github.com/saeyslab/nichenetr",
-    "github": "https://github.com/saeyslab/nichenetr",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "NicheNet: predict active ligand-target links between interacting cells.",
-    "tags": [
-      "single-cell-omics",
-      "intercellular-communication",
-      "ligand-receptor"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-04-11",
-    "dateSource": "https://github.com/saeyslab/nichenetr/releases/tag/v1.1.1",
-    "notability": "682 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 682,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/saeyslab/nichenetr"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
+    "paper": "https://doi.org/10.1126/science.abj8754",
+    "paperVenue": "Science",
+    "paperYear": 2021
   },
   {
     "slug": "hest",
@@ -9461,7 +8454,7 @@
     "paper": "https://arxiv.org/abs/2406.16192",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "Integrating histology and spatial transcriptomics - NeurIPS 2024.",
+    "description": "HEST-1k dataset of 1,276 paired spatial transcriptomics and H&E whole-slide samples, plus a library and benchmark for histology foundation models.",
     "tags": [
       "spatial-transcriptomics",
       "computational-pathology",
@@ -9469,16 +8462,20 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2024-06-23",
-    "dateSource": "https://arxiv.org/abs/2406.16192",
+    "firstReleased": "2024-03-04",
+    "dateSource": "https://github.com/mahmoodlab/HEST",
     "notability": "445 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; arXiv preprint 2024",
     "specs": {
+      "platforms": "Visium, Visium HD, Xenium, ST",
+      "resolution": "Spot / cell, paired H&E",
+      "tasks": "Dataset, gene expression prediction benchmark",
       "stars": 445,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/mahmoodlab/HEST"
+      "https://github.com/mahmoodlab/HEST",
+      "https://arxiv.org/abs/2406.16192"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
@@ -9486,44 +8483,15 @@
     "licenseNote": "no license detected by GitHub"
   },
   {
-    "slug": "bwa",
-    "name": "bwa",
-    "category": "sequencing",
-    "url": "https://github.com/lh3/bwa",
-    "github": "https://github.com/lh3/bwa",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read alignment).",
-    "tags": [
-      "bioinformatics",
-      "sequence-alignment",
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-02-23",
-    "dateSource": "https://github.com/lh3/bwa/releases/tag/v0.7.13",
-    "notability": "1768 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1768,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/lh3/bwa"
-    ],
-    "harvested": true
-  },
-  {
     "slug": "sidechainnet",
-    "name": "sidechainnet",
+    "name": "SidechainNet",
     "category": "datasets",
     "url": "https://github.com/jonathanking/sidechainnet",
     "github": "https://github.com/jonathanking/sidechainnet",
     "paper": "https://doi.org/10.1002/prot.26169",
     "license": "BSD-3-Clause",
     "pricing": "Open source",
-    "description": "An all-atom protein structure dataset for machine learning.",
+    "description": "All-atom protein structure dataset extending ProteinNet with sidechain angles and coordinates, with PyTorch loaders for ML.",
     "tags": [
       "machine-learning",
       "structural-biology",
@@ -9531,357 +8499,34 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2021-01-24",
-    "dateSource": "https://github.com/jonathanking/sidechainnet/releases/tag/v0.2.0",
+    "firstReleased": "2020-03-12",
+    "dateSource": "https://github.com/jonathanking/sidechainnet",
     "notability": "365 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL; Proteins: Structure, Function, and Bioinformatics 2021",
     "specs": {
+      "size": "ProteinNet splits (CASP7-12), all-atom coordinates",
+      "modality": "Protein structure",
+      "access": "pip package / download",
       "stars": 365,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/jonathanking/sidechainnet"
+      "https://github.com/jonathanking/sidechainnet",
+      "https://doi.org/10.1002/prot.26169"
     ],
     "harvested": true,
     "paperVenue": "Proteins: Structure, Function, and Bioinformatics",
     "paperYear": 2021
   },
   {
-    "slug": "scdesign3",
-    "name": "scDesign3",
-    "category": "single-cell",
-    "url": "https://songdongyuan1994.github.io/scDesign3/docs/index.html",
-    "github": "https://github.com/SONGDONGYUAN1994/scDesign3",
-    "paper": "https://doi.org/10.1038/s41587-023-01772-1",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-05-11",
-    "dateSource": "https://doi.org/10.1038/s41587-023-01772-1",
-    "notability": "126 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Biotechnology 2024",
-    "specs": {
-      "stars": 126,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/SONGDONGYUAN1994/scDesign3"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Biotechnology",
-    "paperYear": 2024
-  },
-  {
-    "slug": "bedtools2",
-    "name": "bedtools2",
-    "category": "genomics",
-    "url": "https://github.com/arq5x/bedtools2",
-    "github": "https://github.com/arq5x/bedtools2",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "bedtools - the swiss army knife for genome arithmetic.",
-    "tags": [
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2013-12-14",
-    "dateSource": "https://github.com/arq5x/bedtools2/releases/tag/v2.18.0",
-    "notability": "1055 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1055,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/arq5x/bedtools2"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "zumis",
-    "name": "zUMIs",
-    "category": "sequencing",
-    "url": "https://github.com/sdparekh/zUMIs",
-    "github": "https://github.com/sdparekh/zUMIs",
-    "paper": "https://doi.org/10.1093/gigascience/giy059",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "zUMIs: A fast and flexible pipeline to process RNA sequencing data with UMIs.",
-    "tags": [
-      "rnaseq",
-      "rna-seq",
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-02-18",
-    "dateSource": "https://github.com/sdparekh/zUMIs/releases/tag/zUMIs.0.0.3",
-    "notability": "298 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; GigaScience 2018",
-    "specs": {
-      "stars": 298,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/sdparekh/zUMIs"
-    ],
-    "harvested": true,
-    "paperVenue": "GigaScience",
-    "paperYear": 2018
-  },
-  {
-    "slug": "delly",
-    "name": "delly",
-    "category": "sequencing",
-    "url": "https://github.com/dellytools/delly",
-    "github": "https://github.com/dellytools/delly",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "DELLY2: Structural variant discovery by integrated paired-end and split-read analysis.",
-    "tags": [
-      "structural-variation",
-      "sv-discovery",
-      "delly-users"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2013-11-28",
-    "dateSource": "https://github.com/dellytools/delly/releases/tag/v0.1.2",
-    "notability": "538 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 538,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/dellytools/delly"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "wtdbg2",
-    "name": "wtdbg2",
-    "category": "sequencing",
-    "url": "https://github.com/ruanjue/wtdbg2",
-    "github": "https://github.com/ruanjue/wtdbg2",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Redbean: A fuzzy Bruijn graph approach to long noisy reads assembly.",
-    "tags": [
-      "pacbio",
-      "nanopore",
-      "assembly"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-09-24",
-    "dateSource": "https://github.com/ruanjue/wtdbg2/releases/tag/2.0",
-    "notability": "533 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 533,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/ruanjue/wtdbg2"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "prokka",
-    "name": "prokka",
-    "category": "genomics",
-    "url": "https://github.com/tseemann/prokka",
-    "github": "https://github.com/tseemann/prokka",
-    "paper": "https://doi.org/10.1093/bioinformatics/btu153",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": ":zap: :aquarius: Rapid prokaryotic genome annotation.",
-    "tags": [
-      "genome-annotation",
-      "functional-assignment",
-      "bacterial-genomes"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2014-03-18",
-    "dateSource": "https://doi.org/10.1093/bioinformatics/btu153",
-    "notability": "995 GitHub stars; listed in danielecook/Awesome-Bioinformatics; Bioinformatics 2014",
-    "specs": {
-      "stars": 995,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/tseemann/prokka"
-    ],
-    "harvested": true,
-    "paperVenue": "Bioinformatics",
-    "paperYear": 2014
-  },
-  {
-    "slug": "biojava",
-    "name": "biojava",
-    "category": "platforms",
-    "url": "https://biojava.org",
-    "github": "https://github.com/biojava/biojava",
-    "paper": "https://doi.org/10.1371/journal.pcbi.1006791",
-    "license": "LGPL-2.1",
-    "pricing": "Open source",
-    "description": ":book::microscope::coffee: BioJava is an open-source project dedicated to providing a Java library for processing biological data.",
-    "tags": [
-      "bioinformatics",
-      "java",
-      "protein-structure"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-04-19",
-    "dateSource": "https://github.com/biojava/biojava/releases/tag/biojava-4.2.0",
-    "notability": "634 GitHub stars; listed in danielecook/Awesome-Bioinformatics; PLOS Computational Biology None",
-    "specs": {
-      "stars": 634,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/biojava/biojava"
-    ],
-    "harvested": true,
-    "paperVenue": "PLOS Computational Biology",
-    "paperYear": null
-  },
-  {
-    "slug": "severus",
-    "name": "Severus",
-    "category": "sequencing",
-    "url": "https://github.com/KolmogorovLab/Severus",
-    "github": "https://github.com/KolmogorovLab/Severus",
-    "paper": "https://doi.org/10.1038/s41587-025-02618-8",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "A tool for somatic structural variant calling using long reads.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-10-24",
-    "dateSource": "https://github.com/KolmogorovLab/Severus/releases/tag/v0.1.0",
-    "notability": "181 GitHub stars; listed in crazyhottommy/awesome-long-reads; Nature Biotechnology 2026",
-    "specs": {
-      "stars": 181,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/KolmogorovLab/Severus"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Biotechnology",
-    "paperYear": 2026,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "seqtk",
-    "name": "seqtk",
-    "category": "sequencing",
-    "url": "https://github.com/lh3/seqtk",
-    "github": "https://github.com/lh3/seqtk",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Toolkit for processing sequences in FASTA/Q formats.",
-    "tags": [
-      "bioinformatics",
-      "sequence-analysis"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-04-06",
-    "dateSource": "https://github.com/lh3/seqtk/releases/tag/v1.1",
-    "notability": "1564 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1564,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/lh3/seqtk"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "hdwgcna",
-    "name": "hdWGCNA",
-    "category": "single-cell",
-    "url": "https://smorabit.github.io/hdWGCNA/",
-    "github": "https://github.com/smorabit/hdWGCNA",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "High dimensional weighted gene co-expression network analysis.",
-    "tags": [
-      "gene-regulatory-network",
-      "network-analysis",
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2024-02-28",
-    "dateSource": "https://github.com/smorabit/hdWGCNA/releases/tag/v0.3.00",
-    "notability": "494 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 494,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/smorabit/hdWGCNA"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "vcftools",
-    "name": "vcftools",
-    "category": "sequencing",
-    "url": "https://vcftools.github.io/",
-    "github": "https://github.com/vcftools/vcftools",
-    "license": "LGPL-3.0",
-    "pricing": "Open source",
-    "description": "A set of tools written in Perl and C++ for working with VCF files, such as those generated by the 1000 Genomes Project.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-08-03",
-    "dateSource": "https://github.com/vcftools/vcftools/releases/tag/v0.1.13",
-    "notability": "565 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 565,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/vcftools/vcftools"
-    ],
-    "harvested": true
-  },
-  {
     "slug": "deepcell-tf",
-    "name": "deepcell-tf",
+    "name": "DeepCell",
     "category": "imaging",
     "url": "https://deepcell.readthedocs.io",
     "github": "https://github.com/vanvalenlab/deepcell-tf",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "Deep Learning Library for Single Cell Analysis.",
+    "description": "Van Valen lab deep learning library for cell segmentation (Mesmer) and tracking in 2D/3D biological images.",
     "tags": [
       "deep-learning",
       "tensorflow",
@@ -9889,47 +8534,25 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2019-09-16",
-    "dateSource": "https://github.com/vanvalenlab/deepcell-tf/releases/tag/0.1.0",
+    "firstReleased": "2018-05-16",
+    "dateSource": "https://github.com/vanvalenlab/deepcell-tf",
     "notability": "481 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
     "specs": {
+      "dims": "2D, 3D, 2D time-lapse",
+      "modality": "Multiplexed tissue, live-cell fluorescence",
+      "segType": "Whole-cell and nuclear instance segmentation, tracking",
       "stars": 481,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/vanvalenlab/deepcell-tf"
+      "https://github.com/vanvalenlab/deepcell-tf",
+      "https://doi.org/10.1038/s41587-021-01094-0"
     ],
-    "harvested": true
-  },
-  {
-    "slug": "multiqc",
-    "name": "MultiQC",
-    "category": "platforms",
-    "url": "https://seqera.io/multiqc/",
-    "github": "https://github.com/MultiQC/MultiQC",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Aggregate results from bioinformatics analyses across many samples into a single report.",
-    "tags": [
-      "bioinformatics",
-      "analysis",
-      "pypi"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-09-01",
-    "dateSource": "https://github.com/MultiQC/MultiQC/releases/tag/v0.1",
-    "notability": "1494 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1494,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/MultiQC/MultiQC"
-    ],
-    "harvested": true
+    "harvested": true,
+    "paper": "https://doi.org/10.1038/s41587-021-01094-0",
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2022
   },
   {
     "slug": "glue",
@@ -9939,7 +8562,7 @@
     "github": "https://github.com/gao-lab/GLUE",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Graph-linked unified embedding for single-cell multi-omics data integration.",
+    "description": "Graph-linked variational autoencoders that integrate unpaired single-cell multi-omics data and infer regulatory interactions.",
     "tags": [
       "bioinformatics",
       "deep-learning",
@@ -9947,18 +8570,26 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2021-08-25",
-    "dateSource": "https://github.com/gao-lab/GLUE/releases/tag/v0.1.1",
+    "firstReleased": "2021-08-22",
+    "dateSource": "https://github.com/gao-lab/GLUE",
     "notability": "482 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
     "specs": {
+      "corpus": "Per-dataset training",
+      "architecture": "Graph-guided VAEs with adversarial alignment",
+      "tasks": "Multi-omics integration, regulatory inference",
+      "species": "Human, mouse",
       "stars": 482,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/gao-lab/GLUE"
+      "https://github.com/gao-lab/GLUE",
+      "https://doi.org/10.1038/s41587-022-01284-4"
     ],
-    "harvested": true
+    "harvested": true,
+    "paper": "https://doi.org/10.1038/s41587-022-01284-4",
+    "paperVenue": "Nature Biotechnology",
+    "paperYear": 2022
   },
   {
     "slug": "cellbender",
@@ -9968,51 +8599,32 @@
     "github": "https://github.com/broadinstitute/CellBender",
     "license": "BSD-3-Clause",
     "pricing": "Open source",
-    "description": "CellBender is a software package for eliminating technical artifacts from high-throughput single-cell RNA sequencing (scRNA-seq) data.",
+    "description": "Deep generative model that removes ambient RNA and other technical background from droplet scRNA-seq count matrices.",
     "tags": [
       "single-cell"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2020-09-25",
-    "dateSource": "https://github.com/broadinstitute/CellBender/releases/tag/v0.1.0",
+    "firstReleased": "2019-02-21",
+    "dateSource": "https://github.com/broadinstitute/CellBender",
     "notability": "426 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
     "specs": {
+      "corpus": "Per-dataset training",
+      "architecture": "Deep generative model (VAE, Pyro)",
+      "tasks": "Ambient RNA removal, cell calling",
+      "species": "Any",
       "stars": 426,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/broadinstitute/CellBender"
+      "https://github.com/broadinstitute/CellBender",
+      "https://doi.org/10.1038/s41592-023-01943-7"
     ],
-    "harvested": true
-  },
-  {
-    "slug": "rsem",
-    "name": "RSEM",
-    "category": "sequencing",
-    "url": "https://github.com/deweylab/RSEM",
-    "github": "https://github.com/deweylab/RSEM",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "RSEM: accurate quantification of gene and isoform expression from RNA-Seq data.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-07-27",
-    "dateSource": "https://github.com/deweylab/RSEM/releases/tag/v1.2.22",
-    "notability": "479 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 479,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/deweylab/RSEM"
-    ],
-    "harvested": true
+    "harvested": true,
+    "paper": "https://doi.org/10.1038/s41592-023-01943-7",
+    "paperVenue": "Nature Methods",
+    "paperYear": 2023
   },
   {
     "slug": "geodiff",
@@ -10023,7 +8635,7 @@
     "paper": "https://arxiv.org/abs/2203.02923",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Implementation of GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation (ICLR 2022).",
+    "description": "Geometric diffusion model that generates 3D molecular conformations from molecular graphs (ICLR 2022).",
     "tags": [
       "molecule",
       "graph-neural-networks",
@@ -10031,106 +8643,24 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2022-03-06",
-    "dateSource": "https://arxiv.org/abs/2203.02923",
+    "firstReleased": "2022-02-12",
+    "dateSource": "https://github.com/MinkaiXu/GeoDiff",
     "notability": "420 GitHub stars; listed in AspirinCode/awesome-AI4MolConformation-MD; arXiv preprint 2022",
     "specs": {
+      "task": "Conformer generation",
+      "representation": "Molecular graph to 3D coordinates",
+      "weights": "Yes (checkpoints provided)",
       "stars": 420,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/MinkaiXu/GeoDiff"
+      "https://github.com/MinkaiXu/GeoDiff",
+      "https://arxiv.org/abs/2203.02923"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
     "paperYear": 2022
-  },
-  {
-    "slug": "dynamo-release",
-    "name": "dynamo-release",
-    "category": "single-cell",
-    "url": "https://dynamo-release.readthedocs.io/en/latest/",
-    "github": "https://github.com/aristoteleo/dynamo-release",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "Inclusive model of expression dynamics with conventional or metabolic labeling based scRNA-seq / multiomics, vector field reconstruction and differential geometry analyses.",
-    "tags": [
-      "dynamo",
-      "scslam-seq",
-      "scrna-seq"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-08-11",
-    "dateSource": "https://github.com/aristoteleo/dynamo-release/releases/tag/v0.91",
-    "notability": "511 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 511,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/aristoteleo/dynamo-release"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "lumpy-sv",
-    "name": "lumpy-sv",
-    "category": "sequencing",
-    "url": "https://github.com/arq5x/lumpy-sv",
-    "github": "https://github.com/arq5x/lumpy-sv",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "lumpy: a general probabilistic framework for structural variant discovery.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2014-03-03",
-    "dateSource": "https://github.com/arq5x/lumpy-sv/releases/tag/0.1.6",
-    "notability": "346 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 346,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/arq5x/lumpy-sv"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "scde",
-    "name": "scde",
-    "category": "single-cell",
-    "url": "https://github.com/hms-dbmi/scde",
-    "github": "https://github.com/hms-dbmi/scde",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "R package for analyzing single-cell RNA-seq data.",
-    "tags": [
-      "bioinformatics",
-      "single-cell",
-      "transcriptomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-10-08",
-    "dateSource": "https://github.com/hms-dbmi/scde/releases/tag/1.99.0",
-    "notability": "180 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 180,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/hms-dbmi/scde"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
   },
   {
     "slug": "ivis",
@@ -10141,7 +8671,7 @@
     "paper": "https://doi.org/10.21105/joss.01596",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "Dimensionality reduction in very large datasets using Siamese Networks.",
+    "description": "Siamese neural network for structure-preserving dimensionality reduction of very large single-cell datasets.",
     "tags": [
       "machine-learning",
       "data-visualization",
@@ -10149,16 +8679,21 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2018-12-16",
-    "dateSource": "https://github.com/beringresearch/ivis/releases/tag/1.0",
+    "firstReleased": "2018-08-13",
+    "dateSource": "https://github.com/beringresearch/ivis",
     "notability": "345 GitHub stars; listed in seandavi/awesome-single-cell; Journal of Open Source Software 2019",
     "specs": {
+      "corpus": "Per-dataset training",
+      "architecture": "Siamese neural network (triplet loss)",
+      "tasks": "Dimensionality reduction, visualization",
+      "species": "Any",
       "stars": 345,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/beringresearch/ivis"
+      "https://github.com/beringresearch/ivis",
+      "https://doi.org/10.21105/joss.01596"
     ],
     "harvested": true,
     "paperVenue": "Journal of Open Source Software",
@@ -10172,7 +8707,7 @@
     "github": "https://github.com/PaddlePaddle/PaddleHelix",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "Bio-Computing Platform Featuring Large-Scale Representation Learning and Multi-Task Deep Learning “”.",
+    "description": "Baidu's bio-computing platform built on PaddlePaddle, including HelixFold structure prediction and molecular representation models.",
     "tags": [
       "biocomputing",
       "machine-learning",
@@ -10180,10 +8715,15 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2020-12-22",
-    "dateSource": "https://github.com/PaddlePaddle/PaddleHelix/releases/tag/v1.0b",
+    "firstReleased": "2020-11-21",
+    "dateSource": "https://github.com/PaddlePaddle/PaddleHelix",
     "notability": "1122 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL, apeterswu/Awesome-Bio-Foundation-Models",
     "specs": {
+      "task": "Structure prediction (HelixFold), molecular property models",
+      "modalities": "Protein, nucleic acids, small molecules",
+      "msa": "Yes (HelixFold)",
+      "weights": "Yes",
+      "gpu": "GPU required",
       "stars": 1122,
       "starsChecked": "2026-10-16"
     },
@@ -10196,13 +8736,13 @@
   },
   {
     "slug": "masif",
-    "name": "masif",
+    "name": "MaSIF",
     "category": "protein",
     "url": "https://github.com/LPDI-EPFL/masif",
     "github": "https://github.com/LPDI-EPFL/masif",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "MaSIF- Molecular surface interaction fingerprints. Geometric deep learning to decipher patterns in molecular surfaces.",
+    "description": "Geometric deep learning on protein molecular surfaces to predict interaction sites, ligand pockets and binding partners.",
     "tags": [
       "protein-surface",
       "molecular-surface",
@@ -10210,18 +8750,27 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2019-10-27",
-    "dateSource": "https://github.com/LPDI-EPFL/masif/releases/tag/v0.1",
+    "firstReleased": "2019-03-14",
+    "dateSource": "https://github.com/LPDI-EPFL/masif",
     "notability": "783 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Interaction site and binder search",
+      "modalities": "Protein surface (structure)",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "CPU or GPU (TensorFlow)",
       "stars": 783,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/LPDI-EPFL/masif"
+      "https://github.com/LPDI-EPFL/masif",
+      "https://doi.org/10.1038/s41592-019-0666-6"
     ],
-    "harvested": true
+    "harvested": true,
+    "paper": "https://doi.org/10.1038/s41592-019-0666-6",
+    "paperVenue": "Nature Methods",
+    "paperYear": 2020
   },
   {
     "slug": "diffsbdd",
@@ -10231,7 +8780,7 @@
     "github": "https://github.com/arneschneuing/DiffSBDD",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "A Euclidean diffusion model for structure-based drug design.",
+    "description": "Equivariant diffusion model that designs small molecules directly inside a protein pocket.",
     "tags": [
       "ddpm",
       "drug-design",
@@ -10239,188 +8788,56 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2024-10-14",
-    "dateSource": "https://github.com/arneschneuing/DiffSBDD/releases/tag/v0.1",
+    "firstReleased": "2022-09-29",
+    "dateSource": "https://github.com/arneschneuing/DiffSBDD",
     "notability": "534 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Structure-based de novo design, optimization",
+      "representation": "3D atoms (pocket-conditioned)",
+      "weights": "Yes (pretrained checkpoints)",
       "stars": 534,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/arneschneuing/DiffSBDD"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "dandelion",
-    "name": "dandelion",
-    "category": "single-cell",
-    "url": "https://sc-dandelion.readthedocs.io/",
-    "github": "https://github.com/tuonglab/dandelion",
-    "paper": "https://doi.org/10.1038/s41587-023-01734-7",
-    "license": "AGPL-3.0",
-    "pricing": "Open source",
-    "description": "dandelion - A single cell BCR/TCR V(D)J-seq analysis package.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-06-13",
-    "dateSource": "https://github.com/tuonglab/dandelion/releases/tag/v0.0.6",
-    "notability": "128 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Biotechnology 2024",
-    "specs": {
-      "stars": 128,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/tuonglab/dandelion"
+      "https://github.com/arneschneuing/DiffSBDD",
+      "https://doi.org/10.1038/s43588-024-00737-x"
     ],
     "harvested": true,
-    "paperVenue": "Nature Biotechnology",
+    "paper": "https://doi.org/10.1038/s43588-024-00737-x",
+    "paperVenue": "Nature Computational Science",
     "paperYear": 2024
   },
   {
-    "slug": "seqan3",
-    "name": "seqan3",
-    "category": "platforms",
-    "url": "https://www.seqan.de",
-    "github": "https://github.com/seqan/seqan3",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "The modern C++ library for sequence analysis. Contains version 3 of the library and API docs.",
-    "tags": [
-      "sequence-analysis",
-      "seqan",
-      "cpp20"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-06-06",
-    "dateSource": "https://github.com/seqan/seqan3/releases/tag/3.0.0",
-    "notability": "465 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 465,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/seqan/seqan3"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "scib",
-    "name": "scib",
-    "category": "single-cell",
-    "url": "https://github.com/theislab/scib",
-    "github": "https://github.com/theislab/scib",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Benchmarking analysis of data integration tools.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2021-10-24",
-    "dateSource": "https://github.com/theislab/scib/releases/tag/v1.0.0",
-    "notability": "434 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 434,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/theislab/scib"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "octopus",
-    "name": "octopus",
-    "category": "sequencing",
-    "url": "https://github.com/luntergroup/octopus",
-    "github": "https://github.com/luntergroup/octopus",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Bayesian haplotype-based mutation calling.",
-    "tags": [
-      "genomics",
-      "variant-calling",
-      "bioinformatics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-10-03",
-    "dateSource": "https://github.com/luntergroup/octopus/releases/tag/v0.1-alpha",
-    "notability": "327 GitHub stars; listed in seandavi/awesome-single-cell, danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 327,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/luntergroup/octopus"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "mast",
-    "name": "MAST",
-    "category": "single-cell",
-    "url": "https://github.com/RGLab/MAST",
-    "github": "https://github.com/RGLab/MAST",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Tools and methods for analysis of single cell assay data in R.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2014-05-14",
-    "dateSource": "https://github.com/RGLab/MAST/releases/tag/v1.0-beta.1",
-    "notability": "266 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 266,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/RGLab/MAST"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
     "slug": "singlecellnet",
-    "name": "singleCellNet",
+    "name": "SingleCellNet",
     "category": "single-cell",
     "url": "https://github.com/CahanLab/singleCellNet",
     "github": "https://github.com/CahanLab/singleCellNet",
     "paper": "https://doi.org/10.1016/j.cels.2019.06.004",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "SingleCellNet: classify single cells across species and platforms.",
+    "description": "Random-forest classifier on gene pairs that assigns cell types to scRNA-seq data across species and platforms.",
     "tags": [
       "single-cell"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2018-06-06",
-    "dateSource": "https://github.com/CahanLab/singleCellNet/releases/tag/v0.1.0-alpha",
+    "firstReleased": "2017-05-16",
+    "dateSource": "https://github.com/CahanLab/singleCellNet",
     "notability": "142 GitHub stars; listed in seandavi/awesome-single-cell; Cell Systems 2019",
     "specs": {
+      "corpus": "Reference atlases (e.g. Tabula Muris)",
+      "architecture": "Random forest on top-scoring gene pairs",
+      "tasks": "Cell-type classification",
+      "species": "Human, mouse, cross-species",
       "stars": 142,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/CahanLab/singleCellNet"
+      "https://github.com/CahanLab/singleCellNet",
+      "https://doi.org/10.1016/j.cels.2019.06.004"
     ],
     "harvested": true,
     "paperVenue": "Cell Systems",
@@ -10434,112 +8851,33 @@
     "github": "https://github.com/Kuhlman-Lab/ThermoMPNN",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "GNN trained to predict changes in thermodynamic stability for protein point mutants.",
+    "description": "Graph neural network built on ProteinMPNN that predicts stability changes (ddG) for protein point mutations.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2023-11-30",
-    "dateSource": "https://github.com/Kuhlman-Lab/ThermoMPNN/releases/tag/v1.0.0",
+    "firstReleased": "2023-07-19",
+    "dateSource": "https://github.com/Kuhlman-Lab/ThermoMPNN",
     "notability": "276 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Stability (ddG) prediction",
+      "modalities": "Protein structure",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "CPU or GPU",
       "stars": 276,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/Kuhlman-Lab/ThermoMPNN"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "vcfanno",
-    "name": "vcfanno",
-    "category": "genomics",
-    "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0973-5",
-    "github": "https://github.com/brentp/vcfanno",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "annotate a VCF with other VCFs/BEDs/tabixed files.",
-    "tags": [
-      "bioinformatics",
-      "vcf",
-      "annotation"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-04-29",
-    "dateSource": "https://github.com/brentp/vcfanno/releases/tag/v0.0.1",
-    "notability": "403 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 403,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/brentp/vcfanno"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "immunarch",
-    "name": "immunarch",
-    "category": "platforms",
-    "url": "https://immunomind.github.io/docs/",
-    "github": "https://github.com/immunomind/immunarch",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "immunarch [R package] – Multi-Modal Immune Repertoire Analytics for Immunotherapy and Vaccine Design.",
-    "tags": [
-      "immunomics",
-      "data-science",
-      "bioinformatics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-03-26",
-    "dateSource": "https://github.com/immunomind/immunarch/releases/tag/0.3.0",
-    "notability": "342 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 342,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/immunomind/immunarch"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "ffq",
-    "name": "ffq",
-    "category": "platforms",
-    "url": "https://github.com/pachterlab/ffq",
-    "github": "https://github.com/pachterlab/ffq",
-    "paper": "https://doi.org/10.1101/2022.05.18.492548",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "A tool to find sequencing data and metadata from public databases.",
-    "tags": [
-      "platforms"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-05-19",
-    "dateSource": "https://doi.org/10.1101/2022.05.18.492548",
-    "notability": "604 GitHub stars; listed in seandavi/awesome-single-cell; bioRxiv preprint None",
-    "specs": {
-      "stars": 604,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/pachterlab/ffq"
+      "https://github.com/Kuhlman-Lab/ThermoMPNN",
+      "https://doi.org/10.1073/pnas.2314853121"
     ],
     "harvested": true,
-    "paperVenue": "bioRxiv preprint",
-    "paperYear": null
+    "paper": "https://doi.org/10.1073/pnas.2314853121",
+    "paperVenue": "Proceedings of the National Academy of Sciences",
+    "paperYear": 2024
   },
   {
     "slug": "scdblfinder",
@@ -10550,119 +8888,32 @@
     "paper": "https://doi.org/10.12688/f1000research.73600.2",
     "license": "GPL-3.0",
     "pricing": "Open source",
-    "description": "Methods for detecting doublets in single-cell sequencing data.",
+    "description": "Doublet detection for single-cell data using gradient-boosted trees trained on artificial doublets.",
     "tags": [
       "single-cell",
       "doublets"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2022-05-16",
-    "dateSource": "https://doi.org/10.12688/f1000research.73600.2",
+    "firstReleased": "2019-05-05",
+    "dateSource": "https://github.com/plger/scDblFinder",
     "notability": "274 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; F1000Research None",
     "specs": {
+      "corpus": "Per-dataset (simulated doublets)",
+      "architecture": "Gradient boosting (xgboost)",
+      "tasks": "Doublet detection",
+      "species": "Any",
       "stars": 274,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/plger/scDblFinder"
+      "https://github.com/plger/scDblFinder",
+      "https://doi.org/10.12688/f1000research.73600.2"
     ],
     "harvested": true,
     "paperVenue": "F1000Research",
     "paperYear": null
-  },
-  {
-    "slug": "pycytominer",
-    "name": "pycytominer",
-    "category": "imaging",
-    "url": "https://pycytominer.readthedocs.io/en/latest/",
-    "github": "https://github.com/cytomining/pycytominer",
-    "paper": "https://doi.org/10.1038/s41592-025-02611-8",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "Python package for image-based profiling.",
-    "tags": [
-      "cytominer",
-      "microscopy",
-      "morphological-profiling"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-02-08",
-    "dateSource": "https://github.com/cytomining/pycytominer/releases/tag/v0.1",
-    "notability": "144 GitHub stars; listed in seandavi/awesome-single-cell; Nature Methods 2025",
-    "specs": {
-      "stars": 144,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/cytomining/pycytominer"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Methods",
-    "paperYear": 2025
-  },
-  {
-    "slug": "nglview",
-    "name": "nglview",
-    "category": "drug-discovery",
-    "url": "https://github.com/nglviewer/nglview",
-    "github": "https://github.com/nglviewer/nglview",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Jupyter widget to interactively view molecular structures and trajectories.",
-    "tags": [
-      "drug-discovery"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-11-20",
-    "dateSource": "https://github.com/nglviewer/nglview/releases/tag/v0.2",
-    "notability": "928 GitHub stars; listed in AspirinCode/awesome-AI4MolConformation-MD",
-    "specs": {
-      "stars": 928,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/nglviewer/nglview"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "scipipe",
-    "name": "scipipe",
-    "category": "platforms",
-    "url": "https://scipipe.org",
-    "github": "https://github.com/scipipe/scipipe",
-    "paper": "https://doi.org/10.1093/gigascience/giz044",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Robust, flexible and resource-efficient pipelines using Go and the commandline.",
-    "tags": [
-      "scientific-workflows",
-      "bioinformatics-pipeline",
-      "workflow"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-08-01",
-    "dateSource": "https://github.com/scipipe/scipipe/releases/tag/v0.1.0-alpha",
-    "notability": "1110 GitHub stars; listed in danielecook/Awesome-Bioinformatics; GigaScience 2019",
-    "specs": {
-      "stars": 1110,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/scipipe/scipipe"
-    ],
-    "harvested": true,
-    "paperVenue": "GigaScience",
-    "paperYear": 2019
   },
   {
     "slug": "scdeepsort",
@@ -10673,7 +8924,7 @@
     "paper": "https://doi.org/10.1093/nar/gkab775",
     "license": "GPL-3.0",
     "pricing": "Open source",
-    "description": "Cell-type Annotation for Single-cell Transcriptomics using Deep Learning with a Weighted Graph Neural Network.",
+    "description": "Pretrained weighted graph neural network for cell-type annotation of scRNA-seq data.",
     "tags": [
       "single-cell",
       "transcriptomics",
@@ -10681,16 +8932,21 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2021-04-20",
-    "dateSource": "https://github.com/ZJUFanLab/scDeepSort/releases/tag/scDeepSort",
+    "firstReleased": "2020-04-18",
+    "dateSource": "https://github.com/ZJUFanLab/scDeepSort",
     "notability": "112 GitHub stars; listed in seandavi/awesome-single-cell; Nucleic Acids Research 2021",
     "specs": {
+      "corpus": "Human and mouse reference atlases",
+      "architecture": "Weighted graph neural network",
+      "tasks": "Cell-type annotation",
+      "species": "Human, mouse",
       "stars": 112,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/ZJUFanLab/scDeepSort"
+      "https://github.com/ZJUFanLab/scDeepSort",
+      "https://doi.org/10.1093/nar/gkab775"
     ],
     "harvested": true,
     "paperVenue": "Nucleic Acids Research",
@@ -10705,7 +8961,7 @@
     "paper": "https://doi.org/10.1088/2632-2153/ac3de0",
     "license": "LGPL-3.0",
     "pricing": "Open source",
-    "description": "Python library for analysis of time series data including dimensionality reduction, clustering, and Markov model estimation.",
+    "description": "Python library for learning dynamical models from time series, from Markov state models to VAMPnets and deep MSMs.",
     "tags": [
       "time-series-analysis",
       "markov-state-model",
@@ -10713,105 +8969,24 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2019-10-13",
-    "dateSource": "https://github.com/deeptime-ml/deeptime/releases/tag/v0.1",
+    "firstReleased": "2018-03-27",
+    "dateSource": "https://github.com/deeptime-ml/deeptime",
     "notability": "893 GitHub stars; listed in AspirinCode/awesome-AI4MolConformation-MD; Machine Learning: Science and Technology 2022",
     "specs": {
+      "task": "Kinetic models of MD trajectories",
+      "representation": "Time-series features",
+      "weights": "No (train your own)",
       "stars": 893,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/deeptime-ml/deeptime"
+      "https://github.com/deeptime-ml/deeptime",
+      "https://doi.org/10.1088/2632-2153/ac3de0"
     ],
     "harvested": true,
     "paperVenue": "Machine Learning: Science and Technology",
     "paperYear": 2022
-  },
-  {
-    "slug": "fastqc",
-    "name": "FastQC",
-    "category": "sequencing",
-    "url": "https://github.com/s-andrews/FastQC",
-    "github": "https://github.com/s-andrews/FastQC",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "A quality control analysis tool for high throughput sequencing data.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-12-21",
-    "dateSource": "https://github.com/s-andrews/FastQC/releases/tag/v0.11.6",
-    "notability": "624 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 624,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/s-andrews/FastQC"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "jbrowse",
-    "name": "jbrowse",
-    "category": "genomics",
-    "url": "https://github.com/GMOD/jbrowse",
-    "github": "https://github.com/GMOD/jbrowse",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "JBrowse 1, a full-featured genome browser built with JavaScript and HTML5. For JBrowse 2, see.",
-    "tags": [
-      "genomics",
-      "genome-browser",
-      "genome-annotation"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-05-04",
-    "dateSource": "https://github.com/GMOD/jbrowse/releases/tag/1.12.1-release",
-    "notability": "474 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 474,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/GMOD/jbrowse"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "bpipe",
-    "name": "bpipe",
-    "category": "platforms",
-    "url": "https://github.com/ssadedin/bpipe",
-    "github": "https://github.com/ssadedin/bpipe",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Bpipe - a tool for running and managing bioinformatics pipelines.",
-    "tags": [
-      "platforms"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2014-10-22",
-    "dateSource": "https://github.com/ssadedin/bpipe/releases/tag/0.9.8.6",
-    "notability": "241 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 241,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/ssadedin/bpipe"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
   },
   {
     "slug": "saprot",
@@ -10822,7 +8997,7 @@
     "paper": "https://doi.org/10.1101/2023.10.01.560349",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Saprot: Protein Language Model with Structural Alphabet (AA+3Di).",
+    "description": "Protein language model with a structure-aware vocabulary combining amino acids with Foldseek 3Di tokens.",
     "tags": [
       "alphafold2",
       "foldseek",
@@ -10834,202 +9009,69 @@
     "dateSource": "https://doi.org/10.1101/2023.10.01.560349",
     "notability": "639 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL, apeterswu/Awesome-Bio-Foundation-Models; bioRxiv preprint None",
     "specs": {
+      "task": "Embeddings, fitness and property prediction",
+      "modalities": "Sequence + 3Di structure tokens",
+      "msa": "No",
+      "weights": "Yes (35M-1.3B)",
+      "gpu": "GPU recommended",
       "stars": 639,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/westlake-repl/SaProt"
+      "https://github.com/westlake-repl/SaProt",
+      "https://doi.org/10.1101/2023.10.01.560349"
     ],
     "harvested": true,
     "paperVenue": "bioRxiv preprint",
     "paperYear": null
   },
   {
-    "slug": "sceasy",
-    "name": "sceasy",
-    "category": "single-cell",
-    "url": "https://github.com/cellgeni/sceasy",
-    "github": "https://github.com/cellgeni/sceasy",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "A package to help convert different single-cell data formats to each other.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-09-05",
-    "dateSource": "https://github.com/cellgeni/sceasy/releases/tag/v0.0.1",
-    "notability": "471 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 471,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/cellgeni/sceasy"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "liana",
-    "name": "liana",
-    "category": "single-cell",
-    "url": "https://github.com/scverse/liana",
-    "github": "https://github.com/scverse/liana",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "LIANA+: an all-in-one framework for cell-cell communication.",
-    "tags": [
-      "cell-cell-communication",
-      "ligand-receptor",
-      "python"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-06-06",
-    "dateSource": "https://github.com/scverse/liana/releases/tag/0.1.8",
-    "notability": "323 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 323,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/scverse/liana"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "simlr",
-    "name": "SIMLR",
-    "category": "single-cell",
-    "url": "https://batzogloulabsu.github.io/SIMLR/",
-    "github": "https://github.com/BatzoglouLabSU/SIMLR",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Implementations in both Matlab and R of the SIMLR method. The manuscript of the method is available at:.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-06-08",
-    "dateSource": "https://github.com/BatzoglouLabSU/SIMLR/releases/tag/0.1.0",
-    "notability": "115 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 115,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/BatzoglouLabSU/SIMLR"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "pydna",
-    "name": "pydna",
-    "category": "genomics",
-    "url": "https://github.com/pydna-group/pydna",
-    "github": "https://github.com/pydna-group/pydna",
-    "paper": "https://doi.org/10.1186/s12859-015-0544-x",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Clone with Python! Data structures for double stranded DNA & simulation of homologous recombination, Gibson assembly, cut & paste cloning.",
-    "tags": [
-      "bioinformatics",
-      "biopython",
-      "python"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-05-02",
-    "dateSource": "https://doi.org/10.1186/s12859-015-0544-x",
-    "notability": "232 GitHub stars; listed in davidliwei/awesome-CRISPR; BMC Bioinformatics 2015",
-    "specs": {
-      "stars": 232,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/pydna-group/pydna"
-    ],
-    "harvested": true,
-    "paperVenue": "BMC Bioinformatics",
-    "paperYear": 2015,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
     "slug": "efficient-evolution",
-    "name": "efficient-evolution",
+    "name": "Efficient Evolution",
     "category": "protein",
     "url": "https://github.com/brianhie/efficient-evolution",
     "github": "https://github.com/brianhie/efficient-evolution",
     "paper": "https://doi.org/10.1038/s41587-023-01763-2",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Efficient evolution from protein language models.",
+    "description": "Uses general protein language models to recommend affinity-improving mutations, applied to human antibodies.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2022-08-09",
-    "dateSource": "https://github.com/brianhie/efficient-evolution/releases/tag/v0.1",
+    "firstReleased": "2022-04-10",
+    "dateSource": "https://github.com/brianhie/efficient-evolution",
     "notability": "227 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL, apeterswu/Awesome-Bio-Foundation-Models; Nature Biotechnology 2024",
     "specs": {
+      "task": "Mutation recommendation / directed evolution",
+      "modalities": "Sequence",
+      "msa": "No",
+      "weights": "Uses ESM models",
+      "gpu": "CPU or GPU",
       "stars": 227,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/brianhie/efficient-evolution"
+      "https://github.com/brianhie/efficient-evolution",
+      "https://doi.org/10.1038/s41587-023-01763-2"
     ],
     "harvested": true,
     "paperVenue": "Nature Biotechnology",
     "paperYear": 2024
   },
   {
-    "slug": "somalier",
-    "name": "somalier",
-    "category": "sequencing",
-    "url": "https://github.com/brentp/somalier",
-    "github": "https://github.com/brentp/somalier",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "fast sample-swap and relatedness checks on BAMs/CRAMs/VCFs/GVCFs... \"like damn that is one smart wine guy\".",
-    "tags": [
-      "cancer-genomics",
-      "bioinformatics",
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-08-07",
-    "dateSource": "https://github.com/brentp/somalier/releases/tag/v0.0.1",
-    "notability": "341 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 341,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/brentp/somalier"
-    ],
-    "harvested": true
-  },
-  {
     "slug": "foldingdiff",
-    "name": "foldingdiff",
+    "name": "FoldingDiff",
     "category": "protein",
     "url": "https://www.nature.com/articles/s41467-024-45051-2",
     "github": "https://github.com/microsoft/foldingdiff",
     "paper": "https://arxiv.org/abs/2209.15611",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Diffusion models of protein structure; trigonometry and attention are all you need!.",
+    "description": "Diffusion model that generates protein backbones by denoising internal backbone angles.",
     "tags": [
       "diffusion",
       "diffusion-models",
@@ -11037,16 +9079,22 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2022-09-30",
-    "dateSource": "https://arxiv.org/abs/2209.15611",
+    "firstReleased": "2022-06-30",
+    "dateSource": "https://github.com/microsoft/foldingdiff",
     "notability": "568 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL; arXiv preprint 2022",
     "specs": {
+      "task": "Backbone generation",
+      "modalities": "Backbone angles",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "GPU recommended",
       "stars": 568,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/microsoft/foldingdiff"
+      "https://github.com/microsoft/foldingdiff",
+      "https://arxiv.org/abs/2209.15611"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
@@ -11054,14 +9102,14 @@
   },
   {
     "slug": "torchani",
-    "name": "torchani",
+    "name": "TorchANI",
     "category": "drug-discovery",
     "url": "https://aiqm.github.io/torchani/",
     "github": "https://github.com/aiqm/torchani",
     "paper": "https://doi.org/10.1021/acs.jpcb.5c05725",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "TorchANI 2.0 is an open-source library that supports training, development, and research of ANI-style neural network interatomic potentials. It was originally developed and is currently maintained by the Roitberg group.",
+    "description": "PyTorch library for training and running ANI neural-network interatomic potentials, maintained by the Roitberg group.",
     "tags": [
       "deep-learning",
       "neural-network",
@@ -11069,165 +9117,60 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2018-12-12",
-    "dateSource": "https://github.com/aiqm/torchani/releases/tag/0.1",
+    "firstReleased": "2018-04-02",
+    "dateSource": "https://github.com/aiqm/torchani",
     "notability": "565 GitHub stars; listed in AspirinCode/awesome-AI4MolConformation-MD; The Journal of Physical Chemistry B 2025",
     "specs": {
+      "task": "Neural network potentials (energies, forces)",
+      "representation": "3D atomic coordinates",
+      "weights": "Yes (ANI-1x, ANI-2x)",
       "stars": 565,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/aiqm/torchani"
+      "https://github.com/aiqm/torchani",
+      "https://doi.org/10.1021/acs.jpcb.5c05725"
     ],
     "harvested": true,
     "paperVenue": "The Journal of Physical Chemistry B",
     "paperYear": 2025
   },
   {
-    "slug": "saver",
-    "name": "SAVER",
-    "category": "single-cell",
-    "url": "https://nzhanglab.github.io/SAVER/",
-    "github": "https://github.com/nzhanglab/SAVER",
-    "paper": "https://doi.org/10.1038/s41592-018-0033-z",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Single-cell RNA-seq Gene Expression Recovery.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-05-09",
-    "dateSource": "https://github.com/nzhanglab/SAVER/releases/tag/v0.1.0",
-    "notability": "117 GitHub stars; listed in seandavi/awesome-single-cell; Nature Methods 2018",
-    "specs": {
-      "stars": 117,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/nzhanglab/SAVER"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Methods",
-    "paperYear": 2018,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
     "slug": "starling",
-    "name": "starling",
+    "name": "STARLING",
     "category": "protein",
     "url": "https://github.com/idptools/starling",
     "github": "https://github.com/idptools/starling",
     "paper": "https://doi.org/10.1038/s41586-026-10141-2",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "STARLING - conSTruction of intrinsicAlly disoRdered proteins ensembles efficientLy vIa multi-dimeNsional Generative models.",
+    "description": "Latent diffusion model that predicts coarse-grained conformational ensembles of intrinsically disordered regions from sequence.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2025-02-10",
-    "dateSource": "https://github.com/idptools/starling/releases/tag/v1.0.0",
+    "firstReleased": "2024-03-14",
+    "dateSource": "https://github.com/idptools/starling",
     "notability": "78 GitHub stars; listed in AspirinCode/awesome-AI4MolConformation-MD; Nature 2026",
     "specs": {
+      "task": "Disordered ensemble prediction",
+      "modalities": "Sequence to coarse-grained ensembles",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "GPU, Apple Silicon or CPU",
       "stars": 78,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/idptools/starling"
+      "https://github.com/idptools/starling",
+      "https://doi.org/10.1038/s41586-026-10141-2"
     ],
     "harvested": true,
     "paperVenue": "Nature",
     "paperYear": 2026,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "pyensembl",
-    "name": "pyensembl",
-    "category": "genomics",
-    "url": "https://github.com/openvax/pyensembl",
-    "github": "https://github.com/openvax/pyensembl",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl.",
-    "tags": [
-      "genomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-02-19",
-    "dateSource": "https://github.com/openvax/pyensembl/releases/tag/v0.5.4",
-    "notability": "410 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 410,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/openvax/pyensembl"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "scrnaseq",
-    "name": "scrnaseq",
-    "category": "single-cell",
-    "url": "https://nf-co.re/scrnaseq",
-    "github": "https://github.com/nf-core/scrnaseq",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Single-cell RNA-Seq pipeline for barcode-based protocols such as 10x, DropSeq or SmartSeq, offering a variety of aligners and empty-droplet detection.",
-    "tags": [
-      "nf-core",
-      "nextflow",
-      "workflow"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-12-09",
-    "dateSource": "https://github.com/nf-core/scrnaseq/releases/tag/1.0.0",
-    "notability": "357 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 357,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/nf-core/scrnaseq"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "scenicplus",
-    "name": "scenicplus",
-    "category": "single-cell",
-    "url": "https://github.com/aertslab/scenicplus",
-    "github": "https://github.com/aertslab/scenicplus",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "SCENIC+ is a python package to build gene regulatory networks (GRNs) using combined or separate single-cell gene expression (scRNA-seq) and single-cell chromatin accessibility (scATAC-seq) data.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-04-23",
-    "dateSource": "https://github.com/aertslab/scenicplus/releases/tag/v1.0.0",
-    "notability": "267 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 267,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/aertslab/scenicplus"
-    ],
-    "harvested": true,
     "licenseNote": "no license detected by GitHub"
   },
   {
@@ -11239,131 +9182,41 @@
     "paper": "https://arxiv.org/abs/2305.17100",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "BiomedGPT: A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks.",
+    "description": "Generalist vision-language foundation model for biomedical images and text, covering VQA, captioning, report generation and classification.",
     "tags": [
       "clinical"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2023-05-26",
-    "dateSource": "https://arxiv.org/abs/2305.17100",
+    "firstReleased": "2023-05-11",
+    "dateSource": "https://github.com/taokz/BiomedGPT",
     "notability": "713 GitHub stars; listed in FreedomIntelligence/Awesome-AI4Med; arXiv preprint 2023",
     "specs": {
+      "modality": "Medical images + text",
+      "baseModel": "OFA-style encoder-decoder transformer",
+      "params": "Up to 930M",
       "stars": 713,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/taokz/BiomedGPT"
+      "https://github.com/taokz/BiomedGPT",
+      "https://arxiv.org/abs/2305.17100"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
     "paperYear": 2023
   },
   {
-    "slug": "scperturb",
-    "name": "scPerturb",
-    "category": "single-cell",
-    "url": "https://github.com/sanderlab/scPerturb",
-    "github": "https://github.com/sanderlab/scPerturb",
-    "paper": "https://doi.org/10.1038/s41592-023-02144-y",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "scPerturb: A resource and a python/R tool for single-cell perturbation data.",
-    "tags": [
-      "cite-seq",
-      "database",
-      "perturbation"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-09-29",
-    "dateSource": "https://github.com/sanderlab/scPerturb/releases/tag/v0.0.1",
-    "notability": "191 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Methods 2024",
-    "specs": {
-      "stars": 191,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/sanderlab/scPerturb"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Methods",
-    "paperYear": 2024,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "splatter",
-    "name": "splatter",
-    "category": "single-cell",
-    "url": "https://github.com/Oshlack/splatter",
-    "github": "https://github.com/Oshlack/splatter",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Simple simulation of single-cell RNA sequencing data.",
-    "tags": [
-      "bioconductor",
-      "simulation",
-      "scrna-seq"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2017-07-22",
-    "dateSource": "https://github.com/Oshlack/splatter/releases/tag/v1.1.3-basics",
-    "notability": "234 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 234,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/Oshlack/splatter"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "symphony",
-    "name": "symphony",
-    "category": "single-cell",
-    "url": "https://github.com/immunogenomics/symphony",
-    "github": "https://github.com/immunogenomics/symphony",
-    "paper": "https://doi.org/10.1038/s41467-021-25957-x",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Efficient and precise single-cell reference atlas mapping with Symphony.",
-    "tags": [
-      "r",
-      "scrna-seq",
-      "bioinfo"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2021-10-07",
-    "dateSource": "https://doi.org/10.1038/s41467-021-25957-x",
-    "notability": "126 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Communications None",
-    "specs": {
-      "stars": 126,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/immunogenomics/symphony"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Communications",
-    "paperYear": null
-  },
-  {
     "slug": "cell2sentence",
-    "name": "cell2sentence",
+    "name": "Cell2Sentence (C2S-Scale)",
     "category": "single-cell",
     "url": "https://github.com/vandijklab/cell2sentence",
     "github": "https://github.com/vandijklab/cell2sentence",
     "paper": "https://doi.org/10.1101/2023.09.11.557287",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "Cell2Sentence: Teaching Large Language Models the Language of Biology.",
+    "description": "Turns expression profiles into ranked gene \"cell sentences\" so LLMs (up to 27B) can model and generate single-cell data.",
     "tags": [
       "single-cell"
     ],
@@ -11373,176 +9226,32 @@
     "dateSource": "https://doi.org/10.1101/2023.09.11.557287",
     "notability": "889 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; bioRxiv preprint None",
     "specs": {
+      "corpus": "57M+ human and mouse cells (CELLxGENE, HCA) plus text",
+      "architecture": "LLMs (Pythia, Gemma) on cell sentences",
+      "tasks": "Cell generation, annotation, perturbation, QA",
+      "species": "Human, mouse",
       "stars": 889,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/vandijklab/cell2sentence"
+      "https://github.com/vandijklab/cell2sentence",
+      "https://doi.org/10.1101/2023.09.11.557287"
     ],
     "harvested": true,
     "paperVenue": "bioRxiv preprint",
     "paperYear": null
   },
   {
-    "slug": "rapids-singlecell",
-    "name": "rapids-singlecell",
-    "category": "single-cell",
-    "url": "https://rapids-singlecell.scverse.org/",
-    "github": "https://github.com/scverse/rapids-singlecell",
-    "paper": "https://arxiv.org/abs/2603.02402",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "rapids-singlecell: GPU-accelerated framework for scRNA analysis.",
-    "tags": [
-      "gpu",
-      "single-cell",
-      "anndata"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-06-10",
-    "dateSource": "https://github.com/scverse/rapids-singlecell/releases/tag/v0.1.0",
-    "notability": "402 GitHub stars; listed in seandavi/awesome-single-cell; arXiv preprint 2026",
-    "specs": {
-      "stars": 402,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/scverse/rapids-singlecell"
-    ],
-    "harvested": true,
-    "paperVenue": "arXiv preprint",
-    "paperYear": 2026
-  },
-  {
-    "slug": "gridss",
-    "name": "gridss",
-    "category": "sequencing",
-    "url": "https://github.com/PapenfussLab/gridss",
-    "github": "https://github.com/PapenfussLab/gridss",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "GRIDSS: the Genomic Rearrangement IDentification Software Suite.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-08-27",
-    "dateSource": "https://github.com/PapenfussLab/gridss/releases/tag/v0.7",
-    "notability": "286 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 286,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/PapenfussLab/gridss"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "bpcells",
-    "name": "BPCells",
-    "category": "single-cell",
-    "url": "https://bnprks.github.io/BPCells",
-    "github": "https://github.com/bnprks/BPCells",
-    "paper": "https://doi.org/10.1101/2025.03.27.645853",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Scaling Single Cell Analysis to Millions of Cells.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-04-10",
-    "dateSource": "https://github.com/bnprks/BPCells/releases/tag/v0.1.0",
-    "notability": "308 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics; bioRxiv preprint None",
-    "specs": {
-      "stars": 308,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/bnprks/BPCells"
-    ],
-    "harvested": true,
-    "paperVenue": "bioRxiv preprint",
-    "paperYear": null,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "vitessce",
-    "name": "vitessce",
-    "category": "spatial",
-    "url": "https://github.com/vitessce/vitessce",
-    "github": "https://github.com/vitessce/vitessce",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Vitessce is a visual integration tool for exploration of spatial single-cell experiments.",
-    "tags": [
-      "single-cell",
-      "imaging",
-      "hubmap"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-07-28",
-    "dateSource": "https://github.com/vitessce/vitessce/releases/tag/v3.1.0",
-    "notability": "272 GitHub stars; listed in seandavi/awesome-single-cell, wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 272,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/vitessce/vitessce"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "opentsne",
-    "name": "openTSNE",
-    "category": "single-cell",
-    "url": "https://opentsne.rtfd.io",
-    "github": "https://github.com/pavlin-policar/openTSNE",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "Extensible, parallel implementations of t-SNE.",
-    "tags": [
-      "tsne",
-      "visualization",
-      "machine-learning"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-09-11",
-    "dateSource": "https://github.com/pavlin-policar/openTSNE/releases/tag/v0.2.0",
-    "notability": "1625 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 1625,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/pavlin-policar/openTSNE"
-    ],
-    "harvested": true
-  },
-  {
     "slug": "tape",
-    "name": "tape",
+    "name": "TAPE",
     "category": "protein",
     "url": "https://www.biorxiv.org/content/10.1101/676825v1",
     "github": "https://github.com/songlab-cal/tape",
     "paper": "https://arxiv.org/abs/1906.08230",
     "license": "BSD-3-Clause",
     "pricing": "Open source",
-    "description": "Tasks Assessing Protein Embeddings (TAPE), a set of five biologically relevant semi-supervised learning tasks spread across different domains of protein biology.",
+    "description": "Benchmark of five protein tasks with pretraining corpus and pretrained language model weights for evaluating protein embeddings.",
     "tags": [
       "deep-learning",
       "protein-sequences",
@@ -11554,12 +9263,18 @@
     "dateSource": "https://arxiv.org/abs/1906.08230",
     "notability": "745 GitHub stars; listed in apeterswu/Awesome-Bio-Foundation-Models; arXiv preprint 2019",
     "specs": {
+      "task": "Embedding benchmark (structure, homology, fitness)",
+      "modalities": "Sequence",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "GPU recommended",
       "stars": 745,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/songlab-cal/tape"
+      "https://github.com/songlab-cal/tape",
+      "https://arxiv.org/abs/1906.08230"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
@@ -11567,13 +9282,13 @@
   },
   {
     "slug": "torchmd",
-    "name": "torchmd",
+    "name": "TorchMD",
     "category": "drug-discovery",
     "url": "https://github.com/torchmd/torchmd",
     "github": "https://github.com/torchmd/torchmd",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "End-To-End Molecular Dynamics (MD) Engine using PyTorch.",
+    "description": "PyTorch molecular dynamics engine that mixes classical force fields with neural network potentials.",
     "tags": [
       "molecular-dynamics",
       "coarse-grained-molecular-dynamics",
@@ -11581,48 +9296,25 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2023-05-22",
-    "dateSource": "https://github.com/torchmd/torchmd/releases/tag/1.0.0",
+    "firstReleased": "2020-02-12",
+    "dateSource": "https://github.com/torchmd/torchmd",
     "notability": "721 GitHub stars; listed in AspirinCode/awesome-AI4MolConformation-MD",
     "specs": {
+      "task": "MD with neural network potentials",
+      "representation": "3D atomic coordinates",
+      "weights": "Via TorchMD-Net",
       "stars": 721,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/torchmd/torchmd"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "pyfaidx",
-    "name": "pyfaidx",
-    "category": "genomics",
-    "url": "https://pypi.python.org/pypi/pyfaidx",
-    "github": "https://github.com/mdshw5/pyfaidx",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Efficient pythonic random access to fasta subsequences.",
-    "tags": [
-      "python",
-      "bioinformatics",
-      "fasta"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-02-13",
-    "dateSource": "https://github.com/mdshw5/pyfaidx/releases/tag/v0.1.8",
-    "notability": "489 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 489,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/mdshw5/pyfaidx"
+      "https://github.com/torchmd/torchmd",
+      "https://doi.org/10.1021/acs.jctc.0c01343"
     ],
     "harvested": true,
-    "licenseNote": "no license detected by GitHub"
+    "paper": "https://doi.org/10.1021/acs.jctc.0c01343",
+    "paperVenue": "Journal of Chemical Theory and Computation",
+    "paperYear": 2021
   },
   {
     "slug": "disco",
@@ -11632,7 +9324,7 @@
     "github": "https://github.com/DISCO-design/DISCO",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "Code for the DISCO model: General Multimodal Protein Design Enables DNA-Encoding of Chemistry.",
+    "description": "Diffusion model that co-designs protein sequence and structure conditioned on ligands, DNA or RNA.",
     "tags": [
       "diffusion-models",
       "enzyme-design",
@@ -11640,101 +9332,20 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2026-04-08",
-    "dateSource": "https://github.com/DISCO-design/DISCO/releases/tag/v1.0.0",
+    "firstReleased": "2026-04-07",
+    "dateSource": "https://github.com/DISCO-design/DISCO",
     "notability": "221 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Sequence-structure co-design, binder design",
+      "modalities": "Protein with ligand/DNA/RNA",
+      "msa": "No",
+      "gpu": "GPU required",
       "stars": 221,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
       "https://github.com/DISCO-design/DISCO"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "bamtools",
-    "name": "bamtools",
-    "category": "sequencing",
-    "url": "https://github.com/pezmaster31/bamtools",
-    "github": "https://github.com/pezmaster31/bamtools",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "C++ API & command-line toolkit for working with BAM data.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-12-08",
-    "dateSource": "https://github.com/pezmaster31/bamtools/releases/tag/v2.4.1",
-    "notability": "432 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 432,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/pezmaster31/bamtools"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "spateo-release",
-    "name": "spateo-release",
-    "category": "spatial",
-    "url": "https://spateo-release.readthedocs.io/",
-    "github": "https://github.com/aristoteleo/spateo-release",
-    "license": "BSD-2-Clause",
-    "pricing": "Open source",
-    "description": "Spatiotemporal modeling of spatial transcriptomics.",
-    "tags": [
-      "3d-reconstruction",
-      "cell-segmentation",
-      "spatial-transcriptomics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-12-12",
-    "dateSource": "https://github.com/aristoteleo/spateo-release/releases/tag/v1.0.0",
-    "notability": "345 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 345,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/aristoteleo/spateo-release"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "pysam",
-    "name": "pysam",
-    "category": "sequencing",
-    "url": "https://pysam.readthedocs.io/en/latest/",
-    "github": "https://github.com/pysam-developers/pysam",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Pysam is a Python package for reading, manipulating, and writing genomics data such as SAM/BAM/CRAM and VCF/BCF files. It's a lightweight wrapper of the HTSlib API, the same one that powers samtools, bcftools, and tabix.",
-    "tags": [
-      "bioinformatics",
-      "ngs",
-      "python"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2014-11-23",
-    "dateSource": "https://github.com/pysam-developers/pysam/releases/tag/v0.8.1",
-    "notability": "912 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 912,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/pysam-developers/pysam"
     ],
     "harvested": true
   },
@@ -11747,7 +9358,7 @@
     "paper": "https://arxiv.org/abs/2205.07249",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets.",
+    "description": "E(3)-equivariant graph neural network that samples drug-like molecules atom by atom inside 3D protein pockets.",
     "tags": [
       "drug-discovery"
     ],
@@ -11757,393 +9368,52 @@
     "dateSource": "https://arxiv.org/abs/2205.07249",
     "notability": "413 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL; arXiv preprint 2022",
     "specs": {
+      "task": "Pocket-conditioned molecule generation",
+      "representation": "3D atoms (pocket-conditioned)",
+      "weights": "Yes",
       "stars": 413,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/pengxingang/Pocket2Mol"
+      "https://github.com/pengxingang/Pocket2Mol",
+      "https://arxiv.org/abs/2205.07249"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
     "paperYear": 2022
   },
   {
-    "slug": "scp",
-    "name": "SCP",
-    "category": "single-cell",
-    "url": "https://zhanghao-njmu.github.io/SCP/",
-    "github": "https://github.com/zhanghao-njmu/SCP",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "An end-to-end Single-Cell Pipeline designed to facilitate comprehensive analysis and exploration of single-cell data.",
-    "tags": [
-      "single-cell",
-      "seurat-objects",
-      "single-cell-analysis"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2022-12-13",
-    "dateSource": "https://github.com/zhanghao-njmu/SCP/releases/tag/v0.2.4",
-    "notability": "681 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 681,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/zhanghao-njmu/SCP"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "bamsurgeon",
-    "name": "bamsurgeon",
-    "category": "sequencing",
-    "url": "https://github.com/adamewing/bamsurgeon",
-    "github": "https://github.com/adamewing/bamsurgeon",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "tools for adding mutations to existing .bam files, used for testing mutation callers.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-10-19",
-    "dateSource": "https://github.com/adamewing/bamsurgeon/releases/tag/v1.0.0",
-    "notability": "253 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 253,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/adamewing/bamsurgeon"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "clustergrammer",
-    "name": "clustergrammer",
-    "category": "platforms",
-    "url": "https://github.com/MaayanLab/clustergrammer",
-    "github": "https://github.com/MaayanLab/clustergrammer",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "An interactive heatmap visualization built using D3.js.",
-    "tags": [
-      "clustering",
-      "visualization",
-      "python"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2016-05-04",
-    "dateSource": "https://github.com/MaayanLab/clustergrammer/releases/tag/v1.0.0",
-    "notability": "241 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 241,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/MaayanLab/clustergrammer"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "isee",
-    "name": "iSEE",
-    "category": "single-cell",
-    "url": "https://isee.github.io/iSEE/",
-    "github": "https://github.com/iSEE/iSEE",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "R/shiny interface for interactive visualization of data in SummarizedExperiment objects.",
-    "tags": [
-      "visualization",
-      "gui",
-      "dimension-reduction"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-01-31",
-    "dateSource": "https://github.com/iSEE/iSEE/releases/tag/v0.98.2-alpha",
-    "notability": "231 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 231,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/iSEE/iSEE"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "proseg",
-    "name": "proseg",
-    "category": "spatial",
-    "url": "https://github.com/dcjones/proseg",
-    "github": "https://github.com/dcjones/proseg",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Probabilistic cell segmentation for in situ spatial transcriptomics.",
-    "tags": [
-      "spatial"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2025-12-19",
-    "dateSource": "https://github.com/dcjones/proseg/releases/tag/v3.1.0",
-    "notability": "195 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 195,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/dcjones/proseg"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "bin2cell",
-    "name": "bin2cell",
-    "category": "spatial",
-    "url": "https://github.com/Teichlab/bin2cell",
-    "github": "https://github.com/Teichlab/bin2cell",
-    "paper": "https://doi.org/10.1093/bioinformatics/btae546",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Join subcellular Visium HD bins into cells.",
-    "tags": [
-      "spatial"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2024-09-02",
-    "dateSource": "https://doi.org/10.1093/bioinformatics/btae546",
-    "notability": "146 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Bioinformatics 2024",
-    "specs": {
-      "stars": 146,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/Teichlab/bin2cell"
-    ],
-    "harvested": true,
-    "paperVenue": "Bioinformatics",
-    "paperYear": 2024
-  },
-  {
-    "slug": "scimpute",
-    "name": "scImpute",
-    "category": "single-cell",
-    "url": "https://www.nature.com/articles/s41467-018-03405-7",
-    "github": "https://github.com/Vivianstats/scImpute",
-    "paper": "https://doi.org/10.1038/s41467-018-03405-7",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "Accurate and robust imputation of scRNA-seq data.",
-    "tags": [
-      "imputation",
-      "single-cell-rna-seq",
-      "r-package"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-02-15",
-    "dateSource": "https://github.com/Vivianstats/scImpute/releases/tag/v0.0.5",
-    "notability": "103 GitHub stars; listed in seandavi/awesome-single-cell; Nature Communications None",
-    "specs": {
-      "stars": 103,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/Vivianstats/scImpute"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Communications",
-    "paperYear": null,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "baysor",
-    "name": "Baysor",
-    "category": "spatial",
-    "url": "https://kharchenkolab.github.io/Baysor/",
-    "github": "https://github.com/kharchenkolab/Baysor",
-    "license": "MIT",
-    "pricing": "Open source",
-    "description": "Bayesian Segmentation of Spatial Transcriptomics Data.",
-    "tags": [
-      "spatial-transcriptomics",
-      "segmentation",
-      "bayesian"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2020-04-08",
-    "dateSource": "https://github.com/kharchenkolab/Baysor/releases/tag/v0.2.0",
-    "notability": "219 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 219,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/kharchenkolab/Baysor"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "shinycell",
-    "name": "ShinyCell",
-    "category": "single-cell",
-    "url": "https://github.com/SGDDNB/ShinyCell",
-    "github": "https://github.com/SGDDNB/ShinyCell",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Shiny Interactive Web Apps for Single-Cell Data.",
-    "tags": [
-      "single-cell"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2021-04-21",
-    "dateSource": "https://github.com/SGDDNB/ShinyCell/releases/tag/v1.0",
-    "notability": "218 GitHub stars; listed in seandavi/awesome-single-cell",
-    "specs": {
-      "stars": 218,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/SGDDNB/ShinyCell"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "spata2",
-    "name": "SPATA2",
-    "category": "spatial",
-    "url": "https://themilolab.github.io/SPATA2/",
-    "github": "https://github.com/theMILOlab/SPATA2",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "A Toolbox for Spatial Transcriptomics Analysis.",
-    "tags": [
-      "data-analysis",
-      "image-analysis",
-      "spatial-omics"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-05-12",
-    "dateSource": "https://github.com/theMILOlab/SPATA2/releases/tag/v1.0.0",
-    "notability": "172 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 172,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/theMILOlab/SPATA2"
-    ],
-    "harvested": true,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "clustree",
-    "name": "clustree",
-    "category": "single-cell",
-    "url": "https://lazappi.github.io/clustree/",
-    "github": "https://github.com/lazappi/clustree",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Visualise Clusterings at Different Resolutions.",
-    "tags": [
-      "visualization",
-      "visualisation",
-      "clustering"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2019-02-24",
-    "dateSource": "https://github.com/lazappi/clustree/releases/tag/v0.3.0",
-    "notability": "262 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
-    "specs": {
-      "stars": 262,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/lazappi/clustree"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "glnexus",
-    "name": "GLnexus",
-    "category": "sequencing",
-    "url": "https://github.com/dnanexus-rnd/GLnexus",
-    "github": "https://github.com/dnanexus-rnd/GLnexus",
-    "paper": "https://doi.org/10.1101/2020.02.10.942086",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "Scalable gVCF merging and joint variant calling for population sequencing projects.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-07-28",
-    "dateSource": "https://github.com/dnanexus-rnd/GLnexus/releases/tag/test_travis_release",
-    "notability": "190 GitHub stars; listed in danielecook/Awesome-Bioinformatics; bioRxiv preprint None",
-    "specs": {
-      "stars": 190,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/dnanexus-rnd/GLnexus"
-    ],
-    "harvested": true,
-    "paperVenue": "bioRxiv preprint",
-    "paperYear": null
-  },
-  {
     "slug": "raygun",
-    "name": "raygun",
+    "name": "Raygun",
     "category": "protein",
     "url": "https://github.com/rohitsinghlab/raygun",
     "github": "https://github.com/rohitsinghlab/raygun",
     "paper": "https://doi.org/10.1038/s41586-026-10842-8",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "Template-based protein design with Raygun.",
+    "description": "Template-based protein design: edits an existing protein by insertions, deletions and substitutions while keeping its fold and function.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2025-10-27",
-    "dateSource": "https://github.com/rohitsinghlab/raygun/releases/tag/v0.2.5",
+    "firstReleased": "2024-08-14",
+    "dateSource": "https://github.com/rohitsinghlab/raygun",
     "notability": "157 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL; Nature 2026",
     "specs": {
+      "task": "Template-based redesign",
+      "modalities": "Sequence",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "GPU recommended",
       "stars": 157,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/rohitsinghlab/raygun"
+      "https://github.com/rohitsinghlab/raygun",
+      "https://doi.org/10.1038/s41586-026-10842-8"
     ],
     "harvested": true,
     "paperVenue": "Nature",
@@ -12158,16 +9428,21 @@
     "github": "https://github.com/OTeam-AI4S/ODesign",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "Official repository of \"ODesign: A World Model for Biomolecular Interaction Design\".",
+    "description": "All-atom generative world model for designing proteins, ligands, nucleic acids and cyclic peptides that bind a given target.",
     "tags": [
       "protein"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2025-12-09",
-    "dateSource": "https://github.com/OTeam-AI4S/ODesign/releases/tag/v0.1.0",
+    "firstReleased": "2025-12-03",
+    "dateSource": "https://github.com/OTeam-AI4S/ODesign",
     "notability": "349 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Binder design across molecule types",
+      "modalities": "Protein, small molecule, DNA/RNA, peptides",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "GPU required",
       "stars": 349,
       "starsChecked": "2026-10-16"
     },
@@ -12179,37 +9454,6 @@
     "licenseNote": "no license detected by GitHub"
   },
   {
-    "slug": "canu",
-    "name": "canu",
-    "category": "sequencing",
-    "url": "https://github.com/marbl/canu",
-    "github": "https://github.com/marbl/canu",
-    "paper": "https://doi.org/10.1101/gr.215087.116",
-    "license": "NOASSERTION",
-    "pricing": "Research release",
-    "description": "A single molecule sequence assembler for genomes large and small.",
-    "tags": [
-      "sequencing"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-12-29",
-    "dateSource": "https://github.com/marbl/canu/releases/tag/v1.0",
-    "notability": "708 GitHub stars; listed in danielecook/Awesome-Bioinformatics; Genome Research 2017",
-    "specs": {
-      "stars": 708,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/marbl/canu"
-    ],
-    "harvested": true,
-    "paperVenue": "Genome Research",
-    "paperYear": 2017,
-    "licenseNote": "no license detected by GitHub"
-  },
-  {
     "slug": "atacworks",
     "name": "AtacWorks",
     "category": "genomics",
@@ -12218,117 +9462,32 @@
     "paper": "https://doi.org/10.1038/s41467-021-21765-5",
     "license": "NOASSERTION",
     "pricing": "Research release",
-    "description": "Deep learning based processing of Atac-seq data.",
+    "description": "NVIDIA's deep learning toolkit that denoises ATAC-seq coverage tracks and calls peaks from low-coverage or low-quality data.",
     "tags": [
       "genomics"
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2019-11-27",
-    "dateSource": "https://github.com/NVIDIA-Genomics-Research/AtacWorks/releases/tag/0.1.0",
+    "firstReleased": "2019-08-30",
+    "dateSource": "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
     "notability": "137 GitHub stars; listed in seandavi/awesome-single-cell; Nature Communications None",
     "specs": {
+      "context": "Genomic coverage windows",
+      "resolution": "Base-pair",
+      "species": "Human",
+      "tasks": "ATAC-seq denoising, peak calling",
       "stars": 137,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/NVIDIA-Genomics-Research/AtacWorks"
+      "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
+      "https://doi.org/10.1038/s41467-021-21765-5"
     ],
     "harvested": true,
     "paperVenue": "Nature Communications",
     "paperYear": null,
     "licenseNote": "no license detected by GitHub"
-  },
-  {
-    "slug": "cromwell",
-    "name": "cromwell",
-    "category": "platforms",
-    "url": "https://github.com/broadinstitute/cromwell",
-    "github": "https://github.com/broadinstitute/cromwell",
-    "license": "BSD-3-Clause",
-    "pricing": "Open source",
-    "description": "Scientific workflow engine designed for simplicity & scalability. Trivially transition between one off use cases to massive scale production environments.",
-    "tags": [
-      "workflow-execution",
-      "workflow",
-      "cloud"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2015-06-26",
-    "dateSource": "https://github.com/broadinstitute/cromwell/releases/tag/0.5",
-    "notability": "1085 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 1085,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/broadinstitute/cromwell"
-    ],
-    "harvested": true
-  },
-  {
-    "slug": "nextflow",
-    "name": "nextflow",
-    "category": "platforms",
-    "url": "https://github.com/nextflow-io/nextflow",
-    "github": "https://github.com/nextflow-io/nextflow",
-    "paper": "https://doi.org/10.1038/nbt.3820",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "A workflow language for data-driven computational pipelines.",
-    "tags": [
-      "bioinformatics",
-      "workflow-engine",
-      "pipeline"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2013-07-11",
-    "dateSource": "https://github.com/nextflow-io/nextflow/releases/tag/v0.3.0",
-    "notability": "3510 GitHub stars; listed in danielecook/Awesome-Bioinformatics; Nature Biotechnology 2017",
-    "specs": {
-      "stars": 3510,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/nextflow-io/nextflow"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Biotechnology",
-    "paperYear": 2017
-  },
-  {
-    "slug": "smoove",
-    "name": "smoove",
-    "category": "sequencing",
-    "url": "https://github.com/brentp/smoove",
-    "github": "https://github.com/brentp/smoove",
-    "license": "Apache-2.0",
-    "pricing": "Open source",
-    "description": "structural variant calling and genotyping with existing tools, but, smoothly.",
-    "tags": [
-      "structural-variation",
-      "genomics",
-      "lumpy"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2018-03-09",
-    "dateSource": "https://github.com/brentp/smoove/releases/tag/v0.1.1",
-    "notability": "267 GitHub stars; listed in danielecook/Awesome-Bioinformatics",
-    "specs": {
-      "stars": 267,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/brentp/smoove"
-    ],
-    "harvested": true
   },
   {
     "slug": "pocketgen",
@@ -12338,7 +9497,7 @@
     "github": "https://github.com/zaixizhang/PocketGen",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "PocketGen (Nature Machine Intelligence 24): Generating Full-Atom Ligand-Binding Protein Pockets.",
+    "description": "Generates full-atom ligand-binding protein pockets, co-designing residue sequence and structure.",
     "tags": [
       "generative",
       "geometric-deep-learning",
@@ -12346,28 +9505,35 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2024-09-14",
-    "dateSource": "https://github.com/zaixizhang/PocketGen/releases/tag/v1.0.0",
+    "firstReleased": "2023-11-08",
+    "dateSource": "https://github.com/zaixizhang/PocketGen",
     "notability": "234 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
     "specs": {
+      "task": "Pocket design",
+      "representation": "Protein-ligand 3D complex",
+      "weights": "Yes",
       "stars": 234,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/zaixizhang/PocketGen"
+      "https://github.com/zaixizhang/PocketGen",
+      "https://doi.org/10.1038/s42256-024-00920-9"
     ],
-    "harvested": true
+    "harvested": true,
+    "paper": "https://doi.org/10.1038/s42256-024-00920-9",
+    "paperVenue": "Nature Machine Intelligence",
+    "paperYear": 2024
   },
   {
     "slug": "nichecompass",
-    "name": "nichecompass",
+    "name": "NicheCompass",
     "category": "spatial",
     "url": "https://nichecompass.readthedocs.io/",
     "github": "https://github.com/Lotfollahi-lab/nichecompass",
     "license": "BSD-3-Clause",
     "pricing": "Open source",
-    "description": "End-to-end analysis of spatial multi-omics data.",
+    "description": "Graph deep learning model that learns cell embeddings from communication programs to identify niches across spatial samples.",
     "tags": [
       "deep-learning",
       "graph-neural-networks",
@@ -12375,29 +9541,36 @@
     ],
     "added": "2026-10-16",
     "lastChecked": "2026-10-16",
-    "firstReleased": "2024-02-13",
-    "dateSource": "https://github.com/Lotfollahi-lab/nichecompass/releases/tag/0.1.0",
+    "firstReleased": "2022-07-15",
+    "dateSource": "https://github.com/Lotfollahi-lab/nichecompass",
     "notability": "131 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics",
     "specs": {
+      "platforms": "Xenium, MERFISH, Slide-seq, Visium, spatial ATAC",
+      "resolution": "Single-cell / spot",
+      "tasks": "Niche identification, cell-cell communication, reference mapping",
       "stars": 131,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/Lotfollahi-lab/nichecompass"
+      "https://github.com/Lotfollahi-lab/nichecompass",
+      "https://doi.org/10.1038/s41588-025-02120-6"
     ],
-    "harvested": true
+    "harvested": true,
+    "paper": "https://doi.org/10.1038/s41588-025-02120-6",
+    "paperVenue": "Nature Genetics",
+    "paperYear": 2025
   },
   {
     "slug": "se3-diffusion",
-    "name": "se3_diffusion",
+    "name": "FrameDiff (SE(3) diffusion)",
     "category": "protein",
     "url": "https://arxiv.org/abs/2302.02277",
     "github": "https://github.com/jasonkyuyim/se3_diffusion",
     "paper": "https://arxiv.org/abs/2302.02277",
     "license": "MIT",
     "pricing": "Open source",
-    "description": "Implementation for SE(3) diffusion model with application to protein backbone generation.",
+    "description": "SE(3) diffusion model for protein backbone generation over residue frames.",
     "tags": [
       "protein"
     ],
@@ -12407,47 +9580,21 @@
     "dateSource": "https://arxiv.org/abs/2302.02277",
     "notability": "426 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL; arXiv preprint 2023",
     "specs": {
+      "task": "Backbone generation",
+      "modalities": "Backbone frames",
+      "msa": "No",
+      "weights": "Yes",
+      "gpu": "GPU required",
       "stars": 426,
       "starsChecked": "2026-10-16"
     },
     "specsChecked": "2026-10-16",
     "specsSources": [
-      "https://github.com/jasonkyuyim/se3_diffusion"
+      "https://github.com/jasonkyuyim/se3_diffusion",
+      "https://arxiv.org/abs/2302.02277"
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
     "paperYear": 2023
-  },
-  {
-    "slug": "stalign",
-    "name": "STalign",
-    "category": "spatial",
-    "url": "https://jef.works/STalign/",
-    "github": "https://github.com/JEFworks-Lab/STalign",
-    "paper": "https://doi.org/10.1038/s41467-023-43915-7",
-    "license": "GPL-3.0",
-    "pricing": "Open source",
-    "description": "Python tool for alignment of spatial transcriptomics (ST) data using diffeomorphic metric mapping.",
-    "tags": [
-      "singlecell",
-      "spatialtranscriptomics",
-      "diffeomorphism"
-    ],
-    "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2023-04-28",
-    "dateSource": "https://github.com/JEFworks-Lab/STalign/releases/tag/v1.0.0",
-    "notability": "114 GitHub stars; listed in wrab12/awesome-spatial-transcriptomics; Nature Communications None",
-    "specs": {
-      "stars": 114,
-      "starsChecked": "2026-10-16"
-    },
-    "specsChecked": "2026-10-16",
-    "specsSources": [
-      "https://github.com/JEFworks-Lab/STalign"
-    ],
-    "harvested": true,
-    "paperVenue": "Nature Communications",
-    "paperYear": null
   }
 ]

@@ -17,6 +17,8 @@ Each entry lists repo links (`github.com/owner/repo`) with a description line an
 | crazyhottommy/awesome-long-reads | 24 | 2025-03 | long-read sequencing |
 | AspirinCode/awesome-AI4MolConformation-MD | 0.3k | 2026-10 | molecular modeling / drug discovery |
 
+AI/ML requirement: harvest_jev.py asks Jev a separate AI/ML question per candidate and drops non-AI tools (see INCLUSION.md).
+
 Not used: bio.tools/ELIXIR (very broad, mostly non-AI, weak notability signal); OmicsTools / BioAI Nav (no public machine-readable API found);
 HF collections (model cards lack consistent repo/paper metadata). Enrichment: GitHub GraphQL (stars, license, created, releases),
 Crossref/arXiv (paper venue/year; title must contain the tool name), Jev (category + include).

@@ -14,7 +14,7 @@ CATDEF={'single-cell':'Single-cell analysis tools and single-cell foundation mod
 'proteomics':'Mass-spec proteomics and metabolomics','crispr':'CRISPR guide design, editing outcome analysis, gene editing tools',
 'rna':'RNA structure, RNA design, RNA language models','microbiome':'Metagenomics, microbiome profiling, binning',
 'clinical':'Clinical and biomedical LLMs / medical AI models','platforms':'R&D and bioinformatics platforms, workflow systems'}
-BAR=("Toolome lists only influential, verified AI/computational tools for biology. Include only if clearly influential: notable lab/company, "
+BAR=("Toolome lists only influential, verified AI/ML tools for biology (see INCLUSION.md). AI/ML REQUIRED: the core method must use machine learning (deep learning, neural nets, foundation models, LLMs, trained classifiers) or be an ML dataset/benchmark; classical bioinformatics (aligners like samtools/STAR, quantifiers like kallisto, workflow engines like Nextflow, search like MMseqs2, statistical methods like Scanorama/PHATE) must be rejected. Include only if clearly influential: notable lab/company, "
  "strong peer-reviewed venue (Nature/Science/Cell family, Bioinformatics, NAR, Genome Biology, top ML venue), or meaningful adoption "
  "(roughly hundreds+ GitHub stars), and it is an actual usable tool/model/dataset (not a paper list, tutorial, course, personal script, or awesome list). "
  "Reject abandoned toy projects, generic non-biology software, and wrappers.")
@@ -37,12 +37,13 @@ def jev():
                  f"verified paper: {(p.get('title'),p.get('venue'),p.get('year')) if p else 'none found'}; listed in: {list(zip(c['sources'],c['sections']))}; "
                  f"README excerpt: {clean(c['readme'])[:1200]}")
             qs[f'i{j}']=choice(f"{BAR}\nCandidate:\n{ctx}\nShould Toolome include it?",{'include':'influential, verified, usable biology tool','reject':'below bar or not a tool'})
+            qs[f'a{j}']=choice(f"Does this tool's CORE method use machine learning (deep learning, neural nets, foundation models, LLMs, trained classifiers), or is it an ML dataset/benchmark? Classical aligners, quantifiers, workflow engines, statistical methods = no.\n{ctx}",{'ai':'core method is AI/ML','not':'not AI/ML'})
             qs[f'c{j}']=choice(f"Primary Toolome category for this candidate:\n{ctx}",{**CATDEF,'none':'Fits no category'})
         try: r=ask({'bar':BAR},qs)
         except Exception as e: print('ERR',e,file=sys.stderr); continue
         a=r['answers']
         for j,(k,c) in enumerate(part):
-            R[k]={'include':a[f'i{j}']['choice'],'p_include':a[f'i{j}']['probabilities'].get('include',0),'category':a[f'c{j}']['choice'],
+            R[k]={'ai':a[f'a{j}']['choice'],'include':a[f'i{j}']['choice'] if a[f'a{j}']['choice']=='ai' else 'reject','p_include':a[f'i{j}']['probabilities'].get('include',0),'category':a[f'c{j}']['choice'],
                   'p_category':a[f'c{j}']['probabilities'],'stars':c['stargazerCount']}
         json.dump(R,open(OUT,'w'),indent=1); print(i,len(R),round(cost(),4),file=sys.stderr)
     print({'reviewed':len(R),'approved':sum(1 for v in R.values() if v['include']=='include' and v['category']!='none'),'cost':cost()})
@@ -54,7 +55,7 @@ def emit(N):
     for t in T:
         y=(t.get('firstReleased') or t.get('released') or '')[:4]
         if y: cnt[(t['category'],y)]=cnt.get((t['category'],y),0)+1
-    ok=[(k,v) for k,v in R.items() if v['include']=='include' and v['category']!='none']
+    ok=[(k,v) for k,v in R.items() if v['include']=='include' and v.get('ai','ai')=='ai' and v['category']!='none']
     ok.sort(key=lambda kv:(-kv[1]['p_include'],-(1 if (C[kv[0]]['paper'] or {}).get('venue') else 0),-kv[1]['stars']))
     stats={'approved':len(ok),'no_date':0,'bad_desc':0,'dup':0,'capped':0,'added':0,'queued':[]}
     allow=json.load(open('scripts/audit_allow.json')); new=[]
