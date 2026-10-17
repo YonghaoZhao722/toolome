@@ -62,5 +62,8 @@
   "science-exchange": "Marketplace of third-party CROs; services/turnaround vary per provider",
   "casp": "Biennial benchmark/competition, not a dataset with fixed size/modality",
   "10x-genomics-datasets": "Collection of many public datasets; size/modality vary per dataset"
+ },
+ "C2": {
+  "virtues": "Mixed: virtues-sp31 weights are MIT (commercial use allowed); only virtues-sp32 is CC BY-NC"
  }
 }

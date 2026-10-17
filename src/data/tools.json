@@ -8092,5 +8092,213 @@
     ],
     "paperVenue": "Nature",
     "paperYear": 2026
+  },
+  {
+    "slug": "meditronfo",
+    "name": "MeditronFO (Fully Open Meditron)",
+    "category": "clinical",
+    "url": "https://huggingface.co/collections/EPFLiGHT/meditronfo",
+    "github": "https://github.com/EPFLiGHT/FullyOpenMeditron",
+    "paper": "https://arxiv.org/abs/2605.16215",
+    "license": "Apache-2.0",
+    "licenseNote": "code; weights follow each base model (Apache-2.0 for Apertus/OLMo/EuroLLM, Gemma terms for Gemma-3)",
+    "pricing": "Open source",
+    "description": "EPFL's fully open medical LLMs (open weights, training data and recipe) built on Apertus, OLMo-2, EuroLLM and Gemma-3 bases.",
+    "tags": [
+      "llm",
+      "fully-open",
+      "clinical-decision-support"
+    ],
+    "firstReleased": "2026-05-08",
+    "dateSource": "https://huggingface.co/EPFLiGHT/Apertus-70B-MeditronFO",
+    "notability": "EPFL LiGHT; EPFL press release; separate repo/collection from 2023 Meditron",
+    "specs": {
+      "modality": "Text",
+      "baseModel": "Apertus, OLMo-2, EuroLLM, Gemma-3",
+      "params": "8B, 9B, 22B, 27B, 32B, 70B",
+      "stars": 19,
+      "starsChecked": "2026-10-16"
+    },
+    "specsSources": [
+      "https://arxiv.org/abs/2605.16215",
+      "https://github.com/EPFLiGHT/FullyOpenMeditron",
+      "https://huggingface.co/collections/EPFLiGHT/meditronfo"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "specsChecked": "2026-10-16",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2026
+  },
+  {
+    "slug": "nv-reason-ct",
+    "name": "NV-Reason-CT",
+    "category": "clinical",
+    "url": "https://huggingface.co/nvidia/NV-Reason-CT",
+    "github": "https://github.com/NVIDIA-Medtech/NV-Reason-CT",
+    "paper": "https://arxiv.org/abs/2609.27511",
+    "license": "Custom",
+    "licenseNote": "OpenMDW-1.1 (weights)",
+    "pricing": "Open source",
+    "description": "NVIDIA's 3D vision-language model for chest and abdominal CT: structured reports, visual QA and step-by-step reasoning.",
+    "tags": [
+      "ct",
+      "vision-language",
+      "radiology"
+    ],
+    "firstReleased": "2026-09-08",
+    "dateSource": "https://huggingface.co/nvidia/NV-Reason-CT",
+    "notability": "NVIDIA MedTech; 5.8k monthly HF downloads; 120+ GitHub stars",
+    "specs": {
+      "modality": "3D CT + text",
+      "baseModel": "Qwen3.5-4B",
+      "params": "~5B",
+      "stars": 122,
+      "starsChecked": "2026-10-16"
+    },
+    "specsSources": [
+      "https://huggingface.co/nvidia/NV-Reason-CT",
+      "https://github.com/NVIDIA-Medtech/NV-Reason-CT"
+    ],
+    "alsoIn": [
+      "imaging"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "specsChecked": "2026-10-16",
+    "paperVenue": "arXiv preprint",
+    "paperYear": 2026
+  },
+  {
+    "slug": "amazon-bio-discovery",
+    "name": "Amazon Bio Discovery",
+    "category": "platforms",
+    "url": "https://aws.amazon.com/biodiscovery/",
+    "license": "Commercial",
+    "pricing": "Paid",
+    "description": "AWS antibody-design platform: 40+ hosted biological AI models, agents and no-code pipelines, with wet-lab ordering through partner CROs and results fed back for model refinement.",
+    "tags": [
+      "antibody",
+      "lab-in-the-loop",
+      "aws"
+    ],
+    "firstReleased": "2026-04-14",
+    "dateSource": "https://www.aboutamazon.com/news/aws/aws-amazon-bio-discovery-ai-drug-research",
+    "notability": "AWS; used by Memorial Sloan Kettering and Broad Institute",
+    "specs": {
+      "focus": "AI antibody design with lab-in-the-loop testing",
+      "access": "Web app (AWS)",
+      "compute": "Managed AWS; outcome-based pricing"
+    },
+    "specsSources": [
+      "https://aws.amazon.com/biodiscovery/",
+      "https://aws.amazon.com/blogs/industries/introducing-amazon-bio-discovery/"
+    ],
+    "alsoIn": [
+      "drug-discovery"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "specsChecked": "2026-10-16"
+  },
+  {
+    "slug": "illumina-bioinsight",
+    "name": "Illumina BioInsight Platform",
+    "category": "platforms",
+    "url": "https://www.illumina.com/products/by-type/informatics-products.html",
+    "license": "Commercial",
+    "pricing": "Paid",
+    "description": "Illumina's unified cloud environment for genomic and multiomic analysis, bundling DRAGEN, BaseSpace, Emedgene, Connected Multiomics and curated data under one usage-based credit system.",
+    "tags": [
+      "genomics",
+      "cloud",
+      "dragen"
+    ],
+    "firstReleased": "2026-10-14",
+    "dateSource": "https://www.illumina.com/company/news-center/press-releases/press-release-details.html?newsid=29256",
+    "notability": "Illumina; 10,000+ users on the underlying software",
+    "specs": {
+      "focus": "Genomic and multiomic secondary/tertiary analysis and data management",
+      "access": "Web app, CLI/API",
+      "compute": "Managed cloud or local DRAGEN; pay-per-use credits (30-day trial)"
+    },
+    "specsSources": [
+      "https://www.illumina.com/products/by-type/informatics-products/pricing.html",
+      "https://help.connected.illumina.com/getting-started"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "specsChecked": "2026-10-16"
+  },
+  {
+    "slug": "virtual-cell-challenge-2026",
+    "name": "Virtual Cell Challenge 2026",
+    "category": "datasets",
+    "url": "https://arcinstitute.org/news/virtual-cell-challenge-2026",
+    "license": "NOASSERTION",
+    "pricing": "Free (research)",
+    "description": "Arc Institute's perturbation benchmark: predict CRISPRi knockdown responses in six cell lines never seen perturbed, from their unperturbed state alone.",
+    "tags": [
+      "perturb-seq",
+      "benchmark",
+      "virtual-cell"
+    ],
+    "firstReleased": "2026-08-20",
+    "dateSource": "https://arcinstitute.org/news/virtual-cell-challenge-2026",
+    "notability": "Arc Institute; sponsored by NVIDIA and 10x Genomics; $100k prize",
+    "specs": {
+      "size": "Six held-out cell lines; 300 CRISPRi targets per validation line",
+      "modality": "Single-cell Perturb-seq (CRISPRi)",
+      "access": "Registration; download via VCC CLI"
+    },
+    "specsSources": [
+      "https://arcinstitute.org/news/virtual-cell-challenge-2026",
+      "https://vcc-cli-wiki.virtualcellchallenge.org/"
+    ],
+    "alsoIn": [
+      "single-cell"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "specsChecked": "2026-10-16"
+  },
+  {
+    "slug": "virtues",
+    "name": "VirTues",
+    "category": "spatial",
+    "url": "https://github.com/bunnelab/virtues",
+    "github": "https://github.com/bunnelab/virtues",
+    "paper": "https://www.nature.com/articles/s41586-026-10884-y",
+    "license": "Mixed",
+    "licenseNote": "MIT (virtues-sp31 weights); CC BY-NC 4.0 (virtues-sp32 weights); no repo license file",
+    "pricing": "Open source",
+    "description": "Bunne lab's spatial proteomics foundation model for multiplexed tissue imaging, from molecules to cells to tissue, for diagnostics and case retrieval.",
+    "tags": [
+      "spatial-proteomics",
+      "foundation-model",
+      "multiplexed-imaging"
+    ],
+    "firstReleased": "2025-01-10",
+    "dateSource": "https://arxiv.org/abs/2501.06039",
+    "notability": "EPFL (Charlotte Bunne lab); Nature 2026; 160 GitHub stars",
+    "specs": {
+      "platforms": "Multiplexed imaging (IMC, CODEX and others)",
+      "resolution": "Subcellular to tissue",
+      "tasks": "Cell/niche embedding, diagnosis, case retrieval",
+      "stars": 160,
+      "starsChecked": "2026-10-16"
+    },
+    "specsSources": [
+      "https://github.com/bunnelab/virtues",
+      "https://www.nature.com/articles/s41586-026-10884-y"
+    ],
+    "alsoIn": [
+      "imaging"
+    ],
+    "added": "2026-10-16",
+    "lastChecked": "2026-10-16",
+    "specsChecked": "2026-10-16",
+    "paperVenue": "Nature",
+    "paperYear": 2026
   }
 ]
