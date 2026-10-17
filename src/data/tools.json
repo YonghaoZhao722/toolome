@@ -5298,7 +5298,7 @@
     "category": "clinical",
     "url": "https://deepmind.google/models/gemma/medgemma/",
     "github": "https://github.com/Google-Health/medgemma",
-    "paper": "https://arxiv.org/abs/2507.05201",
+    "paper": "https://doi.org/10.1038/s41591-026-04626-w",
     "license": "Apache-2.0",
     "pricing": "Open source",
     "description": "Google's open Gemma 3 variants for medical text and image comprehension.",
@@ -5308,7 +5308,7 @@
       "medical"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
+    "lastChecked": "2026-10-17",
     "firstReleased": "2025-05-20",
     "dateSource": "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-developer-updates-io-2025/",
     "specs": {
@@ -5323,8 +5323,8 @@
       "https://github.com/Google-Health/medgemma#readme",
       "https://deepmind.google/models/gemma/medgemma/"
     ],
-    "paperVenue": "arXiv preprint",
-    "paperYear": 2025,
+    "paperVenue": "Nature Medicine",
+    "paperYear": 2026,
     "licenseNote": "code; Health AI Developer Foundations terms (weights)"
   },
   {
@@ -6116,9 +6116,9 @@
       "all-atom"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
-    "firstReleased": "2025-12-03",
-    "dateSource": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
+    "lastChecked": "2026-10-17",
+    "firstReleased": "2025-09-18",
+    "dateSource": "https://doi.org/10.1101/2025.09.18.676967",
     "specs": {
       "task": "All-atom protein design",
       "interface": "Package (foundry)",
@@ -6134,7 +6134,10 @@
       "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
       "https://github.com/RosettaCommons/foundry#readme"
     ],
-    "notability": "Baker lab (IPD); ~1,000 stars (foundry); GEN, GeekWire coverage"
+    "notability": "Baker lab (IPD); Science 2026; ~1,000 stars (foundry); GEN, GeekWire coverage",
+    "paper": "https://doi.org/10.1126/science.aeh2982",
+    "paperVenue": "Science",
+    "paperYear": 2026
   },
   {
     "slug": "nucleotide-transformer-v3-ntv3",
@@ -9457,7 +9460,7 @@
     "slug": "atacworks",
     "name": "AtacWorks",
     "category": "genomics",
-    "url": "https://clara-parabricks.github.io/AtacWorks/",
+    "url": "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
     "github": "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
     "paper": "https://doi.org/10.1038/s41467-021-21765-5",
     "license": "NOASSERTION",
@@ -9467,7 +9470,7 @@
       "genomics"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-10-16",
+    "lastChecked": "2026-10-17",
     "firstReleased": "2019-08-30",
     "dateSource": "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
     "notability": "137 GitHub stars; listed in seandavi/awesome-single-cell; Nature Communications None",
@@ -9596,5 +9599,76 @@
     "harvested": true,
     "paperVenue": "arXiv preprint",
     "paperYear": 2023
+  },
+  {
+    "slug": "cytovi",
+    "name": "CytoVI",
+    "category": "single-cell",
+    "url": "https://docs.scvi-tools.org/en/stable/user_guide/models/cytovi.html",
+    "github": "https://github.com/scverse/scvi-tools",
+    "paper": "https://doi.org/10.1038/s41592-026-03224-5",
+    "license": "BSD-3-Clause",
+    "pricing": "Open source",
+    "description": "Deep generative model in scvi-tools that integrates flow cytometry, mass cytometry and CITE-seq data across panels, with protein imputation, differential expression and annotation.",
+    "tags": [
+      "cytometry",
+      "vae",
+      "integration"
+    ],
+    "added": "2026-10-17",
+    "lastChecked": "2026-10-17",
+    "firstReleased": "2025-09-12",
+    "dateSource": "https://doi.org/10.1101/2025.09.07.674699",
+    "notability": "Nature Methods 2026; Weizmann/UC Berkeley (Ido Amit, Nir Yosef); ships in scvi-tools (~1,700 stars)",
+    "specs": {
+      "architecture": "Probabilistic generative model (VAE)",
+      "tasks": "Cross-panel/technology integration, protein imputation, differential expression, annotation",
+      "interface": "Package (scvi-tools)",
+      "stars": 1713,
+      "starsChecked": "2026-10-17"
+    },
+    "specsChecked": "2026-10-17",
+    "specsSources": [
+      "https://doi.org/10.1038/s41592-026-03224-5",
+      "https://docs.scvi-tools.org/en/stable/user_guide/models/cytovi.html"
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2026
+  },
+  {
+    "slug": "carbon",
+    "name": "Carbon",
+    "category": "genomics",
+    "url": "https://huggingface.co/HuggingFaceBio/Carbon-3B",
+    "github": "https://github.com/huggingface/carbon",
+    "paper": "https://github.com/huggingface/carbon/blob/main/tech-report.pdf",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Hugging Face's family of open generative DNA language models (500M, 3B, 8B) with 6-mer tokens and up to ~786 kbp context; zero-shot variant-effect scoring and sequence generation.",
+    "tags": [
+      "dna-model",
+      "foundation-model",
+      "generative"
+    ],
+    "added": "2026-10-17",
+    "lastChecked": "2026-10-17",
+    "firstReleased": "2026-05-19",
+    "dateSource": "https://www.linkedin.com/posts/loubna-ben-allal-238690152_introducing-carbon-a-family-of-open-generative-activity-7462538117250736128-Kiw5",
+    "notability": "Hugging Face; Carbon-3B competitive with Evo2-7B; 222 GitHub stars; >200k downloads of GGUF builds",
+    "specs": {
+      "architecture": "Decoder-only transformer (500M / 3B / 8B)",
+      "context": "Up to ~393 kbp (3B) / ~786 kbp (8B)",
+      "tasks": "DNA generation, zero-shot variant-effect prediction",
+      "weights": "Yes (Hugging Face)",
+      "stars": 222,
+      "starsChecked": "2026-10-17"
+    },
+    "specsChecked": "2026-10-17",
+    "specsSources": [
+      "https://huggingface.co/HuggingFaceBio/Carbon-3B",
+      "https://github.com/huggingface/carbon/blob/main/tech-report.pdf"
+    ],
+    "paperVenue": "Technical report",
+    "paperYear": 2026
   }
 ]

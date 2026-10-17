@@ -45,7 +45,9 @@
   "esm3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "esmfold2-esmc-biohub": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "nucleotide-transformer": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
-  "nucleotide-transformer-v3-ntv3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose"
+  "nucleotide-transformer-v3-ntv3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
+  "cytovi": "Model shipped inside the scvi-tools repo; shares its GitHub URL with the scvi-tools entry",
+  "scvi-tools": "Framework repo also hosts CytoVI, listed as its own entry on purpose"
  },
  "C1": {
   "opentrons": "Open-source Apache-2.0 software; robots are sold commercially"
