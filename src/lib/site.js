@@ -29,7 +29,7 @@ export const INTRO = {
  'microbiome':'Metagenomic profiling, binning, MAG quality, taxonomy and virus/plasmid detection.',
  'clinical':'Medical and biomedical language and vision-language models.',
  'platforms':'Hosted R&D, computational-chemistry and bioinformatics workflow platforms that bundle many tools behind one interface.' };
-export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','boltz'],['rfdiffusion','bindcraft'],['enformer','borzoi'],['cellpose','stardist'],['chai-1','boltz']];
+export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','boltz'],['rfdiffusion','bindcraft'],['enformer','borzoi'],['cellpose','stardist'],['chai-1','boltz'],['alphafold-server-alphafold-3','chai-1'],['protenix','boltz'],['openfold3','boltz'],['alphafold2','openfold'],['alphafold2','colabfold'],['alphafold2','rosettafold'],['esm-2-esmfold','prottrans'],['esm3','esm-2-esmfold'],['saprot','esm-2-esmfold'],['rfdiffusion','rfdiffusion2'],['rfdiffusion2','rfdiffusion3'],['ablang2','antiberty'],['scgpt','uce-universal-cell-embeddings'],['geneformer','transcriptformer'],['scvi-tools','harmony'],['scanpy','seurat'],['tangram','cell2location'],['cell2location','rctd-spacexr'],['stagate','graphst'],['bayesspace','spagcn'],['evo-2','evo'],['hyenadna','caduceus'],['dnabert-2','nucleotide-transformer'],['cellpose','cellsam'],['diffdock','autodock-vina'],['chemprop','deepchem'],['deepvariant','clair3'],['dorado','bonito'],['metaphlan','kraken2'],['semibin','vamb'],['viennarna','eternafold'],['casanovo','instanovo'],['alphadia','dia-nn'],['rhofold','rna-fm']];
 export const bySlug = Object.fromEntries(tools.map(t=>[t.slug,t]));
 export const pairSlug = ([a,b]) => `${bySlug[a].slug}-vs-${bySlug[b].slug}`;
 
@@ -48,7 +48,41 @@ export const PAIR_BLURB = {
  'rfdiffusion-bindcraft':'Diffusion-based backbone design vs AlphaFold-guided binder hallucination.',
  'enformer-borzoi':'Sequence-to-function models predicting gene expression from DNA.',
  'cellpose-stardist':'Two widely used deep-learning cell segmentation tools.',
- 'chai-1-boltz':'Two open AlphaFold 3-class structure prediction models.'};
+ 'chai-1-boltz':'Two open AlphaFold 3-class structure prediction models.',
+ 'alphafold-server-alphafold-3-chai-1':'Hosted AlphaFold 3 vs an open multimodal structure prediction model.',
+ 'protenix-boltz':'A trainable PyTorch AlphaFold 3 reproduction vs open biomolecular interaction models.',
+ 'openfold3-boltz':'An open AlphaFold3-style preview model vs open biomolecular interaction models.',
+ 'alphafold2-openfold':'DeepMind’s AlphaFold2 vs its trainable PyTorch reproduction.',
+ 'alphafold2-colabfold':'AlphaFold2 vs the MMseqs2 + AlphaFold Colab workflow built on it.',
+ 'alphafold2-rosettafold':'Two protein structure predictors: AlphaFold2 and the Baker lab’s three-track network.',
+ 'esm-2-esmfold-prottrans':'Two families of protein language models used for embeddings.',
+ 'esm3-esm-2-esmfold':'Multimodal generative ESM3 vs the earlier ESM-2 / ESMFold models.',
+ 'saprot-esm-2-esmfold':'A structure-aware protein language model vs sequence-only ESM-2.',
+ 'rfdiffusion-rfdiffusion2':'Backbone and binder diffusion vs atom-level enzyme active-site scaffolding.',
+ 'rfdiffusion2-rfdiffusion3':'Two Baker lab diffusion design models: enzyme scaffolding vs all-atom binder and enzyme design.',
+ 'ablang2-antiberty':'Two antibody language models: paired-chain vs BERT-style on OAS sequences.',
+ 'scgpt-uce-universal-cell-embeddings':'Two single-cell foundation models: generative pretraining vs cross-species universal embeddings.',
+ 'geneformer-transcriptformer':'Two single-cell transformers: human transcriptomes vs cross-species generative training.',
+ 'scvi-tools-harmony':'Two approaches to single-cell integration: deep generative models vs fast batch correction.',
+ 'scanpy-seurat':'The main single-cell analysis toolkits for Python and R.',
+ 'tangram-cell2location':'Two methods for mapping cell types onto spatial transcriptomics data.',
+ 'cell2location-rctd-spacexr':'Two cell type deconvolution methods for spatial transcriptomics.',
+ 'stagate-graphst':'Two graph neural network methods for spatial domain identification.',
+ 'bayesspace-spagcn':'Bayesian clustering vs graph convolution for spatial domains.',
+ 'evo-2-evo':'Evo 2 vs the original Evo genomic foundation model.',
+ 'hyenadna-caduceus':'Two long-range DNA language models at single-nucleotide resolution.',
+ 'dnabert-2-nucleotide-transformer':'Two multi-species DNA foundation models.',
+ 'cellpose-cellsam':'Two generalist cell segmentation models.',
+ 'diffdock-autodock-vina':'A diffusion docking model vs a classical docking engine.',
+ 'chemprop-deepchem':'A molecular property prediction library vs a broad deep learning toolkit for chemistry.',
+ 'deepvariant-clair3':'Two deep learning small-variant callers for short and long reads.',
+ 'dorado-bonito':'Oxford Nanopore’s production basecaller vs its research basecaller.',
+ 'metaphlan-kraken2':'Marker-gene profiling vs k-mer classification for metagenomes.',
+ 'semibin-vamb':'Two deep learning metagenomic binners.',
+ 'viennarna-eternafold':'Two RNA secondary structure packages: ViennaRNA vs Eterna-trained EternaFold.',
+ 'casanovo-instanovo':'Two transformer models for de novo peptide sequencing.',
+ 'alphadia-dia-nn':'Two DIA proteomics search engines.',
+ 'rhofold-rna-fm':'RNA 3D structure prediction vs an RNA foundation model.'};
 export const pairBlurb = p => PAIR_BLURB[p.join('-')] || '';
 export const pairsFor = slug => PAIRS.filter(p=>p.includes(slug));
 export const pairsForCat = cat => PAIRS.filter(p=>p.some(s=>bySlug[s].category===cat));
@@ -78,4 +112,4 @@ export const specRows = (t) => {
 export const cmpData = () => ({ fields:SPEC_FIELDS, common:COMMON_FIELDS, cats:Object.fromEntries(Object.entries(CATS).map(([k,v])=>[k,v[0]])),
   tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,cs:catsOf(t),d:t.description,s:t.specs||{},l:licText(t),p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSources||[],rows:specRows(t),u:t.url,pp:t.paper||''}])) });
 
-export { licenseUse, LICUSE, licUseLabel, licClass, LICCLS, licBadge, licAllows, licParts, copyleftKind } from './license.js';
+export { licenseUse, LICUSE, licUseLabel, licClass, LICCLS, licBadge, licAllows, licParts, copyleftKind, licAnswer } from './license.js';

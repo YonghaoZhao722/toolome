@@ -1,13 +1,16 @@
 ---
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro'; import Card from '../../components/Card.astro';
-import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt, inCat, licClass, licBadge, licAllows, licParts } from '../../lib/site.js';
+import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt, inCat, licClass, licBadge, licAllows, licParts, licAnswer } from '../../lib/site.js';
 export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
 const { t } = Astro.props;
 const peers = tools.filter(x=>inCat(x,t.category)&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
 const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>starsOf(b)-starsOf(a)||dt(b).localeCompare(dt(a))||a.name.localeCompare(b.name)).slice(0,3);
-const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:licText(t),isAccessibleForFree:!['Paid','Contact'].includes(t.pricing),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
+const app={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:licText(t),isAccessibleForFree:!['Paid','Contact'].includes(t.pricing),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
+const lp=licParts(t); const lcd=t.licenseChecked||t.lastChecked;
+const q=`Can I use ${t.name} commercially?`; const ans=licAnswer(t)+(lp.code?` Code license: ${lp.code}.`:'')+(lp.weights?` Weights: ${lp.weights}.`:'');
+const jsonld={"@context":"https://schema.org","@graph":[{...app,"@context":undefined},{"@type":"FAQPage",mainEntity:[{"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:ans}}]}]};
 ---
-<Base title={`${t.name} — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description}`} jsonld={jsonld}>
+<Base title={`${t.name}: license, commercial use, paper — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description} Commercial use: ${licBadge(t)}.`} jsonld={jsonld}>
 <p><a href={u('/category/'+t.category+'/')}>← {CATS[t.category][0]}</a></p>
 <h1>{t.name}{t.archived&&<> <span class="arch" title={'GitHub repo archived (checked '+t.archivedChecked+')'}>Archived repo</span></>}</h1><p class="lead">{t.description}</p>
 <p class="cta"><a class="btn" href={t.url} rel="noopener" target="_blank">Visit website ↗</a></p>
@@ -24,6 +27,11 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 <tr><th>Pricing</th><td>{t.pricing}</td></tr>
 <tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td><time datetime={t.lastChecked}>{t.lastChecked}</time> <span class="mut">· links verified</span></td></tr></tbody></table>
 {pairsFor(t.slug).length>0&&<p class="mut">Compare with… {pairsFor(t.slug).map((p,i)=>{const o=bySlug[p[0]===t.slug?p[1]:p[0]];return <>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{t.name} vs {o.name}</a></>})}</p>}
+<section id="license"><h2>Can I use {t.name} commercially?</h2>
+<p><b>{licAnswer(t)}</b></p>
+<ul class="lic-ul">{lp.code&&<li>Code: {lp.code}</li>}{lp.weights&&<li>Weights: {lp.weights}</li>}{!lp.code&&!lp.weights&&<li>License: {licText(t)}</li>}
+<li>Source: {t.licenseSource?<a href={t.licenseSource} rel="noopener">{t.licenseSource.replace(/^https:\/\//,'')}</a>:t.github?<a href={t.github} rel="noopener">{t.github.replace('https://github.com/','')}</a>:<a href={t.url} rel="noopener">official site</a>} · {t.licenseChecked?'license checked':'last checked'} {lcd}</li></ul>
+<p class="mut" style="font-size:13px"><a href={u('/licenses/')}>What the license types mean</a> · not legal advice.</p></section>
 <h2>Specs</h2><SpecTable list={[t]}/>
 {peers.length>0&&<section class="picker" id="compare"><h2>Compare with…</h2>
 <p class="mut">Pick 1–3 other {CATS[t.category][0]} tools to compare side by side with {t.name}.</p>

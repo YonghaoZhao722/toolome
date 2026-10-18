@@ -61,3 +61,12 @@ export const licParts = (t) => {
   if (!weights) { const m = /\(([^)]+)\)/.exec(String(t.specs?.weights||'')); if (m && SPDX.test(m[1].replace(/ /g,'-').replace('Apache-2-0','Apache-2.0').replace('Apache-2.0','Apache-2.0'))) weights = m[1]; }
   return { code, weights };
 };
+
+// One-sentence answer to 'Can I use X commercially?', from data only.
+export const licAnswer = (t) => { const k=licClass(t), cw=copyleftKind(t);
+  return ({permissive:'Yes. The recorded license is permissive, so closed-source commercial use is allowed if you keep the notices.',
+   copyleft: cw==='weak'?'Yes, with conditions. It is under a weak copyleft license: changes to the licensed files must be shared, your own code can stay closed.':cw==='agpl'?'Yes, with conditions. It is under AGPL: if you modify it and distribute it or run it as a network service, you must release your source under the same license.':'Yes, with conditions. It is under GPL: if you distribute modified or combined software, you must release the source under the same license.',
+   proprietary:'Yes, under a paid or negotiated license from the vendor.',
+   'non-commercial':'No. The recorded terms do not allow commercial use without a separate license from the owner.',
+   mixed:'Partly. The code and the weights (or hosted service) are under different terms; the restrictive part does not allow commercial use.',
+   unknown:'Unclear. We could not confirm the terms from a primary source; check with the authors before commercial use.'})[k]; };

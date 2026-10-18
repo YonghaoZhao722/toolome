@@ -1,18 +1,26 @@
 ---
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro';
-import { CATS, PAIRS, bySlug, pairSlug, u, licText, dt } from '../../lib/site.js';
+import { CATS, PAIRS, bySlug, pairSlug, u, licText, dt, licParts, licBadge, licAnswer } from '../../lib/site.js';
 export function getStaticPaths(){ return PAIRS.map(p=>({params:{pair:pairSlug(p)},props:{a:bySlug[p[0]],b:bySlug[p[1]]}})); }
 const { a, b } = Astro.props;
 const rows=[['Category',t=>CATS[t.category][0]],['Description',t=>t.description],['License',t=>licText(t)],['Pricing',t=>t.pricing],['Tags',t=>t.tags.join(', ')],['Released',t=>dt(t)||'—']];
 const shared=a.tags.filter(x=>b.tags.includes(x));
 const jsonld={"@context":"https://schema.org","@type":"WebPage",name:`${a.name} vs ${b.name}`,about:[a,b].map(t=>({"@type":"SoftwareApplication",name:t.name,url:t.url,license:licText(t),applicationCategory:"ScientificApplication"}))};
 ---
-<Base title={`${a.name} vs ${b.name} (2026): license, pricing, links | Toolome`} description={`${a.name} vs ${b.name}: side-by-side comparison of what each does, license, pricing, code and paper.`} jsonld={jsonld}>
+<Base title={`${a.name} vs ${b.name} (2026): license, commercial use, paper | Toolome`} description={`${a.name} vs ${b.name}: side-by-side comparison of what each does, license, pricing, code and paper.`} jsonld={jsonld}>
 <h1>{a.name} vs {b.name}</h1>
 <p><b>{a.name}</b>: {a.description} <b>{b.name}</b>: {b.description}</p>
 <p class="mut">Facts below come from each project's own website, repository and paper. We don't publish benchmark claims here; see the papers for evaluations.{shared.length>0&&` Shared tags: ${shared.join(', ')}.`}</p>
 <SpecTable list={[a,b]}/>
+<h2>License and commercial use</h2>
+<div class="spec-wrap"><table class="spec lic2"><thead><tr><th scope="col">Field</th><th scope="col">{a.name}</th><th scope="col">{b.name}</th></tr></thead><tbody>
+<tr><th scope="row">Code license</th>{[a,b].map(t=><td>{licParts(t).code||licText(t)}</td>)}</tr>
+<tr><th scope="row">Weights license</th>{[a,b].map(t=><td>{licParts(t).weights||<span class="mut">—</span>}</td>)}</tr>
+<tr><th scope="row">Commercial use</th>{[a,b].map(t=><td>{licBadge(t)}</td>)}</tr>
+<tr><th scope="row">Answer</th>{[a,b].map(t=><td>{licAnswer(t)} <a href={u('/tools/'+t.slug+'/#license')}>Details</a></td>)}</tr>
+</tbody></table></div>
 <p><a href={u('/compare/?c='+a.category+'&t='+a.slug+','+b.slug)}>Add more {CATS[a.category][0]} tools to this comparison →</a></p>
-<h2>More comparisons</h2><ul>{PAIRS.map(p=><li><a href={u('/compare/'+pairSlug(p)+'/')}>{bySlug[p[0]].name} vs {bySlug[p[1]].name}</a></li>)}</ul>
+<h2>More {CATS[a.category][0]} comparisons</h2><ul>{PAIRS.filter(p=>bySlug[p[0]].category===a.category&&pairSlug(p)!==pairSlug([a.slug,b.slug])).map(p=><li><a href={u('/compare/'+pairSlug(p)+'/')}>{bySlug[p[0]].name} vs {bySlug[p[1]].name}</a></li>)}<li><a href={u('/compare/')}>All comparisons</a></li></ul>
 <p><a href={u('/category/'+a.category+'/')}>← All {CATS[a.category][0]} tools</a></p>
 </Base>
+<style>.lic2{table-layout:fixed;width:100%}.lic2 th,.lic2 td{white-space:normal!important;overflow-wrap:anywhere;vertical-align:top}.lic2 th:first-child{width:26%}</style>
