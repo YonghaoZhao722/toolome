@@ -29,7 +29,7 @@ export const INTRO = {
  'microbiome':'Metagenomic profiling, binning, MAG quality, taxonomy and virus/plasmid detection.',
  'clinical':'Medical and biomedical language and vision-language models.',
  'platforms':'Hosted R&D, computational-chemistry and bioinformatics workflow platforms that bundle many tools behind one interface.' };
-export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','boltz'],['rfdiffusion','bindcraft'],['enformer','borzoi'],['cellpose','stardist'],['chai-1','boltz'],['alphafold-server-alphafold-3','chai-1'],['protenix','boltz'],['openfold3','boltz'],['alphafold2','openfold'],['alphafold2','colabfold'],['alphafold2','rosettafold'],['esm-2-esmfold','prottrans'],['esm3','esm-2-esmfold'],['saprot','esm-2-esmfold'],['rfdiffusion','rfdiffusion2'],['rfdiffusion2','rfdiffusion3'],['ablang2','antiberty'],['scgpt','uce-universal-cell-embeddings'],['geneformer','transcriptformer'],['scvi-tools','harmony'],['scanpy','seurat'],['tangram','cell2location'],['cell2location','rctd-spacexr'],['stagate','graphst'],['bayesspace','spagcn'],['evo-2','evo'],['hyenadna','caduceus'],['dnabert-2','nucleotide-transformer'],['cellpose','cellsam'],['diffdock','autodock-vina'],['chemprop','deepchem'],['deepvariant','clair3'],['dorado','bonito'],['metaphlan','kraken2'],['semibin','vamb'],['viennarna','eternafold'],['casanovo','instanovo'],['alphadia','dia-nn'],['rhofold','rna-fm']];
+export const PAIRS = [['scgpt','geneformer'],['alphafold-server-alphafold-3','boltz'],['rfdiffusion','bindcraft'],['enformer','borzoi'],['cellpose','stardist'],['chai-1','boltz'],['alphafold-server-alphafold-3','chai-1'],['protenix','boltz'],['openfold3','boltz'],['alphafold2','openfold'],['alphafold2','colabfold'],['alphafold2','rosettafold'],['esm-2-esmfold','prottrans'],['esm3','esm-2-esmfold'],['saprot','esm-2-esmfold'],['rfdiffusion','rfdiffusion2'],['rfdiffusion2','rfdiffusion3'],['ablang2','antiberty'],['scgpt','uce-universal-cell-embeddings'],['geneformer','transcriptformer'],['scvi-tools','harmony'],['scanpy','seurat'],['tangram','cell2location'],['cell2location','rctd-spacexr'],['stagate','graphst'],['bayesspace','spagcn'],['evo-2','evo'],['hyenadna','caduceus'],['dnabert-2','nucleotide-transformer'],['cellpose','cellsam'],['diffdock','autodock-vina'],['chemprop','deepchem'],['deepvariant','clair3'],['dorado','bonito'],['metaphlan','kraken2'],['semibin','vamb'],['viennarna','eternafold'],['casanovo','instanovo'],['alphadia','dia-nn'],['rhofold','rna-fm'],['ligandmpnn','proteinmpnn']];
 export const bySlug = Object.fromEntries(tools.map(t=>[t.slug,t]));
 export const pairSlug = ([a,b]) => `${bySlug[a].slug}-vs-${bySlug[b].slug}`;
 
@@ -82,6 +82,7 @@ export const PAIR_BLURB = {
  'viennarna-eternafold':'Two RNA secondary structure packages: ViennaRNA vs Eterna-trained EternaFold.',
  'casanovo-instanovo':'Two transformer models for de novo peptide sequencing.',
  'alphadia-dia-nn':'Two DIA proteomics search engines.',
+ 'ligandmpnn-proteinmpnn':'Two Baker lab inverse-folding models: LigandMPNN adds small-molecule, nucleotide and metal context.',
  'rhofold-rna-fm':'RNA 3D structure prediction vs an RNA foundation model.'};
 export const pairBlurb = p => PAIR_BLURB[p.join('-')] || '';
 export const pairsFor = slug => PAIRS.filter(p=>p.includes(slug));

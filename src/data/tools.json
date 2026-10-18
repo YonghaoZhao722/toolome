@@ -1038,6 +1038,45 @@
     "paperYear": 2022
   },
   {
+    "slug": "ligandmpnn",
+    "name": "LigandMPNN",
+    "category": "protein",
+    "url": "https://github.com/dauparas/LigandMPNN",
+    "github": "https://github.com/dauparas/LigandMPNN",
+    "paper": "https://doi.org/10.1038/s41592-025-02626-1",
+    "license": "MIT",
+    "licenseNote": "code and model parameters MIT per README",
+    "licenseSource": "https://github.com/dauparas/LigandMPNN#readme",
+    "licenseChecked": "2026-10-18",
+    "pricing": "Open source",
+    "description": "Protein sequence design that explicitly models small molecules, nucleotides and metals, and also outputs side-chain conformations.",
+    "tags": [
+      "inverse-folding",
+      "design",
+      "binder-design"
+    ],
+    "added": "2026-10-18",
+    "lastChecked": "2026-10-18",
+    "firstReleased": "2023-12-23",
+    "dateSource": "https://doi.org/10.1101/2023.12.22.573103",
+    "specs": {
+      "task": "Sequence design (inverse folding) with ligand, nucleotide and metal context; side-chain packing",
+      "weights": "Yes (MIT)",
+      "stars": 645,
+      "interface": "Package",
+      "modalities": "Protein with small molecules, nucleotides, metals",
+      "starsChecked": "2026-10-18"
+    },
+    "specsChecked": "2026-10-18",
+    "specsSources": [
+      "https://github.com/dauparas/LigandMPNN#readme",
+      "https://doi.org/10.1038/s41592-025-02626-1"
+    ],
+    "paperVenue": "Nature Methods",
+    "paperYear": 2025,
+    "notability": "Baker lab successor to ProteinMPNN; Nature Methods 2025; paper reports 100+ experimentally validated small-molecule and DNA-binding designs"
+  },
+  {
     "slug": "esm3",
     "name": "ESM3 / EvolutionaryScale",
     "category": "protein",
