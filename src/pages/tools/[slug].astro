@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro'; import Card from '../../components/Card.astro';
-import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt, inCat } from '../../lib/site.js';
+import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt, inCat, licenseUse, licUseLabel } from '../../lib/site.js';
 export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
 const { t } = Astro.props;
 const peers = tools.filter(x=>inCat(x,t.category)&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
@@ -16,8 +16,8 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
 {!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a>{t.paperVenue&&<span class="mut"> · {t.paperVenue}{t.paperYear?` (${t.paperYear})`:''}</span>}</td></tr>}
-<tr><th>License</th><td>{licText(t)}</td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
-<tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td>{t.lastChecked}</td></tr></tbody></table>
+<tr><th>License</th><td>{licText(t)}</td></tr><tr><th>Commercial use</th><td><span class={'tag lic lic-'+licenseUse(t)}>{licUseLabel(t)}</span></td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
+<tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td><time datetime={t.lastChecked}>{t.lastChecked}</time> <span class="mut">· links verified</span></td></tr></tbody></table>
 {pairsFor(t.slug).length>0&&<p class="mut">Compare with… {pairsFor(t.slug).map((p,i)=>{const o=bySlug[p[0]===t.slug?p[1]:p[0]];return <>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{t.name} vs {o.name}</a></>})}</p>}
 <h2>Specs</h2><SpecTable list={[t]}/>
 {peers.length>0&&<section class="picker" id="compare"><h2>Compare with…</h2>

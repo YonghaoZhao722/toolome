@@ -1,6 +1,6 @@
 ---
 import Sort from '../components/Sort.astro'; import { byNewest } from '../lib/site.js';
-import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Newsletter from '../components/Newsletter.astro';
+import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Newsletter from '../components/Newsletter.astro'; import Lic from '../components/Lic.astro';
 import { tools, CATS, u, catList} from '../lib/site.js';
 const now=new Date(); const from=new Date(now.getTime()-14*864e5); const iso=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Denver'}); const fmt=s=>new Date(s+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
 const latest=tools.filter(t=>t.released&&t.released>=iso(from)&&t.released<=iso(now)).sort((a,b)=>b.released.localeCompare(a.released));
@@ -12,16 +12,16 @@ const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"Toolome",u
 <input id="q" class="search" type="search" aria-label="Search tools" placeholder="Search tools, e.g. spatial alignment, binder design, scRNA…"/>
 <div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{e} {n}</button>)}</div>
 {latest.length>0&&<section id="recent"><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
-<div class="hrow"><h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2><Sort/></div><div class="grid" id="all" data-sortable>{byNewest(tools).map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
+<div class="hrow"><h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2><Sort/></div><div class="lrow"><Lic/></div><div class="grid" id="all" data-sortable>{byNewest(tools).map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
 <script is:inline>
 if(matchMedia('(max-width:560px)').matches)document.getElementById('q').placeholder='Search tools…';
 const q=document.getElementById('q'),cards=[...document.querySelectorAll('#all .card')],empty=document.getElementById('empty');let c='',tm;
 cards.forEach((e,i)=>e.style.viewTransitionName='c'+i);
 const rm=matchMedia('(prefers-reduced-motion: reduce)');
-function apply(){const s=q.value.toLowerCase().trim();let n=0;cards.forEach(e=>{const sp=e.dataset.cat==='*';const v=sp||((!c||(' '+(e.dataset.cats||e.dataset.cat)+' ').includes(' '+c+' '))&&(!s||e.dataset.q.includes(s)));e.hidden=!v;if(v&&!sp)n++});const rs=document.getElementById('recent');if(rs){let m=0;rs.querySelectorAll('.card').forEach(e=>{const v=(!c||(' '+(e.dataset.cats||e.dataset.cat)+' ').includes(' '+c+' '))&&(!s||e.dataset.q.includes(s));e.hidden=!v;if(v)m++});rs.hidden=m===0}document.getElementById('n').textContent='('+n+')';empty.classList.toggle('show',n===0)}
+function apply(){const s=q.value.toLowerCase().trim();let n=0;cards.forEach(e=>{const sp=e.dataset.cat==='*';const v=sp||(!e.classList.contains('licx')&&(!c||(' '+(e.dataset.cats||e.dataset.cat)+' ').includes(' '+c+' '))&&(!s||e.dataset.q.includes(s)));e.hidden=!v;if(v&&!sp)n++});const rs=document.getElementById('recent');if(rs){let m=0;rs.querySelectorAll('.card').forEach(e=>{const v=(!c||(' '+(e.dataset.cats||e.dataset.cat)+' ').includes(' '+c+' '))&&(!s||e.dataset.q.includes(s));e.hidden=!v;if(v)m++});rs.hidden=m===0}document.getElementById('n').textContent='('+n+')';empty.classList.toggle('show',n===0)}
 function f(){if(document.startViewTransition&&!rm.matches)document.startViewTransition(apply);else apply()}
 q.oninput=()=>{clearTimeout(tm);tm=setTimeout(f,120)};
-document.querySelectorAll('#cats .pill').forEach(b=>b.onclick=()=>{document.querySelectorAll('#cats .pill').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');c=b.dataset.c;f()});apply();
+document.querySelectorAll('#cats .pill').forEach(b=>b.onclick=()=>{document.querySelectorAll('#cats .pill').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');c=b.dataset.c;f()});document.addEventListener('licchange',f);apply();
 </script>
 </Base>

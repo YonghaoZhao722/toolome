@@ -1,10 +1,10 @@
 ---
-import { CATS, u } from '../lib/site.js';
+import { CATS, u, licenseUse, licUseLabel } from '../lib/site.js';
 const { t, badge } = Astro.props;
 const d=t.released||t.firstReleased||'';
 const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const dl=d?M[+d.slice(5,7)-1]+' '+d.slice(0,4):'';
 ---
-<div class="card" data-date={t.released||t.firstReleased||''} data-name={t.name.toLowerCase()} data-cat={t.category} data-cats={[t.category,...(t.alsoIn||[])].join(' ')} data-q={(t.name+' '+t.description+' '+t.tags.join(' ')).toLowerCase()}>
+<div class="card" data-lic={licenseUse(t)} data-date={t.released||t.firstReleased||''} data-name={t.name.toLowerCase()} data-cat={t.category} data-cats={[t.category,...(t.alsoIn||[])].join(' ')} data-q={(t.name+' '+t.description+' '+t.tags.join(' ')).toLowerCase()}>
 {badge&&<a class="badge" href={t.source} rel="noopener" title="Release source">Released {badge}</a>}<div class="chead"><h3><a href={u('/tools/'+t.slug+'/')}>{t.name}</a>{t.archived&&<span class="arch" title={'GitHub repo archived (checked '+t.archivedChecked+')'}>Archived repo</span>}</h3>{dl&&<time class="cdate" datetime={d} title={t.released?'Released '+d:'First public '+d}>{dl}</time>}</div><p>{t.description}</p>
-<div><span class="tag">{CATS[t.category][0]}</span><span class="tag">{t.pricing}</span>{t.tags.slice(0,2).map(g=><span class="tag">#{g}</span>)}</div></div>
+<div><span class="tag">{CATS[t.category][0]}</span><span class="tag">{t.pricing}</span><span class={'tag lic lic-'+licenseUse(t)} title="Commercial use, from license terms">{licUseLabel(t)}</span>{t.tags.slice(0,1).map(g=><span class="tag">#{g}</span>)}</div></div>

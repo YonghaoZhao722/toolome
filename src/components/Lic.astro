@@ -1,0 +1,12 @@
+---
+const opts=[['','All'],['commercial','Commercial OK'],['non-commercial','Non-commercial'],['mixed','Mixed'],['unknown','Unknown']];
+---
+<div class="licbar" role="group" aria-label="Filter by commercial use">{opts.map(([v,l],i)=><button type="button" class={'pill'+(i?'':' on')} aria-pressed={i?'false':'true'} data-lic={v}>{l}</button>)}</div>
+<style is:global>.licbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.licbar .pill{padding:0 12px;height:32px;font-size:13px}.lrow{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:var(--s3) 0}.lrow .sortbar{margin:0 0 0 auto}.card.licx{display:none!important}.tag.lic{color:var(--txt)}.tag.lic-commercial{background:var(--acc-soft);color:var(--link)}@media(max-width:560px){.licbar .pill,.sortsel{height:44px;min-height:44px}.licbar{gap:6px}}</style>
+<script is:inline>
+(()=>{const bs=[...document.querySelectorAll('.licbar .pill')];bs.forEach(b=>b.addEventListener('click',()=>{const v=b.dataset.lic;
+document.querySelectorAll('.licbar .pill').forEach(x=>{const on=x.dataset.lic===v;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on?'true':'false')});
+document.querySelectorAll('.grid[data-sortable]>.card').forEach(c=>c.classList.toggle('licx',!!v&&c.dataset.lic!==v));
+document.querySelectorAll('.grid[data-licempty]').forEach(g=>{const n=g.querySelectorAll(':scope>.card:not(.licx)').length;g.querySelector(':scope>.empty')?.classList.toggle('show',n===0);const o=document.getElementById('licn');if(o)o.textContent=v?n+' shown':''});
+document.dispatchEvent(new CustomEvent('licchange'));}));})();
+</script>

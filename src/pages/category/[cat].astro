@@ -1,5 +1,5 @@
 ---
-import Base from '../../layouts/Base.astro'; import Sort from '../../components/Sort.astro'; import { byNewest } from '../../lib/site.js'; import Card from '../../components/Card.astro';
+import Base from '../../layouts/Base.astro'; import Sort from '../../components/Sort.astro'; import { byNewest } from '../../lib/site.js'; import Card from '../../components/Card.astro'; import Lic from '../../components/Lic.astro';
 import { tools, CATS, INTRO, u, inCat } from '../../lib/site.js';
 export function getStaticPaths(){ return Object.keys(CATS).map(c=>({params:{cat:c}})); }
 const { cat } = Astro.params; const list = tools.filter(t=>inCat(t,cat)); const n=CATS[cat][0];
@@ -10,6 +10,6 @@ const jsonld={"@context":"https://schema.org","@type":"ItemList",name:`Best AI t
 <h1>{CATS[cat][1]} Best AI tools for {n} (2026)</h1>
 <p>{INTRO[cat]}</p><p class="mut">{list.length} tools · {oss} open source · each entry links to its website, code and paper.</p>
 <div class="seg" role="navigation" aria-label="Categories">{Object.entries(CATS).map(([k,[nn,e]])=><a class={'pill'+(k===cat?' on':'')} href={u('/category/'+k+'/')}>{e} {nn}</a>)}</div>
-<Sort/><div class="grid" data-sortable>{byNewest(list).map(t=><Card t={t}/>)}</div>
+<div class="lrow"><Lic/><span id="licn" class="mut num" aria-live="polite"></span><Sort/></div><div class="grid" data-sortable data-licempty>{byNewest(list).map(t=><Card t={t}/>)}<div class="empty">No tools with this license type here yet.</div></div>
 <script is:inline>document.querySelector(".seg .pill.on")?.scrollIntoView({inline:"center",block:"nearest"})</script>
 </Base>

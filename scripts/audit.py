@@ -7,6 +7,7 @@
   python3 scripts/audit.py --online --fix-archived  # also set/clear `archived` + `archivedChecked` from GitHub's archived flag
   python3 scripts/audit.py --online --fix-moves   # also rewrite `github` for repos GitHub reports as renamed/moved
   python3 scripts/audit.py --links         # + link-liveness report (report only, never deletes)
+  python3 scripts/audit.py --links --stamp-checked  # also set lastChecked=today for tools whose links all returned 2xx
 Writes audit-report.json (gitignored). Exceptions live in scripts/audit_allow.json: {"RULE": {"slug": "reason"}}.
 """
 import json, re, sys, datetime, subprocess, collections, os
@@ -162,15 +163,30 @@ def links():
         for k in ('url', 'paper', 'source', 'dateSource'):
             if t.get(k): urls[t[k]].append(t['slug'])
         for x in t.get('specsSources') or []: urls[x].append(t['slug'])
+    for t in tools:
+        if t.get('github'): urls[t['github']].append(t['slug'])
+    bad = set()
     with ThreadPoolExecutor(16) as ex:
         for u, c in ex.map(chk, list(urls)):
             if not c.startswith('2'):
+                bad.update(urls[u])
                 for s in set(urls[u]): (I if c in ('403', '429', '302', '405') or 'doi.org/10.1101' in u else W)('G5', s, f'{c} {u}')
+    return bad
+
+def stamp(bad):
+    # lastChecked = today only for tools whose every link returned 2xx in this run; others keep their last real date
+    n = 0
+    for t in tools:
+        if t['slug'] not in bad and t.get('lastChecked') != TODAY.isoformat(): t['lastChecked'] = TODAY.isoformat(); n += 1
+    json.dump(tools, open(DATA, 'w'), indent=2, ensure_ascii=False); open(DATA, 'a').write('\n')
+    print(f'lastChecked stamped {TODAY} on {n} tools; {len(bad)} tools had a non-2xx link and kept their previous date')
 
 l1()
 if '--online' in args and l2():
     json.dump(tools, open(DATA, 'w'), indent=2, ensure_ascii=False); open(DATA, 'a').write('\n'); print('wrote', DATA)
-if '--links' in args: links()
+if '--links' in args:
+    _bad = links()
+    if '--stamp-checked' in args: stamp(_bad)
 json.dump(out, open(os.path.join(ROOT, 'audit-report.json'), 'w'), indent=1)
 cnt = collections.Counter((o['sev'], o['rule']) for o in out)
 for o in out:
