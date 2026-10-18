@@ -4055,7 +4055,7 @@
     ],
     "paperVenue": "Research Square preprint",
     "paperYear": 2024,
-    "licenseNote": "code; model checkpoints CC BY-NC-SA 4.0 (non-commercial weights)",
+    "licenseNote": "code; model checkpoints CC BY-NC-SA 4.0, non-commercial weights",
     "licenseSource": "https://github.com/instadeepai/InstaNovo#readme",
     "licenseChecked": "2026-10-17"
   },
@@ -6747,7 +6747,7 @@
     "specsChecked": "2026-10-16",
     "paperVenue": "bioRxiv preprint",
     "paperYear": 2026,
-    "licenseNote": "code; model checkpoints CC BY-NC-SA 4.0 (non-commercial weights)",
+    "licenseNote": "code; model checkpoints CC BY-NC-SA 4.0, non-commercial weights",
     "licenseSource": "https://github.com/instadeepai/InstaNovo-FM#readme",
     "licenseChecked": "2026-10-17"
   },
@@ -8471,7 +8471,7 @@
     "paper": "https://doi.org/10.1126/science.abj8754",
     "paperVenue": "Science",
     "paperYear": 2021,
-    "licenseNote": "code; trained weights non-commercial (Rosetta-DL Software license)",
+    "licenseNote": "code; trained weights non-commercial, Rosetta-DL Software license",
     "licenseSource": "https://github.com/RosettaCommons/RoseTTAFold#readme",
     "licenseChecked": "2026-10-17"
   },
