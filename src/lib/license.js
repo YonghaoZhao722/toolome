@@ -43,12 +43,12 @@ export const LICCLS = [
   ['unknown','Unknown','Unknown'] ];
 export const licBadge = (t) => { const k=licClass(t); if (k==='copyleft') return copyleftKind(t)==='weak' ? 'Weak copyleft (commercial OK, share-alike)' : 'Copyleft (commercial OK, share-alike)'; return LICCLS.find(x=>x[0]===k)[2]; };
 export const licAllows = (t) => ({
-  permissive: 'Closed-source commercial use allowed; keep the license and copyright notices.',
-  copyleft: {agpl:'Commercial use allowed; derived code, including code run as a network service, must be released under the same license.', strong:'Commercial use allowed; derived code you distribute must be released under the same license.', weak:'Commercial use allowed; changes to the licensed files themselves must be released; your own code linking to it can stay closed.'}[copyleftKind(t)],
-  proprietary: 'Commercial use under a paid or negotiated license from the vendor.',
-  'non-commercial': 'No commercial use.',
-  mixed: licParts(t).code ? `Code (${licParts(t).code}) allows commercial use; the weights or hosted service do not.` : 'Components are under different terms; some do not allow commercial use.',
-  unknown: 'Unclear; check the source before any commercial use.' })[licClass(t)];
+  permissive: 'Use, modify and ship it inside closed-source commercial products; keep the license text and copyright notices.',
+  copyleft: {agpl:'You can build commercial products on it, but modified or combined versions, including ones users reach over a network, must ship their source under the same license.', strong:'You can build commercial products on it, but any modified or combined version you distribute must ship its source under the same license.', weak:'You can link it into closed-source products; only changes to its own files must be shared under the same license.'}[copyleftKind(t)],
+  proprietary: `Use is set by the vendor's agreement; ${({Contact:'pricing is by quote from the vendor',Paid:'access is through paid plans','No-cost tier + paid plans':'access is through a no-cost tier plus paid plans'})[t.pricing]||'access is through '+t.pricing.toLowerCase()}.`,
+  'non-commercial': 'Non-commercial use such as academic research is OK; commercial use needs a separate license from the owner.',
+  mixed: licParts(t).code ? `You can use and modify the ${licParts(t).code} code commercially; the restricted part (see the weights row) is limited to non-commercial use.` : 'Some components (see the license rows) are limited to non-commercial use.',
+  unknown: 'No confirmed terms from a primary source; ask the authors before using it in a product.' })[licClass(t)];
 const SPDX = /^(MIT|Apache-2\.0|BSD-[23]-Clause(-Clear)?|A?GPL-[23]\.0|LGPL-[23]\.[01]|MPL-2\.0|CC-BY-4\.0|CC0-1\.0|CC-BY-NC(-SA|-ND)?-4\.0|PolyForm-Strict-1\.0)$/;
 // Code vs weights, only when the data states them.
 export const licParts = (t) => {

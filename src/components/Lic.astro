@@ -3,11 +3,17 @@ import { LICCLS, u } from '../lib/site.js';
 const opts=[['','All','All licenses'],...LICCLS];
 ---
 <div class="licbar" role="group" aria-label="Filter by license type">{opts.map(([v,l,full],i)=><button type="button" class={'pill'+(i?'':' on')} aria-pressed={i?'false':'true'} data-lic={v} title={full}>{l}</button>)}<a class="licq" href={u('/licenses/')}>What do these mean?</a></div>
-<style is:global>.licbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.licbar .pill{padding:0 12px;height:32px;font-size:13px}.licq{font-size:13px;margin-left:4px;color:var(--link)}.lrow{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:var(--s3) 0}.lrow .sortbar{margin:0 0 0 auto}.card.licx{display:none!important}.tag.lic{color:var(--txt)}.tag.lic-permissive{background:var(--acc-soft);color:var(--link)}@media(max-width:560px){.licbar .pill,.sortsel{height:44px;min-height:44px}.licq{display:inline-flex;align-items:center;min-height:44px}}</style>
+<style is:global>.licbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.licbar .pill{padding:0 12px;height:32px;font-size:13px}.licq{font-size:13px;margin-left:4px;color:var(--link)}.lrow{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:var(--s3) 0}.lrow .sortbar{margin:0 0 0 auto}.card.licx{display:none!important}.licbar .pill{transition:none}.licbar{min-height:32px}.tag.lic{color:var(--txt)}.tag.lic-permissive{background:var(--acc-soft);color:var(--link)}@media(max-width:560px){.licbar .pill,.sortsel{height:44px;min-height:44px}.licq{display:inline-flex;align-items:center;min-height:44px}}</style>
 <script is:inline>
-(()=>{const bs=[...document.querySelectorAll('.licbar .pill')];bs.forEach(b=>b.addEventListener('click',()=>{const v=b.dataset.lic;
+(()=>{const bars=[...document.querySelectorAll('.licbar')];if(!bars.length)return;
+function set(v,push){const bar=bars[0],t0=bar.getBoundingClientRect().top;
 document.querySelectorAll('.licbar .pill').forEach(x=>{const on=x.dataset.lic===v;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on?'true':'false')});
 document.querySelectorAll('.grid[data-sortable]>.card').forEach(c=>c.classList.toggle('licx',!!v&&c.dataset.lic!==v));
 document.querySelectorAll('.grid[data-licempty]').forEach(g=>{const n=g.querySelectorAll(':scope>.card:not(.licx)').length;g.querySelector(':scope>.empty')?.classList.toggle('show',n===0);const o=document.getElementById('licn');if(o)o.textContent=v?n+' shown':''});
-document.dispatchEvent(new CustomEvent('licchange'));}));})();
+document.dispatchEvent(new CustomEvent('licchange'));
+const d=bar.getBoundingClientRect().top-t0;if(Math.abs(d)>0.5)scrollBy(0,d);
+if(push){const u=new URL(location.href);v?u.searchParams.set('lic',v):u.searchParams.delete('lic');history.replaceState(history.state,'',u)}}
+document.querySelectorAll('.licbar .pill').forEach(b=>b.addEventListener('click',()=>set(b.dataset.lic,true)));
+const v0=new URL(location.href).searchParams.get('lic');if(v0&&document.querySelector('.licbar .pill[data-lic="'+CSS.escape(v0)+'"]'))set(v0,false);
+addEventListener('pageshow',e=>{if(e.persisted){const v=new URL(location.href).searchParams.get('lic')||'';set(v,false)}});})();
 </script>
