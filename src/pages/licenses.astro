@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro'; import { tools, LICCLS, licClass, u } from '../lib/site.js';
+const n = Object.fromEntries(LICCLS.map(([k])=>[k, tools.filter(t=>licClass(t)===k).length]));
+const D = {
+ permissive:['MIT, Apache-2.0, BSD, CC-BY-4.0, CC0','Use, modify and ship inside closed-source commercial products. Keep the license text and copyright notices; Apache-2.0 also includes a patent grant.'],
+ copyleft:['GPL-3.0, AGPL-3.0 (strong); LGPL-3.0, MPL-2.0 (weak)','Commercial use is allowed. If you distribute a modified version or a combined program, the source must be released under the same license. AGPL also covers software offered as a network service. Weak copyleft (LGPL, MPL) applies only to the licensed files or library, so your own code that uses it can stay closed.'],
+ proprietary:['Vendor terms','Commercial products and services. Use is governed by a paid or negotiated agreement with the vendor.'],
+ 'non-commercial':['CC-BY-NC, PolyForm Noncommercial/Strict, academic-only licenses','Non-commercial use only; some (e.g. academic-only) are narrower. Commercial use needs a separate license from the owner, if one is offered.'],
+ mixed:['e.g. Apache-2.0 code + non-commercial weights','The code and the trained model weights (or hosted service) carry different licenses. Typically the code can be used commercially but the weights cannot, so you would need to train your own weights or get a license.'],
+ unknown:['No license stated, custom terms, or conflicting statements','We could not confirm the terms from a primary source. Treat as not cleared for commercial use until you check with the authors.']};
+---
+<Base title="License types explained | Toolome" description="What Toolome's license labels mean: permissive, copyleft, proprietary, non-commercial, mixed and unknown.">
+<h1>License types</h1>
+<p class="mut">Each tool's label is derived from the code and weights licenses recorded in our data, with a link to the source on its page. Model weights often have a different license from the code, so check both.</p>
+<table><thead><tr><th>Label</th><th>Typical licenses</th><th>What it allows</th><th>Tools</th></tr></thead><tbody>
+{LICCLS.map(([k,_,full])=><tr><th>{full}</th><td>{D[k][0]}</td><td>{D[k][1]}</td><td class="num">{n[k]}</td></tr>)}
+</tbody></table>
+<p class="mut">This is a summary for orientation, not legal advice; read the license itself before relying on it.</p>
+</Base>

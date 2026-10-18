@@ -78,4 +78,4 @@ export const specRows = (t) => {
 export const cmpData = () => ({ fields:SPEC_FIELDS, common:COMMON_FIELDS, cats:Object.fromEntries(Object.entries(CATS).map(([k,v])=>[k,v[0]])),
   tools:Object.fromEntries(tools.map(t=>[t.slug,{n:t.name,c:t.category,cs:catsOf(t),d:t.description,s:t.specs||{},l:licText(t),p:t.pricing,r:t.released||t.firstReleased||'',pa:t.paper||'',g:t.github||'',src:t.specsSources||[],rows:specRows(t),u:t.url,pp:t.paper||''}])) });
 
-export { licenseUse, LICUSE, licUseLabel } from './license.js';
+export { licenseUse, LICUSE, licUseLabel, licClass, LICCLS, licBadge, licAllows, licParts, copyleftKind } from './license.js';

@@ -1,8 +1,9 @@
 ---
-const opts=[['','All'],['commercial','Commercial OK'],['non-commercial','Non-commercial'],['mixed','Mixed'],['unknown','Unknown']];
+import { LICCLS, u } from '../lib/site.js';
+const opts=[['','All','All licenses'],...LICCLS];
 ---
-<div class="licbar" role="group" aria-label="Filter by commercial use">{opts.map(([v,l],i)=><button type="button" class={'pill'+(i?'':' on')} aria-pressed={i?'false':'true'} data-lic={v}>{l}</button>)}</div>
-<style is:global>.licbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.licbar .pill{padding:0 12px;height:32px;font-size:13px}.lrow{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:var(--s3) 0}.lrow .sortbar{margin:0 0 0 auto}.card.licx{display:none!important}.tag.lic{color:var(--txt)}.tag.lic-commercial{background:var(--acc-soft);color:var(--link)}@media(max-width:560px){.licbar .pill,.sortsel{height:44px;min-height:44px}.licbar{gap:6px}}</style>
+<div class="licbar" role="group" aria-label="Filter by license type">{opts.map(([v,l,full],i)=><button type="button" class={'pill'+(i?'':' on')} aria-pressed={i?'false':'true'} data-lic={v} title={full}>{l}</button>)}<a class="licq" href={u('/licenses/')}>What do these mean?</a></div>
+<style is:global>.licbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.licbar .pill{padding:0 12px;height:32px;font-size:13px}.licq{font-size:13px;margin-left:4px;color:var(--link)}.lrow{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:var(--s3) 0}.lrow .sortbar{margin:0 0 0 auto}.card.licx{display:none!important}.tag.lic{color:var(--txt)}.tag.lic-permissive{background:var(--acc-soft);color:var(--link)}@media(max-width:560px){.licbar .pill,.sortsel{height:44px;min-height:44px}.licq{display:inline-flex;align-items:center;min-height:44px}}</style>
 <script is:inline>
 (()=>{const bs=[...document.querySelectorAll('.licbar .pill')];bs.forEach(b=>b.addEventListener('click',()=>{const v=b.dataset.lic;
 document.querySelectorAll('.licbar .pill').forEach(x=>{const on=x.dataset.lic===v;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on?'true':'false')});
