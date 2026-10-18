@@ -3,6 +3,6 @@ import Base from '../layouts/Base.astro'; import { SITE } from '../lib/site.js';
 const issue = SITE.repo + '/issues/new?title=' + encodeURIComponent('Tool submission: ') + '&body=' + encodeURIComponent('Name:\nURL:\nGitHub:\nPaper:\nCategory:\nOne-line description:\nLicense/pricing:');
 ---
 <Base title="Submit a tool | Toolome" description="Suggest an AI-for-biology tool for Toolome.">
-<h1>Submit a tool</h1><p class="mut">Free listings for real, working tools. Every submission is checked by hand.</p>
+<h1>Submit a tool</h1><p class="mut">Listings for real, working tools are at no cost. Every submission is checked by hand.</p>
 <p><a class="btn" href={issue}>Open a GitHub issue</a></p>
 </Base>

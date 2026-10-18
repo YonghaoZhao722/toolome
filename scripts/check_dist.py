@@ -67,6 +67,18 @@ for x in sm - want: err('H4', 'sitemap', f'extra {x}')
 for f in ('llms.txt', 'llms-full.txt'):
     n = len(set(re.findall(r'/tools/([^/)]+)/', rd(f))))
     if n != len(tools): err('H4', f, f'{n} tools vs {len(tools)}')
+# H6: house rule, the word "free" must not appear in user-visible text (html text, meta/title/alt, llms*.txt).
+FREE_ALLOW = ['FreedomIntelligence']  # official org/repo names only
+for root, _, fs in os.walk(D):
+    for f in fs:
+        if not f.endswith(('.html', '.txt')): continue
+        rel = os.path.relpath(os.path.join(root, f), D); h = rd(rel)
+        if f.endswith('.html'):
+            attrs = ' '.join(re.findall(r'(?:content|alt|title|placeholder|aria-label)="([^"]*)"', h))
+            h = re.sub(r'<(script|style)\b.*?</\1>', ' ', h, flags=re.S | re.I); h = re.sub(r'<[^>]+>', ' ', h) + ' ' + attrs
+        h = html.unescape(h)
+        for a in FREE_ALLOW: h = h.replace(a, '')
+        for m in re.finditer(r'.{0,30}free.{0,20}', h, re.I): err('H6', rel, f'"free" in visible text: {m.group(0).strip()!r}')
 for e in errs: print('ERROR', e)
 print(f'check_dist: {len(errs)} error(s) over {len(files)} files, {len(tools)} tools')
 sys.exit(1 if errs else 0)

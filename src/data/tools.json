@@ -911,7 +911,7 @@
     "github": "https://github.com/google-deepmind/alphafold3",
     "paper": "https://www.nature.com/articles/s41586-024-07487-w",
     "license": "Apache-2.0",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Structure prediction of proteins, nucleic acids, ligands and their complexes; hosted web server plus open code, weights on request for non-commercial use.",
     "tags": [
       "structure",
@@ -1045,7 +1045,7 @@
     "github": "https://github.com/Biohub/esm",
     "paper": "https://www.science.org/doi/10.1126/science.ads0018",
     "license": "MIT",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "Multimodal generative protein language model over sequence, structure and function (ESM3; also ESM C embeddings).",
     "tags": [
       "plm",
@@ -1401,7 +1401,7 @@
     "category": "platforms",
     "url": "https://www.tamarind.bio",
     "license": "Commercial",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "No-code web platform running 100+ protein and molecular ML models.",
     "tags": [
       "no-code",
@@ -1464,7 +1464,7 @@
     "github": "https://github.com/google-deepmind/alphagenome",
     "paper": "https://www.biorxiv.org/content/10.1101/2025.06.25.661532",
     "license": "Apache-2.0",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "DeepMind model predicting regulatory effects of DNA variants at base resolution.",
     "tags": [
       "regulatory",
@@ -2051,7 +2051,7 @@
     "url": "https://www.nvidia.com/en-us/clara/bionemo/",
     "github": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes",
     "license": "Apache-2.0",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "NVIDIA platform and NIMs for training and deploying biology foundation models.",
     "tags": [
       "platform",
@@ -2081,7 +2081,7 @@
     "category": "platforms",
     "url": "https://rowansci.com",
     "license": "Commercial",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "Cloud computational chemistry platform with ML-accelerated simulations.",
     "tags": [
       "quantum-chemistry",
@@ -2142,7 +2142,7 @@
     "category": "agents",
     "url": "https://platform.edisonscientific.com",
     "license": "Commercial",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "FutureHouse's hosted AI scientist agents (Crow, Falcon, Owl, Phoenix) for literature search, precedent search and chemistry.",
     "tags": [
       "agent",
@@ -2224,7 +2224,7 @@
     "category": "agents",
     "url": "https://elicit.com",
     "license": "Commercial",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "AI research assistant for literature search and data extraction.",
     "tags": [
       "literature"
@@ -2245,7 +2245,7 @@
     "category": "agents",
     "url": "https://consensus.app",
     "license": "Commercial",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "AI search engine over peer-reviewed research.",
     "tags": [
       "literature",
@@ -2290,7 +2290,7 @@
     "url": "https://latch.bio",
     "github": "https://github.com/latchbio/latch",
     "license": "MIT",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "Cloud platform for bioinformatics workflows and data.",
     "tags": [
       "workflows",
@@ -3067,7 +3067,7 @@
     "category": "datasets",
     "url": "https://huggingface.co/models?other=biology",
     "license": "Mixed",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Hugging Face Hub listing of biology-tagged models, from protein and DNA language models to single-cell models.",
     "tags": [
       "hub"
@@ -3161,7 +3161,7 @@
     "category": "genomics",
     "url": "https://www.illumina.com/science/genomics-research/articles/introducing-spliceai2--the-next-generation-of-splicing-and-trans.html",
     "license": "Custom",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Illumina's successor to SpliceAI: predicts splice-site usage and full transcript isoforms from sequence.",
     "tags": [
       "splicing",
@@ -3826,7 +3826,7 @@
     "github": "https://github.com/vdemichev/DiaNN",
     "paper": "https://doi.org/10.1038/s41592-019-0638-x",
     "license": "Proprietary",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Neural-network-powered data-independent acquisition (DIA) proteomics processing software.",
     "tags": [
       "dia",
@@ -3851,7 +3851,7 @@
     ],
     "paperVenue": "Nature Methods",
     "paperYear": 2020,
-    "licenseNote": "free for academic use"
+    "licenseNote": "no cost for academic use"
   },
   {
     "slug": "alphapeptdeep",
@@ -3896,7 +3896,7 @@
     "paper": "https://doi.org/10.1101/2024.05.28.596182",
     "license": "Apache-2.0",
     "pricing": "Open source",
-    "description": "Feature-free DIA proteomics search engine with transfer learning from AlphaPeptDeep.",
+    "description": "DIA proteomics search engine without feature detection, with transfer learning from AlphaPeptDeep.",
     "tags": [
       "dia",
       "mass-spec",
@@ -4067,7 +4067,7 @@
     "github": "https://github.com/sirius-ms/sirius",
     "paper": "https://doi.org/10.1038/s41592-019-0344-8",
     "license": "AGPL-3.0",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Metabolomics software for molecular formula and structure annotation from MS/MS with CSI:FingerID and CANOPUS.",
     "tags": [
       "metabolomics",
@@ -4092,7 +4092,7 @@
     ],
     "paperVenue": "Nature Methods",
     "paperYear": 2019,
-    "licenseNote": "web services: free academic"
+    "licenseNote": "web services: no cost for academic use"
   },
   {
     "slug": "ms2deepscore",
@@ -4264,7 +4264,7 @@
     ],
     "paperVenue": "Nucleic Acids Research",
     "paperYear": 2018,
-    "licenseNote": "code non-commercial; website free"
+    "licenseNote": "code non-commercial; website at no cost"
   },
   {
     "slug": "chopchop",
@@ -4273,7 +4273,7 @@
     "url": "https://chopchop.cbu.uib.no",
     "paper": "https://doi.org/10.1093/nar/gkz365",
     "license": "Custom",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Web tool for designing CRISPR-Cas9, Cas12 and TALEN targets with efficiency predictions.",
     "tags": [
       "guide-design",
@@ -4295,7 +4295,7 @@
     "specsChecked": "2026-10-16",
     "paperVenue": "Nucleic Acids Research",
     "paperYear": 2019,
-    "licenseNote": "Free web service"
+    "licenseNote": "No-cost web service"
   },
   {
     "slug": "rule-set-3",
@@ -4435,7 +4435,7 @@
     ],
     "paperVenue": "Nature",
     "paperYear": 2025,
-    "licenseNote": "Profluent OpenCRISPR license (free, incl. commercial)"
+    "licenseNote": "Profluent OpenCRISPR license (no cost, incl. commercial)"
   },
   {
     "slug": "igfold",
@@ -6296,7 +6296,7 @@
     "url": "https://ai.bio.xyz",
     "github": null,
     "license": "Proprietary",
-    "pricing": "Freemium",
+    "pricing": "No-cost tier + paid plans",
     "description": "AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; hosted at chat.bio.xyz (the earlier open BioAgents framework is archived).",
     "tags": [
       "ai-scientist",
@@ -6713,7 +6713,7 @@
       "https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/"
     ],
     "specsChecked": "2026-10-16",
-    "licenseNote": "Open access (freely downloadable; license not stated)"
+    "licenseNote": "Open access (downloadable at no cost; license not stated)"
   },
   {
     "slug": "instanovo-fm",
@@ -6724,7 +6724,7 @@
     "paper": "https://doi.org/10.64898/2026.09.03.747733",
     "license": "Apache-2.0",
     "pricing": "Open source (non-commercial)",
-    "description": "Self-supervised encoder foundation model trained on 1.63B MS/MS spectra; transferable embeddings for de novo and database-free identification.",
+    "description": "Self-supervised encoder foundation model trained on 1.63B MS/MS spectra; transferable embeddings for de novo and database-independent identification.",
     "tags": [
       "mass-spectrometry",
       "foundation-model",
@@ -6738,7 +6738,7 @@
     "specs": {
       "stars": 13,
       "starsChecked": "2026-10-16",
-      "task": "Self-supervised spectrum embeddings for de novo and database-free ID",
+      "task": "Self-supervised spectrum embeddings for de novo and database-independent ID",
       "input": "Tandem MS/MS spectra"
     },
     "specsSources": [
@@ -7730,7 +7730,7 @@
     "github": "https://github.com/alvin-hsu/optiprime-src",
     "paper": "https://www.nature.com/articles/s41587-026-03261-7",
     "license": "NOASSERTION",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "David Liu lab's mechanistic ML model that predicts prime-editing efficiency and outcomes for PE2, PE3 and twinPE, with a web server.",
     "tags": [
       "prime-editing",
@@ -8263,7 +8263,7 @@
     "category": "datasets",
     "url": "https://arcinstitute.org/news/virtual-cell-challenge-2026",
     "license": "NOASSERTION",
-    "pricing": "Free (research)",
+    "pricing": "No cost (research use)",
     "description": "Arc Institute's perturbation benchmark: predict CRISPRi knockdown responses in six cell lines never seen perturbed, from their unperturbed state alone.",
     "tags": [
       "perturb-seq",

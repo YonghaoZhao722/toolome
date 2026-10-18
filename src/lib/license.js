@@ -1,11 +1,11 @@
 // Commercial-use class, derived at build time from license + licenseNote + pricing (never hand-edited; ambiguous -> 'unknown').
 const PERMISSIVE = /^(MIT|Apache-2\.0|BSD-[23]-Clause(-Clear)?|GPL-[23]\.0|AGPL-3\.0|LGPL-[23]\.[01]|MPL-2\.0|CC-BY-4\.0|CC0-1\.0)$/;
 const NC = /\bnc\b|-nc-|non-?commercial|academic|polyform|commons clause|commercial restrictions|research license/i;
-const PAIDP = ['Paid','Contact','Freemium'];
+const PAIDP = ['Paid','Contact','No-cost tier + paid plans'];
 export const licenseUse = (t) => {
   const L = t.license||'', n = t.licenseNote||'', p = t.pricing||'', all = L+' '+n;
   if (!L || L==='NOASSERTION' || /not released|see (model|dataset) card|see illumina|terms unclear|out of scope/i.test(n)) return 'unknown';
-  const ncSig = NC.test(all) || p==='Open source (non-commercial)' || p==='Free (research)';
+  const ncSig = NC.test(all) || p==='Open source (non-commercial)' || p==='No cost (research use)';
   if (ncSig) {
     // permissive code, non-commercial weights/services only -> mixed
     if (PERMISSIVE.test(L) && (/weights|web services|virtues/i.test(n) || n==='client') && !/^weights$/i.test(n) && !NC.test(L)) return 'mixed';
