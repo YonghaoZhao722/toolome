@@ -2462,7 +2462,7 @@
     ],
     "paperVenue": "Nature Methods",
     "paperYear": 2021,
-    "licenseNote": "code; pretrained models trained on CC-BY-NC data (weights terms unclear)",
+    "licenseNote": "code; pretrained-model weights terms unclear",
     "licenseSource": "https://github.com/MouseLand/cellpose#readme",
     "licenseChecked": "2026-10-17"
   },
@@ -2662,7 +2662,7 @@
     ],
     "paperVenue": "Nature",
     "paperYear": 2024,
-    "licenseNote": "weights Apache-2.0, but model card puts any deployed use (commercial or otherwise) out of scope",
+    "licenseNote": "weights Apache-2.0; model card: any deployed use out of scope",
     "licenseSource": "https://github.com/prov-gigapath/prov-gigapath#readme",
     "licenseChecked": "2026-10-17"
   },
@@ -3617,7 +3617,7 @@
     "github": "https://github.com/FunctionLab/sei-framework",
     "paper": "https://doi.org/10.1038/s41588-022-01102-2",
     "license": "Custom",
-    "pricing": "Open source",
+    "pricing": "Open source (non-commercial)",
     "description": "Predicts 21,907 chromatin profiles from sequence and maps variants to regulatory sequence classes.",
     "tags": [
       "epigenomics",
@@ -4031,7 +4031,7 @@
     "github": "https://github.com/instadeepai/InstaNovo",
     "paper": "https://doi.org/10.21203/rs.3.rs-3376248/v1",
     "license": "Apache-2.0",
-    "pricing": "Open source",
+    "pricing": "Open source (non-commercial)",
     "description": "Transformer and diffusion models for de novo peptide sequencing from tandem mass spectra.",
     "tags": [
       "de-novo",
@@ -6723,7 +6723,7 @@
     "github": "https://github.com/instadeepai/InstaNovo-FM",
     "paper": "https://doi.org/10.64898/2026.09.03.747733",
     "license": "Apache-2.0",
-    "pricing": "Open source",
+    "pricing": "Open source (non-commercial)",
     "description": "Self-supervised encoder foundation model trained on 1.63B MS/MS spectra; transferable embeddings for de novo and database-free identification.",
     "tags": [
       "mass-spectrometry",
@@ -7526,7 +7526,7 @@
     "github": "https://github.com/hms-dbmi/CHIEF",
     "paper": "https://doi.org/10.1038/s41586-024-07894-z",
     "license": "AGPL-3.0",
-    "pricing": "Open source",
+    "pricing": "Open source (non-commercial)",
     "description": "Pathology foundation model for cancer detection, tumor-origin and molecular-profile prediction and prognosis from whole slides.",
     "tags": [
       "pathology",
@@ -8078,7 +8078,7 @@
     ],
     "paperVenue": "Cell",
     "paperYear": 2026,
-    "licenseNote": "weights Apache-2.0, but model card puts any deployed use (commercial or otherwise) out of scope",
+    "licenseNote": "weights Apache-2.0; model card: any deployed use out of scope",
     "licenseSource": "https://github.com/prov-gigatime/GigaTIME#readme",
     "licenseChecked": "2026-10-17"
   },
@@ -8443,7 +8443,7 @@
     "url": "https://github.com/RosettaCommons/RoseTTAFold",
     "github": "https://github.com/RosettaCommons/RoseTTAFold",
     "license": "MIT",
-    "pricing": "Open source",
+    "pricing": "Open source (non-commercial)",
     "description": "Baker lab's three-track neural network for protein structure and protein-protein complex prediction.",
     "tags": [
       "protein"
@@ -9211,7 +9211,7 @@
     "github": "https://github.com/taokz/BiomedGPT",
     "paper": "https://arxiv.org/abs/2305.17100",
     "license": "Apache-2.0",
-    "pricing": "Open source",
+    "pricing": "Open source (non-commercial)",
     "description": "Generalist vision-language foundation model for biomedical images and text, covering VQA, captioning, report generation and classification.",
     "tags": [
       "clinical"
