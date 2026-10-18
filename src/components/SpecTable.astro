@@ -8,5 +8,4 @@ const show = v => link(v) ? (v.includes('github.com')?'GitHub':'Link') : v;
 ---
 <div class="spec-wrap"><table class="spec">{!one&&<thead><tr><th scope="col">Field</th>{list.map(t=><th scope="col">{list.length>1?<a href={u('/tools/'+t.slug+'/')}>{t.name}</a>:'Value'}</th>)}</tr></thead>}
 <tbody>{rows[0].map(([label],i)=><tr><th scope="row">{label}</th>{rows.map(r=>{const v=r[i][1];return <td data-l={label}>{v===''?<span class="mut">—</span>:link(v)?<a href={v}>{show(v)}</a>:v}</td>})}</tr>)}</tbody></table></div>
-<p class="mut" style="font-size:13px">Specs come from each project's README, paper or official page{list.map(t=>(t.specsSources||[]).map((s,i)=><> · <a href={s}>{t.name} {s.includes('github.com')?'README':s===t.url?'site':s===t.paper?'paper':'source '+(i+1)}</a></>))}. “—” means we couldn't verify it.</p>
 <style>.spec-wrap{overflow-x:auto}.spec th[scope=row]{position:sticky;left:0;background:var(--bg);white-space:nowrap}</style>
