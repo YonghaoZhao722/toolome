@@ -16,7 +16,7 @@ const jsonld={"@context":"https://schema.org","@type":"SoftwareApplication",name
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
 {!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
 {t.paper&&<tr><th>Paper</th><td><a href={t.paper}>{t.paper}</a>{t.paperVenue&&<span class="mut"> · {t.paperVenue}{t.paperYear?` (${t.paperYear})`:''}</span>}</td></tr>}
-<tr><th>License</th><td>{licText(t)}</td></tr><tr><th>Commercial use</th><td><span class={'tag lic lic-'+licenseUse(t)}>{licUseLabel(t)}</span></td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
+<tr><th>License</th><td>{licText(t)}{t.licenseSource&&<span class="mut"> · <a href={t.licenseSource} rel="noopener">source</a>, checked {t.licenseChecked}</span>}</td></tr><tr><th>Commercial use</th><td><span class={'tag lic lic-'+licenseUse(t)}>{licUseLabel(t)}</span></td></tr><tr><th>Pricing</th><td>{t.pricing}</td></tr>
 <tr><th>Tags</th><td>{t.tags.map(g=><span class="tag">#{g}</span>)}</td></tr><tr><th>Last checked</th><td><time datetime={t.lastChecked}>{t.lastChecked}</time> <span class="mut">· links verified</span></td></tr></tbody></table>
 {pairsFor(t.slug).length>0&&<p class="mut">Compare with… {pairsFor(t.slug).map((p,i)=>{const o=bySlug[p[0]===t.slug?p[1]:p[0]];return <>{i>0&&' · '}<a href={u('/compare/'+pairSlug(p)+'/')}>{t.name} vs {o.name}</a></>})}</p>}
 <h2>Specs</h2><SpecTable list={[t]}/>

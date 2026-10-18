@@ -4,7 +4,7 @@ const NC = /\bnc\b|-nc-|non-?commercial|academic|polyform|commons clause|commerc
 const PAIDP = ['Paid','Contact','Freemium'];
 export const licenseUse = (t) => {
   const L = t.license||'', n = t.licenseNote||'', p = t.pricing||'', all = L+' '+n;
-  if (!L || L==='NOASSERTION' || /not released|see (model|dataset) card|see illumina/i.test(n)) return 'unknown';
+  if (!L || L==='NOASSERTION' || /not released|see (model|dataset) card|see illumina|terms unclear|out of scope/i.test(n)) return 'unknown';
   const ncSig = NC.test(all) || p==='Open source (non-commercial)' || p==='Free (research)';
   if (ncSig) {
     // permissive code, non-commercial weights/services only -> mixed

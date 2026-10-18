@@ -1073,7 +1073,9 @@
       "https://github.com/Biohub/esm/blob/main/_assets/ESM3_README.md"
     ],
     "paperVenue": "Science",
-    "paperYear": 2025
+    "paperYear": 2025,
+    "licenseSource": "https://huggingface.co/biohub/esm3-sm-open-v1",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "esm-2-esmfold",
@@ -2459,7 +2461,10 @@
       "https://github.com/MouseLand/cellpose#readme"
     ],
     "paperVenue": "Nature Methods",
-    "paperYear": 2021
+    "paperYear": 2021,
+    "licenseNote": "code; pretrained models trained on CC-BY-NC data (weights terms unclear)",
+    "licenseSource": "https://github.com/MouseLand/cellpose#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "stardist",
@@ -2656,7 +2661,10 @@
       "https://www.nature.com/articles/s41586-024-07441-w"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "weights Apache-2.0, but model card puts any deployed use (commercial or otherwise) out of scope",
+    "licenseSource": "https://github.com/prov-gigapath/prov-gigapath#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "cellprofiler",
@@ -3634,7 +3642,9 @@
     ],
     "paperVenue": "Nature Genetics",
     "paperYear": 2022,
-    "licenseNote": "BSD-style (Princeton)"
+    "licenseNote": "Princeton license: academic and research use only; commercial use via Princeton OTL",
+    "licenseSource": "https://github.com/FunctionLab/sei-framework#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "selene",
@@ -4044,7 +4054,10 @@
       "https://github.com/instadeepai/InstaNovo#readme"
     ],
     "paperVenue": "Research Square preprint",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "code; model checkpoints CC BY-NC-SA 4.0 (non-commercial weights)",
+    "licenseSource": "https://github.com/instadeepai/InstaNovo#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "sirius",
@@ -6574,7 +6587,9 @@
       "https://biohub.org/news/world-model-of-protein-biology/",
       "https://github.com/evolutionaryscale/esm#readme"
     ],
-    "notability": "Biohub/EvolutionaryScale ESM; ~3,000 stars; MIT license"
+    "notability": "Biohub/EvolutionaryScale ESM; ~3,000 stars; MIT license",
+    "licenseSource": "https://huggingface.co/biohub/esmc-300m-2024-12",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "claude-science",
@@ -6731,7 +6746,10 @@
     ],
     "specsChecked": "2026-10-16",
     "paperVenue": "bioRxiv preprint",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "licenseNote": "code; model checkpoints CC BY-NC-SA 4.0 (non-commercial weights)",
+    "licenseSource": "https://github.com/instadeepai/InstaNovo-FM#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "torchx",
@@ -7533,7 +7551,10 @@
       "https://doi.org/10.1038/s41586-024-07894-z"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2024
+    "paperYear": 2024,
+    "licenseNote": "README: available for non-commercial academic purposes",
+    "licenseSource": "https://github.com/hms-dbmi/CHIEF#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "rinalmo",
@@ -8056,7 +8077,10 @@
       "spatial"
     ],
     "paperVenue": "Cell",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "licenseNote": "weights Apache-2.0, but model card puts any deployed use (commercial or otherwise) out of scope",
+    "licenseSource": "https://github.com/prov-gigatime/GigaTIME#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "merlin",
@@ -8446,7 +8470,10 @@
     "harvested": true,
     "paper": "https://doi.org/10.1126/science.abj8754",
     "paperVenue": "Science",
-    "paperYear": 2021
+    "paperYear": 2021,
+    "licenseNote": "code; trained weights non-commercial (Rosetta-DL Software license)",
+    "licenseSource": "https://github.com/RosettaCommons/RoseTTAFold#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "hest",
@@ -9208,7 +9235,10 @@
     ],
     "harvested": true,
     "paperVenue": "arXiv preprint",
-    "paperYear": 2023
+    "paperYear": 2023,
+    "licenseNote": "README: code and checkpoints strictly for academic research; commercial use prohibited",
+    "licenseSource": "https://github.com/taokz/BiomedGPT#readme",
+    "licenseChecked": "2026-10-17"
   },
   {
     "slug": "cell2sentence",
