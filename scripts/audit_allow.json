@@ -47,7 +47,9 @@
   "nucleotide-transformer": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "nucleotide-transformer-v3-ntv3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
   "cytovi": "Model shipped inside the scvi-tools repo; shares its GitHub URL with the scvi-tools entry",
-  "scvi-tools": "Framework repo also hosts CytoVI, listed as its own entry on purpose"
+  "scvi-tools": "Framework repo also hosts CytoVI, listed as its own entry on purpose",
+  "gpn-msa": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
+  "gpn-star": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose"
  },
  "C1": {
   "opentrons": "Open-source Apache-2.0 software; robots are sold commercially"
