@@ -8,6 +8,7 @@ h = open('dist/index.html').read()
 m = re.search(r'<section id="recent"[^>]*data-window-from="([\d-]+)"[^>]*data-window-to="([\d-]+)"[^>]*>(.*?)</section>', h, re.S)
 today = dt.datetime.now(ZoneInfo('America/Denver')).date()
 lo = (today - dt.timedelta(days=14)).isoformat(); hi = today.isoformat()
+UNDATED_OK = {'opentrons'}  # established products with no single verifiable release date
 err = []
 seed = min(t.get('added','9999') for t in tools)  # initial bulk import; legacy tools may lack dates
 def ok(s):
@@ -16,7 +17,7 @@ def ok(s):
 for t in tools:
     for k in ('released', 'firstReleased'):
         if t.get(k) and not ok(t[k]): err.append(f"{t['slug']}: invalid {k} {t[k]!r}")
-    if t.get('added', '') > seed and t.get('added', '') >= lo and not (t.get('released') or t.get('firstReleased')):
+    if t['slug'] not in UNDATED_OK and t.get('added', '') > seed and t.get('added', '') >= lo and not (t.get('released') or t.get('firstReleased')):
         err.append(f"{t['slug']}: added {t['added']} but has no released/firstReleased date")
 exp = sorted([t for t in tools if lo <= (t.get('released') or t.get('firstReleased') or '') <= hi], key=lambda t: t.get('released') or t['firstReleased'], reverse=True)
 body = m.group(3) if m else ''
