@@ -10054,5 +10054,49 @@
     ],
     "paperVenue": "bioRxiv preprint",
     "paperYear": 2026
+  },
+  {
+    "slug": "carbon-x",
+    "name": "Carbon-X",
+    "category": "genomics",
+    "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Hugging Face's 14.8B DNA-and-English chat model built on Qwen3-14B: paste up to ~50 kbp of DNA and ask about variant effects, regulatory regions, organism group or sequence continuation, with explanations.",
+    "tags": [
+      "dna-model",
+      "variant-effect",
+      "llm",
+      "chat"
+    ],
+    "added": "2026-10-22",
+    "lastChecked": "2026-10-22",
+    "released": "2026-10-22",
+    "source": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+    "firstReleased": "2026-10-22",
+    "dateSource": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+    "notability": "Hugging Face with Zhongguancun Academy and TIGEM/University of Naples Federico II; release covered by WIRED on Oct 22, 2026; not clinically validated (model card)",
+    "licenseNote": "Apache-2.0 (weights and GGUF quantizations)",
+    "licenseSource": "https://huggingface.co/HuggingFaceBio/Carbon-X#license",
+    "licenseChecked": "2026-10-22",
+    "specs": {
+      "context": "~50 kbp of DNA (trained on 8,192-token windows, ≈49 kbp); 40,960-token context",
+      "resolution": "6-mer DNA tokens (hybrid tokenizer: Qwen3 BPE for text)",
+      "species": "Eukaryotes (vertebrates incl. mammals, invertebrates, plants, fungi, protozoa) and prokaryotes; eukaryote-infecting viruses excluded",
+      "tasks": "Variant effect (benign vs. pathogenic), regulatory region identification, organism-group classification, sequence continuation with explanations",
+      "params": "14.8B",
+      "baseModel": "Qwen3-14B",
+      "corpus": "~300B tokens of DNA, biology text, English and instruction data, then SFT and RL",
+      "weights": "Yes (Hugging Face HuggingFaceBio/Carbon-X; GGUF in HuggingFaceBio/Carbon-X-GGUF)",
+      "gpu": "Single 80 GB GPU (bfloat16); GGUF Q8_0 about 16 GB",
+      "interface": "Chat model via Transformers, vLLM, llama.cpp (GGUF)"
+    },
+    "specsChecked": "2026-10-22",
+    "specsSources": [
+      "https://huggingface.co/HuggingFaceBio/Carbon-X",
+      "https://huggingface.co/HuggingFaceBio/Carbon-X-GGUF",
+      "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release",
+      "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
+    ]
   }
 ]
