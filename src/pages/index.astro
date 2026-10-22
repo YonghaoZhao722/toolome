@@ -4,7 +4,8 @@ import Base from '../layouts/Base.astro'; import Card from '../components/Card.a
 import { tools, CATS, u, catList} from '../lib/site.js';
 const now=new Date(); const from=new Date(now.getTime()-14*864e5); const iso=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Denver'}); const fmt=s=>new Date(s+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
 const latest=tools.filter(t=>t.released&&t.released>=iso(from)&&t.released<=iso(now)).sort((a,b)=>b.released.localeCompare(a.released));
-const jsonld={"@context":"https://schema.org","@type":"WebSite",name:"Toolome",url:Astro.site.href};
+const home=new URL(u('/'),Astro.site).href;
+const jsonld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":home+"#website",name:"Toolome",url:home,description:"Curated, hand-verified directory of AI tools for biology.",publisher:{"@id":home+"#org"},potentialAction:{"@type":"SearchAction",target:{"@type":"EntryPoint",urlTemplate:home+"?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":home+"#org",name:"Toolome",url:home,logo:new URL(u('/favicon.svg'),Astro.site).href,email:"toolome.bio@gmail.com",sameAs:["https://github.com/YonghaoZhao722/toolome"]}]};
 ---
 <Base jsonld={jsonld}>
 <h1>AI tools for biology, <span style="color:var(--acc)">verified</span>.</h1>
@@ -21,6 +22,6 @@ const rm=matchMedia('(prefers-reduced-motion: reduce)');
 function apply(){const s=q.value.toLowerCase().trim();let n=0;cards.forEach(e=>{const sp=e.dataset.cat==='*';const v=sp||(!e.classList.contains('licx')&&(!c||(' '+(e.dataset.cats||e.dataset.cat)+' ').includes(' '+c+' '))&&(!s||e.dataset.q.includes(s)));e.hidden=!v;if(v&&!sp)n++});const rs=document.getElementById('recent');if(rs){let m=0;rs.querySelectorAll('.card').forEach(e=>{const v=(!c||(' '+(e.dataset.cats||e.dataset.cat)+' ').includes(' '+c+' '))&&(!s||e.dataset.q.includes(s));e.hidden=!v;if(v)m++});rs.hidden=m===0}document.getElementById('n').textContent='('+n+')';empty.classList.toggle('show',n===0)}
 function f(){apply()}
 q.oninput=()=>{clearTimeout(tm);tm=setTimeout(f,120)};
-document.querySelectorAll('#cats .pill').forEach(b=>b.onclick=()=>{document.querySelectorAll('#cats .pill').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');c=b.dataset.c;f()});document.addEventListener('licchange',f);apply();
+document.querySelectorAll('#cats .pill').forEach(b=>b.onclick=()=>{document.querySelectorAll('#cats .pill').forEach(x=>{x.classList.remove('on');x.setAttribute('aria-pressed','false')});b.classList.add('on');b.setAttribute('aria-pressed','true');c=b.dataset.c;f()});document.addEventListener('licchange',f);{const p=new URLSearchParams(location.search).get('q');if(p)q.value=p}apply();
 </script>
 </Base>

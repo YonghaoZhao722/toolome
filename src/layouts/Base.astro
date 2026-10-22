@@ -1,11 +1,11 @@
 ---
 import { SITE, GSV, u } from '../lib/site.js';
-const { title = SITE.name + ' — ' + SITE.tagline, description = 'Curated, verified directory of AI tools for single-cell, spatial omics, protein design, genomics, drug discovery and more.', jsonld } = Astro.props;
+const { title = SITE.name + ' — ' + SITE.tagline, description = 'Curated, verified directory of AI tools for single-cell, spatial omics, protein design, genomics, drug discovery and more.', jsonld, ogType = 'website' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)"/><meta name="theme-color" content="#1f1e1d" media="(prefers-color-scheme: dark)"/>
 <title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
-<meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:image" content={new URL(u('/og.png'), Astro.site)}/><meta name="twitter:card" content="summary_large_image"/>
+<meta property="og:type" content={ogType}/><meta property="og:site_name" content="Toolome"/><meta property="og:url" content={canonical}/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:image" content={new URL(u('/og.png'), Astro.site)}/><meta property="og:image:alt" content="Toolome — the directory of AI tools for biology"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={title}/><meta name="twitter:description" content={description}/><link rel="alternate" type="text/plain" title="llms.txt" href={u('/llms.txt')}/><link rel="sitemap" type="application/xml" href={u('/sitemap.xml')}/>
 {GSV && <meta name="google-site-verification" content={GSV}/>}<link rel="icon" href={u('/favicon.svg')}/>
 {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 <style is:global>

@@ -5,16 +5,25 @@ export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},pro
 const { t } = Astro.props;
 const peers = tools.filter(x=>inCat(x,t.category)&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
 const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>starsOf(b)-starsOf(a)||dt(b).localeCompare(dt(a))||a.name.localeCompare(b.name)).slice(0,3);
-const app={"@context":"https://schema.org","@type":"SoftwareApplication",name:t.name,description:t.description,url:t.url,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:licText(t),isAccessibleForFree:!['Paid','Contact'].includes(t.pricing),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
+const abs=p=>new URL(u(p),Astro.site).href; const page=abs('/tools/'+t.slug+'/');
+const org=t.github?t.github.replace('https://github.com/','').split('/')[0]:null;
+const yr=(t.released||t.firstReleased||'').slice(0,4);
+const cn=CATS[t.category][0];
+const def=`${t.name} is ${/^[AEIOU]/i.test(cn)?'an':'a'} ${cn.toLowerCase()} tool${org?` whose code is published by ${org} on GitHub`:''}${yr?`, first public in ${yr}`:''}${t.paperVenue?`, described in ${t.paperVenue}${t.paperYear?` (${t.paperYear})`:''}`:''}.`;
+const sp=t.specs||{}; const io=[['Input',sp.input||sp.modality||sp.modalities],['Task',sp.task||sp.tasks],['Interface',sp.interface]].filter(x=>x[1]&&typeof x[1]!=='object');
+const app={"@context":"https://schema.org","@type":t.github?["SoftwareApplication","SoftwareSourceCode"]:"SoftwareApplication","@id":page+"#software",name:t.name,description:t.description,url:t.url,mainEntityOfPage:page,...(yr?{datePublished:t.released||t.firstReleased}:{}),dateModified:t.lastChecked,applicationCategory:"ScientificApplication",operatingSystem:"Any",license:licText(t),...(t.github?{codeRepository:t.github}:{}),...(t.paper?{citation:t.paper}:{}),keywords:t.tags.join(', ')};
 const lp=licParts(t); const lcd=t.licenseChecked||t.lastChecked;
 const q=`Can I use ${t.name} commercially?`; const ans=licAnswer(t)+(lp.code?` Code license: ${lp.code}.`:'')+(lp.weights?` Weights: ${lp.weights}.`:'');
-const jsonld={"@context":"https://schema.org","@graph":[{...app,"@context":undefined},{"@type":"FAQPage",mainEntity:[{"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:ans}}]}]};
+const jsonld={"@context":"https://schema.org","@graph":[{...app,"@context":undefined},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Toolome",item:abs('/')},{"@type":"ListItem",position:2,name:cn,item:abs('/category/'+t.category+'/')},{"@type":"ListItem",position:3,name:t.name,item:page}]},{"@type":"FAQPage",mainEntity:[{"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:ans}}]}]};
 ---
-<Base title={`${t.name}: license, commercial use, paper — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description} Commercial use: ${licBadge(t)}.`} jsonld={jsonld}>
+<Base title={`${t.name}: license, commercial use, paper — ${CATS[t.category][0]} | Toolome`} description={`${t.name}: ${t.description} Commercial use: ${licBadge(t)}.`} jsonld={jsonld} ogType="article">
 <p><a href={u('/category/'+t.category+'/')}>← {CATS[t.category][0]}</a></p>
-<h1>{t.name}{t.archived&&<> <span class="arch" title={'GitHub repo archived (checked '+t.archivedChecked+')'}>Archived repo</span></>}</h1><p class="lead">{t.description}</p>
+<h1>{t.name}{t.archived&&<> <span class="arch" title={'GitHub repo archived (checked '+t.archivedChecked+')'}>Archived repo</span></>}</h1><p class="lead"><b>{def}</b> {t.description}</p>
 <p class="cta"><a class="btn" href={t.url} rel="noopener" target="_blank">Visit website ↗</a></p>
-<table><tbody><tr><th>Category</th><td>{CATS[t.category][0]}</td></tr>
+<table><tbody><tr><th>Category</th><td><a href={u('/category/'+t.category+'/')}>{cn}</a></td></tr>
+{org&&<tr><th>Developer (GitHub)</th><td>{org}</td></tr>}
+{io.map(([k,v])=><tr><th>{k}</th><td>{String(v)}</td></tr>)}
+{t.url!==t.github&&<tr><th>Website</th><td><a href={t.url} rel="noopener">{t.url.replace(/^https?:\/\//,'').replace(/\/$/,'')}</a></td></tr>}
 {t.github&&<tr><th>GitHub</th><td><a href={t.github}>{t.github.replace('https://github.com/','')}</a>{t.archived&&<span class="mut"> · archived (read-only) on GitHub, checked {t.archivedChecked}</span>}</td></tr>}
 {t.released&&<tr><th>Released</th><td>{t.released} (<a href={t.source}>source</a>)</td></tr>}
 {!t.released&&t.firstReleased&&<tr><th>First public</th><td>{t.firstReleased} (<a href={t.dateSource}>source</a>)</td></tr>}
