@@ -9,7 +9,7 @@ cd "$(dirname "$0")/.."
 export PATH=/home/box/.local/node22/bin:$PATH
 DOMAIN=${CUSTOM_DOMAIN:-$(python3 -c "import json;print(json.load(open('site.config.json')).get('customDomain',''))")}
 if [ -n "$DOMAIN" ]; then
-  SITE_URL=https://$DOMAIN BASE_PATH=/ npm run build
+  SITE_URL=https://$DOMAIN BASE_PATH=/ npm run build && python3 scripts/check_recent.py
   echo "$DOMAIN" > dist/CNAME
   LIVE=https://$DOMAIN/
 else

@@ -3,7 +3,8 @@ import Sort from '../components/Sort.astro'; import { byNewest } from '../lib/si
 import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Newsletter from '../components/Newsletter.astro'; import Lic from '../components/Lic.astro';
 import { tools, CATS, u, catList} from '../lib/site.js';
 const now=new Date(); const from=new Date(now.getTime()-14*864e5); const iso=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Denver'}); const fmt=s=>new Date(s+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
-const latest=tools.filter(t=>t.released&&t.released>=iso(from)&&t.released<=iso(now)).sort((a,b)=>b.released.localeCompare(a.released));
+const rd=t=>t.released||t.firstReleased||'';
+const latest=tools.filter(t=>rd(t)&&rd(t)>=iso(from)&&rd(t)<=iso(now)).sort((a,b)=>rd(b).localeCompare(rd(a))||a.name.localeCompare(b.name));
 const home=new URL(u('/'),Astro.site).href;
 const jsonld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":home+"#website",name:"Toolome",url:home,description:"Curated, hand-verified directory of AI tools for biology.",publisher:{"@id":home+"#org"},potentialAction:{"@type":"SearchAction",target:{"@type":"EntryPoint",urlTemplate:home+"?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":home+"#org",name:"Toolome",url:home,logo:new URL(u('/favicon.svg'),Astro.site).href,email:"toolome.bio@gmail.com",sameAs:["https://github.com/YonghaoZhao722/toolome"]}]};
 ---
@@ -12,7 +13,7 @@ const jsonld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id"
 <p class="mut" style="font-size:17px;max-width:640px"><span class="num">{tools.length}</span> hand-checked tools across {Object.keys(CATS).length} categories, from {catList()}.</p>
 <input id="q" class="search" type="search" aria-label="Search tools" placeholder="Search tools, e.g. spatial alignment, binder design, scRNA…"/>
 <div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{e} {n}</button>)}</div>
-{latest.length>0&&<section id="recent"><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(t.released)}/>)}</div></section>}
+{latest.length>0&&<section id="recent" data-window-from={iso(from)} data-window-to={iso(now)}><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(rd(t))}/>)}</div></section>}
 <div class="hrow"><h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2><Sort/></div><div class="lrow"><Lic/></div><div class="grid" id="all" data-sortable>{byNewest(tools).map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
 <script is:inline>
