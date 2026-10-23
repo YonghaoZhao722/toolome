@@ -1,0 +1,381 @@
+# Toolome
+
+> Curated, hand-verified directory of AI tools for biology (302 tools). Each tool page lists URL, GitHub, paper, license and pricing.
+
+## Single-cell & foundation models
+
+- [scGPT](https://toolome.bio/tools/scgpt/): Generative pretrained transformer foundation model for single-cell multi-omics.
+- [Geneformer](https://toolome.bio/tools/geneformer/): Transformer pretrained on ~30M single-cell transcriptomes for network biology predictions.
+- [scvi-tools](https://toolome.bio/tools/scvi-tools/): Probabilistic deep generative models for single-cell omics (scVI, totalVI, scANVI...).
+- [CellTypist](https://toolome.bio/tools/celltypist/): Automated cell type annotation with logistic regression models trained on curated atlases.
+- [Scanpy](https://toolome.bio/tools/scanpy/): Scalable Python toolkit for single-cell gene expression analysis.
+- [Seurat](https://toolome.bio/tools/seurat/): R toolkit for single-cell genomics, integration and multimodal analysis.
+- [scFoundation](https://toolome.bio/tools/scfoundation/): 100M-parameter foundation model trained on 50M human single-cell transcriptomes.
+- [UCE (Universal Cell Embeddings)](https://toolome.bio/tools/uce-universal-cell-embeddings/): Cross-species zero-shot universal cell embedding foundation model.
+- [CellRank](https://toolome.bio/tools/cellrank/): Cell fate mapping using Markov chains on single-cell data.
+- [scVelo](https://toolome.bio/tools/scvelo/): RNA velocity estimation with dynamical modeling.
+- [MuData / muon](https://toolome.bio/tools/mudata-muon/): Multimodal omics framework for single-cell multi-omics in Python.
+- [ArchR](https://toolome.bio/tools/archr/): Scalable single-cell chromatin accessibility (scATAC-seq) analysis in R.
+- [CellOracle](https://toolome.bio/tools/celloracle/): In silico gene perturbation via GRN inference from single-cell multi-omics.
+- [GEARS](https://toolome.bio/tools/gears/): Graph-based prediction of transcriptional outcomes of genetic perturbations.
+- [Harmony](https://toolome.bio/tools/harmony/): Fast, sensitive batch integration of single-cell data.
+- [moscot](https://toolome.bio/tools/moscot/): Multi-omics single-cell optimal transport for space and time mapping.
+- [Nicheformer](https://toolome.bio/tools/nicheformer/): Foundation model pretrained on dissociated and spatial single-cell data.
+- [CZ CELLxGENE](https://toolome.bio/tools/cz-cellxgene/): Curated single-cell data portal and Census API with 100M+ cells.
+- [PIE (Arc Institute)](https://toolome.bio/tools/pie/): Virtual-cell model using curated biological knowledge to predict perturbation responses in unseen contexts.
+- [scBasset](https://toolome.bio/tools/scbasset/): Sequence-based deep learning model for single-cell ATAC-seq representation and TF activity.
+- [State](https://toolome.bio/tools/state/): Arc Institute virtual-cell model predicting transcriptomic responses to perturbations across cell contexts.
+- [TranscriptFormer](https://toolome.bio/tools/transcriptformer/): CZI cross-species generative single-cell foundation model trained on 112M cells from 12 species.
+- [Tahoe-x1](https://toolome.bio/tools/tahoe-x1/): Perturbation-trained single-cell foundation models up to 3B parameters, pretrained on Tahoe-100M and fine-tuned for cancer tasks.
+- [Stack](https://toolome.bio/tools/stack/): Arc Institute model trained on 149M human cells using tabular attention for in-context learning; used to generate the Perturb Sapiens atlas (28 tissues, 201 perturbations).
+- [Virtual Cell Challenge 2026](https://toolome.bio/tools/virtual-cell-challenge-2026/): Arc Institute's perturbation benchmark: predict CRISPRi knockdown responses in six cell lines never seen perturbed, from their unperturbed state alone.
+- [CytoTRACE 2](https://toolome.bio/tools/cytotrace2/): Interpretable deep learning model that predicts cellular potency and absolute developmental potential from scRNA-seq.
+- [GLUE](https://toolome.bio/tools/glue/): Graph-linked variational autoencoders that integrate unpaired single-cell multi-omics data and infer regulatory interactions.
+- [CellBender](https://toolome.bio/tools/cellbender/): Deep generative model that removes ambient RNA and other technical background from droplet scRNA-seq count matrices.
+- [ivis](https://toolome.bio/tools/ivis/): Siamese neural network for structure-preserving dimensionality reduction of very large single-cell datasets.
+- [SingleCellNet](https://toolome.bio/tools/singlecellnet/): Random-forest classifier on gene pairs that assigns cell types to scRNA-seq data across species and platforms.
+- [scDblFinder](https://toolome.bio/tools/scdblfinder/): Doublet detection for single-cell data using gradient-boosted trees trained on artificial doublets.
+- [scDeepSort](https://toolome.bio/tools/scdeepsort/): Pretrained weighted graph neural network for cell-type annotation of scRNA-seq data.
+- [Cell2Sentence (C2S-Scale)](https://toolome.bio/tools/cell2sentence/): Turns expression profiles into ranked gene "cell sentences" so LLMs (up to 27B) can model and generate single-cell data.
+- [CytoVI](https://toolome.bio/tools/cytovi/): Deep generative model in scvi-tools that integrates flow cytometry, mass cytometry and CITE-seq data across panels, with protein imputation, differential expression and annotation.
+
+## Spatial omics
+
+- [Tangram](https://toolome.bio/tools/tangram/): Maps single-cell profiles onto spatial data with deep learning.
+- [PASTE](https://toolome.bio/tools/paste/): Optimal-transport alignment and integration of spatial transcriptomics slices.
+- [moscot](https://toolome.bio/tools/moscot/): Multi-omics single-cell optimal transport for space and time mapping.
+- [cell2location](https://toolome.bio/tools/cell2location/): Bayesian mapping of fine-grained cell types in spatial transcriptomics.
+- [Squidpy](https://toolome.bio/tools/squidpy/): Spatial single-cell analysis toolkit in the scverse ecosystem.
+- [SpatialData](https://toolome.bio/tools/spatialdata/): Unified data framework for spatial omics technologies.
+- [STAGATE](https://toolome.bio/tools/stagate/): Graph attention autoencoder for spatial domain identification.
+- [GraphST](https://toolome.bio/tools/graphst/): Graph self-supervised contrastive learning for spatial transcriptomics.
+- [BayesSpace](https://toolome.bio/tools/bayesspace/): Bayesian clustering and resolution enhancement of spatial transcriptomics.
+- [RCTD (spacexr)](https://toolome.bio/tools/rctd-spacexr/): Robust cell type decomposition for spatial transcriptomics.
+- [Giotto Suite](https://toolome.bio/tools/giotto-suite/): Comprehensive R toolbox for spatial data analysis and visualization.
+- [Nicheformer](https://toolome.bio/tools/nicheformer/): Foundation model pretrained on dissociated and spatial single-cell data.
+- [Novae](https://toolome.bio/tools/novae/): Graph-based foundation model for spatial transcriptomics: zero-shot spatial domains and cross-slide/cross-technology integration.
+- [scGPT-spatial](https://toolome.bio/tools/scgpt-spatial/): scGPT continually pretrained on spatial transcriptomics for spatial-aware embeddings, deconvolution and imputation.
+- [Loki (OmiCLIP)](https://toolome.bio/tools/loki/): Visual–omics foundation model aligning H&E histology with spatial transcriptomics for tissue alignment, cell-type decomposition and expression prediction.
+- [BANKSY](https://toolome.bio/tools/banksy/): Neighborhood-augmented clustering that unifies cell typing and tissue-domain segmentation in spatial omics.
+- [CellCharter](https://toolome.bio/tools/cellcharter/): Scalable identification and comparison of spatial cell niches across samples and technologies (scverse ecosystem).
+- [CellART](https://toolome.bio/tools/cellart/): Unified framework for cell segmentation and cell-type annotation in high-resolution spatial transcriptomics such as Xenium and Visium HD.
+- [Cellist](https://toolome.bio/tools/cellist/): Scalable cell segmentation for subcellular-resolution spatial transcriptomics that combines staining images with transcript signals across platforms.
+- [GigaTIME](https://toolome.bio/tools/gigatime/): Microsoft and Providence model that turns routine H&E slides into virtual multiplex immunofluorescence maps of 21 proteins.
+- [VirTues](https://toolome.bio/tools/virtues/): Bunne lab's spatial proteomics foundation model for multiplexed tissue imaging, from molecules to cells to tissue, for diagnostics and case retrieval.
+- [SpaGCN](https://toolome.bio/tools/spagcn/): Graph convolutional network that combines gene expression, spatial location and histology to find spatial domains and spatially variable genes.
+- [HEST](https://toolome.bio/tools/hest/): HEST-1k dataset of 1,276 paired spatial transcriptomics and H&E whole-slide samples, plus a library and benchmark for histology foundation models.
+- [NicheCompass](https://toolome.bio/tools/nichecompass/): Graph deep learning model that learns cell embeddings from communication programs to identify niches across spatial samples.
+
+## Protein structure & design
+
+- [AlphaFold Server (AlphaFold 3)](https://toolome.bio/tools/alphafold-server-alphafold-3/): Structure prediction of proteins, nucleic acids, ligands and their complexes; hosted web server plus open code, weights on request for non-commercial use.
+- [AlphaFold DB](https://toolome.bio/tools/alphafold-db/): 200M+ predicted protein structures from DeepMind and EMBL-EBI.
+- [RFdiffusion](https://toolome.bio/tools/rfdiffusion/): Diffusion model for de novo protein backbone design and binder design.
+- [ProteinMPNN](https://toolome.bio/tools/proteinmpnn/): Deep-learning inverse folding: designs sequences for given backbones.
+- [LigandMPNN](https://toolome.bio/tools/ligandmpnn/): Protein sequence design that explicitly models small molecules, nucleotides and metals, and also outputs side-chain conformations.
+- [ESM3 / EvolutionaryScale](https://toolome.bio/tools/esm3/): Multimodal generative protein language model over sequence, structure and function (ESM3; also ESM C embeddings).
+- [ESM-2 / ESMFold](https://toolome.bio/tools/esm-2-esmfold/): Protein language models and single-sequence structure prediction (Meta repo archived; models still widely used via Hugging Face).
+- [Boltz](https://toolome.bio/tools/boltz/): Open biomolecular interaction models (Boltz-1, Boltz-2) for complex structure and binding-affinity prediction.
+- [Chai-1](https://toolome.bio/tools/chai-1/): Multimodal foundation model for molecular structure prediction.
+- [OpenFold](https://toolome.bio/tools/openfold/): Trainable open-source reproduction of AlphaFold2 in PyTorch.
+- [ColabFold](https://toolome.bio/tools/colabfold/): Fast, accessible protein folding with MMseqs2 + AlphaFold in Colab.
+- [RoseTTAFold All-Atom](https://toolome.bio/tools/rosettafold-all-atom/): Generalized biomolecular modeling for proteins, nucleic acids, small molecules.
+- [BindCraft](https://toolome.bio/tools/bindcraft/): One-shot de novo binder design pipeline with AF2 hallucination.
+- [Foldseek](https://toolome.bio/tools/foldseek/): Fast and accurate protein structure search.
+- [Protenix](https://toolome.bio/tools/protenix/): Trainable PyTorch reproduction of AlphaFold 3 by ByteDance.
+- [Tamarind Bio](https://toolome.bio/tools/tamarind-bio/): No-code web platform running 100+ protein and molecular ML models.
+- [CASP](https://toolome.bio/tools/casp/): Critical Assessment of protein Structure Prediction community experiment.
+- [AlphaProtein Novo](https://toolome.bio/tools/alphaprotein-novo/): Google DeepMind diffusion pipeline for de novo enzyme design via catalytic motif scaffolding.
+- [Prompteina](https://toolome.bio/tools/prompteina/): Text-to-structure all-atom protein design: generate monomers and binders from natural-language prompts.
+- [IgFold](https://toolome.bio/tools/igfold/): Fast antibody structure prediction using AntiBERTy embeddings and graph networks.
+- [AbLang](https://toolome.bio/tools/ablang/): Antibody language model for heavy/light chains, used for residue restoration and embeddings.
+- [AbLang-2](https://toolome.bio/tools/ablang2/): Paired-chain antibody language model trained to reduce germline bias.
+- [ImmuneBuilder](https://toolome.bio/tools/immunebuilder/): Deep learning structure prediction for antibodies, nanobodies and TCRs (ABodyBuilder2 etc.).
+- [AntiBERTy](https://toolome.bio/tools/antiberty/): BERT-style antibody language model trained on 558M OAS sequences.
+- [RFantibody](https://toolome.bio/tools/rfantibody/): Structure-based de novo antibody and nanobody design with fine-tuned RFdiffusion, ProteinMPNN and RF2.
+- [BioPhi](https://toolome.bio/tools/biophi/): Antibody humanization (Sapiens) and humanness evaluation (OASis) platform.
+- [AlphaFold 2](https://toolome.bio/tools/alphafold2/): DeepMind's open-source protein structure prediction model (monomer and multimer).
+- [BioEmu](https://toolome.bio/tools/bioemu/): Generative model emulating protein equilibrium structural ensembles.
+- [Proteina](https://toolome.bio/tools/proteina/): NVIDIA flow-matching model for large-scale protein backbone generation.
+- [La-Proteina](https://toolome.bio/tools/la-proteina/): NVIDIA latent flow model for joint atomistic protein sequence-structure generation.
+- [ProGen2](https://toolome.bio/tools/progen2/): Protein language models (up to 6.4B) for sequence generation and fitness prediction.
+- [RFdiffusion2](https://toolome.bio/tools/rfdiffusion2/): Atom-level enzyme active-site scaffolding with diffusion, no sequence-position constraints.
+- [BoltzGen](https://toolome.bio/tools/boltzgen/): Open generative model for designing protein and peptide binders against diverse targets.
+- [OpenFold3](https://toolome.bio/tools/openfold3/): Open-source AlphaFold3-style model predicting structures of proteins, nucleic acids and small-molecule complexes (preview release).
+- [RFdiffusion3](https://toolome.bio/tools/rfdiffusion3/): All-atom diffusion model from the Baker lab for designing protein binders to DNA, proteins and small molecules, plus enzymes; ~10x faster than RFdiffusion2.
+- [BIOS](https://toolome.bio/tools/bios/): AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; hosted at chat.bio.xyz (the earlier open BioAgents framework is archived).
+- [IsoDDE](https://toolome.bio/tools/isodde/): Isomorphic Labs Drug Design Engine: proprietary system predicting protein–ligand and antibody–antigen structures, binding affinity and cryptic pockets beyond AlphaFold 3.
+- [ESMFold2 & ESMC (Biohub)](https://toolome.bio/tools/esmfold2-esmc-biohub/): Biohub's protein 'world model': ESMC language model (~2.8B sequences), ESMFold2 complex structure prediction/design, and ESM Atlas (6.8B sequences).
+- [OpenDDE](https://toolome.bio/tools/opendde/): Apache-licensed all-atom co-folding foundation model for structure prediction, design and optimization in drug discovery (preview).
+- [TorchX](https://toolome.bio/tools/torchx/): Changping Lab × Huawei NPU-native all-atom biomolecular model suite: TorchFold (antibody–antigen), TorchScore and TorchCraft (design); MIT weights + training data.
+- [Protein2PAM](https://toolome.bio/tools/protein2pam/): Profluent's protein language model that predicts a Cas enzyme's PAM specificity from its sequence and guides PAM-engineering of Cas9 variants.
+- [ProtTrans](https://toolome.bio/tools/prottrans/): Transformer protein language models (ProtT5, ProtBERT and others) pretrained on UniRef and BFD, used for embeddings and fine-tuning.
+- [RoseTTAFold](https://toolome.bio/tools/rosettafold/): Baker lab's three-track neural network for protein structure and protein-protein complex prediction.
+- [PaddleHelix](https://toolome.bio/tools/paddlehelix/): Baidu's bio-computing platform built on PaddlePaddle, including HelixFold structure prediction and molecular representation models.
+- [MaSIF](https://toolome.bio/tools/masif/): Geometric deep learning on protein molecular surfaces to predict interaction sites, ligand pockets and binding partners.
+- [ThermoMPNN](https://toolome.bio/tools/thermompnn/): Graph neural network built on ProteinMPNN that predicts stability changes (ddG) for protein point mutations.
+- [SaProt](https://toolome.bio/tools/saprot/): Protein language model with a structure-aware vocabulary combining amino acids with Foldseek 3Di tokens.
+- [Efficient Evolution](https://toolome.bio/tools/efficient-evolution/): Uses general protein language models to recommend affinity-improving mutations, applied to human antibodies.
+- [FoldingDiff](https://toolome.bio/tools/foldingdiff/): Diffusion model that generates protein backbones by denoising internal backbone angles.
+- [STARLING](https://toolome.bio/tools/starling/): Latent diffusion model that predicts coarse-grained conformational ensembles of intrinsically disordered regions from sequence.
+- [TAPE](https://toolome.bio/tools/tape/): Benchmark of five protein tasks with pretraining corpus and pretrained language model weights for evaluating protein embeddings.
+- [DISCO](https://toolome.bio/tools/disco/): Diffusion model that co-designs protein sequence and structure conditioned on ligands, DNA or RNA.
+- [Raygun](https://toolome.bio/tools/raygun/): Template-based protein design: edits an existing protein by insertions, deletions and substitutions while keeping its fold and function.
+- [ODesign](https://toolome.bio/tools/odesign/): All-atom generative world model for designing proteins, ligands, nucleic acids and cyclic peptides that bind a given target.
+- [FrameDiff (SE(3) diffusion)](https://toolome.bio/tools/se3-diffusion/): SE(3) diffusion model for protein backbone generation over residue frames.
+- [BioEmu2](https://toolome.bio/tools/bioemu2/): Foundation model for biomolecular structure and dynamics: structure prediction, equilibrium ensemble sampling and time-lagged trajectory generation for proteins, nucleic acids and ligands.
+- [RFD4-Proteina](https://toolome.bio/tools/rfd4-proteina/): Flow-matching model from the Baker lab and NVIDIA that co-designs protein sequence and all-atom structure, covering binders, antibodies, enzymes and small-molecule pockets, with reward-guided search.
+- [Pinal](https://toolome.bio/tools/pinal/): Westlake University model that designs protein sequences from a natural-language description: a text-to-structure model (T2struc) proposes structure tokens, then SaProt-T writes the sequence.
+
+## Genomics & DNA models
+
+- [Evo 2](https://toolome.bio/tools/evo-2/): Genome language model across all domains of life with 1M-token context.
+- [AlphaGenome](https://toolome.bio/tools/alphagenome/): DeepMind model predicting regulatory effects of DNA variants at base resolution.
+- [Enformer](https://toolome.bio/tools/enformer/): Predicts gene expression from sequence with long-range interactions.
+- [SpliceAI](https://toolome.bio/tools/spliceai/): Deep learning prediction of splicing effects from pre-mRNA sequence (repo archived).
+- [Nucleotide Transformer](https://toolome.bio/tools/nucleotide-transformer/): DNA foundation models pretrained on 3,200+ human and 850 species genomes.
+- [HyenaDNA](https://toolome.bio/tools/hyenadna/): Long-range genomic foundation model at single-nucleotide resolution.
+- [DNABERT-2](https://toolome.bio/tools/dnabert-2/): Efficient multi-species genome foundation model.
+- [Borzoi](https://toolome.bio/tools/borzoi/): Predicts RNA-seq coverage from DNA sequence.
+- [AlphaMissense](https://toolome.bio/tools/alphamissense/): Proteome-wide pathogenicity predictions for 71M missense variants (repo archived; precomputed scores available).
+- [Caduceus](https://toolome.bio/tools/caduceus/): Bidirectional, reverse-complement-equivariant DNA language model.
+- [SpliceAI2](https://toolome.bio/tools/spliceai2/): Illumina's successor to SpliceAI: predicts splice-site usage and full transcript isoforms from sequence.
+- [Carbon-A](https://toolome.bio/tools/carbon-a/): 1.2B DNA model that annotates protein-coding genes across eukaryotes; ships a 48K-assembly annotation database.
+- [Basenji](https://toolome.bio/tools/basenji/): Sequence-to-function CNNs predicting chromatin accessibility, histone marks and expression tracks from DNA.
+- [ChromBPNet](https://toolome.bio/tools/chrombpnet/): Bias-corrected base-resolution deep learning models of ATAC/DNase-seq chromatin accessibility and TF motifs.
+- [BPNet](https://toolome.bio/tools/bpnet/): Base-resolution neural network for TF binding profiles (ChIP-nexus/ChIP-seq) and motif syntax discovery.
+- [Sei](https://toolome.bio/tools/sei/): Predicts 21,907 chromatin profiles from sequence and maps variants to regulatory sequence classes.
+- [Selene](https://toolome.bio/tools/selene/): PyTorch library for training and applying sequence-level deep learning models (DeepSEA-style).
+- [EVE](https://toolome.bio/tools/eve/): Unsupervised evolutionary VAE for predicting pathogenicity of missense variants.
+- [PrimateAI-3D](https://toolome.bio/tools/primateai-3d/): Missense variant pathogenicity model trained on primate population variation and 3D protein structure.
+- [GPN-MSA](https://toolome.bio/tools/gpn-msa/): Genomic language model over multi-species alignments for genome-wide variant effect prediction.
+- [Evo](https://toolome.bio/tools/evo/): 7B genomic foundation model (StripedHyena) for prokaryotic DNA, RNA and protein design at single-nucleotide resolution.
+- [Nucleotide Transformer v3 (NTv3)](https://toolome.bio/tools/nucleotide-transformer-v3-ntv3/): Multi-species DNA foundation model with 1 Mb single-base context; predicts ~16k functional tracks, annotates genomes, and designs enhancers.
+- [DeepSomatic](https://toolome.bio/tools/deepsomatic/): Google's deep-learning somatic small-variant caller for tumor/normal data across Illumina, PacBio and Oxford Nanopore.
+- [gLM2 / OMG](https://toolome.bio/tools/glm2/): Tatta Bio's mixed-modality (protein + DNA) genomic language model trained on the OMG open metagenomic corpus.
+- [AtacWorks](https://toolome.bio/tools/atacworks/): NVIDIA's deep learning toolkit that denoises ATAC-seq coverage tracks and calls peaks from low-coverage or low-quality data.
+- [Carbon](https://toolome.bio/tools/carbon/): Hugging Face's family of open generative DNA language models (500M, 3B, 8B) with 6-mer tokens and up to ~786 kbp context; zero-shot variant-effect scoring and sequence generation.
+- [Seal](https://toolome.bio/tools/seal/): Troyanskaya lab's sequence-to-expression transfer-learning model: predicts gene expression and variant effects across 802 developing-brain contexts (26 regions, 30 cell types, 7 stages).
+- [tangermeme](https://toolome.bio/tools/tangermeme/): Toolkit for using trained genomic deep learning models: batched predictions, DeepLIFT/SHAP attributions, variant effects, ablations, seqlet calling, motif annotation and DNA design.
+- [GPN-Star](https://toolome.bio/tools/gpn-star/): Phylogeny-aware genomic language model over whole-genome alignments and species trees for genome-wide variant effect and constraint prediction.
+- [Carbon-X](https://toolome.bio/tools/carbon-x/): Hugging Face's 14.8B DNA-and-English chat model built on Qwen3-14B: paste up to ~50 kbp of DNA and ask about variant effects, regulatory regions, organism group or sequence continuation, with explanations.
+
+## Drug discovery & molecules
+
+- [RDKit](https://toolome.bio/tools/rdkit/): Open-source cheminformatics and machine learning toolkit.
+- [DeepChem](https://toolome.bio/tools/deepchem/): Deep learning toolkit for drug discovery, materials and biology.
+- [DiffDock](https://toolome.bio/tools/diffdock/): Diffusion generative model for molecular docking.
+- [REINVENT 4](https://toolome.bio/tools/reinvent-4/): AstraZeneca's generative molecular design framework.
+- [Chemprop](https://toolome.bio/tools/chemprop/): Message passing neural networks for molecular property prediction.
+- [TorchDrug](https://toolome.bio/tools/torchdrug/): PyTorch platform for drug discovery machine learning: property prediction, generation and retrosynthesis.
+- [AutoDock Vina](https://toolome.bio/tools/autodock-vina/): Fast, widely used open-source molecular docking engine.
+- [OpenMM](https://toolome.bio/tools/openmm/): High-performance molecular dynamics toolkit with GPU support.
+- [NVIDIA BioNeMo](https://toolome.bio/tools/nvidia-bionemo/): NVIDIA platform and NIMs for training and deploying biology foundation models.
+- [Rowan](https://toolome.bio/tools/rowan/): Cloud computational chemistry platform with ML-accelerated simulations.
+- [PoseBusters](https://toolome.bio/tools/posebusters/): Plausibility checks and benchmark for docking/structure poses.
+- [IsoDDE](https://toolome.bio/tools/isodde/): Isomorphic Labs Drug Design Engine: proprietary system predicting protein–ligand and antibody–antigen structures, binding affinity and cryptic pockets beyond AlphaFold 3.
+- [OpenDDE](https://toolome.bio/tools/opendde/): Apache-licensed all-atom co-folding foundation model for structure prediction, design and optimization in drug discovery (preview).
+- [Nesso-1](https://toolome.bio/tools/nesso-1/): Recursion's Apache-2.0 co-folding model for fast protein–ligand binding-affinity prediction.
+- [OpenBind model](https://toolome.bio/tools/openbind-model/): First predictive model from the UK OpenBind consortium, trained on its experimental protein–ligand dataset.
+- [Amazon Bio Discovery](https://toolome.bio/tools/amazon-bio-discovery/): AWS antibody-design platform: 40+ hosted biological AI models, agents and no-code pipelines, with wet-lab ordering through partner CROs and results fed back for model refinement.
+- [GeoDiff](https://toolome.bio/tools/geodiff/): Geometric diffusion model that generates 3D molecular conformations from molecular graphs (ICLR 2022).
+- [DiffSBDD](https://toolome.bio/tools/diffsbdd/): Equivariant diffusion model that designs small molecules directly inside a protein pocket.
+- [deeptime](https://toolome.bio/tools/deeptime/): Python library for learning dynamical models from time series, from Markov state models to VAMPnets and deep MSMs.
+- [TorchANI](https://toolome.bio/tools/torchani/): PyTorch library for training and running ANI neural-network interatomic potentials, maintained by the Roitberg group.
+- [TorchMD](https://toolome.bio/tools/torchmd/): PyTorch molecular dynamics engine that mixes classical force fields with neural network potentials.
+- [Pocket2Mol](https://toolome.bio/tools/pocket2mol/): E(3)-equivariant graph neural network that samples drug-like molecules atom by atom inside 3D protein pockets.
+- [PocketGen](https://toolome.bio/tools/pocketgen/): Generates full-atom ligand-binding protein pockets, co-designing residue sequence and structure.
+
+## Bio LLM agents & copilots
+
+- [Biomni](https://toolome.bio/tools/biomni/): General-purpose biomedical AI agent with 150+ tools and databases.
+- [Edison Scientific Platform (FutureHouse)](https://toolome.bio/tools/futurehouse-platform/): FutureHouse's hosted AI scientist agents (Crow, Falcon, Owl, Phoenix) for literature search, precedent search and chemistry.
+- [PaperQA2](https://toolome.bio/tools/paperqa2/): High-accuracy RAG agent over scientific papers.
+- [BioChatter](https://toolome.bio/tools/biochatter/): Framework for LLM-based conversational biomedical research.
+- [Elicit](https://toolome.bio/tools/elicit/): AI research assistant for literature search and data extraction.
+- [Consensus](https://toolome.bio/tools/consensus/): AI search engine over peer-reviewed research.
+- [Benchling](https://toolome.bio/tools/benchling/): R&D cloud with ELN, molecular biology and AI tooling.
+- [Coscientist](https://toolome.bio/tools/coscientist/): GPT-4-driven agent that plans and executes chemistry experiments on lab hardware.
+- [ChemCrow](https://toolome.bio/tools/chemcrow/): LLM chemistry agent augmented with 18 expert tools for synthesis and molecule tasks.
+- [PyLabRobot](https://toolome.bio/tools/pylabrobot/): Hardware-agnostic Python interface for liquid-handling robots and lab automation.
+- [BioDiscoveryAgent](https://toolome.bio/tools/biodiscoveryagent/): LLM agent that designs genetic perturbation experiments (e.g. CRISPR screens).
+- [Robin](https://toolome.bio/tools/robin/): FutureHouse multi-agent system automating hypothesis generation and data analysis for drug discovery.
+- [Aviary](https://toolome.bio/tools/aviary/): Gymnasium for training language agents on scientific tasks (molecular cloning, literature QA).
+- [Kosmos](https://toolome.bio/tools/kosmos/): Edison Scientific's AI scientist: long autonomous runs that read ~1,500 papers and write tens of thousands of lines of analysis code per run.
+- [BIOS](https://toolome.bio/tools/bios/): AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; hosted at chat.bio.xyz (the earlier open BioAgents framework is archived).
+- [Biomni Lab](https://toolome.bio/tools/biomni-lab/): Phylo's 'integrated biology environment': a workspace where biologists orchestrate AI agents across 300+ databases, tools and software (preview).
+- [GPT-Rosalind](https://toolome.bio/tools/gpt-rosalind/): OpenAI's life-sciences reasoning model for biology, protein engineering, genomics and drug discovery; trusted-access program, plus an open Codex research plugin.
+- [Seqera Co-Scientist](https://toolome.bio/tools/seqera-co-scientist/): AI partner inside the Seqera platform for building, launching and debugging Nextflow bioinformatics pipelines.
+- [Claude Science](https://toolome.bio/tools/claude-science/): Anthropic's AI workbench for scientists: coordinating agent with 60+ skills and connectors for genomics, single-cell, proteomics and more, plus a reviewer agent (beta).
+- [CRISPR-GPT](https://toolome.bio/tools/crispr-gpt/): LLM agent that plans and automates gene-editing experiments: system selection, guide design, protocols and analysis.
+- [Nextflow Frontier](https://toolome.bio/tools/nextflow-frontier/): Seqera's closed-loop discovery system: AI agents design computational experiments, run thousands of them as Nextflow pipelines, score the results and iterate. Offered as a partnership.
+- [Chaperone](https://toolome.bio/tools/chaperone/): Baker lab harness that wires 50+ protein design, folding and analysis tools into reproducible SLURM pipelines and ships agent skills so coding agents can build and run design campaigns.
+
+## Cloud labs & wet-lab services
+
+- [Adaptyv Bio](https://toolome.bio/tools/adaptyv-bio/): Cloud lab for protein expression and binding characterization, binder design competitions.
+- [Emerald Cloud Lab](https://toolome.bio/tools/emerald-cloud-lab/): Remote-controlled cloud laboratory running 200+ instrument types.
+- [Ginkgo Bioworks](https://toolome.bio/tools/ginkgo-bioworks/): Cell programming platform and automated lab services.
+- [Twist Bioscience](https://toolome.bio/tools/twist-bioscience/): Synthetic DNA, gene fragments and antibody discovery services.
+- [Strateos](https://toolome.bio/tools/strateos/): Robotic cloud lab automation for life sciences.
+- [Science Exchange](https://toolome.bio/tools/science-exchange/): Marketplace for outsourced R&D and CRO services.
+- [Opentrons](https://toolome.bio/tools/opentrons/): Open-source liquid-handling robots with a Python Protocol API and AI protocol generation.
+- [Ginkgo Cloud Lab](https://toolome.bio/tools/ginkgo-cloud-lab/): Browser-accessible autonomous biology lab on Ginkgo's automation infrastructure, with an AI agent that checks protocol feasibility and pricing.
+
+## Imaging & pathology
+
+- [Cellpose](https://toolome.bio/tools/cellpose/): Generalist deep learning model for cellular segmentation.
+- [StarDist](https://toolome.bio/tools/stardist/): Star-convex object detection for nuclei segmentation.
+- [napari](https://toolome.bio/tools/napari/): Fast, interactive multi-dimensional image viewer for Python.
+- [QuPath](https://toolome.bio/tools/qupath/): Open-source software for digital pathology and whole slide image analysis.
+- [UNI](https://toolome.bio/tools/uni/): General-purpose self-supervised foundation model for computational pathology.
+- [CONCH](https://toolome.bio/tools/conch/): Vision-language foundation model for histopathology.
+- [Prov-GigaPath](https://toolome.bio/tools/prov-gigapath/): Whole-slide digital pathology foundation model.
+- [CellProfiler](https://toolome.bio/tools/cellprofiler/): Image analysis software for high-throughput cell phenotyping.
+- [micro-sam](https://toolome.bio/tools/micro-sam/): Segment Anything fine-tuned for light and electron microscopy, with interactive napari annotation tools.
+- [BiomedParse](https://toolome.bio/tools/biomedparse/): Foundation model for joint segmentation, detection and recognition across nine biomedical imaging modalities.
+- [Atlas 2](https://toolome.bio/tools/atlas-2/): Pathology foundation model family built for clinical deployment (Aignostics and collaborators).
+- [GenBio-PathFM](https://toolome.bio/tools/genbio-pathfm/): 1.1B-parameter open-weight histopathology foundation model trained only on public data.
+- [MedSAM](https://toolome.bio/tools/medsam/): Segment Anything adapted to medical images: promptable segmentation across CT, MRI, ultrasound, endoscopy and more.
+- [MedSAM2](https://toolome.bio/tools/medsam2/): Promptable segmentation for 3D medical images and videos, built on SAM 2.
+- [CellSAM](https://toolome.bio/tools/cellsam/): Foundation model for cell segmentation across imaging modalities, pairing a cell-detection prompter with SAM.
+- [TITAN](https://toolome.bio/tools/titan/): Multimodal whole-slide pathology foundation model pretrained on 335,645 WSIs with vision–language alignment.
+- [CHIEF](https://toolome.bio/tools/chief/): Pathology foundation model for cancer detection, tumor-origin and molecular-profile prediction and prognosis from whole slides.
+- [GigaTIME](https://toolome.bio/tools/gigatime/): Microsoft and Providence model that turns routine H&E slides into virtual multiplex immunofluorescence maps of 21 proteins.
+- [Merlin](https://toolome.bio/tools/merlin/): Stanford's 3D vision-language model for abdominal CT, pretrained on scans, EHR codes and radiology reports for classification, retrieval and report generation.
+- [NV-Reason-CT](https://toolome.bio/tools/nv-reason-ct/): NVIDIA's 3D vision-language model for chest and abdominal CT: structured reports, visual QA and step-by-step reasoning.
+- [VirTues](https://toolome.bio/tools/virtues/): Bunne lab's spatial proteomics foundation model for multiplexed tissue imaging, from molecules to cells to tissue, for diagnostics and case retrieval.
+- [DeepCell](https://toolome.bio/tools/deepcell-tf/): Van Valen lab deep learning library for cell segmentation (Mesmer) and tracking in 2D/3D biological images.
+
+## Datasets & benchmarks
+
+- [CZ CELLxGENE](https://toolome.bio/tools/cz-cellxgene/): Curated single-cell data portal and Census API with 100M+ cells.
+- [Human Cell Atlas Data Portal](https://toolome.bio/tools/human-cell-atlas-data-portal/): Data portal of the Human Cell Atlas consortium.
+- [Tahoe-100M](https://toolome.bio/tools/tahoe-100m/): 100M-cell single-cell drug perturbation atlas.
+- [Protein Data Bank (RCSB)](https://toolome.bio/tools/protein-data-bank-rcsb/): Archive of experimentally determined 3D biomolecular structures.
+- [UniProt](https://toolome.bio/tools/uniprot/): Comprehensive resource of protein sequence and function.
+- [ProteinGym](https://toolome.bio/tools/proteingym/): Benchmarks for protein fitness and mutation effect prediction.
+- [Therapeutics Data Commons](https://toolome.bio/tools/therapeutics-data-commons/): ML-ready datasets and benchmarks for therapeutics.
+- [CASP](https://toolome.bio/tools/casp/): Critical Assessment of protein Structure Prediction community experiment.
+- [Open Problems in Single-Cell](https://toolome.bio/tools/open-problems-in-single-cell/): Living benchmarks for single-cell analysis tasks.
+- [PoseBusters](https://toolome.bio/tools/posebusters/): Plausibility checks and benchmark for docking/structure poses.
+- [Polaris](https://toolome.bio/tools/polaris/): Benchmarking platform for ML in drug discovery.
+- [10x Genomics Datasets](https://toolome.bio/tools/10x-genomics-datasets/): Public single-cell and spatial (Visium, Xenium) example datasets.
+- [Hugging Face Bio models](https://toolome.bio/tools/hugging-face-bio-models/): Hugging Face Hub listing of biology-tagged models, from protein and DNA language models to single-cell models.
+- [PerturbAI Brain-Wide CRISPR Atlas](https://toolome.bio/tools/perturbai-brain-wide-crispr-atlas/): ~8M-cell in vivo CRISPR perturbation atlas of mouse brain (single-nucleus), downloadable on Hugging Face in Parquet/AnnData/Zarr.
+- [OMol25](https://toolome.bio/tools/omol25/): Meta FAIR's open dataset of DFT calculations on diverse molecules, with evaluations and baseline models.
+- [Virtual Cell Challenge 2026](https://toolome.bio/tools/virtual-cell-challenge-2026/): Arc Institute's perturbation benchmark: predict CRISPRi knockdown responses in six cell lines never seen perturbed, from their unperturbed state alone.
+- [SidechainNet](https://toolome.bio/tools/sidechainnet/): All-atom protein structure dataset extending ProteinNet with sidechain angles and coordinates, with PyTorch loaders for ML.
+- [MassNet (XuanjiNovo)](https://toolome.bio/tools/massnet/): AI-ready DDA mass-spectrometry corpus (1.54B MS/MS spectra, 548M PSMs, 35 species) in a Parquet tensor format (MSDT), plus XuanjiNovo, a non-autoregressive transformer for de novo peptide sequencing trained on 100M PSMs.
+
+## Sequencing & variant calling
+
+- [DeepVariant](https://toolome.bio/tools/deepvariant/): Google deep learning variant caller for Illumina, PacBio HiFi and ONT data.
+- [Dorado](https://toolome.bio/tools/dorado/): Oxford Nanopore's production basecaller: transformer/LSTM models turning raw nanopore signal into reads, with modified-base calling and duplex.
+- [Bonito](https://toolome.bio/tools/bonito/): Oxford Nanopore's research basecaller for training and testing new basecalling models.
+- [Medaka](https://toolome.bio/tools/medaka/): Neural-network consensus polishing and variant calling for nanopore assemblies.
+- [Remora](https://toolome.bio/tools/remora/): Models for detecting modified bases (e.g. 5mC, 6mA) from nanopore signal.
+- [Clair3](https://toolome.bio/tools/clair3/): Deep-learning germline small-variant caller for long reads (ONT, PacBio) and short reads.
+- [DeepConsensus](https://toolome.bio/tools/deepconsensus/): Transformer that corrects PacBio HiFi consensus reads, increasing yield and accuracy.
+- [PEPPER-Margin-DeepVariant](https://toolome.bio/tools/pepper-margin-deepvariant/): Haplotype-aware variant calling pipeline for nanopore reads combining PEPPER, Margin and DeepVariant.
+- [Sniffles2](https://toolome.bio/tools/sniffles2/): Fast structural-variant caller for long reads with population-scale and mosaic SV detection.
+- [DeepSomatic](https://toolome.bio/tools/deepsomatic/): Google's deep-learning somatic small-variant caller for tumor/normal data across Illumina, PacBio and Oxford Nanopore.
+- [DeepPolisher](https://toolome.bio/tools/deeppolisher/): Transformer-based polisher that reduces base errors in PacBio HiFi genome assemblies.
+- [ClairS-TO](https://toolome.bio/tools/clairs-to/): Deep-learning tumor-only somatic small-variant caller for long reads, from the Clair3 team.
+- [HERRO](https://toolome.bio/tools/herro/): Deep-learning error correction of nanopore simplex reads that enables telomere-to-telomere phased assemblies.
+- [HitSV](https://toolome.bio/tools/hitsv/): Structural variant caller with haplotype-resolved local assembly that works on PacBio HiFi, ONT, hybrid and short-read data.
+- [SVPG](https://toolome.bio/tools/svpg/): Pangenome-guided structural variant caller for long reads that can also add new samples to an existing pangenome graph.
+
+## Proteomics & metabolomics
+
+- [DIA-NN](https://toolome.bio/tools/dia-nn/): Neural-network-powered data-independent acquisition (DIA) proteomics processing software.
+- [AlphaPeptDeep](https://toolome.bio/tools/alphapeptdeep/): Deep learning framework predicting peptide MS2 spectra, retention time and CCS for proteomics.
+- [AlphaDIA](https://toolome.bio/tools/alphadia/): DIA proteomics search engine without feature detection, with transfer learning from AlphaPeptDeep.
+- [MS2PIP](https://toolome.bio/tools/ms2pip/): Predicts peptide fragmentation spectra (and with DeepLC/IM2Deep) for spectral libraries and rescoring.
+- [DeepLC](https://toolome.bio/tools/deeplc/): Deep learning retention-time predictor that generalizes to unseen peptide modifications.
+- [Casanovo](https://toolome.bio/tools/casanovo/): Transformer for de novo peptide sequencing directly from MS/MS spectra.
+- [InstaNovo](https://toolome.bio/tools/instanovo/): Transformer and diffusion models for de novo peptide sequencing from tandem mass spectra.
+- [SIRIUS](https://toolome.bio/tools/sirius/): Metabolomics software for molecular formula and structure annotation from MS/MS with CSI:FingerID and CANOPUS.
+- [MS2DeepScore](https://toolome.bio/tools/ms2deepscore/): Siamese neural network predicting structural similarity between MS/MS spectra for metabolomics.
+- [matchms](https://toolome.bio/tools/matchms/): Python library for importing, cleaning and comparing mass spectra for metabolomics.
+- [DreaMS](https://toolome.bio/tools/dreams/): Self-supervised transformer foundation model for tandem mass spectra of small molecules.
+- [MZmine](https://toolome.bio/tools/mzmine/): Open-source platform for LC-MS and imaging-MS data processing in metabolomics.
+- [InstaNovo-FM](https://toolome.bio/tools/instanovo-fm/): Self-supervised encoder foundation model trained on 1.63B MS/MS spectra; transferable embeddings for de novo and database-independent identification.
+- [MassNet (XuanjiNovo)](https://toolome.bio/tools/massnet/): AI-ready DDA mass-spectrometry corpus (1.54B MS/MS spectra, 548M PSMs, 35 species) in a Parquet tensor format (MSDT), plus XuanjiNovo, a non-autoregressive transformer for de novo peptide sequencing trained on 100M PSMs.
+
+## CRISPR & gene editing
+
+- [CRISPOR](https://toolome.bio/tools/crispor/): Web tool for CRISPR guide selection with on-target efficiency and off-target scoring for 500+ genomes.
+- [CHOPCHOP](https://toolome.bio/tools/chopchop/): Web tool for designing CRISPR-Cas9, Cas12 and TALEN targets with efficiency predictions.
+- [Rule Set 3 (rs3)](https://toolome.bio/tools/rule-set-3/): Broad GPP model for SpCas9 sgRNA on-target activity, used in CRISPick.
+- [PRIDICT](https://toolome.bio/tools/pridict/): Attention-based model predicting prime editing efficiency to design pegRNAs.
+- [CRISPResso2](https://toolome.bio/tools/crispresso2/): Analysis of genome-editing outcomes from amplicon sequencing, including base and prime editing.
+- [OpenCRISPR-1](https://toolome.bio/tools/opencrispr/): AI-designed Cas9-like gene editor from Profluent's language models, released openly.
+- [CRISPR-GPT](https://toolome.bio/tools/crispr-gpt/): LLM agent that plans and automates gene-editing experiments: system selection, guide design, protocols and analysis.
+- [DeepPrime](https://toolome.bio/tools/deepprime/): Deep-learning prediction of prime-editing efficiency across PE systems and cell types (Hyongbum Kim lab).
+- [OptiPrime](https://toolome.bio/tools/optiprime/): David Liu lab's mechanistic ML model that predicts prime-editing efficiency and outcomes for PE2, PE3 and twinPE, with a web server.
+- [Protein2PAM](https://toolome.bio/tools/protein2pam/): Profluent's protein language model that predicts a Cas enzyme's PAM specificity from its sequence and guides PAM-engineering of Cas9 variants.
+
+## RNA structure & design
+
+- [RhoFold+](https://toolome.bio/tools/rhofold/): RNA language-model-based method for 3D RNA structure prediction.
+- [RNA-FM](https://toolome.bio/tools/rna-fm/): RNA foundation model pretrained on 23M non-coding RNAs for structure and function tasks.
+- [RibonanzaNet](https://toolome.bio/tools/ribonanzanet/): RNA foundation model trained on Ribonanza chemical-mapping data for structure and reactivity.
+- [EternaFold](https://toolome.bio/tools/eternafold/): RNA secondary structure model trained via multitask learning on Eterna player data.
+- [SPOT-RNA](https://toolome.bio/tools/spot-rna/): Deep learning RNA secondary structure prediction including non-canonical pairs and pseudoknots.
+- [UFold](https://toolome.bio/tools/ufold/): Fast image-like U-Net for RNA secondary structure prediction.
+- [ViennaRNA](https://toolome.bio/tools/viennarna/): Standard RNA secondary structure prediction and design package (RNAfold, RNAinverse).
+- [gRNAde](https://toolome.bio/tools/grnade/): Geometric deep learning for 3D RNA inverse design (sequence design from backbone).
+- [RNAPro](https://toolome.bio/tools/rnapro/): NVIDIA RNA 3D folding model built with hosts and winners of the Stanford RNA 3D Folding Kaggle competition.
+- [EVA](https://toolome.bio/tools/eva/): 1.4B-parameter long-context generative RNA foundation model trained on 114M full-length RNAs; supports RNA engineering and guide-RNA design.
+- [RiNALMo](https://toolome.bio/tools/rinalmo/): General-purpose RNA language model that generalizes to unseen RNA families on secondary-structure prediction.
+- [Orthrus](https://toolome.bio/tools/orthrus/): Bo Wang lab's mature-RNA foundation model trained with contrastive learning on splice isoforms and orthologs, for RNA half-life and other property prediction.
+- [RNAbpFlow](https://toolome.bio/tools/rnabpflow/): SE(3) flow-matching model that generates RNA 3D structures and conformer ensembles conditioned on base pairing.
+
+## Microbiome & metagenomics
+
+- [MetaPhlAn 4](https://toolome.bio/tools/metaphlan/): Marker-gene-based taxonomic profiling of metagenomes, including uncharacterized species.
+- [HUMAnN 3](https://toolome.bio/tools/humann/): Functional profiling of metagenomes and metatranscriptomes (gene families and pathways).
+- [Kraken 2](https://toolome.bio/tools/kraken2/): Fast k-mer based taxonomic classification of metagenomic reads.
+- [GTDB-Tk](https://toolome.bio/tools/gtdb-tk/): Assigns GTDB taxonomy to bacterial and archaeal genomes and MAGs.
+- [geNomad](https://toolome.bio/tools/genomad/): Neural-network and marker-based identification of viruses and plasmids in sequencing data.
+- [CheckM2](https://toolome.bio/tools/checkm2/): Machine-learning estimation of completeness and contamination of metagenome-assembled genomes.
+- [SemiBin2](https://toolome.bio/tools/semibin/): Self-supervised deep learning metagenomic binning for short and long reads.
+- [VAMB](https://toolome.bio/tools/vamb/): Variational autoencoder for metagenomic binning.
+- [QIIME 2](https://toolome.bio/tools/qiime2/): Extensible platform for microbiome (amplicon and shotgun) data science.
+- [sylph](https://toolome.bio/tools/sylph/): Ultrafast species-level metagenome profiler using abundance-corrected k-mer sketching (ANI-based containment).
+- [gLM](https://toolome.bio/tools/glm/): Genomic language model trained on metagenomic contigs that learns gene context to predict protein co-regulation and function.
+- [gLM2 / OMG](https://toolome.bio/tools/glm2/): Tatta Bio's mixed-modality (protein + DNA) genomic language model trained on the OMG open metagenomic corpus.
+- [COMEBin](https://toolome.bio/tools/comebin/): Contrastive multi-view representation learning for binning metagenomic contigs into genomes.
+- [METAGENE-1](https://toolome.bio/tools/metagene-1/): 7B-parameter metagenomic foundation model pretrained on 1.5T+ base pairs of human-wastewater DNA/RNA for pathogen detection and biosurveillance.
+- [MetaCAT](https://toolome.bio/tools/metacat/): Metagenome binning plus microbial SNP calling and metagenome-wide association with host traits in one framework.
+
+## Clinical & biomedical LLMs
+
+- [CONCH](https://toolome.bio/tools/conch/): Vision-language foundation model for histopathology.
+- [Meditron](https://toolome.bio/tools/meditron/): Open medical LLMs (7B/70B) adapted from Llama 2 on curated medical corpora.
+- [MedGemma](https://toolome.bio/tools/medgemma/): Google's open Gemma 3 variants for medical text and image comprehension.
+- [LLaVA-Med](https://toolome.bio/tools/llava-med/): Biomedical vision-language assistant trained on PubMed Central figure-caption data.
+- [BioMistral](https://toolome.bio/tools/biomistral/): Open 7B medical LLM based on Mistral, further pretrained on PubMed Central.
+- [MedSAM](https://toolome.bio/tools/medsam/): Segment Anything adapted to medical images: promptable segmentation across CT, MRI, ultrasound, endoscopy and more.
+- [MedSAM2](https://toolome.bio/tools/medsam2/): Promptable segmentation for 3D medical images and videos, built on SAM 2.
+- [HuatuoGPT-o1](https://toolome.bio/tools/huatuogpt-o1/): Open medical reasoning LLMs trained with verifiable medical problems and RL for complex clinical reasoning.
+- [BiomedCLIP](https://toolome.bio/tools/biomedclip/): Microsoft's biomedical vision-language model pretrained on 15M PubMed Central figure–caption pairs.
+- [TITAN](https://toolome.bio/tools/titan/): Multimodal whole-slide pathology foundation model pretrained on 335,645 WSIs with vision–language alignment.
+- [Baichuan-M2](https://toolome.bio/tools/baichuan-m2/): Baichuan's open 32B medical reasoning model trained with a patient simulator and clinical-rubric RL; reported as the top open model on HealthBench at release.
+- [Lingshu](https://toolome.bio/tools/lingshu/): Alibaba DAMO's multimodal medical LLMs (7B/32B) for medical image understanding, reasoning, VQA and report generation.
+- [Merlin](https://toolome.bio/tools/merlin/): Stanford's 3D vision-language model for abdominal CT, pretrained on scans, EHR codes and radiology reports for classification, retrieval and report generation.
+- [MeditronFO (Fully Open Meditron)](https://toolome.bio/tools/meditronfo/): EPFL's fully open medical LLMs (open weights, training data and recipe) built on Apertus, OLMo-2, EuroLLM and Gemma-3 bases.
+- [NV-Reason-CT](https://toolome.bio/tools/nv-reason-ct/): NVIDIA's 3D vision-language model for chest and abdominal CT: structured reports, visual QA and step-by-step reasoning.
+- [BiomedGPT](https://toolome.bio/tools/biomedgpt/): Generalist vision-language foundation model for biomedical images and text, covering VQA, captioning, report generation and classification.
+
+## R&D & bioinformatics platforms
+
+- [Tamarind Bio](https://toolome.bio/tools/tamarind-bio/): No-code web platform running 100+ protein and molecular ML models.
+- [NVIDIA BioNeMo](https://toolome.bio/tools/nvidia-bionemo/): NVIDIA platform and NIMs for training and deploying biology foundation models.
+- [Rowan](https://toolome.bio/tools/rowan/): Cloud computational chemistry platform with ML-accelerated simulations.
+- [Benchling](https://toolome.bio/tools/benchling/): R&D cloud with ELN, molecular biology and AI tooling.
+- [Latch Bio](https://toolome.bio/tools/latch-bio/): Cloud platform for bioinformatics workflows and data.
+- [Amazon Bio Discovery](https://toolome.bio/tools/amazon-bio-discovery/): AWS antibody-design platform: 40+ hosted biological AI models, agents and no-code pipelines, with wet-lab ordering through partner CROs and results fed back for model refinement.
+- [Illumina BioInsight Platform](https://toolome.bio/tools/illumina-bioinsight/): Illumina's unified cloud environment for genomic and multiomic analysis, bundling DRAGEN, BaseSpace, Emedgene, Connected Multiomics and curated data under one usage-based credit system.
+
