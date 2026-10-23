@@ -10098,5 +10098,44 @@
       "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release",
       "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
     ]
+  },
+  {
+    "slug": "pinal",
+    "name": "Pinal",
+    "category": "protein",
+    "url": "http://www.denovo-pinal.com/",
+    "github": "https://github.com/westlake-repl/Denovo-Pinal",
+    "paper": "https://doi.org/10.1038/s41586-026-11205-z",
+    "license": "Apache-2.0",
+    "pricing": "Open source",
+    "description": "Westlake University model that designs protein sequences from a natural-language description: a text-to-structure model (T2struc) proposes structure tokens, then SaProt-T writes the sequence.",
+    "tags": [
+      "protein-design",
+      "text-to-protein",
+      "protein-language-model"
+    ],
+    "added": "2026-10-23",
+    "lastChecked": "2026-10-23",
+    "firstReleased": "2025-01-08",
+    "dateSource": "https://github.com/westlake-repl/Denovo-Pinal",
+    "notability": "Published in Nature on 2026-10-21 (Programmable design of functional proteins from natural language); public web server; weights on Hugging Face",
+    "licenseNote": "code Apache-2.0 (GitHub LICENSE)",
+    "licenseSource": "https://github.com/westlake-repl/Denovo-Pinal",
+    "licenseChecked": "2026-10-23",
+    "specs": {
+      "task": "Protein sequence design from natural-language instructions",
+      "params": "16B (T2struc-15B + SaProt-T 760M); 1.2B variant available",
+      "interface": "Python API, web server",
+      "weights": "Yes (Hugging Face westlake-repl/Pinal)",
+      "stars": 138,
+      "starsChecked": "2026-10-23"
+    },
+    "specsChecked": "2026-10-23",
+    "specsSources": [
+      "https://github.com/westlake-repl/Denovo-Pinal",
+      "https://huggingface.co/westlake-repl/Pinal"
+    ],
+    "paperVenue": "Nature",
+    "paperYear": 2026
   }
 ]
