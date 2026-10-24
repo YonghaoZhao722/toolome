@@ -40,7 +40,8 @@
   "uniprot": "Open-access data resource, not code",
   "casp": "Open-access data resource, not code",
   "10x-genomics-datasets": "Open-access data resource, not code",
-  "carbon-x": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo"
+  "carbon-x": "Open weights/data hosted on Hugging Face, Zenodo or the project site; no official GitHub repo",
+  "ling-3-0-flash-sante": "Open weights on Hugging Face/ModelScope; no public code repository"
  },
  "U1": {
   "esm3": "Same upstream repo hosts several distinct model generations; kept as separate entries on purpose",
