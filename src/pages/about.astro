@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro'; import { tools, CATS, u, SITE } from '../lib/site.js';
+const home=new URL(u('/'),Astro.site).href; const page=new URL(u('/about/'),Astro.site).href;
+const jsonld={"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@id":page,url:page,name:"About Toolome",description:"Who curates Toolome and how every listed AI tool for biology is verified.",isPartOf:{"@id":home+"#website"},about:{"@id":home+"#org"},mainEntity:{"@id":home+"#org"}},{"@type":"Organization","@id":home+"#org",name:"Toolome",url:home,email:"toolome.bio@gmail.com"}]};
+---
+<Base title="About Toolome: who curates it and how tools are verified" description="Toolome is curated by The Toolome team. Only verified AI tools for biology are listed; links are checked daily and license, commercial use and paper facts come from each tool's repository and paper." jsonld={jsonld}>
+<h1>About Toolome</h1>
+<p style="font-size:17px;max-width:680px">Toolome is a directory of AI tools for biology: <span class="num">{tools.length}</span> tools across {Object.keys(CATS).length} categories, each with its links, license, commercial-use status and paper in one place.</p>
+<h2>Who curates it</h2>
+<p style="max-width:680px">Toolome is curated by The Toolome team. Contact: <a href="mailto:toolome.bio@gmail.com">toolome.bio@gmail.com</a>. Corrections and suggestions go through <a href={SITE.repo+'/issues'}>GitHub issues</a> or the <a href={u('/submit/')}>submit page</a>.</p>
+<h2>How tools are verified</h2>
+<ul style="max-width:680px">
+<li><b>Only verified tools are listed.</b> A tool is added only when its URL can be confirmed. Work under anonymous review is not listed.</li>
+<li><b>AI is required.</b> The tool's core method must use machine learning, or it must be a dataset or benchmark built for ML.</li>
+<li><b>Facts come from primary sources.</b> The license and commercial-use status come from the tool's repository (via the GitHub API). The paper, venue and year come from the paper itself (via Crossref or arXiv). The first public date is the earliest of the preprint, paper or repository creation date.</li>
+<li><b>Links are checked daily.</b> An automated link check runs every day. A tool's "last checked" date is updated only when all of its links respond.</li>
+<li><b>No benchmark claims.</b> Comparison pages report what each project states and link to the papers for evaluations.</li>
+</ul>
+<h2>Update cadence</h2>
+<p style="max-width:680px">New tools are reviewed and added daily. Repository status (for example archived repos) and GitHub stars are refreshed weekly. The full list is also available as <a href={u('/llms.txt')}>llms.txt</a> and in the <a href={u('/sitemap.xml')}>sitemap</a>.</p>
+</Base>

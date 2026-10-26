@@ -3,7 +3,7 @@
 A curated, hand-verified directory of AI tools for single-cell, spatial omics, protein design, genomics, drug discovery, bio agents, cloud labs, imaging, datasets, sequencing, proteomics/metabolomics, CRISPR, RNA, microbiome and clinical LLMs.
 
 - Data: `src/data/tools.json` (edit by hand; check with `npm run check`. Never regenerate it from a script. `scripts/verify.py` is deprecated and only calls the read-only audit)
-- Stack: Astro static site (`npm run build` → `dist/`), deploys free on Vercel (framework preset: Astro) or GitHub Pages via `scripts/deploy-pages.sh` (custom domain https://toolome.bio)
+- Stack: Astro static site (`npm run build` → `dist/`), deployed on GitHub Pages (gh-pages branch, custom domain https://toolome.bio). Pushing to main does NOT deploy: run `scripts/deploy-pages.sh` manually after pushing
 - Generated: `sitemap.xml`, `robots.txt`, `llms.txt`, per-tool JSON-LD `SoftwareApplication`
 - Submit a tool: open a GitHub issue
 

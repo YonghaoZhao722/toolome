@@ -61,7 +61,7 @@ for f in files:
             if not (os.path.isfile(tgt) or os.path.isfile(os.path.join(tgt, 'index.html'))): err('H3', rel, f'broken internal link {href}')
 # H4: sitemap + llms
 sm = set(re.findall(r'<loc>https?://[^/]+(/[^<]*)</loc>', rd('sitemap.xml')))
-want = {'/', '/submit/', '/compare/', '/licenses/'} | {f'/category/{c}/' for c in CATS} | {f"/tools/{t['slug']}/" for t in tools} | {f'/compare/{a}-vs-{b}/' for a, b in PAIRS}
+want = {'/', '/submit/', '/compare/', '/licenses/', '/about/'} | {f'/category/{c}/' for c in CATS} | {f"/tools/{t['slug']}/" for t in tools} | {f'/compare/{a}-vs-{b}/' for a, b in PAIRS}
 for x in want - sm: err('H4', 'sitemap', f'missing {x}')
 for x in sm - want: err('H4', 'sitemap', f'extra {x}')
 for f in ('llms.txt', 'llms-full.txt'):

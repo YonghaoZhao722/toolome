@@ -7,6 +7,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 export PATH=/home/box/.local/node22/bin:$PATH
+python3 scripts/data_dates.py  # sitemap lastmod / dateModified from real data changes
 DOMAIN=${CUSTOM_DOMAIN:-$(python3 -c "import json;print(json.load(open('site.config.json')).get('customDomain',''))")}
 if [ -n "$DOMAIN" ]; then
   SITE_URL=https://$DOMAIN BASE_PATH=/ npm run build && python3 scripts/check_recent.py
