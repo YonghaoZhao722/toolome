@@ -10136,7 +10136,9 @@
       "https://huggingface.co/westlake-repl/Pinal"
     ],
     "paperVenue": "Nature",
-    "paperYear": 2026
+    "paperYear": 2026,
+    "released": "2026-10-21",
+    "source": "https://doi.org/10.1038/s41586-026-11205-z"
   },
   {
     "slug": "ling-3-0-flash-sante",
@@ -10173,7 +10175,9 @@
     "specsSources": [
       "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
       "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante"
-    ]
+    ],
+    "released": "2026-10-22",
+    "source": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante"
   },
   {
     "slug": "recamplify",
