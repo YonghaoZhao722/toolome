@@ -10174,5 +10174,47 @@
       "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
       "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante"
     ]
+  },
+  {
+    "slug": "recamplify",
+    "name": "recAMPLIFY",
+    "category": "protein",
+    "url": "https://huggingface.co/chandar-lab/recamplify",
+    "github": "https://github.com/chandar-lab/AMPLIFY",
+    "paper": "https://arxiv.org/abs/2610.26747",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Chandar Lab's recursive masked protein language model: a weight-tied recurrent core refines residue embeddings over several cycles, so you can spend more compute per sequence at inference without adding parameters.",
+    "tags": [
+      "protein-language-model",
+      "embeddings",
+      "recursive-transformer"
+    ],
+    "added": "2026-10-26",
+    "lastChecked": "2026-10-26",
+    "released": "2026-10-19",
+    "source": "https://arxiv.org/abs/2610.26747",
+    "firstReleased": "2026-10-19",
+    "dateSource": "https://arxiv.org/abs/2610.26747",
+    "notability": "From the AMPLIFY team (Chandar Lab, Mila); arXiv preprint submitted 2026-10-19; 11 pretrained checkpoints on Hugging Face",
+    "licenseNote": "MIT (Hugging Face model card; AMPLIFY GitHub repo)",
+    "licenseSource": "https://huggingface.co/chandar-lab/recamplify",
+    "licenseChecked": "2026-10-26",
+    "specs": {
+      "task": "Masked protein language modeling and residue embeddings",
+      "params": "133M-155M (recAMPLIFY variants); AMPLIFY baselines 118M/354M",
+      "interface": "Transformers (trust_remote_code)",
+      "weights": "Yes (Hugging Face chandar-lab/recamplify, 11 checkpoints)",
+      "stars": 136,
+      "starsChecked": "2026-10-26",
+      "code": "recamplify branch of chandar-lab/AMPLIFY"
+    },
+    "specsChecked": "2026-10-26",
+    "specsSources": [
+      "https://huggingface.co/chandar-lab/recamplify",
+      "https://arxiv.org/abs/2610.26747"
+    ],
+    "paperVenue": "arXiv",
+    "paperYear": 2026
   }
 ]
