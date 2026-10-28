@@ -8,6 +8,12 @@ const jsonld={"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@i
 <p style="font-size:17px;max-width:680px">Toolome is a directory of AI tools for biology: <span class="num">{tools.length}</span> tools across {Object.keys(CATS).length} categories, each with its links, license, commercial-use status and paper in one place.</p>
 <h2>Who curates it</h2>
 <p style="max-width:680px">Toolome is curated by The Toolome team. Contact: <a href="mailto:toolome.bio@gmail.com">toolome.bio@gmail.com</a>. Corrections and suggestions go through <a href={SITE.repo+'/issues'}>GitHub issues</a> or the <a href={u('/submit/')}>submit page</a>.</p>
+<h2>Non-commercial and open data</h2>
+<ul style="max-width:680px">
+<li>The site code and the full dataset are public in the <a href={SITE.repo}>GitHub repository</a> (dataset: <code>src/data/tools.json</code>).</li>
+<li>No ads, no analytics or tracking scripts, no affiliate links, and no paid or sponsored listings. No account is needed to browse.</li>
+<li>Inclusion is editorial, not paid. The full rules are in <a href={SITE.repo+'/blob/main/INCLUSION.md'}>INCLUSION.md</a>.</li>
+</ul>
 <h2>How tools are verified</h2>
 <ul style="max-width:680px">
 <li><b>Only verified tools are listed.</b> A tool is added only when its URL can be confirmed. Work under anonymous review is not listed.</li>
