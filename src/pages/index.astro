@@ -12,7 +12,7 @@ const jsonld={"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id"
 <h1>AI tools for biology, <span style="color:var(--acc)">verified</span>.</h1>
 <p class="mut" style="font-size:17px;max-width:640px"><span class="num">{tools.length}</span> hand-checked tools across {Object.keys(CATS).length} categories, from {catList()}.</p>
 <input id="q" class="search" type="search" aria-label="Search tools" placeholder="Search tools, e.g. spatial alignment, binder design, scRNA…"/>
-<div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{e} {n}</button>)}</div>
+<div id="cats" class="seg" role="group" aria-label="Filter by category"><button class="pill on" aria-pressed="true" data-c="">All</button>{Object.entries(CATS).map(([k,[n,e]])=><button class="pill" aria-pressed="false" data-c={k}>{n}</button>)}</div>
 {latest.length>0&&<section id="recent" data-window-from={iso(from)} data-window-to={iso(now)}><h2>Recently released <span class="mut num" style="font-size:15px;font-family:var(--sans)">{fmt(iso(from))} – {fmt(iso(now))}</span></h2><div class="grid">{latest.map(t=><Card t={t} badge={fmt(rd(t))}/>)}</div></section>}
 <div class="hrow"><h2>All tools <span id="n" class="mut num" style="font-size:15px;font-family:var(--sans)" aria-live="polite"></span></h2><Sort/></div><div class="lrow"><Lic/></div><div class="grid" id="all" data-sortable>{byNewest(tools).filter(t=>!latest.includes(t)).map(t=><Card t={t}/>)}<div class="empty" id="empty">No tools match. Try a broader term or <a href={u('/submit/')}>suggest one</a>.</div></div>
 <Newsletter/>
