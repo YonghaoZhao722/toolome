@@ -1,0 +1,4372 @@
+# Toolome — full tool data
+
+> Curated, hand-verified directory of AI tools for biology. 307 tools. Source: https://toolome.bio/
+
+## Single-cell & foundation models
+
+### scGPT
+
+Generative pretrained transformer foundation model for single-cell multi-omics.
+
+- Page: https://toolome.bio/tools/scgpt/
+- Website: https://github.com/bowang-lab/scGPT
+- GitHub: https://github.com/bowang-lab/scGPT
+- Paper: https://www.nature.com/articles/s41592-024-02201-0 (Nature Methods 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: foundation-model, transformer, annotation
+- Last checked: 2026-10-16
+
+### Geneformer
+
+Transformer pretrained on ~30M single-cell transcriptomes for network biology predictions.
+
+- Page: https://toolome.bio/tools/geneformer/
+- Website: https://huggingface.co/ctheodoris/Geneformer
+- Paper: https://www.nature.com/articles/s41586-023-06139-9 (Nature 2023)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: foundation-model, transfer-learning
+- Last checked: 2026-10-31
+
+### scvi-tools
+
+Probabilistic deep generative models for single-cell omics (scVI, totalVI, scANVI...).
+
+- Page: https://toolome.bio/tools/scvi-tools/
+- Website: https://scvi-tools.org
+- GitHub: https://github.com/scverse/scvi-tools
+- Paper: https://www.nature.com/articles/s41587-021-01206-w (Nature Biotechnology 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: vae, integration, python
+- Last checked: 2026-10-31
+
+### CellTypist
+
+Automated cell type annotation with logistic regression models trained on curated atlases.
+
+- Page: https://toolome.bio/tools/celltypist/
+- Website: https://www.celltypist.org
+- GitHub: https://github.com/Teichlab/celltypist
+- Paper: https://www.science.org/doi/10.1126/science.abl5197 (Science 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: annotation, immune
+- Last checked: 2026-10-16
+
+### Scanpy
+
+Scalable Python toolkit for single-cell gene expression analysis.
+
+- Page: https://toolome.bio/tools/scanpy/
+- Website: https://scanpy.readthedocs.io
+- GitHub: https://github.com/scverse/scanpy
+- Paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1382-0 (Genome Biology 2018)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: python, scverse, clustering
+- Last checked: 2026-10-16
+
+### Seurat
+
+R toolkit for single-cell genomics, integration and multimodal analysis.
+
+- Page: https://toolome.bio/tools/seurat/
+- Website: https://satijalab.org/seurat/
+- GitHub: https://github.com/satijalab/seurat
+- Paper: https://www.nature.com/articles/s41587-023-01767-y (Nature Biotechnology 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: r, integration, multimodal
+- Last checked: 2026-10-31
+
+### scFoundation
+
+100M-parameter foundation model trained on 50M human single-cell transcriptomes.
+
+- Page: https://toolome.bio/tools/scfoundation/
+- Website: https://github.com/biomap-research/scFoundation
+- GitHub: https://github.com/biomap-research/scFoundation
+- Paper: https://www.nature.com/articles/s41592-024-02305-7 (Nature Methods 2024)
+- License: Apache-2.0 (code; model weights under separate terms)
+- Pricing: Open source
+- Tags: foundation-model
+- Last checked: 2026-10-31
+
+### UCE (Universal Cell Embeddings)
+
+Cross-species zero-shot universal cell embedding foundation model.
+
+- Page: https://toolome.bio/tools/uce-universal-cell-embeddings/
+- Website: https://github.com/snap-stanford/UCE
+- GitHub: https://github.com/snap-stanford/UCE
+- Paper: https://www.biorxiv.org/content/10.1101/2023.11.28.568918 (bioRxiv preprint 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: foundation-model, cross-species
+- Last checked: 2026-10-16
+
+### CellRank
+
+Cell fate mapping using Markov chains on single-cell data.
+
+- Page: https://toolome.bio/tools/cellrank/
+- Website: https://cellrank.readthedocs.io
+- GitHub: https://github.com/scverse/cellrank
+- Paper: https://www.nature.com/articles/s41592-021-01346-6 (Nature Methods 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: trajectory, fate
+- Last checked: 2026-10-31
+
+### scVelo
+
+RNA velocity estimation with dynamical modeling.
+
+- Page: https://toolome.bio/tools/scvelo/
+- Website: https://scvelo.org
+- GitHub: https://github.com/theislab/scvelo
+- Paper: https://www.nature.com/articles/s41587-020-0591-3 (Nature Biotechnology 2020)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: velocity, trajectory
+- Last checked: 2026-10-16
+
+### MuData / muon
+
+Multimodal omics framework for single-cell multi-omics in Python.
+
+- Page: https://toolome.bio/tools/mudata-muon/
+- Website: https://muon.scverse.org
+- GitHub: https://github.com/scverse/muon
+- Paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02577-8 (Genome Biology 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: multimodal, scverse
+- Last checked: 2026-10-16
+
+### ArchR
+
+Scalable single-cell chromatin accessibility (scATAC-seq) analysis in R.
+
+- Page: https://toolome.bio/tools/archr/
+- Website: https://www.archrproject.com
+- GitHub: https://github.com/GreenleafLab/ArchR
+- Paper: https://www.nature.com/articles/s41588-021-00790-6 (Nature Genetics 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: atac, epigenomics
+- Last checked: 2026-10-16
+
+### CellOracle
+
+In silico gene perturbation via GRN inference from single-cell multi-omics.
+
+- Page: https://toolome.bio/tools/celloracle/
+- Website: https://github.com/morris-lab/CellOracle
+- GitHub: https://github.com/morris-lab/CellOracle
+- Paper: https://www.nature.com/articles/s41586-022-05688-9 (Nature 2023)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: grn, perturbation
+- Last checked: 2026-10-31
+
+### GEARS
+
+Graph-based prediction of transcriptional outcomes of genetic perturbations.
+
+- Page: https://toolome.bio/tools/gears/
+- Website: https://github.com/snap-stanford/GEARS
+- GitHub: https://github.com/snap-stanford/GEARS
+- Paper: https://www.nature.com/articles/s41587-023-01905-6 (Nature Biotechnology 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: perturbation, gnn
+- Last checked: 2026-10-31
+
+### Harmony
+
+Fast, sensitive batch integration of single-cell data.
+
+- Page: https://toolome.bio/tools/harmony/
+- Website: https://github.com/immunogenomics/harmony
+- GitHub: https://github.com/immunogenomics/harmony
+- Paper: https://www.nature.com/articles/s41592-019-0619-0 (Nature Methods 2019)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: integration, batch
+- Last checked: 2026-10-16
+
+### moscot
+
+Multi-omics single-cell optimal transport for space and time mapping.
+
+- Page: https://toolome.bio/tools/moscot/
+- Website: https://moscot.readthedocs.io
+- GitHub: https://github.com/theislab/moscot
+- Paper: https://www.nature.com/articles/s41586-024-08453-2 (Nature 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: optimal-transport, scverse
+- Last checked: 2026-10-16
+
+### Nicheformer
+
+Foundation model pretrained on dissociated and spatial single-cell data.
+
+- Page: https://toolome.bio/tools/nicheformer/
+- Website: https://github.com/theislab/nicheformer
+- GitHub: https://github.com/theislab/nicheformer
+- Paper: https://www.biorxiv.org/content/10.1101/2024.04.15.589472 (bioRxiv preprint 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: foundation-model
+- Last checked: 2026-10-16
+
+### CZ CELLxGENE
+
+Curated single-cell data portal and Census API with 100M+ cells.
+
+- Page: https://toolome.bio/tools/cz-cellxgene/
+- Website: https://cellxgene.cziscience.com
+- GitHub: https://github.com/chanzuckerberg/cellxgene-census
+- License: CC-BY-4.0 (data); MIT (Census code)
+- Pricing: Open source
+- Tags: atlas, single-cell
+- Last checked: 2026-10-31
+
+### PIE (Arc Institute)
+
+Virtual-cell model using curated biological knowledge to predict perturbation responses in unseen contexts.
+
+- Page: https://toolome.bio/tools/pie/
+- Website: https://arcinstitute.org/news/pie
+- GitHub: https://github.com/ArcInstitute/pie
+- Paper: https://doi.org/10.64898/2026.10.02.756297 (bioRxiv preprint 2026)
+- License: CC-BY-NC-SA-4.0
+- Pricing: Open source (non-commercial)
+- Tags: virtual-cell, perturbation
+- Released: 2026-10-05 (https://arcinstitute.org/news/pie)
+- Last checked: 2026-10-16
+
+### scBasset
+
+Sequence-based deep learning model for single-cell ATAC-seq representation and TF activity.
+
+- Page: https://toolome.bio/tools/scbasset/
+- Website: https://github.com/calico/scBasset
+- GitHub: https://github.com/calico/scBasset
+- Paper: https://doi.org/10.1038/s41592-022-01562-8 (Nature Methods 2022)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: scatac, epigenomics, embeddings
+- Last checked: 2026-10-16
+
+### State
+
+Arc Institute virtual-cell model predicting transcriptomic responses to perturbations across cell contexts.
+
+- Page: https://toolome.bio/tools/state/
+- Website: https://github.com/ArcInstitute/state
+- GitHub: https://github.com/ArcInstitute/state
+- Paper: https://doi.org/10.1101/2025.06.26.661135 (bioRxiv preprint 2025)
+- License: CC-BY-NC-SA-4.0
+- Pricing: Open source (non-commercial)
+- Tags: virtual-cell, perturbation, transformer
+- Last checked: 2026-10-16
+
+### TranscriptFormer
+
+CZI cross-species generative single-cell foundation model trained on 112M cells from 12 species.
+
+- Page: https://toolome.bio/tools/transcriptformer/
+- Website: https://github.com/czi-ai/transcriptformer
+- GitHub: https://github.com/czi-ai/transcriptformer
+- Paper: https://doi.org/10.1101/2025.04.25.650731 (bioRxiv preprint 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: foundation-model, cross-species, generative
+- Last checked: 2026-10-16
+
+### Tahoe-x1
+
+Perturbation-trained single-cell foundation models up to 3B parameters, pretrained on Tahoe-100M and fine-tuned for cancer tasks.
+
+- Page: https://toolome.bio/tools/tahoe-x1/
+- Website: https://github.com/tahoebio/tahoe-x1
+- GitHub: https://github.com/tahoebio/tahoe-x1
+- Paper: https://doi.org/10.1101/2025.10.23.683759 (bioRxiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: foundation-model, perturbation, transformer
+- Last checked: 2026-10-16
+
+### Stack
+
+Arc Institute model trained on 149M human cells using tabular attention for in-context learning; used to generate the Perturb Sapiens atlas (28 tissues, 201 perturbations).
+
+- Page: https://toolome.bio/tools/stack/
+- Website: https://arcinstitute.org/news/foundation-model-stack
+- GitHub: https://github.com/ArcInstitute/stack
+- Paper: https://doi.org/10.64898/2026.01.09.698608 (bioRxiv preprint 2026)
+- License: CC-BY-NC-SA-4.0 (code); Arc non-commercial (model)
+- Pricing: Open source (non-commercial)
+- Tags: foundation-model, in-context-learning, perturbation
+- Last checked: 2026-10-16
+
+### Virtual Cell Challenge 2026
+
+Arc Institute's perturbation benchmark: predict CRISPRi knockdown responses in six cell lines never seen perturbed, from their unperturbed state alone.
+
+- Page: https://toolome.bio/tools/virtual-cell-challenge-2026/
+- Website: https://arcinstitute.org/news/virtual-cell-challenge-2026
+- License: NOASSERTION
+- Pricing: No cost (research use)
+- Tags: perturb-seq, benchmark, virtual-cell
+- Last checked: 2026-10-31
+
+### CytoTRACE 2
+
+Interpretable deep learning model that predicts cellular potency and absolute developmental potential from scRNA-seq.
+
+- Page: https://toolome.bio/tools/cytotrace2/
+- Website: https://github.com/digitalcytometry/cytotrace2
+- GitHub: https://github.com/digitalcytometry/cytotrace2
+- Paper: https://doi.org/10.1038/s41592-025-02857-2 (Nature Methods 2025)
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: single-cell
+- Last checked: 2026-10-31
+
+### GLUE
+
+Graph-linked variational autoencoders that integrate unpaired single-cell multi-omics data and infer regulatory interactions.
+
+- Page: https://toolome.bio/tools/glue/
+- Website: https://github.com/gao-lab/GLUE
+- GitHub: https://github.com/gao-lab/GLUE
+- Paper: https://doi.org/10.1038/s41587-022-01284-4 (Nature Biotechnology 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: bioinformatics, deep-learning, single-cell
+- Last checked: 2026-10-31
+
+### CellBender
+
+Deep generative model that removes ambient RNA and other technical background from droplet scRNA-seq count matrices.
+
+- Page: https://toolome.bio/tools/cellbender/
+- Website: https://cellbender.rtfd.io
+- GitHub: https://github.com/broadinstitute/CellBender
+- Paper: https://doi.org/10.1038/s41592-023-01943-7 (Nature Methods 2023)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: single-cell
+- Last checked: 2026-10-31
+
+### ivis
+
+Siamese neural network for structure-preserving dimensionality reduction of very large single-cell datasets.
+
+- Page: https://toolome.bio/tools/ivis/
+- Website: https://beringresearch.github.io/ivis/
+- GitHub: https://github.com/beringresearch/ivis
+- Paper: https://doi.org/10.21105/joss.01596 (Journal of Open Source Software 2019)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: machine-learning, data-visualization, dimensionality-reduction
+- Last checked: 2026-10-31
+
+### SingleCellNet
+
+Random-forest classifier on gene pairs that assigns cell types to scRNA-seq data across species and platforms.
+
+- Page: https://toolome.bio/tools/singlecellnet/
+- Website: https://github.com/CahanLab/singleCellNet
+- GitHub: https://github.com/CahanLab/singleCellNet
+- Paper: https://doi.org/10.1016/j.cels.2019.06.004 (Cell Systems 2019)
+- License: MIT
+- Pricing: Open source
+- Tags: single-cell
+- Last checked: 2026-10-31
+
+### scDblFinder
+
+Doublet detection for single-cell data using gradient-boosted trees trained on artificial doublets.
+
+- Page: https://toolome.bio/tools/scdblfinder/
+- Website: https://plger.github.io/scDblFinder/
+- GitHub: https://github.com/plger/scDblFinder
+- Paper: https://doi.org/10.12688/f1000research.73600.2 (F1000Research)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: single-cell, doublets
+- Last checked: 2026-10-31
+
+### scDeepSort
+
+Pretrained weighted graph neural network for cell-type annotation of scRNA-seq data.
+
+- Page: https://toolome.bio/tools/scdeepsort/
+- Website: https://doi.org/10.1093/nar/gkab775
+- GitHub: https://github.com/ZJUFanLab/scDeepSort
+- Paper: https://doi.org/10.1093/nar/gkab775 (Nucleic Acids Research 2021)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: single-cell, transcriptomics, deep-learning
+- Last checked: 2026-10-16
+
+### Cell2Sentence (C2S-Scale)
+
+Turns expression profiles into ranked gene "cell sentences" so LLMs (up to 27B) can model and generate single-cell data.
+
+- Page: https://toolome.bio/tools/cell2sentence/
+- Website: https://github.com/vandijklab/cell2sentence
+- GitHub: https://github.com/vandijklab/cell2sentence
+- Paper: https://doi.org/10.1101/2023.09.11.557287 (bioRxiv preprint)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: single-cell
+- Last checked: 2026-10-16
+
+### CytoVI
+
+Deep generative model in scvi-tools that integrates flow cytometry, mass cytometry and CITE-seq data across panels, with protein imputation, differential expression and annotation.
+
+- Page: https://toolome.bio/tools/cytovi/
+- Website: https://docs.scvi-tools.org/en/stable/user_guide/models/cytovi.html
+- GitHub: https://github.com/scverse/scvi-tools
+- Paper: https://doi.org/10.1038/s41592-026-03224-5 (Nature Methods 2026)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: cytometry, vae, integration
+- Last checked: 2026-10-17
+
+### Helical
+
+Python framework that runs bio foundation models such as Geneformer, scGPT, UCE and Evo 2 through one interface for embedding and fine-tuning, with an MCP integration for OpenAI Codex.
+
+- Page: https://toolome.bio/tools/helical/
+- Website: https://github.com/helicalAI/helical
+- GitHub: https://github.com/helicalAI/helical
+- License: AGPL-3.0 (Package code AGPL-3.0 (GitHub LICENSE, PyPI); wrapped model weights keep their own upstream licenses)
+- Pricing: Open source
+- Tags: foundation-model, framework, mcp
+- Released: 2024-07-29 (https://www.helical.bio/blog/helical-partners-with-openai-and-nebius)
+- Last checked: 2026-10-31
+
+### VCPI (Virtual Cell Pharmacology Initiative)
+
+Ginkgo Datapoints' open arrayed DRUG-seq resource for virtual cell models: 26,000+ compounds profiled in THP-1 cells, including the 12,949-compound ReFRAME library.
+
+- Page: https://toolome.bio/tools/vcpi/
+- Website: https://thevirtualcell.com/
+- License: CC-BY-4.0
+- Pricing: Open source
+- Tags: perturbation, dataset, drug-seq, virtual-cell
+- Released: 2026-10-27 (https://datapoints.ginkgo.bio/updates/vcpi-releases-drug-seq-profiles-for-the-reframe-library)
+- Last checked: 2026-10-31
+
+## Spatial omics
+
+### Tangram
+
+Maps single-cell profiles onto spatial data with deep learning.
+
+- Page: https://toolome.bio/tools/tangram/
+- Website: https://github.com/broadinstitute/Tangram
+- GitHub: https://github.com/broadinstitute/Tangram
+- Paper: https://www.nature.com/articles/s41592-021-01264-7 (Nature Methods 2021)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: mapping, deconvolution
+- Last checked: 2026-10-16
+
+### PASTE
+
+Optimal-transport alignment and integration of spatial transcriptomics slices.
+
+- Page: https://toolome.bio/tools/paste/
+- Website: https://github.com/raphael-group/paste
+- GitHub: https://github.com/raphael-group/paste
+- Paper: https://www.nature.com/articles/s41592-022-01459-6 (Nature Methods 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: optimal-transport, alignment
+- Last checked: 2026-10-16
+
+### moscot
+
+Multi-omics single-cell optimal transport for space and time mapping.
+
+- Page: https://toolome.bio/tools/moscot/
+- Website: https://moscot.readthedocs.io
+- GitHub: https://github.com/theislab/moscot
+- Paper: https://www.nature.com/articles/s41586-024-08453-2 (Nature 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: optimal-transport, scverse
+- Last checked: 2026-10-16
+
+### cell2location
+
+Bayesian mapping of fine-grained cell types in spatial transcriptomics.
+
+- Page: https://toolome.bio/tools/cell2location/
+- Website: https://cell2location.readthedocs.io
+- GitHub: https://github.com/BayraktarLab/cell2location
+- Paper: https://www.nature.com/articles/s41587-021-01139-4 (Nature Biotechnology 2022)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: deconvolution, bayesian
+- Last checked: 2026-10-31
+
+### Squidpy
+
+Spatial single-cell analysis toolkit in the scverse ecosystem.
+
+- Page: https://toolome.bio/tools/squidpy/
+- Website: https://squidpy.readthedocs.io
+- GitHub: https://github.com/scverse/squidpy
+- Paper: https://www.nature.com/articles/s41592-021-01358-2 (Nature Methods 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: python, neighborhood, image
+- Last checked: 2026-10-31
+
+### SpatialData
+
+Unified data framework for spatial omics technologies.
+
+- Page: https://toolome.bio/tools/spatialdata/
+- Website: https://spatialdata.scverse.org
+- GitHub: https://github.com/scverse/spatialdata
+- Paper: https://www.nature.com/articles/s41592-024-02212-x (Nature Methods 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: data-format, scverse
+- Last checked: 2026-10-31
+
+### STAGATE
+
+Graph attention autoencoder for spatial domain identification.
+
+- Page: https://toolome.bio/tools/stagate/
+- Website: https://github.com/RucDongLab/STAGATE
+- GitHub: https://github.com/RucDongLab/STAGATE
+- Paper: https://www.nature.com/articles/s41467-022-29439-6 (Nature Communications 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: domains, gnn
+- Last checked: 2026-10-16
+
+### GraphST
+
+Graph self-supervised contrastive learning for spatial transcriptomics.
+
+- Page: https://toolome.bio/tools/graphst/
+- Website: https://github.com/JinmiaoChenLab/GraphST
+- GitHub: https://github.com/JinmiaoChenLab/GraphST
+- Paper: https://www.nature.com/articles/s41467-023-36796-3 (Nature Communications 2023)
+- License: AGPL-3.0
+- Pricing: Open source
+- Tags: contrastive, domains
+- Last checked: 2026-10-31
+
+### BayesSpace
+
+Bayesian clustering and resolution enhancement of spatial transcriptomics.
+
+- Page: https://toolome.bio/tools/bayesspace/
+- Website: https://github.com/edward130603/BayesSpace
+- GitHub: https://github.com/edward130603/BayesSpace
+- Paper: https://www.nature.com/articles/s41587-021-00935-2 (Nature Biotechnology 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: clustering, r
+- Last checked: 2026-10-16
+
+### RCTD (spacexr)
+
+Robust cell type decomposition for spatial transcriptomics.
+
+- Page: https://toolome.bio/tools/rctd-spacexr/
+- Website: https://github.com/dmcable/spacexr
+- GitHub: https://github.com/dmcable/spacexr
+- Paper: https://www.nature.com/articles/s41587-021-00830-w (Nature Biotechnology 2022)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: deconvolution, r
+- Last checked: 2026-10-16
+
+### Giotto Suite
+
+Comprehensive R toolbox for spatial data analysis and visualization.
+
+- Page: https://toolome.bio/tools/giotto-suite/
+- Website: https://giottosuite.com
+- GitHub: https://github.com/giotto-suite/Giotto
+- Paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02286-2 (Genome Biology 2021)
+- License: Custom
+- Pricing: Open source
+- Tags: r, visualization
+- Last checked: 2026-10-16
+
+### Nicheformer
+
+Foundation model pretrained on dissociated and spatial single-cell data.
+
+- Page: https://toolome.bio/tools/nicheformer/
+- Website: https://github.com/theislab/nicheformer
+- GitHub: https://github.com/theislab/nicheformer
+- Paper: https://www.biorxiv.org/content/10.1101/2024.04.15.589472 (bioRxiv preprint 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: foundation-model
+- Last checked: 2026-10-16
+
+### Novae
+
+Graph-based foundation model for spatial transcriptomics: zero-shot spatial domains and cross-slide/cross-technology integration.
+
+- Page: https://toolome.bio/tools/novae/
+- Website: https://github.com/prism-oncology/novae
+- GitHub: https://github.com/prism-oncology/novae
+- Paper: https://doi.org/10.1038/s41592-025-02899-6 (Nature Methods 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: foundation-model, graph, spatial-domains
+- Last checked: 2026-10-16
+
+### scGPT-spatial
+
+scGPT continually pretrained on spatial transcriptomics for spatial-aware embeddings, deconvolution and imputation.
+
+- Page: https://toolome.bio/tools/scgpt-spatial/
+- Website: https://github.com/bowang-lab/scGPT-spatial
+- GitHub: https://github.com/bowang-lab/scGPT-spatial
+- Paper: https://doi.org/10.1101/2025.02.05.636714 (bioRxiv preprint 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: foundation-model, scgpt
+- Last checked: 2026-10-16
+
+### Loki (OmiCLIP)
+
+Visual–omics foundation model aligning H&E histology with spatial transcriptomics for tissue alignment, cell-type decomposition and expression prediction.
+
+- Page: https://toolome.bio/tools/loki/
+- Website: https://github.com/GuangyuWangLab2021/Loki
+- GitHub: https://github.com/GuangyuWangLab2021/Loki
+- Paper: https://doi.org/10.1038/s41592-025-02707-1 (Nature Methods 2025)
+- License: BSD-3-Clause (non-commercial, academic use)
+- Pricing: Open source (non-commercial)
+- Tags: foundation-model, histology, multimodal
+- Last checked: 2026-10-31
+
+### BANKSY
+
+Neighborhood-augmented clustering that unifies cell typing and tissue-domain segmentation in spatial omics.
+
+- Page: https://toolome.bio/tools/banksy/
+- Website: https://github.com/prabhakarlab/Banksy
+- GitHub: https://github.com/prabhakarlab/Banksy
+- Paper: https://doi.org/10.1038/s41588-024-01664-3 (Nature Genetics 2024)
+- License: MIT (for academic use; commercial restrictions)
+- Pricing: Open source (non-commercial)
+- Tags: clustering, spatial-domains
+- Last checked: 2026-10-16
+
+### CellCharter
+
+Scalable identification and comparison of spatial cell niches across samples and technologies (scverse ecosystem).
+
+- Page: https://toolome.bio/tools/cellcharter/
+- Website: https://github.com/CSOgroup/cellcharter
+- GitHub: https://github.com/CSOgroup/cellcharter
+- Paper: https://doi.org/10.1038/s41588-023-01588-4 (Nature Genetics 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: niches, clustering, scverse
+- Last checked: 2026-10-16
+
+### CellART
+
+Unified framework for cell segmentation and cell-type annotation in high-resolution spatial transcriptomics such as Xenium and Visium HD.
+
+- Page: https://toolome.bio/tools/cellart/
+- Website: https://github.com/YangLabHKUST/CellART
+- GitHub: https://github.com/YangLabHKUST/CellART
+- Paper: https://www.nature.com/articles/s43588-026-01054-1 (Nature Computational Science 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: segmentation, annotation, visium-hd
+- Last checked: 2026-10-16
+
+### Cellist
+
+Scalable cell segmentation for subcellular-resolution spatial transcriptomics that combines staining images with transcript signals across platforms.
+
+- Page: https://toolome.bio/tools/cellist/
+- Website: https://github.com/wanglabtongji/Cellist
+- GitHub: https://github.com/wanglabtongji/Cellist
+- Paper: https://www.nature.com/articles/s41588-026-02610-1 (Nature Genetics 2026)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: segmentation, stereo-seq, xenium
+- Last checked: 2026-10-31
+
+### GigaTIME
+
+Microsoft and Providence model that turns routine H&E slides into virtual multiplex immunofluorescence maps of 21 proteins.
+
+- Page: https://toolome.bio/tools/gigatime/
+- Website: https://github.com/prov-gigatime/GigaTIME
+- GitHub: https://github.com/prov-gigatime/GigaTIME
+- Paper: https://doi.org/10.1016/j.cell.2025.11.016 (Cell 2026)
+- License: Apache-2.0 (weights Apache-2.0; model card: any deployed use out of scope)
+- Pricing: Open source
+- Tags: pathology, virtual-staining, tumor-microenvironment
+- Last checked: 2026-10-31
+
+### VirTues
+
+Bunne lab's spatial proteomics foundation model for multiplexed tissue imaging, from molecules to cells to tissue, for diagnostics and case retrieval.
+
+- Page: https://toolome.bio/tools/virtues/
+- Website: https://github.com/bunnelab/virtues
+- GitHub: https://github.com/bunnelab/virtues
+- Paper: https://www.nature.com/articles/s41586-026-10884-y (Nature 2026)
+- License: MIT (virtues-sp31 weights); CC BY-NC 4.0 (virtues-sp32 weights); no repo license file
+- Pricing: Open source
+- Tags: spatial-proteomics, foundation-model, multiplexed-imaging
+- Last checked: 2026-10-31
+
+### SpaGCN
+
+Graph convolutional network that combines gene expression, spatial location and histology to find spatial domains and spatially variable genes.
+
+- Page: https://toolome.bio/tools/spagcn/
+- Website: https://github.com/jianhuupenn/SpaGCN
+- GitHub: https://github.com/jianhuupenn/SpaGCN
+- Paper: https://doi.org/10.1038/s41592-021-01255-8 (Nature Methods 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: spatial-transcriptomics, graph-convolutional-network, spatial-domains
+- Last checked: 2026-10-31
+
+### HEST
+
+HEST-1k dataset of 1,276 paired spatial transcriptomics and H&E whole-slide samples, plus a library and benchmark for histology foundation models.
+
+- Page: https://toolome.bio/tools/hest/
+- Website: https://github.com/mahmoodlab/HEST
+- GitHub: https://github.com/mahmoodlab/HEST
+- Paper: https://arxiv.org/abs/2406.16192 (arXiv preprint 2024)
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: spatial-transcriptomics, computational-pathology, histology
+- Last checked: 2026-10-31
+
+### NicheCompass
+
+Graph deep learning model that learns cell embeddings from communication programs to identify niches across spatial samples.
+
+- Page: https://toolome.bio/tools/nichecompass/
+- Website: https://nichecompass.readthedocs.io/
+- GitHub: https://github.com/Lotfollahi-lab/nichecompass
+- Paper: https://doi.org/10.1038/s41588-025-02120-6 (Nature Genetics 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: deep-learning, graph-neural-networks, spatial-omics
+- Last checked: 2026-10-31
+
+## Protein structure & design
+
+### AlphaFold Server (AlphaFold 3)
+
+Structure prediction of proteins, nucleic acids, ligands and their complexes; hosted web server plus open code, weights on request for non-commercial use.
+
+- Page: https://toolome.bio/tools/alphafold-server-alphafold-3/
+- Website: https://alphafoldserver.com
+- GitHub: https://github.com/google-deepmind/alphafold3
+- Paper: https://www.nature.com/articles/s41586-024-07487-w (Nature 2024)
+- License: Apache-2.0 (code; AlphaFold 3 model parameters terms (non-commercial weights))
+- Pricing: No cost (research use)
+- Tags: structure, complexes
+- Last checked: 2026-10-31
+
+### AlphaFold DB
+
+200M+ predicted protein structures from DeepMind and EMBL-EBI.
+
+- Page: https://toolome.bio/tools/alphafold-db/
+- Website: https://alphafold.ebi.ac.uk
+- Paper: https://academic.oup.com/nar/article/52/D1/D368/7337620 (Nucleic Acids Research 2024)
+- License: CC-BY-4.0
+- Pricing: Open source
+- Tags: database, structure
+- Last checked: 2026-10-16
+
+### RFdiffusion
+
+Diffusion model for de novo protein backbone design and binder design.
+
+- Page: https://toolome.bio/tools/rfdiffusion/
+- Website: https://github.com/RosettaCommons/RFdiffusion
+- GitHub: https://github.com/RosettaCommons/RFdiffusion
+- Paper: https://www.nature.com/articles/s41586-023-06415-8 (Nature 2023)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: design, diffusion
+- Last checked: 2026-10-16
+
+### ProteinMPNN
+
+Deep-learning inverse folding: designs sequences for given backbones.
+
+- Page: https://toolome.bio/tools/proteinmpnn/
+- Website: https://github.com/dauparas/ProteinMPNN
+- GitHub: https://github.com/dauparas/ProteinMPNN
+- Paper: https://www.science.org/doi/10.1126/science.add2187 (Science 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: inverse-folding, design
+- Last checked: 2026-10-16
+
+### LigandMPNN
+
+Protein sequence design that explicitly models small molecules, nucleotides and metals, and also outputs side-chain conformations.
+
+- Page: https://toolome.bio/tools/ligandmpnn/
+- Website: https://github.com/dauparas/LigandMPNN
+- GitHub: https://github.com/dauparas/LigandMPNN
+- Paper: https://doi.org/10.1038/s41592-025-02626-1 (Nature Methods 2025)
+- License: MIT (code and model parameters MIT per README)
+- Pricing: Open source
+- Tags: inverse-folding, design, binder-design
+- Last checked: 2026-10-18
+
+### ESM3 / EvolutionaryScale
+
+Multimodal generative protein language model over sequence, structure and function (ESM3; also ESM C embeddings).
+
+- Page: https://toolome.bio/tools/esm3/
+- Website: https://www.evolutionaryscale.ai
+- GitHub: https://github.com/Biohub/esm
+- Paper: https://www.science.org/doi/10.1126/science.ads0018 (Science 2025)
+- License: MIT
+- Pricing: No-cost tier + paid plans
+- Tags: plm, generative
+- Last checked: 2026-10-16
+
+### ESM-2 / ESMFold
+
+Protein language models and single-sequence structure prediction (Meta repo archived; models still widely used via Hugging Face).
+
+- Page: https://toolome.bio/tools/esm-2-esmfold/
+- Website: https://github.com/facebookresearch/esm
+- GitHub: https://github.com/facebookresearch/esm
+- Paper: https://www.science.org/doi/10.1126/science.ade2574 (Science 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: plm, structure
+- Last checked: 2026-10-16
+
+### Boltz
+
+Open biomolecular interaction models (Boltz-1, Boltz-2) for complex structure and binding-affinity prediction.
+
+- Page: https://toolome.bio/tools/boltz/
+- Website: https://github.com/jwohlwend/boltz
+- GitHub: https://github.com/jwohlwend/boltz
+- Paper: https://www.biorxiv.org/content/10.1101/2024.11.19.624167 (bioRxiv preprint 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: structure, affinity
+- Last checked: 2026-10-31
+
+### Chai-1
+
+Multimodal foundation model for molecular structure prediction.
+
+- Page: https://toolome.bio/tools/chai-1/
+- Website: https://www.chaidiscovery.com
+- GitHub: https://github.com/chaidiscovery/chai-lab
+- Paper: https://www.biorxiv.org/content/10.1101/2024.10.10.615955 (bioRxiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: structure, complexes
+- Last checked: 2026-10-31
+
+### OpenFold
+
+Trainable open-source reproduction of AlphaFold2 in PyTorch.
+
+- Page: https://toolome.bio/tools/openfold/
+- Website: https://openfold.io
+- GitHub: https://github.com/aqlaboratory/openfold
+- Paper: https://www.nature.com/articles/s41592-024-02272-z (Nature Methods 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: structure, pytorch
+- Last checked: 2026-10-31
+
+### ColabFold
+
+Fast, accessible protein folding with MMseqs2 + AlphaFold in Colab.
+
+- Page: https://toolome.bio/tools/colabfold/
+- Website: https://github.com/sokrypton/ColabFold
+- GitHub: https://github.com/sokrypton/ColabFold
+- Paper: https://www.nature.com/articles/s41592-022-01488-1 (Nature Methods 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: structure, colab
+- Last checked: 2026-10-31
+
+### RoseTTAFold All-Atom
+
+Generalized biomolecular modeling for proteins, nucleic acids, small molecules.
+
+- Page: https://toolome.bio/tools/rosettafold-all-atom/
+- Website: https://github.com/baker-laboratory/RoseTTAFold-All-Atom
+- GitHub: https://github.com/baker-laboratory/RoseTTAFold-All-Atom
+- Paper: https://www.science.org/doi/10.1126/science.adl2528 (Science 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: structure
+- Last checked: 2026-10-16
+
+### BindCraft
+
+One-shot de novo binder design pipeline with AF2 hallucination.
+
+- Page: https://toolome.bio/tools/bindcraft/
+- Website: https://github.com/martinpacesa/BindCraft
+- GitHub: https://github.com/martinpacesa/BindCraft
+- Paper: https://www.nature.com/articles/s41586-025-09429-6 (Nature 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: binder, design
+- Last checked: 2026-10-31
+
+### Foldseek
+
+Fast and accurate protein structure search.
+
+- Page: https://toolome.bio/tools/foldseek/
+- Website: https://search.foldseek.com
+- GitHub: https://github.com/steineggerlab/foldseek
+- Paper: https://www.nature.com/articles/s41587-023-01773-0 (Nature Biotechnology 2024)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: search, structure
+- Last checked: 2026-10-16
+
+### Protenix
+
+Trainable PyTorch reproduction of AlphaFold 3 by ByteDance.
+
+- Page: https://toolome.bio/tools/protenix/
+- Website: https://github.com/bytedance/Protenix
+- GitHub: https://github.com/bytedance/Protenix
+- Paper: https://www.biorxiv.org/content/10.1101/2025.01.08.631967 (bioRxiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: structure
+- Last checked: 2026-10-31
+
+### Tamarind Bio
+
+No-code web platform running 100+ protein and molecular ML models.
+
+- Page: https://toolome.bio/tools/tamarind-bio/
+- Website: https://www.tamarind.bio
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: no-code, platform
+- Last checked: 2026-10-31
+
+### CASP
+
+Critical Assessment of protein Structure Prediction community experiment.
+
+- Page: https://toolome.bio/tools/casp/
+- Website: https://predictioncenter.org
+- License: Open
+- Pricing: Open source
+- Tags: benchmark, structure
+- Last checked: 2026-10-31
+
+### AlphaProtein Novo
+
+Google DeepMind diffusion pipeline for de novo enzyme design via catalytic motif scaffolding.
+
+- Page: https://toolome.bio/tools/alphaprotein-novo/
+- Website: https://github.com/google-deepmind/alphaprotein-novo
+- GitHub: https://github.com/google-deepmind/alphaprotein-novo
+- Paper: https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1 (bioRxiv preprint 2026)
+- License: Apache-2.0 (code; non-commercial weights)
+- Pricing: Open source (non-commercial)
+- Tags: enzyme-design, diffusion
+- Released: 2026-10-05 (https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1)
+- Last checked: 2026-10-31
+
+### Prompteina
+
+Text-to-structure all-atom protein design: generate monomers and binders from natural-language prompts.
+
+- Page: https://toolome.bio/tools/prompteina/
+- Website: https://github.com/jleechung/prompteina
+- GitHub: https://github.com/jleechung/prompteina
+- Paper: https://arxiv.org/abs/2610.13917 (arXiv preprint 2026)
+- License: Apache-2.0 (code; NVIDIA Open Model License weights)
+- Pricing: Open source
+- Tags: text-conditioned, binder-design
+- Released: 2026-10-09 (https://arxiv.org/abs/2610.13917)
+- Last checked: 2026-10-31
+
+### IgFold
+
+Fast antibody structure prediction using AntiBERTy embeddings and graph networks.
+
+- Page: https://toolome.bio/tools/igfold/
+- Website: https://github.com/Graylab/IgFold
+- GitHub: https://github.com/Graylab/IgFold
+- Paper: https://doi.org/10.1038/s41467-023-38063-x (Nature Communications 2023)
+- License: JHU Academic Software License
+- Pricing: Open source (non-commercial)
+- Tags: antibody, structure, fast
+- Last checked: 2026-10-31
+
+### AbLang
+
+Antibody language model for heavy/light chains, used for residue restoration and embeddings.
+
+- Page: https://toolome.bio/tools/ablang/
+- Website: https://github.com/oxpig/AbLang
+- GitHub: https://github.com/oxpig/AbLang
+- Paper: https://doi.org/10.1093/bioadv/vbac046 (Bioinformatics Advances 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: antibody, language-model, embeddings
+- Last checked: 2026-10-16
+
+### AbLang-2
+
+Paired-chain antibody language model trained to reduce germline bias.
+
+- Page: https://toolome.bio/tools/ablang2/
+- Website: https://github.com/oxpig/AbLang2
+- GitHub: https://github.com/oxpig/AbLang2
+- Paper: https://doi.org/10.1093/bioinformatics/btae618 (Bioinformatics 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: antibody, language-model, paired
+- Last checked: 2026-10-16
+
+### ImmuneBuilder
+
+Deep learning structure prediction for antibodies, nanobodies and TCRs (ABodyBuilder2 etc.).
+
+- Page: https://toolome.bio/tools/immunebuilder/
+- Website: https://github.com/oxpig/ImmuneBuilder
+- GitHub: https://github.com/oxpig/ImmuneBuilder
+- Paper: https://doi.org/10.1038/s42003-023-04927-7 (Communications Biology 2023)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: antibody, tcr, structure
+- Last checked: 2026-10-31
+
+### AntiBERTy
+
+BERT-style antibody language model trained on 558M OAS sequences.
+
+- Page: https://toolome.bio/tools/antiberty/
+- Website: https://github.com/jeffreyruffolo/AntiBERTy
+- GitHub: https://github.com/jeffreyruffolo/AntiBERTy
+- Paper: https://arxiv.org/abs/2112.07782 (arXiv preprint 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: antibody, language-model, oas
+- Last checked: 2026-10-31
+
+### RFantibody
+
+Structure-based de novo antibody and nanobody design with fine-tuned RFdiffusion, ProteinMPNN and RF2.
+
+- Page: https://toolome.bio/tools/rfantibody/
+- Website: https://github.com/RosettaCommons/RFantibody
+- GitHub: https://github.com/RosettaCommons/RFantibody
+- Paper: https://doi.org/10.1101/2024.03.14.585103 (bioRxiv preprint 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: antibody, design, diffusion
+- Last checked: 2026-10-16
+
+### BioPhi
+
+Antibody humanization (Sapiens) and humanness evaluation (OASis) platform.
+
+- Page: https://toolome.bio/tools/biophi/
+- Website: https://github.com/Merck/BioPhi
+- GitHub: https://github.com/Merck/BioPhi
+- Paper: https://doi.org/10.1080/19420862.2021.2020203 (mAbs 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: antibody, humanization, web
+- Last checked: 2026-10-16
+
+### AlphaFold 2
+
+DeepMind's open-source protein structure prediction model (monomer and multimer).
+
+- Page: https://toolome.bio/tools/alphafold2/
+- Website: https://github.com/google-deepmind/alphafold
+- GitHub: https://github.com/google-deepmind/alphafold
+- Paper: https://doi.org/10.1038/s41586-021-03819-2 (Nature 2021)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: structure, msa, deepmind
+- Last checked: 2026-10-31
+
+### BioEmu
+
+Generative model emulating protein equilibrium structural ensembles.
+
+- Page: https://toolome.bio/tools/bioemu/
+- Website: https://github.com/microsoft/bioemu
+- GitHub: https://github.com/microsoft/bioemu
+- Paper: https://doi.org/10.1126/science.adv9817 (Science 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: dynamics, ensembles, generative
+- Last checked: 2026-10-16
+
+### Proteina
+
+NVIDIA flow-matching model for large-scale protein backbone generation.
+
+- Page: https://toolome.bio/tools/proteina/
+- Website: https://github.com/NVIDIA-BioNeMo/proteina
+- GitHub: https://github.com/NVIDIA-BioNeMo/proteina
+- Paper: https://arxiv.org/abs/2503.00710 (arXiv preprint 2025)
+- License: NVIDIA License (non-commercial)
+- Pricing: Open source (non-commercial)
+- Tags: design, flow-matching, backbone
+- Last checked: 2026-10-31
+
+### La-Proteina
+
+NVIDIA latent flow model for joint atomistic protein sequence-structure generation.
+
+- Page: https://toolome.bio/tools/la-proteina/
+- Website: https://github.com/NVIDIA-BioNeMo/la-proteina
+- GitHub: https://github.com/NVIDIA-BioNeMo/la-proteina
+- Paper: https://arxiv.org/abs/2507.09466 (arXiv preprint 2025)
+- License: Apache-2.0 (code; NVIDIA Open Model License weights)
+- Pricing: Open source
+- Tags: design, flow-matching, all-atom
+- Last checked: 2026-10-31
+
+### ProGen2
+
+Protein language models (up to 6.4B) for sequence generation and fitness prediction.
+
+- Page: https://toolome.bio/tools/progen2/
+- Website: https://github.com/salesforce/progen
+- GitHub: https://github.com/salesforce/progen
+- Paper: https://doi.org/10.1016/j.cels.2023.10.002 (Cell Systems 2023)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: language-model, generative, fitness
+- Last checked: 2026-10-31
+
+### RFdiffusion2
+
+Atom-level enzyme active-site scaffolding with diffusion, no sequence-position constraints.
+
+- Page: https://toolome.bio/tools/rfdiffusion2/
+- Website: https://github.com/RosettaCommons/RFdiffusion2
+- GitHub: https://github.com/RosettaCommons/RFdiffusion2
+- Paper: https://doi.org/10.1038/s41592-025-02975-x (Nature Methods 2026)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: enzyme-design, diffusion, all-atom
+- Last checked: 2026-10-16
+
+### BoltzGen
+
+Open generative model for designing protein and peptide binders against diverse targets.
+
+- Page: https://toolome.bio/tools/boltzgen/
+- Website: https://github.com/HannesStark/boltzgen
+- GitHub: https://github.com/HannesStark/boltzgen
+- License: MIT
+- Pricing: Open source
+- Tags: binder-design, generative, open
+- Last checked: 2026-10-31
+
+### OpenFold3
+
+Open-source AlphaFold3-style model predicting structures of proteins, nucleic acids and small-molecule complexes (preview release).
+
+- Page: https://toolome.bio/tools/openfold3/
+- Website: https://github.com/aqlaboratory/openfold-3
+- GitHub: https://github.com/aqlaboratory/openfold-3
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: structure-prediction, co-folding, all-atom
+- Last checked: 2026-10-16
+
+### RFdiffusion3
+
+All-atom diffusion model from the Baker lab for designing protein binders to DNA, proteins and small molecules, plus enzymes; ~10x faster than RFdiffusion2.
+
+- Page: https://toolome.bio/tools/rfdiffusion3/
+- Website: https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/
+- GitHub: https://github.com/RosettaCommons/foundry
+- Paper: https://doi.org/10.1126/science.aeh2982 (Science 2026)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: protein-design, diffusion, all-atom
+- Last checked: 2026-10-17
+
+### BIOS
+
+AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; hosted at chat.bio.xyz (the earlier open BioAgents framework is archived).
+
+- Page: https://toolome.bio/tools/bios/
+- Website: https://ai.bio.xyz
+- License: Proprietary
+- Pricing: No-cost tier + paid plans
+- Tags: ai-scientist, literature, multi-agent
+- Last checked: 2026-10-31
+
+### IsoDDE
+
+Isomorphic Labs Drug Design Engine: proprietary system predicting protein–ligand and antibody–antigen structures, binding affinity and cryptic pockets beyond AlphaFold 3.
+
+- Page: https://toolome.bio/tools/isodde/
+- Website: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier
+- License: Proprietary
+- Pricing: Contact
+- Tags: co-folding, binding-affinity, proprietary
+- Last checked: 2026-10-31
+
+### ESMFold2 & ESMC (Biohub)
+
+Biohub's protein 'world model': ESMC language model (~2.8B sequences), ESMFold2 complex structure prediction/design, and ESM Atlas (6.8B sequences).
+
+- Page: https://toolome.bio/tools/esmfold2-esmc-biohub/
+- Website: https://biohub.ai/esm/protein/
+- GitHub: https://github.com/Biohub/esm
+- License: MIT
+- Pricing: Open source
+- Tags: protein-language-model, structure-prediction, binder-design
+- Last checked: 2026-10-31
+
+### OpenDDE
+
+Apache-licensed all-atom co-folding foundation model for structure prediction, design and optimization in drug discovery (preview).
+
+- Page: https://toolome.bio/tools/opendde/
+- Website: https://github.com/aurekaresearch/OpenDDE
+- GitHub: https://github.com/aurekaresearch/OpenDDE
+- Paper: https://arxiv.org/abs/2607.03787 (arXiv preprint 2026)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: co-folding, all-atom, antibody
+- Last checked: 2026-10-31
+
+### TorchX
+
+Changping Lab × Huawei NPU-native all-atom biomolecular model suite: TorchFold (antibody–antigen), TorchScore and TorchCraft (design); MIT weights + training data.
+
+- Page: https://toolome.bio/tools/torchx/
+- Website: https://laoyaoba.com/n/1110147
+- License: MIT
+- Pricing: Open source
+- Tags: antibody, all-atom, npu
+- Last checked: 2026-10-31
+
+### Protein2PAM
+
+Profluent's protein language model that predicts a Cas enzyme's PAM specificity from its sequence and guides PAM-engineering of Cas9 variants.
+
+- Page: https://toolome.bio/tools/protein2pam/
+- Website: https://protein2pam.profluent.bio
+- GitHub: https://github.com/Profluent-AI/protein2pam
+- Paper: https://www.nature.com/articles/s41587-025-02995-0 (Nature Biotechnology 2026)
+- License: PolyForm Noncommercial (code); CC BY-NC 4.0 (weights)
+- Pricing: Open source (non-commercial)
+- Tags: pam, cas-engineering, protein-language-model
+- Last checked: 2026-10-31
+
+### ProtTrans
+
+Transformer protein language models (ProtT5, ProtBERT and others) pretrained on UniRef and BFD, used for embeddings and fine-tuning.
+
+- Page: https://toolome.bio/tools/prottrans/
+- Website: https://github.com/agemagician/ProtTrans
+- GitHub: https://github.com/agemagician/ProtTrans
+- Paper: https://doi.org/10.1109/TPAMI.2021.3095381 (IEEE Transactions on Pattern Analysis and Machine Intelligence 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: protein
+- Last checked: 2026-10-31
+
+### RoseTTAFold
+
+Baker lab's three-track neural network for protein structure and protein-protein complex prediction.
+
+- Page: https://toolome.bio/tools/rosettafold/
+- Website: https://github.com/RosettaCommons/RoseTTAFold
+- GitHub: https://github.com/RosettaCommons/RoseTTAFold
+- Paper: https://doi.org/10.1126/science.abj8754 (Science 2021)
+- License: MIT (code; trained weights non-commercial, Rosetta-DL Software license)
+- Pricing: Open source (non-commercial)
+- Tags: protein
+- Last checked: 2026-10-16
+
+### PaddleHelix
+
+Baidu's bio-computing platform built on PaddlePaddle, including HelixFold structure prediction and molecular representation models.
+
+- Page: https://toolome.bio/tools/paddlehelix/
+- Website: https://github.com/PaddlePaddle/PaddleHelix
+- GitHub: https://github.com/PaddlePaddle/PaddleHelix
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: biocomputing, machine-learning, deeplearning
+- Last checked: 2026-10-31
+
+### MaSIF
+
+Geometric deep learning on protein molecular surfaces to predict interaction sites, ligand pockets and binding partners.
+
+- Page: https://toolome.bio/tools/masif/
+- Website: https://github.com/LPDI-EPFL/masif
+- GitHub: https://github.com/LPDI-EPFL/masif
+- Paper: https://doi.org/10.1038/s41592-019-0666-6 (Nature Methods 2020)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: protein-surface, molecular-surface, geometric-deep-learning
+- Last checked: 2026-10-31
+
+### ThermoMPNN
+
+Graph neural network built on ProteinMPNN that predicts stability changes (ddG) for protein point mutations.
+
+- Page: https://toolome.bio/tools/thermompnn/
+- Website: https://github.com/Kuhlman-Lab/ThermoMPNN
+- GitHub: https://github.com/Kuhlman-Lab/ThermoMPNN
+- Paper: https://doi.org/10.1073/pnas.2314853121 (Proceedings of the National Academy of Sciences 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: protein
+- Last checked: 2026-10-16
+
+### SaProt
+
+Protein language model with a structure-aware vocabulary combining amino acids with Foldseek 3Di tokens.
+
+- Page: https://toolome.bio/tools/saprot/
+- Website: https://github.com/westlake-repl/SaProt
+- GitHub: https://github.com/westlake-repl/SaProt
+- Paper: https://doi.org/10.1101/2023.10.01.560349 (bioRxiv preprint)
+- License: MIT
+- Pricing: Open source
+- Tags: alphafold2, foldseek, predicted-structures
+- Last checked: 2026-10-16
+
+### Efficient Evolution
+
+Uses general protein language models to recommend affinity-improving mutations, applied to human antibodies.
+
+- Page: https://toolome.bio/tools/efficient-evolution/
+- Website: https://github.com/brianhie/efficient-evolution
+- GitHub: https://github.com/brianhie/efficient-evolution
+- Paper: https://doi.org/10.1038/s41587-023-01763-2 (Nature Biotechnology 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: protein
+- Last checked: 2026-10-31
+
+### FoldingDiff
+
+Diffusion model that generates protein backbones by denoising internal backbone angles.
+
+- Page: https://toolome.bio/tools/foldingdiff/
+- Website: https://www.nature.com/articles/s41467-024-45051-2
+- GitHub: https://github.com/microsoft/foldingdiff
+- Paper: https://arxiv.org/abs/2209.15611 (arXiv preprint 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: diffusion, diffusion-models, protein
+- Last checked: 2026-10-31
+
+### STARLING
+
+Latent diffusion model that predicts coarse-grained conformational ensembles of intrinsically disordered regions from sequence.
+
+- Page: https://toolome.bio/tools/starling/
+- Website: https://github.com/idptools/starling
+- GitHub: https://github.com/idptools/starling
+- Paper: https://doi.org/10.1038/s41586-026-10141-2 (Nature 2026)
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: protein
+- Last checked: 2026-10-31
+
+### TAPE
+
+Benchmark of five protein tasks with pretraining corpus and pretrained language model weights for evaluating protein embeddings.
+
+- Page: https://toolome.bio/tools/tape/
+- Website: https://www.biorxiv.org/content/10.1101/676825v1
+- GitHub: https://github.com/songlab-cal/tape
+- Paper: https://arxiv.org/abs/1906.08230 (arXiv preprint 2019)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: deep-learning, protein-sequences, protein-structure
+- Last checked: 2026-10-29
+
+### DISCO
+
+Diffusion model that co-designs protein sequence and structure conditioned on ligands, DNA or RNA.
+
+- Page: https://toolome.bio/tools/disco/
+- Website: https://disco-design.github.io/
+- GitHub: https://github.com/DISCO-design/DISCO
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: diffusion-models, enzyme-design, protein-design
+- Last checked: 2026-10-31
+
+### Raygun
+
+Template-based protein design: edits an existing protein by insertions, deletions and substitutions while keeping its fold and function.
+
+- Page: https://toolome.bio/tools/raygun/
+- Website: https://github.com/rohitsinghlab/raygun
+- GitHub: https://github.com/rohitsinghlab/raygun
+- Paper: https://doi.org/10.1038/s41586-026-10842-8 (Nature 2026)
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: protein
+- Last checked: 2026-10-31
+
+### ODesign
+
+All-atom generative world model for designing proteins, ligands, nucleic acids and cyclic peptides that bind a given target.
+
+- Page: https://toolome.bio/tools/odesign/
+- Website: https://github.com/OTeam-AI4S/ODesign
+- GitHub: https://github.com/OTeam-AI4S/ODesign
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: protein
+- Last checked: 2026-10-31
+
+### FrameDiff (SE(3) diffusion)
+
+SE(3) diffusion model for protein backbone generation over residue frames.
+
+- Page: https://toolome.bio/tools/se3-diffusion/
+- Website: https://arxiv.org/abs/2302.02277
+- GitHub: https://github.com/jasonkyuyim/se3_diffusion
+- Paper: https://arxiv.org/abs/2302.02277 (arXiv preprint 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: protein
+- Last checked: 2026-10-31
+
+### BioEmu2
+
+Foundation model for biomolecular structure and dynamics: structure prediction, equilibrium ensemble sampling and time-lagged trajectory generation for proteins, nucleic acids and ligands.
+
+- Page: https://toolome.bio/tools/bioemu2/
+- Website: https://github.com/microsoft/bioemu2
+- GitHub: https://github.com/microsoft/bioemu2
+- License: MIT (code and bioemu2-preview weights MIT (README and Hugging Face model card))
+- Pricing: Open source
+- Tags: dynamics, ensembles, generative, structure-prediction
+- Last checked: 2026-10-31
+
+### RFD4-Proteina
+
+Flow-matching model from the Baker lab and NVIDIA that co-designs protein sequence and all-atom structure, covering binders, antibodies, enzymes and small-molecule pockets, with reward-guided search.
+
+- Page: https://toolome.bio/tools/rfd4-proteina/
+- Website: https://rfd4-proteina.org/
+- GitHub: https://github.com/RosettaCommons/RFD4-Proteina
+- Paper: https://rfd4-proteina.org/assets/paper/RFD4-Proteina.pdf (Preprint 2026)
+- License: BSD-3-Clause (code BSD-3-Clause; Hugging Face weights BSD-3-Clause)
+- Pricing: Open source
+- Tags: protein-design, flow-matching, all-atom, antibody
+- Last checked: 2026-10-31
+
+### Pinal
+
+Westlake University model that designs protein sequences from a natural-language description: a text-to-structure model (T2struc) proposes structure tokens, then SaProt-T writes the sequence.
+
+- Page: https://toolome.bio/tools/pinal/
+- Website: http://www.denovo-pinal.com/
+- GitHub: https://github.com/westlake-repl/Denovo-Pinal
+- Paper: https://doi.org/10.1038/s41586-026-11205-z (Nature 2026)
+- License: Apache-2.0 (code Apache-2.0 (GitHub LICENSE))
+- Pricing: Open source
+- Tags: protein-design, text-to-protein, protein-language-model
+- Released: 2026-10-21 (https://doi.org/10.1038/s41586-026-11205-z)
+- Last checked: 2026-10-23
+
+### recAMPLIFY
+
+Chandar Lab's recursive masked protein language model: a weight-tied recurrent core refines residue embeddings over several cycles, so you can spend more compute per sequence at inference without adding parameters.
+
+- Page: https://toolome.bio/tools/recamplify/
+- Website: https://huggingface.co/chandar-lab/recamplify
+- GitHub: https://github.com/chandar-lab/AMPLIFY
+- Paper: https://arxiv.org/abs/2610.26747 (arXiv 2026)
+- License: MIT (MIT (Hugging Face model card; AMPLIFY GitHub repo))
+- Pricing: Open source
+- Tags: protein-language-model, embeddings, recursive-transformer
+- Released: 2026-10-19 (https://arxiv.org/abs/2610.26747)
+- Last checked: 2026-10-31
+
+### Mol-1
+
+Molence Bio's open all-atom structure prediction model, derived from Protenix, for protein, nucleic acid, ligand and ion complexes, tuned for antibody–antigen, protein–ligand and peptide accuracy, with fine-tuning code.
+
+- Page: https://toolome.bio/tools/mol-1/
+- Website: https://github.com/molence/Mol-1
+- GitHub: https://github.com/molence/Mol-1
+- License: Apache-2.0 (Code Apache-2.0 (LICENSE, pyproject.toml); the 2.2 GB mol-1-base checkpoint is a public download, with no separate weights license stated)
+- Pricing: Open source
+- Tags: structure, co-folding, antibody
+- Released: 2026-10-27 (https://x.com/MolenceBio/status/2115168486661951698)
+- Last checked: 2026-10-31
+
+## Genomics & DNA models
+
+### Evo 2
+
+Genome language model across all domains of life with 1M-token context.
+
+- Page: https://toolome.bio/tools/evo-2/
+- Website: https://github.com/ArcInstitute/evo2
+- GitHub: https://github.com/ArcInstitute/evo2
+- Paper: https://www.biorxiv.org/content/10.1101/2025.02.18.638918 (bioRxiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dna-lm, foundation-model
+- Last checked: 2026-10-16
+
+### AlphaGenome
+
+DeepMind model predicting regulatory effects of DNA variants at base resolution.
+
+- Page: https://toolome.bio/tools/alphagenome/
+- Website: https://github.com/google-deepmind/alphagenome
+- GitHub: https://github.com/google-deepmind/alphagenome
+- Paper: https://www.biorxiv.org/content/10.1101/2025.06.25.661532 (bioRxiv preprint 2025)
+- License: Apache-2.0 (client)
+- Pricing: No cost (research use)
+- Tags: regulatory, variant-effect
+- Last checked: 2026-10-31
+
+### Enformer
+
+Predicts gene expression from sequence with long-range interactions.
+
+- Page: https://toolome.bio/tools/enformer/
+- Website: https://github.com/google-deepmind/deepmind-research/tree/master/enformer
+- GitHub: https://github.com/google-deepmind/deepmind-research
+- Paper: https://www.nature.com/articles/s41592-021-01252-x (Nature Methods 2021)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: expression, regulatory
+- Last checked: 2026-10-16
+
+### SpliceAI
+
+Deep learning prediction of splicing effects from pre-mRNA sequence (repo archived).
+
+- Page: https://toolome.bio/tools/spliceai/
+- Website: https://github.com/Illumina/SpliceAI
+- GitHub: https://github.com/Illumina/SpliceAI
+- Paper: https://www.cell.com/cell/fulltext/S0092-8674(18)31629-5 (Cell 2019)
+- License: PolyForm-Strict-1.0
+- Pricing: Open source (non-commercial)
+- Tags: splicing, variant
+- Last checked: 2026-10-16
+
+### Nucleotide Transformer
+
+DNA foundation models pretrained on 3,200+ human and 850 species genomes.
+
+- Page: https://toolome.bio/tools/nucleotide-transformer/
+- Website: https://github.com/instadeepai/nucleotide-transformer
+- GitHub: https://github.com/instadeepai/nucleotide-transformer
+- Paper: https://www.nature.com/articles/s41592-024-02523-z (Nature Methods 2025)
+- License: CC-BY-NC-SA-4.0
+- Pricing: Open source (non-commercial)
+- Tags: dna-lm
+- Last checked: 2026-10-16
+
+### HyenaDNA
+
+Long-range genomic foundation model at single-nucleotide resolution.
+
+- Page: https://toolome.bio/tools/hyenadna/
+- Website: https://github.com/HazyResearch/hyena-dna
+- GitHub: https://github.com/HazyResearch/hyena-dna
+- Paper: https://arxiv.org/abs/2306.15794 (arXiv preprint 2023)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dna-lm, long-context
+- Last checked: 2026-10-31
+
+### DNABERT-2
+
+Efficient multi-species genome foundation model.
+
+- Page: https://toolome.bio/tools/dnabert-2/
+- Website: https://github.com/MAGICS-LAB/DNABERT_2
+- GitHub: https://github.com/MAGICS-LAB/DNABERT_2
+- Paper: https://arxiv.org/abs/2306.15006 (arXiv preprint 2023)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dna-lm
+- Last checked: 2026-10-31
+
+### Borzoi
+
+Predicts RNA-seq coverage from DNA sequence.
+
+- Page: https://toolome.bio/tools/borzoi/
+- Website: https://github.com/calico/borzoi
+- GitHub: https://github.com/calico/borzoi
+- Paper: https://www.nature.com/articles/s41588-024-02053-6 (Nature Genetics 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: expression, rna-seq
+- Last checked: 2026-10-16
+
+### AlphaMissense
+
+Proteome-wide pathogenicity predictions for 71M missense variants (repo archived; precomputed scores available).
+
+- Page: https://toolome.bio/tools/alphamissense/
+- Website: https://github.com/google-deepmind/alphamissense
+- GitHub: https://github.com/google-deepmind/alphamissense
+- Paper: https://www.science.org/doi/10.1126/science.adg7492 (Science 2023)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: variant-effect
+- Last checked: 2026-10-16
+
+### Caduceus
+
+Bidirectional, reverse-complement-equivariant DNA language model.
+
+- Page: https://toolome.bio/tools/caduceus/
+- Website: https://github.com/kuleshov-group/caduceus
+- GitHub: https://github.com/kuleshov-group/caduceus
+- Paper: https://arxiv.org/abs/2403.03234 (arXiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dna-lm, mamba
+- Last checked: 2026-10-31
+
+### SpliceAI2
+
+Illumina's successor to SpliceAI: predicts splice-site usage and full transcript isoforms from sequence.
+
+- Page: https://toolome.bio/tools/spliceai2/
+- Website: https://www.illumina.com/science/genomics-research/articles/introducing-spliceai2--the-next-generation-of-splicing-and-trans.html
+- License: See Illumina
+- Pricing: No cost (research use)
+- Tags: splicing, variant-effect
+- Released: 2026-10-08 (https://www.illumina.com/company/news-center/press-releases/2026/29236.html)
+- Last checked: 2026-10-31
+
+### Carbon-A
+
+1.2B DNA model that annotates protein-coding genes across eukaryotes; ships a 48K-assembly annotation database.
+
+- Page: https://toolome.bio/tools/carbon-a/
+- Website: https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation
+- License: See model card
+- Pricing: Open source
+- Tags: genome-annotation, dna-model
+- Released: 2026-10-08 (https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation)
+- Last checked: 2026-10-31
+
+### Basenji
+
+Sequence-to-function CNNs predicting chromatin accessibility, histone marks and expression tracks from DNA.
+
+- Page: https://toolome.bio/tools/basenji/
+- Website: https://github.com/calico/basenji
+- GitHub: https://github.com/calico/basenji
+- Paper: https://doi.org/10.1101/gr.227819.117 (Genome Research 2018)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: epigenomics, sequence-to-function, chromatin
+- Last checked: 2026-10-16
+
+### ChromBPNet
+
+Bias-corrected base-resolution deep learning models of ATAC/DNase-seq chromatin accessibility and TF motifs.
+
+- Page: https://toolome.bio/tools/chrombpnet/
+- Website: https://github.com/kundajelab/chrombpnet
+- GitHub: https://github.com/kundajelab/chrombpnet
+- Paper: https://doi.org/10.1101/2024.12.25.630221 (bioRxiv preprint 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: epigenomics, atac-seq, motifs
+- Last checked: 2026-10-16
+
+### BPNet
+
+Base-resolution neural network for TF binding profiles (ChIP-nexus/ChIP-seq) and motif syntax discovery.
+
+- Page: https://toolome.bio/tools/bpnet/
+- Website: https://github.com/kundajelab/bpnet
+- GitHub: https://github.com/kundajelab/bpnet
+- Paper: https://doi.org/10.1038/s41588-021-00782-6 (Nature Genetics 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: epigenomics, tf-binding, interpretability
+- Last checked: 2026-10-16
+
+### Sei
+
+Predicts 21,907 chromatin profiles from sequence and maps variants to regulatory sequence classes.
+
+- Page: https://toolome.bio/tools/sei/
+- Website: https://github.com/FunctionLab/sei-framework
+- GitHub: https://github.com/FunctionLab/sei-framework
+- Paper: https://doi.org/10.1038/s41588-022-01102-2 (Nature Genetics 2022)
+- License: Princeton license: academic and research use only; commercial use via Princeton OTL
+- Pricing: Open source (non-commercial)
+- Tags: epigenomics, regulatory, variant-effect
+- Last checked: 2026-10-16
+
+### Selene
+
+PyTorch library for training and applying sequence-level deep learning models (DeepSEA-style).
+
+- Page: https://toolome.bio/tools/selene/
+- Website: https://github.com/FunctionLab/selene
+- GitHub: https://github.com/FunctionLab/selene
+- Paper: https://doi.org/10.1038/s41592-019-0360-8 (Nature Methods 2019)
+- License: BSD-3-Clause-Clear
+- Pricing: Open source
+- Tags: library, sequence-models, pytorch
+- Last checked: 2026-10-31
+
+### EVE
+
+Unsupervised evolutionary VAE for predicting pathogenicity of missense variants.
+
+- Page: https://toolome.bio/tools/eve/
+- Website: https://github.com/OATML-Markslab/EVE
+- GitHub: https://github.com/OATML-Markslab/EVE
+- Paper: https://doi.org/10.1038/s41586-021-04043-8 (Nature 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: variant-effect, vae, clinical
+- Last checked: 2026-10-16
+
+### PrimateAI-3D
+
+Missense variant pathogenicity model trained on primate population variation and 3D protein structure.
+
+- Page: https://toolome.bio/tools/primateai-3d/
+- Website: https://github.com/Illumina/PrimateAI-3D
+- GitHub: https://github.com/Illumina/PrimateAI-3D
+- Paper: https://doi.org/10.1126/science.abn8197 (Science 2023)
+- License: PolyForm-Strict-1.0
+- Pricing: Open source (non-commercial)
+- Tags: variant-effect, pathogenicity, illumina
+- Last checked: 2026-10-16
+
+### GPN-MSA
+
+Genomic language model over multi-species alignments for genome-wide variant effect prediction.
+
+- Page: https://toolome.bio/tools/gpn-msa/
+- Website: https://github.com/songlab-cal/gpn
+- GitHub: https://github.com/songlab-cal/gpn
+- Paper: https://doi.org/10.1038/s41587-024-02511-w (Nature Biotechnology 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: variant-effect, dna-lm, alignment
+- Last checked: 2026-10-16
+
+### Evo
+
+7B genomic foundation model (StripedHyena) for prokaryotic DNA, RNA and protein design at single-nucleotide resolution.
+
+- Page: https://toolome.bio/tools/evo/
+- Website: https://github.com/evo-design/evo
+- GitHub: https://github.com/evo-design/evo
+- Paper: https://doi.org/10.1126/science.ado9336 (Science 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dna-lm, generative, foundation-model
+- Last checked: 2026-10-16
+
+### Nucleotide Transformer v3 (NTv3)
+
+Multi-species DNA foundation model with 1 Mb single-base context; predicts ~16k functional tracks, annotates genomes, and designs enhancers.
+
+- Page: https://toolome.bio/tools/nucleotide-transformer-v3-ntv3/
+- Website: https://huggingface.co/spaces/InstaDeepAI/ntv3
+- GitHub: https://github.com/instadeepai/nucleotide-transformer
+- Paper: https://doi.org/10.64898/2025.12.22.695963 (bioRxiv preprint 2025)
+- License: CC-BY-NC-SA-4.0
+- Pricing: Open source (non-commercial)
+- Tags: dna-language-model, long-context, sequence-design
+- Last checked: 2026-10-16
+
+### DeepSomatic
+
+Google's deep-learning somatic small-variant caller for tumor/normal data across Illumina, PacBio and Oxford Nanopore.
+
+- Page: https://toolome.bio/tools/deepsomatic/
+- Website: https://github.com/google/deepsomatic
+- GitHub: https://github.com/google/deepsomatic
+- Paper: https://doi.org/10.1101/2024.08.16.608331 (bioRxiv preprint 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: variant-calling, somatic, cancer
+- Last checked: 2026-10-16
+
+### gLM2 / OMG
+
+Tatta Bio's mixed-modality (protein + DNA) genomic language model trained on the OMG open metagenomic corpus.
+
+- Page: https://toolome.bio/tools/glm2/
+- Website: https://huggingface.co/tattabio/gLM2_650M
+- GitHub: https://github.com/TattaBio/gLM2
+- Paper: https://doi.org/10.1101/2024.08.14.607850 (bioRxiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: language-model, metagenomics, dataset
+- Last checked: 2026-10-16
+
+### AtacWorks
+
+NVIDIA's deep learning toolkit that denoises ATAC-seq coverage tracks and calls peaks from low-coverage or low-quality data.
+
+- Page: https://toolome.bio/tools/atacworks/
+- Website: https://github.com/NVIDIA-Genomics-Research/AtacWorks
+- GitHub: https://github.com/NVIDIA-Genomics-Research/AtacWorks
+- Paper: https://doi.org/10.1038/s41467-021-21765-5 (Nature Communications)
+- License: no license detected by GitHub
+- Pricing: Research release
+- Tags: genomics
+- Last checked: 2026-10-31
+
+### Carbon
+
+Hugging Face's family of open generative DNA language models (500M, 3B, 8B) with 6-mer tokens and up to ~786 kbp context; zero-shot variant-effect scoring and sequence generation.
+
+- Page: https://toolome.bio/tools/carbon/
+- Website: https://huggingface.co/HuggingFaceBio/Carbon-3B
+- GitHub: https://github.com/huggingface/carbon
+- Paper: https://github.com/huggingface/carbon/blob/06a594b80566fd82f03d64bba7824aeac8cad03e/tech-report.pdf (Technical report 2026)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dna-model, foundation-model, generative
+- Last checked: 2026-10-31
+
+### Seal
+
+Troyanskaya lab's sequence-to-expression transfer-learning model: predicts gene expression and variant effects across 802 developing-brain contexts (26 regions, 30 cell types, 7 stages).
+
+- Page: https://toolome.bio/tools/seal/
+- Website: https://github.com/FunctionLab/Seal
+- GitHub: https://github.com/FunctionLab/Seal
+- Paper: https://doi.org/10.1038/s41593-026-02470-2 (Nature Neuroscience 2026)
+- License: Princeton/Simons license: academic and research use only; model weights on Zenodo CC BY 4.0
+- Pricing: Open source (non-commercial)
+- Tags: variant-effect, regulatory, transfer-learning
+- Last checked: 2026-10-31
+
+### tangermeme
+
+Toolkit for using trained genomic deep learning models: batched predictions, DeepLIFT/SHAP attributions, variant effects, ablations, seqlet calling, motif annotation and DNA design.
+
+- Page: https://toolome.bio/tools/tangermeme/
+- Website: https://tangermeme.readthedocs.io/en/latest/
+- GitHub: https://github.com/jmschrei/tangermeme
+- Paper: https://doi.org/10.1038/s41592-026-03254-z (Nature Methods 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: interpretability, regulatory, variant-effect, pytorch
+- Last checked: 2026-10-31
+
+### GPN-Star
+
+Phylogeny-aware genomic language model over whole-genome alignments and species trees for genome-wide variant effect and constraint prediction.
+
+- Page: https://toolome.bio/tools/gpn-star/
+- Website: https://gpn.readthedocs.io/en/latest/models/gpn-star/
+- GitHub: https://github.com/songlab-cal/gpn
+- Paper: https://doi.org/10.1038/s41586-026-11005-5 (Nature 2026)
+- License: MIT (code MIT; Hugging Face checkpoints MIT)
+- Pricing: Open source
+- Tags: variant-effect, dna-lm, alignment, evolution
+- Last checked: 2026-10-20
+
+### Carbon-X
+
+Hugging Face's 14.8B DNA-and-English chat model built on Qwen3-14B: paste up to ~50 kbp of DNA and ask about variant effects, regulatory regions, organism group or sequence continuation, with explanations.
+
+- Page: https://toolome.bio/tools/carbon-x/
+- Website: https://huggingface.co/HuggingFaceBio/Carbon-X
+- License: Apache-2.0 (Apache-2.0 (weights and GGUF quantizations))
+- Pricing: Open source
+- Tags: dna-model, variant-effect, llm, chat
+- Released: 2026-10-22 (https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/)
+- Last checked: 2026-10-31
+
+### Helical
+
+Python framework that runs bio foundation models such as Geneformer, scGPT, UCE and Evo 2 through one interface for embedding and fine-tuning, with an MCP integration for OpenAI Codex.
+
+- Page: https://toolome.bio/tools/helical/
+- Website: https://github.com/helicalAI/helical
+- GitHub: https://github.com/helicalAI/helical
+- License: AGPL-3.0 (Package code AGPL-3.0 (GitHub LICENSE, PyPI); wrapped model weights keep their own upstream licenses)
+- Pricing: Open source
+- Tags: foundation-model, framework, mcp
+- Released: 2024-07-29 (https://www.helical.bio/blog/helical-partners-with-openai-and-nebius)
+- Last checked: 2026-10-31
+
+## Drug discovery & molecules
+
+### RDKit
+
+Open-source cheminformatics and machine learning toolkit.
+
+- Page: https://toolome.bio/tools/rdkit/
+- Website: https://www.rdkit.org
+- GitHub: https://github.com/rdkit/rdkit
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: cheminformatics
+- Last checked: 2026-10-31
+
+### DeepChem
+
+Deep learning toolkit for drug discovery, materials and biology.
+
+- Page: https://toolome.bio/tools/deepchem/
+- Website: https://deepchem.io
+- GitHub: https://github.com/deepchem/deepchem
+- License: MIT
+- Pricing: Open source
+- Tags: ml, molecules
+- Last checked: 2026-10-31
+
+### DiffDock
+
+Diffusion generative model for molecular docking.
+
+- Page: https://toolome.bio/tools/diffdock/
+- Website: https://github.com/gcorso/DiffDock
+- GitHub: https://github.com/gcorso/DiffDock
+- Paper: https://arxiv.org/abs/2210.01776 (arXiv preprint 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: docking, diffusion
+- Last checked: 2026-10-31
+
+### REINVENT 4
+
+AstraZeneca's generative molecular design framework.
+
+- Page: https://toolome.bio/tools/reinvent-4/
+- Website: https://github.com/MolecularAI/REINVENT4
+- GitHub: https://github.com/MolecularAI/REINVENT4
+- Paper: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00812-5 (Journal of Cheminformatics 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: generative, de-novo
+- Last checked: 2026-10-31
+
+### Chemprop
+
+Message passing neural networks for molecular property prediction.
+
+- Page: https://toolome.bio/tools/chemprop/
+- Website: https://github.com/chemprop/chemprop
+- GitHub: https://github.com/chemprop/chemprop
+- Paper: https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237 (Journal of Chemical Information and Modeling 2019)
+- License: MIT
+- Pricing: Open source
+- Tags: property-prediction, gnn
+- Last checked: 2026-10-16
+
+### TorchDrug
+
+PyTorch platform for drug discovery machine learning: property prediction, generation and retrosynthesis.
+
+- Page: https://toolome.bio/tools/torchdrug/
+- Website: https://torchdrug.ai
+- GitHub: https://github.com/DeepGraphLearning/torchdrug
+- Paper: https://arxiv.org/abs/2202.08320 (arXiv preprint 2022)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: pytorch, graph
+- Last checked: 2026-10-31
+
+### AutoDock Vina
+
+Fast, widely used open-source molecular docking engine.
+
+- Page: https://toolome.bio/tools/autodock-vina/
+- Website: https://vina.scripps.edu
+- GitHub: https://github.com/ccsb-scripps/AutoDock-Vina
+- Paper: https://pubs.acs.org/doi/10.1021/acs.jcim.1c00203 (Journal of Chemical Information and Modeling 2021)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: docking
+- Last checked: 2026-10-16
+
+### OpenMM
+
+High-performance molecular dynamics toolkit with GPU support.
+
+- Page: https://toolome.bio/tools/openmm/
+- Website: https://openmm.org
+- GitHub: https://github.com/openmm/openmm
+- Paper: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005659 (PLOS Computational Biology 2017)
+- License: MIT/LGPL
+- Pricing: Open source
+- Tags: molecular-dynamics
+- Last checked: 2026-10-31
+
+### NVIDIA BioNeMo
+
+NVIDIA platform and NIMs for training and deploying biology foundation models.
+
+- Page: https://toolome.bio/tools/nvidia-bionemo/
+- Website: https://www.nvidia.com/en-us/clara/bionemo/
+- GitHub: https://github.com/NVIDIA-BioNeMo/bionemo-recipes
+- License: Apache-2.0 (framework)
+- Pricing: No-cost tier + paid plans
+- Tags: platform, gpu
+- Last checked: 2026-10-31
+
+### Rowan
+
+Cloud computational chemistry platform with ML-accelerated simulations.
+
+- Page: https://toolome.bio/tools/rowan/
+- Website: https://rowansci.com
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: quantum-chemistry, cloud
+- Last checked: 2026-10-31
+
+### PoseBusters
+
+Plausibility checks and benchmark for docking/structure poses.
+
+- Page: https://toolome.bio/tools/posebusters/
+- Website: https://github.com/maabuu/posebusters
+- GitHub: https://github.com/maabuu/posebusters
+- Paper: https://pubs.rsc.org/en/content/articlelanding/2024/sc/d3sc04185a (Chemical Science 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: benchmark, docking
+- Last checked: 2026-10-16
+
+### IsoDDE
+
+Isomorphic Labs Drug Design Engine: proprietary system predicting protein–ligand and antibody–antigen structures, binding affinity and cryptic pockets beyond AlphaFold 3.
+
+- Page: https://toolome.bio/tools/isodde/
+- Website: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier
+- License: Proprietary
+- Pricing: Contact
+- Tags: co-folding, binding-affinity, proprietary
+- Last checked: 2026-10-31
+
+### OpenDDE
+
+Apache-licensed all-atom co-folding foundation model for structure prediction, design and optimization in drug discovery (preview).
+
+- Page: https://toolome.bio/tools/opendde/
+- Website: https://github.com/aurekaresearch/OpenDDE
+- GitHub: https://github.com/aurekaresearch/OpenDDE
+- Paper: https://arxiv.org/abs/2607.03787 (arXiv preprint 2026)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: co-folding, all-atom, antibody
+- Last checked: 2026-10-31
+
+### Nesso-1
+
+Recursion's Apache-2.0 co-folding model for fast protein–ligand binding-affinity prediction.
+
+- Page: https://toolome.bio/tools/nesso-1/
+- Website: https://github.com/recursionpharma/nesso
+- GitHub: https://github.com/recursionpharma/nesso
+- Paper: https://doi.org/10.64898/2026.08.01.742196 (bioRxiv preprint 2026)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: binding-affinity, co-folding
+- Last checked: 2026-10-16
+
+### OpenBind model
+
+First predictive model from the UK OpenBind consortium, trained on its experimental protein–ligand dataset.
+
+- Page: https://toolome.bio/tools/openbind-model/
+- Website: https://openbind.uk/news/openbind-releases-its-first-predictive-ai-model/
+- License: Open access (downloadable at no cost; license not stated)
+- Pricing: Open source
+- Tags: binding, protein-ligand
+- Last checked: 2026-10-31
+
+### Amazon Bio Discovery
+
+AWS antibody-design platform: 40+ hosted biological AI models, agents and no-code pipelines, with wet-lab ordering through partner CROs and results fed back for model refinement.
+
+- Page: https://toolome.bio/tools/amazon-bio-discovery/
+- Website: https://aws.amazon.com/biodiscovery/
+- License: Commercial
+- Pricing: Paid
+- Tags: antibody, lab-in-the-loop, aws
+- Last checked: 2026-10-31
+
+### GeoDiff
+
+Geometric diffusion model that generates 3D molecular conformations from molecular graphs (ICLR 2022).
+
+- Page: https://toolome.bio/tools/geodiff/
+- Website: https://github.com/MinkaiXu/GeoDiff
+- GitHub: https://github.com/MinkaiXu/GeoDiff
+- Paper: https://arxiv.org/abs/2203.02923 (arXiv preprint 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: molecule, graph-neural-networks, generative-models
+- Last checked: 2026-10-31
+
+### DiffSBDD
+
+Equivariant diffusion model that designs small molecules directly inside a protein pocket.
+
+- Page: https://toolome.bio/tools/diffsbdd/
+- Website: https://github.com/arneschneuing/DiffSBDD
+- GitHub: https://github.com/arneschneuing/DiffSBDD
+- Paper: https://doi.org/10.1038/s43588-024-00737-x (Nature Computational Science 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: ddpm, drug-design, equivariance
+- Last checked: 2026-10-31
+
+### deeptime
+
+Python library for learning dynamical models from time series, from Markov state models to VAMPnets and deep MSMs.
+
+- Page: https://toolome.bio/tools/deeptime/
+- Website: https://deeptime-ml.github.io/
+- GitHub: https://github.com/deeptime-ml/deeptime
+- Paper: https://doi.org/10.1088/2632-2153/ac3de0 (Machine Learning: Science and Technology 2022)
+- License: LGPL-3.0
+- Pricing: Open source
+- Tags: time-series-analysis, markov-state-model, covariance-estimation
+- Last checked: 2026-10-31
+
+### TorchANI
+
+PyTorch library for training and running ANI neural-network interatomic potentials, maintained by the Roitberg group.
+
+- Page: https://toolome.bio/tools/torchani/
+- Website: https://aiqm.github.io/torchani/
+- GitHub: https://github.com/aiqm/torchani
+- Paper: https://doi.org/10.1021/acs.jpcb.5c05725 (The Journal of Physical Chemistry B 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: deep-learning, neural-network, quantum-mechanics
+- Last checked: 2026-10-16
+
+### TorchMD
+
+PyTorch molecular dynamics engine that mixes classical force fields with neural network potentials.
+
+- Page: https://toolome.bio/tools/torchmd/
+- Website: https://github.com/torchmd/torchmd
+- GitHub: https://github.com/torchmd/torchmd
+- Paper: https://doi.org/10.1021/acs.jctc.0c01343 (Journal of Chemical Theory and Computation 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: molecular-dynamics, coarse-grained-molecular-dynamics, machine-learning
+- Last checked: 2026-10-16
+
+### Pocket2Mol
+
+E(3)-equivariant graph neural network that samples drug-like molecules atom by atom inside 3D protein pockets.
+
+- Page: https://toolome.bio/tools/pocket2mol/
+- Website: https://github.com/pengxingang/Pocket2Mol
+- GitHub: https://github.com/pengxingang/Pocket2Mol
+- Paper: https://arxiv.org/abs/2205.07249 (arXiv preprint 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: drug-discovery
+- Last checked: 2026-10-31
+
+### PocketGen
+
+Generates full-atom ligand-binding protein pockets, co-designing residue sequence and structure.
+
+- Page: https://toolome.bio/tools/pocketgen/
+- Website: https://zitniklab.hms.harvard.edu/projects/PocketGen/
+- GitHub: https://github.com/zaixizhang/PocketGen
+- Paper: https://doi.org/10.1038/s42256-024-00920-9 (Nature Machine Intelligence 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: generative, geometric-deep-learning, protein-language-model
+- Last checked: 2026-10-31
+
+### Mol-1
+
+Molence Bio's open all-atom structure prediction model, derived from Protenix, for protein, nucleic acid, ligand and ion complexes, tuned for antibody–antigen, protein–ligand and peptide accuracy, with fine-tuning code.
+
+- Page: https://toolome.bio/tools/mol-1/
+- Website: https://github.com/molence/Mol-1
+- GitHub: https://github.com/molence/Mol-1
+- License: Apache-2.0 (Code Apache-2.0 (LICENSE, pyproject.toml); the 2.2 GB mol-1-base checkpoint is a public download, with no separate weights license stated)
+- Pricing: Open source
+- Tags: structure, co-folding, antibody
+- Released: 2026-10-27 (https://x.com/MolenceBio/status/2115168486661951698)
+- Last checked: 2026-10-31
+
+### VCPI (Virtual Cell Pharmacology Initiative)
+
+Ginkgo Datapoints' open arrayed DRUG-seq resource for virtual cell models: 26,000+ compounds profiled in THP-1 cells, including the 12,949-compound ReFRAME library.
+
+- Page: https://toolome.bio/tools/vcpi/
+- Website: https://thevirtualcell.com/
+- License: CC-BY-4.0
+- Pricing: Open source
+- Tags: perturbation, dataset, drug-seq, virtual-cell
+- Released: 2026-10-27 (https://datapoints.ginkgo.bio/updates/vcpi-releases-drug-seq-profiles-for-the-reframe-library)
+- Last checked: 2026-10-31
+
+## Bio LLM agents & copilots
+
+### Biomni
+
+General-purpose biomedical AI agent with 150+ tools and databases.
+
+- Page: https://toolome.bio/tools/biomni/
+- Website: https://biomni.stanford.edu
+- GitHub: https://github.com/snap-stanford/Biomni
+- Paper: https://www.biorxiv.org/content/10.1101/2025.05.30.656746 (bioRxiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: agent, llm
+- Last checked: 2026-10-16
+
+### Edison Scientific Platform (FutureHouse)
+
+FutureHouse's hosted AI scientist agents (Crow, Falcon, Owl, Phoenix) for literature search, precedent search and chemistry.
+
+- Page: https://toolome.bio/tools/futurehouse-platform/
+- Website: https://platform.edisonscientific.com
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: agent, literature
+- Last checked: 2026-10-31
+
+### PaperQA2
+
+High-accuracy RAG agent over scientific papers.
+
+- Page: https://toolome.bio/tools/paperqa2/
+- Website: https://github.com/Future-House/paper-qa
+- GitHub: https://github.com/Future-House/paper-qa
+- Paper: https://arxiv.org/abs/2409.13740 (arXiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: rag, literature
+- Last checked: 2026-10-31
+
+### BioChatter
+
+Framework for LLM-based conversational biomedical research.
+
+- Page: https://toolome.bio/tools/biochatter/
+- Website: https://biochatter.org
+- GitHub: https://github.com/biocypher/biochatter
+- Paper: https://www.nature.com/articles/s41587-024-02534-3 (Nature Biotechnology 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: llm, framework
+- Last checked: 2026-10-31
+
+### Elicit
+
+AI research assistant for literature search and data extraction.
+
+- Page: https://toolome.bio/tools/elicit/
+- Website: https://elicit.com
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: literature
+- Last checked: 2026-10-31
+
+### Consensus
+
+AI search engine over peer-reviewed research.
+
+- Page: https://toolome.bio/tools/consensus/
+- Website: https://consensus.app
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: literature, search
+- Last checked: 2026-10-31
+
+### Benchling
+
+R&D cloud with ELN, molecular biology and AI tooling.
+
+- Page: https://toolome.bio/tools/benchling/
+- Website: https://www.benchling.com
+- License: Commercial
+- Pricing: Contact
+- Tags: eln, platform
+- Last checked: 2026-10-31
+
+### Coscientist
+
+GPT-4-driven agent that plans and executes chemistry experiments on lab hardware.
+
+- Page: https://toolome.bio/tools/coscientist/
+- Website: https://github.com/gomesgroup/coscientist
+- GitHub: https://github.com/gomesgroup/coscientist
+- Paper: https://doi.org/10.1038/s41586-023-06792-0 (Nature 2023)
+- License: Apache-2.0 (+ Commons Clause)
+- Pricing: Open source (non-commercial)
+- Tags: lab-automation, chemistry, autonomous
+- Last checked: 2026-10-31
+
+### ChemCrow
+
+LLM chemistry agent augmented with 18 expert tools for synthesis and molecule tasks.
+
+- Page: https://toolome.bio/tools/chemcrow/
+- Website: https://github.com/ur-whitelab/chemcrow-public
+- GitHub: https://github.com/ur-whitelab/chemcrow-public
+- Paper: https://doi.org/10.1038/s42256-024-00832-8 (Nature Machine Intelligence 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: chemistry, tools, agent
+- Last checked: 2026-10-31
+
+### PyLabRobot
+
+Hardware-agnostic Python interface for liquid-handling robots and lab automation.
+
+- Page: https://toolome.bio/tools/pylabrobot/
+- Website: https://docs.pylabrobot.org
+- GitHub: https://github.com/PyLabRobot/pylabrobot
+- Paper: https://doi.org/10.1016/j.device.2023.100111 (Device 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: lab-automation, liquid-handling, python
+- Last checked: 2026-10-16
+
+### BioDiscoveryAgent
+
+LLM agent that designs genetic perturbation experiments (e.g. CRISPR screens).
+
+- Page: https://toolome.bio/tools/biodiscoveryagent/
+- Website: https://github.com/snap-stanford/BioDiscoveryAgent
+- GitHub: https://github.com/snap-stanford/BioDiscoveryAgent
+- Paper: https://arxiv.org/abs/2405.17631 (arXiv preprint 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: experiment-design, perturbation, agent
+- Last checked: 2026-10-31
+
+### Robin
+
+FutureHouse multi-agent system automating hypothesis generation and data analysis for drug discovery.
+
+- Page: https://toolome.bio/tools/robin/
+- Website: https://github.com/Future-House/robin
+- GitHub: https://github.com/Future-House/robin
+- Paper: https://arxiv.org/abs/2505.13400 (arXiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: multi-agent, hypothesis, discovery
+- Last checked: 2026-10-31
+
+### Aviary
+
+Gymnasium for training language agents on scientific tasks (molecular cloning, literature QA).
+
+- Page: https://toolome.bio/tools/aviary/
+- Website: https://github.com/Future-House/aviary
+- GitHub: https://github.com/Future-House/aviary
+- Paper: https://arxiv.org/abs/2412.21154 (arXiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: training, environments, rl
+- Last checked: 2026-10-31
+
+### Kosmos
+
+Edison Scientific's AI scientist: long autonomous runs that read ~1,500 papers and write tens of thousands of lines of analysis code per run.
+
+- Page: https://toolome.bio/tools/kosmos/
+- Website: https://edisonscientific.com/news/announcing-kosmos
+- Paper: https://arxiv.org/abs/2511.02824 (arXiv preprint 2025)
+- License: Commercial
+- Pricing: Paid
+- Tags: ai-scientist, literature, data-analysis
+- Last checked: 2026-10-31
+
+### BIOS
+
+AI scientist from BIO with planning, literature, data-analysis and novelty-detection subagents; hosted at chat.bio.xyz (the earlier open BioAgents framework is archived).
+
+- Page: https://toolome.bio/tools/bios/
+- Website: https://ai.bio.xyz
+- License: Proprietary
+- Pricing: No-cost tier + paid plans
+- Tags: ai-scientist, literature, multi-agent
+- Last checked: 2026-10-31
+
+### Biomni Lab
+
+Phylo's 'integrated biology environment': a workspace where biologists orchestrate AI agents across 300+ databases, tools and software (preview).
+
+- Page: https://toolome.bio/tools/biomni-lab/
+- Website: https://phylo.bio/announcement
+- License: Commercial
+- Pricing: Contact
+- Tags: agent-workspace, biomedical-research
+- Last checked: 2026-10-31
+
+### GPT-Rosalind
+
+OpenAI's life-sciences reasoning models for biology, genomics and drug discovery; GPT-6 Rosalind (Oct 2026) runs on GPT-6 Astra weights. Trusted access, plus an open Codex research plugin.
+
+- Page: https://toolome.bio/tools/gpt-rosalind/
+- Website: https://openai.com/index/introducing-gpt-rosalind/
+- License: Proprietary
+- Pricing: Contact
+- Tags: llm, life-sciences, trusted-access
+- Released: 2026-10-30 (https://deploymentsafety.openai.com/gpt-rosalind-6)
+- Last checked: 2026-10-16
+
+### Seqera Co-Scientist
+
+AI partner inside the Seqera platform for building, launching and debugging Nextflow bioinformatics pipelines.
+
+- Page: https://toolome.bio/tools/seqera-co-scientist/
+- Website: https://seqera.io/blog/co-scientist-launch/
+- License: Commercial
+- Pricing: Paid
+- Tags: nextflow, pipelines, bioinformatics
+- Last checked: 2026-10-31
+
+### Claude Science
+
+Anthropic's AI workbench for scientists: coordinating agent with 60+ skills and connectors for genomics, single-cell, proteomics and more, plus a reviewer agent (beta).
+
+- Page: https://toolome.bio/tools/claude-science/
+- Website: https://www.anthropic.com/news/claude-science-ai-workbench
+- License: Commercial
+- Pricing: Paid
+- Tags: workbench, multi-agent, skills
+- Last checked: 2026-10-31
+
+### CRISPR-GPT
+
+LLM agent that plans and automates gene-editing experiments: system selection, guide design, protocols and analysis.
+
+- Page: https://toolome.bio/tools/crispr-gpt/
+- Website: https://github.com/cong-lab/crispr-gpt-pub
+- GitHub: https://github.com/cong-lab/crispr-gpt-pub
+- Paper: https://doi.org/10.1038/s41551-025-01463-z (Nature Biomedical Engineering 2025)
+- License: full code not public
+- Pricing: Research release
+- Tags: agent, llm, guide-design
+- Last checked: 2026-10-16
+
+### Nextflow Frontier
+
+Seqera's closed-loop discovery system: AI agents design computational experiments, run thousands of them as Nextflow pipelines, score the results and iterate. Offered as a partnership.
+
+- Page: https://toolome.bio/tools/nextflow-frontier/
+- Website: https://nextflow.com/frontier/
+- License: Commercial
+- Pricing: Contact
+- Tags: agent, ai-scientist, nextflow, pipelines
+- Released: 2026-10-13 (https://nextflow.com/blog/introducing-nextflow-frontier/)
+- Last checked: 2026-10-31
+
+### Chaperone
+
+Baker lab harness that wires 50+ protein design, folding and analysis tools into reproducible SLURM pipelines and ships agent skills so coding agents can build and run design campaigns.
+
+- Page: https://toolome.bio/tools/chaperone/
+- Website: https://github.com/RosettaCommons/chaperone
+- GitHub: https://github.com/RosettaCommons/chaperone
+- Paper: https://doi.org/10.64898/2026.10.19.759896 (bioRxiv preprint 2026)
+- License: MIT (code MIT)
+- Pricing: Open source
+- Tags: agent, protein-design, pipeline, hpc
+- Last checked: 2026-10-22
+
+## Cloud labs & wet-lab services
+
+### Adaptyv Bio
+
+Cloud lab for protein expression and binding characterization, binder design competitions.
+
+- Page: https://toolome.bio/tools/adaptyv-bio/
+- Website: https://www.adaptyvbio.com
+- License: Commercial
+- Pricing: Contact
+- Tags: protein, validation
+- Last checked: 2026-10-31
+
+### Emerald Cloud Lab
+
+Remote-controlled cloud laboratory running 200+ instrument types.
+
+- Page: https://toolome.bio/tools/emerald-cloud-lab/
+- Website: https://www.emeraldcloudlab.com
+- License: Commercial
+- Pricing: Contact
+- Tags: automation
+- Last checked: 2026-10-31
+
+### Ginkgo Bioworks
+
+Cell programming platform and automated lab services.
+
+- Page: https://toolome.bio/tools/ginkgo-bioworks/
+- Website: https://www.ginkgobioworks.com
+- License: Commercial
+- Pricing: Contact
+- Tags: synthetic-biology
+- Last checked: 2026-10-31
+
+### Twist Bioscience
+
+Synthetic DNA, gene fragments and antibody discovery services.
+
+- Page: https://toolome.bio/tools/twist-bioscience/
+- Website: https://www.twistbioscience.com
+- License: Commercial
+- Pricing: Contact
+- Tags: dna-synthesis
+- Last checked: 2026-10-31
+
+### Strateos
+
+Robotic cloud lab automation for life sciences.
+
+- Page: https://toolome.bio/tools/strateos/
+- Website: https://strateos.com
+- License: Commercial
+- Pricing: Contact
+- Tags: automation
+- Last checked: 2026-10-31
+
+### Science Exchange
+
+Marketplace for outsourced R&D and CRO services.
+
+- Page: https://toolome.bio/tools/science-exchange/
+- Website: https://www.scienceexchange.com
+- License: Commercial
+- Pricing: Contact
+- Tags: cro, marketplace
+- Last checked: 2026-10-31
+
+### Opentrons
+
+Open-source liquid-handling robots with a Python Protocol API and AI protocol generation.
+
+- Page: https://toolome.bio/tools/opentrons/
+- Website: https://opentrons.com
+- GitHub: https://github.com/Opentrons/opentrons
+- License: Apache-2.0 (software)
+- Pricing: Paid
+- Tags: lab-automation, liquid-handling, hardware
+- Last checked: 2026-10-31
+
+### Ginkgo Cloud Lab
+
+Browser-accessible autonomous biology lab on Ginkgo's automation infrastructure, with an AI agent that checks protocol feasibility and pricing.
+
+- Page: https://toolome.bio/tools/ginkgo-cloud-lab/
+- Website: https://www.prnewswire.com/news-releases/ginkgo-bioworks-launches-ginkgo-cloud-lab-powered-by-autonomous-lab-infrastructure-302700458.html
+- License: Commercial
+- Pricing: Paid
+- Tags: autonomous-lab, cloud-lab
+- Last checked: 2026-10-31
+
+## Imaging & pathology
+
+### Cellpose
+
+Generalist deep learning model for cellular segmentation.
+
+- Page: https://toolome.bio/tools/cellpose/
+- Website: https://cellpose.org
+- GitHub: https://github.com/MouseLand/cellpose
+- Paper: https://www.nature.com/articles/s41592-020-01018-x (Nature Methods 2021)
+- License: BSD-3-Clause (code; pretrained-model weights terms unclear)
+- Pricing: Open source
+- Tags: segmentation
+- Last checked: 2026-10-16
+
+### StarDist
+
+Star-convex object detection for nuclei segmentation.
+
+- Page: https://toolome.bio/tools/stardist/
+- Website: https://github.com/stardist/stardist
+- GitHub: https://github.com/stardist/stardist
+- Paper: https://arxiv.org/abs/1806.03535 (arXiv preprint 2018)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: segmentation, nuclei
+- Last checked: 2026-10-31
+
+### napari
+
+Fast, interactive multi-dimensional image viewer for Python.
+
+- Page: https://toolome.bio/tools/napari/
+- Website: https://napari.org
+- GitHub: https://github.com/napari/napari
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: viewer, python
+- Last checked: 2026-10-31
+
+### QuPath
+
+Open-source software for digital pathology and whole slide image analysis.
+
+- Page: https://toolome.bio/tools/qupath/
+- Website: https://qupath.github.io
+- GitHub: https://github.com/qupath/qupath
+- Paper: https://www.nature.com/articles/s41598-017-17204-5 (Scientific Reports 2017)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: pathology, wsi
+- Last checked: 2026-10-31
+
+### UNI
+
+General-purpose self-supervised foundation model for computational pathology.
+
+- Page: https://toolome.bio/tools/uni/
+- Website: https://github.com/mahmoodlab/UNI
+- GitHub: https://github.com/mahmoodlab/UNI
+- Paper: https://www.nature.com/articles/s41591-024-02857-3 (Nature Medicine 2024)
+- License: CC-BY-NC-ND-4.0
+- Pricing: Open source (non-commercial)
+- Tags: pathology, foundation-model
+- Last checked: 2026-10-31
+
+### CONCH
+
+Vision-language foundation model for histopathology.
+
+- Page: https://toolome.bio/tools/conch/
+- Website: https://github.com/mahmoodlab/CONCH
+- GitHub: https://github.com/mahmoodlab/CONCH
+- Paper: https://www.nature.com/articles/s41591-024-02856-4 (Nature Medicine 2024)
+- License: CC-BY-NC-ND-4.0
+- Pricing: Open source (non-commercial)
+- Tags: pathology, vlm
+- Last checked: 2026-10-31
+
+### Prov-GigaPath
+
+Whole-slide digital pathology foundation model.
+
+- Page: https://toolome.bio/tools/prov-gigapath/
+- Website: https://github.com/prov-gigapath/prov-gigapath
+- GitHub: https://github.com/prov-gigapath/prov-gigapath
+- Paper: https://www.nature.com/articles/s41586-024-07441-w (Nature 2024)
+- License: Apache-2.0 (weights Apache-2.0; model card: any deployed use out of scope)
+- Pricing: Open source
+- Tags: pathology, foundation-model
+- Last checked: 2026-10-31
+
+### CellProfiler
+
+Image analysis software for high-throughput cell phenotyping.
+
+- Page: https://toolome.bio/tools/cellprofiler/
+- Website: https://cellprofiler.org
+- GitHub: https://github.com/CellProfiler/CellProfiler
+- Paper: https://doi.org/10.1186/gb-2006-7-10-r100 (Genome Biology 2006)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: high-content
+- Last checked: 2026-10-31
+
+### micro-sam
+
+Segment Anything fine-tuned for light and electron microscopy, with interactive napari annotation tools.
+
+- Page: https://toolome.bio/tools/micro-sam/
+- Website: https://github.com/computational-cell-analytics/micro-sam
+- GitHub: https://github.com/computational-cell-analytics/micro-sam
+- Paper: https://www.nature.com/articles/s41592-024-02580-4 (Nature Methods 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: segmentation, sam
+- Last checked: 2026-10-31
+
+### BiomedParse
+
+Foundation model for joint segmentation, detection and recognition across nine biomedical imaging modalities.
+
+- Page: https://toolome.bio/tools/biomedparse/
+- Website: https://github.com/microsoft/BiomedParse
+- GitHub: https://github.com/microsoft/BiomedParse
+- Paper: https://doi.org/10.1038/s41592-024-02499-w (Nature Methods 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: segmentation, foundation-model, multimodal
+- Last checked: 2026-10-31
+
+### Atlas 2
+
+Pathology foundation model family built for clinical deployment (Aignostics and collaborators).
+
+- Page: https://toolome.bio/tools/atlas-2/
+- Website: https://arxiv.org/abs/2601.05148
+- Paper: https://arxiv.org/abs/2601.05148 (arXiv preprint 2026)
+- License: Proprietary (weights not released; arXiv report only)
+- Pricing: Contact
+- Tags: pathology, foundation-model, clinical
+- Last checked: 2026-10-31
+
+### GenBio-PathFM
+
+1.1B-parameter open-weight histopathology foundation model trained only on public data.
+
+- Page: https://toolome.bio/tools/genbio-pathfm/
+- Website: https://huggingface.co/genbio-ai/genbio-pathfm
+- GitHub: https://github.com/genbio-ai/genbio-pathfm
+- License: GenBio AI Community License
+- Pricing: Open source (non-commercial)
+- Tags: pathology, foundation-model, open-weights
+- Last checked: 2026-10-31
+
+### MedSAM
+
+Segment Anything adapted to medical images: promptable segmentation across CT, MRI, ultrasound, endoscopy and more.
+
+- Page: https://toolome.bio/tools/medsam/
+- Website: https://github.com/bowang-lab/MedSAM
+- GitHub: https://github.com/bowang-lab/MedSAM
+- Paper: https://doi.org/10.1038/s41467-024-44824-z (Nature Communications 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: segmentation, foundation-model, medical-imaging
+- Last checked: 2026-10-31
+
+### MedSAM2
+
+Promptable segmentation for 3D medical images and videos, built on SAM 2.
+
+- Page: https://toolome.bio/tools/medsam2/
+- Website: https://github.com/bowang-lab/MedSAM2
+- GitHub: https://github.com/bowang-lab/MedSAM2
+- Paper: https://arxiv.org/abs/2504.03600 (arXiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: segmentation, 3d, video
+- Last checked: 2026-10-31
+
+### CellSAM
+
+Foundation model for cell segmentation across imaging modalities, pairing a cell-detection prompter with SAM.
+
+- Page: https://toolome.bio/tools/cellsam/
+- Website: https://cellsam.deepcell.org/
+- GitHub: https://github.com/vanvalenlab/cellSAM
+- Paper: https://doi.org/10.1038/s41592-025-02879-w (Nature Methods 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: segmentation, foundation-model, sam
+- Last checked: 2026-10-16
+
+### TITAN
+
+Multimodal whole-slide pathology foundation model pretrained on 335,645 WSIs with vision–language alignment.
+
+- Page: https://toolome.bio/tools/titan/
+- Website: https://huggingface.co/MahmoodLab/TITAN
+- GitHub: https://github.com/mahmoodlab/TITAN
+- Paper: https://doi.org/10.1038/s41591-025-03982-3 (Nature Medicine 2025)
+- License: CC-BY-NC-ND-4.0 (weights)
+- Pricing: Open source (non-commercial)
+- Tags: pathology, foundation-model, vision-language
+- Last checked: 2026-10-31
+
+### CHIEF
+
+Pathology foundation model for cancer detection, tumor-origin and molecular-profile prediction and prognosis from whole slides.
+
+- Page: https://toolome.bio/tools/chief/
+- Website: https://github.com/hms-dbmi/CHIEF
+- GitHub: https://github.com/hms-dbmi/CHIEF
+- Paper: https://doi.org/10.1038/s41586-024-07894-z (Nature 2024)
+- License: AGPL-3.0 (README: available for non-commercial academic purposes)
+- Pricing: Open source (non-commercial)
+- Tags: pathology, foundation-model, cancer
+- Last checked: 2026-10-16
+
+### GigaTIME
+
+Microsoft and Providence model that turns routine H&E slides into virtual multiplex immunofluorescence maps of 21 proteins.
+
+- Page: https://toolome.bio/tools/gigatime/
+- Website: https://github.com/prov-gigatime/GigaTIME
+- GitHub: https://github.com/prov-gigatime/GigaTIME
+- Paper: https://doi.org/10.1016/j.cell.2025.11.016 (Cell 2026)
+- License: Apache-2.0 (weights Apache-2.0; model card: any deployed use out of scope)
+- Pricing: Open source
+- Tags: pathology, virtual-staining, tumor-microenvironment
+- Last checked: 2026-10-31
+
+### Merlin
+
+Stanford's 3D vision-language model for abdominal CT, pretrained on scans, EHR codes and radiology reports for classification, retrieval and report generation.
+
+- Page: https://toolome.bio/tools/merlin/
+- Website: https://github.com/StanfordMIMI/Merlin
+- GitHub: https://github.com/StanfordMIMI/Merlin
+- Paper: https://www.nature.com/articles/s41586-026-10181-8 (Nature 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: ct, vision-language, radiology
+- Last checked: 2026-10-31
+
+### NV-Reason-CT
+
+NVIDIA's 3D vision-language model for chest and abdominal CT: structured reports, visual QA and step-by-step reasoning.
+
+- Page: https://toolome.bio/tools/nv-reason-ct/
+- Website: https://huggingface.co/nvidia/NV-Reason-CT
+- GitHub: https://github.com/NVIDIA-Medtech/NV-Reason-CT
+- Paper: https://arxiv.org/abs/2609.27511 (arXiv preprint 2026)
+- License: OpenMDW-1.1 (weights)
+- Pricing: Open source
+- Tags: ct, vision-language, radiology
+- Last checked: 2026-10-31
+
+### VirTues
+
+Bunne lab's spatial proteomics foundation model for multiplexed tissue imaging, from molecules to cells to tissue, for diagnostics and case retrieval.
+
+- Page: https://toolome.bio/tools/virtues/
+- Website: https://github.com/bunnelab/virtues
+- GitHub: https://github.com/bunnelab/virtues
+- Paper: https://www.nature.com/articles/s41586-026-10884-y (Nature 2026)
+- License: MIT (virtues-sp31 weights); CC BY-NC 4.0 (virtues-sp32 weights); no repo license file
+- Pricing: Open source
+- Tags: spatial-proteomics, foundation-model, multiplexed-imaging
+- Last checked: 2026-10-31
+
+### DeepCell
+
+Van Valen lab deep learning library for cell segmentation (Mesmer) and tracking in 2D/3D biological images.
+
+- Page: https://toolome.bio/tools/deepcell-tf/
+- Website: https://deepcell.readthedocs.io
+- GitHub: https://github.com/vanvalenlab/deepcell-tf
+- Paper: https://doi.org/10.1038/s41587-021-01094-0 (Nature Biotechnology 2022)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: deep-learning, tensorflow, instance-segmentation
+- Last checked: 2026-10-31
+
+## Datasets & benchmarks
+
+### CZ CELLxGENE
+
+Curated single-cell data portal and Census API with 100M+ cells.
+
+- Page: https://toolome.bio/tools/cz-cellxgene/
+- Website: https://cellxgene.cziscience.com
+- GitHub: https://github.com/chanzuckerberg/cellxgene-census
+- License: CC-BY-4.0 (data); MIT (Census code)
+- Pricing: Open source
+- Tags: atlas, single-cell
+- Last checked: 2026-10-31
+
+### Human Cell Atlas Data Portal
+
+Data portal of the Human Cell Atlas consortium.
+
+- Page: https://toolome.bio/tools/human-cell-atlas-data-portal/
+- Website: https://data.humancellatlas.org
+- License: Open
+- Pricing: Open source
+- Tags: atlas
+- Last checked: 2026-10-31
+
+### Tahoe-100M
+
+100M-cell single-cell drug perturbation atlas.
+
+- Page: https://toolome.bio/tools/tahoe-100m/
+- Website: https://huggingface.co/datasets/tahoebio/Tahoe-100M
+- Paper: https://www.biorxiv.org/content/10.1101/2025.02.20.639398 (bioRxiv preprint 2025)
+- License: CC0-1.0
+- Pricing: Open source
+- Tags: perturbation, dataset
+- Last checked: 2026-10-16
+
+### Protein Data Bank (RCSB)
+
+Archive of experimentally determined 3D biomolecular structures.
+
+- Page: https://toolome.bio/tools/protein-data-bank-rcsb/
+- Website: https://www.rcsb.org
+- License: Open
+- Pricing: Open source
+- Tags: structure, database
+- Last checked: 2026-10-31
+
+### UniProt
+
+Comprehensive resource of protein sequence and function.
+
+- Page: https://toolome.bio/tools/uniprot/
+- Website: https://www.uniprot.org
+- License: CC-BY-4.0
+- Pricing: Open source
+- Tags: protein, database
+- Last checked: 2026-10-31
+
+### ProteinGym
+
+Benchmarks for protein fitness and mutation effect prediction.
+
+- Page: https://toolome.bio/tools/proteingym/
+- Website: https://proteingym.org
+- GitHub: https://github.com/OATML-Markslab/ProteinGym
+- Paper: https://www.biorxiv.org/content/10.1101/2023.12.07.570727 (bioRxiv preprint 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: benchmark
+- Last checked: 2026-10-16
+
+### Therapeutics Data Commons
+
+ML-ready datasets and benchmarks for therapeutics.
+
+- Page: https://toolome.bio/tools/therapeutics-data-commons/
+- Website: https://tdcommons.ai
+- GitHub: https://github.com/mims-harvard/TDC
+- Paper: https://arxiv.org/abs/2102.09548 (arXiv preprint 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: benchmark, drug
+- Last checked: 2026-10-31
+
+### CASP
+
+Critical Assessment of protein Structure Prediction community experiment.
+
+- Page: https://toolome.bio/tools/casp/
+- Website: https://predictioncenter.org
+- License: Open
+- Pricing: Open source
+- Tags: benchmark, structure
+- Last checked: 2026-10-31
+
+### Open Problems in Single-Cell
+
+Living benchmarks for single-cell analysis tasks.
+
+- Page: https://toolome.bio/tools/open-problems-in-single-cell/
+- Website: https://openproblems.bio
+- GitHub: https://github.com/openproblems-bio/openproblems
+- License: MIT
+- Pricing: Open source
+- Tags: benchmark, single-cell
+- Last checked: 2026-10-31
+
+### PoseBusters
+
+Plausibility checks and benchmark for docking/structure poses.
+
+- Page: https://toolome.bio/tools/posebusters/
+- Website: https://github.com/maabuu/posebusters
+- GitHub: https://github.com/maabuu/posebusters
+- Paper: https://pubs.rsc.org/en/content/articlelanding/2024/sc/d3sc04185a (Chemical Science 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: benchmark, docking
+- Last checked: 2026-10-16
+
+### Polaris
+
+Benchmarking platform for ML in drug discovery.
+
+- Page: https://toolome.bio/tools/polaris/
+- Website: https://polarishub.io
+- GitHub: https://github.com/polaris-hub/polaris
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: benchmark, drug
+- Last checked: 2026-10-31
+
+### 10x Genomics Datasets
+
+Public single-cell and spatial (Visium, Xenium) example datasets.
+
+- Page: https://toolome.bio/tools/10x-genomics-datasets/
+- Website: https://www.10xgenomics.com/datasets
+- License: Open
+- Pricing: Open source
+- Tags: spatial, single-cell
+- Last checked: 2026-10-16
+
+### Hugging Face Bio models
+
+Hugging Face Hub listing of biology-tagged models, from protein and DNA language models to single-cell models.
+
+- Page: https://toolome.bio/tools/hugging-face-bio-models/
+- Website: https://huggingface.co/models?other=biology
+- License: Mixed
+- Pricing: No cost (research use)
+- Tags: hub
+- Last checked: 2026-10-31
+
+### PerturbAI Brain-Wide CRISPR Atlas
+
+~8M-cell in vivo CRISPR perturbation atlas of mouse brain (single-nucleus), downloadable on Hugging Face in Parquet/AnnData/Zarr.
+
+- Page: https://toolome.bio/tools/perturbai-brain-wide-crispr-atlas/
+- Website: https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas
+- License: CC-BY-4.0
+- Pricing: Open source
+- Tags: perturb-seq, in-vivo, mouse-brain
+- Last checked: 2026-10-31
+
+### OMol25
+
+Meta FAIR's open dataset of DFT calculations on diverse molecules, with evaluations and baseline models.
+
+- Page: https://toolome.bio/tools/omol25/
+- Website: https://huggingface.co/facebook/OMol25
+- GitHub: https://github.com/facebookresearch/fairchem
+- Paper: https://arxiv.org/abs/2505.08762 (arXiv preprint 2025)
+- License: see dataset card
+- Pricing: Open source
+- Tags: dft, molecules, ml-potentials
+- Last checked: 2026-10-31
+
+### Virtual Cell Challenge 2026
+
+Arc Institute's perturbation benchmark: predict CRISPRi knockdown responses in six cell lines never seen perturbed, from their unperturbed state alone.
+
+- Page: https://toolome.bio/tools/virtual-cell-challenge-2026/
+- Website: https://arcinstitute.org/news/virtual-cell-challenge-2026
+- License: NOASSERTION
+- Pricing: No cost (research use)
+- Tags: perturb-seq, benchmark, virtual-cell
+- Last checked: 2026-10-31
+
+### SidechainNet
+
+All-atom protein structure dataset extending ProteinNet with sidechain angles and coordinates, with PyTorch loaders for ML.
+
+- Page: https://toolome.bio/tools/sidechainnet/
+- Website: https://github.com/jonathanking/sidechainnet
+- GitHub: https://github.com/jonathanking/sidechainnet
+- Paper: https://doi.org/10.1002/prot.26169 (Proteins: Structure, Function, and Bioinformatics 2021)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: machine-learning, structural-biology, protein-structure
+- Last checked: 2026-10-16
+
+### MassNet (XuanjiNovo)
+
+AI-ready DDA mass-spectrometry corpus (1.54B MS/MS spectra, 548M PSMs, 35 species) in a Parquet tensor format (MSDT), plus XuanjiNovo, a non-autoregressive transformer for de novo peptide sequencing trained on 100M PSMs.
+
+- Page: https://toolome.bio/tools/massnet/
+- Website: https://guomics.com/software/massnet
+- GitHub: https://github.com/guomics-lab/MassNet-DDA
+- Paper: https://doi.org/10.1038/s41592-026-03247-y (Nature Methods 2026)
+- License: Apache-2.0 (code and XuanjiNovo weights Apache-2.0 (per paper and repo LICENSE))
+- Pricing: Open source
+- Tags: mass-spec, de-novo, dataset, transformer
+- Last checked: 2026-10-31
+
+### VCPI (Virtual Cell Pharmacology Initiative)
+
+Ginkgo Datapoints' open arrayed DRUG-seq resource for virtual cell models: 26,000+ compounds profiled in THP-1 cells, including the 12,949-compound ReFRAME library.
+
+- Page: https://toolome.bio/tools/vcpi/
+- Website: https://thevirtualcell.com/
+- License: CC-BY-4.0
+- Pricing: Open source
+- Tags: perturbation, dataset, drug-seq, virtual-cell
+- Released: 2026-10-27 (https://datapoints.ginkgo.bio/updates/vcpi-releases-drug-seq-profiles-for-the-reframe-library)
+- Last checked: 2026-10-31
+
+## Sequencing & variant calling
+
+### DeepVariant
+
+Google deep learning variant caller for Illumina, PacBio HiFi and ONT data.
+
+- Page: https://toolome.bio/tools/deepvariant/
+- Website: https://github.com/google/deepvariant
+- GitHub: https://github.com/google/deepvariant
+- Paper: https://www.nature.com/articles/nbt.4235 (Nature Biotechnology 2018)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: variant-calling, long-read, short-read
+- Last checked: 2026-10-16
+
+### Dorado
+
+Oxford Nanopore's production basecaller: transformer/LSTM models turning raw nanopore signal into reads, with modified-base calling and duplex.
+
+- Page: https://toolome.bio/tools/dorado/
+- Website: https://github.com/nanoporetech/dorado
+- GitHub: https://github.com/nanoporetech/dorado
+- License: Oxford Nanopore Public License 1.0
+- Pricing: Open source
+- Tags: basecalling, nanopore, long-read
+- Last checked: 2026-10-31
+
+### Bonito
+
+Oxford Nanopore's research basecaller for training and testing new basecalling models.
+
+- Page: https://toolome.bio/tools/bonito/
+- Website: https://github.com/nanoporetech/bonito
+- GitHub: https://github.com/nanoporetech/bonito
+- License: Oxford Nanopore Public License 1.0
+- Pricing: Open source
+- Tags: basecalling, nanopore, training
+- Last checked: 2026-10-31
+
+### Medaka
+
+Neural-network consensus polishing and variant calling for nanopore assemblies.
+
+- Page: https://toolome.bio/tools/medaka/
+- Website: https://github.com/nanoporetech/medaka
+- GitHub: https://github.com/nanoporetech/medaka
+- License: Oxford Nanopore Public License 1.0
+- Pricing: Open source
+- Tags: polishing, nanopore, variant-calling
+- Last checked: 2026-10-31
+
+### Remora
+
+Models for detecting modified bases (e.g. 5mC, 6mA) from nanopore signal.
+
+- Page: https://toolome.bio/tools/remora/
+- Website: https://github.com/nanoporetech/remora
+- GitHub: https://github.com/nanoporetech/remora
+- License: Oxford Nanopore Public License 1.0
+- Pricing: Open source
+- Tags: methylation, nanopore, epigenomics
+- Last checked: 2026-10-31
+
+### Clair3
+
+Deep-learning germline small-variant caller for long reads (ONT, PacBio) and short reads.
+
+- Page: https://toolome.bio/tools/clair3/
+- Website: https://github.com/HKU-BAL/Clair3
+- GitHub: https://github.com/HKU-BAL/Clair3
+- Paper: https://doi.org/10.1038/s43588-022-00387-x (Nature Computational Science 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: variant-calling, long-read, deep-learning
+- Last checked: 2026-10-31
+
+### DeepConsensus
+
+Transformer that corrects PacBio HiFi consensus reads, increasing yield and accuracy.
+
+- Page: https://toolome.bio/tools/deepconsensus/
+- Website: https://github.com/google/deepconsensus
+- GitHub: https://github.com/google/deepconsensus
+- Paper: https://doi.org/10.1038/s41587-022-01435-7 (Nature Biotechnology 2022)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: pacbio, hifi, error-correction
+- Last checked: 2026-10-31
+
+### PEPPER-Margin-DeepVariant
+
+Haplotype-aware variant calling pipeline for nanopore reads combining PEPPER, Margin and DeepVariant.
+
+- Page: https://toolome.bio/tools/pepper-margin-deepvariant/
+- Website: https://github.com/kishwarshafin/pepper
+- GitHub: https://github.com/kishwarshafin/pepper
+- Paper: https://doi.org/10.1038/s41592-021-01299-w (Nature Methods 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: variant-calling, nanopore, phasing
+- Last checked: 2026-10-31
+
+### Sniffles2
+
+Fast structural-variant caller for long reads with population-scale and mosaic SV detection.
+
+- Page: https://toolome.bio/tools/sniffles2/
+- Website: https://github.com/fritzsedlazeck/Sniffles
+- GitHub: https://github.com/fritzsedlazeck/Sniffles
+- Paper: https://doi.org/10.1038/s41587-023-02024-y (Nature Biotechnology 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: structural-variants, long-read, population
+- Last checked: 2026-10-16
+
+### DeepSomatic
+
+Google's deep-learning somatic small-variant caller for tumor/normal data across Illumina, PacBio and Oxford Nanopore.
+
+- Page: https://toolome.bio/tools/deepsomatic/
+- Website: https://github.com/google/deepsomatic
+- GitHub: https://github.com/google/deepsomatic
+- Paper: https://doi.org/10.1101/2024.08.16.608331 (bioRxiv preprint 2024)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: variant-calling, somatic, cancer
+- Last checked: 2026-10-16
+
+### DeepPolisher
+
+Transformer-based polisher that reduces base errors in PacBio HiFi genome assemblies.
+
+- Page: https://toolome.bio/tools/deeppolisher/
+- Website: https://github.com/google/deeppolisher
+- GitHub: https://github.com/google/deeppolisher
+- Paper: https://doi.org/10.1101/gr.280149.124 (Genome Research 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: assembly, polishing, transformer
+- Last checked: 2026-10-16
+
+### ClairS-TO
+
+Deep-learning tumor-only somatic small-variant caller for long reads, from the Clair3 team.
+
+- Page: https://toolome.bio/tools/clairs-to/
+- Website: https://github.com/HKU-BAL/ClairS-TO
+- GitHub: https://github.com/HKU-BAL/ClairS-TO
+- Paper: https://doi.org/10.1038/s41467-025-64547-z (Nature Communications 2025)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: variant-calling, somatic, long-read
+- Last checked: 2026-10-16
+
+### HERRO
+
+Deep-learning error correction of nanopore simplex reads that enables telomere-to-telomere phased assemblies.
+
+- Page: https://toolome.bio/tools/herro/
+- Website: https://github.com/lbcb-sci/herro
+- GitHub: https://github.com/lbcb-sci/herro
+- Paper: https://doi.org/10.1038/s41586-026-10563-y (Nature 2026)
+- License: Oxford Nanopore Public License 1.0
+- Pricing: Open source
+- Tags: error-correction, nanopore, assembly
+- Last checked: 2026-10-16
+
+### HitSV
+
+Structural variant caller with haplotype-resolved local assembly that works on PacBio HiFi, ONT, hybrid and short-read data.
+
+- Page: https://toolome.bio/tools/hitsv/
+- Website: https://github.com/hitbc/HitSV
+- GitHub: https://github.com/hitbc/HitSV
+- Paper: https://www.nature.com/articles/s41587-026-03332-9 (Nature Biotechnology 2026)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: structural-variants, long-read, variant-calling
+- Last checked: 2026-10-31
+
+### SVPG
+
+Pangenome-guided structural variant caller for long reads that can also add new samples to an existing pangenome graph.
+
+- Page: https://toolome.bio/tools/svpg/
+- Website: https://github.com/coopsor/SVPG
+- GitHub: https://github.com/coopsor/SVPG
+- Paper: https://www.nature.com/articles/s41592-026-03219-2 (Nature Methods 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: structural-variants, pangenome, long-read
+- Last checked: 2026-10-16
+
+## Proteomics & metabolomics
+
+### DIA-NN
+
+Neural-network-powered data-independent acquisition (DIA) proteomics processing software.
+
+- Page: https://toolome.bio/tools/dia-nn/
+- Website: https://github.com/vdemichev/DiaNN
+- GitHub: https://github.com/vdemichev/DiaNN
+- Paper: https://doi.org/10.1038/s41592-019-0638-x (Nature Methods 2020)
+- License: Proprietary (no cost for academic use)
+- Pricing: No cost (research use)
+- Tags: dia, mass-spec, quantification
+- Last checked: 2026-10-16
+
+### AlphaPeptDeep
+
+Deep learning framework predicting peptide MS2 spectra, retention time and CCS for proteomics.
+
+- Page: https://toolome.bio/tools/alphapeptdeep/
+- Website: https://github.com/MannLabs/alphapeptdeep
+- GitHub: https://github.com/MannLabs/alphapeptdeep
+- Paper: https://doi.org/10.1038/s41467-022-34904-3 (Nature Communications 2022)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: mass-spec, spectrum-prediction, peptides
+- Last checked: 2026-10-31
+
+### AlphaDIA
+
+DIA proteomics search engine without feature detection, with transfer learning from AlphaPeptDeep.
+
+- Page: https://toolome.bio/tools/alphadia/
+- Website: https://github.com/MannLabs/alphadia
+- GitHub: https://github.com/MannLabs/alphadia
+- Paper: https://doi.org/10.1101/2024.05.28.596182 (bioRxiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: dia, mass-spec, search-engine
+- Last checked: 2026-10-16
+
+### MS2PIP
+
+Predicts peptide fragmentation spectra (and with DeepLC/IM2Deep) for spectral libraries and rescoring.
+
+- Page: https://toolome.bio/tools/ms2pip/
+- Website: https://github.com/CompOmics/ms2pip
+- GitHub: https://github.com/CompOmics/ms2pip
+- Paper: https://doi.org/10.1093/nar/gkad335 (Nucleic Acids Research 2023)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: mass-spec, spectrum-prediction, rescoring
+- Last checked: 2026-10-16
+
+### DeepLC
+
+Deep learning retention-time predictor that generalizes to unseen peptide modifications.
+
+- Page: https://toolome.bio/tools/deeplc/
+- Website: https://github.com/CompOmics/DeepLC
+- GitHub: https://github.com/CompOmics/DeepLC
+- Paper: https://doi.org/10.1038/s41592-021-01301-5 (Nature Methods 2021)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: retention-time, mass-spec, ptm
+- Last checked: 2026-10-31
+
+### Casanovo
+
+Transformer for de novo peptide sequencing directly from MS/MS spectra.
+
+- Page: https://toolome.bio/tools/casanovo/
+- Website: https://github.com/Noble-Lab/casanovo
+- GitHub: https://github.com/Noble-Lab/casanovo
+- Paper: https://doi.org/10.1038/s41467-024-49731-x (Nature Communications 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: de-novo, transformer, mass-spec
+- Last checked: 2026-10-31
+
+### InstaNovo
+
+Transformer and diffusion models for de novo peptide sequencing from tandem mass spectra.
+
+- Page: https://toolome.bio/tools/instanovo/
+- Website: https://github.com/instadeepai/InstaNovo
+- GitHub: https://github.com/instadeepai/InstaNovo
+- Paper: https://doi.org/10.21203/rs.3.rs-3376248/v1 (Research Square preprint 2024)
+- License: Apache-2.0 (code; model checkpoints CC BY-NC-SA 4.0, non-commercial weights)
+- Pricing: Open source (non-commercial)
+- Tags: de-novo, diffusion, mass-spec
+- Last checked: 2026-10-31
+
+### SIRIUS
+
+Metabolomics software for molecular formula and structure annotation from MS/MS with CSI:FingerID and CANOPUS.
+
+- Page: https://toolome.bio/tools/sirius/
+- Website: https://bio.informatik.uni-jena.de/software/sirius/
+- GitHub: https://github.com/sirius-ms/sirius
+- Paper: https://doi.org/10.1038/s41592-019-0344-8 (Nature Methods 2019)
+- License: AGPL-3.0 (web services: no cost for academic use)
+- Pricing: No cost (research use)
+- Tags: metabolomics, annotation, mass-spec
+- Last checked: 2026-10-31
+
+### MS2DeepScore
+
+Siamese neural network predicting structural similarity between MS/MS spectra for metabolomics.
+
+- Page: https://toolome.bio/tools/ms2deepscore/
+- Website: https://github.com/matchms/ms2deepscore
+- GitHub: https://github.com/matchms/ms2deepscore
+- Paper: https://doi.org/10.1186/s13321-021-00558-4 (Journal of Cheminformatics 2021)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: metabolomics, similarity, mass-spec
+- Last checked: 2026-10-31
+
+### matchms
+
+Python library for importing, cleaning and comparing mass spectra for metabolomics.
+
+- Page: https://toolome.bio/tools/matchms/
+- Website: https://github.com/matchms/matchms
+- GitHub: https://github.com/matchms/matchms
+- Paper: https://doi.org/10.21105/joss.02411 (Journal of Open Source Software 2020)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: metabolomics, library, spectra
+- Last checked: 2026-10-31
+
+### DreaMS
+
+Self-supervised transformer foundation model for tandem mass spectra of small molecules.
+
+- Page: https://toolome.bio/tools/dreams/
+- Website: https://github.com/pluskal-lab/DreaMS
+- GitHub: https://github.com/pluskal-lab/DreaMS
+- Paper: https://doi.org/10.1038/s41587-025-02663-3 (Nature Biotechnology 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: metabolomics, foundation-model, mass-spec
+- Last checked: 2026-10-16
+
+### MZmine
+
+Open-source platform for LC-MS and imaging-MS data processing in metabolomics.
+
+- Page: https://toolome.bio/tools/mzmine/
+- Website: https://mzmine.org
+- GitHub: https://github.com/mzmine/mzmine
+- Paper: https://doi.org/10.1038/s41587-023-01690-2 (Nature Biotechnology 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: metabolomics, lc-ms, processing
+- Last checked: 2026-10-16
+
+### InstaNovo-FM
+
+Self-supervised encoder foundation model trained on 1.63B MS/MS spectra; transferable embeddings for de novo and database-independent identification.
+
+- Page: https://toolome.bio/tools/instanovo-fm/
+- Website: https://github.com/instadeepai/InstaNovo-FM
+- GitHub: https://github.com/instadeepai/InstaNovo-FM
+- Paper: https://doi.org/10.64898/2026.09.03.747733 (bioRxiv preprint 2026)
+- License: Apache-2.0 (code; model checkpoints CC BY-NC-SA 4.0, non-commercial weights)
+- Pricing: Open source (non-commercial)
+- Tags: mass-spectrometry, foundation-model, de-novo
+- Last checked: 2026-10-16
+
+### MassNet (XuanjiNovo)
+
+AI-ready DDA mass-spectrometry corpus (1.54B MS/MS spectra, 548M PSMs, 35 species) in a Parquet tensor format (MSDT), plus XuanjiNovo, a non-autoregressive transformer for de novo peptide sequencing trained on 100M PSMs.
+
+- Page: https://toolome.bio/tools/massnet/
+- Website: https://guomics.com/software/massnet
+- GitHub: https://github.com/guomics-lab/MassNet-DDA
+- Paper: https://doi.org/10.1038/s41592-026-03247-y (Nature Methods 2026)
+- License: Apache-2.0 (code and XuanjiNovo weights Apache-2.0 (per paper and repo LICENSE))
+- Pricing: Open source
+- Tags: mass-spec, de-novo, dataset, transformer
+- Last checked: 2026-10-31
+
+## CRISPR & gene editing
+
+### CRISPOR
+
+Web tool for CRISPR guide selection with on-target efficiency and off-target scoring for 500+ genomes.
+
+- Page: https://toolome.bio/tools/crispor/
+- Website: https://crispor.gi.ucsc.edu
+- GitHub: https://github.com/maximilianh/crisporWebsite
+- Paper: https://doi.org/10.1093/nar/gky354 (Nucleic Acids Research 2018)
+- License: code non-commercial; website at no cost
+- Pricing: Open source (non-commercial)
+- Tags: guide-design, off-target, web
+- Last checked: 2026-10-16
+
+### CHOPCHOP
+
+Web tool for designing CRISPR-Cas9, Cas12 and TALEN targets with efficiency predictions.
+
+- Page: https://toolome.bio/tools/chopchop/
+- Website: https://chopchop.cbu.uib.no
+- Paper: https://doi.org/10.1093/nar/gkz365 (Nucleic Acids Research 2019)
+- License: No-cost web service
+- Pricing: No cost (research use)
+- Tags: guide-design, web, cas12
+- Last checked: 2026-10-16
+
+### Rule Set 3 (rs3)
+
+Broad GPP model for SpCas9 sgRNA on-target activity, used in CRISPick.
+
+- Page: https://toolome.bio/tools/rule-set-3/
+- Website: https://github.com/gpp-rnd/rs3
+- GitHub: https://github.com/gpp-rnd/rs3
+- Paper: https://doi.org/10.1038/s41467-022-33024-2 (Nature Communications 2022)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: guide-design, on-target, broad
+- Last checked: 2026-10-16
+
+### PRIDICT
+
+Attention-based model predicting prime editing efficiency to design pegRNAs.
+
+- Page: https://toolome.bio/tools/pridict/
+- Website: https://github.com/uzh-dqbm-cmi/PRIDICT
+- GitHub: https://github.com/uzh-dqbm-cmi/PRIDICT
+- Paper: https://doi.org/10.1038/s41587-022-01613-7 (Nature Biotechnology 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: prime-editing, pegrna, efficiency
+- Last checked: 2026-10-31
+
+### CRISPResso2
+
+Analysis of genome-editing outcomes from amplicon sequencing, including base and prime editing.
+
+- Page: https://toolome.bio/tools/crispresso2/
+- Website: https://github.com/pinellolab/CRISPResso2
+- GitHub: https://github.com/pinellolab/CRISPResso2
+- Paper: https://doi.org/10.1038/s41587-019-0032-3 (Nature Biotechnology 2019)
+- License: academic non-commercial
+- Pricing: Open source (non-commercial)
+- Tags: editing-outcomes, amplicon, analysis
+- Last checked: 2026-10-16
+
+### OpenCRISPR-1
+
+AI-designed Cas9-like gene editor from Profluent's language models, released openly.
+
+- Page: https://toolome.bio/tools/opencrispr/
+- Website: https://github.com/Profluent-AI/OpenCRISPR
+- GitHub: https://github.com/Profluent-AI/OpenCRISPR
+- Paper: https://doi.org/10.1038/s41586-025-09298-z (Nature 2025)
+- License: Profluent OpenCRISPR license (no cost, incl. commercial)
+- Pricing: Open source
+- Tags: generative, gene-editor, protein-lm
+- Last checked: 2026-10-16
+
+### CRISPR-GPT
+
+LLM agent that plans and automates gene-editing experiments: system selection, guide design, protocols and analysis.
+
+- Page: https://toolome.bio/tools/crispr-gpt/
+- Website: https://github.com/cong-lab/crispr-gpt-pub
+- GitHub: https://github.com/cong-lab/crispr-gpt-pub
+- Paper: https://doi.org/10.1038/s41551-025-01463-z (Nature Biomedical Engineering 2025)
+- License: full code not public
+- Pricing: Research release
+- Tags: agent, llm, guide-design
+- Last checked: 2026-10-16
+
+### DeepPrime
+
+Deep-learning prediction of prime-editing efficiency across PE systems and cell types (Hyongbum Kim lab).
+
+- Page: https://toolome.bio/tools/deepprime/
+- Website: https://github.com/hkimlab/DeepPrime
+- GitHub: https://github.com/hkimlab/DeepPrime
+- Paper: https://doi.org/10.1016/j.cell.2023.03.034 (Cell 2023)
+- License: NOASSERTION
+- Pricing: Open source
+- Tags: prime-editing, efficiency-prediction
+- Last checked: 2026-10-31
+
+### OptiPrime
+
+David Liu lab's mechanistic ML model that predicts prime-editing efficiency and outcomes for PE2, PE3 and twinPE, with a web server.
+
+- Page: https://toolome.bio/tools/optiprime/
+- Website: https://optipri.me/
+- GitHub: https://github.com/alvin-hsu/optiprime-src
+- Paper: https://www.nature.com/articles/s41587-026-03261-7 (Nature Biotechnology 2026)
+- License: no license file in repo
+- Pricing: No cost (research use)
+- Tags: prime-editing, guide-design, web-server
+- Last checked: 2026-10-16
+
+### Protein2PAM
+
+Profluent's protein language model that predicts a Cas enzyme's PAM specificity from its sequence and guides PAM-engineering of Cas9 variants.
+
+- Page: https://toolome.bio/tools/protein2pam/
+- Website: https://protein2pam.profluent.bio
+- GitHub: https://github.com/Profluent-AI/protein2pam
+- Paper: https://www.nature.com/articles/s41587-025-02995-0 (Nature Biotechnology 2026)
+- License: PolyForm Noncommercial (code); CC BY-NC 4.0 (weights)
+- Pricing: Open source (non-commercial)
+- Tags: pam, cas-engineering, protein-language-model
+- Last checked: 2026-10-31
+
+## RNA structure & design
+
+### RhoFold+
+
+RNA language-model-based method for 3D RNA structure prediction.
+
+- Page: https://toolome.bio/tools/rhofold/
+- Website: https://github.com/ml4bio/RhoFold
+- GitHub: https://github.com/ml4bio/RhoFold
+- Paper: https://doi.org/10.1038/s41592-024-02487-0 (Nature Methods 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: rna-structure, 3d, language-model
+- Last checked: 2026-10-31
+
+### RNA-FM
+
+RNA foundation model pretrained on 23M non-coding RNAs for structure and function tasks.
+
+- Page: https://toolome.bio/tools/rna-fm/
+- Website: https://github.com/ml4bio/RNA-FM
+- GitHub: https://github.com/ml4bio/RNA-FM
+- Paper: https://arxiv.org/abs/2204.00300 (arXiv preprint 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: foundation-model, ncrna, embeddings
+- Last checked: 2026-10-31
+
+### RibonanzaNet
+
+RNA foundation model trained on Ribonanza chemical-mapping data for structure and reactivity.
+
+- Page: https://toolome.bio/tools/ribonanzanet/
+- Website: https://github.com/Shujun-He/RibonanzaNet
+- GitHub: https://github.com/Shujun-He/RibonanzaNet
+- Paper: https://doi.org/10.1101/2024.02.24.581671 (bioRxiv preprint 2024)
+- License: MIT
+- Pricing: Open source
+- Tags: rna-structure, chemical-mapping, foundation-model
+- Last checked: 2026-10-16
+
+### EternaFold
+
+RNA secondary structure model trained via multitask learning on Eterna player data.
+
+- Page: https://toolome.bio/tools/eternafold/
+- Website: https://github.com/WaymentSteeleLab/EternaFold
+- GitHub: https://github.com/WaymentSteeleLab/EternaFold
+- Paper: https://doi.org/10.1038/s41592-022-01605-0 (Nature Methods 2022)
+- License: BSD-style (Stanford)
+- Pricing: Open source
+- Tags: secondary-structure, thermodynamics, crowdsourced
+- Last checked: 2026-10-31
+
+### SPOT-RNA
+
+Deep learning RNA secondary structure prediction including non-canonical pairs and pseudoknots.
+
+- Page: https://toolome.bio/tools/spot-rna/
+- Website: https://github.com/jaswindersingh2/SPOT-RNA
+- GitHub: https://github.com/jaswindersingh2/SPOT-RNA
+- Paper: https://doi.org/10.1038/s41467-019-13395-9 (Nature Communications 2019)
+- License: MPL-2.0
+- Pricing: Open source
+- Tags: secondary-structure, pseudoknots, deep-learning
+- Last checked: 2026-10-31
+
+### UFold
+
+Fast image-like U-Net for RNA secondary structure prediction.
+
+- Page: https://toolome.bio/tools/ufold/
+- Website: https://github.com/uci-cbcl/UFold
+- GitHub: https://github.com/uci-cbcl/UFold
+- Paper: https://doi.org/10.1093/nar/gkab1074 (Nucleic Acids Research 2022)
+- License: MIT
+- Pricing: Open source
+- Tags: secondary-structure, u-net, fast
+- Last checked: 2026-10-16
+
+### ViennaRNA
+
+Standard RNA secondary structure prediction and design package (RNAfold, RNAinverse).
+
+- Page: https://toolome.bio/tools/viennarna/
+- Website: https://www.tbi.univie.ac.at/RNA/
+- GitHub: https://github.com/ViennaRNA/ViennaRNA
+- Paper: https://doi.org/10.1186/1748-7188-6-26 (Algorithms for Molecular Biology 2011)
+- License: permissive (ViennaRNA)
+- Pricing: Open source
+- Tags: secondary-structure, design, thermodynamics
+- Last checked: 2026-10-31
+
+### gRNAde
+
+Geometric deep learning for 3D RNA inverse design (sequence design from backbone).
+
+- Page: https://toolome.bio/tools/grnade/
+- Website: https://github.com/chaitjo/geometric-rna-design
+- GitHub: https://github.com/chaitjo/geometric-rna-design
+- Paper: https://arxiv.org/abs/2305.14749 (arXiv preprint 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: rna-design, gnn, inverse-folding
+- Last checked: 2026-10-31
+
+### RNAPro
+
+NVIDIA RNA 3D folding model built with hosts and winners of the Stanford RNA 3D Folding Kaggle competition.
+
+- Page: https://toolome.bio/tools/rnapro/
+- Website: https://github.com/NVIDIA-BioNeMo/RNAPro
+- GitHub: https://github.com/NVIDIA-BioNeMo/RNAPro
+- License: Apache-2.0 (code; NVIDIA Open Model License (weights))
+- Pricing: Open source
+- Tags: rna-structure, 3d-structure
+- Last checked: 2026-10-31
+
+### EVA
+
+1.4B-parameter long-context generative RNA foundation model trained on 114M full-length RNAs; supports RNA engineering and guide-RNA design.
+
+- Page: https://toolome.bio/tools/eva/
+- Website: https://huggingface.co/GENTEL-Lab/EVA
+- GitHub: https://github.com/GENTEL-lab/EVA
+- Paper: https://doi.org/10.64898/2026.03.17.712398 (bioRxiv preprint 2026)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: rna-language-model, generative, rna-design
+- Last checked: 2026-10-16
+
+### RiNALMo
+
+General-purpose RNA language model that generalizes to unseen RNA families on secondary-structure prediction.
+
+- Page: https://toolome.bio/tools/rinalmo/
+- Website: https://github.com/lbcb-sci/RiNALMo
+- GitHub: https://github.com/lbcb-sci/RiNALMo
+- Paper: https://doi.org/10.1038/s41467-025-60872-5 (Nature Communications 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: language-model, structure
+- Last checked: 2026-10-31
+
+### Orthrus
+
+Bo Wang lab's mature-RNA foundation model trained with contrastive learning on splice isoforms and orthologs, for RNA half-life and other property prediction.
+
+- Page: https://toolome.bio/tools/orthrus/
+- Website: https://github.com/bowang-lab/Orthrus
+- GitHub: https://github.com/bowang-lab/Orthrus
+- Paper: https://www.nature.com/articles/s41592-026-03064-3 (Nature Methods 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: foundation-model, mrna, contrastive
+- Last checked: 2026-10-16
+
+### RNAbpFlow
+
+SE(3) flow-matching model that generates RNA 3D structures and conformer ensembles conditioned on base pairing.
+
+- Page: https://toolome.bio/tools/rnabpflow/
+- Website: https://github.com/Bhattacharya-Lab/RNAbpFlow
+- GitHub: https://github.com/Bhattacharya-Lab/RNAbpFlow
+- Paper: https://www.nature.com/articles/s41592-026-03128-4 (Nature Methods 2026)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: 3d-structure, flow-matching, generative
+- Last checked: 2026-10-16
+
+## Microbiome & metagenomics
+
+### MetaPhlAn 4
+
+Marker-gene-based taxonomic profiling of metagenomes, including uncharacterized species.
+
+- Page: https://toolome.bio/tools/metaphlan/
+- Website: https://github.com/biobakery/MetaPhlAn
+- GitHub: https://github.com/biobakery/MetaPhlAn
+- Paper: https://doi.org/10.1038/s41587-023-01688-w (Nature Biotechnology 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: metagenomics, profiling, taxonomy
+- Last checked: 2026-10-31
+
+### HUMAnN 3
+
+Functional profiling of metagenomes and metatranscriptomes (gene families and pathways).
+
+- Page: https://toolome.bio/tools/humann/
+- Website: https://github.com/biobakery/humann
+- GitHub: https://github.com/biobakery/humann
+- Paper: https://doi.org/10.7554/eLife.65088 (eLife 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: metagenomics, functional, pathways
+- Last checked: 2026-10-16
+
+### Kraken 2
+
+Fast k-mer based taxonomic classification of metagenomic reads.
+
+- Page: https://toolome.bio/tools/kraken2/
+- Website: https://github.com/DerrickWood/kraken2
+- GitHub: https://github.com/DerrickWood/kraken2
+- Paper: https://doi.org/10.1186/s13059-019-1891-0 (Genome Biology 2019)
+- License: MIT
+- Pricing: Open source
+- Tags: metagenomics, classification, k-mer
+- Last checked: 2026-10-31
+
+### GTDB-Tk
+
+Assigns GTDB taxonomy to bacterial and archaeal genomes and MAGs.
+
+- Page: https://toolome.bio/tools/gtdb-tk/
+- Website: https://github.com/Ecogenomics/GTDBTk
+- GitHub: https://github.com/Ecogenomics/GTDBTk
+- Paper: https://doi.org/10.1093/bioinformatics/btac672 (Bioinformatics 2022)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: taxonomy, mags, phylogeny
+- Last checked: 2026-10-16
+
+### geNomad
+
+Neural-network and marker-based identification of viruses and plasmids in sequencing data.
+
+- Page: https://toolome.bio/tools/genomad/
+- Website: https://github.com/apcamargo/genomad
+- GitHub: https://github.com/apcamargo/genomad
+- Paper: https://doi.org/10.1038/s41587-023-01953-y (Nature Biotechnology 2024)
+- License: LBNL academic non-commercial
+- Pricing: Open source (non-commercial)
+- Tags: virus, plasmid, deep-learning
+- Last checked: 2026-10-31
+
+### CheckM2
+
+Machine-learning estimation of completeness and contamination of metagenome-assembled genomes.
+
+- Page: https://toolome.bio/tools/checkm2/
+- Website: https://github.com/chklovski/CheckM2
+- GitHub: https://github.com/chklovski/CheckM2
+- Paper: https://doi.org/10.1038/s41592-023-01940-w (Nature Methods 2023)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: mags, quality, machine-learning
+- Last checked: 2026-10-16
+
+### SemiBin2
+
+Self-supervised deep learning metagenomic binning for short and long reads.
+
+- Page: https://toolome.bio/tools/semibin/
+- Website: https://github.com/BigDataBiology/SemiBin
+- GitHub: https://github.com/BigDataBiology/SemiBin
+- Paper: https://doi.org/10.1093/bioinformatics/btad209 (Bioinformatics 2023)
+- License: MIT
+- Pricing: Open source
+- Tags: binning, self-supervised, mags
+- Last checked: 2026-10-16
+
+### VAMB
+
+Variational autoencoder for metagenomic binning.
+
+- Page: https://toolome.bio/tools/vamb/
+- Website: https://github.com/RasmussenLab/vamb
+- GitHub: https://github.com/RasmussenLab/vamb
+- Paper: https://doi.org/10.1038/s41587-020-00777-4 (Nature Biotechnology 2021)
+- License: MIT
+- Pricing: Open source
+- Tags: binning, vae, mags
+- Last checked: 2026-10-16
+
+### QIIME 2
+
+Extensible platform for microbiome (amplicon and shotgun) data science.
+
+- Page: https://toolome.bio/tools/qiime2/
+- Website: https://qiime2.org
+- GitHub: https://github.com/rachis-org/rachis
+- Paper: https://doi.org/10.1038/s41587-019-0209-9 (Nature Biotechnology 2019)
+- License: BSD-3-Clause
+- Pricing: Open source
+- Tags: amplicon, 16s, platform
+- Last checked: 2026-10-31
+
+### sylph
+
+Ultrafast species-level metagenome profiler using abundance-corrected k-mer sketching (ANI-based containment).
+
+- Page: https://toolome.bio/tools/sylph/
+- Website: https://github.com/bluenote-1577/sylph
+- GitHub: https://github.com/bluenote-1577/sylph
+- Paper: https://doi.org/10.1038/s41587-024-02412-y (Nature Biotechnology 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: profiling, k-mer, taxonomy
+- Last checked: 2026-10-16
+
+### gLM
+
+Genomic language model trained on metagenomic contigs that learns gene context to predict protein co-regulation and function.
+
+- Page: https://toolome.bio/tools/glm/
+- Website: https://github.com/y-hwang/gLM
+- GitHub: https://github.com/y-hwang/gLM
+- Paper: https://doi.org/10.1038/s41467-024-46947-9 (Nature Communications 2024)
+- License: Harvard academic non-commercial
+- Pricing: Open source (non-commercial)
+- Tags: language-model, metagenomics, gene-function
+- Last checked: 2026-10-16
+
+### gLM2 / OMG
+
+Tatta Bio's mixed-modality (protein + DNA) genomic language model trained on the OMG open metagenomic corpus.
+
+- Page: https://toolome.bio/tools/glm2/
+- Website: https://huggingface.co/tattabio/gLM2_650M
+- GitHub: https://github.com/TattaBio/gLM2
+- Paper: https://doi.org/10.1101/2024.08.14.607850 (bioRxiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: language-model, metagenomics, dataset
+- Last checked: 2026-10-16
+
+### COMEBin
+
+Contrastive multi-view representation learning for binning metagenomic contigs into genomes.
+
+- Page: https://toolome.bio/tools/comebin/
+- Website: https://github.com/ziyewang/COMEBin
+- GitHub: https://github.com/ziyewang/COMEBin
+- Paper: https://doi.org/10.1038/s41467-023-44290-z (Nature Communications 2024)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: binning, contrastive-learning, mags
+- Last checked: 2026-10-31
+
+### METAGENE-1
+
+7B-parameter metagenomic foundation model pretrained on 1.5T+ base pairs of human-wastewater DNA/RNA for pathogen detection and biosurveillance.
+
+- Page: https://toolome.bio/tools/metagene-1/
+- Website: https://metagene.ai/
+- Paper: https://arxiv.org/abs/2501.02045 (arXiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: foundation-model, metagenomics, biosurveillance
+- Last checked: 2026-10-31
+
+### MetaCAT
+
+Metagenome binning plus microbial SNP calling and metagenome-wide association with host traits in one framework.
+
+- Page: https://toolome.bio/tools/metacat/
+- Website: https://github.com/liu-congcong/MetaCAT
+- GitHub: https://github.com/liu-congcong/MetaCAT
+- Paper: https://www.nature.com/articles/s41564-026-02472-7 (Nature Microbiology 2026)
+- License: GPL-3.0
+- Pricing: Open source
+- Tags: binning, mags, association
+- Last checked: 2026-10-31
+
+## Clinical & biomedical LLMs
+
+### CONCH
+
+Vision-language foundation model for histopathology.
+
+- Page: https://toolome.bio/tools/conch/
+- Website: https://github.com/mahmoodlab/CONCH
+- GitHub: https://github.com/mahmoodlab/CONCH
+- Paper: https://www.nature.com/articles/s41591-024-02856-4 (Nature Medicine 2024)
+- License: CC-BY-NC-ND-4.0
+- Pricing: Open source (non-commercial)
+- Tags: pathology, vlm
+- Last checked: 2026-10-31
+
+### Meditron
+
+Open medical LLMs (7B/70B) adapted from Llama 2 on curated medical corpora.
+
+- Page: https://toolome.bio/tools/meditron/
+- Website: https://github.com/epfLLM/meditron
+- GitHub: https://github.com/epfLLM/meditron
+- Paper: https://arxiv.org/abs/2311.16079 (arXiv preprint 2023)
+- License: Apache-2.0 (code; Llama 2 license (weights))
+- Pricing: Open source
+- Tags: llm, medical, open-weights
+- Last checked: 2026-10-31
+
+### MedGemma
+
+Google's open Gemma 3 variants for medical text and image comprehension.
+
+- Page: https://toolome.bio/tools/medgemma/
+- Website: https://deepmind.google/models/gemma/medgemma/
+- GitHub: https://github.com/Google-Health/medgemma
+- Paper: https://doi.org/10.1038/s41591-026-04626-w (Nature Medicine 2026)
+- License: Apache-2.0 (code; Health AI Developer Foundations terms (weights))
+- Pricing: Open source
+- Tags: llm, multimodal, medical
+- Last checked: 2026-10-31
+
+### LLaVA-Med
+
+Biomedical vision-language assistant trained on PubMed Central figure-caption data.
+
+- Page: https://toolome.bio/tools/llava-med/
+- Website: https://github.com/microsoft/LLaVA-Med
+- GitHub: https://github.com/microsoft/LLaVA-Med
+- Paper: https://arxiv.org/abs/2306.00890 (arXiv preprint 2023)
+- License: Microsoft Research License
+- Pricing: Open source (non-commercial)
+- Tags: vlm, medical-imaging, assistant
+- Last checked: 2026-10-31
+
+### BioMistral
+
+Open 7B medical LLM based on Mistral, further pretrained on PubMed Central.
+
+- Page: https://toolome.bio/tools/biomistral/
+- Website: https://huggingface.co/BioMistral/BioMistral-7B
+- Paper: https://arxiv.org/abs/2402.10373 (arXiv preprint 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: llm, medical, open-weights
+- Last checked: 2026-10-31
+
+### MedSAM
+
+Segment Anything adapted to medical images: promptable segmentation across CT, MRI, ultrasound, endoscopy and more.
+
+- Page: https://toolome.bio/tools/medsam/
+- Website: https://github.com/bowang-lab/MedSAM
+- GitHub: https://github.com/bowang-lab/MedSAM
+- Paper: https://doi.org/10.1038/s41467-024-44824-z (Nature Communications 2024)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: segmentation, foundation-model, medical-imaging
+- Last checked: 2026-10-31
+
+### MedSAM2
+
+Promptable segmentation for 3D medical images and videos, built on SAM 2.
+
+- Page: https://toolome.bio/tools/medsam2/
+- Website: https://github.com/bowang-lab/MedSAM2
+- GitHub: https://github.com/bowang-lab/MedSAM2
+- Paper: https://arxiv.org/abs/2504.03600 (arXiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: segmentation, 3d, video
+- Last checked: 2026-10-31
+
+### HuatuoGPT-o1
+
+Open medical reasoning LLMs trained with verifiable medical problems and RL for complex clinical reasoning.
+
+- Page: https://toolome.bio/tools/huatuogpt-o1/
+- Website: https://github.com/FreedomIntelligence/HuatuoGPT-o1
+- GitHub: https://github.com/FreedomIntelligence/HuatuoGPT-o1
+- Paper: https://arxiv.org/abs/2412.18925 (arXiv preprint 2024)
+- License: Apache-2.0 (8B weights)
+- Pricing: Open source
+- Tags: llm, reasoning, medical
+- Last checked: 2026-10-31
+
+### BiomedCLIP
+
+Microsoft's biomedical vision-language model pretrained on 15M PubMed Central figure–caption pairs.
+
+- Page: https://toolome.bio/tools/biomedclip/
+- Website: https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+- Paper: https://doi.org/10.1056/AIoa2400640 (NEJM AI 2025)
+- License: MIT
+- Pricing: Open source
+- Tags: vision-language, clip, medical-imaging
+- Last checked: 2026-10-16
+
+### TITAN
+
+Multimodal whole-slide pathology foundation model pretrained on 335,645 WSIs with vision–language alignment.
+
+- Page: https://toolome.bio/tools/titan/
+- Website: https://huggingface.co/MahmoodLab/TITAN
+- GitHub: https://github.com/mahmoodlab/TITAN
+- Paper: https://doi.org/10.1038/s41591-025-03982-3 (Nature Medicine 2025)
+- License: CC-BY-NC-ND-4.0 (weights)
+- Pricing: Open source (non-commercial)
+- Tags: pathology, foundation-model, vision-language
+- Last checked: 2026-10-31
+
+### Baichuan-M2
+
+Baichuan's open 32B medical reasoning model trained with a patient simulator and clinical-rubric RL; reported as the top open model on HealthBench at release.
+
+- Page: https://toolome.bio/tools/baichuan-m2/
+- Website: https://huggingface.co/baichuan-inc/Baichuan-M2-32B
+- GitHub: https://github.com/baichuan-inc/Baichuan-M2-32B
+- Paper: https://arxiv.org/abs/2509.02208 (arXiv preprint 2025)
+- License: Apache-2.0
+- Pricing: Open source
+- Tags: llm, reasoning, medical
+- Last checked: 2026-10-31
+
+### Lingshu
+
+Alibaba DAMO's multimodal medical LLMs (7B/32B) for medical image understanding, reasoning, VQA and report generation.
+
+- Page: https://toolome.bio/tools/lingshu/
+- Website: https://alibaba-damo-academy.github.io/lingshu/
+- Paper: https://arxiv.org/abs/2506.07044 (arXiv preprint 2025)
+- License: MIT (weights)
+- Pricing: Open source
+- Tags: multimodal, llm, medical-imaging
+- Last checked: 2026-10-31
+
+### Merlin
+
+Stanford's 3D vision-language model for abdominal CT, pretrained on scans, EHR codes and radiology reports for classification, retrieval and report generation.
+
+- Page: https://toolome.bio/tools/merlin/
+- Website: https://github.com/StanfordMIMI/Merlin
+- GitHub: https://github.com/StanfordMIMI/Merlin
+- Paper: https://www.nature.com/articles/s41586-026-10181-8 (Nature 2026)
+- License: MIT
+- Pricing: Open source
+- Tags: ct, vision-language, radiology
+- Last checked: 2026-10-31
+
+### MeditronFO (Fully Open Meditron)
+
+EPFL's fully open medical LLMs (open weights, training data and recipe) built on Apertus, OLMo-2, EuroLLM and Gemma-3 bases.
+
+- Page: https://toolome.bio/tools/meditronfo/
+- Website: https://huggingface.co/collections/EPFLiGHT/meditronfo
+- GitHub: https://github.com/EPFLiGHT/FullyOpenMeditron
+- Paper: https://arxiv.org/abs/2605.16215 (arXiv preprint 2026)
+- License: Apache-2.0 (code; weights follow each base model (Apache-2.0 for Apertus/OLMo/EuroLLM, Gemma terms for Gemma-3))
+- Pricing: Open source
+- Tags: llm, fully-open, clinical-decision-support
+- Last checked: 2026-10-31
+
+### NV-Reason-CT
+
+NVIDIA's 3D vision-language model for chest and abdominal CT: structured reports, visual QA and step-by-step reasoning.
+
+- Page: https://toolome.bio/tools/nv-reason-ct/
+- Website: https://huggingface.co/nvidia/NV-Reason-CT
+- GitHub: https://github.com/NVIDIA-Medtech/NV-Reason-CT
+- Paper: https://arxiv.org/abs/2609.27511 (arXiv preprint 2026)
+- License: OpenMDW-1.1 (weights)
+- Pricing: Open source
+- Tags: ct, vision-language, radiology
+- Last checked: 2026-10-31
+
+### BiomedGPT
+
+Generalist vision-language foundation model for biomedical images and text, covering VQA, captioning, report generation and classification.
+
+- Page: https://toolome.bio/tools/biomedgpt/
+- Website: https://www.nature.com/articles/s41591-024-03185-2
+- GitHub: https://github.com/taokz/BiomedGPT
+- Paper: https://arxiv.org/abs/2305.17100 (arXiv preprint 2023)
+- License: Apache-2.0 (README: code and checkpoints strictly for academic research; commercial use prohibited)
+- Pricing: Open source (non-commercial)
+- Tags: clinical
+- Last checked: 2026-10-31
+
+### Ling-3.0-flash-Sante
+
+Ant Group inclusionAI's open-weight healthcare MoE model (124B total, 5.1B active, 256K context) for medical reasoning, evidence synthesis and tool-using research agents; research use, not a medical device.
+
+- Page: https://toolome.bio/tools/ling-3-0-flash-sante/
+- Website: https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante
+- License: MIT (MIT (weights, Hugging Face model card); no separate code repository)
+- Pricing: Open source
+- Tags: llm, medical, reasoning, moe
+- Released: 2026-10-22 (https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante)
+- Last checked: 2026-10-31
+
+## R&D & bioinformatics platforms
+
+### Tamarind Bio
+
+No-code web platform running 100+ protein and molecular ML models.
+
+- Page: https://toolome.bio/tools/tamarind-bio/
+- Website: https://www.tamarind.bio
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: no-code, platform
+- Last checked: 2026-10-31
+
+### NVIDIA BioNeMo
+
+NVIDIA platform and NIMs for training and deploying biology foundation models.
+
+- Page: https://toolome.bio/tools/nvidia-bionemo/
+- Website: https://www.nvidia.com/en-us/clara/bionemo/
+- GitHub: https://github.com/NVIDIA-BioNeMo/bionemo-recipes
+- License: Apache-2.0 (framework)
+- Pricing: No-cost tier + paid plans
+- Tags: platform, gpu
+- Last checked: 2026-10-31
+
+### Rowan
+
+Cloud computational chemistry platform with ML-accelerated simulations.
+
+- Page: https://toolome.bio/tools/rowan/
+- Website: https://rowansci.com
+- License: Commercial
+- Pricing: No-cost tier + paid plans
+- Tags: quantum-chemistry, cloud
+- Last checked: 2026-10-31
+
+### Benchling
+
+R&D cloud with ELN, molecular biology and AI tooling.
+
+- Page: https://toolome.bio/tools/benchling/
+- Website: https://www.benchling.com
+- License: Commercial
+- Pricing: Contact
+- Tags: eln, platform
+- Last checked: 2026-10-31
+
+### Latch Bio
+
+Cloud platform for bioinformatics workflows and data.
+
+- Page: https://toolome.bio/tools/latch-bio/
+- Website: https://latch.bio
+- GitHub: https://github.com/latchbio/latch
+- License: MIT (SDK; commercial platform)
+- Pricing: No-cost tier + paid plans
+- Tags: workflows, cloud
+- Last checked: 2026-10-31
+
+### Amazon Bio Discovery
+
+AWS antibody-design platform: 40+ hosted biological AI models, agents and no-code pipelines, with wet-lab ordering through partner CROs and results fed back for model refinement.
+
+- Page: https://toolome.bio/tools/amazon-bio-discovery/
+- Website: https://aws.amazon.com/biodiscovery/
+- License: Commercial
+- Pricing: Paid
+- Tags: antibody, lab-in-the-loop, aws
+- Last checked: 2026-10-31
+
+### Illumina BioInsight Platform
+
+Illumina's unified cloud environment for genomic and multiomic analysis, bundling DRAGEN, BaseSpace, Emedgene, Connected Multiomics and curated data under one usage-based credit system.
+
+- Page: https://toolome.bio/tools/illumina-bioinsight/
+- Website: https://www.illumina.com/products/by-type/informatics-products.html
+- License: Commercial
+- Pricing: Paid
+- Tags: genomics, cloud, dragen
+- Last checked: 2026-10-31
+
+### Helical
+
+Python framework that runs bio foundation models such as Geneformer, scGPT, UCE and Evo 2 through one interface for embedding and fine-tuning, with an MCP integration for OpenAI Codex.
+
+- Page: https://toolome.bio/tools/helical/
+- Website: https://github.com/helicalAI/helical
+- GitHub: https://github.com/helicalAI/helical
+- License: AGPL-3.0 (Package code AGPL-3.0 (GitHub LICENSE, PyPI); wrapped model weights keep their own upstream licenses)
+- Pricing: Open source
+- Tags: foundation-model, framework, mcp
+- Released: 2024-07-29 (https://www.helical.bio/blog/helical-partners-with-openai-and-nebius)
+- Last checked: 2026-10-31
+
+## Comparisons
+
+- https://toolome.bio/compare/scgpt-vs-geneformer/
+- https://toolome.bio/compare/alphafold-server-alphafold-3-vs-boltz/
+- https://toolome.bio/compare/rfdiffusion-vs-bindcraft/
+- https://toolome.bio/compare/enformer-vs-borzoi/
+- https://toolome.bio/compare/cellpose-vs-stardist/
+- https://toolome.bio/compare/chai-1-vs-boltz/
+- https://toolome.bio/compare/alphafold-server-alphafold-3-vs-chai-1/
+- https://toolome.bio/compare/protenix-vs-boltz/
+- https://toolome.bio/compare/openfold3-vs-boltz/
+- https://toolome.bio/compare/alphafold2-vs-openfold/
+- https://toolome.bio/compare/alphafold2-vs-colabfold/
+- https://toolome.bio/compare/alphafold2-vs-rosettafold/
+- https://toolome.bio/compare/esm-2-esmfold-vs-prottrans/
+- https://toolome.bio/compare/esm3-vs-esm-2-esmfold/
+- https://toolome.bio/compare/saprot-vs-esm-2-esmfold/
+- https://toolome.bio/compare/rfdiffusion-vs-rfdiffusion2/
+- https://toolome.bio/compare/rfdiffusion2-vs-rfdiffusion3/
+- https://toolome.bio/compare/ablang2-vs-antiberty/
+- https://toolome.bio/compare/scgpt-vs-uce-universal-cell-embeddings/
+- https://toolome.bio/compare/geneformer-vs-transcriptformer/
+- https://toolome.bio/compare/scvi-tools-vs-harmony/
+- https://toolome.bio/compare/scanpy-vs-seurat/
+- https://toolome.bio/compare/tangram-vs-cell2location/
+- https://toolome.bio/compare/cell2location-vs-rctd-spacexr/
+- https://toolome.bio/compare/stagate-vs-graphst/
+- https://toolome.bio/compare/bayesspace-vs-spagcn/
+- https://toolome.bio/compare/evo-2-vs-evo/
+- https://toolome.bio/compare/hyenadna-vs-caduceus/
+- https://toolome.bio/compare/dnabert-2-vs-nucleotide-transformer/
+- https://toolome.bio/compare/cellpose-vs-cellsam/
+- https://toolome.bio/compare/diffdock-vs-autodock-vina/
+- https://toolome.bio/compare/chemprop-vs-deepchem/
+- https://toolome.bio/compare/deepvariant-vs-clair3/
+- https://toolome.bio/compare/dorado-vs-bonito/
+- https://toolome.bio/compare/metaphlan-vs-kraken2/
+- https://toolome.bio/compare/semibin-vs-vamb/
+- https://toolome.bio/compare/viennarna-vs-eternafold/
+- https://toolome.bio/compare/casanovo-vs-instanovo/
+- https://toolome.bio/compare/alphadia-vs-dia-nn/
+- https://toolome.bio/compare/rhofold-vs-rna-fm/
+- https://toolome.bio/compare/ligandmpnn-vs-proteinmpnn/
