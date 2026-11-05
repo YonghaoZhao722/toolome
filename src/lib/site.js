@@ -4,11 +4,11 @@ import cfg from '../../site.config.json';
 export const GSV = process.env.GOOGLE_SITE_VERIFICATION || cfg.googleSiteVerification || '';
 export const SITE = { name: 'Toolome', tagline: 'The directory of AI tools for biology', repo: 'https://github.com/YonghaoZhao722/toolome' };
 export const CATS = {
- 'single-cell': ['Single-cell & foundation models','🧬'], 'spatial': ['Spatial omics','🗺️'], 'protein': ['Protein structure & design','🧪'],
- 'genomics': ['Genomics & DNA models','🧾'], 'drug-discovery': ['Drug discovery & molecules','💊'], 'agents': ['Bio LLM agents & copilots','🤖'],
- 'cloud-labs': ['Cloud labs & wet-lab services','🏭'], 'imaging': ['Imaging & pathology','🔬'], 'datasets': ['Datasets & benchmarks','📚'],
- 'sequencing': ['Sequencing & variant calling','🧷'], 'proteomics': ['Proteomics & metabolomics','⚖️'], 'crispr': ['CRISPR & gene editing','✂️'],
- 'rna': ['RNA structure & design','🌀'], 'microbiome': ['Microbiome & metagenomics','🦠'], 'clinical': ['Clinical & biomedical LLMs','🩺'], 'platforms': ['R&D & bioinformatics platforms','🧰'] };
+ 'single-cell': ['Single-cell & foundation models'], 'spatial': ['Spatial omics'], 'protein': ['Protein structure & design'],
+ 'genomics': ['Genomics & DNA models'], 'drug-discovery': ['Drug discovery & molecules'], 'agents': ['Bio LLM agents & copilots'],
+ 'cloud-labs': ['Cloud labs & wet-lab services'], 'imaging': ['Imaging & pathology'], 'datasets': ['Datasets & benchmarks'],
+ 'sequencing': ['Sequencing & variant calling'], 'proteomics': ['Proteomics & metabolomics'], 'crispr': ['CRISPR & gene editing'],
+ 'rna': ['RNA structure & design'], 'microbiome': ['Microbiome & metagenomics'], 'clinical': ['Clinical & biomedical LLMs'], 'platforms': ['R&D & bioinformatics platforms'] };
 export { tools };
 export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const u = (p) => base + p;
