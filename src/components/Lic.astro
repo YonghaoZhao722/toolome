@@ -8,8 +8,8 @@ const opts=[['','All','All licenses'],...LICCLS];
 (()=>{const bars=[...document.querySelectorAll('.licbar')];if(!bars.length)return;
 function set(v,push){const bar=bars[0],t0=bar.getBoundingClientRect().top;
 document.querySelectorAll('.licbar .pill').forEach(x=>{const on=x.dataset.lic===v;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on?'true':'false')});
-document.querySelectorAll('.grid[data-sortable]>.card').forEach(c=>c.classList.toggle('licx',!!v&&c.dataset.lic!==v));
-document.querySelectorAll('.grid[data-licempty]').forEach(g=>{const n=g.querySelectorAll(':scope>.card:not(.licx)').length;g.querySelector(':scope>.empty')?.classList.toggle('show',n===0);const o=document.getElementById('licn');if(o)o.textContent=v?n+' shown':''});
+document.querySelectorAll('.grid[data-sortable] .card').forEach(c=>c.classList.toggle('licx',!!v&&c.dataset.lic!==v));
+document.querySelectorAll('.grid[data-licempty]').forEach(g=>{const n=g.querySelectorAll('.card:not(.licx)').length;g.querySelector(':scope>.empty')?.classList.toggle('show',n===0);const o=document.getElementById('licn');if(o)o.textContent=v?n+' shown':''});
 document.dispatchEvent(new CustomEvent('licchange'));
 const d=bar.getBoundingClientRect().top-t0;if(Math.abs(d)>0.5)scrollBy(0,d);
 if(push){const u=new URL(location.href);v?u.searchParams.set('lic',v):u.searchParams.delete('lic');history.replaceState(history.state,'',u)}}
