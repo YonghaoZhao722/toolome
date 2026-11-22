@@ -10289,7 +10289,7 @@
     "firstReleased": "2024-07-29",
     "source": "https://www.helical.bio/blog/helical-partners-with-openai-and-nebius",
     "dateSource": "https://pypi.org/project/helical/#history",
-    "notability": "Released an MCP integration for OpenAI Codex with OpenAI and Nebius on 2026-10-27 (launch example uses the Sanger Lotfollahi lab's PerturbGen, with free academic compute credits); 235 GitHub stars, actively maintained (v3.1.5 on PyPI 2026-10-29)",
+    "notability": "Released an MCP integration for OpenAI Codex with OpenAI and Nebius on 2026-10-27 (launch example uses the Sanger Lotfollahi lab's PerturbGen, with academic compute credits at no cost); 235 GitHub stars, actively maintained (v3.1.5 on PyPI 2026-10-29)",
     "licenseNote": "Package code AGPL-3.0 (GitHub LICENSE, PyPI); wrapped model weights keep their own upstream licenses",
     "licenseSource": "https://github.com/helicalAI/helical/blob/main/LICENSE",
     "licenseChecked": "2026-10-29",
@@ -11007,7 +11007,7 @@
     "source": "https://www.geodesiclab.com/news/introducing-novaatom-lite",
     "dateSource": "https://www.geodesiclab.com/news/introducing-novaatom-lite",
     "notability": "Geodesic Intelligence launch post on X (2026-11-10) drew ~710k impressions, ~1.3k likes and 107 quotes within a day; reports FoldBench antibody–antigen 79.1% vs IsoDDE 75.6% and AlphaFold 3 47.9%; covered by BioTender",
-    "licenseNote": "Proprietary; weights and code not released; free plan (100 credits/week) on NovaDDE, paid Plus/Pro tiers and API",
+    "licenseNote": "Proprietary; weights and code not released; no-cost plan (100 credits/week) on NovaDDE, paid Plus/Pro tiers and API",
     "licenseSource": "https://www.geodesiclab.com/pricing",
     "licenseChecked": "2026-11-11",
     "specs": {
@@ -11048,7 +11048,7 @@
     "source": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
     "dateSource": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
     "notability": "Google DeepMind release (2026-11-11) covered by Nature News and The Verge; DeepMind's launch post on X drew ~445k impressions and ~2.9k likes within a day; reports 30% vs 16% causal-variant recall on TenK10K over AlphaGenome 1; covered by BioTender",
-    "licenseNote": "alphagenome Python SDK (v2.0.0) is Apache-2.0; model weights not released; API access and outputs free for non-commercial use under the AlphaGenome Terms of Service (no training other models on outputs); commercial use via private preview / Google Cloud",
+    "licenseNote": "alphagenome Python SDK (v2.0.0) is Apache-2.0; model weights not released; API access and outputs may be used for non-commercial purposes under the AlphaGenome Terms of Service (no training other models on outputs); commercial use via private preview / Google Cloud",
     "licenseSource": "https://github.com/google-deepmind/alphagenome",
     "licenseChecked": "2026-11-12",
     "specs": {
@@ -11458,6 +11458,148 @@
       "https://export.arxiv.org/api/query?id_list=2601.00573"
     ],
     "paperVenue": "IEEE Transactions on Biomedical Engineering",
+    "paperYear": 2026
+  },
+  {
+    "slug": "tsf",
+    "name": "TSF",
+    "category": "clinical",
+    "url": "https://github.com/YonghaoZhao722/TSF",
+    "github": "https://github.com/YonghaoZhao722/TSF",
+    "paper": "https://doi.org/10.1016/j.artmed.2026.103426",
+    "license": "NOASSERTION",
+    "pricing": "No cost (research use)",
+    "description": "Transfer Survival Forest transfers Random Survival Forest trees from a large source cohort and fine-tunes them on a small target sample for colorectal cancer prognosis, with gains down to n = 50.",
+    "tags": [
+      "survival-analysis",
+      "transfer-learning",
+      "random-survival-forest",
+      "cancer-prognosis"
+    ],
+    "added": "2026-11-21",
+    "lastChecked": "2026-11-21",
+    "firstReleased": "2024-06-15",
+    "dateSource": "https://api.github.com/repos/YonghaoZhao722/TSF",
+    "notability": "Artificial Intelligence in Medicine 178:103426 (2026); preprint arXiv:2501.12421. Added at the site owner's request.",
+    "licenseNote": "No license file in the repository; GitHub API reports no SPDX license. No separately licensed model weights are listed in the current repo or in GitHub Releases.",
+    "licenseSource": "https://api.github.com/repos/YonghaoZhao722/TSF",
+    "licenseChecked": "2026-11-21",
+    "specs": {
+      "modality": "Clinical survival features with time-to-event labels; demonstrated on colorectal cancer stage I",
+      "baseModel": "Random Survival Forest with transferred tree structures fine-tuned on the target cohort (paper also evaluates transfer for DeepSurv, Cox-CC, and DeepHit)",
+      "task": "Small-sample survival / prognosis",
+      "interface": "Python (conda env tsf); train_source_forest.py and target_forest_finetune.py, with 10-fold CV reporting Ctd, C-index, and integrated Brier score",
+      "performance": "With transfer, RSF Ctd rose from 0.7940 to 0.8297 (highest in the study); Cox-CC 0.7868 to 0.8111, DeepHit 0.8085 to 0.8135, DeepSurv 0.7722 to 0.8043; gains also reported with target samples as small as 50",
+      "size": "Source: 27,379 SEER CRC stage I patients; target: 728 West China Hospital CRC stage I patients",
+      "stars": 17,
+      "starsChecked": "2026-11-21"
+    },
+    "specsChecked": "2026-11-21",
+    "specsSources": [
+      "https://api.github.com/repos/YonghaoZhao722/TSF",
+      "https://raw.githubusercontent.com/YonghaoZhao722/TSF/main/README.md",
+      "https://doi.org/10.1016/j.artmed.2026.103426",
+      "https://api.crossref.org/works/10.1016/j.artmed.2026.103426",
+      "https://export.arxiv.org/api/query?id_list=2501.12421"
+    ],
+    "paperVenue": "Artificial Intelligence in Medicine",
+    "paperYear": 2026
+  },
+  {
+    "slug": "yeastsam",
+    "name": "YeastSAM",
+    "category": "imaging",
+    "url": "https://github.com/YonghaoZhao722/YeastSAM",
+    "github": "https://github.com/YonghaoZhao722/YeastSAM",
+    "paper": "https://doi.org/10.1091/mbc.E25-09-0454",
+    "license": "Custom",
+    "pricing": "Open source (non-commercial)",
+    "description": "SAM-based budding-yeast segmentation that keeps mother-bud pairs together; Molecular Biology of the Cell reports more than three-fold higher accuracy on dividing cells, with a GUI and custom µSAM weights.",
+    "tags": [
+      "cell-segmentation",
+      "yeast",
+      "sam",
+      "microscopy"
+    ],
+    "added": "2026-11-21",
+    "lastChecked": "2026-11-21",
+    "firstReleased": "2025-09-10",
+    "dateSource": "https://api.github.com/repos/YonghaoZhao722/YeastSAM",
+    "notability": "Molecular Biology of the Cell 37(6):mr5 (2026), DOI 10.1091/mbc.E25-09-0454. Added at the site owner's request.",
+    "licenseNote": "src/COPYRIGHT is a Brown University notice that permits use, copying, modification, and distribution except incorporation into a commercial product or service, provided notices are retained and Brown University's name is not used in advertising without permission. pyproject.toml states MIT, but there is no LICENSE file and GitHub API reports no SPDX license. Release weights have no separately stated license.",
+    "licenseSource": "https://raw.githubusercontent.com/YonghaoZhao722/YeastSAM/main/src/COPYRIGHT",
+    "licenseChecked": "2026-11-21",
+    "specs": {
+      "dims": "2D (napari Annotator 2D and Image Series Annotator)",
+      "modality": "DIC microscopy of budding yeast, with optional smFISH image alignment",
+      "segType": "Instance segmentation of mother-bud pairs, plus CNN/U-Net mother-bud separation",
+      "interface": "Python >=3.9 conda package and yeastsam GUI (napari, Mask2Outline, Mask Editor); custom weights load in napari, BAND, CLI, and QuPath",
+      "weights": "GitHub Release 1.0.1 (2026-03-12): vit_b_yeast.pt in fixed_cell.zip; livecell.pt in fixed_live_cell.pt.zip; Separation.pth and classification.pth in Mother-bud.Separation.zip. Docs tell users to set Custom Weights Path to vit_b_yeast.pt",
+      "performance": "More than three-fold higher accuracy on dividing cells than existing methods (MBoC abstract)",
+      "access": "Code on GitHub; documentation at https://yeastsamdoc.readthedocs.io/en/latest/; training images and masks cited at Zenodo 10.5281/zenodo.17204942",
+      "stars": 12,
+      "starsChecked": "2026-11-21"
+    },
+    "specsChecked": "2026-11-21",
+    "specsSources": [
+      "https://api.github.com/repos/YonghaoZhao722/YeastSAM",
+      "https://raw.githubusercontent.com/YonghaoZhao722/YeastSAM/main/README.md",
+      "https://raw.githubusercontent.com/YonghaoZhao722/YeastSAM/main/pyproject.toml",
+      "https://raw.githubusercontent.com/YonghaoZhao722/YeastSAM/main/src/COPYRIGHT",
+      "https://api.github.com/repos/YonghaoZhao722/YeastSAM/releases/tags/1.0.1",
+      "https://yeastsamdoc.readthedocs.io/en/latest/",
+      "https://doi.org/10.1091/mbc.E25-09-0454",
+      "https://api.crossref.org/works/10.1091/mbc.E25-09-0454"
+    ],
+    "paperVenue": "Molecular Biology of the Cell",
+    "paperYear": 2026
+  },
+  {
+    "slug": "descent",
+    "name": "DeSCENT",
+    "category": "clinical",
+    "url": "https://github.com/YonghaoZhao722/DeSCENT",
+    "github": "https://github.com/YonghaoZhao722/DeSCENT",
+    "paper": "https://doi.org/10.1093/bioinformatics/btag810",
+    "license": "NOASSERTION",
+    "pricing": "No cost (research use)",
+    "description": "Generates reference-informed single-cell profiles from bulk RNA-seq for cancer survival prediction; on eight TCGA cohorts, average C-index improved versus a bulk-only baseline, while integrated Brier scores were mixed.",
+    "tags": [
+      "survival-analysis",
+      "deconvolution",
+      "scrna-seq",
+      "tcga"
+    ],
+    "added": "2026-11-21",
+    "lastChecked": "2026-11-21",
+    "firstReleased": "2026-02-28",
+    "dateSource": "https://api.github.com/repos/YonghaoZhao722/DeSCENT",
+    "notability": "Bioinformatics 2026, article btag810, DOI 10.1093/bioinformatics/btag810 (Crossref published-online 2026-11-06). Added at the site owner's request.",
+    "licenseNote": "No license file in the repository; GitHub API reports no SPDX license. The Bioinformatics article is under CC BY 4.0 (Crossref accepted-manuscript license starting 2026-11-06); that term applies to the paper, not to a stated code or weights license. Demo scRNA-seq/bulk files and the scimilarity annotation_model_v1 checkpoint are downloaded from separate Zenodo records.",
+    "licenseSource": "https://api.github.com/repos/YonghaoZhao722/DeSCENT",
+    "licenseChecked": "2026-11-21",
+    "specs": {
+      "modality": "Bulk RNA-seq plus a scRNA-seq reference, used to generate synthetic single-cell gene-expression profiles for survival prediction",
+      "baseModel": "ReDeconv cell-type fractions, scDiffusion (VAE fine-tuned from scimilarity annotation_model_v1; diffusion backbone and classifier trained from scratch), and multimodal survival heads",
+      "task": "Transcriptome-based cancer survival analysis",
+      "interface": "Python conda env descent, shell scripts, and a Jupyter demo notebook",
+      "size": "Evaluated on eight TCGA cohorts (README lists BRCA, COAD, HNSC, KIRC, LGG, LIHC, LUAD, STAD) with three survival models",
+      "performance": "Improved average C-index and generally improved time-dependent AUC versus a bulk-only baseline; integrated Brier score results were mixed. External validation had a higher average C-index than three baselines but was lower than internal evaluation",
+      "access": "Code on GitHub; archival snapshot DOI 10.5281/zenodo.22073099; BRCA demo data cited at Zenodo record 19182224; scimilarity checkpoint at Zenodo record 8286452",
+      "stars": 8,
+      "starsChecked": "2026-11-21"
+    },
+    "specsChecked": "2026-11-21",
+    "specsSources": [
+      "https://api.github.com/repos/YonghaoZhao722/DeSCENT",
+      "https://raw.githubusercontent.com/YonghaoZhao722/DeSCENT/main/README.md",
+      "https://doi.org/10.1093/bioinformatics/btag810",
+      "https://api.crossref.org/works/10.1093/bioinformatics/btag810"
+    ],
+    "alsoIn": [
+      "single-cell"
+    ],
+    "paperVenue": "Bioinformatics",
     "paperYear": 2026
   }
 ]
