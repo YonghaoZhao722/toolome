@@ -1414,7 +1414,7 @@
       "structure"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "firstReleased": "2024-12-12",
     "dateSource": "https://github.com/bytedance/Protenix/releases/tag/v0.1.0",
     "specs": {
@@ -1510,7 +1510,7 @@
       "variant-effect"
     ],
     "added": "2026-10-15",
-    "lastChecked": "2026-11-19",
+    "lastChecked": "2026-11-21",
     "firstReleased": "2025-06-25",
     "dateSource": "https://github.com/google-deepmind/alphagenome/releases/tag/v0.0.1",
     "specs": {
@@ -9544,7 +9544,7 @@
       "genomics"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "firstReleased": "2019-08-30",
     "dateSource": "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
     "notability": "137 GitHub stars; listed in seandavi/awesome-single-cell; Nature Communications None",
@@ -9581,7 +9581,7 @@
       "protein-language-model"
     ],
     "added": "2026-10-16",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "firstReleased": "2023-11-08",
     "dateSource": "https://github.com/zaixizhang/PocketGen",
     "notability": "234 GitHub stars; listed in Peldom/papers_for_protein_design_using_DL",
@@ -9761,7 +9761,7 @@
       "transfer-learning"
     ],
     "added": "2026-10-18",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "firstReleased": "2024-08-27",
     "dateSource": "https://doi.org/10.5281/zenodo.13363451",
     "notability": "Troyanskaya lab (Flatiron Institute/Princeton, makers of Sei); Nature Neuroscience technical report, Oct 2026",
@@ -9880,7 +9880,7 @@
       "pytorch"
     ],
     "added": "2026-10-19",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "firstReleased": "2024-02-04",
     "dateSource": "https://github.com/jmschrei/tangermeme",
     "notability": "Jacob Schreiber (IMP Vienna / UMass Chan Medical School); Nature Methods brief communication (Oct 8, 2026); 324 GitHub stars",
@@ -10714,7 +10714,7 @@
       "cell-cell-interaction"
     ],
     "added": "2026-11-07",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "released": "2026-11-05",
     "source": "https://doi.org/10.1038/s41588-026-02821-6",
     "dateSource": "https://api.crossref.org/works/10.1038/s41588-026-02821-6",
@@ -10837,7 +10837,7 @@
       "cell-type-annotation"
     ],
     "added": "2026-11-08",
-    "lastChecked": "2026-11-20",
+    "lastChecked": "2026-11-21",
     "released": "2026-11-05",
     "firstReleased": "2024-10-23",
     "source": "https://doi.org/10.1038/s41592-026-03282-9",
@@ -11413,5 +11413,51 @@
     "alsoIn": [
       "drug-discovery"
     ]
+  },
+  {
+    "slug": "erp-benchmark",
+    "name": "ERP-Benchmark",
+    "category": "datasets",
+    "url": "https://github.com/DL4mHealth/ERP-Benchmark",
+    "github": "https://github.com/DL4mHealth/ERP-Benchmark",
+    "paper": "https://doi.org/10.1109/TBME.2026.3686229",
+    "license": "MIT",
+    "pricing": "Open source",
+    "description": "Unified benchmark of 15 methods (manual ERP features, deep learning trained from scratch, and pretrained EEG foundation models) on stimulus classification and brain-disease detection across 12 public datasets.",
+    "tags": [
+      "benchmark",
+      "eeg",
+      "erp",
+      "foundation-models",
+      "brain-disease"
+    ],
+    "added": "2026-11-21",
+    "lastChecked": "2026-11-21",
+    "firstReleased": "2026-01-02",
+    "dateSource": "https://export.arxiv.org/api/query?id_list=2601.00573",
+    "notability": "IEEE Transactions on Biomedical Engineering 2026 (DOI 10.1109/TBME.2026.3686229; OpenAlex publication date 2026-04-30, matching Crossref DOI created; Crossref issued/published-print is year-only 2026, volume PP). Preprint arXiv:2601.00573. Added at the site owner's request.",
+    "licenseNote": "This repository does not ship trained weights; BIOT, LaBraM, and CBraMod checkpoints must be obtained from those projects under their own terms. A license for the authors' processed-dataset Google Drive folder is not stated in fetched sources.",
+    "licenseSource": "https://api.github.com/repos/DL4mHealth/ERP-Benchmark",
+    "licenseChecked": "2026-11-21",
+    "specs": {
+      "size": "12 public datasets (40+ subjects each) and 15 methods (2 manual-feature, 10 deep learning trained from scratch, 3 foundation models)",
+      "modality": "Event-related potential (ERP) EEG trials, resampled to 200 Hz, stored as [N, T, C] arrays",
+      "access": "Code on GitHub; processed datasets on the authors' Google Drive; foundation-model weights downloaded from the original BIOT, LaBraM, and CBraMod repositories",
+      "task": "ERP stimulus classification and ERP-based brain disease detection under a unified preprocessing and training pipeline",
+      "interface": "Python 3.10, PyTorch 2.5.1, run.py CLI and Jupyter preprocessing notebooks",
+      "stars": 17,
+      "starsChecked": "2026-11-21"
+    },
+    "specsChecked": "2026-11-21",
+    "specsSources": [
+      "https://raw.githubusercontent.com/DL4mHealth/ERP-Benchmark/main/README.md",
+      "https://api.github.com/repos/DL4mHealth/ERP-Benchmark",
+      "https://doi.org/10.1109/TBME.2026.3686229",
+      "https://api.crossref.org/works/10.1109/TBME.2026.3686229",
+      "https://api.openalex.org/works/doi:10.1109/TBME.2026.3686229",
+      "https://export.arxiv.org/api/query?id_list=2601.00573"
+    ],
+    "paperVenue": "IEEE Transactions on Biomedical Engineering",
+    "paperYear": 2026
   }
 ]
