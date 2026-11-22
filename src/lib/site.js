@@ -40,6 +40,37 @@ export const inCat = (t,c) => catsOf(t).includes(c);
 export const dt = (t) => t.released||t.firstReleased||'';
 export const byNewest = (l) => [...l].sort((a,b)=> (dt(a)&&dt(b))? dt(b).localeCompare(dt(a))||a.name.toLowerCase().localeCompare(b.name.toLowerCase()) : dt(a)?-1 : dt(b)?1 : a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
+// Related tools: IDF-weighted tag Jaccard + same-primary category bonus + smaller alsoIn overlap bonus + minor description-keyword overlap (IDF-saturating, ≥2 tokens). Exclude self; score>0 first, then pad with same-category by stars/date/name.
+const REL_STOP = new Set('a an the and or of for to in on with from by its that this is are was were be as at it vs via than also into over used use using based plus such both more most other onto per not no nor but if then they their them you your we our can may will etc including include includes well like across under after before between without within where when which who how what about same own just only new first down model models protein proteins cell cells data foundation prediction predictions learning sequence sequences single language design deep open trained train training predict predicts pretrained pretraining small large source sources random fine network networks platform platforms lab labs tool tools method methods approach approaches available public code paper papers study studies high low general multiple type types task tasks set sets one two three input output analysis analyses dataset datasets result results system systems framework library package software application name version official github repository repo website page https www com feature features detection report reports pair pairs'.split(/\s+/));
+const REL_TAG_PART_STOP = new Set('cell cells single deep multi open data meta pre post non sub all one two train'.split(/\s+/));
+const relStem = (w) => { w=w.toLowerCase(); return (w.length>4 && w.endsWith('s') && !w.endsWith('ss')) ? w.slice(0,-1) : w; };
+const relTagFeats = (tags) => { const out=new Set(); for (const raw of tags||[]) { const g=raw.toLowerCase(); out.add(relStem(g.replace(/-/g,''))); for (const p of g.split('-')) if (p.length>=4 && !REL_TAG_PART_STOP.has(p) && !REL_STOP.has(p)) out.add(relStem(p)); } return out; };
+const relTokens = (t) => { const out=new Set(); for (const w of (t.name+' '+(t.description||'')).toLowerCase().split(/[^a-z0-9]+/)) { if (w.length<3) continue; const s=relStem(w); if (REL_STOP.has(w) || REL_STOP.has(s)) continue; out.add(s); } return out; };
+const REL_N = tools.length, relDfTag=Object.create(null), relDfTok=Object.create(null);
+for (const t of tools) { for (const g of relTagFeats(t.tags)) relDfTag[g]=(relDfTag[g]||0)+1; for (const w of relTokens(t)) relDfTok[w]=(relDfTok[w]||0)+1; }
+const relIdf = (df,x) => Math.log((REL_N+1)/((df[x]||0)+1));
+const relJaccard = (A,B,df) => { let inter=0, uni=0; const U=new Set([...A,...B]); if (!U.size) return 0; for (const x of U) { const w=relIdf(df,x); uni+=w; if (A.has(x)&&B.has(x)) inter+=w; } return uni? inter/uni : 0; };
+const relDesc = (A,B,df) => { const sh=[...A].filter(x=>B.has(x)); if (sh.length<2) return 0; const inter=sh.reduce((s,x)=>s+relIdf(df,x),0); return inter>=8 ? inter/(6+inter) : 0; };
+const REL_W_TAG=1, REL_W_PRIM=0.08, REL_W_ALSO=0.05, REL_W_DESC=0.5;
+export const relatedScore = (a,b) => {
+  const tag=relJaccard(relTagFeats(a.tags), relTagFeats(b.tags), relDfTag);
+  const desc=relDesc(relTokens(a), relTokens(b), relDfTok);
+  const prim=a.category===b.category ? REL_W_PRIM : 0;
+  let shared=catsOf(a).filter(c=>catsOf(b).includes(c)).length;
+  if (a.category===b.category) shared=Math.max(0, shared-1);
+  return REL_W_TAG*tag + prim + REL_W_ALSO*shared + REL_W_DESC*desc;
+};
+const relTie = (a,b) => starsOf(b)-starsOf(a) || dt(b).localeCompare(dt(a)) || a.name.localeCompare(b.name);
+export const relatedOf = (t, n=3) => {
+  const scored=tools.filter(x=>x.slug!==t.slug).map(x=>({x,s:relatedScore(t,x)}));
+  const pos=scored.filter(o=>o.s>0).sort((A,B)=> B.s-A.s || relTie(A.x,B.x)).slice(0,n).map(o=>o.x);
+  if (pos.length>=n) return pos;
+  const have=new Set([t.slug, ...pos.map(x=>x.slug)]);
+  const fill=tools.filter(x=>x.category===t.category && !have.has(x.slug)).sort(relTie);
+  return [...pos, ...fill].slice(0,n);
+};
+
+
 export const SHORT = {'single-cell':'single-cell','spatial':'spatial omics','protein':'protein design','genomics':'genomics','drug-discovery':'drug discovery','agents':'agents','cloud-labs':'cloud labs','imaging':'imaging','datasets':'datasets','sequencing':'sequencing','proteomics':'proteomics/metabolomics','crispr':'CRISPR','rna':'RNA','microbiome':'microbiome','clinical':'clinical LLMs','platforms':'R&D platforms'};
 export const catList = () => { const n=Object.keys(CATS).map(k=>SHORT[k]||k); return n.slice(0,-1).join(', ')+' and '+n.at(-1); };
 export const PAIR_BLURB = {

@@ -1,11 +1,11 @@
 ---
 import LM from '../../data/lastmod.json';
 import Base from '../../layouts/Base.astro'; import SpecTable from '../../components/SpecTable.astro'; import Card from '../../components/Card.astro';
-import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, starsOf, dt, inCat, licClass, licBadge, licAllows, licParts, licAnswer } from '../../lib/site.js';
+import { tools, CATS, u, pairsFor, pairSlug, bySlug, licText, inCat, licClass, licBadge, licAllows, licParts, licAnswer, relatedOf } from '../../lib/site.js';
 export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
 const { t } = Astro.props;
 const peers = tools.filter(x=>inCat(x,t.category)&&x.slug!==t.slug).sort((a,b)=>a.name.localeCompare(b.name));
-const rel = tools.filter(x=>x.category===t.category&&x.slug!==t.slug).sort((a,b)=>starsOf(b)-starsOf(a)||dt(b).localeCompare(dt(a))||a.name.localeCompare(b.name)).slice(0,3);
+const rel = relatedOf(t);
 const abs=p=>new URL(u(p),Astro.site).href; const page=abs('/tools/'+t.slug+'/');
 const org=t.github?t.github.replace('https://github.com/','').split('/')[0]:null;
 const yr=(t.released||t.firstReleased||'').slice(0,4);
